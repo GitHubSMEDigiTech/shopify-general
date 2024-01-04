@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('BebasNeue-Regular.woff') format("woff");
+}
+
 /**
  * ----------------------------------------------------------------------------------------------
  * This is a variation of Normalize.css (http://necolas.github.io/normalize.css/)
@@ -10794,9 +10799,116 @@ shopify-payment-terms {
   padding-bottom: 25px;
 }
 
+banner.slideshow__content-wrapper {
+  height: 100%;
+  display: flex;
+  padding: 1rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.banner.slideshow__content-wrapper,
+.banner.slideshow__content-wrapper .h1,
+.banner.slideshow__content-wrapper .h2,
+.slideshow__preorder_bar {
+  font-family: 'Bebas Neue';
+  font-weight: normal;
+  margin: 0;
+}
+
+.banner h2.slideshow__title.heading.h1 {
+  font-size: 4.2rem;
+  line-height: 4rem;
+}
+
+.banner h3.slideshow__title.heading.h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: -0.5rem;
+}
+
+.banner p.slideshow__content,
+.slideshow__preorder_bar {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.banner.slideshow__content-wrapper .cover {
+  width: 34%;
+  align-self: center;
+}
+
+.banner.slideshow__content-wrapper .cover img {
+  width: 100%;
+}
+
+.banner.slideshow__content-wrapper .container {
+  width: 66%;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 770px) {
+  .banner h2.slideshow__title.heading.h1 {
+    font-size: 3.5rem;
+    line-height: 3.7rem;
+  }
+
+  .banner h3.slideshow__title.heading.h2 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin-top: -0.5rem;
+  }
+
+  .banner p.slideshow__content, .slideshow__preorder_bar {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .slideshow__preorder_bar{
+    position: relative;
+    padding: 0.5rem 0.5rem 0.5rem 3rem;
+    bottom: unset;
+  }
+
+  .banner.slideshow__content-wrapper {
+    flex-direction: column;
+    padding: 1rem 3rem 0.2rem;
+  }
+
+  .banner.slideshow__content-wrapper .cover,
+  .banner.slideshow__content-wrapper .container {
+    width: 100%;
+  }
+
+  .banner.slideshow__content-wrapper .container {
+    padding: 0;
+  }
+
+  .slideshow--mobile-small {
+    height: 350px!important;
+  }
+
+  .slideshow--mobile-large {
+    height: 500px!important;
+  }
+
+  .banner p.slideshow__content {
+    display: none;
+  }
+
+}
+
 .slideshow__content {
   max-width: 650px;
   margin: 0 auto 22px auto;
+}
+
+.banner.slideshow__content-wrapper .slideshow__content {
+  max-width: unset;
 }
 
 .slideshow .flickity-page-dots {
@@ -11217,6 +11329,13 @@ shopify-payment-terms {
   .text-with-icons__item {
     display: flex;
     flex-basis: calc(50% - 140px);
+  }
+  
+  .banner.slideshow__content-wrapper .cover img {
+    width: auto;
+    max-height: 100%;
+    margin: auto;
+    display: block;
   }
 }
 
