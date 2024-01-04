@@ -1,0 +1,117 @@
+{% # 
+ render 'slide-regular', block: block, section: section, forloop: forloop
+%}
+
+{%- if block.settings.mobile_image -%}
+{%- capture mobile_size -%}{{ block.settings.mobile_image.width | at_most: 600 }}x{{ block.settings.mobile_image.height | at_most: 800 }}{%- endcapture -%}
+{%- capture bgset -%}{{ block.settings.mobile_image | img_url: mobile_size, crop: 'center' }} [--phone] | {{ block.settings.image | image_url: width: 800 }} 800w, {{ block.settings.image | image_url: width: 1000 }} 1000w, {{ block.settings.image | image_url: width: 1200 }} 1200w, {{ block.settings.image | image_url: width: 1400 }} 1400w, {{ block.settings.image | image_url: width: 1600 }} 1600w, {{ block.settings.image | image_url: width: 1800 }} 1800w{%- endcapture -%}
+{%- else -%}
+{%- capture mobile_size -%}{{ block.settings.image.width | at_most: 600 }}x{{ block.settings.image.height | at_most: 800 }}{%- endcapture -%}
+{%- capture bgset -%}{{ block.settings.image | img_url: mobile_size, crop: 'center' }} [--phone] | {{ block.settings.image | image_url: width: 800 }} 800w, {{ block.settings.image | image_url: width: 1000 }} 1000w, {{ block.settings.image | image_url: width: 1200 }} 1200w, {{ block.settings.image | image_url: width: 1400 }} 1400w, {{ block.settings.image | image_url: width: 1600 }} 1600w, {{ block.settings.image | image_url: width: 1800 }} 1800w{%- endcapture -%}
+{%- endif -%}
+
+{%- capture slide_inner -%}
+<div class="slideshow__slide-inner slideshow__slide-inner--{{ block.settings.content_position | replace: '_', '-' }} lazyload image--fade-in" {% if block.settings.image and section.settings.section_size != 'preserve_ratio' %}data-bgset="{{ bgset }}" data-sizes="auto"{% endif %}>
+  {%- unless block.settings.image -%}
+    {%- capture placeholder -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
+
+    {%- if section.settings.section_size == 'preserve_ratio' -%}
+      {{- placeholder | placeholder_svg_tag: 'slideshow__image-placeholder' -}}
+    {%- else -%}
+      <div class="slideshow__placeholder">
+        {{- placeholder | placeholder_svg_tag: 'slideshow__image-placeholder' -}}
+      </div>
+    {%- endif -%}
+  {%- endunless -%}
+
+  {%- if block.settings.image and section.settings.section_size == 'preserve_ratio' -%}
+    {%- capture supported_sizes -%}{%- render 'image-size', sizes: '800,900,1000,1100,1200,1300,1400,1600,1800,2000,2160,2200,2400,2600', image: block.settings.image -%}{%- endcapture -%}
+    {%- assign image_url = block.settings.image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%}
+
+    <div class="aspect-ratio {% if block.settings.mobile_image %}hidden-phone{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%">
+      <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
+
+      <noscript>
+        <img src="{{ block.settings.image | image_url: width: 1200 }}" alt="{{ block.settings.image.alt | escape }}">
+      </noscript>
+    </div>
+
+    {%- if block.settings.mobile_image -%}
+      {%- capture supported_sizes -%}{%- render 'image-size', sizes: '600,700,800,900,1000,1100,1200', image: block.settings.mobile_image -%}{%- endcapture -%}
+      {%- assign image_url = block.settings.mobile_image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%}
+
+      <div class="aspect-ratio hidden-tablet-and-up" style="padding-bottom: {{ 100.0 | divided_by: block.settings.mobile_image.aspect_ratio }}%">
+        <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.mobile_image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
+
+        <noscript>
+          <img src="{{ block.settings.mobile_image | image_url: width: 800 }}" alt="{{ block.settings.mobile_image.alt | escape }}">
+        </noscript>
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- capture slide_content -%}
+    {%- if block.settings.title != blank -%}
+      <h2 class="slideshow__title heading h1">{{ block.settings.title | escape }}</h2>
+    {%- endif -%}
+
+    {%- if block.settings.content != blank -%}
+      <p class="slideshow__content">{{ block.settings.content | escape | newline_to_br }}</p>
+    {%- endif -%}
+
+    {%- if block.settings.link != blank and block.settings.button_text != blank -%}
+      <a href="{{ block.settings.link }}" class="slideshow__button button">{{ block.settings.button_text | escape }}</a>
+    {%- endif -%}
+  {%- endcapture -%}
+
+  {%- if slide_content != blank -%}
+    <div class="slideshow__content-wrapper">
+      <div class="container">
+        {{ slide_content }}
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+<style>
+  #block-{{ block.id }} {
+    color: {{ block.settings.text_color }};
+  }
+
+  #block-{{ block.id }} .button {
+    color: {{ block.settings.button_text_color }};
+    background: {{ block.settings.button_background }};
+  }
+
+  #block-{{ block.id }} .button:hover {
+    background: {{ block.settings.button_background | color_modify: 'alpha', 0.8 }};
+  }
+
+  {%- if block.settings.show_overlay -%}
+    #block-{{ block.id }}.slideshow__slide--overlay::before {
+      {%- assign overlay_opacity = block.settings.overlay_opacity | divided_by: 100.0 -%}
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), {{ '#000000' | color_modify: 'alpha', overlay_opacity }});
+    }
+  {%- endif -%}
+</style>
+
+{%- if block.settings.image and section.settings.section_size != 'preserve_ratio' -%}
+  <noscript>
+    <style>
+      #block-{{ block.id }} .slideshow__slide-inner {
+        background-image: url({{ block.settings.image | image_url: width: 1400 }})
+      }
+    </style>
+  </noscript>
+{%- endif -%}
+{%- endcapture -%}
+
+{%- if block.settings.link != blank and block.settings.button_text == blank -%}
+<a href="{{ block.settings.link }}" class="slideshow__slide {% if block.settings.show_overlay %}slideshow__slide--overlay{% endif %} {% if forloop.first %}is-selected{% endif %}" id="block-{{ block.id }}" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+  {{- slide_inner -}}
+</a>
+{%- else -%}
+<div class="slideshow__slide {% if block.settings.show_overlay %}slideshow__slide--overlay{% endif %} {% if forloop.first %}is-selected{% endif %}" id="block-{{ block.id }}" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+  {{- slide_inner -}}
+</div>
+{%- endif -%}
