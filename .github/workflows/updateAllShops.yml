@@ -21,3 +21,54 @@ jobs:
           git pull
           git merge --no-ff main -m "Auto-merge Merge Main to CM Distro EU"
           git push
+  merge-main-to-cro-spacejam:
+    if: github.event.pull_request.merged == true
+    timeout-minutes: 2
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set Git config
+      run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+    - name: Merge Main to Cro Spacejam
+      run: |
+          git fetch --unshallow
+          git checkout main-cro-spacejam
+          git pull
+          git merge --no-ff main -m "Auto-merge Merge Main to Cro Spacejam"
+          git push
+  merge-main-to-cmdistro-b2b:
+    if: github.event.pull_request.merged == true
+    timeout-minutes: 2
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set Git config
+      run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+    - name: Merge Main to CM Distro B2b
+      run: |
+          git fetch --unshallow
+          git checkout main-cmdistro-b2b
+          git pull
+          git merge --no-ff main -m "Auto-merge Merge Main to CM Distro B2b"
+          git push
+  merge-main-to-hoerspiel:
+    if: github.event.pull_request.merged == true
+    timeout-minutes: 2
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set Git config
+      run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+    - name: Merge Main to Hoerspiel Family
+      run: |
+          git fetch --unshallow
+          git checkout main-hoerspiel
+          git pull
+          git merge --no-ff main -m "Auto-merge Merge Main to Hoerspiel Family"
+          git push
