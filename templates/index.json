@@ -239,10 +239,10 @@
         "fa72022a-5531-4d98-aecd-63c755ef3868"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "small",
         "mobile_section_size": "",
-        "carousel_effect": "slide",
+        "carousel_effect": "fade",
         "autoplay": true,
         "cycle_speed": 5
       }
