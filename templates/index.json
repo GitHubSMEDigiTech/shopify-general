@@ -80,20 +80,25 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Necrophobic&sort_by=created-descending"
           }
         },
-        "cdcd9735-7116-48c9-9af6-0830d10c76c3": {
-          "type": "image",
+        "efa03930-1473-4227-a589-7665cb7c6052": {
+          "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SkeletalRemains_Fragments_1223_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/SkeletalRemains_Fragments_1223_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
+            "image": "shopify:\/\/shop_images\/SkeRemBanner.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/skeletalremainsfragmentsoftheagelessjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "skeletal remains",
+            "head_color": "#ffffff",
+            "subtitle": "fragments of the ageless",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak|Ltd. Gatefold transp. magenta LP|Ltd. Gatefold lemon colored LP|Ltd. Gatefold transp. light blue LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#02343c",
+            "show_preorder": true,
+            "preorder_msg": "March 8",
+            "preorder_msg_color": "#eedb60",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Skeletal+Remains&sort_by=created-descending"
           }
         },
@@ -221,7 +226,7 @@
         "acb085bb-ec66-47ee-a2b2-e7703b387036",
         "8a7af0a0-5efd-4330-934b-3b1ab9429fff",
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
-        "cdcd9735-7116-48c9-9af6-0830d10c76c3",
+        "efa03930-1473-4227-a589-7665cb7c6052",
         "b8603db9-3ad2-4a29-840b-ec172b338979",
         "d0931cc7-13f4-48e3-90f1-c06106a24ca4",
         "21f7fab0-55c6-4e14-8951-954c12bf5edf",
