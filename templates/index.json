@@ -51,6 +51,7 @@
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7": {
           "type": "banner",
           "settings": {
+            "image": "shopify:\/\/shop_images\/NecroBanner.jpg",
             "bg_color": "#474f42",
             "cover_image": "shopify:\/\/shop_images\/necrophobicinthetwilightgreyembargo20231208jpg.jpg",
             "cover_effect": "glow",
@@ -60,7 +61,7 @@
             "subtitle": "in the twilight grey",
             "subhead_color": "#eeeeee",
             "content": "Ltd. Deluxe Gatefold combat green 2LP & LP-Booklet & Poster|Ltd. CD Mediabook|Standard CD Jewelcase|Gatefold black LP|Gatefold dark green LP",
-            "content_color": "#000000",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
             "preorder_bar_color": "#78876a",
             "show_preorder": true,
