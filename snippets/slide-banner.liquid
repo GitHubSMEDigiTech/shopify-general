@@ -149,19 +149,7 @@
       }
   {% endcase %}
 
-  {%- unless block.settings.banner_font.family == 'sans-serif' -%}
-    #block-{{ block.id }} .banner.slideshow__content-wrapper,
-    #block-{{ block.id }} .banner.slideshow__content-wrapper .h1,
-    #block-{{ block.id }} .banner.slideshow__content-wrapper .h2,
-    #block-{{ block.id }} .slideshow__preorder_bar {
-      font-family: {{ block.settings.banner_font.family }}!important;
-    } 
-  {%- endunless -%}
 </style>
-
-{%- unless block.settings.banner_font.system? -%}
-  <link rel="preload" href="{{ block.settings.banner_font | font_url }}" as="font" type="font/woff2" crossorigin>
-{%- endunless -%}
 
 {%- if block.settings.image and section.settings.section_size != 'preserve_ratio' -%}
   <noscript>
@@ -173,7 +161,7 @@
   </noscript>
 {%- endif -%}
 {%- endcapture -%}
-{{ block.settings.banner_font.family }}
+
 {%- if block.settings.link != blank -%}
 <a href="{{ block.settings.link }}" class="slideshow__slide {% if block.settings.show_overlay %}slideshow__slide--overlay{% endif %} {% if forloop.first %}is-selected{% endif %}" id="block-{{ block.id }}" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
   {{- slide_inner -}}
