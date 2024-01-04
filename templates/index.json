@@ -14,37 +14,47 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "e8d2dd42-4a9f-4468-ba07-99fbbc568e91": {
-          "type": "image",
+        "acb085bb-ec66-47ee-a2b2-e7703b387036": {
+          "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Borknagar_Fall_1223_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Borknagar_Fall_1223_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
+            "image": "shopify:\/\/shop_images\/BorknBanner.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/borknagarfalljpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#eeeeee",
+            "title": "borknagar",
+            "head_color": "#ffffff",
+            "subtitle": "fall",
+            "subhead_color": "#000000",
+            "content": "Ltd. CD Digipak|Gatefold black 2LP|Ltd. Gatefold neon orange 2LP",
+            "content_color": "#df5235",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "February 23",
+            "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Borknagar&sort_by=created-descending"
           }
         },
-        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0": {
-          "type": "image",
+        "8a7af0a0-5efd-4330-934b-3b1ab9429fff": {
+          "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marduk_Viktoria_1223_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Marduk_Viktoria_1223_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
+            "image": "shopify:\/\/shop_images\/MardBanner.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/mardukviktoriajpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "marduk",
+            "head_color": "#ffffff",
+            "subtitle": "viktoria",
+            "subhead_color": "#555555",
+            "content": "Ltd. deep blood red LP",
+            "content_color": "#bc0334",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "January 19",
+            "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/products\/marduk-viktoria-ltd-deep-blood-red-lp"
           }
         },
@@ -67,24 +77,6 @@
             "show_preorder": true,
             "preorder_msg": "March 15",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Necrophobic&sort_by=created-descending"
-          }
-        },
-        "53b9c7e0-144a-4ddc-b033-4c630004361b": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Necrophobic_Twilight_1223_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Necrophobic_Twilight_1223_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Necrophobic&sort_by=created-descending"
           }
         },
@@ -226,10 +218,9 @@
         }
       },
       "block_order": [
-        "e8d2dd42-4a9f-4468-ba07-99fbbc568e91",
-        "35cbec7e-8435-4f3d-8c43-c341ea5fcae0",
+        "acb085bb-ec66-47ee-a2b2-e7703b387036",
+        "8a7af0a0-5efd-4330-934b-3b1ab9429fff",
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
-        "53b9c7e0-144a-4ddc-b033-4c630004361b",
         "cdcd9735-7116-48c9-9af6-0830d10c76c3",
         "b8603db9-3ad2-4a29-840b-ec172b338979",
         "d0931cc7-13f4-48e3-90f1-c06106a24ca4",
