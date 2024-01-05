@@ -14,6 +14,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blowout.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/cm_logo.png",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "midprice blowout",
+            "head_color": "#ffffff",
+            "subtitle": "on selected catalog titles",
+            "subhead_color": "#540601",
+            "content": "be quick - only available while supplies last",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "click to enter the vault!",
+            "preorder_msg_color": "#ad141f",
+            "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
+          }
+        },
         "acb085bb-ec66-47ee-a2b2-e7703b387036": {
           "type": "banner",
           "settings": {
@@ -213,6 +235,7 @@
         }
       },
       "block_order": [
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
         "acb085bb-ec66-47ee-a2b2-e7703b387036",
         "8a7af0a0-5efd-4330-934b-3b1ab9429fff",
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
