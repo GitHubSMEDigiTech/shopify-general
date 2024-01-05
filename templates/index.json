@@ -67,7 +67,7 @@
         "edge_to_edge": true,
         "section_size": "small",
         "mobile_section_size": "",
-        "carousel_effect": "slide",
+        "carousel_effect": "fade",
         "autoplay": true,
         "cycle_speed": 5
       }
