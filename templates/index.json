@@ -210,23 +210,6 @@
             "preorder_msg_color": "#f0b770",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Vitriol&sort_by=created-descending"
           }
-        },
-        "fa72022a-5531-4d98-aecd-63c755ef3868": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vitriol_Suffer_1123_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Vitriol_Suffer_1123_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Vitriol&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
@@ -238,8 +221,7 @@
         "0229be75-4fa3-4f9e-b5a2-dd26c4a3bfaa",
         "418f7875-63e8-46e2-8ee1-e65a1b1b5870",
         "16d48c86-41e0-4214-aceb-d462ddab0d8d",
-        "085cbc45-a30d-4891-83ec-75d1b019f51e",
-        "fa72022a-5531-4d98-aecd-63c755ef3868"
+        "085cbc45-a30d-4891-83ec-75d1b019f51e"
       ],
       "settings": {
         "edge_to_edge": false,
