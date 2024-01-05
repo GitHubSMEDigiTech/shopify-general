@@ -224,7 +224,7 @@
         "085cbc45-a30d-4891-83ec-75d1b019f51e"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "small",
         "mobile_section_size": "",
         "carousel_effect": "fade",
