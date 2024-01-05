@@ -1,1 +1,233 @@
-{"sections":{"d455e7fc-a136-4680-9463-5503d5126216":{"type":"rich-text","disabled":true,"settings":{"text_width":"regular","title":"HAPPY HOLIDAYS!","content":"<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>","button_text":"Our products","button_link":"shopify:\/\/collections\/all"}},"slideshow":{"type":"slideshow","blocks":{"slide-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BBT_TheLikesOfUs_1123_2160-720.jpg","mobile_image":"shopify:\/\/shop_images\/BBT_TheLikesOfUs_1123_750-1100.jpg","show_overlay":true,"overlay_opacity":0,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"https:\/\/www.insideoutshop.de\/collections\/vendors?q=Big+Big+Train&sort_by=created-descending"}},"cbfc1a47-a590-49a8-9af0-2f603a75e33e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/EinarSolberg_Congregation_1223_2160-720.jpg","mobile_image":"shopify:\/\/shop_images\/EinarSolberg_Congregation_1223_750-1100.jpg","show_overlay":false,"overlay_opacity":0,"text_color":"#ffbd00","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"https:\/\/www.insideoutshop.de\/collections\/vendors?q=Einar+Solberg&sort_by=created-descending"}},"851ca830-e1e2-4566-96bc-028a6ec66f7e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/SteveHackett_Circus_1123_2160-720.jpg","mobile_image":"shopify:\/\/shop_images\/SteveHackett_Circus_1123_750-1100.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"}},"00e8155c-2dc1-447c-9093-f6a19e1a1093":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Caligula_Charcoal_1123_2160-720.jpg","mobile_image":"shopify:\/\/shop_images\/Caligula_Charcoal_1123_750-1100.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"https:\/\/www.insideoutshop.de\/collections\/vendors?q=Caligula%E2%80%99s+Horse&sort_by=created-descending"}}},"block_order":["slide-2","cbfc1a47-a590-49a8-9af0-2f603a75e33e","851ca830-e1e2-4566-96bc-028a6ec66f7e","00e8155c-2dc1-447c-9093-f6a19e1a1093"],"settings":{"edge_to_edge":false,"section_size":"small","carousel_effect":"fade","autoplay":true,"cycle_speed":5}},"featured-collection":{"type":"featured-collection","settings":{"collection":"pre-order","title":"Pre Order","products_count":24,"layout":"vertical","stack_products":true,"show_quick_buy":true,"link_title":"View all","link_url":""}},"e9b924ee-c0b2-487a-8027-bb5354c3b608":{"type":"featured-collection","settings":{"collection":"midprice-blowout","title":"Now On Midprice","products_count":12,"layout":"vertical","stack_products":true,"show_quick_buy":true,"link_title":"View all","link_url":""}},"featured-products":{"type":"featured-collection","settings":{"collection":"new-releases","title":"New Releases","products_count":12,"layout":"horizontal","stack_products":true,"show_quick_buy":true,"link_title":"View all","link_url":""}},"collection-list":{"type":"collection-list","blocks":{"collection-2":{"type":"collection","settings":{"collection":"hans-zimmer-live","link":""}},"62dc3c3c-ebcd-48f0-b42f-7605fece1f5a":{"type":"collection","settings":{"collection":"two-steps-from-hell","link":""}},"8ae60b41-9437-44b0-8dfb-ae8e8a380530":{"type":"collection","settings":{"collection":"anime","link":""}},"dd3e4cab-3484-4369-b0dd-04a6eb2f8496":{"type":"collection","settings":{"collection":"five-from-the-hive-cd-bundles","link":""}},"6a93ac45-3768-479e-bb44-90441908a814":{"type":"collection","settings":{"collection":"schiller","link":""}}},"block_order":["collection-2","62dc3c3c-ebcd-48f0-b42f-7605fece1f5a","8ae60b41-9437-44b0-8dfb-ae8e8a380530","dd3e4cab-3484-4369-b0dd-04a6eb2f8496","6a93ac45-3768-479e-bb44-90441908a814"],"settings":{"title":"Specials","link_title":"View all","link":"","round_images":true,"show_collection_title":true}},"newsletter":{"type":"newsletter","settings":{"title":"Newsletter","content":"<p>Subscribe to our newsletter!<\/p>","background":"#ffffff","text":"#666666"}}},"order":["d455e7fc-a136-4680-9463-5503d5126216","slideshow","featured-collection","e9b924ee-c0b2-487a-8027-bb5354c3b608","featured-products","collection-list","newsletter"]}
+{
+  "sections": {
+    "d455e7fc-a136-4680-9463-5503d5126216": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "text_width": "regular",
+        "title": "HAPPY HOLIDAYS!",
+        "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
+        "button_text": "Our products",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "77662857-71a6-4556-b936-ce24534165d3": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bbt.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/bigbigtrainthelikesofusjpg_8db4b93a-21a3-443b-b3f3-4702d5687c5f.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "big big train",
+            "head_color": "#ffffff",
+            "subtitle": "the likes of us",
+            "subhead_color": "#000000",
+            "content": "Ltd. CD+Blu-ray Mediabook|Standard CD Jewelcase|Gatefold black 2LP|Ltd. Gatefold sky blue 2LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "March 1",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Big+Big+Train&sort_by=created-descending"
+          }
+        },
+        "5eaa32a1-6fe8-4555-9b94-69d502839940": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ES.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/einarsolbergthecongregationacousticjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Einar Solberg",
+            "head_color": "#ffffff",
+            "subtitle": "the congrgation - acoustic",
+            "subhead_color": "#8a9297",
+            "content": "Ltd. CD Digipak|Ltd. Gatefold black 2LP",
+            "content_color": "#eeeeee",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#2e263b",
+            "show_preorder": true,
+            "preorder_msg": "february 16",
+            "preorder_msg_color": "#d0bcc5",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Einar+Solberg&sort_by=created-descending"
+          }
+        },
+        "f087a6db-5833-467f-b0be-bba2433d05f7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SH.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/stevehackettthecircusandthenightwalejpg_6c35ca3c-7f47-4821-a289-d9dd6fc0d4c8.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "steve hackett",
+            "head_color": "#ffffff",
+            "subtitle": "the circus and the nightwale",
+            "subhead_color": "#6f3733",
+            "content": "Ltd. CD+Blu-ray Mediabook|Standard CD Jewelcase|Gatefold black LP & LP-Booklet|Ltd. Gatefold transp. red LP & LP-Booklet|Ltd. Gatefold transp. blue LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "february 16",
+            "preorder_msg_color": "#6f3733",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
+        },
+        "a868eaff-c64e-4f12-b85c-27b22f479e9a": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CH.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/caligulashorsecharcoalgrace.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "caligula's horse",
+            "head_color": "#ffffff",
+            "subtitle": "charcoal grace",
+            "subhead_color": "#37657c",
+            "content": "Ltd. CD Digipak|Gatefold black 2LP & LP-Booklet|Ltd. Gatefold apricot colored 2LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#37657c",
+            "show_preorder": true,
+            "preorder_msg": "january 26",
+            "preorder_msg_color": "#976e45",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Caligula%E2%80%99s+Horse&sort_by=created-descending"
+          }
+        }
+      },
+      "block_order": [
+        "77662857-71a6-4556-b936-ce24534165d3",
+        "5eaa32a1-6fe8-4555-9b94-69d502839940",
+        "f087a6db-5833-467f-b0be-bba2433d05f7",
+        "a868eaff-c64e-4f12-b85c-27b22f479e9a"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "medium",
+        "mobile_section_size": "mobile_small",
+        "carousel_effect": "fade",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pre-order",
+        "title": "Pre Order",
+        "products_count": 24,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "e9b924ee-c0b2-487a-8027-bb5354c3b608": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "midprice-blowout",
+        "title": "Now On Midprice",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured-products": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "new-releases",
+        "title": "New Releases",
+        "products_count": 12,
+        "layout": "horizontal",
+        "stack_products": true,
+        "show_quick_buy": true,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "hans-zimmer-live",
+            "link": ""
+          }
+        },
+        "62dc3c3c-ebcd-48f0-b42f-7605fece1f5a": {
+          "type": "collection",
+          "settings": {
+            "collection": "two-steps-from-hell",
+            "link": ""
+          }
+        },
+        "8ae60b41-9437-44b0-8dfb-ae8e8a380530": {
+          "type": "collection",
+          "settings": {
+            "collection": "anime",
+            "link": ""
+          }
+        },
+        "dd3e4cab-3484-4369-b0dd-04a6eb2f8496": {
+          "type": "collection",
+          "settings": {
+            "collection": "five-from-the-hive-cd-bundles",
+            "link": ""
+          }
+        },
+        "6a93ac45-3768-479e-bb44-90441908a814": {
+          "type": "collection",
+          "settings": {
+            "collection": "schiller",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-2",
+        "62dc3c3c-ebcd-48f0-b42f-7605fece1f5a",
+        "8ae60b41-9437-44b0-8dfb-ae8e8a380530",
+        "dd3e4cab-3484-4369-b0dd-04a6eb2f8496",
+        "6a93ac45-3768-479e-bb44-90441908a814"
+      ],
+      "settings": {
+        "title": "Specials",
+        "link_title": "View all",
+        "link": "",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>Subscribe to our newsletter!<\/p>",
+        "background": "#ffffff",
+        "text": "#666666"
+      }
+    }
+  },
+  "order": [
+    "d455e7fc-a136-4680-9463-5503d5126216",
+    "slideshow",
+    "featured-collection",
+    "e9b924ee-c0b2-487a-8027-bb5354c3b608",
+    "featured-products",
+    "collection-list",
+    "newsletter"
+  ]
+}
