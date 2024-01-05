@@ -232,6 +232,28 @@
             "preorder_msg_color": "#f0b770",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Vitriol&sort_by=created-descending"
           }
+        },
+        "02a54b18-c68a-42ec-be73-158190e5fe63": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JP.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/judas-priest-mock-up-tour-edition.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#be141a",
+            "title": "judas priest",
+            "head_color": "#ffffff",
+            "subtitle": "fire power tour edition",
+            "subhead_color": "#be141a",
+            "content": "Tour Edition FIREPOWER \nincl. 7\" Vinyl \nA\/Lightning Strike (Album Version) \nB\/Living After Midnight (Recorded live at Wacken 2015)\n16x16cm \"Firepower\" Patch \n\"Firepower\" Album (Jewelcase)",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "order the last available copies here!",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/judas-priest-firepower-tour-edition"
+          }
         }
       },
       "block_order": [
@@ -244,7 +266,8 @@
         "0229be75-4fa3-4f9e-b5a2-dd26c4a3bfaa",
         "418f7875-63e8-46e2-8ee1-e65a1b1b5870",
         "16d48c86-41e0-4214-aceb-d462ddab0d8d",
-        "085cbc45-a30d-4891-83ec-75d1b019f51e"
+        "085cbc45-a30d-4891-83ec-75d1b019f51e",
+        "02a54b18-c68a-42ec-be73-158190e5fe63"
       ],
       "settings": {
         "edge_to_edge": true,
