@@ -101,13 +101,35 @@
             "preorder_msg_color": "#976e45",
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Caligula%E2%80%99s+Horse&sort_by=created-descending"
           }
+        },
+        "9868648a-affa-4d67-be87-afd569870a56": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IOM_Releases_1122_2160-720.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Midprice",
+            "head_color": "#ffffff",
+            "subtitle": "blowout",
+            "subhead_color": "#ad1a62",
+            "content": "tons of items \nat massively reduced prices",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "Click here to enter the vault!!",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/midprice-blowout"
+          }
         }
       },
       "block_order": [
         "77662857-71a6-4556-b936-ce24534165d3",
         "5eaa32a1-6fe8-4555-9b94-69d502839940",
         "f087a6db-5833-467f-b0be-bba2433d05f7",
-        "a868eaff-c64e-4f12-b85c-27b22f479e9a"
+        "a868eaff-c64e-4f12-b85c-27b22f479e9a",
+        "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
         "edge_to_edge": true,
