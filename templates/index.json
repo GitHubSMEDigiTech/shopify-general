@@ -14,6 +14,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_FncBAX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ghostkid.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/ghostkidhollywoodsuicidejpg_1191941e-3d79-453c-8ce2-01f960529cae.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "GHØSTKID",
+            "head_color": "#e8110b",
+            "subtitle": "HOLLYWOOD SUICIDE",
+            "subhead_color": "#555555",
+            "content": "Ltd. CD Digipak|Ltd. transp. red LP|Ltd. grey LP",
+            "content_color": "#e8110b",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "march 22",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=GH%C3%98STKID&sort_by=created-descending"
+          }
+        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "settings": {
@@ -34,6 +56,27 @@
             "preorder_msg": "click to enter the vault!",
             "preorder_msg_color": "#ad141f",
             "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
+          }
+        },
+        "banner_6WBTFP": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/inso.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Insomnium",
+            "head_color": "#ffffff",
+            "subtitle": "winter's gate|one for sorrow",
+            "subhead_color": "#ffffff",
+            "content": "Re-issues 2024\nwinter's gate -  Ltd. grey LP\none for sorrow - Ltd. transp. coke bottle green LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "March 1",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Insomnium&sort_by=created-descending"
           }
         },
         "acb085bb-ec66-47ee-a2b2-e7703b387036": {
@@ -257,7 +300,9 @@
         }
       },
       "block_order": [
+        "banner_FncBAX",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
+        "banner_6WBTFP",
         "acb085bb-ec66-47ee-a2b2-e7703b387036",
         "8a7af0a0-5efd-4330-934b-3b1ab9429fff",
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
