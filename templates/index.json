@@ -14,6 +14,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_Ur6NBQ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whom.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/whomgodsdestroyinsaniumjpg_40de27f2-c612-4de2-ba98-1bdec5c434ff.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "whom gods destroy",
+            "head_color": "#d4d3a0",
+            "subtitle": "insanium",
+            "subhead_color": "#d4d3a0",
+            "content": "Ltd. 2CD Mediabook|Standard CD Jewelcase|Gatefold black 2LP & LP-Booklet|Ltd. Gatefold dark green 2LP & LP-Booklet",
+            "content_color": "#d4d3a0",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#d4d3a0",
+            "show_preorder": true,
+            "preorder_msg": "MARCH 15",
+            "preorder_msg_color": "#24251f",
+            "link": ""
+          }
+        },
         "77662857-71a6-4556-b936-ce24534165d3": {
           "type": "banner",
           "settings": {
@@ -125,6 +147,7 @@
         }
       },
       "block_order": [
+        "banner_Ur6NBQ",
         "77662857-71a6-4556-b936-ce24534165d3",
         "5eaa32a1-6fe8-4555-9b94-69d502839940",
         "f087a6db-5833-467f-b0be-bba2433d05f7",
