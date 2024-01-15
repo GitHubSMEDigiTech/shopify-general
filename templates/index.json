@@ -79,12 +79,34 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/shop.hoerspiel.de\/collections\/die-drei?sort_by=created-descending"
           }
+        },
+        "banner_pEMXyB": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DDB.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "die drei...",
+            "head_color": "#ffffff",
+            "subtitle": "...dreier boxen",
+            "subhead_color": "#ffffff",
+            "content": "Die drei !!! 25.\/3er Box - Folgen 74, 76, 77 \nDie drei ???\t51. Box (Folgen 154 - 156)\nDie drei ??? Kids\t25.\/3er Box- Folgen 73 - 75",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "Jetzt vorbestellen! V.ö. 16. februar",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/die-neuen-3er-boxen"
+          }
         }
       },
       "block_order": [
         "469a5ca6-02c8-4121-861d-2927b14786df",
         "fa5be477-c484-433e-bcdd-6e718bf68098",
-        "banner_7aKrcR"
+        "banner_7aKrcR",
+        "banner_pEMXyB"
       ],
       "settings": {
         "edge_to_edge": true,
