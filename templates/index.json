@@ -57,11 +57,34 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/shop.hoerspiel.de\/collections\/all?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=Die+drei+%21%21%21"
           }
+        },
+        "banner_7aKrcR": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DDF226.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658804282.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "die drei ???",
+            "head_color": "#ffffff",
+            "subtitle": "die spur der toten",
+            "subhead_color": "#e3000f",
+            "content": "MC | CD | LP",
+            "content_color": "#37a9d9",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "Fall #226 | hier vorbestellen! | v.ö. 22. märz!",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/die-drei?sort_by=created-descending"
+          }
         }
       },
       "block_order": [
         "469a5ca6-02c8-4121-861d-2927b14786df",
-        "fa5be477-c484-433e-bcdd-6e718bf68098"
+        "fa5be477-c484-433e-bcdd-6e718bf68098",
+        "banner_7aKrcR"
       ],
       "settings": {
         "edge_to_edge": true,
