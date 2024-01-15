@@ -39,21 +39,21 @@
         "fa5be477-c484-433e-bcdd-6e718bf68098": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/herzundhuf.jpg",
+            "image": "shopify:\/\/shop_images\/DDA86.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/dda_herzhuf.jpg",
-            "cover_effect": "glow",
+            "cover_image": "shopify:\/\/shop_images\/19658766982.jpg",
+            "cover_effect": "shadow",
             "cover_color": "#ffffff",
             "title": "Die drei !!!",
-            "head_color": "#ffffff",
-            "subtitle": "ein fall mit herz und huf",
+            "head_color": "#000000",
+            "subtitle": "rätselhafter raub",
             "subhead_color": "#e72888",
             "content": "CD Longplay",
             "content_color": "#00b0e9",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": false,
-            "preorder_msg": "der neue fall! | Hier auf CD erhältlich",
+            "preorder_msg": "fall #86 | Hier vorbestellen! | V.ö. 01. märz",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/shop.hoerspiel.de\/collections\/all?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=Die+drei+%21%21%21"
           }
