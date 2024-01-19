@@ -14,6 +14,50 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_CMydxc": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hide.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/hideousdivinityunextinctjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Hideous Divinity",
+            "head_color": "#ffffff",
+            "subtitle": "Unextinct",
+            "subhead_color": "#36c198",
+            "content": "Standard CD Jewelcase\nLtd. transp. coke bottle green LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#36c198",
+            "show_preorder": true,
+            "preorder_msg": "march 22",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Hideous+Divinity&sort_by=created-descending"
+          }
+        },
+        "banner_MDmktJ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/weiber.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/folterkammerweibermachtembargo-119jpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "folterkammer",
+            "head_color": "#ffffff",
+            "subtitle": "weibermacht",
+            "subhead_color": "#b15764",
+            "content": "Standard CD Jewelcase\nLtd. transp. coke bottle green LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#b15764",
+            "show_preorder": true,
+            "preorder_msg": "april 19",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Folterkammer"
+          }
+        },
         "banner_FncBAX": {
           "type": "banner",
           "settings": {
@@ -99,28 +143,6 @@
             "preorder_msg": "February 23",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Borknagar&sort_by=created-descending"
-          }
-        },
-        "8a7af0a0-5efd-4330-934b-3b1ab9429fff": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MardBanner.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/mardukviktoriajpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "marduk",
-            "head_color": "#ffffff",
-            "subtitle": "viktoria",
-            "subhead_color": "#555555",
-            "content": "Ltd. deep blood red LP",
-            "content_color": "#bc0334",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "January 19",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/products\/marduk-viktoria-ltd-deep-blood-red-lp"
           }
         },
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7": {
@@ -211,49 +233,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Slope"
           }
         },
-        "418f7875-63e8-46e2-8ee1-e65a1b1b5870": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ulver.jpg",
-            "bg_color": "#eeeeee",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "ulver",
-            "head_color": "#000000",
-            "subtitle": "Re-issues 2024",
-            "subhead_color": "#ffffff",
-            "content": "Bergtatt - Et Eeventyr I 5 Capitler (Re-issue 2024) |Kveldssanger (Re-issue 2024)",
-            "content_color": "#ad141f",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "January 19",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Ulver&sort_by=created-descending"
-          }
-        },
-        "16d48c86-41e0-4214-aceb-d462ddab0d8d": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/upoms.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/UponStone_DeadMotherMoon.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "upon stone",
-            "head_color": "#ffffff",
-            "subtitle": "dead mother moon",
-            "subhead_color": "#000000",
-            "content": "Standard CD Jewelcase|black LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#933533",
-            "show_preorder": true,
-            "preorder_msg": "January 19",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Upon%20Stone"
-          }
-        },
         "085cbc45-a30d-4891-83ec-75d1b019f51e": {
           "type": "banner",
           "settings": {
@@ -300,17 +279,16 @@
         }
       },
       "block_order": [
+        "banner_CMydxc",
+        "banner_MDmktJ",
         "banner_FncBAX",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
         "banner_6WBTFP",
         "acb085bb-ec66-47ee-a2b2-e7703b387036",
-        "8a7af0a0-5efd-4330-934b-3b1ab9429fff",
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
         "efa03930-1473-4227-a589-7665cb7c6052",
         "39663d04-d7a4-4f38-9ceb-353385b12da5",
         "0229be75-4fa3-4f9e-b5a2-dd26c4a3bfaa",
-        "418f7875-63e8-46e2-8ee1-e65a1b1b5870",
-        "16d48c86-41e0-4214-aceb-d462ddab0d8d",
         "085cbc45-a30d-4891-83ec-75d1b019f51e",
         "02a54b18-c68a-42ec-be73-158190e5fe63"
       ],
