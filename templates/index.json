@@ -36,6 +36,28 @@
             "link": "https:\/\/shop.hoerspiel.de\/collections\/die-drei?sort_by=created-descending"
           }
         },
+        "banner_GTCfrL": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FFrept.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658847562.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Fünf freunde",
+            "head_color": "#ffffff",
+            "subtitle": "und das riesige reptil",
+            "subhead_color": "#e3000f",
+            "content": "CD Longplay",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "jetzt vorbestellen! - v.ö. 22. März",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/products\/funf-freunde-und-das-riesige-reptil-cd-longplay"
+          }
+        },
         "fa5be477-c484-433e-bcdd-6e718bf68098": {
           "type": "banner",
           "settings": {
@@ -56,6 +78,28 @@
             "preorder_msg": "fall #86 | Hier vorbestellen! | V.ö. 01. märz",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/shop.hoerspiel.de\/collections\/all?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=Die+drei+%21%21%21"
+          }
+        },
+        "banner_Ga9aa3": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TKKGJZA.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658860182.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "tkkg junior",
+            "head_color": "#ffffff",
+            "subtitle": "zu viele alibis",
+            "subhead_color": "#e3000f",
+            "content": "CD longplay",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "jetzt vorbestellen! - v.ö. 02. Februar",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/products\/tkkg-junior-zu-viele-alibis-cd-longplay"
           }
         },
         "banner_7aKrcR": {
@@ -100,13 +144,38 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/shop.hoerspiel.de\/collections\/die-neuen-3er-boxen"
           }
+        },
+        "banner_nwHDcV": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DDFKGZ.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658856072.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "die drei ??? kids",
+            "head_color": "#ffffff",
+            "subtitle": "geheime zeichen",
+            "subhead_color": "#e3000f",
+            "content": "cd longplay",
+            "content_color": "#37a9d9",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "jetzt vorbestellen! - v.ö. 08. märz",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/products\/die-drei-kids-geheime-zeichen-cd-longplay"
+          }
         }
       },
       "block_order": [
         "469a5ca6-02c8-4121-861d-2927b14786df",
+        "banner_GTCfrL",
         "fa5be477-c484-433e-bcdd-6e718bf68098",
+        "banner_Ga9aa3",
         "banner_7aKrcR",
-        "banner_pEMXyB"
+        "banner_pEMXyB",
+        "banner_nwHDcV"
       ],
       "settings": {
         "edge_to_edge": true,
