@@ -44,7 +44,13 @@
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
           "type": "text",
           "settings": {
-            "content": "<p>veröffentlicht am: {{ product.metafields.sme.street_date | metafield_tag }}<\/p>"
+            "content": "<h5>veröffentlicht am: {{ product.metafields.sme.street_date | metafield_tag }}<\/h5>"
+          }
+        },
+        "text_w3EiEb": {
+          "type": "text",
+          "settings": {
+            "content": "<h6>Alle bestellten Artikel werden in einer Lieferung versandt. Im Falle einer Vorbestellung versenden wir erst, wenn alle Artikel veröffentlicht sind.<\/h6>"
           }
         },
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
@@ -79,6 +85,7 @@
         "description",
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
+        "text_w3EiEb",
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b",
         "2e75b2af-c1ad-445e-9263-9bb1a032d880",
