@@ -38,7 +38,13 @@
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
           "type": "text",
           "settings": {
-            "content": "<p>{{ product.metafields.sme.release_name.value }}<\/p>"
+            "content": "<h4>{{ product.metafields.sme.release_name.value }}<\/h4>"
+          }
+        },
+        "2e75b2af-c1ad-445e-9263-9bb1a032d880": {
+          "type": "text",
+          "settings": {
+            "content": "<h5>Episode: {{ product.metafields.sme.episode.value }}<\/h5>"
           }
         },
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
@@ -56,19 +62,13 @@
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
           "type": "text",
           "settings": {
-            "content": "<p>Katalognummer: {{ product.metafields.sme.distribution_number.value }}<\/p>"
+            "content": "<h6>Katalognummer: {{ product.metafields.sme.distribution_number.value }}<\/h6>"
           }
         },
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b": {
           "type": "text",
           "settings": {
-            "content": "<p>FSK: {{ product.metafields.sme.fsk.value }}<\/p>"
-          }
-        },
-        "2e75b2af-c1ad-445e-9263-9bb1a032d880": {
-          "type": "text",
-          "settings": {
-            "content": "<p>Episode: {{ product.metafields.sme.episode.value }}<\/p>"
+            "content": "<h6>FSK: {{ product.metafields.sme.fsk.value }}<\/h6>"
           }
         },
         "07c16a91-c520-42b8-9889-88d71d6a4219": {
@@ -84,11 +84,11 @@
         "buy_buttons",
         "description",
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3",
+        "2e75b2af-c1ad-445e-9263-9bb1a032d880",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
         "text_w3EiEb",
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b",
-        "2e75b2af-c1ad-445e-9263-9bb1a032d880",
         "07c16a91-c520-42b8-9889-88d71d6a4219"
       ],
       "settings": {
