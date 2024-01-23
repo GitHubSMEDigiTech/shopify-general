@@ -71,7 +71,7 @@
         "3fff165e-dcfa-4169-b4e7-1e46cdb5a883": {
           "type": "text",
           "settings": {
-            "content": "<p>{{ product.metafields.sme.additional_information.value }}<\/p>"
+            "content": "<h6>{{ product.metafields.sme.additional_information.value }}<\/h6>"
           }
         },
         "text_ptPnQh": {
