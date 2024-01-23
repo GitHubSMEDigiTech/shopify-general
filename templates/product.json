@@ -37,6 +37,7 @@
         },
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h4>{{ product.metafields.sme.release_name.value }}<\/h4>"
           }
@@ -67,6 +68,7 @@
         },
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h6>FSK: {{ product.metafields.sme.fsk.value }}<\/h6>"
           }
