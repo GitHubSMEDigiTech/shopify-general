@@ -45,13 +45,13 @@
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
           "type": "text",
           "settings": {
-            "content": "<p>Release date: {{ product.metafields.sme.street_date | metafield_tag }}<\/p>"
+            "content": "<h5>Release date: {{ product.metafields.sme.street_date | metafield_tag }}<\/h5>"
           }
         },
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
           "type": "text",
           "settings": {
-            "content": "<p>Dist. number: {{ product.metafields.sme.distribution_number.value }}<\/p>"
+            "content": "<h5>Dist. number: {{ product.metafields.sme.distribution_number.value }}<\/h5>"
           }
         },
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b": {
@@ -73,6 +73,12 @@
           "settings": {
             "content": "<p>{{ product.metafields.sme.additional_information.value }}<\/p>"
           }
+        },
+        "text_ptPnQh": {
+          "type": "text",
+          "settings": {
+            "content": "<h6>All ordered items will be shipped in one delivery. In case of a pre-order, we will only ship once all items have been released. <\/h6>"
+          }
         }
       },
       "block_order": [
@@ -85,7 +91,8 @@
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b",
         "2e75b2af-c1ad-445e-9263-9bb1a032d880",
-        "3fff165e-dcfa-4169-b4e7-1e46cdb5a883"
+        "3fff165e-dcfa-4169-b4e7-1e46cdb5a883",
+        "text_ptPnQh"
       ],
       "settings": {
         "image_size": "small",
