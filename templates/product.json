@@ -71,7 +71,7 @@
         "caae8b81-4155-4df7-94b3-d971bcc57458": {
           "type": "text",
           "settings": {
-            "content": "<p>{{ product.metafields.sme.additional_information.value }}<\/p>"
+            "content": "<h6>{{ product.metafields.sme.additional_information.value }}<\/h6>"
           }
         },
         "text_JPPhjr": {
