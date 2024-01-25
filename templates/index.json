@@ -20,8 +20,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/electric.jpg",
             "bg_color": "#eeeeee",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
+            "cover_image": "shopify:\/\/shop_images\/electriccallboy-EClogo-4c.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#000000",
             "title": "electric callboy",
             "head_color": "#ffffff",
             "subtitle": "the scene|rehab|MMXX EP",
