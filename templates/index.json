@@ -14,6 +14,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_eXyRrK": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/electric.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "electric callboy",
+            "head_color": "#ffffff",
+            "subtitle": "the scene|rehab|MMXX EP",
+            "subhead_color": "#a2ccfd",
+            "content": "CD jewelcase",
+            "content_color": "#a2ccfd",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#000000",
+            "show_preorder": true,
+            "preorder_msg": "march 01",
+            "preorder_msg_color": "#98012d",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Electric+Callboy&sort_by=created-descending"
+          }
+        },
         "banner_CMydxc": {
           "type": "banner",
           "settings": {
@@ -279,6 +301,7 @@
         }
       },
       "block_order": [
+        "banner_eXyRrK",
         "banner_CMydxc",
         "banner_MDmktJ",
         "banner_FncBAX",
