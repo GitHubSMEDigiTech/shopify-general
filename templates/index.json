@@ -16,7 +16,6 @@
       "blocks": {
         "banner_eXyRrK": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/electric.jpg",
             "bg_color": "#eeeeee",
