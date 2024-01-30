@@ -47,22 +47,22 @@
         "cycle_speed": 5
       }
     },
-    "featured_collection": {
+    "featured_collection_n34LNk": {
       "type": "featured-collection",
       "settings": {
         "collection": "classica",
-        "title": "Featured products",
-        "products_count": 12,
+        "title": "IN EVIDENZA",
+        "products_count": 8,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
-        "link_title": "View all",
+        "link_title": "Visualizza Tutti",
         "link_url": ""
       }
     }
   },
   "order": [
     "slideshow_T4EkGN",
-    "featured_collection"
+    "featured_collection_n34LNk"
   ]
 }
