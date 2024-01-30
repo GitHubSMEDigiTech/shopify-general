@@ -146,8 +146,8 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".nav-bar {border-bottom: none; background: #C5161C; color: white;}",
-          ".nav-bar:after {background: #C5161C;}"
+          ".nav-bar {border-bottom: none; background: #c5161c; color: white;}",
+          ".nav-bar:after {background: #c5161c;}"
         ],
         "settings": {
           "enable_sticky_header": true,
