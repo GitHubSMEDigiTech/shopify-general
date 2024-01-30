@@ -50,7 +50,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "classica",
         "title": "Featured products",
         "products_count": 12,
         "layout": "vertical",
