@@ -1,5 +1,6 @@
 {
   "current": {
+    "accent_color": "#c5161c",
     "header_background": "#000000",
     "header_text_color": "#ffffff",
     "currency_code_enabled": true,
@@ -145,8 +146,8 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".nav-bar {border-bottom: none; background: #000; color: white;}",
-          ".nav-bar:after {background: #000;}"
+          ".nav-bar {border-bottom: none; background: #C5161C; color: white;}",
+          ".nav-bar:after {background: #C5161C;}"
         ],
         "settings": {
           "enable_sticky_header": true,
