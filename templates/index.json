@@ -1,5 +1,81 @@
 {
   "sections": {
+    "collection_list_RcUmfi": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_wAgAA9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_eFFnR3": {
+          "type": "collection",
+          "settings": {
+            "collection": "leggera",
+            "image": "shopify:\/\/shop_images\/laptop-coffee.jpg",
+            "link": ""
+          }
+        },
+        "collection_cb8zX7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_6zYP8K": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_W3KNjM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_hLXdaJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_wAgAA9",
+        "collection_eFFnR3",
+        "collection_cb8zX7",
+        "collection_6zYP8K",
+        "collection_W3KNjM",
+        "collection_hLXdaJ"
+      ],
+      "settings": {
+        "title": "Our collections",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
+    "featured_collection_n34LNk": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "classica",
+        "title": "IN EVIDENZA",
+        "products_count": 8,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "Visualizza Tutti",
+        "link_url": ""
+      }
+    },
     "slideshow_T4EkGN": {
       "type": "slideshow",
       "blocks": {
@@ -46,23 +122,11 @@
         "autoplay": true,
         "cycle_speed": 5
       }
-    },
-    "featured_collection_n34LNk": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "classica",
-        "title": "IN EVIDENZA",
-        "products_count": 8,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "Visualizza Tutti",
-        "link_url": ""
-      }
     }
   },
   "order": [
-    "slideshow_T4EkGN",
-    "featured_collection_n34LNk"
+    "collection_list_RcUmfi",
+    "featured_collection_n34LNk",
+    "slideshow_T4EkGN"
   ]
 }
