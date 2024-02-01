@@ -66,12 +66,12 @@
     "featured_collection_n34LNk": {
       "type": "featured-collection",
       "settings": {
-        "collection": "classica",
+        "collection": "leggera",
         "title": "IN EVIDENZA",
-        "products_count": 8,
+        "products_count": 24,
         "layout": "vertical",
         "stack_products": false,
-        "show_quick_buy": false,
+        "show_quick_buy": true,
         "link_title": "Visualizza Tutti",
         "link_url": ""
       }
