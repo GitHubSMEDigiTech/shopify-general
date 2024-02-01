@@ -8,6 +8,7 @@
     "show_secondary_image": true,
     "show_reviews_badge": false,
     "show_color_swatch": true,
+    "show_inventory_quantity": true,
     "cart_type": "notification",
     "logo": "shopify:\/\/shop_images\/SonyMusicLogo_whitematte.gif",
     "logo_width": 70,
