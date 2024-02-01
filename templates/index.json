@@ -13,53 +13,6 @@
         "link_url": ""
       }
     },
-    "slideshow_T4EkGN": {
-      "type": "slideshow",
-      "blocks": {
-        "image_QCL9nE": {
-          "type": "image",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        },
-        "image_XymgYc": {
-          "type": "image",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_QCL9nE",
-        "image_XymgYc"
-      ],
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "preserve_ratio",
-        "mobile_section_size": "",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "cycle_speed": 5
-      }
-    },
     "collection_with_image_FkAkwr": {
       "type": "collection-with-image",
       "settings": {
@@ -79,7 +32,6 @@
   },
   "order": [
     "featured_collection_n34LNk",
-    "slideshow_T4EkGN",
     "collection_with_image_FkAkwr"
   ]
 }
