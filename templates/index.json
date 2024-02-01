@@ -1,68 +1,5 @@
 {
   "sections": {
-    "collection_list_RcUmfi": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_wAgAA9": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection_eFFnR3": {
-          "type": "collection",
-          "settings": {
-            "collection": "leggera",
-            "image": "shopify:\/\/shop_images\/laptop-coffee.jpg",
-            "link": ""
-          }
-        },
-        "collection_cb8zX7": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection_6zYP8K": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection_W3KNjM": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection_hLXdaJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_wAgAA9",
-        "collection_eFFnR3",
-        "collection_cb8zX7",
-        "collection_6zYP8K",
-        "collection_W3KNjM",
-        "collection_hLXdaJ"
-      ],
-      "settings": {
-        "title": "Our collections",
-        "link_title": "View all",
-        "link": "shopify:\/\/collections",
-        "round_images": true,
-        "show_collection_title": true
-      }
-    },
     "featured_collection_n34LNk": {
       "type": "featured-collection",
       "settings": {
@@ -122,11 +59,27 @@
         "autoplay": true,
         "cycle_speed": 5
       }
+    },
+    "collection_with_image_FkAkwr": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "leggera",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#0774d7",
+        "text_color": "#ffffff",
+        "title": "POP MUSIC",
+        "content": "I grandi successi",
+        "button_background": "#ffffff",
+        "button_text_color": "#ff0000",
+        "button_text": "tutti i prodotti",
+        "button_link": ""
+      }
     }
   },
   "order": [
-    "collection_list_RcUmfi",
     "featured_collection_n34LNk",
-    "slideshow_T4EkGN"
+    "slideshow_T4EkGN",
+    "collection_with_image_FkAkwr"
   ]
 }
