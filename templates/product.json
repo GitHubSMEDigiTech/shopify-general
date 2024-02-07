@@ -28,7 +28,7 @@
           "settings": {
             "title": "Stock Level Info:",
             "sku": "",
-            "liquid": "{{ product.variants.first.inventory_quantity }}\n\n{{product.metafields.custom.tracklist}}",
+            "liquid": "{{ product.variants.first.inventory_quantity }}",
             "display_mode": "collapse"
           }
         },
