@@ -32,15 +32,6 @@
             "display_mode": "collapse"
           }
         },
-        "liquid_eFVXPR": {
-          "type": "liquid",
-          "settings": {
-            "title": "Tracklist",
-            "sku": "",
-            "liquid": "{{product.metafields.custom.tracklist}}",
-            "display_mode": "collapse"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -52,15 +43,24 @@
           "settings": {
             "display_mode": "show_all"
           }
+        },
+        "liquid_eFVXPR": {
+          "type": "liquid",
+          "settings": {
+            "title": "Tracklist",
+            "sku": "",
+            "liquid": "{{product.metafields.custom.tracklist}}",
+            "display_mode": "collapse"
+          }
         }
       },
       "block_order": [
         "product_meta",
         "variant_selector",
         "789626d1-3486-4bdd-8004-3f80c7f3b43c",
-        "liquid_eFVXPR",
         "buy_buttons",
-        "description"
+        "description",
+        "liquid_eFVXPR"
       ],
       "settings": {
         "image_size": "small",
