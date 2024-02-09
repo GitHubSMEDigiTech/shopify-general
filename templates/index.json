@@ -14,6 +14,50 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_hg8N9J": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IT_VL.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/imperialtriumphantvileluxuryredux1924jpg_40ab1447-b488-4592-9fbe-f0fa8fc097af.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#59e54e",
+            "title": "imperial triumphant",
+            "head_color": "#ffffff",
+            "subtitle": "Vile Luxury (Redux 1924)",
+            "subhead_color": "#59e54e",
+            "content": "Ltd. CD Digipak\nLtd. Chernobyl Radiation Neon Green 2LP",
+            "content_color": "#59e54e",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "may 3",
+            "preorder_msg_color": "#905111",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Imperial+Triumphant&sort_by=created-descending"
+          }
+        },
+        "banner_KCiDjy": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LS_PR.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/lornashorepainremainsjpg.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "lorna shore",
+            "head_color": "#ffffff",
+            "subtitle": "Pain Remains | Gatefold black 2LP",
+            "subhead_color": "#ffffff",
+            "content": ".",
+            "content_color": "#666666",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "march 29",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/products\/lorna-shore-pain-remains-gatefold-black-2lp"
+          }
+        },
         "banner_eXyRrK": {
           "type": "banner",
           "settings": {
@@ -233,50 +277,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Blind+Channel&sort_by=created-descending"
           }
         },
-        "0229be75-4fa3-4f9e-b5a2-dd26c4a3bfaa": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/slop.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/slopefreakdreams.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "slope",
-            "head_color": "#8a44ae",
-            "subtitle": "freak dreams",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase|\nLtd. purple LP",
-            "content_color": "#61b6b6",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "February 2",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Slope"
-          }
-        },
-        "085cbc45-a30d-4891-83ec-75d1b019f51e": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vitrio.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/vitriolsufferbecome.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "vitriol",
-            "head_color": "#ffffff",
-            "subtitle": "Suffer & Become",
-            "subhead_color": "#000000",
-            "content": "Standard CD Jewelcase|Ltd. deep blood red LP",
-            "content_color": "#cf0a21",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#cf0a21",
-            "show_preorder": true,
-            "preorder_msg": "January 26",
-            "preorder_msg_color": "#f0b770",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Vitriol&sort_by=created-descending"
-          }
-        },
         "02a54b18-c68a-42ec-be73-158190e5fe63": {
           "type": "banner",
           "settings": {
@@ -301,6 +301,8 @@
         }
       },
       "block_order": [
+        "banner_hg8N9J",
+        "banner_KCiDjy",
         "banner_eXyRrK",
         "banner_CMydxc",
         "banner_MDmktJ",
@@ -311,8 +313,6 @@
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
         "efa03930-1473-4227-a589-7665cb7c6052",
         "39663d04-d7a4-4f38-9ceb-353385b12da5",
-        "0229be75-4fa3-4f9e-b5a2-dd26c4a3bfaa",
-        "085cbc45-a30d-4891-83ec-75d1b019f51e",
         "02a54b18-c68a-42ec-be73-158190e5fe63"
       ],
       "settings": {
