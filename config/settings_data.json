@@ -150,7 +150,8 @@
         "type": "header",
         "custom_css": [
           ".nav-bar {border-bottom: none; background: #c5161c; color: white;}",
-          ".nav-bar:after {background: #c5161c;}"
+          ".nav-bar:after {background: #c5161c;}",
+          ".nav-bar__link:hover,.nav-bar__link:focus,a.nav-bar__link[aria-expanded=\"true\"] {color: white; opacity: 0.5;}"
         ],
         "settings": {
           "enable_sticky_header": true,
