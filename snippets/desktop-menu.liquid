@@ -48,7 +48,7 @@ always visible.
         {%- endif -%}
       {%- endfor -%}
 
-      <li class="nav-dropdown__item {% if is_mega_menu %}has-mega-menu{% endif %}">
+      <li class="nav-dropdown__item {% if is_mega_menu %}has-mega-menu{% endif %} {%- unless link.links.size == 0 -%} is-parent {%- endunless -%}">
         {%- if link.links.size == 0 -%}
           <a href="{{ link.url }}" class="nav-dropdown__link link" data-type="menuitem">{{ link.title }}</a>
         {%- else -%}
