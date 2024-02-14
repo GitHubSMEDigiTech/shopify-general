@@ -9,7 +9,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "settimana-1",
-        "title": "Featured collection",
+        "title": "{{ section.settings.collection.title }}",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
