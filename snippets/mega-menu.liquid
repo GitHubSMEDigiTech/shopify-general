@@ -4,6 +4,12 @@
   {%- assign is_condensed = false -%}
 {%- endif -%}
 
+{%- if section.settings.desktop_navigation_layout == 'enlarged' -%}
+  {%- assign is_enlarged = true -%}
+{%- else -%}
+  {%- assign is_enlarged = false -%}
+{%- endif -%}
+
 {%- assign downcase_title = mega_menu.title | downcase | strip -%}
 {%- assign mega_menu_block = nil -%}
 
@@ -84,6 +90,8 @@
           <span class="mega-menu__image-heading heading h4">{{ mega_menu_block.settings.image_1_heading | escape }}</span>
           <p class="mega-menu__image-text">{{ mega_menu_block.settings.image_1_text | escape }}</p>
         </a>
+      {%- elsif mega_menu_block.settings.image_1_text != blank -%}
+        <a href="{{ mega_menu_block.settings.image_1_link | default: '#' }}" class="button button--primary button--full">{{ mega_menu_block.settings.image_1_text | escape }}</a>
       {%- endif -%}
 
       {%- if mega_menu_block.settings.image_2 != blank -%}
@@ -97,11 +105,13 @@
           <span class="mega-menu__image-heading heading h4">{{ mega_menu_block.settings.image_2_heading | escape }}</span>
           <p class="mega-menu__image-text">{{ mega_menu_block.settings.image_2_text | escape }}</p>
         </a>
-      {%- endif -%}
+        {%- elsif mega_menu_block.settings.image_2_text != blank -%}
+          <a href="{{ mega_menu_block.settings.image_2_link | default: '#' }}" class="button button--primary button--full">{{ mega_menu_block.settings.image_2_text | escape }}</a>
+        {%- endif -%}
     </div>
   {%- endcapture -%}
 
-  {%- if is_condensed -%}
+  {%- if is_condensed or is_enlarged -%}
     {{- mega_menu_inner -}}
   {%- else -%}
     <div class="container">

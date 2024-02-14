@@ -35,7 +35,7 @@
 
         {%- comment -%}
           --------------------------------------------------------------------------------------
-          DESKTOP NAV
+          DESKTOP NAV - Condensend
           --------------------------------------------------------------------------------------
         {%- endcomment -%}
 
@@ -383,8 +383,14 @@
     </div>
   </header>
 
-  {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
-    <nav class="nav-bar">
+  {%- comment -%}
+    --------------------------------------------------------------------------------------
+    DESKTOP NAV - Inline & enlarged
+    --------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  {%- if section.settings.desktop_navigation_layout == 'inline' or section.settings.desktop_navigation_layout == 'enlarged' and navigation_menu.links.size > 0 -%}
+    <nav class="nav-bar nav--{{section.settings.desktop_navigation_layout}}">
       <div class="nav-bar__inner">
         <div class="container">
           <ul class="nav-bar__linklist list--unstyled" data-type="menu" role="list">
@@ -401,7 +407,7 @@
                     {%- render 'icon', icon: 'nav-triangle' -%}
                   </a>
 
-                  {%- render 'desktop-menu', menu: link, index: index -%}
+                  {%- render 'desktop-menu', menu: link, index: index, layout: section.settings.desktop_navigation_layout  -%}
                 {%- endif -%}
               </li>
             {%- endfor -%}
@@ -415,7 +421,7 @@
 <style>
   :root {
     --header-is-sticky: {% if section.settings.enable_sticky_header %}1{% else %}0{% endif %};
-    --header-inline-navigation: {% if section.settings.desktop_navigation_layout == 'inline' %}1{% else %}0{% endif %};
+    --header-inline-navigation: {% if section.settings.desktop_navigation_layout == 'inline' or section.settings.desktop_navigation_layout == 'enlarged' %}1{% else %}0{% endif %};
   }
 
   #shopify-section-{{ section.id }} {
@@ -556,6 +562,10 @@
         {
           "value": "inline",
           "label": "Inline"
+        },
+        {
+          "value": "enlarged",
+          "label": "Enlarged"
         }
       ],
       "default": "condensed"
@@ -656,7 +666,7 @@
         {
           "type": "text",
           "id": "image_1_text",
-          "label": "Text",
+          "label": "(Button) Text",
           "default": "Tell your story"
         },
         {
@@ -683,7 +693,7 @@
         {
           "type": "text",
           "id": "image_2_text",
-          "label": "Text",
+          "label": "(Button) Text",
           "default": "Tell your story"
         },
         {
