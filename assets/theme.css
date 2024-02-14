@@ -2615,6 +2615,46 @@ img.lazyload[data-sizes=auto] {
   justify-content: space-between;
 }
 
+.card__header--top {
+  margin-bottom: 15px;
+}
+
+.card__header.card__header--top {
+  padding: 20px;
+}
+
+.card__header--top img {
+  width: 100%;
+}
+
+.card__header--top .collection__header-inner {
+  display: flex;
+  gap: 20px;
+}
+
+.card__header--top .collection__description {
+  width: 70%;
+}
+
+.card__header--top .collection__meta {
+  align-self: center;
+  margin: 0;
+  width: 30%;
+}
+
+
+@media screen and (max-width: 640px) {
+  .card__header--top .collection__meta,
+  .card__header--top .collection__description {
+    width: 100%;
+  }
+
+  .card__header--top .collection__header-inner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .card__title {
   margin-bottom: 0;
 }
@@ -7075,6 +7115,73 @@ select option {
 .nav-dropdown .nav-dropdown--floating {
   top: -16px; /* floating dropdown do not have border so there is one less pixel */
   border-left: 1px solid var(--border-color);
+}
+.nav--enlarged .nav-dropdown__item.is-parent:not(:last-child) {
+  border-right: 1px solid var(--border-color);
+}
+
+.nav--enlarged .nav-dropdown {
+  display: flex;
+  border: none;
+  justify-content: space-between;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  gap: 16px;
+}
+
+.nav--enlarged .mega-menu__linklist {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav--enlarged .nav-dropdown .nav-dropdown,
+.nav--enlarged .mega-menu__linklist,
+.nav--enlarged .mega-menu__inner {
+  position: relative;
+  left: 0;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  color: var(--text-color);
+}
+
+.nav--enlarged .nav-dropdown__item,
+.nav--enlarged .mega-menu__column,
+.nav--enlarged .nav-dropdown__item .mega-menu   {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  position: relative;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav--enlarged .mega-menu:not(.mega-menu--floating) .mega-menu__column:first-child {
+  margin-left: 20px!important;
+}
+
+.nav--enlarged .mega-menu {
+  width: unset;
+  border: none;
+}
+
+.nav--enlarged .nav-dropdown__link svg {
+  display: none;
+}
+
+.nav--enlarged .is-parent > .nav-dropdown__link{
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+
+.nav--enlarged .nav-bar__item {
+  position: unset!important;
 }
 
 /**
@@ -12490,7 +12597,6 @@ shopify-payment-terms {
   .layout {
     display: flex;
     margin-left: -15px;
-    margin-right: -15px;
   }
 
   .layout--pad {
