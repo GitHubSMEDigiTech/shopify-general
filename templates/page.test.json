@@ -4,9 +4,23 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "featured_collection_nAVeer": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "settimana-1",
+        "title": "Featured collection",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_collection_nAVeer"
   ]
 }
