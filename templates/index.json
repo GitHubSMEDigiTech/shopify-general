@@ -14,6 +14,50 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_RabpEb": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TA.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/transatlanticmorsefest2022theabsolutewhirlwindjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "transatlantic",
+            "head_color": "#ffffff",
+            "subtitle": "Live at Morsefest 2022: The Absolute Whirlwind",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 5CD & 2Blu-ray Artbook",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#6fc3dd",
+            "show_preorder": true,
+            "preorder_msg": "april 26",
+            "preorder_msg_color": "#ffffff",
+            "link": "https:\/\/www.insideoutshop.de\/products\/transatlantic-live-at-morsefest-2022-the-absolute-whirlwind-ltd-deluxe-5cd-2blu-ray-artbook"
+          }
+        },
+        "banner_mKJEFe": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6b6.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/sixbysixbeyond-shadowlandjpg_88d6c692-9a0b-4b47-91f7-723949af630f.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Six by six",
+            "head_color": "#ffffff",
+            "subtitle": "beyond shadowland",
+            "subhead_color": "#911212",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#911212",
+            "show_preorder": true,
+            "preorder_msg": "April 26",
+            "preorder_msg_color": "#e8a652",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=SiX+BY+SiX&sort_by=created-descending"
+          }
+        },
         "banner_Ur6NBQ": {
           "type": "banner",
           "settings": {
@@ -102,28 +146,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
           }
         },
-        "a868eaff-c64e-4f12-b85c-27b22f479e9a": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CH.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/caligulashorsecharcoalgrace.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "caligula's horse",
-            "head_color": "#ffffff",
-            "subtitle": "charcoal grace",
-            "subhead_color": "#37657c",
-            "content": "Ltd. CD Digipak|Gatefold black 2LP & LP-Booklet|Ltd. Gatefold apricot colored 2LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#37657c",
-            "show_preorder": true,
-            "preorder_msg": "january 26",
-            "preorder_msg_color": "#976e45",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Caligula%E2%80%99s+Horse&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -147,11 +169,12 @@
         }
       },
       "block_order": [
+        "banner_RabpEb",
+        "banner_mKJEFe",
         "banner_Ur6NBQ",
         "77662857-71a6-4556-b936-ce24534165d3",
         "5eaa32a1-6fe8-4555-9b94-69d502839940",
         "f087a6db-5833-467f-b0be-bba2433d05f7",
-        "a868eaff-c64e-4f12-b85c-27b22f479e9a",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
