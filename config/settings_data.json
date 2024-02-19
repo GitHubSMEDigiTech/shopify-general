@@ -10,6 +10,8 @@
     "show_color_swatch": true,
     "show_inventory_quantity": true,
     "cart_type": "notification",
+    "social_facebook": "https:\/\/www.facebook.com\/store.sonymusic.it\/",
+    "social_instagram": "https:\/\/www.instagram.com\/sonymusicstore_italia\/",
     "logo": "shopify:\/\/shop_images\/SonyMusicLogo_whitematte.gif",
     "logo_width": 70,
     "type_header_font": "assistant_n4",
