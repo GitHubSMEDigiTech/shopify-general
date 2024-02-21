@@ -1,38 +1,35 @@
 {
     "sections": {
-        "cart-items": {
-            "type": "main-cart",
-            "settings": {
-                "color_scheme": "background-1",
-                "padding_top": 36,
-                "padding_bottom": 36
-            }
+      "main": {
+        "type": "main-cart",
+        "blocks": {
         },
-        "cart-footer": {
-            "type": "main-cart-footer",
-            "blocks": {
-                "subtotal": {
-                    "type": "subtotal",
-                    "settings": {}
-                },
-                "buttons": {
-                    "type": "buttons",
-                    "settings": {}
-                }
-            },
-            "block_order": [
-                "subtotal",
-                "buttons"
-            ],
-            "settings": {
-                "color_scheme": "background-1",
-                "padding_top": 20,
-                "padding_bottom": 40
-            }
+        "block_order": [
+        ],
+        "settings": {
+          "enable_order_notes": true,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States",
+          "trust_heading": "Our guarantees",
+          "upsell_heading": "Complete your cart",
+          "upsell_collection": "",
+          "upsell_products_count": 4
         }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      }
     },
     "order": [
-        "cart-items",
-        "cart-footer"
+      "main",
+      "recently-viewed-products"
     ]
-}
+  }
