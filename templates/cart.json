@@ -1,7 +1,7 @@
 {
     "sections": {
         "cart-items": {
-            "type": "main-cart-items",
+            "type": "main-cart",
             "settings": {
                 "color_scheme": "background-1",
                 "padding_top": 36,

@@ -1,10 +1,8 @@
 {
     "sections": {
         "main": {
-            "type": "main-order",
+            "type": "main-customers-order",
             "settings": {
-                "padding_top": 36,
-                "padding_bottom": 36
             }
         }
     },

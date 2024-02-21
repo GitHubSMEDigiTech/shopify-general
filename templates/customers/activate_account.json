@@ -1,10 +1,8 @@
 {
     "sections": {
         "main": {
-            "type": "main-activate-account",
+            "type": "main-customers-activate-account",
             "settings": {
-                "padding_top": 36,
-                "padding_bottom": 36
             }
         }
     },
