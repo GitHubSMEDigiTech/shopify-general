@@ -1,1 +1,14 @@
-{"sections":{"main":{"type":"main-blog","settings":{"show_author":false,"show_date":true}}},"order":["main"]}
+{
+    "sections": {
+        "main": {
+            "type": "main-blog",
+            "settings": {
+                "show_author": false,
+                "show_date": true
+            }
+        }
+    },
+    "order": [
+        "main"
+    ]
+}
