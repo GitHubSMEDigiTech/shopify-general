@@ -221,6 +221,23 @@
       },
       "popups": {
         "type": "popups",
+        "blocks": {
+          "newsletter_7t8i7z": {
+            "type": "newsletter",
+            "settings": {
+              "show_only_on_index": true,
+              "show_only_for_visitors": false,
+              "show_only_once": false,
+              "title": "Achtung Inventur!",
+              "content": "<h5>Bitte beachtet, dass unser System zwischen dem 26. und 29. Februar wegen Inventur nicht verfügbar sein wird. Ihr könnt in dieser Zeit immer noch Bestellungen aufgeben, aber sie werden nicht vor dem 01. März ausgeführt. Außerdem kann es zu Verzögerungen bei der Beantwortung eurer Emails kommen. <br\/>Vielen Dank für euer Verständnis.<\/h5>",
+              "show_newsletter": false,
+              "apparition_delay": 2
+            }
+          }
+        },
+        "block_order": [
+          "newsletter_7t8i7z"
+        ],
         "settings": {
         }
       },
