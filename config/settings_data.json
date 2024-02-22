@@ -226,7 +226,7 @@
           "newsletter_jBY9nq": {
             "type": "newsletter",
             "settings": {
-              "show_only_on_index": false,
+              "show_only_on_index": true,
               "show_only_for_visitors": false,
               "show_only_once": false,
               "title": "Inventory Alert!",
