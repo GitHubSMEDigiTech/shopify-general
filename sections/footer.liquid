@@ -74,6 +74,35 @@
                     {%- endform -%}
                   </div>
                 </div>
+                {%- when 'sme_newsletter' -%}
+                  <div class="footer__block-item footer__block-item--newsletter sme_campaign_newsletter" {{ block.shopify_attributes }}>
+                    <p class="footer__title heading h6">{{ block.settings.title | escape }}</p>
+  
+                    <div class="footer__newsletter-wrapper">
+                      {%- if block.settings.subheading != blank -%}
+                        <div class="footer__newsletter-text rte">{{ block.settings.subheading }}</div>
+                      {%- endif -%}
+  
+                      <div class="newsletter newsletter--compact form newsletter__form ">
+                        <form id="cmdistro-de-website-newsletter-signup">
+                          <input type="hidden" name="js_url" id="js_url" value="https://subs.sonymusicfans.com/submit">
+                          <input type="hidden" name="ae_segment_id" id="ae_segment_id" value="{{block.settings.ae_segment_id}}">
+                          <input type="hidden" name="ae_brand_id" id="ae_brand_id" value="{{block.settings.ae_brand_id}}">
+                          <input type="hidden" name="ae_activities" id="ae_activities" value='{{block.settings.ae_activities}}'>
+                          <input type="hidden" name="ae" id="ae" value="{{block.settings.ae}}">
+                          <input type="hidden" name="form" value="{{block.settings.ae_form}}">
+                          <!-- Form Fields -->
+                          
+                          {{ block.settings.ae_form_html }}
+                    
+                          <!-- Submit Button -->
+                          <button type="submit" id="sme_button" class="form__submit form__submit--tight button button--primary">{{block.settings.btn_txt}}</button>
+                        </form>
+                      </div>
+                    </div>
+                    {% render 'sme-newsletter-js' %}
+                    
+                  </div> 
             {%- endcase -%}
           {%- endfor -%}
         </div>
@@ -337,6 +366,65 @@
           "id": "subheading",
           "label": "Subheading",
           "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+        }
+      ]
+    },
+    {
+      "type": "sme_newsletter",
+      "name": "SME Campaigns Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Newsletter"
+        },
+        {
+          "type": "richtext",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+        },
+        {
+          "type": "text",
+          "id": "ae_segment_id",
+          "label": "AE Segment ID"
+        },
+        {
+          "type": "text",
+          "id": "ae_brand_id",
+          "label": "AE Brand ID"
+        },
+        {
+          "type": "liquid",
+          "id": "ae_activities",
+          "label": "AE Activities"
+        },
+        {
+          "type": "text",
+          "id": "ae",
+          "label": "AE"
+        },
+        {
+          "type": "text",
+          "id": "ae_form",
+          "label": "Form (ID)"
+        },
+        {
+          "type": "liquid",
+          "id": "ae_form_html",
+          "label": "Form Fields"
+        },
+        {
+          "type": "text",
+          "id": "btn_txt",
+          "label": "Button text",
+          "default": "Subscribe"
         }
       ]
     }
