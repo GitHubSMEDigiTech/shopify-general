@@ -1,37 +1,101 @@
 {
-    "sections": {
-        "featured_collection_n34LNk": {
-            "type": "featured-collection",
-            "settings": {
-                "collection": "leggera",
-                "title": "IN EVIDENZA",
-                "products_count": 24,
-                "layout": "vertical",
-                "stack_products": false,
-                "show_quick_buy": true,
-                "link_title": "Visualizza Tutti",
-                "link_url": ""
-            }
+  "sections": {
+    "collection_list_BjAGGK": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_83rTjt": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/artistishopify.png",
+            "link": ""
+          }
         },
-        "collection_with_image_FkAkwr": {
-            "type": "collection-with-image",
-            "settings": {
-                "collection": "leggera",
-                "products_count": 12,
-                "show_quick_buy": false,
-                "background": "#0774d7",
-                "text_color": "#ffffff",
-                "title": "POP MUSIC",
-                "content": "I grandi successi",
-                "button_background": "#ffffff",
-                "button_text_color": "#ff0000",
-                "button_text": "tutti i prodotti",
-                "button_link": ""
-            }
+        "collection_8fRczD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_rTqAtn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_GkPfUU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_g6HJMr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_4zEgDw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
         }
+      },
+      "block_order": [
+        "collection_83rTjt",
+        "collection_8fRczD",
+        "collection_rTqAtn",
+        "collection_GkPfUU",
+        "collection_g6HJMr",
+        "collection_4zEgDw"
+      ],
+      "settings": {
+        "title": "",
+        "link_title": "",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
     },
-    "order": [
-        "featured_collection_n34LNk",
-        "collection_with_image_FkAkwr"
-    ]
+    "featured_collection_n34LNk": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "leggera",
+        "title": "IN EVIDENZA",
+        "products_count": 24,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": true,
+        "link_title": "Visualizza Tutti",
+        "link_url": ""
+      }
+    },
+    "collection_with_image_FkAkwr": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "leggera",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#0774d7",
+        "text_color": "#ffffff",
+        "title": "POP MUSIC",
+        "content": "I grandi successi",
+        "button_background": "#ffffff",
+        "button_text_color": "#ff0000",
+        "button_text": "tutti i prodotti",
+        "button_link": ""
+      }
+    }
+  },
+  "order": [
+    "collection_list_BjAGGK",
+    "featured_collection_n34LNk",
+    "collection_with_image_FkAkwr"
+  ]
 }
