@@ -396,7 +396,6 @@
     },
     "newsletter": {
       "type": "newsletter",
-      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "content": "<p>Subscribe to our newsletter!<\/p>",
@@ -406,6 +405,7 @@
     },
     "newsletter_sme_yjbrtn": {
       "type": "newsletter-sme",
+      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "content": "<p>Subscribe to our newsletter!<\/p>",
