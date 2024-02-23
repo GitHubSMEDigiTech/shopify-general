@@ -3,76 +3,50 @@
 %}
    
 <div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://forms.sonymusicfans.com/wp-content/plugins/smf-core/src/js/form-validation.js" id="form-validation"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" id="bootstrap-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" id="popper-js"></script>
        
     <script>
-        /* jQuery(document).ready(function ($) {
-        $("#sme_button").on("click", function (e) {
-        // Prevent default browser actions on form submission.
-        e.preventDefault();
-        // Get all the form user submitted data and get it ready to be sent.
-        var data = $("#cmdistro-de-website-newsletter-signup").serialize();
-        // POST all the data to the SMF submission endpoint URL.
-        $.ajax({
-            type: "POST",
-            url: "https://subs.sonymusicfans.com/submit",
-            dataType: "json",
-            data: data,
-            xhrFields: {
-            withCredentials: false
-            },
-            success: function (data) {
-            // Do things on successful submission.
-            alert("Submitted!");
-            },
-            error: function (err) {
-            // Do things when submission has an error.
-            alert("An error has occured!");
-            }
-        });
-        });
-
-        $('body').on('change', '.mailing-list-id', function () {
-        $( "#ts-for-"+$(this).attr('id')).prop( "checked", $(this).is(':checked') );
-        });
-    }); */
+      
     
- document.addEventListener('DOMContentLoaded', function() {
-  const form = document.getElementById('cmdistro-de-website-newsletter-signup')
-  const button = document.getElementById('sme_button')
-  
-  button.addEventListener('click', function(e) {
-    e.preventDefault();
-    console.log(form)
-    const params = new FormData(form);
+    document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('cmdistro-de-website-newsletter-signup')
+    const button = document.getElementById('sme_button')
+    
+    button.addEventListener('click', function(e) {
+        e.preventDefault();
+        console.log(form)
+        const params = new URLSearchParams();
+        for (const pair of new FormData(form)) {
+            params.append(pair[0], pair[1]);
+        }
 
-    fetch("https://subs.sonymusicfans.com/submit", {
-      method: 'post',
-      body: params,
-      mode: 'cors',
-      headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': "*",
-          'Access-Control-Allow-Credentials': 'true'
-      }
-    }).then((response) => {
-        console.log(response)
-          return response.json()
-      }).then((res) => {
-        console.log(res)
-          if (res.status === 200) {
-              console.log("Post successfully created!")
-          }
-      }).catch((error) => {
-          console.log(error)
-      })
 
-    }, false)
-}) 
+        fetch("https://subs.sonymusicfans.com/submit", {
+        method: 'POST',
+        body: params.toString(),
+        credentials: 'omit',
+        mode: 'cors',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+        }).then((response) => {
+            console.log(response)
+            if (response.status === 200) {
+                console.log("Post successfully created!")
+                const node = document.createElement("p");
+                node.classList.add('subscribe-success')
+                const textnode = document.createTextNode("Subscribed!");
+                node.appendChild(textnode);
+                form.appendChild(node);
+                            }
+            return response.json()
+        }).catch((error) => {
+            console.log(error)
+        })
+
+        }, false)
+    }) 
     </script>
 
 
@@ -80,5 +54,13 @@
         .display-none, .hidden {
             display: none;
         }
+
+        .subscribe-success {
+            background: var(--success-background);
+            margin-top: 5px;
+            padding: 5px;
+            font-size: 15px;
+            border-radius: 2px;
+                }
     </style>
 </div>
