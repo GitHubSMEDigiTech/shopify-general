@@ -14,6 +14,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_f9pJq4": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yes.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/yesmirrortotheskyembargodate-10march2023jpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "yes",
+            "head_color": "#ffffff",
+            "subtitle": "mirror to the sky",
+            "subhead_color": "#e8e100",
+            "content": "Ltd. 2CD+Blu-ray Digipak",
+            "content_color": "#e61581",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 5",
+            "preorder_msg_color": "#314797",
+            "link": "https:\/\/www.insideoutshop.de\/de\/products\/yes-mirror-to-the-sky-ltd-2cd-blu-ray-digipak"
+          }
+        },
         "banner_RabpEb": {
           "type": "banner",
           "settings": {
@@ -102,50 +124,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Big+Big+Train&sort_by=created-descending"
           }
         },
-        "5eaa32a1-6fe8-4555-9b94-69d502839940": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ES.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/einarsolbergthecongregationacousticjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Einar Solberg",
-            "head_color": "#ffffff",
-            "subtitle": "the congrgation - acoustic",
-            "subhead_color": "#8a9297",
-            "content": "Ltd. CD Digipak|Ltd. Gatefold black 2LP",
-            "content_color": "#eeeeee",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#2e263b",
-            "show_preorder": true,
-            "preorder_msg": "february 16",
-            "preorder_msg_color": "#d0bcc5",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Einar+Solberg&sort_by=created-descending"
-          }
-        },
-        "f087a6db-5833-467f-b0be-bba2433d05f7": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SH.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/stevehackettthecircusandthenightwalejpg_6c35ca3c-7f47-4821-a289-d9dd6fc0d4c8.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "steve hackett",
-            "head_color": "#ffffff",
-            "subtitle": "the circus and the nightwale",
-            "subhead_color": "#6f3733",
-            "content": "Ltd. CD+Blu-ray Mediabook|Standard CD Jewelcase|Gatefold black LP & LP-Booklet|Ltd. Gatefold transp. red LP & LP-Booklet|Ltd. Gatefold transp. blue LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "february 16",
-            "preorder_msg_color": "#6f3733",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -169,12 +147,11 @@
         }
       },
       "block_order": [
+        "banner_f9pJq4",
         "banner_RabpEb",
         "banner_mKJEFe",
         "banner_Ur6NBQ",
         "77662857-71a6-4556-b936-ce24534165d3",
-        "5eaa32a1-6fe8-4555-9b94-69d502839940",
-        "f087a6db-5833-467f-b0be-bba2433d05f7",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
