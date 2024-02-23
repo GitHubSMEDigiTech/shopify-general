@@ -8,7 +8,7 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/artistishopify_da47eb75-065b-4499-81c6-1dc07c34e997.png",
-            "link": "#"
+            "link": "shopify:\/\/pages\/artisti"
           }
         },
         "collection_rTqAtn": {
@@ -50,7 +50,7 @@
       "settings": {
         "title": "",
         "link_title": "",
-        "link": "shopify:\/\/collections",
+        "link": "shopify:\/\/pages\/artisti",
         "round_images": true,
         "show_collection_title": true
       }
