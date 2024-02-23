@@ -3,19 +3,12 @@
     "collection_list_BjAGGK": {
       "type": "collection-list",
       "blocks": {
-        "collection_83rTjt": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/artistishopify.png",
-            "link": ""
-          }
-        },
         "collection_8fRczD": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/artistishopify_da47eb75-065b-4499-81c6-1dc07c34e997.png",
+            "link": "#"
           }
         },
         "collection_rTqAtn": {
@@ -48,7 +41,6 @@
         }
       },
       "block_order": [
-        "collection_83rTjt",
         "collection_8fRczD",
         "collection_rTqAtn",
         "collection_GkPfUU",
