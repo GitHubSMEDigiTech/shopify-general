@@ -396,11 +396,28 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "content": "<p>Subscribe to our newsletter!<\/p>",
         "background": "#ffffff",
         "text": "#666666"
+      }
+    },
+    "newsletter_sme_yjbrtn": {
+      "type": "newsletter-sme",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>Subscribe to our newsletter!<\/p>",
+        "ae_segment_id": "1700057",
+        "ae_brand_id": "3447671",
+        "ae_activities": "{\"actions\":{\"formsubmission\":98131,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S2400000NgsDAEAZ\":98132}}",
+        "ae": "a46886de7a3bb739711087fe2c65a5e972b8ff824d078c63999efe0547896899",
+        "ae_form": "218351",
+        "ae_form_html": "<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t id=\"confirmation_email\" class=\"display-none\" checked=\"checked\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t\t id=\"ts-for-mailing-list-id[0]\" class=\"triggered_sends display-none\"  value=\"6420609;CMDistroNewsletter_WPFormConfirm;a0S2400000NgsDAEAZ\">\n\t\t\t\t<div class=\"input-group hidden\">\n\t\t\t\t\t<div class=\"checkbox\">\n\t\t\t\t\t\t<label for=\"mailing-list-id[0]\">\n\t\t\t\t\t\t\t<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\"\n\t\t\t\t\t\t\t\t\t\t name=\"mailing-list-id[0]\" value=\"a0S2400000NgsDAEAZ\">\n\t\t\t\t\t\t\t<p>I'd like to subscribe to the CMDistro.de Newsletter newsletter<\/p>\t\t\t\t\t\t<\/label>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>",
+        "btn_txt": "Subscribe",
+        "background": "#ffffff",
+        "text": "#000000"
       }
     }
   },
@@ -411,6 +428,7 @@
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
     "featured-products",
     "collection-list",
-    "newsletter"
+    "newsletter",
+    "newsletter_sme_yjbrtn"
   ]
 }
