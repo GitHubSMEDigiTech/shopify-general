@@ -14,6 +14,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_tGQJkg": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Preckless.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/theprettyrecklessotherworldsjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "the pretty reckless",
+            "head_color": "#ffffff",
+            "subtitle": "in other worlds",
+            "subhead_color": "#c59f9b",
+            "content": "ltd. transparent pink LP",
+            "content_color": "#c59f9b",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#c59f9b",
+            "show_preorder": false,
+            "preorder_msg": "only 300 copies worldwide | get your copy now!",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/products\/the-pretty-reckless-other-worlds-ltd-transp-pink-lp?_pos=5&_fid=0678c7dea&_ss=c"
+          }
+        },
         "banner_hg8N9J": {
           "type": "banner",
           "settings": {
@@ -301,6 +323,7 @@
         }
       },
       "block_order": [
+        "banner_tGQJkg",
         "banner_hg8N9J",
         "banner_KCiDjy",
         "banner_eXyRrK",
