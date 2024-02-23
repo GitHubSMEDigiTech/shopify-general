@@ -396,6 +396,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "content": "<p>Subscribe to our newsletter!<\/p>",
@@ -405,7 +406,6 @@
     },
     "newsletter_sme_yjbrtn": {
       "type": "newsletter-sme",
-      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "content": "<p>Subscribe to our newsletter!<\/p>",
@@ -414,7 +414,7 @@
         "ae_activities": "{\"actions\":{\"formsubmission\":98131,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S2400000NgsDAEAZ\":98132}}",
         "ae": "a46886de7a3bb739711087fe2c65a5e972b8ff824d078c63999efe0547896899",
         "ae_form": "218351",
-        "ae_form_html": "<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t id=\"confirmation_email\" class=\"display-none\" checked=\"checked\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t\t id=\"ts-for-mailing-list-id[0]\" class=\"triggered_sends display-none\"  value=\"6420609;CMDistroNewsletter_WPFormConfirm;a0S2400000NgsDAEAZ\">\n\t\t\t\t<div class=\"input-group hidden\">\n\t\t\t\t\t<div class=\"checkbox\">\n\t\t\t\t\t\t<label for=\"mailing-list-id[0]\">\n\t\t\t\t\t\t\t<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\"\n\t\t\t\t\t\t\t\t\t\t name=\"mailing-list-id[0]\" value=\"a0S2400000NgsDAEAZ\">\n\t\t\t\t\t\t\t<p>I'd like to subscribe to the CMDistro.de Newsletter newsletter<\/p>\t\t\t\t\t\t<\/label>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>",
+        "ae_form_html": "<div class=\"form-group\" data-validation=\"Enter a valid email address\">\n\t\t\t\t<label for=\"field_email_address\">\n\t\t\t\t\tEmail Address\n\t\t\t\t<\/label>\n\t\t\t\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\">\n\t\t\t<\/div>\n\n <input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t id=\"confirmation_email\" class=\"display-none\" checked=\"checked\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t\t id=\"ts-for-mailing-list-id[0]\" class=\"triggered_sends display-none\"  value=\"6420609;CMDistroNewsletter_WPFormConfirm;a0S2400000NgsDAEAZ\">\n\t\t\t\t<div class=\"input-group hidden\">\n\t\t\t\t\t<div class=\"checkbox\">\n\t\t\t\t\t\t<label for=\"mailing-list-id[0]\">\n\t\t\t\t\t\t\t<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\"\n\t\t\t\t\t\t\t\t\t\t name=\"mailing-list-id[0]\" value=\"a0S2400000NgsDAEAZ\">\n\t\t\t\t\t\t\t<p>I'd like to subscribe to the CMDistro.de Newsletter newsletter<\/p>\t\t\t\t\t\t<\/label>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>",
         "btn_txt": "Subscribe",
         "background": "#ffffff",
         "text": "#000000"
