@@ -278,11 +278,28 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "Newsletter",
         "content": "<p>Melde dich für unseren Newsletter an!<\/p>",
         "background": "#ffffff",
         "text": "#666666"
+      }
+    },
+    "newsletter_sme_kA4GXm": {
+      "type": "newsletter-sme",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>Melde dich für unseren Newsletter an!<\/p>",
+        "ae_segment_id": "1700058",
+        "ae_brand_id": "3795403",
+        "ae_activities": "{\"actions\":{\"formsubmission\":98133,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S1p00000SlmygEAB\":98134}}",
+        "ae": "a46886de7a3bb739711087fe2c65a5e972b8ff824d078c63999efe0547896899",
+        "ae_form": "218360",
+        "ae_form_html": "<div class=\"form-group\" data-validation=\"Enter a valid email address\">\n\t\t\t\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Deine Email\">\n\t\t\t<\/div>\n\t\t      <input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t id=\"confirmation_email\" class=\"display-none\" checked=\"checked\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t\t id=\"ts-for-mailing-list-id[0]\" class=\"triggered_sends display-none\"  value=\"6420609;HoerspielNewsletter_WPFormConfirm;a0S1p00000SlmygEAB\">\n\t\t\t\t<div class=\"input-group hidden\">\n\t\t\t\t\t<div class=\"checkbox\">\n\t\t\t\t\t\t<label for=\"mailing-list-id[0]\">\n\t\t\t\t\t\t\t<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\"\n\t\t\t\t\t\t\t\t\t\t name=\"mailing-list-id[0]\" value=\"a0S1p00000SlmygEAB\">\n\t\t\t\t\t\t\t<p>I'd like to subscribe to the HOERSPIEL.DE newsletter<\/p>\t\t\t\t\t\t<\/label>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>",
+        "btn_txt": "Abschicken",
+        "background": "#ffffff",
+        "text": "#000000"
       }
     }
   },
@@ -292,6 +309,7 @@
     "featured-collection",
     "featured-products",
     "collection-list",
-    "newsletter"
+    "newsletter",
+    "newsletter_sme_kA4GXm"
   ]
 }
