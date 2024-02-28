@@ -501,9 +501,9 @@
       },
       "order_summary": {
         "deferred_payment_info": {
-          "title": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon.",
-          "due_on_fulfillment_title": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon",
-          "due_on_receipt_title": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon"
+          "title": "Payment is due on indiviual payment terms as negotiated upon.",
+          "due_on_fulfillment_title": "Payment is due on indiviual payment terms as negotiated upon",
+          "due_on_receipt_title": "Payment of is due on indiviual payment terms as negotiated upon"
         },
         "payment_terms_totals": {
           "due_on_fulfillment": "Indiviual payment terms apply as negotiated upon",
@@ -514,7 +514,7 @@
       },
       "payment": {
         "pending_payment": {
-          "due_notice": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon"
+          "due_notice": "Payment of is due on indiviual payment terms as negotiated upon"
         }
       },
       "payment_summary": {
@@ -522,10 +522,10 @@
         "manual_payment_gateway_label": "Indiviual payment terms apply as negotiated upon"
       },
       "payment_gateway": {
-        "fixed_payment_label": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon",
-        "generic_payment_terms": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon",
-        "direct_payment_terms": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon",
-        "order_due_on_fulfillment_choose_later": "Payment of {{ amount_due }} is due on indiviual payment terms as negotiated upon"
+        "fixed_payment_label": "Payment of  is due on indiviual payment terms as negotiated upon",
+        "generic_payment_terms": "Payment of is due on indiviual payment terms as negotiated upon",
+        "direct_payment_terms": "Payment of is due on indiviual payment terms as negotiated upon",
+        "order_due_on_fulfillment_choose_later": "Payment of  is due on indiviual payment terms as negotiated upon"
       },
       "thank_you": {
         "payment_method_title": "Indiviual payment terms apply as negotiated upon",
