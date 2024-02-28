@@ -3,23 +3,6 @@
     "46338822-9410-46bb-b9ee-de365b10d376": {
       "type": "slideshow",
       "blocks": {
-        "template--14815569707067__46338822-9410-46bb-b9ee-de365b10d376-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Electric_Reissues_1123_2160-720_e5b3fc4c-37c1-4656-b275-accdb47c0d49.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Electric_Reissues_1123_750-1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": ""
-          }
-        },
         "template--14815569707067__46338822-9410-46bb-b9ee-de365b10d376-image-2": {
           "type": "image",
           "disabled": true,
@@ -35,15 +18,37 @@
             "button_text": "Button",
             "link": ""
           }
+        },
+        "banner_n6mknz": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AE_981a9748-8af9-41c2-9e92-7b3a8f003857.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "",
+            "head_color": "#ffffff",
+            "subtitle": "",
+            "subhead_color": "#555555",
+            "content": "",
+            "content_color": "#555555",
+            "show_preorder_banner": false,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "template--14815569707067__46338822-9410-46bb-b9ee-de365b10d376-image-1",
-        "template--14815569707067__46338822-9410-46bb-b9ee-de365b10d376-image-2"
+        "template--14815569707067__46338822-9410-46bb-b9ee-de365b10d376-image-2",
+        "banner_n6mknz"
       ],
       "settings": {
         "edge_to_edge": false,
         "section_size": "small",
+        "mobile_section_size": "",
         "carousel_effect": "slide",
         "autoplay": true,
         "cycle_speed": 5
@@ -51,9 +56,14 @@
     },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": false,
         "collapse_collection_description": false,
+        "show_collection_top": false,
+        "top_bg_color": "#F3F3F3",
+        "headline_deco": false,
+        "headline_deco_col": "#d82222",
         "collection_image_size": "preserve_ratio",
         "products_per_row": "4",
         "default_products_per_page": 24,
