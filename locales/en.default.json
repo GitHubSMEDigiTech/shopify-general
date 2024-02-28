@@ -525,12 +525,14 @@
         "fixed_payment_label": "Payment of  is due on indiviual payment terms as negotiated upon",
         "generic_payment_terms": "Payment of is due on indiviual payment terms as negotiated upon",
         "direct_payment_terms": "Payment of is due on indiviual payment terms as negotiated upon",
-        "order_due_on_fulfillment_choose_later": "Payment of  is due on indiviual payment terms as negotiated upon"
+        "order_due_on_fulfillment_choose_later": "Payment of  is due on indiviual payment terms as negotiated upon",
+        "deferred_payment_label": "Indiviual payment terms apply as negotiated upon"
       },
       "thank_you": {
         "payment_method_title": "Indiviual payment terms apply as negotiated upon",
         "thank_you_title_payment": "Indiviual payment terms apply as negotiated upon",
-        "thank_you_title_payments_app_pending_default": "Indiviual payment terms apply as negotiated upon"
+        "thank_you_title_payments_app_pending_default": "Indiviual payment terms apply as negotiated upon",
+        "choose_payment_method_later": "Indiviual payment terms apply as negotiated upon"
       },
       "review": {
         "blocks": {
