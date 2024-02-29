@@ -7122,8 +7122,12 @@ select option {
   border-right: 1px solid var(--border-color);
 }
 
-.nav--enlarged .nav-dropdown {
+.nav--enlarged .is-dropdown-open .nav-dropdown {
   display: flex;
+}
+
+.nav--enlarged .nav-dropdown {
+  display: none;
   border: none;
   justify-content: space-between;
   left: 0;
