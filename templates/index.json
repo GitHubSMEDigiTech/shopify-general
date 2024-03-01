@@ -14,6 +14,72 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_F3P4bK": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wheel.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/wheelcharismaticleadersjpg_5492f74b-5cd4-49e4-b224-af56abbbe490.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#e6d612",
+            "title": "wheel",
+            "head_color": "#ffffff",
+            "subtitle": "charismatic leaders",
+            "subhead_color": "#e6d612",
+            "content": "Ltd. CD Digipak | Gatefold black LP\nLtd. Gatefold transp. petrol green LP | Ltd. Gatefold lemon colored LP",
+            "content_color": "#e6d612",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#000000",
+            "show_preorder": true,
+            "preorder_msg": "may 3",
+            "preorder_msg_color": "#e6d612",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Wheel&sort_by=created-descending"
+          }
+        },
+        "banner_TPHb6F": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/msw.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/Maybeshewill_FairYouth.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "maybeshewill",
+            "head_color": "#ffffff",
+            "subtitle": "Fair Youth (10th Anniversary Remix & Remaster)",
+            "subhead_color": "#c9434e",
+            "content": "Ltd. Gatefold opaque hot pink-black marbled LP",
+            "content_color": "#c9434e",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "may 3",
+            "preorder_msg_color": "#4c4a94",
+            "link": "https:\/\/www.insideoutshop.de\/products\/maybeshewill-fair-youth-10th-anniversary-remix-remaster-ltd-gatefold-opaque-hot-pink-black-marbled-lp"
+          }
+        },
+        "banner_VwNtDd": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ou.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/OU_II_Frailty.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "ou",
+            "head_color": "#ffffff",
+            "subtitle": "ii: frailty",
+            "subhead_color": "#555555",
+            "content": "Standard CD Jewelcase\nLtd. white-black marbled LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "april 26",
+            "preorder_msg_color": "#555555",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=OU&sort_by=created-descending"
+          }
+        },
         "banner_f9pJq4": {
           "type": "banner",
           "settings": {
@@ -147,6 +213,9 @@
         }
       },
       "block_order": [
+        "banner_F3P4bK",
+        "banner_TPHb6F",
+        "banner_VwNtDd",
         "banner_f9pJq4",
         "banner_RabpEb",
         "banner_mKJEFe",
