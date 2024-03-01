@@ -224,6 +224,7 @@
         "blocks": {
           "newsletter_7t8i7z": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "show_only_on_index": true,
               "show_only_for_visitors": false,
