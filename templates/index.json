@@ -14,6 +14,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_pzLXXy": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ssb.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/SANGUISUGABOGG_TorturedWhole.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#89448a",
+            "title": "Sanguisugabogg",
+            "head_color": "#89448a",
+            "subtitle": "Tortured Whole",
+            "subhead_color": "#be9363",
+            "content": "Standard CD Jewelcase",
+            "content_color": "#89448a",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#89448a",
+            "show_preorder": true,
+            "preorder_msg": "march 29",
+            "preorder_msg_color": "#be9363",
+            "link": "https:\/\/www.cmdistro.de\/de\/products\/sanguisugabogg-tortured-whole-standard-cd-jewelcase"
+          }
+        },
         "banner_tGQJkg": {
           "type": "banner",
           "settings": {
@@ -211,28 +233,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Insomnium&sort_by=created-descending"
           }
         },
-        "acb085bb-ec66-47ee-a2b2-e7703b387036": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BorknBanner.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/borknagarfalljpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#eeeeee",
-            "title": "borknagar",
-            "head_color": "#ffffff",
-            "subtitle": "fall",
-            "subhead_color": "#000000",
-            "content": "Ltd. CD Digipak|Gatefold black 2LP|Ltd. Gatefold neon orange 2LP",
-            "content_color": "#df5235",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "February 23",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Borknagar&sort_by=created-descending"
-          }
-        },
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7": {
           "type": "banner",
           "settings": {
@@ -323,6 +323,7 @@
         }
       },
       "block_order": [
+        "banner_pzLXXy",
         "banner_tGQJkg",
         "banner_hg8N9J",
         "banner_KCiDjy",
@@ -332,7 +333,6 @@
         "banner_FncBAX",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
         "banner_6WBTFP",
-        "acb085bb-ec66-47ee-a2b2-e7703b387036",
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
         "efa03930-1473-4227-a589-7665cb7c6052",
         "39663d04-d7a4-4f38-9ceb-353385b12da5",
