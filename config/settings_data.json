@@ -265,7 +265,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "6986766168588894248": {
+        "type": "shopify:\/\/apps\/preorder-now-wolf\/blocks\/app-embed\/7ee1d740-e67b-4ea8-b0c9-1f62cb8777ec",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
