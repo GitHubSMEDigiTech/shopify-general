@@ -14,6 +14,52 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_zUxpw9": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/soulmates.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/MandokiSoulmates_AMemoryOfOurFuture.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "mandoki soulmates",
+            "head_color": "#9a0f16",
+            "subtitle": "a memory of our future",
+            "subhead_color": "#9a0f16",
+            "content": "Ltd. CD Edition\nGatefold black \n2LP & LP-Booklet",
+            "content_color": "#1d1810",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#1d1810",
+            "show_preorder": true,
+            "preorder_msg": "may 10",
+            "preorder_msg_color": "#9a0f16",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Mandoki+Soulmates&sort_by=created-descending"
+          }
+        },
+        "banner_G6xRWe": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tangent.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/TheTangent_ToFollowPolaris.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "the tangent",
+            "head_color": "#aa69a7",
+            "subtitle": "to follow polaris",
+            "subhead_color": "#102a1a",
+            "content": "Ltd. CD Mediabook\nGatefold black 2LP",
+            "content_color": "#102a1a",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#a5a5a5",
+            "show_preorder": true,
+            "preorder_msg": "may 10",
+            "preorder_msg_color": "#102a1a",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=The+Tangent&sort_by=created-descending"
+          }
+        },
         "banner_F3P4bK": {
           "type": "banner",
           "settings": {
@@ -213,6 +259,8 @@
         }
       },
       "block_order": [
+        "banner_zUxpw9",
+        "banner_G6xRWe",
         "banner_F3P4bK",
         "banner_TPHb6F",
         "banner_VwNtDd",
