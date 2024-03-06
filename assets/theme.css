@@ -4572,7 +4572,8 @@ img.lazyload[data-sizes=auto] {
  * --------------------------------------------------------------------
  */
 
-.form__field {
+.form__field,
+.sme_campaign_newsletter input[type="text"] {
   display: block;
   padding: 12px 12px;
   border-radius: 2px;
@@ -4644,7 +4645,8 @@ img.lazyload[data-sizes=auto] {
   color: var(--error-color);
 }
 
-.form__label {
+.form__label,
+.sme_campaign_newsletter label {
   display: block;
   margin-bottom: 6px;
   color: var(--heading-color);
@@ -7120,8 +7122,12 @@ select option {
   border-right: 1px solid var(--border-color);
 }
 
-.nav--enlarged .nav-dropdown {
+.nav--enlarged .is-dropdown-open .nav-dropdown {
   display: flex;
+}
+
+.nav--enlarged .nav-dropdown {
+  display: none;
   border: none;
   justify-content: space-between;
   left: 0;
