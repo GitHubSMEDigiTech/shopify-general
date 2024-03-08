@@ -102,28 +102,6 @@
             "link": "https:\/\/www.cmdistro.de\/products\/lorna-shore-pain-remains-gatefold-black-2lp"
           }
         },
-        "banner_eXyRrK": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/electric.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/electriccallboy-EClogo-4c.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#000000",
-            "title": "electric callboy",
-            "head_color": "#ffffff",
-            "subtitle": "the scene|rehab|MMXX EP",
-            "subhead_color": "#a2ccfd",
-            "content": "CD jewelcase",
-            "content_color": "#a2ccfd",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#000000",
-            "show_preorder": true,
-            "preorder_msg": "march 01",
-            "preorder_msg_color": "#98012d",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Electric+Callboy&sort_by=created-descending"
-          }
-        },
         "banner_CMydxc": {
           "type": "banner",
           "settings": {
@@ -190,49 +168,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=GH%C3%98STKID&sort_by=created-descending"
           }
         },
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blowout.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/cm_logo.png",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "midprice blowout",
-            "head_color": "#ffffff",
-            "subtitle": "on selected catalog titles",
-            "subhead_color": "#540601",
-            "content": "be quick - only available while supplies last",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "click to enter the vault!",
-            "preorder_msg_color": "#ad141f",
-            "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
-          }
-        },
-        "banner_6WBTFP": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/inso.jpg",
-            "bg_color": "#eeeeee",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "Insomnium",
-            "head_color": "#ffffff",
-            "subtitle": "winter's gate|one for sorrow",
-            "subhead_color": "#ffffff",
-            "content": "Re-issues 2024\nwinter's gate -  Ltd. grey LP\none for sorrow - Ltd. transp. coke bottle green LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 1",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Insomnium&sort_by=created-descending"
-          }
-        },
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7": {
           "type": "banner",
           "settings": {
@@ -253,50 +188,6 @@
             "preorder_msg": "March 15",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Necrophobic&sort_by=created-descending"
-          }
-        },
-        "efa03930-1473-4227-a589-7665cb7c6052": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SkeRemBanner.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/skeletalremainsfragmentsoftheagelessjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "skeletal remains",
-            "head_color": "#ffffff",
-            "subtitle": "fragments of the ageless",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak|Ltd. Gatefold transp. magenta LP|Ltd. Gatefold lemon colored LP|Ltd. Gatefold transp. light blue LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#02343c",
-            "show_preorder": true,
-            "preorder_msg": "March 8",
-            "preorder_msg_color": "#eedb60",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Skeletal+Remains&sort_by=created-descending"
-          }
-        },
-        "39663d04-d7a4-4f38-9ceb-353385b12da5": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BlindCha.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/blindchannelexitemotionsjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "blind channel",
-            "head_color": "#ffffff",
-            "subtitle": "exit emotions",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Digipak|Ltd. transp. red-black marbled LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 1",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Blind+Channel&sort_by=created-descending"
           }
         },
         "02a54b18-c68a-42ec-be73-158190e5fe63": {
@@ -320,6 +211,28 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/judas-priest-firepower-tour-edition"
           }
+        },
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blowout.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/cm_logo.png",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "midprice blowout",
+            "head_color": "#ffffff",
+            "subtitle": "on selected catalog titles",
+            "subhead_color": "#540601",
+            "content": "be quick - only available while supplies last",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "click to enter the vault!",
+            "preorder_msg_color": "#ad141f",
+            "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
+          }
         }
       },
       "block_order": [
@@ -327,16 +240,12 @@
         "banner_tGQJkg",
         "banner_hg8N9J",
         "banner_KCiDjy",
-        "banner_eXyRrK",
         "banner_CMydxc",
         "banner_MDmktJ",
         "banner_FncBAX",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
-        "banner_6WBTFP",
         "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
-        "efa03930-1473-4227-a589-7665cb7c6052",
-        "39663d04-d7a4-4f38-9ceb-353385b12da5",
-        "02a54b18-c68a-42ec-be73-158190e5fe63"
+        "02a54b18-c68a-42ec-be73-158190e5fe63",
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
         "edge_to_edge": true,
