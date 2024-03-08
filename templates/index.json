@@ -16,7 +16,6 @@
       "blocks": {
         "banner_zUxpw9": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/soulmates.jpg",
             "bg_color": "#eeeeee",
@@ -39,7 +38,6 @@
         },
         "banner_G6xRWe": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/tangent.jpg",
             "bg_color": "#eeeeee",
