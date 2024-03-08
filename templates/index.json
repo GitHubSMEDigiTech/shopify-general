@@ -212,28 +212,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Whom+Gods+Destroy&sort_by=created-descending"
           }
         },
-        "77662857-71a6-4556-b936-ce24534165d3": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bbt.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/bigbigtrainthelikesofusjpg_8db4b93a-21a3-443b-b3f3-4702d5687c5f.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "big big train",
-            "head_color": "#ffffff",
-            "subtitle": "the likes of us",
-            "subhead_color": "#000000",
-            "content": "Ltd. CD+Blu-ray Mediabook|Standard CD Jewelcase|Gatefold black 2LP|Ltd. Gatefold sky blue 2LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 1",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Big+Big+Train&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -266,7 +244,6 @@
         "banner_RabpEb",
         "banner_mKJEFe",
         "banner_Ur6NBQ",
-        "77662857-71a6-4556-b936-ce24534165d3",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
