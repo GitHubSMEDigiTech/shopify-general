@@ -14,6 +14,94 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_Y8mhmn": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FFJ.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658884832.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#f0dd7f",
+            "title": "fünf freunde junior",
+            "head_color": "#dd6f0a",
+            "subtitle": "folge 4",
+            "subhead_color": "#ecf2f1",
+            "content": "das geheimnisvolle geräusch \nder verlorene schatz",
+            "content_color": "#dd6f0a",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#75c7c1",
+            "show_preorder": false,
+            "preorder_msg": "jetzt vorbestellen - vö: 29. märz",
+            "preorder_msg_color": "#01427e",
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/vendors?q=F%C3%BCnf+Freunde+Junior&sort_by=created-descending"
+          }
+        },
+        "banner_zpbLei": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DDF.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/74321388301.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "die drei ???",
+            "head_color": "#ffffff",
+            "subtitle": "und das riff der haie",
+            "subhead_color": "#c8000a",
+            "content": "picture lp",
+            "content_color": "#00a5e8",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "limitiertes picture vinyl - jetzt vorbestellen - VÖ: 19. april",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/products\/die-drei-und-das-riff-der-haie-lim-picture-vinyl-140gr"
+          }
+        },
+        "banner_hP4m8F": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GS.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19802800202.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffff01",
+            "title": "gruselserie",
+            "head_color": "#000000",
+            "subtitle": "der unsichtbare - injektion des bösen",
+            "subhead_color": "#000000",
+            "content": "CD",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#000000",
+            "show_preorder": false,
+            "preorder_msg": "folge 12 - jetzt vorbestellen! VÖ: 12. Mai",
+            "preorder_msg_color": "#ffffff",
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/vendors?q=Gruselserie&sort_by=created-descending"
+          }
+        },
+        "fa5be477-c484-433e-bcdd-6e718bf68098": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DDA.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658836332.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "Die drei !!!",
+            "head_color": "#000000",
+            "subtitle": "geheimnisvoller liebestrank",
+            "subhead_color": "#ca5a66",
+            "content": "CD",
+            "content_color": "#2f7680",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "fall 86 - jetzt vorbestellen! VÖ: 3. mai",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/all?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=Die+drei+%21%21%21"
+          }
+        },
         "banner_GTCfrL": {
           "type": "banner",
           "settings": {
@@ -31,31 +119,9 @@
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": false,
-            "preorder_msg": "jetzt vorbestellen! - v.ö. 22. März",
+            "preorder_msg": "jetzt vorbestellen! - VÖ: 22. März",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/shop.hoerspiel.de\/products\/funf-freunde-und-das-riesige-reptil-cd-longplay"
-          }
-        },
-        "fa5be477-c484-433e-bcdd-6e718bf68098": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DDA86.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/19658766982.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "Die drei !!!",
-            "head_color": "#000000",
-            "subtitle": "rätselhafter raub",
-            "subhead_color": "#e72888",
-            "content": "CD Longplay",
-            "content_color": "#00b0e9",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "fall #86 | Hier vorbestellen! | V.ö. 01. märz",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/shop.hoerspiel.de\/collections\/all?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=Die+drei+%21%21%21"
           }
         },
         "banner_7aKrcR": {
@@ -79,35 +145,15 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/shop.hoerspiel.de\/collections\/die-drei?sort_by=created-descending"
           }
-        },
-        "banner_nwHDcV": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DDFKGZ.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/19658856072.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "die drei ??? kids",
-            "head_color": "#ffffff",
-            "subtitle": "geheime zeichen",
-            "subhead_color": "#e3000f",
-            "content": "cd longplay",
-            "content_color": "#37a9d9",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "jetzt vorbestellen! - v.ö. 08. märz",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/shop.hoerspiel.de\/products\/die-drei-kids-geheime-zeichen-cd-longplay"
-          }
         }
       },
       "block_order": [
-        "banner_GTCfrL",
+        "banner_Y8mhmn",
+        "banner_zpbLei",
+        "banner_hP4m8F",
         "fa5be477-c484-433e-bcdd-6e718bf68098",
-        "banner_7aKrcR",
-        "banner_nwHDcV"
+        "banner_GTCfrL",
+        "banner_7aKrcR"
       ],
       "settings": {
         "edge_to_edge": true,
