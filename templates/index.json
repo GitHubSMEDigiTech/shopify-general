@@ -156,8 +156,8 @@
         "banner_7aKrcR"
       ],
       "settings": {
-        "edge_to_edge": true,
-        "section_size": "small",
+        "edge_to_edge": false,
+        "section_size": "medium",
         "mobile_section_size": "",
         "carousel_effect": "fade",
         "autoplay": true,
