@@ -1,0 +1,142 @@
+<section data-section-id="{{ section.id }}" data-section-type="page">
+  <div class="container container--narrow">
+    <header class="page__header page__header--centered page__header--stack">
+      <h1 class="page__title heading h1">{{ page.title }}</h1>
+
+      {%- if page.content != blank and page.template_suffix == 'contact' or page.template_suffix == 'team' -%}
+        <div class="page__description rte">
+          {{ page.content }}
+        </div>
+      {%- endif -%}
+    </header>
+
+    
+      <div class="page__content vendor_list">
+        {% assign last = "" %}
+        {% assign acc_nav = "" %}
+        <div>
+          {%  for vendor in shop.vendors %} 
+            {% assign last_letter = last |  slice: 0  %}
+            {% assign vendor_letter = vendor |  slice: 0 %}
+
+            <!-- Handle section order (befinded by letter) -->
+            {% if last_letter != vendor_letter %}
+              {% assign acc_nav = acc_nav | append: vendor_letter | append: '-' %}
+              <!-- Close before section -->
+              {% unless forloop.first %}
+                </ul>
+              {% endunless %}
+              <!-- Start new section -->
+                <div class="accordion" id="vendor_{{ vendor_letter }}"><span>{{ vendor_letter }}</span> {%- render 'icon', icon: 'plus' -%}</div>
+                <ul class="panel">
+            {% endif %}
+             <!-- Section content, vendor list -->
+            <li>{{ vendor | link_to_vendor }} </li>
+            {% assign last = vendor %} 
+            
+            <!-- Close last section -->
+            {% if forloop.last %}
+              </ul>
+            {% endif %}
+
+          {% endfor %} 
+        </div>
+        <ul class="vendor_nav">
+          {% assign acc_nav_arr = acc_nav|  split: "-" %}
+          {%  for nav in acc_nav_arr %} 
+            <li onclick="navigate('vendor_{{ nav }}')">{{ nav }}</li>
+          {%  endfor %} 
+        </ul>
+      </div>
+  </div>
+
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+      }, false);
+
+      function navigate(target) {
+        console.log('Klicked: ' + target)
+        var header = document.querySelector("header");
+        var nav = document.querySelector(".nav-bar__linklist");
+        var targetEl = document.getElementById(target);
+
+        var offsetPosition = targetEl.getBoundingClientRect().top - header.getBoundingClientRect().height - nav.getBoundingClientRect().height;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+
+        targetEl.classList.add("active")
+        var panel = targetEl.nextElementSibling;
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+  </script>
+</section>
+
+<style>
+.panel {
+  background-color: {{ section.settings.panel_color }}!important;
+}
+
+.accordion,
+ul.vendor_nav li {
+  background-color: {{ section.settings.bg_color }}!important;
+  color: {{ section.settings.text_color }}!important;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover,
+ul.vendor_nav li:hover {
+  opacity: 0.6;
+}
+
+</style>
+
+{% schema %}
+{
+  "name": "List of Vendors",
+  "settings": [
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Navigation Text Color",
+      "default": "#444"
+    }, 
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Navigation Background Color",
+      "default": "#eee"
+    }, 
+    {
+      "type": "color",
+      "id": "panel_color",
+      "label": "Container Color",
+      "default": "#fff"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Vendor list",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}

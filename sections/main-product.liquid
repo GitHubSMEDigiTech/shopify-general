@@ -21,6 +21,7 @@
 {%- endcapture -%}
 
 <section data-section-id="{{ section.id }}" data-section-type="product" data-section-settings='{{ section_settings }}'>
+
   {%- if template != 'product.quick-view' -%}
     <div class="container container--flush">
       <div class="page__sub-header">
@@ -46,8 +47,21 @@
               <span class="breadcrumb__link" aria-current="page">{{ variant.sku | truncate: 40 }}</span>
             </li>
           </ol>
+          
+          {% if section.settings.list_collections %}
+            <ol class="breadcrumb__list" role="list">
+              <li class="breadcrumb__item">
+                {%- render 'icon', icon: 'filter' -%}
+              </li>
+              {%- for col in product.collections -%}
+                <li class="breadcrumb__item">
+                  <a class="breadcrumb__link link" href="{{ col.url }}">{{ col.title }}</a>{% unless forloop.last %}, {% endunless %}
+                </li>
+              {%- endfor -%}
+            </ol>
+          {%- endif -%}
         </nav>
-
+        
         {%- if collection.previous_product or collection.next_product -%}
           <div class="page__navigation">
             {%- if collection.previous_product -%}
@@ -55,7 +69,7 @@
                 <a href="{{ collection.previous_product.url }}" class="link" rel="prev">{%- render 'icon', icon: 'arrow-left' -%} {{- 'product.general.previous_product' | t -}}</a>
               </span>
             {%- endif -%}
-
+           
             {%- if collection.next_product -%}
               <span class="page__navigation-item page__navigation-item--next">
                 <a href="{{ collection.next_product.url }}" class="link" rel="next">{{- 'product.general.next_product' | t -}} {%- render 'icon', icon: 'arrow-right' -%}</a>
@@ -756,6 +770,16 @@
     }
   ],
   "settings": [
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "type": "checkbox",
+      "id": "list_collections",
+      "label": "Show all containing Collections below breadcrumb nav",
+      "default": false
+    },  
     {
       "type": "header",
       "content": "Media"
