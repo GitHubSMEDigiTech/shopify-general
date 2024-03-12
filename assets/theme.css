@@ -6591,6 +6591,76 @@ select option {
     margin-bottom: 22px;
   }
 }
+
+.vendor_list .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.vendor_list .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 0.2rem 0.7rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.vendor_list .active, .vendor_list .accordion:hover {
+  background-color: #ccc;
+}
+
+.vendor_list ul.vendor_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    gap: 0.7rem;
+    list-style: none;
+}
+
+.vendor_list ul.vendor_nav, 
+.vendor_list .panel {
+  margin-bottom: 0.7rem;
+}
+
+.vendor_list ul.vendor_nav li {
+    display: block;
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    background: #eee;
+    margin-bottom: 5px;
+}
+
+.vendor_list li:before {
+  content: none;
+}
+
+.vendor_list a:hover {
+  opacity: 0.5;
+}
+
+.vendor_list ul.vendor_nav li:hover {
+  background-color: #ccc;
+}
+
+.vendor_list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
 /**
  * --------------------------------------------------------------------
  * MEDIA API
