@@ -118,7 +118,7 @@
           "show_currency_selector": true,
           "navigation_menu": "main-menu",
           "navigation_mobile_menu": "main-menu",
-          "desktop_navigation_layout": "inline",
+          "desktop_navigation_layout": "condensed",
           "desktop_navigation_open_trigger": "hover",
           "show_navigation_social_media": false,
           "navigation_phone_number": "",
