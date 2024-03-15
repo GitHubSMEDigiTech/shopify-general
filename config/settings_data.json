@@ -229,8 +229,8 @@
           "footer-0": {
             "type": "text",
             "settings": {
-              "title": "About our store",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
+              "title": "",
+              "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.<\/p><p>Partita IVA, CF e R.I.: 08072811006<br\/>R.E.A.: 1781820<\/p><p>Cap. Soc. 5.955.000,00 € i.v.<br\/>S.L. Tutti i diritti sono riservati<\/p>"
             }
           },
           "footer-1": {
