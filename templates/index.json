@@ -1,5 +1,74 @@
 {
   "sections": {
+    "slideshow_dwDbqU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_B3rw7r": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        },
+        "image_cVry8W": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_B3rw7r",
+        "image_cVry8W"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "preserve_ratio",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "cycle_speed": 5
+      }
+    },
+    "featured_collection_Ln8Q76": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "title": "Top Products",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "image_with_text_overlay_3x3d9h": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "title": "Banner with text and CTA",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "show_image_overlay": false,
+        "color": "#ffffff"
+      }
+    },
     "collection_list_BjAGGK": {
       "type": "collection-list",
       "blocks": {
@@ -48,46 +117,30 @@
         "collection_4zEgDw"
       ],
       "settings": {
-        "title": "",
+        "title": "New Releases",
         "link_title": "",
         "link": "",
         "round_images": true,
         "show_collection_title": true
       }
     },
-    "featured_collection_n34LNk": {
-      "type": "featured-collection",
+    "image_with_text_KGDmW4": {
+      "type": "image-with-text",
       "settings": {
-        "collection": "leggera",
-        "title": "IN EVIDENZA",
-        "products_count": 24,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": true,
-        "link_title": "Visualizza Tutti",
-        "link_url": ""
-      }
-    },
-    "collection_with_image_FkAkwr": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "leggera",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#0774d7",
-        "text_color": "#ffffff",
-        "title": "POP MUSIC",
-        "content": "I grandi successi",
-        "button_background": "#ffffff",
-        "button_text_color": "#ff0000",
-        "button_text": "tutti i prodotti",
-        "button_link": ""
+        "image_position": "left",
+        "image_width": 50,
+        "title": "Who we are",
+        "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "button_text": "Our products",
+        "button_link": "shopify:\/\/collections\/all"
       }
     }
   },
   "order": [
+    "slideshow_dwDbqU",
+    "featured_collection_Ln8Q76",
+    "image_with_text_overlay_3x3d9h",
     "collection_list_BjAGGK",
-    "featured_collection_n34LNk",
-    "collection_with_image_FkAkwr"
+    "image_with_text_KGDmW4"
   ]
 }
