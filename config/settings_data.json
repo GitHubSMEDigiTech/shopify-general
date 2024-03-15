@@ -252,6 +252,9 @@
           "footer-1",
           "footer-2"
         ],
+        "custom_css": [
+          "footer{border-top: none; background: black; color: white;}"
+        ],
         "settings": {
           "show_social_media": true,
           "show_payment_icons": true,
