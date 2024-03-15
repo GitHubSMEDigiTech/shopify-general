@@ -259,7 +259,8 @@
           "footer-2"
         ],
         "custom_css": [
-
+          "footer {font-size: calc( var(--base-text-font-size) - (var(--default-text-font-size) - 13px) );}",
+          ".footer__title {font-size: var(--default-text-font-size);}"
         ],
         "settings": {
           "show_social_media": true,
