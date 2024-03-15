@@ -8,6 +8,8 @@
     "footer_heading_text_color": "#ffffff",
     "footer_body_text_color": "#ffffff",
     "footer_accent_color": "#c5161c",
+    "heading_font": "roboto_n4",
+    "text_font": "roboto_n4",
     "currency_code_enabled": true,
     "show_vendor": true,
     "show_secondary_image": true,
