@@ -15,6 +15,9 @@
                   <div id="block-{{ block.id }}" class="footer__collapsible">
                     <div class="footer__collapsible-content">
                       <div class="rte">
+                        {{ block.settings.liquid }}
+                      </div>
+                      <div class="rte">
                         {{ block.settings.content }}
                       </div>
                     </div>
@@ -195,7 +198,7 @@
             {%- endform -%}
           {%- endif -%}
 
-          {%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} {{ shop.name }}<br>{{ powered_by_link }}{%- endcapture -%}
+          {%- capture copyright_info -%}© {{ 'now' | date: '%Y' }} {{ shop.name }}<br>{%- endcapture -%}
           <p class="hidden-pocket">{{ copyright_info }}</p>
         </div>
 
@@ -325,6 +328,11 @@
           "id": "title",
           "label": "Heading",
           "default": "About our store"
+        },
+        {
+          "type": "richtext",
+          "id": "liquid",
+          "label": "Liquid"
         },
         {
           "type": "richtext",
