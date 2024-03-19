@@ -120,13 +120,17 @@
           "navigation_mobile_menu": "main-menu",
           "desktop_navigation_layout": "inline",
           "desktop_navigation_open_trigger": "hover",
+          "center_nav": false,
           "show_navigation_social_media": true,
           "navigation_phone_number": "",
           "navigation_email": "shop@insideout.de",
           "show_condensed_search": true,
           "show_search_filter": true,
           "search_menu": "",
-          "show_search_menu_title": true
+          "show_search_menu_title": true,
+          "announcement": "",
+          "announcement_color": "#ffffff",
+          "announcement_text": "#ffffff"
         }
       },
       "footer": {
@@ -137,6 +141,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"https:\/\/insideoutshop-eu.myshopify.com\/account\/\" title=\"https:\/\/insideoutshop-eu.myshopify.com\/account\/\">My account<\/a><\/p>"
             }
           },
@@ -145,6 +150,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/terms-and-service\" title=\"Terms and Service\">Terms and Service<\/a><\/p><p><a href=\"\/pages\/privacy-statement\" title=\"Privacy statement\">Privacy Statement<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return Policy\">Return Policy<\/a><\/p>"
             }
           },
@@ -153,6 +159,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><\/p><p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and Shipping\">Payment and Shipping<\/a><\/p>"
             }
           },
@@ -161,6 +168,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/faqs\" title=\"FAQs\">FAQs<\/a><\/p>"
             }
           },
