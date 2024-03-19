@@ -120,13 +120,17 @@
           "navigation_mobile_menu": "main-menu",
           "desktop_navigation_layout": "inline",
           "desktop_navigation_open_trigger": "hover",
+          "center_nav": false,
           "show_navigation_social_media": true,
           "navigation_phone_number": "",
           "navigation_email": "shop@hoerspiel.de",
           "show_condensed_search": true,
           "show_search_filter": true,
           "search_menu": "",
-          "show_search_menu_title": true
+          "show_search_menu_title": true,
+          "announcement": "",
+          "announcement_color": "#ffffff",
+          "announcement_text": "#ffffff"
         }
       },
       "footer": {
@@ -137,6 +141,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"https:\/\/hoerspiel-de.myshopify.com\/account\/\" title=\"https:\/\/hoerspiel-de.myshopify.com\/account\/\">Mein Konto<\/a><\/p>"
             }
           },
@@ -145,6 +150,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/agbs\" title=\"AGBs\">AGBs<\/a><\/p><p><a href=\"\/pages\/datenschutz\" title=\"Datenschutz\">Datenschutz<\/a><\/p><p><a href=\"\/pages\/umtausch\" title=\"Umtausch\">Umtausch <\/a><\/p>"
             }
           },
@@ -153,6 +159,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/impressum\" title=\"Impressum\">Impressum<\/a><\/p><p><a href=\"\/pages\/bezahlmethoden-und-versandkosten\" title=\"Bezahlmethoden und Versandkosten\">Bezahlmethoden und Versandkosten<\/a><\/p>"
             }
           },
@@ -166,6 +173,7 @@
             "type": "text",
             "settings": {
               "title": "zurück zu",
+              "liquid": "",
               "content": "<p><a href=\"https:\/\/www.play-europa.de\" target=\"_blank\" title=\"Play Europa Homepage\">Play Europa<\/a> <\/p>"
             }
           },
