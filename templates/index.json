@@ -69,7 +69,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/app18-1024x606.png",
-            "image_width": 340
+            "image_width": 140
           }
         },
         "text_GrqVEL": {
@@ -77,7 +77,7 @@
           "settings": {
             "text": "Shop online dedicato ai prodotti acquistabili con 18app",
             "text_style": "body",
-            "text_color": "#000000"
+            "text_color": "#ffffff"
           }
         },
         "buttons_CV6M3L": {
@@ -90,7 +90,7 @@
             "button_link_2": "",
             "button_style_secondary_2": false,
             "text_color": "#ffffff",
-            "bg_color": "#000000"
+            "bg_color": "#1e2d7d"
           }
         }
       },
@@ -102,12 +102,12 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-18app-1920.jpg",
         "image_overlay_opacity": 0,
-        "bg_color": "#ffffff",
-        "bg_overlay_opacity": 80,
+        "bg_color": "rgba(0,0,0,0)",
+        "bg_overlay_opacity": 100,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
