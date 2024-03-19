@@ -416,7 +416,7 @@
         </div>
       </nav>
     {%- endif -%}
-    {%- if section.settings.announcement -%}
+    {%- if section.settings.announcement != blank -%}
       <section class="announcement-bar">
         {{ section.settings.announcement }}
       </section>
