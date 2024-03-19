@@ -11,7 +11,7 @@
         "collection_XQcyQ7": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "pinguini-tattici-nucleari",
             "link": ""
           }
         },
@@ -66,10 +66,19 @@
         "round_images": true,
         "show_collection_title": true
       }
+    },
+    "list_of_vendors_tFVzar": {
+      "type": "list-of-vendors",
+      "settings": {
+        "text_color": "#444",
+        "bg_color": "#eee",
+        "panel_color": "#fff"
+      }
     }
   },
   "order": [
     "main",
-    "collection_list_G4BxWk"
+    "collection_list_G4BxWk",
+    "list_of_vendors_tFVzar"
   ]
 }
