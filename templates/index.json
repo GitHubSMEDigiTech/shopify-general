@@ -187,6 +187,15 @@
         "show_collection_title": true
       }
     },
+    "newsletter_eghyKc": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "background": "#ffffff",
+        "text": "#000000"
+      }
+    },
     "rich_text_zKVnLa": {
       "type": "rich-text",
       "settings": {
@@ -203,15 +212,6 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
-    },
-    "newsletter_eghyKc": {
-      "type": "newsletter",
-      "settings": {
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
-        "background": "#ffffff",
-        "text": "#000000"
-      }
     }
   },
   "order": [
@@ -220,7 +220,7 @@
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
     "collection_list_BjAGGK",
-    "rich_text_zKVnLa",
-    "newsletter_eghyKc"
+    "newsletter_eghyKc",
+    "rich_text_zKVnLa"
   ]
 }
