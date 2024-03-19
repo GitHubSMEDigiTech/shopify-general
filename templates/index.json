@@ -8,7 +8,14 @@
         "title": "Schöne Feiertage!",
         "content": "<p><strong>Wir gehen vom <\/strong><em><strong>18. Dezember<\/strong><\/em><strong> bis zum <\/strong><em><strong>02. Januar<\/strong><\/em><strong> in die Weihnachtspause<\/strong>. Ihr könnt weiterhin wie gewohnt bestellen, es wird aber zu Verzögerungen im Versand kommen. <br\/><em><strong>Wir möchten uns bei euch für ein phantastisches Jahr 2023 bedanken, wünsche euch schöne Feiertage und einen guten Start für 2024! <\/strong><\/em><\/p>",
         "button_text": "Unsere Produkte",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "slideshow": {
@@ -156,7 +163,7 @@
         "banner_7aKrcR"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "medium",
         "mobile_section_size": "",
         "carousel_effect": "fade",
