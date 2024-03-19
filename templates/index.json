@@ -62,8 +62,61 @@
         "link_url": ""
       }
     },
+    "image_banner_99fc7c": {
+      "type": "image-banner",
+      "blocks": {
+        "image_A43MXp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app18-1024x606.png",
+            "image_width": 340
+          }
+        },
+        "text_GrqVEL": {
+          "type": "text",
+          "settings": {
+            "text": "Shop online dedicato ai prodotti acquistabili con 18app",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_CV6M3L": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Acquista con 18app",
+            "button_link_1": "shopify:\/\/collections\/18n-app",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_A43MXp",
+        "text_GrqVEL",
+        "buttons_CV6M3L"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-18app-1920.jpg",
+        "image_overlay_opacity": 0,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "image_with_text_overlay_3x3d9h": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "title": "Banner with text and CTA",
         "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
@@ -141,6 +194,7 @@
   "order": [
     "slideshow_dwDbqU",
     "featured_collection_Ln8Q76",
+    "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
     "collection_list_BjAGGK",
     "image_with_text_KGDmW4"
