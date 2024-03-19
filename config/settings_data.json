@@ -200,7 +200,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "liquid": "",
+              "liquid": "<p>&lt;img src=\"\/\/sm-itd2c.myshopify.com\/cdn\/shop\/files\/SM_Horizontal_Oneline_RedandWhite_RGB_Logo_140x@2x.jpg?v=1707914749\"&gt;<br\/>{{shop.name}}<\/p>",
               "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.<\/p><p>Partita IVA, CF e R.I.: 08072811006<br\/>R.E.A.: 1781820<\/p><p>Cap. Soc. 5.955.000,00 € i.v.<br\/>S.L. Tutti i diritti sono riservati<\/p>"
             }
           },
@@ -212,16 +212,24 @@
           },
           "footer-2": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "title": "Newsletter",
               "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            }
+          },
+          "links_wfmPgy": {
+            "type": "links",
+            "settings": {
+              "menu": ""
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "footer-2",
+          "links_wfmPgy"
         ],
         "custom_css": [
           "footer {font-size: calc( var(--base-text-font-size) - (var(--default-text-font-size) - 13px) );}",
