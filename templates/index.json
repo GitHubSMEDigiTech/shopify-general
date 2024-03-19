@@ -130,9 +130,16 @@
         "collection_8fRczD": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "cd",
             "image": "shopify:\/\/shop_images\/artistishopify.jpg",
             "link": "shopify:\/\/pages\/artisti"
+          }
+        },
+        "collection_xrmDhm": {
+          "type": "collection",
+          "settings": {
+            "collection": "all",
+            "link": ""
           }
         },
         "collection_rTqAtn": {
@@ -166,6 +173,7 @@
       },
       "block_order": [
         "collection_8fRczD",
+        "collection_xrmDhm",
         "collection_rTqAtn",
         "collection_GkPfUU",
         "collection_g6HJMr",
@@ -179,15 +187,30 @@
         "show_collection_title": true
       }
     },
-    "image_with_text_KGDmW4": {
-      "type": "image-with-text",
+    "rich_text_zKVnLa": {
+      "type": "rich-text",
       "settings": {
-        "image_position": "left",
-        "image_width": 50,
-        "title": "Who we are",
-        "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
+        "text_width": "wide",
+        "title": "SONY MUSIC STORE",
+        "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "newsletter_eghyKc": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "background": "#ffffff",
+        "text": "#000000"
       }
     }
   },
@@ -197,6 +220,7 @@
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
     "collection_list_BjAGGK",
-    "image_with_text_KGDmW4"
+    "rich_text_zKVnLa",
+    "newsletter_eghyKc"
   ]
 }
