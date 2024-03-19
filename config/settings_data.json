@@ -120,13 +120,17 @@
           "navigation_mobile_menu": "main-menu",
           "desktop_navigation_layout": "condensed",
           "desktop_navigation_open_trigger": "hover",
+          "center_nav": false,
           "show_navigation_social_media": false,
           "navigation_phone_number": "",
           "navigation_email": "shop@cmdistro.de",
           "show_condensed_search": true,
           "show_search_filter": false,
           "search_menu": "",
-          "show_search_menu_title": true
+          "show_search_menu_title": true,
+          "announcement": "",
+          "announcement_color": "#ffffff",
+          "announcement_text": "#ffffff"
         }
       },
       "footer": {
@@ -143,6 +147,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"https:\/\/cmdistro-eu.myshopify.com\/account\" title=\"https:\/\/cmdistro-eu.myshopify.com\/account\">My account<\/a><\/p>"
             }
           },
@@ -151,6 +156,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/terms-and-service\" title=\"Terms and service\">Terms and Service<\/a><\/p><p><a href=\"\/pages\/privacy-statement\" title=\"Privacy statement\">Privacy Statement<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return policy\">Return Policy<\/a><\/p>"
             }
           },
@@ -159,6 +165,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><\/p><p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and shipping\">Payment and Shipping<\/a><\/p>"
             }
           },
@@ -167,6 +174,7 @@
             "disabled": true,
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p><a href=\"\/pages\/faqs\" title=\"FAQs\">FAQs<\/a><\/p>"
             }
           },
