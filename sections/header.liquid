@@ -416,6 +416,11 @@
         </div>
       </nav>
     {%- endif -%}
+    {%- if section.settings.announcement != blank -%}
+      <section class="announcement-bar">
+        {{ section.settings.announcement }}
+      </section>
+    {%- endif -%}
   </section>
   
   <style>
@@ -465,6 +470,19 @@
         }
       }
     {%- endif -%}
+
+    {%- if section.settings.center_nav -%}
+      .nav-bar__inner {
+        text-align: center;
+      }
+    {%- endif -%}
+
+    .announcement-bar {
+      background: {{ section.settings.announcement_color }};
+      color: {{ section.settings.announcement_text }};
+      padding: 0.2rem 0;
+      text-align: center;
+    }
   </style>
   
   <script>
@@ -587,6 +605,12 @@
         "default": "hover"
       },
       {
+        "type": "checkbox",
+        "id": "center_nav",
+        "label": "Center Navigation items",
+        "default": false
+      },
+      {
         "type": "header",
         "content": "Mobile navigation"
       },
@@ -634,6 +658,28 @@
         "id": "show_search_menu_title",
         "label": "Show quick links title",
         "default": true
+      },
+      {
+        "type": "header",
+        "content": "Announcement bar"
+      },
+      {
+        "type": "text",
+        "id": "announcement",
+        "label": "Announcement",
+        "info": "Leave blank to hide"
+      },
+      {
+        "type": "color",
+        "id": "announcement_color",
+        "label": "Announcement Background Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "announcement_text",
+        "label": "Announcement Text Color",
+        "default": "#ffffff"
       }
     ],
     "blocks": [
