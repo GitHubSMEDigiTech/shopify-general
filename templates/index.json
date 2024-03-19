@@ -6,11 +6,12 @@
         "image_B3rw7r": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner-desktop-1200x600-1.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
+            "title": "",
+            "content": "",
             "content_position": "middle_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -21,11 +22,12 @@
         "image_cVry8W": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/de-gregori-zalone.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
+            "title": "",
+            "content": "",
             "content_position": "middle_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -40,8 +42,8 @@
       ],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "preserve_ratio",
-        "mobile_section_size": "",
+        "section_size": "medium",
+        "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
         "autoplay": true,
         "cycle_speed": 5
@@ -50,13 +52,13 @@
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
-        "title": "Top Products",
+        "collection": "frontpage",
+        "title": "IN EVIDENZA",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
-        "link_title": "View all",
+        "link_title": "Visualizza tutti",
         "link_url": ""
       }
     },

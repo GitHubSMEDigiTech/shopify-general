@@ -173,13 +173,17 @@
           "navigation_mobile_menu": "",
           "desktop_navigation_layout": "enlarged",
           "desktop_navigation_open_trigger": "hover",
+          "center_nav": true,
           "show_navigation_social_media": true,
           "navigation_phone_number": "",
           "navigation_email": "",
           "show_condensed_search": true,
           "show_search_filter": true,
           "search_menu": "",
-          "show_search_menu_title": true
+          "show_search_menu_title": true,
+          "announcement": "CONSEGNA GRATUITA PER ORDINI SOPRA I 59€ — ISCRIVITI ALLA NEWSLETTER E OTTIENI IL 10% DI SCONTO!",
+          "announcement_color": "#000000",
+          "announcement_text": "#ffffff"
         }
       },
       "static-text-with-icons": {
@@ -236,6 +240,7 @@
             "type": "text",
             "settings": {
               "title": "",
+              "liquid": "",
               "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.<\/p><p>Partita IVA, CF e R.I.: 08072811006<br\/>R.E.A.: 1781820<\/p><p>Cap. Soc. 5.955.000,00 € i.v.<br\/>S.L. Tutti i diritti sono riservati<\/p>"
             }
           },
