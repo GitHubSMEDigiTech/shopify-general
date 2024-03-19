@@ -221,7 +221,7 @@
           "links_wfmPgy": {
             "type": "links",
             "settings": {
-              "menu": ""
+              "menu": "main-menu"
             }
           }
         },
