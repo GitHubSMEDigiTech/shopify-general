@@ -262,6 +262,29 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Psychotic+Waltz&sort_by=created-descending"
           }
+        },
+        "banner_zf648e": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tillwe.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/SteveHackett_TillWeHaveFaces.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "steve hackett",
+            "head_color": "#ffffff",
+            "subtitle": "till we have faces (vinyl re-issue 2024)",
+            "subhead_color": "#ffffff",
+            "content": "Gatefold black LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#c6a672",
+            "show_preorder": true,
+            "preorder_msg": "may 24",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -275,7 +298,8 @@
         "banner_mKJEFe",
         "banner_Ur6NBQ",
         "9868648a-affa-4d67-be87-afd569870a56",
-        "banner_dFPYTP"
+        "banner_dFPYTP",
+        "banner_zf648e"
       ],
       "settings": {
         "edge_to_edge": true,
