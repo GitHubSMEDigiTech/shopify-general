@@ -285,6 +285,29 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
           }
+        },
+        "banner_zx6GxJ": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fb.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/SteveHackett_Feedback86.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "steve hackett",
+            "head_color": "#ffffff",
+            "subtitle": "Feedback '86 (Vinyl Re-issue 2024)",
+            "subhead_color": "#000000",
+            "content": "Gatefold black LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "may 24",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -299,7 +322,8 @@
         "banner_Ur6NBQ",
         "9868648a-affa-4d67-be87-afd569870a56",
         "banner_dFPYTP",
-        "banner_zf648e"
+        "banner_zf648e",
+        "banner_zx6GxJ"
       ],
       "settings": {
         "edge_to_edge": true,
