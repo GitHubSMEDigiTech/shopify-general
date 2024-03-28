@@ -21,6 +21,75 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_zx6GxJ": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fb.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/SteveHackett_Feedback86.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "steve hackett",
+            "head_color": "#ffffff",
+            "subtitle": "Feedback '86 (Vinyl Re-issue 2024)",
+            "subhead_color": "#000000",
+            "content": "Gatefold black LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "may 24",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
+        },
+        "banner_dFPYTP": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PW_4e61fc65-0630-41f2-87c8-d526b8346a65.jpg",
+            "bg_color": "#000000",
+            "cover_image": "shopify:\/\/shop_images\/PsychoticWaltz_logo_old_school_black.png",
+            "cover_effect": "none",
+            "cover_color": "#cfccca",
+            "title": "psychotic waltz",
+            "head_color": "#e2d9d2",
+            "subtitle": "re-issues 2024",
+            "subhead_color": "#e2d9d2",
+            "content": "A Social Grace \nBleeding\nInto The Everflow\nMosquito\nto chase the stars (demos 1987-1989)",
+            "content_color": "#4d7525",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#e2d9d2",
+            "show_preorder": true,
+            "preorder_msg": "May 31 \/ July 12",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Psychotic+Waltz&sort_by=created-descending"
+          }
+        },
+        "banner_zf648e": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tillwe.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/SteveHackett_TillWeHaveFaces.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "steve hackett",
+            "head_color": "#ffffff",
+            "subtitle": "till we have faces (vinyl re-issue 2024)",
+            "subhead_color": "#ffffff",
+            "content": "Gatefold black LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#c6a672",
+            "show_preorder": true,
+            "preorder_msg": "may 24",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
+        },
         "banner_zUxpw9": {
           "type": "banner",
           "settings": {
@@ -239,78 +308,12 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/collections\/midprice-blowout"
           }
-        },
-        "banner_dFPYTP": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PW_4e61fc65-0630-41f2-87c8-d526b8346a65.jpg",
-            "bg_color": "#000000",
-            "cover_image": "shopify:\/\/shop_images\/PsychoticWaltz_logo_old_school_black.png",
-            "cover_effect": "none",
-            "cover_color": "#cfccca",
-            "title": "psychotic waltz",
-            "head_color": "#e2d9d2",
-            "subtitle": "re-issues 2024",
-            "subhead_color": "#e2d9d2",
-            "content": "A Social Grace \nBleeding\nInto The Everflow\nMosquito\nto chase the stars (demos 1987-1989)",
-            "content_color": "#4d7525",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#e2d9d2",
-            "show_preorder": true,
-            "preorder_msg": "May 31 \/ July 12",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Psychotic+Waltz&sort_by=created-descending"
-          }
-        },
-        "banner_zf648e": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tillwe.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/SteveHackett_TillWeHaveFaces.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "steve hackett",
-            "head_color": "#ffffff",
-            "subtitle": "till we have faces (vinyl re-issue 2024)",
-            "subhead_color": "#ffffff",
-            "content": "Gatefold black LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#c6a672",
-            "show_preorder": true,
-            "preorder_msg": "may 24",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
-        "banner_zx6GxJ": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fb.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/SteveHackett_Feedback86.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "steve hackett",
-            "head_color": "#ffffff",
-            "subtitle": "Feedback '86 (Vinyl Re-issue 2024)",
-            "subhead_color": "#000000",
-            "content": "Gatefold black LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "may 24",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_zx6GxJ",
+        "banner_dFPYTP",
+        "banner_zf648e",
         "banner_zUxpw9",
         "banner_G6xRWe",
         "banner_F3P4bK",
@@ -320,10 +323,7 @@
         "banner_RabpEb",
         "banner_mKJEFe",
         "banner_Ur6NBQ",
-        "9868648a-affa-4d67-be87-afd569870a56",
-        "banner_dFPYTP",
-        "banner_zf648e",
-        "banner_zx6GxJ"
+        "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
         "edge_to_edge": true,
