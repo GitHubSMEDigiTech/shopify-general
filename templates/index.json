@@ -8,7 +8,14 @@
         "title": "HAPPY HOLIDAYS!",
         "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
         "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "slideshow": {
@@ -232,6 +239,29 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/collections\/midprice-blowout"
           }
+        },
+        "banner_dFPYTP": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PW_4e61fc65-0630-41f2-87c8-d526b8346a65.jpg",
+            "bg_color": "#000000",
+            "cover_image": "shopify:\/\/shop_images\/PsychoticWaltz_logo_old_school_black.png",
+            "cover_effect": "none",
+            "cover_color": "#cfccca",
+            "title": "psychotic waltz",
+            "head_color": "#e2d9d2",
+            "subtitle": "re-issues 2024",
+            "subhead_color": "#e2d9d2",
+            "content": "A Social Grace \nBleeding\nInto The Everflow\nMosquito\nto chase the stars (demos 1987-1989)",
+            "content_color": "#4d7525",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#e2d9d2",
+            "show_preorder": true,
+            "preorder_msg": "May 31 \/ July 12",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Psychotic+Waltz&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -244,7 +274,8 @@
         "banner_RabpEb",
         "banner_mKJEFe",
         "banner_Ur6NBQ",
-        "9868648a-affa-4d67-be87-afd569870a56"
+        "9868648a-affa-4d67-be87-afd569870a56",
+        "banner_dFPYTP"
       ],
       "settings": {
         "edge_to_edge": true,
