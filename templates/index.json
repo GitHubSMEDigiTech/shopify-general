@@ -23,7 +23,6 @@
       "blocks": {
         "banner_zx6GxJ": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/fb.jpg",
             "bg_color": "#eeeeee",
@@ -46,12 +45,11 @@
         },
         "banner_dFPYTP": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PW_4e61fc65-0630-41f2-87c8-d526b8346a65.jpg",
             "bg_color": "#000000",
-            "cover_image": "shopify:\/\/shop_images\/PsychoticWaltz_logo_old_school_black.png",
-            "cover_effect": "none",
+            "cover_image": "shopify:\/\/shop_images\/psychoticwaltztochasethestarsdemos1987-1989jpg_0e5aa189-a824-4ead-93f0-940c81bbf20a.jpg",
+            "cover_effect": "glow",
             "cover_color": "#cfccca",
             "title": "psychotic waltz",
             "head_color": "#e2d9d2",
@@ -69,7 +67,6 @@
         },
         "banner_zf648e": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/tillwe.jpg",
             "bg_color": "#eeeeee",
