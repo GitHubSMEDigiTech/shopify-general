@@ -18,7 +18,7 @@
         "collection_x4GJUq": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "thasup",
             "link": ""
           }
         },
@@ -70,9 +70,9 @@
     "list_of_vendors_tFVzar": {
       "type": "list-of-vendors",
       "settings": {
-        "text_color": "#444",
-        "bg_color": "#eee",
-        "panel_color": "#fff"
+        "text_color": "#444444",
+        "bg_color": "#eeeeee",
+        "panel_color": "#ffffff"
       }
     }
   },
