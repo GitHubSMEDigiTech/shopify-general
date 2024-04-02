@@ -8,7 +8,14 @@
         "title": "HAPPY HOLIDAYS!",
         "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
         "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "slideshow": {
@@ -298,13 +305,6 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "e2509694-1013-453a-928f-4002f3bf1c94": {
-          "type": "collection",
-          "settings": {
-            "collection": "five-from-the-hive-cd-bundles",
-            "link": ""
-          }
-        },
         "70f01c09-f5e7-4e04-bb51-7e12261015c4": {
           "type": "collection",
           "settings": {
@@ -315,7 +315,6 @@
         }
       },
       "block_order": [
-        "e2509694-1013-453a-928f-4002f3bf1c94",
         "70f01c09-f5e7-4e04-bb51-7e12261015c4"
       ],
       "settings": {
