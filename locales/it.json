@@ -487,5 +487,12 @@
     "month_day_year": "%d %B %Y",
     "short_month_day_year": "%d %b %Y",
     "month_day_year_time": "%d %B %Y alle %H:%M%P"
+  },
+  "shopify": {
+    "checkout": {
+      "review": {
+        "review_notice_html": "Facendo clic sul pulsante \"Effettua pagamento\", confermi di aver leeto, compreso e accettatto i {{ terms_of_service }}, {{ refund_policy }} e {{ shipping_policy }}, ottre ad aver letto {{ contact_information }} di Nike."
+      }
+    }
   }
 }
