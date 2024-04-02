@@ -491,7 +491,7 @@
   "shopify": {
     "checkout": {
       "review": {
-        "review_notice_html": "Facendo clic sul pulsante \"Effettua pagamento\", confermi di aver leeto, compreso e accettatto i {{ terms_of_service.title }}, {{ refund_policy }} e {{ shipping_policy }}, ottre ad aver letto {{ contact_information }} di Nike."
+        "review_notice_html": "Facendo clic sul pulsante \"Effettua pagamento\", confermi di aver leeto, compreso e accettatto i {{ terms_of_service }}, {{ refund_policy }} e {{ shipping_policy }}, ottre ad aver letto {{ contact_information }} di Nike."
       }
     }
   }
