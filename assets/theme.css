@@ -2273,6 +2273,40 @@ img.lazyload[data-sizes=auto] {
 }
 
 /* Newsletter */
+
+.container__newsletter img {
+  max-height: 10rem;
+  width: auto;
+  display: block;
+  margin-left: auto;
+}
+
+.container__newsletter {
+  display: flex;
+  gap: 4rem;
+  padding: 2rem 5rem;
+}
+
+.container.container__newsletter div {
+  width: 50%;
+}
+
+@media screen and (max-width: 641px) {
+  .container.container__newsletter div {
+    width: 100%;
+  }
+
+  .container__newsletter {
+    flex-direction: column;
+  }
+
+  .container__newsletter img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+  }
+}
+
 .blog-sidebar__item--newsletter {
   padding: 30px 20px 30px 20px;
   border-radius: 3px;
