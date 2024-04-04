@@ -212,7 +212,7 @@
     "rich_text_zKVnLa": {
       "type": "rich-text",
       "custom_css": [
-        ".container {margin-top: -50px;margin-bottom: -50px;}"
+        ".container {margin-top: -50px; margin-bottom: -50px; padding-top: 25px; padding-bottom: 25px;}"
       ],
       "settings": {
         "marign_top": 50,
