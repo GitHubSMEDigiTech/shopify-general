@@ -100,6 +100,8 @@
         "buttons_CV6M3L"
       ],
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
         "image": "shopify:\/\/shop_images\/banner-18app-1920.jpg",
         "image_overlay_opacity": 0,
         "bg_color": "rgba(0,0,0,0)",
@@ -187,18 +189,31 @@
         "show_collection_title": true
       }
     },
-    "newsletter_eghyKc": {
-      "type": "newsletter",
+    "newsletter_sme_96dtxz": {
+      "type": "newsletter-sme",
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 0,
         "title": "Newsletter",
         "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "ae_segment_id": "",
+        "ae_brand_id": "",
+        "ae_activities": "",
+        "ae": "",
+        "ae_form": "",
+        "ae_form_html": "",
+        "btn_txt": "Subscribe",
         "background": "#ffffff",
-        "text": "#000000"
+        "bg_image": "shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg",
+        "text": "#ffffff",
+        "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
       }
     },
     "rich_text_zKVnLa": {
       "type": "rich-text",
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
         "text_width": "wide",
         "title": "SONY MUSIC STORE",
         "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>",
@@ -220,7 +235,7 @@
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
     "collection_list_BjAGGK",
-    "newsletter_eghyKc",
+    "newsletter_sme_96dtxz",
     "rich_text_zKVnLa"
   ]
 }
