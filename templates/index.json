@@ -211,6 +211,9 @@
     },
     "rich_text_zKVnLa": {
       "type": "rich-text",
+      "custom_css": [
+        ".container {margin-top: -50px;margin-bottom: -50px;}"
+      ],
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
