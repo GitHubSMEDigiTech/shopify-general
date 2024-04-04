@@ -3,9 +3,9 @@
     "main": {
       "type": "main-collection",
       "settings": {
-        "show_collection_image": true,
+        "show_collection_image": false,
         "collapse_collection_description": false,
-        "show_collection_top": true,
+        "show_collection_top": false,
         "top_bg_color": "#f3f3f3",
         "headline_deco": true,
         "headline_deco_col": "#d82222",
