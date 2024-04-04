@@ -189,7 +189,7 @@
       "static-text-with-icons": {
         "type": "static-text-with-icons",
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "stack_mobile": false
         }
       },
@@ -200,7 +200,7 @@
             "type": "text",
             "settings": {
               "title": "",
-              "liquid": "",
+              "liquid": "<img style=\"max-width: 140px\" width=\"1659\" height=\"413\" src=\"\/\/sm-itd2c.myshopify.com\/cdn\/shop\/files\/SM_Horizontal_Oneline_RedandWhite_RGB_Logo_140x@2x.jpg?v=1707914749\" alt=\"Sony Music Italy D2C\">",
               "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.<\/p><p>Partita IVA, CF e R.I.: 08072811006<br\/>R.E.A.: 1781820<\/p><p>Cap. Soc. 5.955.000,00 € i.v.<br\/>S.L. Tutti i diritti sono riservati<\/p>"
             }
           },
