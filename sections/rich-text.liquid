@@ -9,7 +9,21 @@
     {%- assign container_classes = 'container' -%}
 {%- endcase -%}
 
-<section class="section rich-text--{{ section.id }} {%- if section.settings.center_text -%}section--text-centered{%- endif -%}" data-section-id="{{ section.id }}" data-section-type="rich-text">
+{%- style -%}
+  .section-{{ section.id }}-margin {
+    margin-top: {{ section.settings.marign_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.marign_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-margin {
+      margin-top: {{ section.settings.marign_top }}px;
+      margin-bottom: {{ section.settings.marign_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="section-{{ section.id }}-margin rich-text--{{ section.id }} {%- if section.settings.center_text -%}section--text-centered{%- endif -%}" data-section-id="{{ section.id }}" data-section-type="rich-text">
   <div class="{{ container_classes }}">
     {%- if section.settings.title != blank -%}
       <h2 class="heading h1">{{ section.settings.title | escape }}</h2>
@@ -56,6 +70,27 @@
 {
   "name": "Rich text",
   "settings": [
+    
+  {
+      "type": "range",
+      "id": "marign_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "marign_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Margin bottom",
+      "default": 50
+    },
     {
       "type": "select",
       "id": "text_width",
