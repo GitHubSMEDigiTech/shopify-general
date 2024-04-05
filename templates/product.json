@@ -63,7 +63,7 @@
         "liquid_Tbd46i"
       ],
       "settings": {
-        "list_collections": false,
+        "list_collections": true,
         "image_size": "small",
         "enable_video_looping": false,
         "enable_image_zoom": true,
