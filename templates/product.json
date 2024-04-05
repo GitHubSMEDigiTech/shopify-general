@@ -43,6 +43,15 @@
           "settings": {
             "display_mode": "show_all"
           }
+        },
+        "liquid_Tbd46i": {
+          "type": "liquid",
+          "settings": {
+            "title": "Tracklist",
+            "sku": "",
+            "liquid": "{{product.metafields.meta.tracklist}}",
+            "display_mode": "collapse"
+          }
         }
       },
       "block_order": [
@@ -50,7 +59,8 @@
         "variant_selector",
         "789626d1-3486-4bdd-8004-3f80c7f3b43c",
         "buy_buttons",
-        "description"
+        "description",
+        "liquid_Tbd46i"
       ],
       "settings": {
         "list_collections": false,
