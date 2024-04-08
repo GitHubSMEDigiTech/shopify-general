@@ -84,11 +84,20 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "custom_liquid_LiA94m": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Tracklist",
+        "include_margins": true,
+        "liquid": "{{product.metafields.meta.tracklist}}"
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "custom_liquid_LiA94m"
   ]
 }
