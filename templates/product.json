@@ -71,6 +71,14 @@
         "carousel_effect": "fade"
       }
     },
+    "custom_liquid_LiA94m": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Tracklist",
+        "include_margins": true,
+        "liquid": "{{product.metafields.meta.tracklist}}"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -84,20 +92,12 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
-    },
-    "custom_liquid_LiA94m": {
-      "type": "custom-liquid",
-      "settings": {
-        "title": "Tracklist",
-        "include_margins": true,
-        "liquid": "{{product.metafields.meta.tracklist}}"
-      }
     }
   },
   "order": [
     "main",
+    "custom_liquid_LiA94m",
     "product-recommendations",
-    "recently-viewed-products",
-    "custom_liquid_LiA94m"
+    "recently-viewed-products"
   ]
 }
