@@ -12,6 +12,12 @@
             "show_share_buttons": true
           }
         },
+        "283ed45e-b8f8-48b7-b40d-6fcb12e4914d": {
+          "type": "text",
+          "settings": {
+            "content": "<h6>Barcode: {{ product.metafields.sme.barcode.value }}<\/h6>"
+          }
+        },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {
@@ -71,13 +77,6 @@
             "content": "<p>FSK: {{ product.metafields.sme.fsk.value }}<\/p>"
           }
         },
-        "283ed45e-b8f8-48b7-b40d-6fcb12e4914d": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Episode: {{ product.metafields.sme.episode.value }}<\/p>"
-          }
-        },
         "21cbd82c-2386-43ae-9769-1ac1b42e6c2d": {
           "type": "text",
           "settings": {
@@ -93,6 +92,7 @@
       },
       "block_order": [
         "product_meta",
+        "283ed45e-b8f8-48b7-b40d-6fcb12e4914d",
         "variant_selector",
         "789626d1-3486-4bdd-8004-3f80c7f3b43c",
         "buy_buttons",
@@ -101,11 +101,11 @@
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
         "4bc9c79a-7355-4cf5-9c57-820c5d3516e8",
-        "283ed45e-b8f8-48b7-b40d-6fcb12e4914d",
         "21cbd82c-2386-43ae-9769-1ac1b42e6c2d",
         "9ffd3902-e0b5-4aa8-851a-9acdfdaa3962"
       ],
       "settings": {
+        "list_collections": false,
         "image_size": "small",
         "enable_video_looping": false,
         "enable_image_zoom": true,
