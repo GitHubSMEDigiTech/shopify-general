@@ -4,6 +4,8 @@
       "type": "rich-text",
       "disabled": true,
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
         "text_width": "regular",
         "title": "HAPPY HOLIDAYS!",
         "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
@@ -21,6 +23,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_acA6W3": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DTTerria.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/devintownsendterriajpg_ff016970-84d1-4a36-b93f-65d5c5757347.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "Devin Townsend",
+            "head_color": "#dddfe1",
+            "subtitle": "Terria (Vinyl Re-issue 2024)",
+            "subhead_color": "#000000",
+            "content": "Gatefold black 2LP & LP-Booklet\nLtd. Gatefold olive green 2LP & LP-Booklet",
+            "content_color": "#dddfe1",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#dddfe1",
+            "show_preorder": true,
+            "preorder_msg": "june 14",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Devin+Townsend&sort_by=created-descending"
+          }
+        },
         "banner_zx6GxJ": {
           "type": "banner",
           "settings": {
@@ -197,28 +221,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=OU&sort_by=created-descending"
           }
         },
-        "banner_f9pJq4": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yes.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/yesmirrortotheskyembargodate-10march2023jpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "yes",
-            "head_color": "#ffffff",
-            "subtitle": "mirror to the sky",
-            "subhead_color": "#e8e100",
-            "content": "Ltd. 2CD+Blu-ray Digipak",
-            "content_color": "#e61581",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "April 5",
-            "preorder_msg_color": "#314797",
-            "link": "https:\/\/www.insideoutshop.de\/de\/products\/yes-mirror-to-the-sky-ltd-2cd-blu-ray-digipak"
-          }
-        },
         "banner_RabpEb": {
           "type": "banner",
           "settings": {
@@ -263,28 +265,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=SiX+BY+SiX&sort_by=created-descending"
           }
         },
-        "banner_Ur6NBQ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/whom.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/whomgodsdestroyinsaniumjpg_40de27f2-c612-4de2-ba98-1bdec5c434ff.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "whom gods destroy",
-            "head_color": "#d4d3a0",
-            "subtitle": "insanium",
-            "subhead_color": "#d4d3a0",
-            "content": "Ltd. 2CD Mediabook|Standard CD Jewelcase|Gatefold black 2LP & LP-Booklet|Ltd. Gatefold dark green 2LP & LP-Booklet",
-            "content_color": "#d4d3a0",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#d4d3a0",
-            "show_preorder": true,
-            "preorder_msg": "MARCH 15",
-            "preorder_msg_color": "#24251f",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Whom+Gods+Destroy&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -308,6 +288,7 @@
         }
       },
       "block_order": [
+        "banner_acA6W3",
         "banner_zx6GxJ",
         "banner_dFPYTP",
         "banner_zf648e",
@@ -316,10 +297,8 @@
         "banner_F3P4bK",
         "banner_TPHb6F",
         "banner_VwNtDd",
-        "banner_f9pJq4",
         "banner_RabpEb",
         "banner_mKJEFe",
-        "banner_Ur6NBQ",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
