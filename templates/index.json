@@ -127,13 +127,26 @@
         "color": "#ffffff"
       }
     },
+    "featured_collection_gNFLGM": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ultime-uscite",
+        "title": "Ultime uscita",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "collection_list_BjAGGK": {
       "type": "collection-list",
       "blocks": {
         "collection_8fRczD": {
           "type": "collection",
           "settings": {
-            "collection": "maneskin",
+            "collection": "ultime-uscite",
             "link": ""
           }
         },
@@ -229,6 +242,7 @@
     "featured_collection_Ln8Q76",
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
+    "featured_collection_gNFLGM",
     "collection_list_BjAGGK",
     "newsletter_sme_96dtxz",
     "rich_text_zKVnLa"
