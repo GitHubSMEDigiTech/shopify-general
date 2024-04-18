@@ -117,6 +117,52 @@
         "show_text_below": false
       }
     },
+    "image_banner_MTdpd8": {
+      "type": "image-banner",
+      "blocks": {
+        "text_MNY3yB": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Scopri la musica Classica<\/strong>",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_trbjFC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Clicca qui",
+            "button_link_1": "shopify:\/\/collections\/18n-app",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#444444"
+          }
+        }
+      },
+      "block_order": [
+        "text_MNY3yB",
+        "buttons_trbjFC"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image_2": "shopify:\/\/shop_images\/musica_classica.png",
+        "image_overlay_opacity": 0,
+        "bg_color": "rgba(0,0,0,0)",
+        "bg_overlay_opacity": 100,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "image_with_text_overlay_3x3d9h": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -237,6 +283,7 @@
     "slideshow_dwDbqU",
     "featured_collection_Ln8Q76",
     "image_banner_99fc7c",
+    "image_banner_MTdpd8",
     "image_with_text_overlay_3x3d9h",
     "collection_list_BjAGGK",
     "newsletter_sme_96dtxz",
