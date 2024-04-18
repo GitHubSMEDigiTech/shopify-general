@@ -194,64 +194,6 @@
         "show_collection_title": true
       }
     },
-    "collection_with_image_BBdg8H": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "musica-classica",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#444444",
-        "text_color": "#ffffff",
-        "title": "Musica Classica",
-        "content": "Scopri il meglio della musica classica",
-        "button_background": "#838383",
-        "button_text_color": "#ffffff",
-        "button_text": "Scopri",
-        "button_link": ""
-      }
-    },
-    "newsletter_sme_96dtxz": {
-      "type": "newsletter-sme",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 0,
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
-        "ae_segment_id": "",
-        "ae_brand_id": "",
-        "ae_activities": "",
-        "ae": "",
-        "ae_form": "",
-        "ae_form_html": "",
-        "btn_txt": "Subscribe",
-        "background": "#ffffff",
-        "bg_image": "shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg",
-        "text": "#ffffff",
-        "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
-      }
-    },
-    "rich_text_zKVnLa": {
-      "type": "rich-text",
-      "custom_css": [
-        ".container {margin-top: -50px; margin-bottom: -50px; padding-top: 25px; padding-bottom: 25px;}"
-      ],
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "wide",
-        "title": "SONY MUSIC STORE",
-        "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>",
-        "button_text": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "bg_color": "#c5161c",
-        "text_color": "#ffffff",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "promotion_list_wAJLbg": {
       "type": "promotion-list",
       "blocks": {
@@ -301,6 +243,48 @@
         "section_size": "small",
         "stack_mobile": false
       }
+    },
+    "newsletter_sme_96dtxz": {
+      "type": "newsletter-sme",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 0,
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "ae_segment_id": "",
+        "ae_brand_id": "",
+        "ae_activities": "",
+        "ae": "",
+        "ae_form": "",
+        "ae_form_html": "",
+        "btn_txt": "Subscribe",
+        "background": "#ffffff",
+        "bg_image": "shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg",
+        "text": "#ffffff",
+        "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
+      }
+    },
+    "rich_text_zKVnLa": {
+      "type": "rich-text",
+      "custom_css": [
+        ".container {margin-top: -50px; margin-bottom: -50px; padding-top: 25px; padding-bottom: 25px;}"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "wide",
+        "title": "SONY MUSIC STORE",
+        "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -310,9 +294,8 @@
     "image_with_text_overlay_3x3d9h",
     "featured_collection_gNFLGM",
     "collection_list_BjAGGK",
-    "collection_with_image_BBdg8H",
+    "promotion_list_wAJLbg",
     "newsletter_sme_96dtxz",
-    "rich_text_zKVnLa",
-    "promotion_list_wAJLbg"
+    "rich_text_zKVnLa"
   ]
 }
