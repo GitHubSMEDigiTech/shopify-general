@@ -200,14 +200,14 @@
         "item_MmcLjM": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Musica-classica.png",
+            "image": "shopify:\/\/shop_images\/logo_epic_ea3cc1e9-25c7-4f14-b10c-4e7163558389.png",
             "show_overlay": false,
             "overlay_opacity": 50,
             "stretch_image": false,
-            "background": "#e1e3e4",
+            "background": "#e9e9e9",
             "text_color": "#444444",
-            "title": "Scopri",
-            "content": "il meglio della musica Classica",
+            "title": "Epic",
+            "content": "scopri gli artisti EPIC",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#444444",
@@ -232,16 +232,68 @@
             "button_text": "Learn more",
             "button_link": ""
           }
+        },
+        "item_VXX7Ce": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "COLUMBIA",
+            "content": "scopri gli artisti COLUMBIA",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_Ua7X6D": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "NUMERO UNO",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "item_MmcLjM",
-        "item_n8BaRz"
+        "item_n8BaRz",
+        "item_VXX7Ce",
+        "item_Ua7X6D"
       ],
       "settings": {
         "expand_items": false,
         "section_size": "small",
         "stack_mobile": false
+      }
+    },
+    "collection_with_image_BBdg8H": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "musica-classica",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#444444",
+        "text_color": "#ffffff",
+        "title": "Musica Classica",
+        "content": "Scopri il meglio della musica classica",
+        "button_background": "#838383",
+        "button_text_color": "#ffffff",
+        "button_text": "Scopri",
+        "button_link": ""
       }
     },
     "newsletter_sme_96dtxz": {
@@ -295,6 +347,7 @@
     "featured_collection_gNFLGM",
     "collection_list_BjAGGK",
     "promotion_list_wAJLbg",
+    "collection_with_image_BBdg8H",
     "newsletter_sme_96dtxz",
     "rich_text_zKVnLa"
   ]
