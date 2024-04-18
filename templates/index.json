@@ -251,6 +251,56 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "promotion_list_wAJLbg": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_MmcLjM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Musica-classica.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#e1e3e4",
+            "text_color": "#444444",
+            "title": "Scopri",
+            "content": "il meglio della musica Classica",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#444444",
+            "button_text": "Scopri",
+            "button_link": ""
+          }
+        },
+        "item_n8BaRz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/battisti7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#394b39",
+            "text_color": "#ffffff",
+            "title": "Scopri",
+            "content": "il catalogo di Sony Music",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#0a460a",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_MmcLjM",
+        "item_n8BaRz"
+      ],
+      "settings": {
+        "expand_items": false,
+        "section_size": "small",
+        "stack_mobile": false
+      }
     }
   },
   "order": [
@@ -262,6 +312,7 @@
     "collection_list_BjAGGK",
     "collection_with_image_BBdg8H",
     "newsletter_sme_96dtxz",
-    "rich_text_zKVnLa"
+    "rich_text_zKVnLa",
+    "promotion_list_wAJLbg"
   ]
 }
