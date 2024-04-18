@@ -131,7 +131,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "ultime-uscite",
-        "title": "Ultime uscita",
+        "title": "Ultime uscite",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
