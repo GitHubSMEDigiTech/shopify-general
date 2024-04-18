@@ -194,6 +194,22 @@
         "show_collection_title": true
       }
     },
+    "collection_with_image_BBdg8H": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "musica-classica",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#444444",
+        "text_color": "#ffffff",
+        "title": "Musica Classica",
+        "content": "Scopri il meglio della musica classica",
+        "button_background": "#838383",
+        "button_text_color": "#ffffff",
+        "button_text": "Scopri",
+        "button_link": ""
+      }
+    },
     "newsletter_sme_96dtxz": {
       "type": "newsletter-sme",
       "settings": {
@@ -244,6 +260,7 @@
     "image_with_text_overlay_3x3d9h",
     "featured_collection_gNFLGM",
     "collection_list_BjAGGK",
+    "collection_with_image_BBdg8H",
     "newsletter_sme_96dtxz",
     "rich_text_zKVnLa"
   ]
