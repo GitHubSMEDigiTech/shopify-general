@@ -45,6 +45,28 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
+        "banner_NghfzE": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC_TKN.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658875192electriccallboytekknoltddeluxefanbox2024mockupjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ff4594",
+            "title": "Electric callboy",
+            "head_color": "#7d2e88",
+            "subtitle": "tekkno",
+            "subhead_color": "#f3d80e",
+            "content": "Ltd. Deluxe Fanbox 2024",
+            "content_color": "#ff4594",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ff4594",
+            "show_preorder": true,
+            "preorder_msg": "June 21",
+            "preorder_msg_color": "#ffffff",
+            "link": "https:\/\/www.cmdistro.de\/products\/electric-callboy-tekkno-ltd-deluxe-fanbox-2024"
+          }
+        },
         "banner_tGQJkg": {
           "type": "banner",
           "settings": {
@@ -154,38 +176,16 @@
             "preorder_msg_color": "#ad141f",
             "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
           }
-        },
-        "banner_NghfzE": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EC_TKN.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/19658875192electriccallboytekknoltddeluxefanbox2024mockupjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ff4594",
-            "title": "Electric callboy",
-            "head_color": "#7d2e88",
-            "subtitle": "tekkno",
-            "subhead_color": "#f3d80e",
-            "content": "Ltd. Deluxe Fanbox 2024",
-            "content_color": "#ff4594",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ff4594",
-            "show_preorder": true,
-            "preorder_msg": "June 21",
-            "preorder_msg_color": "#ffffff",
-            "link": "https:\/\/www.cmdistro.de\/products\/electric-callboy-tekkno-ltd-deluxe-fanbox-2024"
-          }
         }
       },
       "block_order": [
         "banner_ikGaAY",
+        "banner_NghfzE",
         "banner_tGQJkg",
         "banner_hg8N9J",
         "banner_MDmktJ",
         "02a54b18-c68a-42ec-be73-158190e5fe63",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
-        "banner_NghfzE"
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
         "edge_to_edge": true,
