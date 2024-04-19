@@ -23,6 +23,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_AwR8cY": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NI_NO.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/nightingalenightfalloverturereissueremasterjpg_428c1b0f-5943-4ced-94bc-f2d41457a035.jpg",
+            "cover_effect": "border",
+            "cover_color": "#ffffff",
+            "title": "nightingale",
+            "head_color": "#ffffff",
+            "subtitle": "Nightfall Overture (Re-issue)",
+            "subhead_color": "#555555",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. light blue LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "June 21",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Nightingale&sort_by=created-descending"
+          }
+        },
         "banner_acA6W3": {
           "type": "banner",
           "settings": {
@@ -285,31 +307,10 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/collections\/midprice-blowout"
           }
-        },
-        "banner_AwR8cY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NI_NO.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/nightingalenightfalloverturereissueremasterjpg_428c1b0f-5943-4ced-94bc-f2d41457a035.jpg",
-            "cover_effect": "border",
-            "cover_color": "#ffffff",
-            "title": "nightingale",
-            "head_color": "#ffffff",
-            "subtitle": "Nightfall Overture (Re-issue)",
-            "subhead_color": "#555555",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. light blue LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 21",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Nightingale&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_AwR8cY",
         "banner_acA6W3",
         "banner_zx6GxJ",
         "banner_dFPYTP",
@@ -321,8 +322,7 @@
         "banner_VwNtDd",
         "banner_RabpEb",
         "banner_mKJEFe",
-        "9868648a-affa-4d67-be87-afd569870a56",
-        "banner_AwR8cY"
+        "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
         "edge_to_edge": true,
