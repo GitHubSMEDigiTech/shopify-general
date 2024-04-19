@@ -4,6 +4,8 @@
       "type": "rich-text",
       "disabled": true,
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
         "text_width": "regular",
         "title": "HAPPY HOLIDAYS!",
         "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
@@ -21,26 +23,26 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "banner_pzLXXy": {
+        "banner_ikGaAY": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ssb.jpg",
+            "image": "shopify:\/\/shop_images\/EOS_PA.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/SANGUISUGABOGG_TorturedWhole.jpg",
+            "cover_image": "shopify:\/\/shop_images\/edgeofsanitypurgatoryafterglowreissueremasterremix2024jpg_7e3ac865-e8b0-4e31-b574-053de4a28273.jpg",
             "cover_effect": "glow",
-            "cover_color": "#89448a",
-            "title": "Sanguisugabogg",
-            "head_color": "#89448a",
-            "subtitle": "Tortured Whole",
-            "subhead_color": "#be9363",
-            "content": "Standard CD Jewelcase",
-            "content_color": "#89448a",
+            "cover_color": "#ffffff",
+            "title": "Edge of sanity",
+            "head_color": "#ffffff",
+            "subtitle": "Purgatory Afterglow (Re-issue)",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. red LP\nLtd. transp. sun yellow LP",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
-            "preorder_bar_color": "#89448a",
+            "preorder_bar_color": "#ffffff",
             "show_preorder": true,
-            "preorder_msg": "march 29",
-            "preorder_msg_color": "#be9363",
-            "link": "https:\/\/www.cmdistro.de\/de\/products\/sanguisugabogg-tortured-whole-standard-cd-jewelcase"
+            "preorder_msg": "june 21",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
         "banner_tGQJkg": {
@@ -87,50 +89,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Imperial+Triumphant&sort_by=created-descending"
           }
         },
-        "banner_KCiDjy": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LS_PR.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/lornashorepainremainsjpg.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "lorna shore",
-            "head_color": "#ffffff",
-            "subtitle": "Pain Remains | Gatefold black 2LP",
-            "subhead_color": "#ffffff",
-            "content": ".",
-            "content_color": "#666666",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "march 29",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/products\/lorna-shore-pain-remains-gatefold-black-2lp"
-          }
-        },
-        "banner_CMydxc": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hide.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/hideousdivinityunextinctjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Hideous Divinity",
-            "head_color": "#ffffff",
-            "subtitle": "Unextinct",
-            "subhead_color": "#36c198",
-            "content": "Standard CD Jewelcase\nLtd. transp. coke bottle green LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#36c198",
-            "show_preorder": true,
-            "preorder_msg": "march 22",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Hideous+Divinity&sort_by=created-descending"
-          }
-        },
         "banner_MDmktJ": {
           "type": "banner",
           "settings": {
@@ -151,50 +109,6 @@
             "preorder_msg": "april 19",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Folterkammer"
-          }
-        },
-        "banner_FncBAX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ghostkid.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/ghostkidhollywoodsuicidejpg_1191941e-3d79-453c-8ce2-01f960529cae.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "GHØSTKID",
-            "head_color": "#e8110b",
-            "subtitle": "HOLLYWOOD SUICIDE",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Digipak|Ltd. transp. red LP|Ltd. grey LP",
-            "content_color": "#e8110b",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "march 22",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=GH%C3%98STKID&sort_by=created-descending"
-          }
-        },
-        "bcaf801e-ede7-42b6-92f4-d375d2aafaf7": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NecroBanner.jpg",
-            "bg_color": "#474f42",
-            "cover_image": "shopify:\/\/shop_images\/necrophobicinthetwilightgreyembargo20231208jpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "necrophobic",
-            "head_color": "#ffffff",
-            "subtitle": "in the twilight grey",
-            "subhead_color": "#eeeeee",
-            "content": "Ltd. Deluxe Gatefold combat green 2LP & LP-Booklet & Poster|Ltd. CD Mediabook|Standard CD Jewelcase|Gatefold black LP|Gatefold dark green LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#78876a",
-            "show_preorder": true,
-            "preorder_msg": "March 15",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Necrophobic&sort_by=created-descending"
           }
         },
         "02a54b18-c68a-42ec-be73-158190e5fe63": {
@@ -240,19 +154,38 @@
             "preorder_msg_color": "#ad141f",
             "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
           }
+        },
+        "banner_NghfzE": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EC_TKN.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658875192electriccallboytekknoltddeluxefanbox2024mockupjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ff4594",
+            "title": "Electric callboy",
+            "head_color": "#7d2e88",
+            "subtitle": "tekkno",
+            "subhead_color": "#f3d80e",
+            "content": "Ltd. Deluxe Fanbox 2024",
+            "content_color": "#ff4594",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ff4594",
+            "show_preorder": true,
+            "preorder_msg": "June 21",
+            "preorder_msg_color": "#ffffff",
+            "link": "https:\/\/www.cmdistro.de\/products\/electric-callboy-tekkno-ltd-deluxe-fanbox-2024"
+          }
         }
       },
       "block_order": [
-        "banner_pzLXXy",
+        "banner_ikGaAY",
         "banner_tGQJkg",
         "banner_hg8N9J",
-        "banner_KCiDjy",
-        "banner_CMydxc",
         "banner_MDmktJ",
-        "banner_FncBAX",
-        "bcaf801e-ede7-42b6-92f4-d375d2aafaf7",
         "02a54b18-c68a-42ec-be73-158190e5fe63",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
+        "banner_NghfzE"
       ],
       "settings": {
         "edge_to_edge": true,
@@ -338,6 +271,8 @@
     "newsletter_sme_yjbrtn": {
       "type": "newsletter-sme",
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
         "title": "Newsletter",
         "content": "<p>Subscribe to our newsletter!<\/p>",
         "ae_segment_id": "1700057",
