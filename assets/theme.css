@@ -2291,12 +2291,12 @@ img.lazyload[data-sizes=auto] {
   padding: 2rem 5rem;
 }
 
-.container.container__newsletter div {
+.container.container__newsletter > div {
   width: 50%;
 }
 
 @media screen and (max-width: 641px) {
-  .container.container__newsletter div {
+  .container.container__newsletter > div {
     width: 100%;
   }
 
