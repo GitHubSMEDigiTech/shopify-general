@@ -23,6 +23,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_9jMdYT": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_kaipa.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/kaipasommargryningsljusjpg.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "KAIPA",
+            "head_color": "#ffffff",
+            "subtitle": "Sommargryningsljus",
+            "subhead_color": "#555555",
+            "content": "Ltd. CD Mediabook, Gatefold Black 2LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "JULY 28",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Kaipa&sort_by=created-descending"
+          }
+        },
         "banner_AwR8cY": {
           "type": "banner",
           "settings": {
@@ -263,31 +285,10 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/collections\/midprice-blowout"
           }
-        },
-        "banner_9jMdYT": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner_kaipa.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/kaipasommargryningsljusjpg.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "KAIPA",
-            "head_color": "#ffffff",
-            "subtitle": "Sommargryningsljus",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Mediabook, Gatefold Black 2LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "JULY 28",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Kaipa&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_9jMdYT",
         "banner_AwR8cY",
         "banner_acA6W3",
         "banner_zx6GxJ",
@@ -298,8 +299,7 @@
         "banner_VwNtDd",
         "banner_RabpEb",
         "banner_mKJEFe",
-        "9868648a-affa-4d67-be87-afd569870a56",
-        "banner_9jMdYT"
+        "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
         "edge_to_edge": true,
