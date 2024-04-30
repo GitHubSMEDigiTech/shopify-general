@@ -1,0 +1,18 @@
+{%- if product.metafields.meta.contest != blank -%}
+<div class="contest">
+    <h3 class="h3 text--strong">{{ block.settings.contest_title }}</h3>
+    <p>
+        {{ product.metafields.meta.contest_description }}
+    </p>
+    <div class="contest_checkboxes"> 
+        {%- assign options = block.settings.contest_radio | split: ',' -%}
+
+        {% for option in options -%}
+            {%- assign o = option | strip -%}
+            <span><input type="radio" id="contest{{ o }}" name="properties[Contest-{{ product.metafields.meta.contest }}]" value="{{ o }}" />{{ o }}</span>
+        {%- endfor %}
+    </div>
+</div>
+    
+    
+{%- endif -%}
