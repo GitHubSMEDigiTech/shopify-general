@@ -23,15 +23,6 @@
             "low_inventory_threshold": 0
           }
         },
-        "789626d1-3486-4bdd-8004-3f80c7f3b43c": {
-          "type": "liquid",
-          "settings": {
-            "title": "Stock Level Info:",
-            "sku": "",
-            "liquid": "{{ product.variants.first.inventory_quantity }}",
-            "display_mode": "collapse"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -57,7 +48,6 @@
       "block_order": [
         "product_meta",
         "variant_selector",
-        "789626d1-3486-4bdd-8004-3f80c7f3b43c",
         "buy_buttons",
         "description",
         "liquid_Tbd46i"
