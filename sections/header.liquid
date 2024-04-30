@@ -58,6 +58,8 @@
           {%- capture header_logo -%}
             <a href="{{ routes.root_url }}" class="header__logo-link">
               {%- if section.settings.logo != blank -%}
+                {%- assign alt_default = collection.name | append: ' '   -%}
+                {%- assign alt_default = collection.name | append: shop.name   -%}
                 {%- capture image_size -%}{{ section.settings.logo_max_width }}x{%- endcapture -%}
                 <span class="visually-hidden">{{ shop.name }}</span>
                 <img class="header__logo-image"
@@ -65,7 +67,7 @@
                      width="{{ section.settings.logo.width }}"
                      height="{{ section.settings.logo.height }}"
                      src="{{ section.settings.logo | img_url: image_size, scale: 2 }}"
-                     alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
+                     alt="{{ section.settings.logo.alt | default: alt_default | escape }}">
               {%- else -%}
                 <span class="header__logo-text">{{ shop.name }}</span>
               {%- endif -%}
@@ -305,7 +307,7 @@
                           <div class="popover__inner">
                             {%- form 'customer_login', name: 'login', class: 'form', id: 'header_customer_login' -%}
                               <header class="popover__header">
-                                <h2 class="popover__title heading">{{ 'customer.login.login' | t }}</h2>
+                                <span class="popover__title heading">{{ 'customer.login.login' | t }}</span>
                                 <p class="popover__legend">{{ 'customer.login.description' | t }}</p>
                               </header>
   

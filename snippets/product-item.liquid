@@ -43,6 +43,8 @@
   {%- endif -%}
 
   {%- assign filtered_variant = '' -%}
+  {%- assign p_name = product.title | append: ' ' | append: shop.name | append: ' '  | append: ' ' | append: product.selected_or_first_available_variant.sku -%}
+  {%- assign alt_default = p_name -%}
 
   {%- if product.media.size > 0 -%}
     {%- assign primary_media = product.featured_media -%}
@@ -52,17 +54,17 @@
       {%- assign image_url = primary_media | image_url: width: 400, height: 400 | replace: '_1x1.', '_{width}x.' -%}
 
       <div class="aspect-ratio {% if settings.product_image_size != 'natural' %}aspect-ratio--{{ settings.product_image_size }}{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: primary_media.preview_image.aspect_ratio }}%">
-        <img class="product-item__primary-image lazyload image--fade-in" data-media-id="{{ primary_media.id }}" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ primary_media.alt | escape }}">
+        <img class="product-item__primary-image lazyload image--fade-in" data-media-id="{{ primary_media.id }}" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ alt_default | escape }}">
 
         {%- if show_secondary_media -%}
           {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,500,600,700,800', image: product.media[1].preview_image -%}{%- endcapture -%}
           {%- assign image_url = product.media[1] | image_url: width: 400, height: 400 | replace: '_1x1.', '_{width}x.' -%}
 
-          <img class="product-item__secondary-image lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ product.media[1].alt | escape }}">
+          <img class="product-item__secondary-image lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ alt_default | escape }}">
         {%- endif -%}
 
         <noscript>
-          <img src="{{ primary_media | image_url: width: 600 }}" alt="{{ primary_media.alt | escape }}">
+          <img src="{{ primary_media | image_url: width: 600 }}" alt="{{ alt_default | escape }}">
         </noscript>
       </div>
     </a>
