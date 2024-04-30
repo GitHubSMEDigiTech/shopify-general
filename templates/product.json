@@ -31,6 +31,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "display_mode": "show_all"
           }
@@ -61,6 +62,14 @@
         "carousel_effect": "fade"
       }
     },
+    "custom_liquid_RgYmJH": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<h3 class=\"h2\">Descrizione<\/h3>\n<p>{{product.content}}<\/p>"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -78,6 +87,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_RgYmJH",
     "product-recommendations",
     "recently-viewed-products"
   ]
