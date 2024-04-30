@@ -4,7 +4,7 @@
       "type": "main-collection",
       "settings": {
         "show_collection_image": true,
-        "collapse_collection_description": false,
+        "collapse_collection_description": true,
         "show_collection_top": true,
         "top_bg_color": "#f3f3f3",
         "headline_deco": true,
