@@ -29,6 +29,13 @@
             "low_inventory_threshold": 0
           }
         },
+        "contest_dPa76e": {
+          "type": "contest",
+          "settings": {
+            "contest_title": "Contest",
+            "contest_radio": "Yes, No"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -56,6 +63,7 @@
         "product_meta",
         "text_FYDwhT",
         "variant_selector",
+        "contest_dPa76e",
         "buy_buttons",
         "description",
         "liquid_Tbd46i"
