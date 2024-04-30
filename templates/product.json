@@ -12,6 +12,12 @@
             "show_share_buttons": true
           }
         },
+        "text_FYDwhT": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Add your text here<\/p>"
+          }
+        },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {
@@ -48,6 +54,7 @@
       },
       "block_order": [
         "product_meta",
+        "text_FYDwhT",
         "variant_selector",
         "buy_buttons",
         "description",
