@@ -42,7 +42,7 @@
         "image_cVry8W"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "medium",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
@@ -59,7 +59,7 @@
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
-        "link_title": "Visualizza tutti",
+        "link_title": "",
         "link_url": ""
       }
     },
@@ -136,7 +136,7 @@
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
-        "link_title": "View all",
+        "link_title": "",
         "link_url": ""
       }
     },
