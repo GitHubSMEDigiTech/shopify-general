@@ -1276,6 +1276,24 @@ body:not(.is-tabbing) textarea:focus {
   visibility: hidden;
 }
 
+.contest_checkboxes span input {
+  margin-right: 10px;
+}
+
+.contest_checkboxes span {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.contest {
+  margin: 9px;
+}
+
+.contest p {
+  margin: 0;
+}
+
+
 @supports (--css: variables) {
   .anchor {
     top: calc(-1 * var(--header-height));
