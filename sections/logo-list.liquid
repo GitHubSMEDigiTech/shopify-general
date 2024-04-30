@@ -39,10 +39,10 @@
             <div id="block-{{ block.id }}" class="quick-links__image-container">
               <div class="quick-links__image-ie-fix">
                 <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%">
-                  <img class="lazyload image--fade-in" data-src="{{ block.settings.image | image_url: width: 280 }}" alt="{{ block.settings.image.alt | escape }}">
+                  <img class="lazyload image--fade-in" data-src="{{ block.settings.image | image_url: width: 280 }}" alt="{{ block.settings.image.alt | append: shop.name }}">
 
                   <noscript>
-                    <img src="{{ block.settings.image | image_url: width: 280 }}" alt="{{ block.settings.image.alt | escape }}">
+                    <img src="{{ block.settings.image | image_url: width: 280 }}" alt="{{ block.settings.image.alt | append: shop.name }}">
                   </noscript>
                 </div>
               </div>
