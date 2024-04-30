@@ -20,7 +20,7 @@
         <div class="container container--extra-narrow">
           <div class="announcement-bar__newsletter-inner">
             {%- if section.settings.newsletter_title != blank -%}
-              <h2 class="heading h1">{{ section.settings.newsletter_title | escape }}</h2>
+              <span class="heading h1">{{ section.settings.newsletter_title | escape }}</span>
             {%- endif -%}
 
             {%- if section.settings.newsletter_content != blank -%}
