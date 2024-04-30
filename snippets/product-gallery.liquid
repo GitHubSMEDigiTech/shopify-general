@@ -11,7 +11,11 @@
             {%- for media in product.media -%}
               {%- assign is_media_group = false -%}
               {%- assign is_media_filtered = false -%}
-              {%- assign media_alt = media.alt -%}
+              {%- assign p_name = product.title | append: ' ' -%}
+              {%- assign p_name_a = p_name | append: shop.name -%}
+              {%- assign p_name_b = p_name_a | append: ' ' -%}
+              {%- assign p_name_c = p_name_b | append: product.selected_or_first_available_variant.sku -%}
+              {%- assign media_alt = p_name_c  -%}
 
               {%- if media.alt contains '#' -%}
                 {%- assign is_media_group = true -%}
@@ -25,7 +29,8 @@
                 {%- if alt_parts.size == 2 and alt_parts.first != blank -%}
                   {%- assign media_alt = alt_parts.first | strip -%}
                 {%- else -%}
-                  {%- assign media_alt = product.title -%}
+                  {%- assign p_title = product.title | append: ' ' -%}
+                  {%- assign media_alt = p_title | append: shop.name -%}
                 {%- endif -%}
 
                 {%- assign media_group_parts = alt_parts.last | split: '_' -%}
@@ -155,6 +160,9 @@
                         {%- endif -%}
 
                         {%- break -%}
+                      {%- else -%}
+                        {%- assign p_title = product.title | append: ' ' -%}
+                        {%- assign media_alt = p_title | append: shop.name -%}
                       {%- endif -%}
                     {%- endfor -%}
                   {%- endif -%}
