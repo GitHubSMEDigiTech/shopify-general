@@ -32,10 +32,10 @@
             {%- assign image_url = article.image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%}
 
             <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: article.image.aspect_ratio }}%">
-              <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ article.image.alt | escape }}">
+              <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ article.image.alt | append: shop.name }}">
 
               <noscript>
-                <img src="{{ article.image | image_url: width: 800 }}" alt="{{ article.image.alt | escape }}">
+                <img src="{{ article.image | image_url: width: 800 }}" alt="{{ article.image.alt | append: shop.name }}">
               </noscript>
             </div>
           </div>
@@ -293,7 +293,7 @@
                           {%- if article.image -%}
                             <a href="{{ article.url }}" class="blog-sidebar__post-image-wrapper">
                               <div class="blog-sidebar__post-image-overflow">
-                                <img src="{{ article.image | image_url: width: 200, height: 160, crop: 'center' }}" alt="{{ article.image.alt | escape }}" class="blog-sidebar__post-image">
+                                <img src="{{ article.image | image_url: width: 200, height: 160, crop: 'center' }}" alt="{{ article.image.alt | append: shop.name }}" class="blog-sidebar__post-image">
                               </div>
                             </a>
                           {%- endif -%}

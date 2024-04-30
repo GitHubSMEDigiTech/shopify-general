@@ -76,11 +76,11 @@
 
                               {%- if line_item.image.aspect_ratio < 1 -%}
                                 <div class="aspect-ratio aspect-ratio--square">
-                                  <img src="{{ line_item.image | image_url: width: 180 }}" alt="{{ line_item.image.alt | escape }}">
+                                  <img src="{{ line_item.image | image_url: width: 180 }}" alt="{{ line_item.image.alt | append: shop.name}}">
                                 </div>
                               {%- else -%}
                                 <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: line_item.image.aspect_ratio }}%">
-                                  <img src="{{ line_item.image | image_url: width: 180 }}" alt="{{ line_item.image.alt | escape }}">
+                                  <img src="{{ line_item.image | image_url: width: 180 }}" alt="{{ line_item.image.alt | append: shop.name }}">
                                 </div>
                               {%- endif -%}
                             </div>
@@ -467,7 +467,7 @@
                       <div class="text-with-icons__item" {{ block.shopify_attributes }}>
                         <div class="text-with-icons__icon-wrapper">
                           {%- if block.settings.custom_icon != blank -%}
-                            <img src="{{ block.settings.custom_icon | image_url: width: 60 }}" alt="{{ block.settings.custom_icon.alt | escape }}">
+                            <img src="{{ block.settings.custom_icon | image_url: width: 60 }}" alt="{{ block.settings.custom_icon.alt | append: shop.name }}">
                           {%- else -%}
                             {%- render 'icon', icon: block.settings.icon, stroke_width: 1.5 -%}
                           {%- endif -%}
