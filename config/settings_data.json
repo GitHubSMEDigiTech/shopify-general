@@ -223,13 +223,20 @@
             "settings": {
               "menu": "main-menu"
             }
+          },
+          "links_GENJ44": {
+            "type": "links",
+            "settings": {
+              "menu": "footer-1"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
           "footer-2",
-          "links_wfmPgy"
+          "links_wfmPgy",
+          "links_GENJ44"
         ],
         "custom_css": [
           "footer {font-size: calc( var(--base-text-font-size) - (var(--default-text-font-size) - 13px) );}",
