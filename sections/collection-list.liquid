@@ -19,16 +19,22 @@
             <a href="{{ block.settings.link | default: collection.url | default: '#' }}" class="collection-item" data-collection-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
               {%- unless collection == blank -%}
                 {%- assign collection_image = block.settings.image | default: collection.image | default: collection.products.first.featured_image -%}
+                {%- if collection_image.alt != blank -%}
+                  {%- assign alt_default = block.settings.cover_image.alt | append: ' '   -%}
+                  {%- else -%}
+                  {%- assign col_name = collection.title | append: ' '   -%}
+                  {%- assign alt_default = col_name | append: shop.name   -%}
+                {%- endif -%}
 
                 <div class="collection-item__image-wrapper {% if section.settings.round_images %}collection-item__image-wrapper--rounded{% endif %}">
                   {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800', image: collection_image -%}{%- endcapture -%}
                   {%- assign image_url = collection_image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%}
 
                   <div class="aspect-ratio" style="padding-bottom: 100%">
-                    <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ collection_image.alt | escape }}">
+                    <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ alt_default | escape }}">
 
                     <noscript>
-                      <img src="{{ collection_image | image_url: width: 450 }}" alt="{{ collection_image.alt | escape }}">
+                      <img src="{{ collection_image | image_url: width: 450 }}" alt="{{ alt_default | escape }}">
                     </noscript>
                   </div>
                 </div>
