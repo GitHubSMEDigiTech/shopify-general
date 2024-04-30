@@ -33,7 +33,7 @@
           "type": "contest",
           "settings": {
             "contest_title": "Contest",
-            "contest_radio": "Yes, No"
+            "contest_radio": "NO, ROMA, MILANO"
           }
         },
         "buy_buttons": {
