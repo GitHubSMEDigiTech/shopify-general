@@ -15,20 +15,9 @@
 
           {%- when 'variant_selector' -%}
             {%- render 'product-variant-selector', product: product, form: form, block: block -%}
-
-              {%- comment -%}
-              --------------------------------------------------------------------------------------
-              Contest
-              --------------------------------------------------------------------------------------
-              {%- endcomment -%}
-              {%- if product.metafields.meta.contest != blank -%}
-                <p class="line-item-property__field contest">
-                  <label for="contest">{{ product.metafields.meta.contest_description }}</label>
-                  <span><input type="radio" id="contestYes" name="properties[Contest]" value="yes" /> Sì</span>
-                  <span><input type="radio" id="contestNo" name="properties[Contest]" value="no" checked /> No</span>
-                </p>
-                {%- endif -%}
-  
+          
+          {%- when 'contest' -%}
+            {%- render 'product-contest', product: product, block: block -%}
 
           {%- when 'buy_buttons' -%}
             {%- render 'product-buy-buttons', product: product, form: form, block: block -%}
