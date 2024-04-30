@@ -18,14 +18,21 @@
   {%- endunless -%}
 
   {%- if block.settings.image and section.settings.section_size == 'preserve_ratio' -%}
+    {%- if block.settings.image.alt != blank -%}
+      {%- assign alt_default = block.settings.image.alt | append: ' '   -%}
+      {%- else -%}
+      {%- assign col_name = collection.title | append: ' '   -%}
+      {%- assign alt_default = col_name | append: shop.name   -%}
+    {%- endif -%}
+      
     {%- capture supported_sizes -%}{%- render 'image-size', sizes: '800,900,1000,1100,1200,1300,1400,1600,1800,2000,2160,2200,2400,2600', image: block.settings.image -%}{%- endcapture -%}
     {%- assign image_url = block.settings.image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%}
 
     <div class="aspect-ratio {% if block.settings.mobile_image %}hidden-phone{% endif %}" style="padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%">
-      <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
+      <img class="slideshow__image lazyload image--fade-in" alt="{{ alt_default }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
 
       <noscript>
-        <img src="{{ block.settings.image | image_url: width: 1200 }}" alt="{{ block.settings.image.alt | escape }}">
+        <img src="{{ block.settings.image | image_url: width: 1200 }}" alt="{{ alt_default }}">
       </noscript>
     </div>
 
@@ -37,7 +44,7 @@
         <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.mobile_image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
 
         <noscript>
-          <img src="{{ block.settings.mobile_image | image_url: width: 800 }}" alt="{{ block.settings.mobile_image.alt | escape }}">
+          <img src="{{ block.settings.mobile_image | image_url: width: 800 }}" alt="alt_default">
         </noscript>
       </div>
     {%- endif -%}
@@ -59,13 +66,19 @@
   
   {%- if slide_content != blank -%}
     <div class="banner slideshow__content-wrapper">
+      {%- if block.settings.cover_image.alt != blank -%}
+        {%- assign alt_default = block.settings.cover_image.alt | append: ' '   -%}
+        {%- else -%}
+        {%- assign col_name = collection.title | append: ' '   -%}
+        {%- assign alt_default = col_name | append: shop.name   -%}
+      {%- endif -%}
       <div class="cover cover-{{ block.settings.cover_effect }}">
       {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300, 400, 500, 600,700,800,900', image: block.settings.cover_image -%}{%- endcapture -%}
         {%- assign image_url = block.settings.cover_image | image_url: width: 300, height: 300 | replace: '_1x1.', '_{width}x.' -%} 
         <img class="slideshow__image lazyload image--fade-in" alt="{{ block.settings.cover_image.alt | escape }}" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto">
 
         <noscript>
-          <img src="{{ block.settings.cover_image | image_url: width: 800 }}" alt="{{ block.settings.cover_image.alt | escape }}">
+          <img src="{{ block.settings.cover_image | image_url: width: 800 }}" alt="{{ alt_default | escape }}">
         </noscript>
       </div>
       <div class="container">

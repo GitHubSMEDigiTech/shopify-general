@@ -65,10 +65,13 @@
           <div class="collection__header-inner">
             <div class="collection__meta">
               {%- if section.settings.show_collection_image and collection.image and collection.all_products_count > 0 -%}
+               
+                  {%- assign col_name = collection.title | append: ' '   -%}
+                  {%- assign alt_default = col_name | append: shop.name   -%}
                 
                 {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900', image: collection.image -%}{%- endcapture -%}
                 {%- assign image_url = collection.image | image_url: width: 400 -%}
-                <img class="lazyload image--fade-in" data-media-id="{{ collection.image.id }}" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ collection.image.alt | escape }}">
+                <img class="lazyload image--fade-in" data-media-id="{{ collection.image.id }}" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ alt_default | escape }}">
               {%- endif -%}
             </div>
               
@@ -321,7 +324,7 @@
 
                     <div class="collection__image-wrapper collection__image-wrapper--preserve-ratio">
                       <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: collection.image.aspect_ratio }}%">
-                        <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ collection.image.alt | escape }}">
+                        <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ alt_default | escape }}">
                       </div>
                     </div>
                   {%- else -%}
