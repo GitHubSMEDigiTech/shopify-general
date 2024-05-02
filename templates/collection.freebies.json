@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": false,
         "collapse_collection_description": false,
@@ -21,9 +22,64 @@
         "show_filter_color_swatch": false,
         "open_group_filters_mode": "all_closed"
       }
+    },
+    "featured_product_UJfHUY": {
+      "type": "featured-product",
+      "blocks": {
+        "product_meta_B8hUx6": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_reviews_badge": false,
+            "show_share_buttons": true
+          }
+        },
+        "featured_description_rTEaXY": {
+          "type": "featured_description",
+          "settings": {
+          }
+        },
+        "variant_selector_DjRpnn": {
+          "type": "variant_selector",
+          "disabled": true,
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "show_quantity_selector": true,
+            "show_taxes_included": false,
+            "show_inventory_quantity": false,
+            "low_inventory_threshold": 0
+          }
+        },
+        "buy_buttons_jzCDtn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "product_meta_B8hUx6",
+        "featured_description_rTEaXY",
+        "variant_selector_DjRpnn",
+        "buy_buttons_jzCDtn"
+      ],
+      "settings": {
+        "product": "slipmat-cm-inside-out-logo",
+        "title": "",
+        "link_title": "",
+        "link_url": "",
+        "image_size": "small",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "zoom_effect": "outside",
+        "carousel_effect": "fade"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_product_UJfHUY"
   ]
 }
