@@ -57,13 +57,20 @@
           "settings": {
             "show_payment_button": true
           }
+        },
+        "text_qXYJGF": {
+          "type": "text",
+          "settings": {
+            "content": "<p>This item is <strong>not<\/strong> for sale! Feel free to add it to your basket once you have ordered 5 vinyls from our <a href=\"\/collections\/lp\" title=\"LP\">vinyl collection<\/a>. <\/p>"
+          }
         }
       },
       "block_order": [
         "product_meta_B8hUx6",
         "featured_description_rTEaXY",
         "variant_selector_DjRpnn",
-        "buy_buttons_jzCDtn"
+        "buy_buttons_jzCDtn",
+        "text_qXYJGF"
       ],
       "settings": {
         "product": "slipmat-cm-inside-out-logo",
