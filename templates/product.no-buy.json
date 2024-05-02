@@ -86,6 +86,12 @@
           "settings": {
             "content": "<h6>All ordered items will be shipped in one delivery. In case of a pre-order, we will only ship once all items have been released. <\/h6>"
           }
+        },
+        "text_VCf9im": {
+          "type": "text",
+          "settings": {
+            "content": "<p>You will get <em>one<\/em> <strong>free<\/strong> Slipmat with every <a href=\"\/collections\/lp\" title=\"LP\">vinyl<\/a> order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately. <\/p>"
+          }
         }
       },
       "block_order": [
@@ -99,7 +105,8 @@
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b",
         "2e75b2af-c1ad-445e-9263-9bb1a032d880",
         "caae8b81-4155-4df7-94b3-d971bcc57458",
-        "text_JPPhjr"
+        "text_JPPhjr",
+        "text_VCf9im"
       ],
       "settings": {
         "list_collections": false,
