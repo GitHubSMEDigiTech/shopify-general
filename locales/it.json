@@ -200,7 +200,7 @@
       "quick_view": "Anteprima",
       "choose_options": "Scegli le opzioni",
       "sold_out": "Esaurito",
-      "in_stock": "In stock",
+      "in_stock": "Disponibilità immediata",
       "oversell_stock": "Disponibile a breve",
       "discount_html": "Risparmi {{savings}}",
       "low_stock_with_quantity_count": {
@@ -208,8 +208,8 @@
         "other": "Ne rimangono ancora {{count}}"
       },
       "in_stock_with_quantity_count": {
-        "one": "In stock, {{count}}",
-        "other": "In stock, {{count}}"
+        "one": "Disponibilità immediata, {{count}}",
+        "other": "Disponibilità immediata, {{count}}"
       }
     }
   },
@@ -401,7 +401,7 @@
       "price": "Prezzo",
       "inventory": "Stock",
       "quantity": "Quantità",
-      "in_stock": "In stock",
+      "in_stock": "Disponibilità immediata",
       "oversell_stock": "In arrivo a breve",
       "incoming_stock": "In arrivo il {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
@@ -409,8 +409,8 @@
         "other": "Ultimi {{count}} disponibili"
       },
       "in_stock_with_quantity_count": {
-        "one": "In stock ({{count}} unit), pronto per essere spedito",
-        "other": "In stock ({{count}} units), pronti per essere spediti"
+        "one": "Disponibilità immediata ({{count}} unit), pronto per essere spedito",
+        "other": "Disponibilità immediata ({{count}} units), pronti per essere spediti"
       },
       "add_to_cart": "Aggiungi al carrello",
       "sold_out": "Esaurito",
