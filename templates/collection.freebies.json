@@ -7,7 +7,7 @@
         "show_collection_image": false,
         "collapse_collection_description": false,
         "show_collection_top": false,
-        "top_bg_color": "#F3F3F3",
+        "top_bg_color": "#f3f3f3",
         "headline_deco": false,
         "headline_deco_col": "#d82222",
         "collection_image_size": "large",
@@ -42,7 +42,6 @@
         },
         "variant_selector_DjRpnn": {
           "type": "variant_selector",
-          "disabled": true,
           "settings": {
             "selector_mode": "block",
             "color_mode": "color",
