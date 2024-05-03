@@ -79,6 +79,11 @@
         </div>
       {%- endif -%}
     {%- endform -%}
+    {%- if product.metafields.meta.spotify != blank -%}
+      <div class="spotify_button">
+        <a class="button--secondary button" href="{{ product.metafields.meta.spotify }}">Listen on Spotify {% render 'icon', icon: 'spotify' %}</a>
+      </div>
+    {%- endif -%}
   </div>
 
   {% comment %}
