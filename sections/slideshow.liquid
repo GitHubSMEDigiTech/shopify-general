@@ -1,8 +1,8 @@
 {%- capture section_settings -%}
   {
     "autoPlay": {{ section.settings.autoplay | json }},
-    "prevNextButtons": false,
-    "pageDots": {% if section.blocks.size > 1 %}false{% else %}false{% endif %},
+    "prevNextButtons": {{ section.settings.show_arrows }},
+    "pageDots": {% if section.blocks.size > 1 %}false{% else %}{{ section.settings.show_dots}}{% endif %},
     "setGallerySize": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}false{% endif %},
     "adaptiveHeight": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}false{% endif %},
     "transitionEffect": {{ section.settings.carousel_effect | json }},
@@ -100,6 +100,18 @@
         "id": "autoplay",
         "label": "Auto rotate between slides",
         "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_arrows",
+        "label": "Show Arrow Controls",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "show_dots",
+        "label": "Show Dots Controls",
+        "default": false
       },
       {
         "type": "range",
