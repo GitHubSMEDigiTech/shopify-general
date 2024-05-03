@@ -1,9 +1,10 @@
 {
   "current": {
-    "heading_color": "#71f421",
+    "heading_color": "#000000",
     "accent_color": "#c5161c",
     "header_background": "#000000",
     "header_text_color": "#ffffff",
+    "header_accent_color": "#ff0000",
     "footer_background_color": "#131313",
     "footer_heading_text_color": "#ffffff",
     "footer_body_text_color": "#ffffff",
