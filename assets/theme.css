@@ -387,14 +387,14 @@ th {
 }
 
 .flickity-prev-next-button.previous {
-  left: -25px;
+  left: 10px;
 }
 .flickity-prev-next-button.previous svg {
   left: 1px;
 }
 
 .flickity-prev-next-button.next {
-  right: -25px;
+  right: 10px;
 }
 .flickity-prev-next-button.next svg {
   left: -1px;
@@ -424,6 +424,10 @@ th {
   z-index: 1;
   visibility: visible;
   opacity: 1 !important;
+}
+
+.spotify_button {    
+  margin-top: 9px;
 }
 
 /* Make sure that if Flickity is embedded within a modal, the slideshow are not with auto pointer events */
