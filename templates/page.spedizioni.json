@@ -4,9 +4,159 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "image_banner_QJCBRD": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Vm3ctT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "text_color": "#000000"
+          }
+        },
+        "text_EiJT4Y": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_dJkNJc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vm3ctT",
+        "text_EiJT4Y",
+        "buttons_dJkNJc"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image_overlay_opacity": 0,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 50,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "faq_BmatVb": {
+      "type": "faq",
+      "blocks": {
+        "separator_gkPNj7": {
+          "type": "separator",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "question_JHm83N": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "question_erPLVY": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_R4Ucz6": {
+          "type": "question",
+          "settings": {
+            "title": "What shipping carriers do you use?",
+            "answer": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.<\/p>"
+          }
+        },
+        "separator_qLfKd3": {
+          "type": "separator",
+          "settings": {
+            "title": "Product"
+          }
+        },
+        "question_pEMcJz": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return my product?",
+            "answer": "<p>We always aim for make sure our customers love our products, but if you do need to return an order, we’re happy to help. Just email us directly and we’ll take you through the process.<\/p>"
+          }
+        },
+        "question_jEYyKW": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get my product personalized?",
+            "answer": "<p>It depends on the creator and the product. All options are outlined on the product page, so look out for customization options there.<\/p>"
+          }
+        },
+        "separator_be8Qy8": {
+          "type": "separator",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "question_R8qRTq": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
+        "separator_9bK6P7": {
+          "type": "separator",
+          "settings": {
+            "title": "Default"
+          }
+        }
+      },
+      "block_order": [
+        "separator_gkPNj7",
+        "question_JHm83N",
+        "question_erPLVY",
+        "question_R4Ucz6",
+        "separator_qLfKd3",
+        "question_pEMcJz",
+        "question_jEYyKW",
+        "separator_be8Qy8",
+        "question_R8qRTq",
+        "separator_9bK6P7"
+      ],
+      "settings": {
+        "show_contact_info": true,
+        "contact_info_heading": "Any question?",
+        "contact_info_text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+        "contact_1_icon": "bi-phone",
+        "contact_1_heading": "Customer support",
+        "contact_1_text": "<p>Enter your text here<\/p>",
+        "contact_2_icon": "bi-email",
+        "contact_2_heading": "Send a message",
+        "contact_2_text": "<p>Enter your text here<\/p>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_QJCBRD",
+    "faq_BmatVb"
   ]
 }
