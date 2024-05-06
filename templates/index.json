@@ -47,6 +47,8 @@
         "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
         "autoplay": true,
+        "show_arrows": true,
+        "show_dots": true,
         "cycle_speed": 5
       }
     },
