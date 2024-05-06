@@ -1,6 +1,6 @@
 {%- if paginate.pages > 1 -%}
   <div class="load-more">
-    <span id="load-more_btn" class="load-more_btn text-center mt-12 button button--primary">Load More</span>
+    <span id="load-more_btn" class="load-more_btn text-center mt-12 button button--primary">{{ settings.loading_button }}</span>
     <div id="load-more_spinner">{%- render 'icon', icon: 'search-loader' -%}</div>
   </div>
 
@@ -24,12 +24,10 @@
     }
 
     async function loadMoreProducts() {
-      console.log('klick')
 
       load_more_btn.style.display = 'none';
       load_more_spinner.style.display = 'block';
       let nextPage = await getNextPage();
-      console.log(nextPage)
 
       const parser = new DOMParser();
       const nextPageDoc = parser.parseFromString(nextPage, 'text/html');

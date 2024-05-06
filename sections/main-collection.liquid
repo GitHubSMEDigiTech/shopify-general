@@ -573,7 +573,7 @@
                 </div>
               </div>
               {%- unless section.settings.collection_pagination == "pagination" %}
-                {%- render 'pagination-load', paginate: paginate -%}
+                {%- render 'pagination-load', paginate: paginate, settings: section.settings -%}
               {%- endunless -%}
             {%- endif -%}
           </div>
@@ -923,6 +923,12 @@
         }
       ],
       "default": "pagination"
+    },
+    {
+      "type": "text",
+      "id": "loading_button",
+      "label": "Text for Load More Button",
+      "default": "Load More"
     },
     {
       "type": "select",
