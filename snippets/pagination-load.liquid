@@ -1,0 +1,53 @@
+{%- if paginate.pages > 1 -%}
+  <div class="load-more">
+    <span id="load-more_btn" class="load-more_btn text-center mt-12 button button--primary">Load More</span>
+    <div id="load-more_spinner">{%- render 'icon', icon: 'search-loader' -%}</div>
+  </div>
+
+<script>
+  window.addEventListener('load', () => {
+    const products_on_page = document.getElementById('product-list');
+    let next_url = products_on_page.dataset.nextUrl;
+
+    const load_more_btn = document.getElementById('load-more_btn');
+    load_more_btn.addEventListener('click', loadMoreProducts, false);
+
+    const load_more_spinner = document.getElementById('load-more_spinner');
+
+    async function getNextPage() {
+      try {
+        let res = await fetch(next_url);
+        return await res.text();
+      } catch (error) {
+        console.log(error);
+      }
+    }
+
+    async function loadMoreProducts() {
+      console.log('klick')
+
+      load_more_btn.style.display = 'none';
+      load_more_spinner.style.display = 'block';
+      let nextPage = await getNextPage();
+      console.log(nextPage)
+
+      const parser = new DOMParser();
+      const nextPageDoc = parser.parseFromString(nextPage, 'text/html');
+
+      load_more_spinner.style.display = 'none';
+
+      const productgrid = nextPageDoc.getElementById('product-list');
+      const new_products = productgrid.getElementsByClassName('product-item');
+      const new_url = productgrid.dataset.nextUrl;
+      if (new_url) {
+        load_more_btn.style.display = 'inline-block';
+      }
+      next_url = new_url;
+      for (let i = 0; i < new_products.length; i++) {
+        products_on_page.appendChild(new_products[i]);
+      }
+    }
+  }, false)
+</script>
+  
+{%- endif -%}

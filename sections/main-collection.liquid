@@ -561,16 +561,20 @@
                       {%- assign show_as_list = true -%}
                     {%- endif -%}
 
-                    <div class="product-list product-list--collection {% if has_filters %}product-list--with-sidebar{% endif %}">
+                    <div id="product-list" class="product-list product-list--collection {% if has_filters %}product-list--with-sidebar{% endif %}" data-next-url="{{ paginate.next.url }}">
                       {%- for product in collection.products -%}
                         {%- render 'product-item', product: product, list: show_as_list, grid_classes: grid_classes -%}
                       {%- endfor -%}
                     </div>
-
-                    {%- render 'pagination', paginate: paginate -%}
+                    {%- if section.settings.collection_pagination == "pagination" %}
+                      {%- render 'pagination', paginate: paginate -%}
+                    {%- endif -%}
                   {%- endif -%}
                 </div>
               </div>
+              {%- unless section.settings.collection_pagination == "pagination" %}
+                {%- render 'pagination-load', paginate: paginate -%}
+              {%- endunless -%}
             {%- endif -%}
           </div>
         </div>
@@ -903,6 +907,22 @@
       "max": 48,
       "step": 12,
       "default": 24
+    },
+    {
+      "type": "select",
+      "id": "collection_pagination",
+      "label": "How to paginate through products",
+      "options": [
+        {
+          "value": "pagination",
+          "label": "Default Pagination"
+        },
+        {
+          "value": "loading",
+          "label": "Load More Button"
+        }
+      ],
+      "default": "pagination"
     },
     {
       "type": "select",
