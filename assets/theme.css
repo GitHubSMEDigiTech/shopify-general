@@ -2702,6 +2702,13 @@ img.lazyload[data-sizes=auto] {
   width: 30%;
 }
 
+.load-more {
+  text-align: center;
+}
+
+#load-more_spinner {
+  display: none;
+}
 
 @media screen and (max-width: 640px) {
   .card__header--top .collection__meta,
@@ -2712,6 +2719,14 @@ img.lazyload[data-sizes=auto] {
   .card__header--top .collection__header-inner {
     display: flex;
     flex-direction: column;
+  }
+
+  .load-more {
+    padding: 0 20px;
+  }
+
+  .load-more .button--primary {
+    width: 100%;
   }
 }
 
