@@ -2,7 +2,7 @@
   {
     "autoPlay": {{ section.settings.autoplay | json }},
     "prevNextButtons": {{ section.settings.show_arrows }},
-    "pageDots": {% if section.blocks.size > 1 %}false{% else %}{{ section.settings.show_dots}}{% endif %},
+    "pageDots": {% if section.blocks.size > 1 %}{{ section.settings.show_dots}}{% else %}false{% endif %},
     "setGallerySize": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}false{% endif %},
     "adaptiveHeight": {% if section.settings.section_size == 'preserve_ratio' %}true{% else %}false{% endif %},
     "transitionEffect": {{ section.settings.carousel_effect | json }},
