@@ -85,6 +85,14 @@
         "liquid": "<h3 class=\"h2\">Descrizione<\/h3>\n<p>{{product.content}}<\/p>"
       }
     },
+    "custom_liquid_rdUNRH": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Tracklist",
+        "include_margins": true,
+        "liquid": "{{product.metafields.meta.tracklist}}"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -103,6 +111,7 @@
   "order": [
     "main",
     "custom_liquid_RgYmJH",
+    "custom_liquid_rdUNRH",
     "product-recommendations",
     "recently-viewed-products"
   ]
