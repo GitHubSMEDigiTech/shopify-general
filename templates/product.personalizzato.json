@@ -1,5 +1,16 @@
 {
   "sections": {
+    "custom_liquid_RgYmJH": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<h3 class=\"h2\">Descrizione<\/h3>\n<p>{{product.content}}<\/p>"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -77,17 +88,6 @@
         "carousel_effect": "fade"
       }
     },
-    "custom_liquid_RgYmJH": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "",
-        "include_margins": true,
-        "liquid": "<h3 class=\"h2\">Descrizione<\/h3>\n<p>{{product.content}}<\/p>"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -104,8 +104,8 @@
     }
   },
   "order": [
-    "main",
     "custom_liquid_RgYmJH",
+    "main",
     "product-recommendations",
     "recently-viewed-products"
   ]
