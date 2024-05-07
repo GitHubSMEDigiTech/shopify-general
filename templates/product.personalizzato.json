@@ -55,7 +55,7 @@
             "title": "Tracklist",
             "sku": "",
             "liquid": "{{product.metafields.meta.tracklist}}",
-            "display_mode": "view_more"
+            "display_mode": "collapse"
           }
         }
       },
@@ -79,6 +79,9 @@
     },
     "custom_liquid_RgYmJH": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "",
         "include_margins": true,
