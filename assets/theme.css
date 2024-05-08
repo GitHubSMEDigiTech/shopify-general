@@ -32,7 +32,7 @@ body {
   margin: 0;
 }
 
-[hidden] {
+[hidden], .hidden {
   display: none !important;
 }
 
@@ -5821,6 +5821,59 @@ select option {
   height: 19px;
 }
 
+.header--incon.header {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+}
+
+.header--incon.header--search-expanded {
+  margin-bottom: 44px;
+}
+
+.header--incon.header>.container {
+  width: 100%;
+}
+
+.header--incon.header .header__inner {
+  flex-wrap: wrap;
+}
+
+.header--incon.header .header__search-bar-wrapper.is-visible {
+  visibility: visible;
+  margin-bottom: -44px;
+}
+
+.header--incon.header .search-bar__top {
+  flex-grow: 1;
+}
+
+.header--incon.header .search-bar {
+  margin-top: 0;
+  padding-bottom: 0;
+  min-width: 0;
+}
+
+.header--incon.header .header__search-bar-wrapper {
+  visibility: hidden;
+  position: absolute;
+  padding: 0 20px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: var(--header-background);
+  z-index: -1;
+  transition: visibility .25s ease-in-out, margin-bottom .25s ease-in-out;
+}
+
+.header--incon .nav-bar {
+  position: absolute;
+  border-bottom: none!important;
+  background: none!important;
+  font-size: var(--base-text-font-size);
+}
+
 @media screen and (max-width: 640px) {
   /* This trick allows to enforce a minimum height for header on mobile */
   .header {
@@ -6069,8 +6122,13 @@ select option {
 }
 
 @media screen and (min-width: 1280px) {
-  .header__action-item {
+
+   .header__action-item {
     padding: 0 35px;
+  }
+
+  .header--incon .header__action-item {
+    padding: 0 9px;
   }
 
   .header__action-item:last-child {
@@ -7263,15 +7321,18 @@ select option {
   top: -16px; /* floating dropdown do not have border so there is one less pixel */
   border-left: 1px solid var(--border-color);
 }
-.nav--enlarged .nav-dropdown__item.is-parent:not(:last-child) {
+.nav--enlarged .nav-dropdown__item.is-parent:not(:last-child),
+.nav--incon .nav-dropdown__item.is-parent:not(:last-child) {
   border-right: 1px solid var(--border-color);
 }
 
-.nav--enlarged .is-dropdown-open .nav-dropdown {
+.nav--enlarged .is-dropdown-open .nav-dropdown,
+  .nav--incon .is-dropdown-open .nav-dropdown {
   display: flex;
 }
 
-.nav--enlarged .nav-dropdown {
+.nav--enlarged .nav-dropdown,
+  .nav--incon .nav-dropdown {
   display: none;
   border: none;
   justify-content: space-between;
@@ -7281,14 +7342,18 @@ select option {
   gap: 16px;
 }
 
-.nav--enlarged .mega-menu__linklist {
+.nav--enlarged .mega-menu__linklist,
+  .nav--incon .mega-menu__linklist {
   visibility: visible;
   opacity: 1;
 }
 
 .nav--enlarged .nav-dropdown .nav-dropdown,
+.nav--incon .nav-dropdown .nav-dropdown,
 .nav--enlarged .mega-menu__linklist,
-.nav--enlarged .mega-menu__inner {
+.nav--incon .mega-menu__linklist,
+.nav--enlarged .mega-menu__inner,
+  .nav--incon .mega-menu__inner {
   position: relative;
   left: 0;
   top: 0;
@@ -7301,8 +7366,11 @@ select option {
 }
 
 .nav--enlarged .nav-dropdown__item,
+.nav--incon .nav-dropdown__item,
 .nav--enlarged .mega-menu__column,
-.nav--enlarged .nav-dropdown__item .mega-menu   {
+.nav--incon .mega-menu__column,
+.nav--enlarged .nav-dropdown__item .mega-menu ,
+  .nav--incon .nav-dropdown__item .mega-menu   {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
@@ -7312,26 +7380,31 @@ select option {
   opacity: 1;
 }
 
-.nav--enlarged .mega-menu:not(.mega-menu--floating) .mega-menu__column:first-child {
+.nav--enlarged .mega-menu:not(.mega-menu--floating) .mega-menu__column:first-child,
+  .nav--incon .mega-menu:not(.mega-menu--floating) .mega-menu__column:first-child {
   margin-left: 20px!important;
 }
 
-.nav--enlarged .mega-menu {
+.nav--enlarged .mega-menu,
+  .nav--incon .mega-menu {
   width: unset;
   border: none;
 }
 
-.nav--enlarged .nav-dropdown__link svg {
+.nav--enlarged .nav-dropdown__link svg,
+  .nav--incon .nav-dropdown__link svg {
   display: none;
 }
 
-.nav--enlarged .is-parent > .nav-dropdown__link{
+.nav--enlarged .is-parent > .nav-dropdown__link,
+  .nav--incon .is-parent > .nav-dropdown__link {
   text-align: center;
   display: block;
   font-weight: bold;
 }
 
-.nav--enlarged .nav-bar__item {
+.nav--enlarged .nav-bar__item,
+  .nav--incon .nav-bar__item {
   position: unset!important;
 }
 
