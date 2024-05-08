@@ -4,6 +4,8 @@
       "type": "rich-text",
       "disabled": true,
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
         "text_width": "wide",
         "title": "Schöne Feiertage!",
         "content": "<p><strong>Wir gehen vom <\/strong><em><strong>18. Dezember<\/strong><\/em><strong> bis zum <\/strong><em><strong>02. Januar<\/strong><\/em><strong> in die Weihnachtspause<\/strong>. Ihr könnt weiterhin wie gewohnt bestellen, es wird aber zu Verzögerungen im Versand kommen. <br\/><em><strong>Wir möchten uns bei euch für ein phantastisches Jahr 2023 bedanken, wünsche euch schöne Feiertage und einen guten Start für 2024! <\/strong><\/em><\/p>",
@@ -21,48 +23,70 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "banner_Y8mhmn": {
+        "banner_7aKrcR": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FFJ.jpg",
+            "image": "shopify:\/\/shop_images\/DDF228.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/19658884832.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#f0dd7f",
-            "title": "fünf freunde junior",
-            "head_color": "#dd6f0a",
-            "subtitle": "folge 4",
-            "subhead_color": "#ecf2f1",
-            "content": "das geheimnisvolle geräusch \nder verlorene schatz",
-            "content_color": "#dd6f0a",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#75c7c1",
-            "show_preorder": false,
-            "preorder_msg": "jetzt vorbestellen - vö: 29. märz",
-            "preorder_msg_color": "#01427e",
-            "link": "https:\/\/shop.hoerspiel.de\/collections\/vendors?q=F%C3%BCnf+Freunde+Junior&sort_by=created-descending"
-          }
-        },
-        "banner_zpbLei": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DDF.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/74321388301.jpg",
-            "cover_effect": "glow",
+            "cover_image": "shopify:\/\/shop_images\/19658841262jpg_75aeec45-074e-46a5-8283-4f1ab4a37052.jpg",
+            "cover_effect": "shadow",
             "cover_color": "#ffffff",
             "title": "die drei ???",
             "head_color": "#ffffff",
-            "subtitle": "und das riff der haie",
-            "subhead_color": "#c8000a",
-            "content": "picture lp",
-            "content_color": "#00a5e8",
+            "subtitle": "der ruf der krähen",
+            "subhead_color": "#e3000f",
+            "content": "MC | CD | LP",
+            "content_color": "#37a9d9",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": false,
-            "preorder_msg": "limitiertes picture vinyl - jetzt vorbestellen - VÖ: 19. april",
+            "preorder_msg": "Fall #228 | hier vorbestellen! | v.ö. 12. juli!",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/shop.hoerspiel.de\/products\/die-drei-und-das-riff-der-haie-lim-picture-vinyl-140gr"
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/die-drei?sort_by=created-descending"
+          }
+        },
+        "banner_3Vdke4": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TTKG232.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658877522jpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "tkkg",
+            "head_color": "#ffffff",
+            "subtitle": "drohnenaugen in der nacht",
+            "subhead_color": "#efed42",
+            "content": "CD",
+            "content_color": "#efed42",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#1e2f63",
+            "show_preorder": true,
+            "preorder_msg": "Folge 232 - VÖ: 31. Mai!",
+            "preorder_msg_color": "#efed42",
+            "link": "https:\/\/shop.hoerspiel.de\/products\/tkkg-drohnenaugen-in-der-nacht-cd-longplay"
+          }
+        },
+        "fa5be477-c484-433e-bcdd-6e718bf68098": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DDA88.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/19658836342jpg.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "Die drei !!!",
+            "head_color": "#ffffff",
+            "subtitle": "die krimiverschwörung",
+            "subhead_color": "#e62987",
+            "content": "CD",
+            "content_color": "#e62987",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "fall 88 - jetzt vorbestellen! VÖ: 5. juli",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/all?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=Die+drei+%21%21%21"
           }
         },
         "banner_hP4m8F": {
@@ -87,80 +111,35 @@
             "link": "https:\/\/shop.hoerspiel.de\/collections\/vendors?q=Gruselserie&sort_by=created-descending"
           }
         },
-        "fa5be477-c484-433e-bcdd-6e718bf68098": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DDA.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/19658836332.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "Die drei !!!",
-            "head_color": "#000000",
-            "subtitle": "geheimnisvoller liebestrank",
-            "subhead_color": "#ca5a66",
-            "content": "CD",
-            "content_color": "#2f7680",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "fall 86 - jetzt vorbestellen! VÖ: 3. mai",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/shop.hoerspiel.de\/collections\/all?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=Die+drei+%21%21%21"
-          }
-        },
         "banner_GTCfrL": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FFrept.jpg",
+            "image": "shopify:\/\/shop_images\/FF160.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/19658847562.jpg",
+            "cover_image": "shopify:\/\/shop_images\/19658877292jpg.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Fünf freunde",
             "head_color": "#ffffff",
-            "subtitle": "und das riesige reptil",
-            "subhead_color": "#e3000f",
+            "subtitle": "und der verschwundene bräutigam",
+            "subhead_color": "#ffffff",
             "content": "CD Longplay",
-            "content_color": "#ffffff",
+            "content_color": "#000000",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": false,
-            "preorder_msg": "jetzt vorbestellen! - VÖ: 22. März",
+            "preorder_msg": "jetzt vorbestellen! - VÖ: 31. mai",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/shop.hoerspiel.de\/products\/funf-freunde-und-das-riesige-reptil-cd-longplay"
-          }
-        },
-        "banner_7aKrcR": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DDF226.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/19658804282.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "die drei ???",
-            "head_color": "#ffffff",
-            "subtitle": "die spur der toten",
-            "subhead_color": "#e3000f",
-            "content": "MC | CD | LP",
-            "content_color": "#37a9d9",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "Fall #226 | hier vorbestellen! | v.ö. 22. märz!",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/shop.hoerspiel.de\/collections\/die-drei?sort_by=created-descending"
+            "link": "https:\/\/shop.hoerspiel.de\/collections\/vendors?q=F%C3%BCnf+Freunde&sort_by=created-descending"
           }
         }
       },
       "block_order": [
-        "banner_Y8mhmn",
-        "banner_zpbLei",
-        "banner_hP4m8F",
+        "banner_7aKrcR",
+        "banner_3Vdke4",
         "fa5be477-c484-433e-bcdd-6e718bf68098",
-        "banner_GTCfrL",
-        "banner_7aKrcR"
+        "banner_hP4m8F",
+        "banner_GTCfrL"
       ],
       "settings": {
         "edge_to_edge": true,
@@ -168,6 +147,8 @@
         "mobile_section_size": "",
         "carousel_effect": "fade",
         "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
         "cycle_speed": 5
       }
     },
@@ -274,6 +255,8 @@
     "newsletter_sme_kA4GXm": {
       "type": "newsletter-sme",
       "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
         "title": "Newsletter",
         "content": "<p>Melde dich für unseren Newsletter an!<\/p>",
         "ae_segment_id": "1700058",
