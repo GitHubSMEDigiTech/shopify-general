@@ -79,6 +79,40 @@
           {%- else -%}
             <div class="header__logo">{{ header_logo }}</div>
           {%- endif -%}
+
+          {%- comment -%}
+            --------------------------------------------------------------------------------------
+              DESKTOP NAV - Inline Condensed
+            --------------------------------------------------------------------------------------
+          {%- endcomment -%}
+
+          {% if section.settings.desktop_navigation_layout == 'incon' %} 
+            <nav class="nav-bar nav--{{section.settings.desktop_navigation_layout}}">
+              <div class="nav-bar__inner">
+                <ul class="nav-bar__linklist list--unstyled" data-type="menu" role="list">
+                  {%- for link in navigation_menu.links -%}
+                    <li class="nav-bar__item">
+                      {%- if link.links.size == 0 -%}
+                        <a href="{{ link.url }}" class="nav-bar__link link" data-type="menuitem">{{ link.title }}</a>
+                      {%- else -%}
+                        {%- capture index -%}desktop-menu-0-{{ forloop.index }}{%- endcapture -%}
+      
+                        <a href="{{ link.url }}" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="{{ index }}" aria-haspopup="true">
+                          {{- link.title -}}
+                          {%- render 'icon', icon: 'arrow-bottom' -%}
+                          {%- render 'icon', icon: 'nav-triangle' -%}
+                        </a>
+      
+                        {%- render 'desktop-menu', menu: link, index: index, layout: section.settings.desktop_navigation_layout  -%}
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
+            </nav>
+          {%- endif -%}
+          
+  
   
           {%- comment -%}
           --------------------------------------------------------------------------------------
@@ -89,13 +123,12 @@
           <div class="header__search-bar-wrapper {% unless section.settings.show_condensed_search %}is-visible{% endunless %}">
             <form action="{{ routes.search_url }}" method="get" role="search" class="search-bar">
               {%- assign search_menu = linklists[section.settings.search_menu] -%}
-  
+
               <div class="search-bar__top-wrapper">
                 <div class="search-bar__top">
                   <input type="hidden" name="type" value="product">
                   <input type="hidden" name="options[prefix]" value="last">
                   <input type="hidden" name="options[unavailable_products]" value="{{ settings.search_unavailable_products }}">
-  
                   <div class="search-bar__input-wrapper">
                     <input class="search-bar__input" type="text" name="q" autocomplete="off" autocorrect="off" aria-label="{{ 'header.search.input_placeholder' | t }}" placeholder="{{ 'header.search.input_placeholder' | t }}">
                     <button type="button" class="search-bar__input-clear hidden-lap-and-up" data-action="clear-input">
@@ -266,7 +299,7 @@
             {%- endif -%}
   
             {%- if section.settings.show_condensed_search -%}
-              <div class="header__action-item hidden-tablet-and-up">
+            <div class="header__action-item {% unless section.settings.desktop_navigation_layout == 'incon' %} hidden-tablet-and-up {%- endunless -%}">
                 <a class="header__action-item-link" href="{{ routes.search_url }}" data-action="toggle-search" aria-expanded="false" aria-label="{{ 'header.search.open_search' | t }}">{% render 'icon', icon: 'search' %}</a>
               </div>
             {%- endif -%}
@@ -274,18 +307,18 @@
             {%- if shop.customer_accounts_enabled -%}
               <div class="header__action-item header__action-item--account">
                 {%- if customer -%}
-                  <span class="header__action-item-title hidden-pocket hidden-lap">{{ 'header.general.welcome' | t: first_name: customer.first_name | truncate: 20 }}</span>
+                  <span class="header__action-item-title hidden-pocket hidden-lap {% if section.settings.desktop_navigation_layout == 'incon' %} hidden {%- endif -%}">{{ 'header.general.welcome' | t: first_name: customer.first_name | truncate: 20 }}</span>
                 {%- else -%}
-                  <span class="header__action-item-title hidden-pocket hidden-lap">{{ 'header.general.login' | t }}</span>
+                  <span class="header__action-item-title hidden-pocket hidden-lap {% if section.settings.desktop_navigation_layout == 'incon' %} hidden {%- endif -%}">{{ 'header.general.login' | t }}</span>
                 {%- endif -%}
   
                 <div class="header__action-item-content">
-                  <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__action-item-link header__account-icon icon-state hidden-desk" aria-label="{{ 'header.general.account' | t }}" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover" {% if customer %}data-follow-link="phone"{% endif %}>
+                  <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__action-item-link header__account-icon icon-state  {% unless section.settings.desktop_navigation_layout == 'incon' %} hidden-desk {%- endunless -%}" aria-label="{{ 'header.general.account' | t }}" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover" {% if customer %}data-follow-link="phone"{% endif %}>
                     <span class="icon-state__primary">{%- render 'icon', icon: 'account' -%}</span>
                     <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
                   </a>
   
-                  <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__action-item-link hidden-pocket hidden-lap" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover">
+                  <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__action-item-link hidden-pocket hidden-lap {% if section.settings.desktop_navigation_layout == 'incon' %} hidden {%- endif -%}" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover">
                     {{ 'header.general.account' | t }} {% render 'icon', icon: 'arrow-bottom' %}
                   </a>
   
@@ -372,7 +405,7 @@
                     <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
                   </div>
   
-                  <span class="hidden-pocket hidden-lap">{{ 'header.general.cart' | t }}</span>
+                  <span class="hidden-pocket hidden-lap {% if section.settings.desktop_navigation_layout == 'incon' %} hidden {%- endif -%}">{{ 'header.general.cart' | t }}</span>
                 </div>
               </a>
   
@@ -582,6 +615,10 @@
           {
             "value": "inline",
             "label": "Inline"
+          },
+          {
+            "value": "incon",
+            "label": "Condensed Inline"
           },
           {
             "value": "enlarged",

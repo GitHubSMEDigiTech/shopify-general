@@ -1149,7 +1149,7 @@
       this.element = element;
       this.delegateElement = new Delegate(this.element);
       this.delegateRoot = new Delegate(document.documentElement);
-      this.useInlineNavigation = navigationLayout === 'inline' || navigationLayout === 'enlarged';
+      this.useInlineNavigation = navigationLayout === 'inline' || navigationLayout === 'enlarged' || navigationLayout === 'incon';
       this.isNavigationVisible = this.useInlineNavigation;
       this.openTrigger = openTrigger; // If we use a device that does not support hover, we force the open trigger to be on click (for instance iPad)
 
@@ -14743,7 +14743,7 @@
         useStickyHeader: this.options['useStickyHeader']
       }); // We create the desktop and mobile navigation conditionally as we've found that some merchants may have no menu
 
-      var desktopNavigationElement = this.element.querySelector(this.options['navigationLayout'] === 'inline' || this.options['navigationLayout'] === 'enlarged' ? '.nav-bar' : '.header__desktop-nav');
+      var desktopNavigationElement = this.element.querySelector(this.options['navigationLayout'] === 'inline' || this.options['navigationLayout'] === 'enlarged' || this.options['navigationLayout'] === 'incon' ? '.nav-bar' : '.header__desktop-nav');
 
       if (desktopNavigationElement) {
         this.desktopNavigation = new DesktopNavigation(desktopNavigationElement, this.options['navigationLayout'], this.options['desktopOpenTrigger']);
