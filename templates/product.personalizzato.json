@@ -1,16 +1,5 @@
 {
   "sections": {
-    "custom_liquid_RgYmJH": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "",
-        "include_margins": true,
-        "liquid": "<p>{{product.content}}<\/p>"
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -65,7 +54,7 @@
             "title": "Tracklist",
             "sku": "",
             "liquid": "{{product.metafields.meta.tracklist}}",
-            "display_mode": "collapse"
+            "display_mode": "show_all"
           }
         }
       },
@@ -103,7 +92,6 @@
     }
   },
   "order": [
-    "custom_liquid_RgYmJH",
     "main",
     "product-recommendations",
     "recently-viewed-products"
