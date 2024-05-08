@@ -173,7 +173,7 @@
           "show_currency_selector": true,
           "navigation_menu": "main-menu",
           "navigation_mobile_menu": "",
-          "desktop_navigation_layout": "enlarged",
+          "desktop_navigation_layout": "incon",
           "desktop_navigation_open_trigger": "hover",
           "center_nav": true,
           "show_navigation_social_media": true,
