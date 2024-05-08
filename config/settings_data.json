@@ -160,7 +160,8 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".nav-bar {border-bottom: none; color: white;}",
+          ".nav-bar {border-bottom: none; background: #000; color: white;}",
+          ".nav-bar:after {background: #000;}",
           ".nav-bar__link:hover,.nav-bar__link:focus,a.nav-bar__link[aria-expanded=\"true\"] {color: white; opacity: 0.5;}"
         ],
         "settings": {
