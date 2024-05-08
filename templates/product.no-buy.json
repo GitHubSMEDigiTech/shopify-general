@@ -14,6 +14,7 @@
         },
         "variant_selector": {
           "type": "variant_selector",
+          "disabled": true,
           "settings": {
             "selector_mode": "block",
             "color_mode": "color",
@@ -25,12 +26,14 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_payment_button": true
           }
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "display_mode": "show_all"
           }
@@ -44,12 +47,14 @@
         },
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h5>Release date: {{ product.metafields.sme.street_date | metafield_tag }}<\/h5>"
           }
         },
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h5>Dist. number: {{ product.metafields.sme.distribution_number.value }}<\/h5>"
           }
@@ -70,14 +75,22 @@
         },
         "3fff165e-dcfa-4169-b4e7-1e46cdb5a883": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h6>{{ product.metafields.sme.additional_information.value }}<\/h6>"
           }
         },
         "text_ptPnQh": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h6>All ordered items will be shipped in one delivery. In case of a pre-order, we will only ship once all items have been released. <\/h6>"
+          }
+        },
+        "text_piYey3": {
+          "type": "text",
+          "settings": {
+            "content": "<p>You will get <em>one <\/em><strong>free <\/strong>Slipmat with every <a href=\"https:\/\/www.cmdistro.de\/collections\/lp\" title=\"https:\/\/www.cmdistro.de\/collections\/lp\">vinyl <\/a>order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.<\/p>"
           }
         }
       },
@@ -92,9 +105,11 @@
         "3e6f20d1-0dd0-492e-842a-879b7ff34b9b",
         "2e75b2af-c1ad-445e-9263-9bb1a032d880",
         "3fff165e-dcfa-4169-b4e7-1e46cdb5a883",
-        "text_ptPnQh"
+        "text_ptPnQh",
+        "text_piYey3"
       ],
       "settings": {
+        "list_collections": false,
         "image_size": "small",
         "enable_video_looping": false,
         "enable_image_zoom": true,
@@ -104,6 +119,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "show_quick_buy": false
@@ -111,15 +127,39 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "title": "Recently viewed",
         "show_quick_buy": false
+      }
+    },
+    "collection_list_KEm8z7": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_FmwTPy": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_FmwTPy"
+      ],
+      "settings": {
+        "title": "See our Vinyl collection here:",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections\/lp",
+        "round_images": true,
+        "show_collection_title": true
       }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "collection_list_KEm8z7"
   ]
 }
