@@ -8,7 +8,7 @@
       "settings": {
         "title": "",
         "include_margins": true,
-        "liquid": "<h3 class=\"h2\">Descrizione<\/h3>\n<p>{{product.content}}<\/p>"
+        "liquid": "<p>{{product.content}}<\/p>"
       }
     },
     "main": {
@@ -55,7 +55,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "display_mode": "show_all"
           }
