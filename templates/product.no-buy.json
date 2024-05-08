@@ -139,7 +139,7 @@
         "collection_FmwTPy": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "lp",
             "link": ""
           }
         }
@@ -150,7 +150,7 @@
       "settings": {
         "title": "See our Vinyl collection here:",
         "link_title": "View all",
-        "link": "shopify:\/\/collections\/lp",
+        "link": "shopify:\/\/collections",
         "round_images": true,
         "show_collection_title": true
       }
