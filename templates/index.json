@@ -193,6 +193,8 @@
         "mobile_section_size": "mobile_small",
         "carousel_effect": "fade",
         "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
         "cycle_speed": 5
       }
     },

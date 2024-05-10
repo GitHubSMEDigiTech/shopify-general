@@ -90,24 +90,10 @@
               "image_2_text": "Tell your story",
               "image_2_link": ""
             }
-          },
-          "41da7530-7f1e-4cc8-b331-50f3bcf6fa07": {
-            "type": "mega_menu",
-            "disabled": true,
-            "settings": {
-              "menu_item": "",
-              "image_1_heading": "Your image",
-              "image_1_text": "Tell your story",
-              "image_1_link": "",
-              "image_2_heading": "Your image",
-              "image_2_text": "Tell your story",
-              "image_2_link": ""
-            }
           }
         },
         "block_order": [
-          "dedfb528-27d0-4274-9e5b-c7cdb69f9cdd",
-          "41da7530-7f1e-4cc8-b331-50f3bcf6fa07"
+          "dedfb528-27d0-4274-9e5b-c7cdb69f9cdd"
         ],
         "settings": {
           "enable_sticky_header": true,
@@ -305,6 +291,14 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "1984534506411008366": {
+        "type": "shopify:\/\/apps\/bot-buy-x-get-y-free-gifts\/blocks\/app-embeded\/ec21afbf-38af-430f-b440-b90dea69c0f9",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   }
 }
