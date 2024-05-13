@@ -1,16 +1,22 @@
 {
-    "sections": {
-        "main": {
-            "type": "main-page",
-            "settings": {}
-        },
-        "form": {
-            "type": "contact-form",
-            "settings": {}
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
     },
-    "order": [
-        "main",
-        "form"
-    ]
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "form_heading": "",
+        "show_store_info": true,
+        "store_heading": "Call us",
+        "store_info": "<h3><a href=\"tel:800209935\">800 20 99 35<\/a><\/h3><p>09.00-13.00 e 14.00-18.00 da lunedì al venerdì esclusi i festivi.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form"
+  ]
 }
