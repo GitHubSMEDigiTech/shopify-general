@@ -20,6 +20,25 @@
         "padding_bottom": 30
       }
     },
+    "rich_text_RAwgHJ": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 0,
+        "marign_bottom": 0,
+        "text_width": "narrow",
+        "title": "",
+        "content": "<p>Get <em>one <\/em><strong>free <\/strong>Slipmat with every LP order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.<\/p>",
+        "button_text": "Show me your LPs",
+        "button_link": "shopify:\/\/collections\/lp",
+        "bg_color": "#000000",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ad141f",
+        "bt_text_color": "#ffffff",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -291,6 +310,7 @@
   },
   "order": [
     "fc6b99b4-7b3b-4cac-b837-93c99192edda",
+    "rich_text_RAwgHJ",
     "slideshow",
     "featured-collection",
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
