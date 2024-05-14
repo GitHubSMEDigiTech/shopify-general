@@ -20,6 +20,25 @@
         "padding_bottom": 30
       }
     },
+    "rich_text_GDp3Km": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 0,
+        "marign_bottom": 0,
+        "text_width": "narrow",
+        "title": "",
+        "content": "<p>Get <em>one <\/em><strong>free <\/strong><a href=\"https:\/\/www.insideoutshop.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=b37daa04e&_ss=r\" title=\"https:\/\/www.insideoutshop.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=b37daa04e&_ss=r\">Slipmat<\/a> with every Vinyl order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.<\/p>",
+        "button_text": "Show me your LPs",
+        "button_link": "shopify:\/\/collections\/lp",
+        "bg_color": "#000000",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#3f6ab1",
+        "bt_text_color": "#ffffff",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -307,6 +326,8 @@
         "mobile_section_size": "mobile_small",
         "carousel_effect": "fade",
         "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
         "cycle_speed": 5
       }
     },
@@ -383,6 +404,7 @@
   },
   "order": [
     "d455e7fc-a136-4680-9463-5503d5126216",
+    "rich_text_GDp3Km",
     "slideshow",
     "featured-collection",
     "e9b924ee-c0b2-487a-8027-bb5354c3b608",
