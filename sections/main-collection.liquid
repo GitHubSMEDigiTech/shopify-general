@@ -406,7 +406,7 @@
                             </div>
 
                             {%- if allow_collapse_description -%}
-                              <button class="expandable-content__toggle">
+                            <button class="expandable-content__toggle {% unless section.settings.collapse_collection_style %}expandable-content__link{% endunless %}">
                                 <span class="expandable-content__toggle-icon"></span>
                                 <span class="expandable-content__toggle-text" data-view-more="{{ 'collection.general.view_more' | t | escape }}" data-view-less="{{ 'collection.general.view_less' | t | escape }}">{{- 'collection.general.view_more' | t -}}</span>
                               </button>
