@@ -98,10 +98,11 @@
                 </div>
 
                 {%- if allow_collapse_description -%}
-                  <button class="expandable-content__toggle">
-                    <span class="expandable-content__toggle-icon"></span>
-                    <span class="expandable-content__toggle-text" data-view-more="{{ 'collection.general.view_more' | t | escape }}" data-view-less="{{ 'collection.general.view_less' | t | escape }}">{{- 'collection.general.view_more' | t -}}</span>
-                  </button>
+                    <button class="expandable-content__toggle {% if section.settings.collapse_collection_style %}expandable-content__link{% endif %}">
+                      <span class="expandable-content__toggle-icon"></span>
+                      <span class="expandable-content__toggle-text" data-view-more="{{ 'collection.general.view_more' | t | escape }}" data-view-less="{{ 'collection.general.view_less' | t | escape }}">{{- 'collection.general.view_more' | t -}}</span>
+                    </button>
+                  
                 {%- endif -%}
               </div>
             {%- endif -%}
@@ -797,7 +798,8 @@
 </section>
 
 <style>
-  .card__header--top {
+  .card__header--top,
+  .expandable-content__link {
     background-color: {{ section.settings.top_bg_color }};
   }
 
@@ -833,6 +835,12 @@
       "type": "checkbox",
       "id": "collapse_collection_description",
       "label": "Collapse long description",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "collapse_collection_style",
+      "label": "Get a link instead of a Button for 'read more'",
       "default": false
     },
     {
