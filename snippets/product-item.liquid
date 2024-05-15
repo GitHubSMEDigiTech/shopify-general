@@ -236,57 +236,59 @@
         {%- endif -%}
       {%- endif -%}
 
-      {%- if settings.product_price_position == 'after_title' -%}
-        {{ price_list }}
-      {%- endif -%}
+      <div class="product-item__allignment"> 
+        {%- if settings.product_price_position == 'after_title' -%}
+          {{ price_list }}
+        {%- endif -%}
 
-      {%- if settings.show_reviews_badge -%}
-        <a class="product-item__reviews-badge link" href="{{ product.url }}#product-reviews">
-          {%- render 'product-rating', product: product -%}
-        </a>
-      {%- endif -%}
+        {%- if settings.show_reviews_badge -%}
+          <a class="product-item__reviews-badge link" href="{{ product.url }}#product-reviews">
+            {%- render 'product-rating', product: product -%}
+          </a>
+        {%- endif -%}
 
-      {%- if settings.show_inventory_quantity and product.variants.first.inventory_management != blank and product.template_suffix != 'pre-order' -%}
-        {%- if product.available -%}
-          {%- assign should_calculate_inventory = true -%}
-
-          {%- for variant in product.variants -%}
-            {%- comment -%}
-              If we have one variant that is set to "continue" or that do not have any inventory management, then we skip the calculation of inventory as this
-              means at least one of the variant is always purchasable
-            {%- endcomment -%}
-
-            {%- if variant.inventory_policy == 'continue' or variant.inventory_management == null -%}
-              {%- assign should_calculate_inventory = false -%}
-              {%- break -%}
-            {%- endif -%}
-          {%- endfor -%}
-
-          {%- if should_calculate_inventory and settings.low_inventory_threshold > 0 -%}
-            {%- assign all_inventory = 0 -%}
+        {%- if settings.show_inventory_quantity and product.variants.first.inventory_management != blank and product.template_suffix != 'pre-order' -%}
+          {%- if product.available -%}
+            {%- assign should_calculate_inventory = true -%}
 
             {%- for variant in product.variants -%}
-              {%- if variant.inventory_management -%}
-                {%- assign all_inventory = variant.inventory_quantity | at_least: 0 | plus: all_inventory -%}
+              {%- comment -%}
+                If we have one variant that is set to "continue" or that do not have any inventory management, then we skip the calculation of inventory as this
+                means at least one of the variant is always purchasable
+              {%- endcomment -%}
+
+              {%- if variant.inventory_policy == 'continue' or variant.inventory_management == null -%}
+                {%- assign should_calculate_inventory = false -%}
+                {%- break -%}
               {%- endif -%}
             {%- endfor -%}
 
-            {%- if all_inventory <= settings.low_inventory_threshold -%}
-              <span class="product-item__inventory inventory inventory--low">{{ 'collection.product.low_stock_with_quantity_count' | t: count: all_inventory }}</span>
+            {%- if should_calculate_inventory and settings.low_inventory_threshold > 0 -%}
+              {%- assign all_inventory = 0 -%}
+
+              {%- for variant in product.variants -%}
+                {%- if variant.inventory_management -%}
+                  {%- assign all_inventory = variant.inventory_quantity | at_least: 0 | plus: all_inventory -%}
+                {%- endif -%}
+              {%- endfor -%}
+
+              {%- if all_inventory <= settings.low_inventory_threshold -%}
+                <span class="product-item__inventory inventory inventory--low">{{ 'collection.product.low_stock_with_quantity_count' | t: count: all_inventory }}</span>
+              {%- else -%}
+                <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.in_stock_with_quantity_count' | t: count: all_inventory }}</span>
+              {%- endif -%}
             {%- else -%}
-              <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.in_stock_with_quantity_count' | t: count: all_inventory }}</span>
+              {%- if product.variants.first.inventory_policy == 'continue' and product.variants.first.inventory_quantity <= 0 and product.variants.first.requires_shipping -%}
+                <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.oversell_stock' | t }}</span>
+              {%- else -%}
+                <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.in_stock' | t }}</span>
+              {%- endif -%}
             {%- endif -%}
           {%- else -%}
-            {%- if product.variants.first.inventory_policy == 'continue' and product.variants.first.inventory_quantity <= 0 and product.variants.first.requires_shipping -%}
-              <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.oversell_stock' | t }}</span>
-            {%- else -%}
-              <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.in_stock' | t }}</span>
-            {%- endif -%}
+            <span class="product-item__inventory inventory">{{ 'collection.product.sold_out' | t }}</span>
           {%- endif -%}
-        {%- else -%}
-          <span class="product-item__inventory inventory">{{ 'collection.product.sold_out' | t }}</span>
         {%- endif -%}
-      {%- endif -%}
+      </div>
     </div>
 
     {%- if request.page_type == 'collection' or request.page_type == 'search' or show_add_to_cart -%}
