@@ -2763,6 +2763,7 @@ img.lazyload[data-sizes=auto] {
 @media screen and (max-width: 640px) {
   .collection-alternative-one {
     flex-direction: column;
+    gap: 0;
   }
 
   .collection__image--container,
@@ -13869,7 +13870,7 @@ shopify-payment-terms {
 
 .expandable-content[aria-expanded] {
   position: relative;
-  max-height: 320px;
+  max-height: 230px;
   overflow: hidden;
   transition: 0.2s ease-in-out;
 }
