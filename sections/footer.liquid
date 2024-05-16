@@ -255,6 +255,18 @@
   {%- endif -%}
 </footer>
 
+<style>
+  {%- if section.settings.bg_image != blank -%}
+    #shopify-section-footer {
+      background-image: url({{ section.settings.bg_image |  image_url: width: 1200  }}) !important;
+      background-size: cover;
+    }
+    .footer{
+      background: transparent !important;
+    }
+  {%- endif -%}
+</style>
+
 
 {% schema %}
 {
@@ -316,6 +328,12 @@
       "id": "accept_button",
       "label": "Accept button",
       "default": "Accept"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image",
+      "info": "Replaced the background color"
     }
   ],
   "blocks": [
