@@ -55,7 +55,7 @@
             "title": "Tracklist",
             "sku": "",
             "liquid": "{{product.metafields.meta.tracklist}}",
-            "display_mode": "collapse"
+            "display_mode": "show_all"
           }
         }
       },
