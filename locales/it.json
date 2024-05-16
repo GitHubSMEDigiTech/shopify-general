@@ -324,7 +324,7 @@
   },
   "cart": {
     "general": {
-      "title": "Il mio carrello",
+      "title": "Carrello",
       "empty": "Il carrello è vuoto",
       "empty_button": "Acquista i nostri prodotti",
       "search": "Cerca...",
@@ -497,6 +497,9 @@
         "additional_information": {
           "title": "Note Ordine"
         }
+      },
+      "stock": {
+        "go_back_to_cart_button_label": "Torna al carrello"
       }
     }
   }
