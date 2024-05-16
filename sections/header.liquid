@@ -512,6 +512,17 @@
       }
     {%- endif -%}
 
+    {%- if section.settings.bg_image != blank -%}
+      section[data-section-id="header"] {
+        background-image: url({{ section.settings.bg_image |  image_url: width: 1200  }}) !important;
+        background-size: cover;
+      }
+      .header,
+      #shopify-section-header .nav-bar {
+        background: transparent !important;
+      }
+    {%- endif -%}
+
     .announcement-bar {
       background: {{ section.settings.announcement_color }};
       color: {{ section.settings.announcement_text }};
@@ -586,6 +597,12 @@
         "id": "show_currency_selector",
         "label": "Show currency selector",
         "default": true
+      },
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image",
+        "info": "Replaced the background color"
       },
       {
         "type": "header",
