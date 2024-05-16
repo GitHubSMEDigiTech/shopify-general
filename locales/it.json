@@ -339,7 +339,7 @@
       "free": "Omaggio!",
       "taxes_and_shipping_at_checkout": "IVA e costi di spedizione sono calcolati al checkout",
       "taxes_and_shipping_policy_at_checkout_html": "IVA e <a href=\"{{ link }}\">scosti di spedizione<\/a> sono calcolati al checkout",
-      "taxes_included_but_shipping_at_checkout": "IVA inclusa. Spedizione calcolata al checkout",
+      "taxes_included_but_shipping_at_checkout": "",
       "taxes_included_and_shipping_policy_html": "IVA inclusa. <a href=\"{{ link }}\">Spedizione<\/a> calcolata al checkout",
       "total": "Totale",
       "checkout": "Checkout"
