@@ -260,20 +260,14 @@
 
     ],
     "blocks": {
-      "5439026248262864547": {
-        "type": "shopify:\/\/apps\/preorder-globo\/blocks\/app-embed\/e547a0ad-8212-4bcc-b02f-761faa9b8af2",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "319724205969189013": {
         "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
         "settings": {
         }
       },
-      "7292877812810369780": {
-        "type": "shopify:\/\/apps\/fordeer-preorder-now-presale\/blocks\/preOrder-embed\/fc52eb6a-d4c7-47e1-9c4c-db0485af36b4",
+      "6053609962512334591": {
+        "type": "shopify:\/\/apps\/preorder-bat\/blocks\/pre-order-block\/6db3227b-acff-4966-bcdd-53204d4488c4",
         "disabled": false,
         "settings": {
         }
