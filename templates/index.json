@@ -112,7 +112,7 @@
       "settings": {
         "expand_items": true,
         "section_size": "small",
-        "stack_mobile": false
+        "stack_mobile": true
       }
     },
     "image_banner_99fc7c": {
