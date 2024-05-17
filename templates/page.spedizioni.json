@@ -121,7 +121,7 @@
         "contact_1_text": "<h4><a href=\"tel:800209935\"><strong>800 20 99 35<\/strong><\/a><\/h4>",
         "contact_2_icon": "bi-email",
         "contact_2_heading": "Invia un messaggio",
-        "contact_2_text": "<h5><strong>contact.store.ita@sonymusic.com<\/strong><\/h5>"
+        "contact_2_text": "<h6><strong>contact.store.ita@sonymusic.com<\/strong><\/h6>"
       }
     }
   },
