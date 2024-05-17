@@ -114,14 +114,14 @@
       ],
       "settings": {
         "show_contact_info": true,
-        "contact_info_heading": "Any question?",
-        "contact_info_text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+        "contact_info_heading": "Altre Domande",
+        "contact_info_text": "<p>se non abbiamo risposto alla tua domanda contatta il nostro supporto Clienti<\/p>",
         "contact_1_icon": "bi-phone",
-        "contact_1_heading": "Customer support",
-        "contact_1_text": "<p>Enter your text here<\/p>",
+        "contact_1_heading": "chiamaci",
+        "contact_1_text": "<h4><a href=\"tel:800209935\"><strong>800 20 99 35<\/strong><\/a><\/h4>",
         "contact_2_icon": "bi-email",
-        "contact_2_heading": "Send a message",
-        "contact_2_text": "<p>Enter your text here<\/p>"
+        "contact_2_heading": "Invia un messaggio",
+        "contact_2_text": "<h6><strong>contact.store.ita@sonymusic.com<\/strong><\/h6>"
       }
     }
   },
