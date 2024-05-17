@@ -110,7 +110,7 @@
         "item_Ua7X6D"
       ],
       "settings": {
-        "expand_items": false,
+        "expand_items": true,
         "section_size": "small",
         "stack_mobile": false
       }
