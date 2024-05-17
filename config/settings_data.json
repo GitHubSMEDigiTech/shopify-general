@@ -266,10 +266,21 @@
         "settings": {
         }
       },
-      "6053609962512334591": {
-        "type": "shopify:\/\/apps\/preorder-bat\/blocks\/pre-order-block\/6db3227b-acff-4966-bcdd-53204d4488c4",
+      "6530966394998176969": {
+        "type": "shopify:\/\/apps\/dc-pre-orders-preorder-now\/blocks\/preorder-app-embed\/31798c03-8451-4b34-b6bd-53a41ce1a967",
         "disabled": false,
         "settings": {
+          "preorder-button-text": "Pre-order",
+          "preorder-now-button-text": "Pre-order now",
+          "preorder-ended-button-text": "Pre-order ended",
+          "preorder-with-button-text": "Pre-order with",
+          "shipping-policy-date-format": "%B %e, %Y",
+          "shipping-policy-text": "Expected to ship by {ship_date}",
+          "shipping-policy-colour": "#333333",
+          "line-item-prop-product-type-key": "Product type",
+          "line-item-prop-product-type-value": "Preorder",
+          "line-item-prop-ship-by-text": "Ships by",
+          "product-form-selector": "form[action*='cart\/Add' i]"
         }
       }
     }
