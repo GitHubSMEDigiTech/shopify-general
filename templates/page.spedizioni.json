@@ -66,21 +66,21 @@
         "question_pEMcJz": {
           "type": "question",
           "settings": {
-            "title": "Can I return my product?",
-            "answer": "<p>We always aim for make sure our customers love our products, but if you do need to return an order, we’re happy to help. Just email us directly and we’ll take you through the process.<\/p>"
+            "title": "Come posso pagare",
+            "answer": "<h6>I metodi di pagamento accettati al momento sono tramite carta di credito Visa, MasterCard, Maestro, Apple Pay , Google Pay e Paypal Per ridurre i rischi di accesso non autorizzato, i dati delle carte saranno criptati.<\/h6>"
           }
         },
         "question_jEYyKW": {
           "type": "question",
           "settings": {
-            "title": "Can I get my product personalized?",
-            "answer": "<p>It depends on the creator and the product. All options are outlined on the product page, so look out for customization options there.<\/p>"
+            "title": "Quando avrò il rimborso",
+            "answer": "<h6>A seguito di un reso e di una richiesta di rimborso il pagamento avverrà entro pochi giorni dalla conferma di rientro della merce nei nostri magazzini.<\/h6>"
           }
         },
         "separator_be8Qy8": {
           "type": "separator",
           "settings": {
-            "title": "Pagamenti"
+            "title": "Reso e Recesso"
           }
         },
         "question_R8qRTq": {
@@ -90,10 +90,24 @@
             "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
           }
         },
+        "question_Q36cUk": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        },
         "separator_9bK6P7": {
           "type": "separator",
           "settings": {
-            "title": "Default"
+            "title": "Account"
+          }
+        },
+        "question_LeBazw": {
+          "type": "question",
+          "settings": {
+            "title": "",
+            "answer": ""
           }
         }
       },
@@ -110,11 +124,13 @@
         "question_jEYyKW",
         "separator_be8Qy8",
         "question_R8qRTq",
-        "separator_9bK6P7"
+        "question_Q36cUk",
+        "separator_9bK6P7",
+        "question_LeBazw"
       ],
       "settings": {
         "show_contact_info": true,
-        "contact_info_heading": "Altre Domande",
+        "contact_info_heading": "Hai altre domande ?",
         "contact_info_text": "<p>se non abbiamo risposto alla tua domanda contatta il nostro supporto Clienti<\/p>",
         "contact_1_icon": "bi-phone",
         "contact_1_heading": "chiamaci",
