@@ -154,12 +154,12 @@
             "stretch_image": true,
             "background": "#394b39",
             "text_color": "#ffffff",
-            "title": "ITALIANA",
-            "content": "la selezione del meglio della musica italiana",
+            "title": "IL MEGLIO DELLA MUSICA ITALIANA",
+            "content": "",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#0a460a",
-            "button_text": "Learn more",
+            "button_text": "Scopri",
             "button_link": ""
           }
         },
