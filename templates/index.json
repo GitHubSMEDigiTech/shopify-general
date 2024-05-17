@@ -111,7 +111,7 @@
       ],
       "settings": {
         "expand_items": false,
-        "section_size": "medium",
+        "section_size": "small",
         "stack_mobile": false
       }
     },
