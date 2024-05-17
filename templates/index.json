@@ -142,60 +142,6 @@
         "link_url": ""
       }
     },
-    "collection_list_BjAGGK": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_8fRczD": {
-          "type": "collection",
-          "settings": {
-            "collection": "ultime-uscite",
-            "link": ""
-          }
-        },
-        "collection_rTqAtn": {
-          "type": "collection",
-          "settings": {
-            "collection": "pinguini-tattici-nucleari",
-            "link": ""
-          }
-        },
-        "collection_GkPfUU": {
-          "type": "collection",
-          "settings": {
-            "collection": "thasup",
-            "link": ""
-          }
-        },
-        "collection_g6HJMr": {
-          "type": "collection",
-          "settings": {
-            "collection": "maneskin",
-            "link": ""
-          }
-        },
-        "collection_4zEgDw": {
-          "type": "collection",
-          "settings": {
-            "collection": "pinguini-tattici-nucleari",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_8fRczD",
-        "collection_rTqAtn",
-        "collection_GkPfUU",
-        "collection_g6HJMr",
-        "collection_4zEgDw"
-      ],
-      "settings": {
-        "title": "New Releases",
-        "link_title": "",
-        "link": "",
-        "round_images": true,
-        "show_collection_title": true
-      }
-    },
     "promotion_list_wAJLbg": {
       "type": "promotion-list",
       "blocks": {
@@ -227,7 +173,7 @@
             "background": "#394b39",
             "text_color": "#ffffff",
             "title": "Scopri",
-            "content": "il catalogo di Sony Music",
+            "content": "la selezione del meglio della musica italiana",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#0a460a",
@@ -347,7 +293,6 @@
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
     "featured_collection_gNFLGM",
-    "collection_list_BjAGGK",
     "promotion_list_wAJLbg",
     "collection_with_image_BBdg8H",
     "newsletter_sme_96dtxz",
