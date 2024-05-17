@@ -65,83 +65,6 @@
         "link_url": ""
       }
     },
-    "image_banner_99fc7c": {
-      "type": "image-banner",
-      "blocks": {
-        "image_A43MXp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/app18-1024x606.png",
-            "image_width": 140
-          }
-        },
-        "text_GrqVEL": {
-          "type": "text",
-          "settings": {
-            "text": "Shop online dedicato ai prodotti acquistabili con 18app",
-            "text_style": "body",
-            "text_color": "#ffffff"
-          }
-        },
-        "buttons_CV6M3L": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Acquista con 18app",
-            "button_link_1": "shopify:\/\/collections\/18n-app",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "text_color": "#ffffff",
-            "bg_color": "#1e2d7d"
-          }
-        }
-      },
-      "block_order": [
-        "image_A43MXp",
-        "text_GrqVEL",
-        "buttons_CV6M3L"
-      ],
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "image": "shopify:\/\/shop_images\/banner-18app-1920.jpg",
-        "image_overlay_opacity": 0,
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_overlay_opacity": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "image_with_text_overlay_3x3d9h": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "title": "Banner with text and CTA",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-        "show_image_overlay": false,
-        "color": "#ffffff"
-      }
-    },
-    "featured_collection_gNFLGM": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "ultime-uscite",
-        "title": "Ultime uscite",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "link_title": "",
-        "link_url": ""
-      }
-    },
     "promotion_list_wAJLbg": {
       "type": "promotion-list",
       "blocks": {
@@ -188,24 +111,86 @@
       ],
       "settings": {
         "expand_items": false,
-        "section_size": "small",
+        "section_size": "large",
         "stack_mobile": false
       }
     },
-    "collection_with_image_BBdg8H": {
-      "type": "collection-with-image",
+    "image_banner_99fc7c": {
+      "type": "image-banner",
+      "blocks": {
+        "image_A43MXp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app18-1024x606.png",
+            "image_width": 140
+          }
+        },
+        "text_GrqVEL": {
+          "type": "text",
+          "settings": {
+            "text": "Shop online dedicato ai prodotti acquistabili con 18app",
+            "text_style": "body",
+            "text_color": "#ffffff"
+          }
+        },
+        "buttons_CV6M3L": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Acquista con 18app",
+            "button_link_1": "shopify:\/\/collections\/18n-app",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#1e2d7d"
+          }
+        }
+      },
+      "block_order": [
+        "image_A43MXp",
+        "text_GrqVEL",
+        "buttons_CV6M3L"
+      ],
+      "disabled": true,
       "settings": {
-        "collection": "musica-classica",
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify:\/\/shop_images\/banner-18app-1920.jpg",
+        "image_overlay_opacity": 0,
+        "bg_color": "rgba(0,0,0,0)",
+        "bg_overlay_opacity": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_overlay_3x3d9h": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "title": "Banner with text and CTA",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "show_image_overlay": false,
+        "color": "#ffffff"
+      }
+    },
+    "featured_collection_gNFLGM": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ultime-uscite",
+        "title": "Ultime uscite",
         "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
         "show_quick_buy": false,
-        "background": "#444444",
-        "text_color": "#ffffff",
-        "title": "Musica Classica",
-        "content": "Scopri il meglio della musica classica",
-        "button_background": "#838383",
-        "button_text_color": "#ffffff",
-        "button_text": "Scopri",
-        "button_link": ""
+        "link_title": "",
+        "link_url": ""
       }
     },
     "newsletter_sme_96dtxz": {
@@ -254,11 +239,10 @@
   "order": [
     "slideshow_dwDbqU",
     "featured_collection_Ln8Q76",
+    "promotion_list_wAJLbg",
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
     "featured_collection_gNFLGM",
-    "promotion_list_wAJLbg",
-    "collection_with_image_BBdg8H",
     "newsletter_sme_96dtxz",
     "rich_text_zKVnLa"
   ]
