@@ -771,7 +771,7 @@ __DL__jQueryinterval = setInterval(function(){
                                 function __DL__addtocart(){
 
                                 {% if template contains 'collection' %}         
-                                    
+                                    console.log("I am here line 774")
                                     setTimeout(function(){
                                         jQuery.getJSON('/cart.js', function (response) {
                                             // get Json response 
