@@ -2317,7 +2317,30 @@ img.lazyload[data-sizes=auto] {
   width: 50%;
 }
 
+.popup--close {
+  position: absolute;
+  right: 15px;
+  text-align: right;
+}
+
+.sme_campaign_newsletter-popup .container__newsletter {
+  gap: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  max-width: calc(100% - 20px);
+}
+
+.sme_campaign_newsletter-popup #sme_button {
+  width: 100%;
+}
+
 @media screen and (max-width: 641px) {
+
+  .sme_campaign_newsletter-popup .container.container__newsletter > div {
+    width: 90%;
+  }
+
   .container.container__newsletter > div {
     width: 100%;
   }
@@ -4815,6 +4838,29 @@ img.lazyload[data-sizes=auto] {
   }
 }
 
+.sme_campaign_newsletter-popup .container {
+  position: fixed;
+  top: 25vh;
+  z-index: 5;
+  width: 640px;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 2px 8px 23px 3px rgba(0,0,0,0.2);
+}
+
+.sme_campaign_newsletter-popup {
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.2);
+  z-index: 1;
+  display: none;
+}
+
 /**
  * --------------------------------------------------------------------
  * INPUT WRAPPER
@@ -5937,6 +5983,25 @@ select option {
   font-size: var(--base-text-font-size);
 }
 
+.header--incon .nav-dropdown--restrict {
+  width: auto;
+  flex-direction: column;
+  min-width: auto;
+}
+
+.header--incon .nav-dropdown--inverse,
+.header--incon .nav-dropdown--restrict {
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.header--incon .nav-dropdown--restrict .nav-dropdown__link {
+  padding: 0;
+}
+
+.header--incon .nav-bar__item:has(> .nav-dropdown--restrict) {
+  position: relative!important;
+}
+
 @media screen and (max-width: 640px) {
   /* This trick allows to enforce a minimum height for header on mobile */
   .header {
@@ -5967,6 +6032,7 @@ select option {
 
   .header__logo {
     margin-right: 35px;
+    z-index: 1;
   }
 }
 
