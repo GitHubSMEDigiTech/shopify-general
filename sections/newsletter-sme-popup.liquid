@@ -1,0 +1,225 @@
+<style>
+  #shopify-section-{{ section.id }} .sme_campaign_newsletter-popup .container  {
+    background-color: {{ section.settings.background }};
+    {%  if section.settings.bg_image != blank %} 
+      background-image: url({{ section.settings.bg_image | img_url: '1500x' }});
+      background-size: cover;
+    {% endif %}
+    color: {{ section.settings.text }};
+  }
+
+  #shopify-section-{{ section.id }} .heading,
+  .sme_campaign_newsletter label {
+    color: {{ section.settings.text }};
+  }
+
+  .section-{{ section.id }}-margin {
+    margin-top: {{ section.settings.marign_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.marign_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-margin {
+      margin-top: {{ section.settings.marign_top }}px;
+      margin-bottom: {{ section.settings.marign_bottom }}px;
+    }
+  }
+
+  {% if user.accepts_marketing %}
+    .sme_campaign_newsletter-popup {
+      display: none;
+    }
+  {% endif %}
+</style>
+
+<section class="section-{{ section.id }}-margin sme_campaign_newsletter sme_campaign_newsletter-popup {% if section.settings.background != settings.background %}section--isolated section--tight{% endif %}" data-section-id="{{ section.id }}" id="shopify-section-{{ section.id }}" data-section-type="newsletter">
+  
+<div class="container {% unless section.settings.image != blank %}container--giga-narrow {% else %} container__newsletter {% endunless %}" onclick="event.stopPropagation()">
+    
+      <div class="popup--close">
+        {% render 'icon', icon: 'close' %}
+      </div>
+    {%- if section.settings.image != blank -%}
+      <div>
+          <img 
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+              src="{{ section.settings.image | img_url: '700x' }}"
+              srcset="{{ section.settings.image | img_url: '700x' }} 1x, {{ section.settings.image | img_url: image_size, scale: 2 }} 2x"
+              alt="{{ section.settings.image.alt | default: shop.name | escape }}">
+      </div>
+    {%- endif -%}
+    <div>
+      {%- if section.settings.title != blank -%}
+        <h2 class="heading h3">{{ section.settings.title | escape }}</h2>
+      {%- endif -%}
+  
+      {%- if section.settings.content != blank -%}
+        <div class="rte">
+          {{ section.settings.content }}
+        </div>
+      {%- endif -%}
+  
+      {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
+  
+      <div class="newsletter newsletter--compact form newsletter__form ">
+      <form id="cmdistro-de-website-newsletter-signup">
+        <input type="hidden" name="js_url" id="js_url" value="https://subs.sonymusicfans.com/submit">
+        <input type="hidden" name="ae_segment_id" id="ae_segment_id" value="{{section.settings.ae_segment_id}}">
+        <input type="hidden" name="ae_brand_id" id="ae_brand_id" value="{{section.settings.ae_brand_id}}">
+        <input type="hidden" name="ae_activities" id="ae_activities" value='{{section.settings.ae_activities}}'>
+        <input type="hidden" name="ae" id="ae" value="{{section.settings.ae}}">
+        <input type="hidden" name="form" value="{{section.settings.ae_form}}">
+        <!-- Form Fields -->
+        
+        {{ section.settings.ae_form_html }}
+  
+        <!-- Submit Button -->
+        <button type="submit" id="sme_button" class="form__submit form__submit--tight button button--primary">{{section.settings.btn_txt}}</button>
+      </form>
+  
+  
+      </div>
+    </div>
+   
+  </div>
+
+  {% render 'sme-newsletter-js' %}
+
+</section>
+
+<script>
+  window.addEventListener('load', function() {
+      const showPopup = window.localStorage.getItem('showSmePopup')
+      
+      if(showPopup != 'false') {
+        const close = document.querySelector('.sme_campaign_newsletter-popup .popup--close')
+        const popup = document.querySelector('.sme_campaign_newsletter-popup')
+        setTimeout(function() {
+          popup.style.display = 'block'
+        }, 2000);
+
+        close.addEventListener('click', closePopup)
+        popup.addEventListener('click', closePopup)
+
+        function closePopup(event) {
+          
+            popup.style.display = 'none';
+            window.localStorage.setItem('showSmePopup', false)
+        }
+      }
+
+      
+  })
+
+</script>
+
+{% schema %}
+{
+  "name": "Popup: SME Newsletter",
+  "settings": [
+    {
+      "type": "range",
+      "id": "marign_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "marign_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Margin bottom",
+      "default": 50
+    },
+    {
+      "type": "paragraph",
+      "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Newsletter"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+    },
+    {
+      "type": "text",
+      "id": "ae_segment_id",
+      "label": "AE Segment ID"
+    },
+    {
+      "type": "text",
+      "id": "ae_brand_id",
+      "label": "AE Brand ID"
+    },
+    {
+      "type": "liquid",
+      "id": "ae_activities",
+      "label": "AE Activities"
+    },
+    {
+      "type": "text",
+      "id": "ae",
+      "label": "AE"
+    },
+    {
+      "type": "text",
+      "id": "ae_form",
+      "label": "Form (ID)"
+    },
+    {
+      "type": "liquid",
+      "id": "ae_form_html",
+      "label": "Form Fields"
+    },
+    {
+      "type": "text",
+      "id": "btn_txt",
+      "label": "Button text",
+      "default": "Subscribe"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "color",
+      "id": "text",
+      "label": "Text",
+      "default": "#000000"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Optional Image"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Promotional",
+      "name": "Popup: SME Newsletter",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}
