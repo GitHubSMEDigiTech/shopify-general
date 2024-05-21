@@ -73,9 +73,9 @@ __DL__jQueryinterval = setInterval(function(){
         
         /* DO NOT EDIT */
         defaultBindings = {
-            cartTriggers: ['form[action="/cart/add"] [type="submit"],.add-to-cart,.cart-btn, [href*="/cart/change"] [data-action="increase-quantity"]',
+            cartTriggers: ['form[action="/cart/add"] [type="submit"],.add-to-cart,.cart-btn,[data-action="increase-quantity"]',
             viewCart: ['[href*="/cart"],.my-cart,.trigger-cart,#mobileCart'],
-            removeCartTrigger: ['[href*="/cart/change"] [data-action="decrease-quantity"]'],
+            removeCartTrigger: ['[data-action="decrease-quantity"]'],
             cartVisableSelector: ['.inlinecart.is-active,.inline-cart.is-active'],
             promoSubscriptionsSelectors: [],
             promoSuccess: [],
