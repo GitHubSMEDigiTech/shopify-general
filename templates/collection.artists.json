@@ -29,8 +29,8 @@
     "alternative_one_collection_CtE6tE": {
       "type": "alternative_one-collection",
       "settings": {
-        "collapse_collection_description": false,
-        "headline_deco": false,
+        "collapse_collection_description": true,
+        "headline_deco": true,
         "headline_deco_col": "#d82222",
         "products_per_row": "4",
         "default_products_per_page": 24,
