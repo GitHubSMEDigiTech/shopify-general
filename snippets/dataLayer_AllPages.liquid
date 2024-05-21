@@ -832,6 +832,7 @@ __DL__jQueryinterval = setInterval(function(){
                                     },1000);
                                     
                                     {% else %}
+                                    console.log('I am here line 835')
                                   	var productoptions = {'variant'  : {
                            								{% for option in product.options_with_values %}
                            								{% for value in option.values %}
@@ -844,8 +845,8 @@ __DL__jQueryinterval = setInterval(function(){
                 					var productoptions2 = Object.values(productoptions.variant);
                 					var finaloption = productoptions2.join(' / ');
 								  
-                                  dataLayer.push({ ecommerce: null });
-                                  dataLayer.push({
+                                    dataLayer.push({ ecommerce: null });
+                                    dataLayer.push({
                                         'pageType' : 'Add to Cart',
                                         'event'    : 'SME_add_to_cart',
                                       	'currencyCode' : {{ shop.currency | json}},
