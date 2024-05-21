@@ -491,7 +491,7 @@
   "shopify": {
     "checkout": {
       "review": {
-        "review_notice_html": "<strong>Facendo Click sul pulsante \"effettua Pagamento\" confermi di aver letto, compreso ed accettato i termini e le condizioni del servizio e l'{{ privacy_policy }}.<\/strong>"
+        "review_notice_html": "<strong>Facendo Click sul pulsante \"effettua Pagamento\" confermi di aver letto, compreso ed accettato {{markets_pro_terms}} e l'{{ privacy_policy }}.<\/strong>"
       },
       "localized_fields": {
         "additional_information": {
