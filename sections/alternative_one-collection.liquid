@@ -514,11 +514,13 @@
 <script>
 
 window.addEventListener('load', function() {
-  console.log('loaded')
 	const scrollClass = 'collection__image--scrolling';
   const header = document.querySelector('section[data-section-id="header"]');
   const right = document.querySelector('.collection--container');
   const left = document.querySelector('.collection__image--container img');
+
+  const toolbar = document.querySelector('.collection-alternative-one .collection__toolbar');
+  toolbar.style.top = header.offsetHeight + 'px';
 
   var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
