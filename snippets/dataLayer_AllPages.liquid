@@ -423,7 +423,7 @@ __DL__jQueryinterval = setInterval(function(){
 				console.log("Cart"+" :"+JSON.stringify(GA4cart, null, " "));
 			}
 			
-			__DL__.cart = UAcart.products;
+			__DL__.cart = GA4cart.products;
 			$(__DL__.removeCartTrigger).on('click', function (event) {
 				
 				setTimeout(function(){
