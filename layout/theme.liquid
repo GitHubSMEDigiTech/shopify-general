@@ -136,7 +136,6 @@
     {%- endif -%}
 
   {% render 'dataLayer_AllPages' %}
-  {%  render "head-datalayer" %}
   </head>
 
   <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif %} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
