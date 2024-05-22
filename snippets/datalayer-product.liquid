@@ -34,7 +34,7 @@
       }
     });
   //Add to cart
-  const addToCartBtn = document.querySelector('[name="add"]')
+  const addToCartBtn = document.querySelector('form[action="/cart/add"] [type="submit"]')
   addToCartBtn?.addEventListener('click', () {
     dataLayer.push({ ecommerce: null })
     dataLayer.push({
