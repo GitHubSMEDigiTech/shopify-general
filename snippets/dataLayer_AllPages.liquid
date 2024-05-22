@@ -770,9 +770,9 @@ __DL__jQueryinterval = setInterval(function(){
 						});
 					});
 				});
-                if (__DL__.debug) {
-                    console.log("Add to Cart");
-                }
+            if (__DL__.debug) {
+                console.log("Add to Cart");
+            }
             jQuery.getJSON('/cart.js', function (response) {
                 // get Json response 
                 __DL__.cart = response;
