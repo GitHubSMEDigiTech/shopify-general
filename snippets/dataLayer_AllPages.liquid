@@ -741,7 +741,7 @@ __DL__jQueryinterval = setInterval(function(){
             document.addEventListener('DOMContentLoaded', () {
 					//Add to cart
 					const addtoCartBtn = document.querySelector('form[action="/cart/add"] [type="submit"]')
-					addtoCartBtn?.addEventListener('click', () {
+					addtoCartBtn.addEventListener('click', () {
 						datalayer.push({ecommerce: null})
 						dataLayer.push({
 							'pageType' : 'Add to Cart',
