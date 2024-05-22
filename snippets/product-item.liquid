@@ -333,7 +333,7 @@
                         						'item_name'       : {{product.title | json}},
                         						'price'           : {{product.selected_or_first_available_variant.price | money_without_currency | remove: "," | json}},
                         						'description'     : {{product.description | strip_newlines | strip_html | json}},
-                        						'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
+                        						'imageURL'        : 'https:{{product.featured_image.src|img_url:'grande'}}', 
                         						'productURL'      : '{{shop.secure_url}}{{product.url}}',
                         						'item_brand'      : {{shop.name | json}},              
                         						'comparePrice'    : {{product.compare_at_price_max | money_without_currency | remove: "," | json}},
