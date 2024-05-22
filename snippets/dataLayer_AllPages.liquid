@@ -842,8 +842,8 @@ __DL__jQueryinterval = setInterval(function(){
                                   	}};
                 					var productoptions2 = Object.values(productoptions.variant);
                 					var finaloption = productoptions2.join(' / ');
-								  dataLayer.push({ ecommerce: null });
-                                  dataLayer.push({
+    								dataLayer.push({ ecommerce: null });
+                                    dataLayer.push({
                                         'pageType' : 'Add to Cart',
                                         'event'    : 'SME_add_to_cart',
                                       	'currencyCode' : {{ shop.currency | json}},
@@ -867,7 +867,7 @@ __DL__jQueryinterval = setInterval(function(){
                                     			'quantity'		  : 1
                     						}]
                         				}
-                                  });
+                                    });
                                   
                                     if (__DL__.debug) {
                                         console.log("Add to Cart"+" :"+JSON.stringify(product, null, " "));
