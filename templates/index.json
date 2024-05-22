@@ -42,6 +42,29 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_TE9DEf": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gothic.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/WAYFARER_American_0524_750-1100.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/Wayfarer_AmericanGothic.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "WAYFARER",
+            "head_color": "#ffffff",
+            "subtitle": "AMERICAN GOTHIC",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nblack LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "June 14",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Wayfarer&sort_by=created-descending"
+          }
+        },
         "banner_ikGaAY": {
           "type": "banner",
           "settings": {
@@ -195,40 +218,17 @@
             "preorder_msg_color": "#ad141f",
             "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
           }
-        },
-        "banner_TE9DEf": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gothic.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/WAYFARER_American_0524_750-1100.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Wayfarer_AmericanGothic.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "WAYFARER",
-            "head_color": "#ffffff",
-            "subtitle": "AMERICAN GOTHIC",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nblack LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 14",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Wayfarer&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_TE9DEf",
         "banner_ikGaAY",
         "banner_NghfzE",
         "banner_tGQJkg",
         "banner_hg8N9J",
         "banner_MDmktJ",
         "02a54b18-c68a-42ec-be73-158190e5fe63",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
-        "banner_TE9DEf"
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
         "edge_to_edge": true,
