@@ -2,7 +2,7 @@
 
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    {%  render "head-datalayer" %}
+    
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -131,6 +131,7 @@
     {%- endif -%}
 
   {% render 'dataLayer_AllPages' %}
+  {%  render "head-datalayer" %}
   </head>
 
   <body class="warehouse--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif %} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
