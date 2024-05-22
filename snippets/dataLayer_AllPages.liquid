@@ -297,11 +297,10 @@ __DL__jQueryinterval = setInterval(function(){
   			dataLayer.push({ products: null });
       		dataLayer.push(GA4itemlist);  			
 			
-            dataLayer.push({ ecommerce: null });
-            dataLayer.push(UAImpressions);
+
   			if(__DL__.debug){
                 /** console.log("Collections"+" :"+JSON.stringify(product, null, " ")); */
-                console.log("Collections"+" :"+JSON.stringify(UAImpressions, null, " "));
+                console.log("Collections"+" :"+JSON.stringify(GA4itemlist, null, " "));
             }
             {% endif %}
             
