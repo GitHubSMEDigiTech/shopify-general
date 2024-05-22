@@ -305,7 +305,7 @@ __DL__jQueryinterval = setInterval(function(){
         
         var product = {
             'products': [
-                {% for product in collection.products %}{
+                {% for product in index.products %}{
                     'prod_id'         : {{product.id | json}},
                     'id'              : {{product.selected_or_first_available_variant.sku | json}},
                     'variant_id'       : {{product.selected_or_first_available_variant.id | json}},
@@ -340,7 +340,7 @@ __DL__jQueryinterval = setInterval(function(){
           	'currencyCode' : {{ shop.currency | json}},
             'ecommerce'	   : {
           		'items'    : [
-          			{% for product in collection.products %}{
+          			{% for product in index.products %}{
                 		'prod_id'         : {{product.id | json}},
                 		'item_id'         : {{product.selected_or_first_available_variant.sku | json}},
                 		'variant_id'       : {{product.selected_or_first_available_variant.id | json}},
