@@ -1,3 +1,7 @@
 {%- if template contains 'product' -%}
   {%- render 'datalayer-product', product: product  -%}
 {%- endif -%}
+
+{%- if template contains 'collection' -%}
+  {%- render 'datalayer-product', product: product  -%}
+{%- endif -%}
