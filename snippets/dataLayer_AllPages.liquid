@@ -738,6 +738,41 @@ __DL__jQueryinterval = setInterval(function(){
             });
             
             // add to cart
+            document.addEventListener('DOMContentLoaded', () {
+					//Add to cart
+					const addtoCartBtn = document.querySelector('form[action="/cart/add"] [type="submit"]')
+					addtoCartBtn?.addEventListener('click', () {
+						datalayer.push({ecommerce: null})
+						dataLayer.push({
+							'pageType' : 'Add to Cart',
+							'event'    : 'SME_add_to_cart',
+							'currencyCode' : {{ shop.currency | json}},
+							'ecommerce': {
+								'items' : [{
+									'prod_id'         : {{product.id | json}},			
+									'item_id'         : {{product.selected_or_first_available_variant.sku | json}},
+									'variantId'       : {{product.selected_or_first_available_variant.id | json}},
+									'productType'     : {{product.type | json}},
+									'item_name'       : {{product.title | json}},
+									'price'           : {{product.selected_or_first_available_variant.price | money_without_currency | remove: "," | json}},
+									'description'     : {{product.description | strip_newlines | strip_html | json}},
+									'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
+									'productURL'      : '{{shop.secure_url}}{{product.url}}',
+									'item_brand'      : {{shop.name | json}},              
+									'comparePrice'    : {{product.compare_at_price_max | money_without_currency | remove: "," | json}},
+									'item_category'   : {{product.collections | map:"title" | join: ' / '| json}},
+									'currentCategory' : {{collection.title | json}},
+									'item_variant'    : finaloption,
+									'currenc'         : {{ shop.currency | json}},
+									'quantity'		  : 1
+								}]
+							}
+						});
+					});
+				});
+                if (__DL__.debug) {
+                    console.log("Add to Cart"+" :"+JSON.stringify(product, null, " "));
+                }
             jQuery.getJSON('/cart.js', function (response) {
                 // get Json response 
                 __DL__.cart = response;
@@ -872,41 +907,7 @@ __DL__jQueryinterval = setInterval(function(){
                 {% endif %}
 
                 
-				document.addEventListener('DOMContentLoaded', () {
-					//Add to cart
-					const addtoCartBtn = document.querySelector('form[action="/cart/add"] [type="submit"]')
-					addtoCartBtn?.addEventListener('click', () {
-						datalayer.push({ecommerce: null})
-						dataLayer.push({
-							'pageType' : 'Add to Cart',
-							'event'    : 'SME_add_to_cart',
-							'currencyCode' : {{ shop.currency | json}},
-							'ecommerce': {
-								'items' : [{
-									'prod_id'         : {{product.id | json}},			
-									'item_id'         : {{product.selected_or_first_available_variant.sku | json}},
-									'variantId'       : {{product.selected_or_first_available_variant.id | json}},
-									'productType'     : {{product.type | json}},
-									'item_name'       : {{product.title | json}},
-									'price'           : {{product.selected_or_first_available_variant.price | money_without_currency | remove: "," | json}},
-									'description'     : {{product.description | strip_newlines | strip_html | json}},
-									'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
-									'productURL'      : '{{shop.secure_url}}{{product.url}}',
-									'item_brand'      : {{shop.name | json}},              
-									'comparePrice'    : {{product.compare_at_price_max | money_without_currency | remove: "," | json}},
-									'item_category'   : {{product.collections | map:"title" | join: ' / '| json}},
-									'currentCategory' : {{collection.title | json}},
-									'item_variant'    : finaloption,
-									'currenc'         : {{ shop.currency | json}},
-									'quantity'		  : 1
-								}]
-							}
-						});
-					});
-				});
-                if (__DL__.debug) {
-                    console.log("Add to Cart"+" :"+JSON.stringify(product, null, " "));
-                }
+				
 							
                 
                 // if dynamic cart is TRUE
