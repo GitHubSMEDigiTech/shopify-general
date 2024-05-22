@@ -46,6 +46,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify:\/\/shop_images\/Fishy.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Beardfish_Destined_0524_750-1100.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify:\/\/shop_images\/Beardfish_DestinedSolitaire.jpg",
             "cover_effect": "none",
