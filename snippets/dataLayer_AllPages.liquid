@@ -300,6 +300,83 @@ __DL__jQueryinterval = setInterval(function(){
             console.log("Collections"+" :"+JSON.stringify(GA4itemlist, null, " "));
         }
         {% endif %}
+
+        {% if template contains 'index' %}
+        
+        var product = {
+            'products': [
+                {% for product in collection.products %}{
+                    'prod_id'         : {{product.id | json}},
+                    'id'              : {{product.selected_or_first_available_variant.sku | json}},
+                    'variant_id'       : {{product.selected_or_first_available_variant.id | json}},
+                    'productType'     : {{product.type | json}},
+                    'name'            : {{product.title | json}},
+                    'price'           : {{product.price | money_without_currency | remove: "," | json}},
+                    'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
+                    'productURL'      : '{{shop.secure_url}}{{product.url}}',
+                    'brand'           : {{shop.name | json}},
+                    'comparePrice'    : {{product.compare_at_price_max | money_without_currency | remove: "," | json}},
+                    'category'        : {{product.collections|map:"title" | join: ' / '| json}},
+                    'currentCategory' : {{collection.title | json}},
+                    'quantity'		  : 1,
+                    'variant'  : [
+                        {% for option in product.options_with_values %}
+                        {% for value in option.values %}
+                        {% if option.selected_value == value %}
+                        {{value | json}},
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                    ].join( ' / ')
+                },
+                {% endfor %}]
+            };
+  		
+          		
+        var GA4itemlist = {
+            'productList'  : {{collection.title | json}},
+            'pageType'     : 'Collection',
+            'event'        : 'SME_view_item_list',
+          	'currencyCode' : {{ shop.currency | json}},
+            'ecommerce'	   : {
+          		'items'    : [
+          			{% for product in collection.products %}{
+                		'prod_id'         : {{product.id | json}},
+                		'item_id'         : {{product.selected_or_first_available_variant.sku | json}},
+                		'variant_id'       : {{product.selected_or_first_available_variant.id | json}},
+                		'productType'     : {{product.type | json}},
+                		'item_name'       : {{product.title | json}},
+                		'price'           : {{product.price | money_without_currency | remove: "," | json}},
+                		'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
+                		'productURL'      : '{{shop.secure_url}}{{product.url}}',
+                		'brand'      : {{shop.name | json}},
+                		'comparePrice'    : {{product.compare_at_price_max | money_without_currency | remove: "," | json}},
+                		'item_category'   : {{product.collections|map:"title" | join: ' / '| json}},
+                		'item_list_name'  : {{collection.title | json}},
+          				'currency'        : {{ shop.currency | json}},
+          				'quantity'		  : 1,
+                		'item_variant'    : [
+                    {% for option in product.options_with_values %}
+                    {% for value in option.values %}
+                    {% if option.selected_value == value %}
+                    {{value | json}},
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                ].join( ' / ')
+            	},
+            	{% endfor %}
+            ]
+			}
+        };
+  			
+      	dataLayer.push(product);
+      	dataLayer.push(GA4itemlist);  			
+		
+  		if(__DL__.debug){
+            console.log("Collections"+" :"+JSON.stringify(GA4itemlist, null, " "));
+        }
+        {% endif %}
         
         /** DATALAYER: Product Page
         * Fire on all Product View pages. */
