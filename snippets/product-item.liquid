@@ -328,10 +328,9 @@
             		'name': '{{ product.title | remove: "'" | remove: '"' }}',
             		'item_brand': '{{ product.vendor | remove: "'" | remove: '"' }}',
             		'item_category': '{{ product.collections[0].title | remove: "'" | remove: '"' }}',
-            		'variant_id': '{{ product.selected_variant.sku }}',
                     'variant': '{{ product.selected_variant_title  | remove: "'" | remove: '"' }}',
             		'currency': '{{ shop.currency }}',
-            		'price': '{{ product.price  | times: 0.01}}'
+            		'price': '{{ product.price  | times: 0.01}}',
                     'quantity': 1
         		}]
             	}
