@@ -195,7 +195,7 @@ __DL__jQueryinterval = setInterval(function(){
         }
         
         window.dataLayer = window.dataLayer || [];  // init data layer if doesn't already exist
-        Shopify.analytics.publish({'event': 'Begin DataLayer'}); // begin datalayer
+        dataLayer.push({'event': 'Begin DataLayer'}); // begin datalayer
         
         var template = "{{template}}"; 
                
