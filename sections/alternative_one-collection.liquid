@@ -47,7 +47,7 @@
         {%- assign alt_default = col_name | append: shop.name   -%}
         
         {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900', image: collection.image -%}{%- endcapture -%}
-        {%- assign image_url = collection.image | image_url: width: 400 -%}
+        {%- assign image_url = collection.image | image_url: width: 900 -%}
         <img class="lazyload image--fade-in collection__image--scrolling" data-media-id="{{ collection.image.id }}" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ alt_default | escape }}">
       {%- endif -%}
     </div>
