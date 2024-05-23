@@ -2,7 +2,7 @@
 
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    {% render 'data-layer' %}
+    
     <script>
       window.dataLayer = window.dataLayer || [];
     </script>
@@ -13,6 +13,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NJ8WB5');</script>
     <!-- End Google Tag Manager -->
+    {% render 'data-layer' %}
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
