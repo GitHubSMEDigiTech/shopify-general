@@ -195,7 +195,7 @@ __DL__jQueryinterval = setInterval(function(){
         }
         
         window.dataLayer = window.dataLayer || [];  // init data layer if doesn't already exist
-        dataLayer.push({'event': 'Begin DataLayer'}); // begin datalayer
+        Shopify.analytics.publish({'event': 'Begin DataLayer'}); // begin datalayer
         
         var template = "{{template}}"; 
                
@@ -213,9 +213,9 @@ __DL__jQueryinterval = setInterval(function(){
             'title'       : {{article.title | json}},
             'dateCreated' : {{article.created_at | json}},
             'pageType'    : 'Blog',
-            'event'       : 'Blog'
+            'event'       : 'SME_Blog'
         };
-        dataLayer.push(blog);
+        Shopify.analytics.publish(blog);
         if(__DL__.debug){
             console.log("Blog"+" :"+JSON.stringify(blog, null, " "));
         }
@@ -293,9 +293,9 @@ __DL__jQueryinterval = setInterval(function(){
 				}
             };
   			
-      		dataLayer.push(product);
-  			dataLayer.push({ products: null });
-      		dataLayer.push(GA4itemlist);  			
+      		Shopify.analytics.publish(product);
+  			Shopify.analytics.publish({ products: null });
+      		Shopify.analytics.publish(GA4itemlist);  			
 			
 
   			if(__DL__.debug){
@@ -347,7 +347,7 @@ __DL__jQueryinterval = setInterval(function(){
               
                 function productView(){
                     var sku = {{product.selected_or_first_available_variant.sku | json}};
-                    dataLayer.push({
+                    Shopify.analytics.publish({
                         'pageType' : 'Product',
                         'event'    : 'SME_view_item',
                         'currencyCode' : {{ shop.currency | json}},
@@ -423,7 +423,7 @@ __DL__jQueryinterval = setInterval(function(){
   				}
             };
             
-            dataLayer.push(GA4cart);
+            Shopify.analytics.publish(GA4cart);
             if(__DL__.debug){
                 console.log("Cart"+" :"+JSON.stringify(GA4cart, null, " "));
             }
@@ -515,8 +515,8 @@ __DL__jQueryinterval = setInterval(function(){
                              };
                             }
                             }	
-                        dataLayer.push({ ecommerce: null });                           		
-                        dataLayer.push({
+                        Shopify.analytics.publish({ ecommerce: null });                           		
+                        Shopify.analytics.publish({
                             'pageType' : 'Remove from Cart',
                             'event'    : 'SME_remove_from_cart',
                             'currencyCode' : {{ shop.currency | json}},
@@ -538,7 +538,7 @@ __DL__jQueryinterval = setInterval(function(){
             /** DATALAYER: All Pages
             * Fire all pages trigger after all additional dataLayers have loaded. */
                         
-            dataLayer.push({
+            Shopify.analytics.publish({
               'event': 'DataLayer Loaded'
             });
                         
@@ -564,7 +564,7 @@ __DL__jQueryinterval = setInterval(function(){
                       'event'      : "SME_Search"
 					};
                                 
-					dataLayer.push(search);
+					Shopify.analytics.publish(search);
 					if(__DL__.debug){
 					console.log("Search"+" :"+JSON.stringify(search, null, " "));
 					}
@@ -593,7 +593,7 @@ __DL__jQueryinterval = setInterval(function(){
 						'event'    : 'SME_view_cart'     
 						};
 						if(cart.products.length > 0){
-							dataLayer.push(cart);
+							Shopify.analytics.publish(cart);
 							if (__DL__.debug) {
 								console.log("Cart"+" :"+JSON.stringify(cart, null, " "));
 							}
@@ -636,7 +636,7 @@ __DL__jQueryinterval = setInterval(function(){
 												'pageType' : 'Remove from Cart',
 												'event'    : 'SME_remove_from_cart'         
 											};
-											dataLayer.push(removeFromCart);
+											Shopify.analytics.publish(removeFromCart);
 											if (__DL__.debug) {
 												console.log("Cart"+" :"+JSON.stringify(removeFromCart, null, " "));
 											}
@@ -723,9 +723,9 @@ __DL__jQueryinterval = setInterval(function(){
 							for (var i = __DL__.cart.products.length - 1; i >= 0; i--) {
 								if (__DL__.cart.products[i].variant.toString() === x) {
 									product = {'products':[__DL__.cart.products[i]]};
-									dataLayer.push({'products':product});
-									dataLayer.push(product);
-									dataLayer.push({
+									Shopify.analytics.publish({'products':product});
+									Shopify.analytics.publish(product);
+									Shopify.analytics.publish({
 										'pageType' : 'Add to Cart',
 										'event'    : 'SME_add_to_art'
 									});
@@ -738,7 +738,7 @@ __DL__jQueryinterval = setInterval(function(){
 					},1000);
                 
 					{% else %}
-					dataLayer.push(product, {
+					Shopify.analytics.publish(product, {
 						'pageType' : 'Add to Cart',
 						'event'    : 'SME_add_to_cart'
 					});
@@ -779,7 +779,7 @@ __DL__jQueryinterval = setInterval(function(){
 											'pageType' : 'Remove from Cart',
 											'event'    : 'SME_remove_from_cart'         
 										};
-										dataLayer.push(removeFromCart);
+										Shopify.analytics.publish(removeFromCart);
 										if (__DL__.debug) {
 											console.log("Cart"+" :"+JSON.stringify(removeFromCart, null, " "));
 										}
@@ -805,7 +805,7 @@ __DL__jQueryinterval = setInterval(function(){
 							if ($(__DL__.newsletterSuccess).length > 0) {
 								// check visible selectors
 								clearInterval(newsletterCheck);
-								dataLayer.push({'event': 'Newsletter Subscription'});
+								dataLayer.push({'event': 'SME_Newsletter_Subscription'});
 							}
 						},500);
 					}
@@ -872,7 +872,7 @@ __DL__jQueryinterval = setInterval(function(){
                         
                         dataLayer.push({'products': wishlistproducts,
                         'pageType' : 'Wishlist',
-                        'event'    : 'SME Wishlist Delete Product'});
+                        'event'    : 'SME_Wishlist_Delete_Product'});
                     });
                 })
 				}, 3000);
@@ -884,7 +884,7 @@ __DL__jQueryinterval = setInterval(function(){
 						if ($(__DL__.ctaSuccess).length > 0) {
 							// check visible selectors
 							clearInterval(ctaCheck);
-							dataLayer.push({'event': 'SME CTA'});
+							dataLayer.push({'event': 'SME_CTA'});
 						}
 					},500);
 				});
@@ -896,7 +896,7 @@ __DL__jQueryinterval = setInterval(function(){
 						if ($(__DL__.promoSuccess).length > 0) {
 							// check visible selectors
 							clearInterval(ctaCheck);
-							dataLayer.push({'event': 'SME Promo Subscription'});
+							dataLayer.push({'event': 'SME_Promo_Subscription'});
 						}
 					},500);
 				});
