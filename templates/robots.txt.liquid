@@ -1,15 +1,17 @@
-# we use Shopify as our ecommerce platform
-{%- comment -%}
-# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
-{% endcomment %}
-{% for group in robots.default_groups %}
-  {{- group.user_agent -}}
+User-agent: *
+Allow: /
 
-  {% for rule in group.rules %}
-    {{- rule -}}
-  {% endfor %}
+# Blocking Filters Sorting and Search
+Disallow: *sort_by*
+Disallow: *search*
 
-  {%- if group.sitemap != blank -%}
-    {{ group.sitemap }}
-  {%- endif -%}
-{% endfor %}
+# Blocking Vendors Pages
+Disallow: */collections/vendors
+Disallow: */collections/vendors*
+
+# Blocking Account Checkout and Cart
+Disallow: */account
+Disallow: */account/*
+Disallow: */cart
+Disallow: */checkouts
+Disallow: */checkouts/*
