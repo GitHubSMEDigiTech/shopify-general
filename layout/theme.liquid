@@ -23,7 +23,15 @@
       {%- if request.page_type == 'search' and search.terms != blank -%}
         {{ search.terms | split: ' AND ' | last | split: 'product_type:' | last }} - {{ shop.name }}
       {%- else -%}
-        {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+        {%- if page_title -%}
+            {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}
+         {%- else -%}
+        {%- if product -%}
+          {{ product.title}} | Sony Music Store
+          {%- else -%}
+          {{ collection.title}} | Sony Music Store
+        {%- endif -%}
+    {%- endif -%}
       {%- endif -%}
     {%- endcapture -%}
 
@@ -31,6 +39,13 @@
 
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
+       {%- else -%}
+      {%- if product -%}
+        <meta name="description" content="Su Sony Music Store trovi una selezione curata di musica esclusiva e autografata. Scopri CD, vinili e tutti gli altri prodotti sullo store ufficiale.">
+        {%- else -%}
+        <meta name="description" content="Scopri una collezione unica di pezzi esclusivi e autografati, dalla musica su CD ai vinili. Acquista in modo sicuro sullo store ufficiale di Sony Music.
+These rules must be able to be overwritten by manually loaded meta.">
+      {%- endif -%}
     {%- endif -%}
 
     <link rel="canonical" href="{{ canonical_url }}">
