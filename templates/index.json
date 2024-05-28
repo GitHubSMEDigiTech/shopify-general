@@ -36,11 +36,29 @@
             "button_text": "",
             "link": "shopify:\/\/collections\/david-gilmour"
           }
+        },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/acdcdesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/acdcmobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/ac-dc"
+          }
         }
       },
       "block_order": [
         "image_B3rw7r",
-        "image_hhc4xB"
+        "image_hhc4xB",
+        "image_eUhDX7"
       ],
       "settings": {
         "edge_to_edge": false,
