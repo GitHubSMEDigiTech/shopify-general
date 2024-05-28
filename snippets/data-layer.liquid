@@ -518,7 +518,7 @@
         // Function to track 'view_cart', 'add_to_cart', and 'remove_from_cart' events on the cart page
         viewCartPageData() {
           this.ecommerceDataLayer('view_cart', this.cart);
-          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Cart Event Pushed (Cart Page):', 'background: #1e88e5; color: #fff; font-size: 14px; font-weight: bold;', this.cart);
+          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Cart Event Pushed (Cart Page):', 'background: #1e88e5; color: #fff; font-size: 14px; font-weight: bold;', this.cart);
 
           if(!this.isAjaxCartIncrementDecrement) {
             const self = this;
