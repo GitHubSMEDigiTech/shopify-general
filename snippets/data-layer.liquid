@@ -1009,7 +1009,21 @@ formData() {
 
       document.addEventListener('DOMContentLoaded', function() {
         try{
-          new triangle_digital_datalayer();
+          var delayInMilliseconds = 5000; //5 second
+          setTimeout(function() {
+            var myconsent = window.OnetrustActiveGroups;
+
+            if(myconsent.includes("C0002")) {
+        		var acceptPT= "True"
+        	} else if(myconsent.includes("C0004")){
+        		var acceptPT= "True"
+        	} else {
+        		var acceptPT= "False"
+        	}
+	
+        	if (acceptPT== "True") {
+              new triangle_digital_datalayer();
+          } });
         }catch(error) {
           console.log(error);
         }
