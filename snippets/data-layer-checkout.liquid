@@ -13,30 +13,7 @@ function gtag() {
 }
 
 if (window.location.href.includes('/checkouts/cn/')) {
-    // tag manager 
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = GTM_container_url + '/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', GTM_container_id);
-  
-    analytics.subscribe('page_viewed', (event) => {
-        window.dataLayer.push({
-          event: 'page_view',
-          page_location: event.context.document.location.href,   
-        });
-    });
-    // end tag manger
-
-
+    
     // DataLayer Events
     analytics.subscribe('payment_info_submitted', (event) => ecommerceDataLayer('add_payment_info', event));
 
