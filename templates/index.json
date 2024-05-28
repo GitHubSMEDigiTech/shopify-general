@@ -6,8 +6,8 @@
         "image_B3rw7r": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/teduadesktop.png",
-            "mobile_image": "shopify:\/\/shop_images\/teduamobile_3f0cc5eb-37c9-4c25-8db8-da460676c846.png",
+            "image": "shopify:\/\/shop_images\/teduadesktop_ff7f3985-6a93-41df-b28a-0c619aceea9e.png",
+            "mobile_image": "shopify:\/\/shop_images\/teduamobile_e14f1290-6c39-4cee-8b9c-7ae4e767e05d.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
