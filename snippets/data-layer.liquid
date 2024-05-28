@@ -172,7 +172,7 @@
             });
 
             // Log the pushed customer data to the console for SME SHOPIFY PIXEL DEBUGGERging purposes
-            console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Customer Data Pushed:', 'background: #222; color: #bada55; font-size: 14px; font-weight: bold;', currentUser);
+            // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Customer Data Pushed:', 'background: #222; color: #bada55; font-size: 14px; font-weight: bold;', currentUser);
         }
 
         // Function to handle AJAX requests for add_to_cart, remove_from_cart, search, and update the dataLayer accordingly
@@ -497,7 +497,7 @@
               miniCartButtons.forEach((miniCartButton) => {
                 miniCartButton.addEventListener(self.miniCartAppersOn, () => {
                   self.ecommerceDataLayer('view_cart', self.cart);
-                  console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Cart Event Pushed (Mini Cart):', 'background: #222; color: #bada55; font-size: 14px; font-weight: bold;', self.cart);
+                  // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Cart Event Pushed (Mini Cart):', 'background: #222; color: #bada55; font-size: 14px; font-weight: bold;', self.cart);
                 });
               });
             });
@@ -511,7 +511,7 @@
             let targetElement = event.target.closest(self.beginCheckoutButtons.join(', '));
             if(targetElement) {
               self.ecommerceDataLayer('begin_checkout', self.cart);
-              console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.cart);
+              // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.cart);
             }
           });
         }
@@ -519,7 +519,7 @@
         // Function to track 'view_cart', 'add_to_cart', and 'remove_from_cart' events on the cart page
         viewCartPageData() {
           this.ecommerceDataLayer('view_cart', this.cart);
-          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Cart Event Pushed (Cart Page):', 'background: #1e88e5; color: #fff; font-size: 14px; font-weight: bold;', this.cart);
+          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Cart Event Pushed (Cart Page):', 'background: #1e88e5; color: #fff; font-size: 14px; font-weight: bold;', this.cart);
 
           if(!this.isAjaxCartIncrementDecrement) {
             const self = this;
@@ -542,7 +542,7 @@
                   let quantity = Math.abs(newQuantity - item.quantity);
                   item['quantity'] = quantity;
                   self.ecommerceDataLayer(event, {items: [item]});
-                  console.log(`%c[SME SHOPIFY PIXEL DEBUGGER] ${event === 'add_to_cart' ? 'Add to Cart' : 'Remove from Cart'} Event Pushed:`, 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', item);
+                  // console.log(`%c[SME SHOPIFY PIXEL DEBUGGER] ${event === 'add_to_cart' ? 'Add to Cart' : 'Remove from Cart'} Event Pushed:`, 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', item);
                 }
               }
             });
@@ -613,8 +613,8 @@
                         item['quantity'] = quantity;
                         self.ecommerceDataLayer('add_to_cart', {items: [item]});
                         self.ecommerceDataLayer('begin_checkout', {items: [item]});
-                        console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Cart Event Pushed:', 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', item);
-                        console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', item);
+                        // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Cart Event Pushed:', 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', item);
+                        // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', item);
                       } else if(self.quickViewedItem) {                                  
                         let variant = self.quickViewVariants.find(item => item.id === +variant_id);
                         if(variant) {
@@ -624,8 +624,8 @@
                           self.quickViewedItem['quantity'] = quantity;
                           self.ecommerceDataLayer('add_to_cart', {items: [self.quickViewedItem]});
                           self.ecommerceDataLayer('begin_checkout', {items: [self.quickViewedItem]});
-                          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Cart Event Pushed:', 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
-                          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
+                          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Cart Event Pushed:', 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
+                          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
                         }
                       }
                     }
@@ -663,7 +663,7 @@
           ecommerce['item_list_name'] = {{ collection.title | json }}
 
           this.ecommerceDataLayer('view_item_list', ecommerce);
-          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Item List Event Pushed:', 'background: #0097a7; color: #fff; font-size: 14px; font-weight: bold;', ecommerce);
+          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Item List Event Pushed:', 'background: #0097a7; color: #fff; font-size: 14px; font-weight: bold;', ecommerce);
         }
 
         // Function to track 'add_to_wishlist' event when a product is added to wishlist
@@ -710,7 +710,7 @@
                         }
 
                         self.ecommerceDataLayer('add_to_wishlist', {items: [dataLayerData]});
-                        console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Wishlist Event Pushed:', 'background: #ec407a; color: #fff; font-size: 14px; font-weight: bold;', dataLayerData);
+                        // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Wishlist Event Pushed:', 'background: #ec407a; color: #fff; font-size: 14px; font-weight: bold;', dataLayerData);
                       }
                     });
                 }
@@ -798,8 +798,8 @@
                           self.quickViewedItem['quantity'] = quantity; 
                           self.ecommerceDataLayer('add_to_cart', {items: [self.quickViewedItem]});
                           self.ecommerceDataLayer('begin_checkout', {items: [self.quickViewedItem]});
-                          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Cart Event Pushed:', 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
-                          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
+                          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Add to Cart Event Pushed:', 'background: #f57c00; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
+                          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.quickViewedItem);
                         }
                       }
                     }
@@ -891,7 +891,7 @@
           }
 
           dataLayer.push(dataLayerData);
-          console.log(`%c[SME SHOPIFY PIXEL DEBUGGER] GTM Event: ${this.eventPrefix + event}`, 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', dataLayerData);
+          // console.log(`%c[SME SHOPIFY PIXEL DEBUGGER] GTM Event: ${this.eventPrefix + event}`, 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', dataLayerData);
         }
 
         // Function to track form submissions for contact forms and newsletter signups
@@ -924,10 +924,10 @@
               
               if(formType && formType.value === 'customer') {
                 dataLayer.push({ event: self.eventPrefix + 'newsletter_signup', ...formData});
-                console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Newsletter Signup Event Pushed:', 'background: #0097a7; color: #fff; font-size: 14px; font-weight: bold;', formData);
+                // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Newsletter Signup Event Pushed:', 'background: #0097a7; color: #fff; font-size: 14px; font-weight: bold;', formData);
               } else if(formType && formType.value === 'contact') {
                 dataLayer.push({ event: self.eventPrefix + 'contact_form_submit', ...formData});
-                console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Contact Form Submit Event Pushed:', 'background: #0097a7; color: #fff; font-size: 14px; font-weight: bold;', formData);
+                // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Contact Form Submit Event Pushed:', 'background: #0097a7; color: #fff; font-size: 14px; font-weight: bold;', formData);
               }
             }
           });
@@ -947,7 +947,7 @@
                 link_id: target.getAttribute('id'),
                 phone_number
               });
-              console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Phone Number Click Event Pushed:', 'background: #ec407a; color: #fff; font-size: 14px; font-weight: bold;', phone_number);
+              // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Phone Number Click Event Pushed:', 'background: #ec407a; color: #fff; font-size: 14px; font-weight: bold;', phone_number);
             }
           });
         }
@@ -966,7 +966,7 @@
                 link_id: target.getAttribute('id'),
                 email_address
               });
-              console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Email Click Event Pushed:', 'background: #42a5f5; color: #fff; font-size: 14px; font-weight: bold;', email_address);
+              // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Email Click Event Pushed:', 'background: #42a5f5; color: #fff; font-size: 14px; font-weight: bold;', email_address);
             }
           });
         }
