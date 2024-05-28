@@ -118,7 +118,7 @@
                         </div>
                       {%- else -%}
                         <div class="card__header">
-                          <h2 class="card__title heading h3">{{ 'product.general.description' | t }}</h2>
+                          <h3 class="card__title heading h3">{{ 'product.general.description' | t }}</h3>
                         </div>
 
                         <div class="card__section {% if block.settings.display_mode == 'view_more' %}expandable-content{% endif %}" {% if block.settings.display_mode == 'view_more' %}aria-expanded="false"{% endif %}>
@@ -173,7 +173,7 @@
                         </div>
                       {%- else -%}
                         <div class="card__header">
-                          <h2 class="card__title heading h3">{{ title }}</h2>
+                          <h3 class="card__title heading h3">{{ title }}</h3>
                         </div>
 
                         <div class="card__section {% if block.settings.display_mode == 'view_more' %}expandable-content{% endif %}" {% if block.settings.display_mode == 'view_more' %}aria-expanded="false"{% endif %}>
@@ -221,7 +221,7 @@
                       </div>
                     {%- else -%}
                       <div class="card__header">
-                        <h2 class="card__title heading h3">{{ title }}</h2>
+                        <h3 class="card__title heading h3">{{ title }}</h3>
                       </div>
 
                       <div class="card__section {% if block.settings.display_mode == 'view_more' %}expandable-content{% endif %}" {% if block.settings.display_mode == 'view_more' %}aria-expanded="false"{% endif %}>
@@ -275,7 +275,7 @@
                   <div class="product-block-list__item product-block-list__item--trust">
                     <div class="card">
                       <div class="card__header card__header--flex">
-                        <h2 class="card__title heading h3">{{ block.settings.trust_title | escape }}</h2>
+                        <h3 class="card__title heading h3">{{ block.settings.trust_title | escape }}</h3>
 
                         {%- render 'icon', icon: 'lock', width: 22, height: 24 -%}
                       </div>
@@ -326,7 +326,7 @@
                   <div class="product-block-list__item product-block-list__item--shipping" {{ block.shopify_attributes }}>
                     <div class="card">
                       <div class="card__header">
-                        <h2 class="card__title heading h3">{{ 'product.general.estimate_shipping' | t }}</h2>
+                        <h3 class="card__title heading h3">{{ 'product.general.estimate_shipping' | t }}</h3>
                       </div>
 
                       <div class="card__section">

@@ -180,7 +180,7 @@
         {{ vendor }}
       {%- endif -%}
 
-      <a href="{{ filtered_variant.url | default: product.url }}" class="product-item__title text--strong link">{{ product.title }}</a>
+      <h3><a href="{{ filtered_variant.url | default: product.url }}" class="product-item__title text--strong link">{{ product.title }}</a></h3>
 
       {%- if settings.product_price_position == 'before_title' -%}
         {{ vendor }}
