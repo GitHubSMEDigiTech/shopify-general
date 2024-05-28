@@ -89,7 +89,7 @@
               <p class="hidden-phone">{{ order.created_at | date: format: 'month_day_year_time' }}</p>
             </div>
 
-            <h1 class="card__title heading h1">{{ 'customer.order.order_number' | t: order_number: order.name }}</h1>
+            <h3 class="card__title heading h1">{{ 'customer.order.order_number' | t: order_number: order.name }}</h3>
 
             <p class="hidden-tablet-and-up">{{ order.created_at | date: format: 'month_day_year_time' }}</p>
 
