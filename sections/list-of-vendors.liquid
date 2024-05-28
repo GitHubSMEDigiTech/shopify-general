@@ -31,7 +31,12 @@
                 <ul class="panel">
             {% endif %}
              <!-- Section content, vendor list -->
-            <li>{{ vendor | link_to_vendor }} </li>
+             {%  assign handle = vendor | replace: ' ', '-' |  remove: '!' |  remove: '.' |  replace: '&', '-' |  remove: ','  | replace: '/', '-'   %}
+              {% if collections[handle].title != blank  %} 
+                <li><a href="{{ collections[handle].url }}">{{ vendor }}</a> </li>
+              {% else %}
+                <li>{{ vendor | link_to_vendor }} </li>
+              {% endif %}
             {% assign last = vendor %} 
             
             <!-- Close last section -->
