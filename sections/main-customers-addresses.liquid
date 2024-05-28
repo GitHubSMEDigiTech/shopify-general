@@ -55,7 +55,7 @@
       <div class="layout__section">
         <div class="card">
           <div class="card__section card__section--flex card__section--tight">
-            <h1 class="card__title heading h1">{{ 'customer.general.addresses' | t }} {% if customer.addresses_count > 0 %}({{ customer.addresses_count }}){% endif %}</h1>
+            <h3 class="card__title heading h1">{{ 'customer.general.addresses' | t }} {% if customer.addresses_count > 0 %}({{ customer.addresses_count }}){% endif %}</h3>
 
             {%- if customer.addresses_count > 0 -%}
               <button class="button button--small button--primary" data-action="open-modal" aria-controls="modal-address-new">{{ 'customer.addresses.add_address' | t }}</button>

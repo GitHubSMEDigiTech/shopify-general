@@ -85,13 +85,13 @@
 
               <div class="collection__description {% if allow_collapse_description %}expandable-content{% endif %}" aria-expanded="false">
                 <div class="collection__meta-inner">
-                  <h1 class="collection__title heading h1">
+                  <h2 class="collection__title heading h1">
                     {%- if collection.handle == 'all' -%}
                       {{- 'collection.general.all_products' | t -}}
                     {%- else -%}
                       {{- collection.title -}}
                     {%- endif -%}
-                  </h1>
+                  </h2>
                 </div>
                 <div class="rte">
                   {{ collection.description }}
@@ -377,13 +377,13 @@
                           {%- endif -%}
 
                           <div class="collection__meta-inner">
-                            <h1 class="collection__title heading h1">
+                            <h2 class="collection__title heading h1">
                               {%- if collection.handle == 'all' -%}
                                 {{- 'collection.general.all_products' | t -}}
                               {%- else -%}
                                 {{- collection.title -}}
                               {%- endif -%}
-                            </h1>
+                            </h2>
 
                             {%- assign offset = paginate.current_offset | plus: 1 -%}
                             {%- assign page_size = paginate.current_offset | plus: paginate.page_size | at_most: paginate.items -%}
