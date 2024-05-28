@@ -2,11 +2,14 @@
   <div class="load-more">
     <span id="load-more_btn" class="load-more_btn text-center mt-12 button button--primary">{{ settings.loading_button }}</span>
     <div id="load-more_spinner">{%- render 'icon', icon: 'search-loader' -%}</div>
+
+    <div id="hidden-pagination" class="hidden">{%- render 'pagination', paginate: paginate, settings: section.settings -%}</div>
   </div>
 
 <script>
   window.addEventListener('load', () => {
     const products_on_page = document.getElementById('product-list');
+    const hidden_pagination = document.getElementById('hidden-pagination');
     let next_url = products_on_page.dataset.nextUrl;
 
     const load_more_btn = document.getElementById('load-more_btn');
@@ -31,10 +34,12 @@
 
       const parser = new DOMParser();
       const nextPageDoc = parser.parseFromString(nextPage, 'text/html');
+      console.log(nextPageDoc)
 
       load_more_spinner.style.display = 'none';
 
       const productgrid = nextPageDoc.getElementById('product-list');
+      const newPagination = nextPageDoc.getElementById('hidden-pagination');
       const new_products = productgrid.getElementsByClassName('product-item');
       const new_url = productgrid.dataset.nextUrl;
       if (new_url) {
@@ -44,6 +49,10 @@
       for (let i = 0; i < new_products.length; i++) {
         products_on_page.appendChild(new_products[i]);
       }
+
+      console.log(newPagination)
+
+      hidden_pagination.replaceChildren(newPagination);
     }
   }, false)
 </script>
