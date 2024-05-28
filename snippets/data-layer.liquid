@@ -5,7 +5,20 @@
   * Email: contact@triangledigital.xyz
   * Last Update: 17 May 2024
   */
-  
+var delayInMilliseconds = 5000; //5 second
+  setTimeout(function() {
+    var myconsent = window.OnetrustActiveGroups;
+    console.log(myconsent);
+
+    if(myconsent.includes("C0002")){
+      var acceptPT = 'True'
+    } else if (myconsent.includes("C0004")){
+      var acceptPT = 'True'
+    } else {
+      var acceptPT = 'Fasle'
+    }
+
+    if (acceptPT == 'True'){
   (function() {
       // Defining the class triangle_digital_datalayer
       class triangle_digital_datalayer {
@@ -1016,4 +1029,5 @@ formData() {
       });
     
   })();
+      }}, delayInMilliseconds);
 </script>
