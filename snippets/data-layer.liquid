@@ -501,7 +501,7 @@
               miniCartButtons.forEach((miniCartButton) => {
                 miniCartButton.addEventListener(self.miniCartAppersOn, () => {
                   self.ecommerceDataLayer('view_cart', self.cart);
-                  if(this.debug=='true') {
+                  if(this.debug =='true') {
                     console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Cart Event Pushed (Mini Cart):', 'background: #222; color: #bada55; font-size: 14px; font-weight: bold;', self.cart);
                   }
               });
