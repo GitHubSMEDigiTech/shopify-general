@@ -19,14 +19,32 @@
             "button_text": "",
             "link": "shopify:\/\/collections\/tedua"
           }
+        },
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gilmourdesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/teduamobile_3f0cc5eb-37c9-4c25-8db8-da460676c846.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/david-gilmour"
+          }
         }
       },
       "block_order": [
-        "image_B3rw7r"
+        "image_B3rw7r",
+        "image_hhc4xB"
       ],
       "settings": {
         "edge_to_edge": false,
-        "section_size": "medium",
+        "section_size": "small",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
         "autoplay": true,
