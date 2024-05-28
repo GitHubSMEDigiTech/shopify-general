@@ -6,8 +6,8 @@
         "image_B3rw7r": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/maneskinbanner.png",
-            "mobile_image": "shopify:\/\/shop_images\/maneskinbanner.png",
+            "image": "shopify:\/\/shop_images\/teduadesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/teduamobile_3f0cc5eb-37c9-4c25-8db8-da460676c846.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -16,33 +16,16 @@
             "content_position": "middle_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        },
-        "image_cVry8W": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/de-gregori-zalone.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
+            "button_text": "",
+            "link": "shopify:\/\/collections\/tedua"
           }
         }
       },
       "block_order": [
-        "image_B3rw7r",
-        "image_cVry8W"
+        "image_B3rw7r"
       ],
       "settings": {
-        "edge_to_edge": true,
+        "edge_to_edge": false,
         "section_size": "medium",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
