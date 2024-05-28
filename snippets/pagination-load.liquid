@@ -34,7 +34,6 @@
 
       const parser = new DOMParser();
       const nextPageDoc = parser.parseFromString(nextPage, 'text/html');
-      console.log(nextPageDoc)
 
       load_more_spinner.style.display = 'none';
 
@@ -49,8 +48,6 @@
       for (let i = 0; i < new_products.length; i++) {
         products_on_page.appendChild(new_products[i]);
       }
-
-      console.log(newPagination)
 
       hidden_pagination.replaceChildren(newPagination);
     }
