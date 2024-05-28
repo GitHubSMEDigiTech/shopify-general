@@ -571,7 +571,7 @@
           
           const variants = {{ product.variants | json }}
           this.ecommerceDataLayer('view_item', {items: [item]});
-          console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Item Event Pushed:', 'background: #00c853; color: #fff; font-size: 14px; font-weight: bold;', item);
+          // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] View Item Event Pushed:', 'background: #00c853; color: #fff; font-size: 14px; font-weight: bold;', item);
 
           if(this.shopifyDirectCheckoutButton.length) {
             let self = this;
