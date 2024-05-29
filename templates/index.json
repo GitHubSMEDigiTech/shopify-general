@@ -103,6 +103,22 @@
         "link_url": ""
       }
     },
+    "collection_with_image_6MRFYn": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "esclusive",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#c5161c",
+        "text_color": "#ffffff",
+        "title": "ESCLUSIVE",
+        "content": "Scopri tutti i prodotti disponibili in esclusiva su Sony Music Store",
+        "button_background": "#ffffff",
+        "button_text_color": "#AD141F",
+        "button_text": "Scopri",
+        "button_link": "shopify:\/\/collections\/esclusive"
+      }
+    },
     "promotion_list_wAJLbg": {
       "type": "promotion-list",
       "blocks": {
@@ -301,6 +317,7 @@
     "slideshow_dwDbqU",
     "rich_text_axXx4A",
     "featured_collection_Ln8Q76",
+    "collection_with_image_6MRFYn",
     "promotion_list_wAJLbg",
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",

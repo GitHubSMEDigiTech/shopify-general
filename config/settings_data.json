@@ -18,6 +18,7 @@
     "show_vendor": true,
     "show_secondary_image": true,
     "show_reviews_badge": false,
+    "product_image_size": "short",
     "show_color_swatch": true,
     "show_inventory_quantity": true,
     "cart_type": "drawer",
