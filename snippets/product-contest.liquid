@@ -9,7 +9,7 @@
 
         {% for option in options -%}
             {%- assign o = option | strip -%}
-            <span><input type="radio" id="contest{{ o }}" name="properties[Contest-{{ product.metafields.meta.contest }}]" value="{{ o }}" />{{ o }}</span>
+        <span><input type="radio" id="contest{{ o }}" name="properties[Contest-{{ product.metafields.meta.contest }}]" value="{{ o }}" {% if forloop.index == 1 %} checked {% endif %} />{{ o }}</span>
         {%- endfor %}
     </div>
 </div>
