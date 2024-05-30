@@ -194,6 +194,7 @@
       "list": "Mostrar productos como lista"
     },
     "product": {
+      "buy_now": "Buy now",
       "from_price_html": "Desde {{price_min}}",
       "add_to_cart": "Añadir al carrito",
       "pre_order": "Reservar",
