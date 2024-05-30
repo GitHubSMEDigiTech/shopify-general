@@ -11,11 +11,25 @@
     {%- endif -%}
 
     {%- if block.settings.show_payment_button and product.template_suffix != 'pre-order' -%}
+      {%  assign unbranded_selector = '' %} 
+      <!--{{ form | payment_button }}-->
+      <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="clickUnbranded()">
+      {{ 'collection.product.buy_now' | t}}
+      </button>
+      <div class="hidden">
       {{ form | payment_button }}
+      </div>
     {%- endif -%}
   {%- else -%}
     <a href="mailto:{{ shop.email }}" class="button button--primary">{{ 'product.form.contact_us' | t }}</a>
   {%- endif -%}
+
+  <script>
+    function clickUnbranded() {
+      console.log("clicked")
+      setInterval(() => {document.querySelector('[data-testid="sheet-open-button"]').click()}, 1000)
+    }
+  </script>
 
   {%- if block.settings.show_payment_button and product.selected_or_first_available_variant.available == false -%}
     <style>
