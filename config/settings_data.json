@@ -272,8 +272,8 @@
         "type": "shopify:\/\/apps\/dc-pre-orders-preorder-now\/blocks\/preorder-app-embed\/31798c03-8451-4b34-b6bd-53a41ce1a967",
         "disabled": false,
         "settings": {
-          "preorder-button-text": "Pre-order",
-          "preorder-now-button-text": "Pre-order now",
+          "preorder-button-text": "Aggiungi preorder",
+          "preorder-now-button-text": "Preordina ora",
           "preorder-ended-button-text": "Pre-order ended",
           "preorder-with-button-text": "Pre-order with",
           "shipping-policy-date-format": "%B %e, %Y",
