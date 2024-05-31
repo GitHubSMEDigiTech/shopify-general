@@ -42,6 +42,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_KChdED": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DREV.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/dreamevilmetalgodsjpg_7f850ee0-bfc2-445c-8d6a-61f689469e59.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#f99528",
+            "title": "dream evil",
+            "head_color": "#ffffff",
+            "subtitle": "metal gods",
+            "subhead_color": "#f99528",
+            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. sun yellow LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#f99528",
+            "show_preorder": true,
+            "preorder_msg": "July 26",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dream+Evil&sort_by=created-descending"
+          }
+        },
         "banner_TE9DEf": {
           "type": "banner",
           "settings": {
@@ -131,50 +153,6 @@
             "link": "https:\/\/www.cmdistro.de\/de\/products\/the-pretty-reckless-other-worlds-ltd-transp-pink-lp?_pos=5&_fid=0678c7dea&_ss=c"
           }
         },
-        "banner_hg8N9J": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IT_VL.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/imperialtriumphantvileluxuryredux1924jpg_40ab1447-b488-4592-9fbe-f0fa8fc097af.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#59e54e",
-            "title": "imperial triumphant",
-            "head_color": "#ffffff",
-            "subtitle": "Vile Luxury (Redux 1924)",
-            "subhead_color": "#59e54e",
-            "content": "Ltd. CD Digipak\nLtd. Chernobyl Radiation Neon Green 2LP",
-            "content_color": "#59e54e",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "may 3",
-            "preorder_msg_color": "#905111",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Imperial+Triumphant&sort_by=created-descending"
-          }
-        },
-        "banner_MDmktJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/weiber.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/folterkammerweibermachtembargo-119jpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "folterkammer",
-            "head_color": "#ffffff",
-            "subtitle": "weibermacht",
-            "subhead_color": "#b15764",
-            "content": "Standard CD Jewelcase\nLtd. transp. coke bottle green LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#b15764",
-            "show_preorder": true,
-            "preorder_msg": "april 19",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Folterkammer"
-          }
-        },
         "02a54b18-c68a-42ec-be73-158190e5fe63": {
           "type": "banner",
           "settings": {
@@ -221,12 +199,11 @@
         }
       },
       "block_order": [
+        "banner_KChdED",
         "banner_TE9DEf",
         "banner_ikGaAY",
         "banner_NghfzE",
         "banner_tGQJkg",
-        "banner_hg8N9J",
-        "banner_MDmktJ",
         "02a54b18-c68a-42ec-be73-158190e5fe63",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
