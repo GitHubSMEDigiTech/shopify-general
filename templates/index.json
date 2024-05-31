@@ -42,6 +42,72 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_N49d3z": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LEP.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/leprousmelodiesofatonementjpg_91b63551-e711-4bb1-9b8c-db0b1768c3c2.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#fcf3b2",
+            "title": "leprous",
+            "head_color": "#ffffff",
+            "subtitle": "melodies of atonement",
+            "subhead_color": "#fcf3b2",
+            "content": "Ltd. Deluxe 2CD+Blu-ray Artbook\nLtd. CD Mediabook & Patch\nStandard CD Jewelcase\nGatefold black 2LP\nLtd. Gatefold transp. red 2LP\nLtd. Gatefold transp. sun yellow-black marbled 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#fcf3b2",
+            "show_preorder": true,
+            "preorder_msg": "august 30",
+            "preorder_msg_color": "#da1810",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Leprous&sort_by=created-descending"
+          }
+        },
+        "banner_LfNeiK": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHBAY.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/stevehackettbayofkingsjpg_b6f907ed-885e-486b-98aa-83c8c60fa644.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "steve hackett",
+            "head_color": "#ffffff",
+            "subtitle": "bay of kings (Re-Issues 2024)",
+            "subhead_color": "#ffffff",
+            "content": "Special Edition CD Digipak\nGatefold black LP\nLtd. Gatefold transp. light blue LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "August 2",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
+        },
+        "banner_cN7FjR": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SHMO.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/stevehackettmomentumjpg_6330b9c3-76d8-4987-b387-99015ef922d5.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "steve hackett",
+            "head_color": "#910021",
+            "subtitle": "momentum (re-issues 2024)",
+            "subhead_color": "#910021",
+            "content": "Special Edition CD Digipak\nGatefold black LP\nLtd. Gatefold transp. orange LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "august 2",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
+        },
         "banner_QUaajT": {
           "type": "banner",
           "settings": {
@@ -131,28 +197,6 @@
             "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Devin+Townsend&sort_by=created-descending"
           }
         },
-        "banner_zx6GxJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fb.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/SteveHackett_Feedback86.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "steve hackett",
-            "head_color": "#ffffff",
-            "subtitle": "Feedback '86 (Vinyl Re-issue 2024)",
-            "subhead_color": "#000000",
-            "content": "Gatefold black LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "may 24",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
         "banner_dFPYTP": {
           "type": "banner",
           "settings": {
@@ -173,72 +217,6 @@
             "preorder_msg": "May 31 \/ July 12",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Psychotic+Waltz&sort_by=created-descending"
-          }
-        },
-        "banner_zf648e": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tillwe.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/SteveHackett_TillWeHaveFaces.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "steve hackett",
-            "head_color": "#ffffff",
-            "subtitle": "till we have faces (vinyl re-issue 2024)",
-            "subhead_color": "#ffffff",
-            "content": "Gatefold black LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#c6a672",
-            "show_preorder": true,
-            "preorder_msg": "may 24",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
-        "banner_zUxpw9": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/soulmates.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/MandokiSoulmates_AMemoryOfOurFuture.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "mandoki soulmates",
-            "head_color": "#9a0f16",
-            "subtitle": "a memory of our future",
-            "subhead_color": "#9a0f16",
-            "content": "Ltd. CD Edition\nGatefold black \n2LP & LP-Booklet",
-            "content_color": "#1d1810",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#1d1810",
-            "show_preorder": true,
-            "preorder_msg": "may 10",
-            "preorder_msg_color": "#9a0f16",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Mandoki+Soulmates&sort_by=created-descending"
-          }
-        },
-        "banner_G6xRWe": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/tangent.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/TheTangent_ToFollowPolaris.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "the tangent",
-            "head_color": "#aa69a7",
-            "subtitle": "to follow polaris",
-            "subhead_color": "#102a1a",
-            "content": "Ltd. CD Mediabook\nGatefold black 2LP",
-            "content_color": "#102a1a",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#a5a5a5",
-            "show_preorder": true,
-            "preorder_msg": "may 10",
-            "preorder_msg_color": "#102a1a",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=The+Tangent&sort_by=created-descending"
           }
         },
         "9868648a-affa-4d67-be87-afd569870a56": {
@@ -264,15 +242,14 @@
         }
       },
       "block_order": [
+        "banner_N49d3z",
+        "banner_LfNeiK",
+        "banner_cN7FjR",
         "banner_QUaajT",
         "banner_9jMdYT",
         "banner_AwR8cY",
         "banner_acA6W3",
-        "banner_zx6GxJ",
         "banner_dFPYTP",
-        "banner_zf648e",
-        "banner_zUxpw9",
-        "banner_G6xRWe",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
