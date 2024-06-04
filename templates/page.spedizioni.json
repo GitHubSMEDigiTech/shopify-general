@@ -67,7 +67,7 @@
           "type": "question",
           "settings": {
             "title": "Come posso pagare",
-            "answer": "<h6>I metodi di pagamento accettati sono Paypal, Amazon Pay e le carte di credito dei circuiti Visa, Mastercard e Maestro Per ridurre i rischi di accesso non autorizzato, i dati delle carte saranno criptati.<\/h6>"
+            "answer": "<h6>I metodi di pagamento accettati sono Paypal, Amazon Pay e le carte di credito dei circuiti Visa, Mastercard e Maestro. Per ridurre i rischi di accesso non autorizzato, i dati delle carte saranno criptati.<\/h6>"
           }
         },
         "question_jEYyKW": {
