@@ -79,7 +79,7 @@
         "image_eUhDX7"
       ],
       "settings": {
-        "edge_to_edge": true,
+        "edge_to_edge": false,
         "section_size": "medium",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
@@ -87,25 +87,6 @@
         "show_arrows": true,
         "show_dots": true,
         "cycle_speed": 5
-      }
-    },
-    "rich_text_axXx4A": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "narrow",
-        "title": "* ATTENZIONE *",
-        "content": "<p>Le consegne potrebbero subire ritardi a causa di <strong>scioperi <\/strong>che interessano i corrieri nazionali. <\/p>",
-        "button_text": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "bg_color": "#c5161c",
-        "text_color": "#ffffff",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#ffffff",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
       }
     },
     "featured_collection_Ln8Q76": {
@@ -333,7 +314,6 @@
   },
   "order": [
     "slideshow_dwDbqU",
-    "rich_text_axXx4A",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
     "promotion_list_wAJLbg",
