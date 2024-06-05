@@ -89,6 +89,18 @@
         "cycle_speed": 5
       }
     },
+    "image_with_text_qVw8NM": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Immagine1.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "FESTA DELLA MUSICA",
+        "content": "<p>Scopri i prodotti selezionati per celebrare la festa della musica<\/p>",
+        "button_text": "Scopri",
+        "button_link": "shopify:\/\/collections\/festa-della-musica"
+      }
+    },
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
@@ -314,6 +326,7 @@
   },
   "order": [
     "slideshow_dwDbqU",
+    "image_with_text_qVw8NM",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
     "promotion_list_wAJLbg",
