@@ -3,6 +3,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_cd6H7W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/articolo31-protomaranza_banner_2160x720_7878db45-9f1e-4c9f-ac52-af341e71cbec.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobileshaped.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/protomaranza"
+          }
+        },
         "image_B3rw7r": {
           "type": "image",
           "settings": {
@@ -53,33 +70,16 @@
             "button_text": "",
             "link": "shopify:\/\/collections\/ac-dc"
           }
-        },
-        "image_cd6H7W": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/articolo31-protomaranza_banner_2160x720_7878db45-9f1e-4c9f-ac52-af341e71cbec.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/mobileshaped.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/products\/protomaranza"
-          }
         }
       },
       "block_order": [
+        "image_cd6H7W",
         "image_B3rw7r",
         "image_hhc4xB",
-        "image_eUhDX7",
-        "image_cd6H7W"
+        "image_eUhDX7"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "small",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
