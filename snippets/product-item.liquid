@@ -1,5 +1,14 @@
 {%- comment -%}Color labels used to detect what is a color swatch{%- endcomment -%}
 {%- assign color_label = 'color,colour,couleur,cor,colore,farbe,색,色,カラー,färg,farve,szín,barva' | split: ',' -%}
+{%- if show_b2b -%}
+  {%- if cart.item_count > 0 -%}
+    {%- for item in cart.items -%}
+      {%- if item.product.id == product.id -%}
+        {%- assign cart_item = item -%}
+      {%- endif -%}     
+    {%- endfor -%}     
+  {%- endif -%}
+{%- endif -%}
 
 <div class="product-item {% if horizontal %}product-item--horizontal{% elsif list %}product-item--list{% else %}product-item--vertical{% endif %} {% if section.id == 'blog-sidebar' %}product-item--compact{% endif %} {{ grid_classes }}">
   {%- capture product_labels -%}
@@ -66,6 +75,9 @@
         <noscript>
           <img src="{{ primary_media | image_url: width: 600 }}" alt="{{ alt_default | escape }}">
         </noscript>
+        {%- if cart_item.product.handle != blank -%}
+          <span class="header__cart-count">{{ cart_item.quantity }}</span>
+        {%- endif -%}
       </div>
     </a>
   {%- endif -%}
@@ -181,6 +193,10 @@
       {%- endif -%}
 
       <h3><a href="{{ filtered_variant.url | default: product.url }}" class="product-item__title text--strong link">{{ product.title }}</a></h3>
+      {%- if show_b2b -%}
+        <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
+        Support:  {{ product.metafields.meta.support }} </div>
+      {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}
         {{ vendor }}
@@ -290,6 +306,9 @@
         {%- endif -%}
       </div>
     </div>
+    {%- if cart_item.product.handle != blank -%}
+      {% render 'product-item-b2b', product: product %}
+    {%- endif -%}
 
     {%- if request.page_type == 'collection' or request.page_type == 'search' or show_add_to_cart -%}
       {%- if section.settings.show_quick_view == 'list_grid' or section.settings.show_quick_buy == 'list_grid' or show_add_to_cart -%}
@@ -307,40 +326,12 @@
           </a>
         </div>
       {%- else -%}
-        {%- form 'product', product, id: form_id, class: product_form_classes -%}
-          <input type="hidden" name="quantity" value="1">
-          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-
-          {%- if section.settings.show_quick_buy == 'list_grid' or show_add_to_cart -%}
-            {%- assign quick_buy_classes = 'product-item__action-button button button--small button--primary' -%}
-          {%- else -%}
-            {%- assign quick_buy_classes = 'product-item__action-button product-item__action-button--list-view-only button button--small button--primary' -%}
-          {%- endif -%}
-
-          {%- if product.available -%}
-            {%- if product.variants.size == 1 -%}
-              <button type="submit" class="{{ quick_buy_classes }}" data-action="add-to-cart">
-                {%- if product.template_suffix == 'pre-order' -%}
-                  {{- 'collection.product.pre_order' | t -}}
-                {%- else -%}
-                  {{- 'collection.product.add_to_cart' | t -}}
-                {%- endif -%}
-              </button>
-            {%- else -%}
-              <a href="{{ product.url }}" class="{{ quick_buy_classes }}">{{ 'collection.product.choose_options' | t }}</a>
-            {%- endif -%}
-          {%- else -%}
-            <button class="{{ quick_buy_classes | replace: 'button--primary', 'button--disabled' }}" disabled>{{ 'collection.product.sold_out' | t }}</button>
-          {%- endif -%}
-
-          {%- if section.settings.show_quick_view == 'list_grid' -%}
-            {%- assign quick_view_classes = 'product-item__action-button button button--small button--ternary hidden-phone' -%}
-          {%- else -%}
-            {%- assign quick_view_classes = 'product-item__action-button product-item__action-button--list-view-only button button--small button--ternary hidden-phone' -%}
-          {%- endif -%}
-
-          <button type="button" class="{{ quick_view_classes }}" data-action="open-modal" data-secondary-action="open-quick-view" aria-controls="modal-quick-view-{{ section.id }}" data-product-url="{{ product.url }}">{{ 'collection.product.quick_view' | t }}</button>
-        {%- endform -%}
+      {%- if show_b2b -%}
+        {% render 'product-item-atc-b2b', product: product, form_id: form_id, product_form_classes: product_form_classes, section: section %}
+      {%- else -%}
+        {% render 'product-item-atc', product: product, form_id: form_id, product_form_classes: product_form_classes, section: section %}
+      {%- endif -%}
+       
       {%- endif -%}
     {%- endif -%}
   </div>
