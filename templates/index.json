@@ -23,8 +23,8 @@
         "image_B3rw7r": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2160x720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/mobileteduaspecial_67e29d3a-be0d-417b-8b87-ce6a32aace07.png",
+            "image": "shopify:\/\/shop_images\/teduadesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/teduamobile_e14f1290-6c39-4cee-8b9c-7ae4e767e05d.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
