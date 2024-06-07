@@ -42,6 +42,72 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_6VnwrD": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DAF.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/darkfuneraldarkfuneral30thanniversaryeditionjpg_800ae5c2-3887-48c3-8fc0-91f0c9e6f0c5.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#7e8bb7",
+            "title": "dark funeral",
+            "head_color": "#ffffff",
+            "subtitle": "Dark Funeral (30th Anniversary Edition)",
+            "subhead_color": "#7e8bb7",
+            "content": "Standard CD Jewelcase\nLtd. transp. blue-black marbled LP & LP-Booklet\nHand-Numbered, incl. Signed Art Print - Strictly limited to only 300 copies!",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "august 9",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dark+Funeral&sort_by=created-descending"
+          }
+        },
+        "banner_hdP3wT": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INAP.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/inaphelionreaperdawnjpg_997681ac-b072-4efb-b9d2-87a5ba840c3f.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#a1692e",
+            "title": "in aphelion",
+            "head_color": "#ffffff",
+            "subtitle": "reaperdawn",
+            "subhead_color": "#ef1f25",
+            "content": "Standard CD Jewelcase\nGatefold black LP\nLtd. Gatefold bloodred LP (red Vinyl)",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#a1692e",
+            "show_preorder": true,
+            "preorder_msg": "august 9",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=In+Aphelion&sort_by=created-descending"
+          }
+        },
+        "banner_UqWUbb": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HER.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/heriotdevouredbythemouthofhelljpg_7c3def7a-8b0e-4fd2-8fa3-3763b55a6e81.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "heriot",
+            "head_color": "#ffffff",
+            "subtitle": "Devoured by the Mouth of Hell",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. orange LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 27",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Heriot&sort_by=created-descending"
+          }
+        },
         "banner_KChdED": {
           "type": "banner",
           "settings": {
@@ -62,29 +128,6 @@
             "preorder_msg": "July 26",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dream+Evil&sort_by=created-descending"
-          }
-        },
-        "banner_TE9DEf": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gothic.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/WAYFARER_American_0524_750-1100.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Wayfarer_AmericanGothic.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "WAYFARER",
-            "head_color": "#ffffff",
-            "subtitle": "AMERICAN GOTHIC",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nblack LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 14",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Wayfarer&sort_by=created-descending"
           }
         },
         "banner_ikGaAY": {
@@ -131,50 +174,6 @@
             "link": "https:\/\/www.cmdistro.de\/products\/electric-callboy-tekkno-ltd-deluxe-fanbox-2024"
           }
         },
-        "banner_tGQJkg": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Preckless.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/theprettyrecklessotherworldsjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "the pretty reckless",
-            "head_color": "#ffffff",
-            "subtitle": "in other worlds",
-            "subhead_color": "#c59f9b",
-            "content": "ltd. transparent pink LP",
-            "content_color": "#c59f9b",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#c59f9b",
-            "show_preorder": false,
-            "preorder_msg": "only 300 copies worldwide | get your copy now!",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/products\/the-pretty-reckless-other-worlds-ltd-transp-pink-lp?_pos=5&_fid=0678c7dea&_ss=c"
-          }
-        },
-        "02a54b18-c68a-42ec-be73-158190e5fe63": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JP.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/judas-priest-mock-up-tour-edition.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#be141a",
-            "title": "judas priest",
-            "head_color": "#ffffff",
-            "subtitle": "fire power tour edition",
-            "subhead_color": "#be141a",
-            "content": "Tour Edition FIREPOWER \nincl. 7\" Vinyl \nA\/Lightning Strike (Album Version) \nB\/Living After Midnight (Recorded live at Wacken 2015)\n16x16cm \"Firepower\" Patch \n\"Firepower\" Album (Jewelcase)",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "order the last available copies here!",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/judas-priest-firepower-tour-edition"
-          }
-        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "settings": {
@@ -199,12 +198,12 @@
         }
       },
       "block_order": [
+        "banner_6VnwrD",
+        "banner_hdP3wT",
+        "banner_UqWUbb",
         "banner_KChdED",
-        "banner_TE9DEf",
         "banner_ikGaAY",
         "banner_NghfzE",
-        "banner_tGQJkg",
-        "02a54b18-c68a-42ec-be73-158190e5fe63",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
