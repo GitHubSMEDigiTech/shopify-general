@@ -340,6 +340,15 @@
         "text": "#ffffff",
         "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
       }
+    },
+    "newsletter_gPxUNJ": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "background": "#ffffff",
+        "text": "#000000"
+      }
     }
   },
   "order": [
@@ -353,6 +362,7 @@
     "featured_collection_gNFLGM",
     "newsletter_sme_popup_9K3hq4",
     "rich_text_zKVnLa",
-    "newsletter_sme_96dtxz"
+    "newsletter_sme_96dtxz",
+    "newsletter_gPxUNJ"
   ]
 }
