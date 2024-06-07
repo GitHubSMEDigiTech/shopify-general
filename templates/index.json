@@ -323,6 +323,7 @@
     },
     "newsletter_sme_96dtxz": {
       "type": "newsletter-sme",
+      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 0,
@@ -344,8 +345,8 @@
     "newsletter_TmNANi": {
       "type": "newsletter",
       "settings": {
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+        "title": "Iscriviti alla Newsletter",
+        "content": "<p>Iscrivi per ottenere subito il 10% di <strong>sconto<\/strong> sul tuo prossimo ordine!<\/p>",
         "background": "#ffffff",
         "text": "#000000"
       }
