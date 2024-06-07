@@ -35,8 +35,7 @@
               <input type="email" id="newsletter[{{ section.id }}][contact][email]" name="contact[email]" class="form__field {% if section.settings.background != settings.background %}form__field--borderless{% endif %} form__field--text" required>
               <label for="newsletter[{{ section.id }}][contact][email]" class="form__floating-label">{{ 'home_page.newsletter.input' | t }}</label>
             </div>
-              <input type="checkbox"value="" required/>  Ho letto e accetto la Privacy Policy
-            <button type="submit" class="form__submit button button--primary">{{ 'home_page.newsletter.submit' | t }}</button>
+                 <button type="submit" class="form__submit button button--primary">{{ 'home_page.newsletter.submit' | t }}</button>
             </div>
         {%- endif -%}
       {%- endform -%}
