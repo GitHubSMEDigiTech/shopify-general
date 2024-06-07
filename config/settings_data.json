@@ -287,7 +287,7 @@
       },
       "5061257265103808445": {
         "type": "shopify:\/\/apps\/r-terms-conditions\/blocks\/embed-block\/471882a9-9b1b-4918-8943-6c66b60c94ea",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
