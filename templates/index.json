@@ -323,7 +323,6 @@
     },
     "newsletter_sme_96dtxz": {
       "type": "newsletter-sme",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 0,
@@ -341,35 +340,6 @@
         "text": "#ffffff",
         "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
       }
-    },
-    "newsletter_sme_ih3kKd": {
-      "type": "newsletter-sme",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 0,
-        "title": "Newsletter",
-        "content": "<p>svwdvreukdrfkrkc<\/p>",
-        "ae_segment_id": "2097936",
-        "ae_brand_id": "5372657",
-        "ae_activities": "{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}",
-        "ae": "15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d",
-        "ae_form": "427238",
-        "ae_form_html": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"\/policies\/privacy-policy\" target=\"_blank\"> Privacy Policy<\/a><\/label>\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">",
-        "btn_txt": "",
-        "background": "#ffffff",
-        "bg_image": "shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg",
-        "text": "#ffffff",
-        "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
-      }
-    },
-    "newsletter_rKbKDY": {
-      "type": "newsletter",
-      "settings": {
-        "title": "",
-        "content": "",
-        "background": "#ffffff",
-        "text": "#000000"
-      }
     }
   },
   "order": [
@@ -383,8 +353,6 @@
     "featured_collection_gNFLGM",
     "newsletter_sme_popup_9K3hq4",
     "rich_text_zKVnLa",
-    "newsletter_sme_96dtxz",
-    "newsletter_sme_ih3kKd",
-    "newsletter_rKbKDY"
+    "newsletter_sme_96dtxz"
   ]
 }
