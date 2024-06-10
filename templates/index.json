@@ -278,6 +278,7 @@
     },
     "newsletter_sme_popup_9K3hq4": {
       "type": "newsletter-sme-popup",
+      "disabled": true,
       "custom_css": [
         ".popup--close {color: white;}"
       ],
