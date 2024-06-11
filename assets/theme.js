@@ -14489,6 +14489,7 @@
         } else {
           this.headerElement.classList.add('header--search-expanded');
           this.element.classList.add('is-visible');
+          window.setTimeout(() => document.getElementById('search-bar__input').focus(), 50);
         }
 
         this.isSearchOpen = !this.isSearchOpen;

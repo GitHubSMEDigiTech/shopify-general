@@ -16,8 +16,8 @@
         {% assign acc_nav = "" %}
         <div>
           {%  for vendor in shop.vendors %} 
-            {% assign last_letter = last |  slice: 0  %}
-            {% assign vendor_letter = vendor |  slice: 0 %}
+            {% assign last_letter = last |  slice: 0 | capitalize %}
+            {% assign vendor_letter = vendor |  slice: 0 | capitalize %}
 
             <!-- Handle section order (befinded by letter) -->
             {% if last_letter != vendor_letter %}
