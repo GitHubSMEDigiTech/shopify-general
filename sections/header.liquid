@@ -130,7 +130,7 @@
                   <input type="hidden" name="options[prefix]" value="last">
                   <input type="hidden" name="options[unavailable_products]" value="{{ settings.search_unavailable_products }}">
                   <div class="search-bar__input-wrapper">
-                    <input class="search-bar__input" type="text" name="q" autocomplete="off" autocorrect="off" aria-label="{{ 'header.search.input_placeholder' | t }}" placeholder="{{ 'header.search.input_placeholder' | t }}">
+                    <input id="search-bar__input" class="search-bar__input" type="text" name="q" autocomplete="off" autocorrect="off" aria-label="{{ 'header.search.input_placeholder' | t }}" placeholder="{{ 'header.search.input_placeholder' | t }}" autofocus>
                     <button type="button" class="search-bar__input-clear hidden-lap-and-up" data-action="clear-input">
                       <span class="visually-hidden">{{ 'header.search.clear' | t }}</span>
                       {% render 'icon', icon: 'close' %}
