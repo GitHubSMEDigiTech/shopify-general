@@ -135,7 +135,7 @@
         "content": "<p>A causa di scioperi che stanno interessando i corrieri, i tempi di consegna potrebbero prolungarsi. <br\/>Ci scusiamo per gli eventuali disagi che ciò potrebbe causare. <\/p>",
         "button_text": "",
         "button_link": "shopify:\/\/collections\/all",
-        "bg_color": "#AD141F",
+        "bg_color": "#ad141f",
         "text_color": "#ffffff",
         "bt_bg_color": "#ffffff",
         "bt_text_color": "#000000",
@@ -385,7 +385,7 @@
       "type": "newsletter",
       "settings": {
         "title": "Iscriviti alla Newsletter",
-        "content": "<p>Iscrivi per ottenere subito il 10% di <strong>sconto<\/strong> sul tuo prossimo ordine!<\/p>",
+        "content": "<p>Iscriviti per ottenere subito il 10% di <strong>sconto<\/strong> sul tuo prossimo ordine!<\/p>",
         "background": "#ffffff",
         "text": "#000000"
       }
