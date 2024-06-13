@@ -76,6 +76,18 @@
         "carousel_effect": "fade"
       }
     },
+    "image_with_text_rz6CBW": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0108.png",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "TOUR 2024",
+        "content": "<p>Le prime date dell'incredibile Tour dove potrete incontrare Aurora e Ludovica e firmare i vostri CD<\/p>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -93,6 +105,7 @@
   },
   "order": [
     "main",
+    "image_with_text_rz6CBW",
     "product-recommendations",
     "recently-viewed-products"
   ]
