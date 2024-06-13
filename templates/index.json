@@ -133,7 +133,7 @@
         "image_7m99JY"
       ],
       "settings": {
-        "edge_to_edge": true,
+        "edge_to_edge": false,
         "section_size": "large",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "fade",
