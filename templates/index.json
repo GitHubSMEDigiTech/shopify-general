@@ -130,6 +130,28 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Heriot&sort_by=created-descending"
           }
         },
+        "banner_ikGaAY": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EOS.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/edgeofsanitynothingbutdeathremainsreissue2024jpg_ad47072a-9e26-4f38-9bcb-355299200835.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Edge of sanity",
+            "head_color": "#5d4090",
+            "subtitle": "nothing but death remains (Re-issue)",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. blue LP\nLtd. lilac LP",
+            "content_color": "#5d4090",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#5d4090",
+            "show_preorder": true,
+            "preorder_msg": "august 23",
+            "preorder_msg_color": "#ffffff",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
+          }
+        },
         "banner_KChdED": {
           "type": "banner",
           "settings": {
@@ -150,28 +172,6 @@
             "preorder_msg": "July 26",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dream+Evil&sort_by=created-descending"
-          }
-        },
-        "banner_ikGaAY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EOS_PA.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/edgeofsanitypurgatoryafterglowreissueremasterremix2024jpg_7e3ac865-e8b0-4e31-b574-053de4a28273.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Edge of sanity",
-            "head_color": "#ffffff",
-            "subtitle": "Purgatory Afterglow (Re-issue)",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. red LP\nLtd. transp. sun yellow LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "june 21",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
@@ -202,8 +202,8 @@
         "banner_6VnwrD",
         "banner_hdP3wT",
         "banner_UqWUbb",
-        "banner_KChdED",
         "banner_ikGaAY",
+        "banner_KChdED",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
