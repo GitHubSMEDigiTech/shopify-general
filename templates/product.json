@@ -50,7 +50,7 @@
             "title": "Tracklist",
             "sku": "",
             "liquid": "{{product.metafields.meta.tracklist}}",
-            "display_mode": "collapse"
+            "display_mode": "show_all"
           }
         }
       },
@@ -63,6 +63,7 @@
         "liquid_eFVXPR"
       ],
       "settings": {
+        "list_collections": false,
         "image_size": "small",
         "enable_video_looping": false,
         "enable_image_zoom": true,
