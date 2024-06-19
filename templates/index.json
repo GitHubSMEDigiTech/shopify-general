@@ -1,8 +1,34 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2160x720_29021292-6007-4268-bfe2-a0f5265f52a8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/750x1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/dani-faiv"
+          }
+        },
         "image_c6iKRK": {
           "type": "image",
           "settings": {
@@ -141,6 +167,7 @@
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_c6iKRK",
         "image_cd6H7W",
         "image_hhc4xB",
