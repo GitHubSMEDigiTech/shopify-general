@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -62,6 +71,15 @@
             "liquid": "{{product.metafields.meta.tracklist}}",
             "display_mode": "show_all"
           }
+        },
+        "liquid_t64EVj": {
+          "type": "liquid",
+          "settings": {
+            "title": "INSTORE TOUR",
+            "sku": "",
+            "liquid": "{{product.metafields.meta.instore_tour}}",
+            "display_mode": "show_all"
+          }
         }
       },
       "block_order": [
@@ -72,7 +90,8 @@
         "contest_dPa76e",
         "buy_buttons",
         "description",
-        "liquid_Tbd46i"
+        "liquid_Tbd46i",
+        "liquid_t64EVj"
       ],
       "settings": {
         "list_collections": true,
