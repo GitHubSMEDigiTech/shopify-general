@@ -188,6 +188,37 @@
         "cycle_speed": 5
       }
     },
+    "promotion_list_kTecJ6": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_VH7pgp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Immagine1.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 95,
+            "stretch_image": true,
+            "background": "#222222",
+            "text_color": "#ffffff",
+            "title": "FESTA DELLA MUSICA",
+            "content": "Celebriamo insieme la Festa della Musica con il 15% di sconto applicabile su ordini superiori ai 100 euro.",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/collections\/festa-della-musica"
+          }
+        }
+      },
+      "block_order": [
+        "item_VH7pgp"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
     "image_with_text_qVw8NM": {
       "type": "image-with-text",
       "disabled": true,
@@ -437,6 +468,7 @@
   },
   "order": [
     "slideshow_dwDbqU",
+    "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
