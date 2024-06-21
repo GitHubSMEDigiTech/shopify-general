@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "fc6b99b4-7b3b-4cac-b837-93c99192edda": {
@@ -42,6 +51,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_3M3Hqm": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DT.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/darktranquillityendtimesignalsstandardjpg_793e8035-0dbd-4bd4-b739-3f3b5df9498e.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "dark tranquillity",
+            "head_color": "#c5c5c5",
+            "subtitle": "endtime signals",
+            "subhead_color": "#e6564e",
+            "content": "Ltd. Deluxe Gatefold 2LP (Midnight Haze LP & black bonus LP) in O-Card\nLtd. CD Digipak in O-Card\nStandard CD Jewelcase\nGatefold black LP\nLtd. Gatefold pearlescent deep-blue LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "august 16",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dark+Tranquillity&sort_by=created-descending"
+          }
+        },
         "banner_naHAQx": {
           "type": "banner",
           "settings": {
@@ -198,6 +229,7 @@
         }
       },
       "block_order": [
+        "banner_3M3Hqm",
         "banner_naHAQx",
         "banner_6VnwrD",
         "banner_hdP3wT",
