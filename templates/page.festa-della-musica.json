@@ -13,9 +13,83 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "collection_with_image_MqryXd": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "internazionali",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "image": "shopify:\/\/shop_images\/Immagine1.jpg",
+        "background": "#ffffff",
+        "text_color": "#ffffff",
+        "title": "FESTA DELLA MUSICA",
+        "content": "Prodotti Internazionali",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Scopri",
+        "button_link": ""
+      }
+    },
+    "collection_with_image_tAHgm6": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "locali",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "image": "shopify:\/\/shop_images\/a-concert-seen-through-an-audience-member-s-mobile-phone.jpg",
+        "background": "#ffffff",
+        "text_color": "#131313",
+        "title": "ITALIANA",
+        "content": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#131313",
+        "button_text": "Scopri",
+        "button_link": ""
+      }
+    },
+    "collection_with_image_9LHQYL": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "esclusive",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "image": "shopify:\/\/shop_images\/music-fans-at-a-venue.jpg",
+        "background": "#ffffff",
+        "text_color": "#131313",
+        "title": "ESCLUSIVE",
+        "content": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#131313",
+        "button_text": "Scopri",
+        "button_link": ""
+      }
+    },
+    "rich_text_nUfEr6": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "",
+        "content": "",
+        "button_text": "Scopri tutti i prodotti",
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#e1e3e4",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_with_image_MqryXd",
+    "collection_with_image_tAHgm6",
+    "collection_with_image_9LHQYL",
+    "rich_text_nUfEr6"
   ]
 }
