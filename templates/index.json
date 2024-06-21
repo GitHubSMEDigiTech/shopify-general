@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "d455e7fc-a136-4680-9463-5503d5126216": {
@@ -42,6 +51,50 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_JnQdPc": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PRR.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/purereasonrevolutioncominguptoconsciousnessjpg_afe3c1fd-3d85-44dd-aea9-01c985da14b3.jpg",
+            "cover_effect": "border",
+            "cover_color": "#000000",
+            "title": "pure reason revolution",
+            "head_color": "#000000",
+            "subtitle": "coming up to consciousness",
+            "subhead_color": "#c90f0c",
+            "content": "Ltd. CD+DVD Digipak | Standard CD Jewelcase | Ltd. Gatefold colored ReVinyl LP | Ltd. Gatefold transp. neon pink BioVinyl LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "september 6",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Pure+Reason+Revolution&sort_by=created-descending"
+          }
+        },
+        "banner_NTbQaL": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JR.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/jordanrudesspermissiontoflyjpg_10a477e3-fba4-4db9-8a33-971594ab7e2d.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#eab04a",
+            "title": "jordan rudess",
+            "head_color": "#ffffff",
+            "subtitle": "permission to fly",
+            "subhead_color": "#eab04a",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP",
+            "content_color": "#bb2e57",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#bb2e57",
+            "show_preorder": true,
+            "preorder_msg": "September 6",
+            "preorder_msg_color": "#ffffff",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Jordan+Rudess&sort_by=created-ascending"
+          }
+        },
         "banner_N49d3z": {
           "type": "banner",
           "settings": {
@@ -175,28 +228,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Nightingale&sort_by=created-descending"
           }
         },
-        "banner_acA6W3": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DTTerria.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/devintownsendterriajpg_ff016970-84d1-4a36-b93f-65d5c5757347.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "Devin Townsend",
-            "head_color": "#dddfe1",
-            "subtitle": "Terria (Vinyl Re-issue 2024)",
-            "subhead_color": "#000000",
-            "content": "Gatefold black 2LP & LP-Booklet\nLtd. Gatefold olive green 2LP & LP-Booklet",
-            "content_color": "#dddfe1",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#dddfe1",
-            "show_preorder": true,
-            "preorder_msg": "june 14",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Devin+Townsend&sort_by=created-descending"
-          }
-        },
         "banner_dFPYTP": {
           "type": "banner",
           "settings": {
@@ -242,13 +273,14 @@
         }
       },
       "block_order": [
+        "banner_JnQdPc",
+        "banner_NTbQaL",
         "banner_N49d3z",
         "banner_LfNeiK",
         "banner_cN7FjR",
         "banner_QUaajT",
         "banner_9jMdYT",
         "banner_AwR8cY",
-        "banner_acA6W3",
         "banner_dFPYTP",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
