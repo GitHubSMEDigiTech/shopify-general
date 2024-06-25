@@ -151,8 +151,8 @@
         "image_7m99JY": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cuoredesktop.png",
-            "mobile_image": "shopify:\/\/shop_images\/cuoremobile.png",
+            "image": "shopify:\/\/shop_images\/2160x720_02b6da91-08cc-46f2-8534-9a7bca210774.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/750x1100_fabbd30c-8d1f-4086-9c51-36548174b801.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -162,7 +162,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify:\/\/collections\/antonello-venditti"
+            "link": "shopify:\/\/collections\/mezzosangue"
           }
         }
       },
