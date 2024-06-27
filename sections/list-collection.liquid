@@ -39,6 +39,7 @@
 {%- endcapture -%}
 
 <section data-section-id="{{ section.id }}" data-section-type="collection" data-section-settings='{{ section_settings }}'>
+  
   <div class="container container--flush collection__list">
     <div class="page__sub-header">
       <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb">
@@ -458,6 +459,8 @@
                       </div>
                     </div>
 
+                    {% render 'search-collection' %}
+
                     <div class="collection__toolbar-item collection__toolbar-item--sort">
                       {%- assign collection_sort_by = collection.sort_by | default: collection.default_sort_by -%}
 
@@ -546,7 +549,7 @@
                   {%- else -%}
                     {%- assign show_as_list = true -%}
 
-                    <div id="product-list" class="product-list product-list--collection {% if has_filters %}product-list--with-sidebar{% endif %}" data-next-url="{{ paginate.next.url }}">
+                    <div id="product-list" class="product-list product-list--collection {% if has_filters %}product-list--with-sidebar{% endif %}" data-next-url="{{ paginate.next.url }}" data-last-page="{{ paginate.pages }}">
                       {%- for product in collection.products -%}
                         {%- render 'product-item', product: product, list: show_as_list, grid_classes: grid_classes, show_b2b: true -%}
                       {%- endfor -%}
@@ -787,9 +790,9 @@
   {%- endcomment -%}
 
   <div id="product-list-atc">
-    <button>Send</button>
-    <div>Number of Items: <span data-items>0</span></div>
-    <div>Price of Items: <span data-price>0</span></div>
+    <div><strong>Selected Items:</strong> <span data-items>0</span></div>
+    <div><strong>Total:</strong> <span data-price>0</span></div>
+    <button class="button button--primary">Send</button>
   </div>
 </section>
 
@@ -798,12 +801,16 @@
     const atcBar = document.querySelector('#product-list-atc')
     const atcBtn = document.querySelector('#product-list-atc button')
 
+    const totalItems = document.querySelector('#product-list-atc [data-items]')
+    const totalPrice = document.querySelector('#product-list-atc [data-price]')
+
     let numberOfItems = 0;
     let justSent = false;
 
-    const values = document.querySelectorAll('#product-list [name="quantity"]')
+    let values = document.querySelectorAll('#product-list [name="quantity"]')
 
-    const formatter = new Intl.NumberFormat('it-IT', {
+
+    const formatter = new Intl.NumberFormat('de-DE', {
       style: 'currency',
       currency: 'EUR',
 
@@ -812,6 +819,7 @@
       //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
     });
 
+    updateListListeners()
    
     // this will sent the form to shopify and update cart
     atcBtn.addEventListener('click', () => {
@@ -835,27 +843,7 @@
       });
     })
 
-
-    // display infos on bottom bar
-    for (let v = 0; v < values.length; v++) {
-      //console.log(values[v])
-      values[v].addEventListener('input', (e) => {
-        let items = getFormData()
-
-        numberOfItems =  items.items.reduce(
-          (a, b) => {return Number(a) + Number(b.quantity) }, 0
-        );
-
-        document.querySelector('#product-list-atc [data-items]').innerHTML = numberOfItems
-
-        
-        let calculatedPrice = items.items.reduce(
-          (a, b) => {return Number(a) + Number(b.quantity) * Number(b.displayPrice)}, 0
-        );
-
-        document.querySelector('#product-list-atc [data-price]').innerHTML = formatter.format(calculatedPrice/100)
-      })
-    }
+    
 
     function getFormData() {
       let formData = {
@@ -874,20 +862,55 @@
       return formData
     }
 
-    window.addEventListener("beforeunload", function (e) {
-          if (justSent || numberOfItems == 0) {
-              return undefined;
-          }
+    function updateListListeners(){
+      values = document.querySelectorAll('#product-list [name="quantity"]')
+      // display infos on bottom bar
+      for (let v = 0; v < values.length; v++) {
+        //console.log(values[v])
+        values[v].addEventListener('input', (e) => {
+          let items = getFormData()
+
+          numberOfItems =  items.items.reduce(
+            (a, b) => {return Number(a) + Number(b.quantity) }, 0
+          );
+
+          totalItems.innerHTML = numberOfItems
+
           
-          var confirmationMessage = 'It looks like you have been editing something. '
-                                  + 'If you leave before saving, your changes will be lost.';
+          let calculatedPrice = items.items.reduce(
+            (a, b) => {return Number(a) + Number(b.quantity) * Number(b.displayPrice)}, 0
+          );
 
-          (e || window.event).returnValue = confirmationMessage; //Gecko + IE
-          return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
-      });
+          totalPrice.innerHTML = formatter.format(calculatedPrice/100)
+        })
+      }
+    } 
+
+    window.addEventListener("beforeunload", function (e) {
+      if (justSent || numberOfItems == 0) {
+          return undefined;
+      }
       
+      var confirmationMessage = 'It looks like you have been editing something. '
+                              + 'If you leave before saving, your changes will be lost.';
 
+      (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+      return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+  });
+
+  window.addEventListener("clearListCounter", function (e) {
+    totalItems.innerHTML = 0
+    totalPrice.innerHTML = formatter.format(0)
+  });
+  
+
+  window.addEventListener("updateListListeners", function (e) {
+    updateListListeners()
+  });
+  
   }, false )
+
+      
 </script>
 
 <style>

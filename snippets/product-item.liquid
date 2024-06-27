@@ -10,7 +10,7 @@
   {%- endif -%}
 {%- endif -%}
 
-<div class="product-item {% if horizontal %}product-item--horizontal{% elsif list %}product-item--list{% else %}product-item--vertical{% endif %} {% if section.id == 'blog-sidebar' %}product-item--compact{% endif %} {{ grid_classes }}">
+<div class="product-item {% if horizontal %}product-item--horizontal{% elsif list %}product-item--list{% else %}product-item--vertical{% endif %} {% if section.id == 'blog-sidebar' %}product-item--compact{% endif %} {{ grid_classes }}" data-product-title="{{ product.title | url_encode }}"  data-product-vendor="{{ product.vendor | url_encode }}">
   {%- capture product_labels -%}
     {%- unless hide_labels -%}
       {%- for tag in product.tags -%}

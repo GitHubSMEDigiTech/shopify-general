@@ -1,6 +1,6 @@
 {%- form 'product', product, id: form_id, class: product_form_classes -%}
   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" data-price="{{- product.price -}}">
-  <input class="quantity" type="number" name="quantity" value="0" min="0" max="999"/>
+  <input class="quantity form__field form__field--text is-filled" type="number" name="quantity" value="0" min="0" max="999"/>
 
   {%- if section.settings.show_quick_view == 'list_grid' -%}
     {%- assign quick_view_classes = 'product-item__action-button button button--small button--ternary hidden-phone' -%}
