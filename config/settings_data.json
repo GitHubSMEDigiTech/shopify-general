@@ -173,7 +173,7 @@
           "navigation_mobile_menu": "",
           "desktop_navigation_layout": "incon",
           "desktop_navigation_open_trigger": "hover",
-          "center_nav": false,
+          "center_nav": true,
           "show_navigation_social_media": true,
           "navigation_phone_number": "",
           "navigation_email": "",
