@@ -1,0 +1,34 @@
+{%- form 'product', product, id: form_id, class: product_form_classes -%}
+  <input type="hidden" name="quantity" value="1">
+  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+
+  {%- if section.settings.show_quick_buy == 'list_grid' or show_add_to_cart -%}
+    {%- assign quick_buy_classes = 'product-item__action-button button button--small button--primary' -%}
+  {%- else -%}
+    {%- assign quick_buy_classes = 'product-item__action-button product-item__action-button--list-view-only button button--small button--primary' -%}
+  {%- endif -%}
+
+  {%- if product.available -%}
+    {%- if product.variants.size == 1 -%}
+      <button type="submit" class="{{ quick_buy_classes }}" data-action="add-to-cart">
+        {%- if product.template_suffix == 'pre-order' -%}
+          {{- 'collection.product.pre_order' | t -}}
+        {%- else -%}
+          {{- 'collection.product.add_to_cart' | t -}}
+        {%- endif -%}
+      </button>
+    {%- else -%}
+      <a href="{{ product.url }}" class="{{ quick_buy_classes }}">{{ 'collection.product.choose_options' | t }}</a>
+    {%- endif -%}
+  {%- else -%}
+    <button class="{{ quick_buy_classes | replace: 'button--primary', 'button--disabled' }}" disabled>{{ 'collection.product.sold_out' | t }}</button>
+  {%- endif -%}
+
+  {%- if section.settings.show_quick_view == 'list_grid' -%}
+    {%- assign quick_view_classes = 'product-item__action-button button button--small button--ternary hidden-phone' -%}
+  {%- else -%}
+    {%- assign quick_view_classes = 'product-item__action-button product-item__action-button--list-view-only button button--small button--ternary hidden-phone' -%}
+  {%- endif -%}
+
+  <button type="button" class="{{ quick_view_classes }}" data-action="open-modal" data-secondary-action="open-quick-view" aria-controls="modal-quick-view-{{ section.id }}" data-product-url="{{ product.url }}">{{ 'collection.product.quick_view' | t }}</button>
+{%- endform -%}

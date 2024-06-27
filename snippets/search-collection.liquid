@@ -1,0 +1,159 @@
+<div class="search-collection_container">
+  
+  <button type="button" id="clear-list-search" class="form__submit button button--ternary">{%- render 'icon', icon: 'close' -%}</button>
+  <input type="text" placeholder="Search for..."  id="collection_search_bar" class="form__field form__field--text"/>
+  <button type="button" id="search-list-search" class="form__submit button button--primary">{%- render 'icon', icon: 'search' -%} <span id="search_spinner">{%- render 'icon', icon: 'search-loader' -%}</span></button>
+  
+</div>
+
+ 
+
+<script>
+  window.addEventListener('load', () => {
+    window.searchingProducts = false;
+
+    const products_on_page = document.getElementById('product-list');
+    const inital_state = products_on_page.innerHTML
+    const collection_bar = document.getElementsByClassName('collection__toolbar-item')
+    const desktop_filters = document.getElementById('desktop-filters-form');
+    const pagination = document.querySelector('.pagination')
+  
+    const load_more_spinner = document.getElementById('search_spinner');
+    const search_input = document.getElementById('collection_search_bar');
+    const search_clear = document.getElementById('clear-list-search');
+    const search_button = document.getElementById('search-list-search');
+
+    let start_url = products_on_page.dataset.nextUrl.split('?')[0];
+    let last = Number(products_on_page.dataset.lastPage);
+
+    search_input.onkeydown = function(e) {
+      if (e.keyCode == 13) {
+          search()
+      }
+      //e.preventDefault();
+    };
+    
+    search_button.addEventListener('click', () => {
+      search()
+    })
+
+    search_clear.addEventListener('click', () => {
+      products_on_page.innerHTML = inital_state;
+      search_input.value = ''
+      setTimeout(() => {
+        toggleSearchIcon(true)
+          toggleSearchBar(true)
+      }, 0)
+    })
+
+
+    async function search () {
+      toggleSearchIcon(false)
+      toggleSearchBar(false)
+      window.searchingProducts = true;
+
+      products_on_page.innerHTML = "";
+      setTimeout(window.dispatchEvent(new Event('clearListCounter')), 0)
+
+
+      for (let p = 1; p <= last; p ++) {
+      //for (let p = 1; p <= 10; p ++) {
+        if(!window.searchingProducts) {
+          p = last + 1;
+          break;
+        }
+
+        let url = p == 1 ? start_url : `${start_url}?page=${p}`;
+        
+        searchNextPage(url).then(nextPage => {
+          const parser = new DOMParser();
+          const nextPageDoc = parser.parseFromString(nextPage, 'text/html');
+          const new_products = nextPageDoc.getElementById('product-list').getElementsByClassName('product-item');
+
+          for (let i = 0; i < new_products.length; i++) {
+            if(new_products[i].dataset.productTitle.toUpperCase().includes(search_input.value.toUpperCase()) || new_products[i].dataset.productVendor.toUpperCase().includes(search_input.value.toUpperCase()))
+            products_on_page.appendChild(new_products[i]);
+          }
+          
+          setTimeout(() => {
+            window.dispatchEvent(new Event('updateListListeners'))
+            toggleSearchIcon(true)
+          }, 0)
+        })
+
+
+        //console.log(nextPage)
+
+      }
+      
+    }
+
+    function toggleSearchBar(active) {
+      if(active) {
+        for(let i = 0; i < collection_bar.length; i++) {
+          collection_bar[i].classList.remove('inactive')
+        }
+        if(pagination)
+          pagination.classList.remove('inactive') 
+        if(desktop_filters)
+          desktop_filters.classList.remove('inactive')
+      } else {
+        for(let i = 0; i < collection_bar.length; i++) {
+          collection_bar[i].classList.add('inactive')
+        }
+        if(pagination)
+          pagination.classList.add('inactive')
+        if(desktop_filters)
+          desktop_filters.classList.add('inactive')
+      }
+    }
+
+    function toggleSearchIcon(active) {
+      if(active) {
+        search_button.querySelector('svg').style.display = 'block';
+        search_button.querySelector('span').style.display = 'none';
+      } else {
+        search_button.querySelector('svg').style.display = 'none';
+        search_button.querySelector('span').style.display = 'block';
+      }
+    }
+
+    
+
+    async function searchNextPage(url) {
+      try {
+        let res = await fetch(url);
+        return await res.text();
+      } catch (error) {
+        console.log(error);
+        window.searchingProducts = false;
+      }
+    }
+
+    async function loadMoreProducts() {
+
+      load_more_btn.style.display = 'none';
+      load_more_spinner.style.display = 'block';
+      let nextPage = await getNextPage();
+
+      const parser = new DOMParser();
+      const nextPageDoc = parser.parseFromString(nextPage, 'text/html');
+
+      load_more_spinner.style.display = 'none';
+
+      const productgrid = nextPageDoc.getElementById('product-list');
+      const newPagination = nextPageDoc.getElementById('hidden-pagination');
+      const new_products = productgrid.getElementsByClassName('product-item');
+      const new_url = productgrid.dataset.nextUrl;
+      if (new_url) {
+        load_more_btn.style.display = 'inline-block';
+      }
+      next_url = new_url;
+      for (let i = 0; i < new_products.length; i++) {
+        products_on_page.appendChild(new_products[i]);
+      }
+
+      hidden_pagination.replaceChildren(newPagination);
+    }
+  }, false)
+</script>
