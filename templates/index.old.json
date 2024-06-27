@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "featured_collection_n34LNk": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "leggera",
+        "title": "IN EVIDENZA",
+        "products_count": 24,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": true,
+        "link_title": "Visualizza Tutti",
+        "link_url": ""
+      }
+    },
+    "collection_with_image_FkAkwr": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "leggera",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#0774d7",
+        "text_color": "#ffffff",
+        "title": "POP MUSIC",
+        "content": "I grandi successi",
+        "button_background": "#ffffff",
+        "button_text_color": "#ff0000",
+        "button_text": "tutti i prodotti",
+        "button_link": ""
+      }
+    }
+  },
+  "order": [
+    "featured_collection_n34LNk",
+    "collection_with_image_FkAkwr"
+  ]
+}
