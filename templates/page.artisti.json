@@ -11,11 +11,21 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "list_of_vendors_Vg3RKb": {
+      "type": "list-of-vendors",
+      "settings": {
+        "text_color": "#444",
+        "bg_color": "#eee",
+        "panel_color": "#fff"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "list_of_vendors_Vg3RKb"
   ]
 }
