@@ -1,1 +1,502 @@
-{"sections":{"slideshow_dwDbqU":{"type":"slideshow","blocks":{"image_7m99JY":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2160x720_02b6da91-08cc-46f2-8534-9a7bca210774.jpg","mobile_image":"shopify:\/\/shop_images\/750x1100_fabbd30c-8d1f-4086-9c51-36548174b801.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/collections\/mezzosangue"}},"image_XHmBAC":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/raffaellacarradesktop.png","mobile_image":"shopify:\/\/shop_images\/carramobile.png","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/collections\/raffaella-carra"}},"image_B3rw7r":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/teduadesktop.png","mobile_image":"shopify:\/\/shop_images\/teduamobile_e14f1290-6c39-4cee-8b9c-7ae4e767e05d.png","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/collections\/tedua"}},"image_zLLxyF":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2160x720_29021292-6007-4268-bfe2-a0f5265f52a8.jpg","mobile_image":"shopify:\/\/shop_images\/750x1100.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/collections\/dani-faiv"}},"image_c6iKRK":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/naytdesktop.jpg","mobile_image":"shopify:\/\/shop_images\/MOBILENAYT.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/products\/habitat-tour-lp-nero-live-edition"}},"image_cd6H7W":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ayledesktop.jpg","mobile_image":"shopify:\/\/shop_images\/mobileayle.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/products\/la-parte-del-mondo-che-non-mi-piace-cd-autografato"}},"image_hhc4xB":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/gilmourdesktop.png","mobile_image":"shopify:\/\/shop_images\/gilmourmobile_b626f9c6-65ee-4fde-925d-b664af1a0792.png","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/collections\/david-gilmour"}},"image_QeQ8wi":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/desktopradioitalia.png","mobile_image":"shopify:\/\/shop_images\/mobileradioitalia.png","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/products\/radio-italia-summer-hits-2024"}},"image_3wJqzQ":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/desktopauroraeludovica.png","mobile_image":"shopify:\/\/shop_images\/mobileauroraeludovica.png","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/products\/aurora-e-ludovica"}},"image_eUhDX7":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/acdcdesktop.png","mobile_image":"shopify:\/\/shop_images\/acdcmobile.png","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"","content":"","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":"shopify:\/\/collections\/ac-dc"}}},"block_order":["image_7m99JY","image_XHmBAC","image_B3rw7r","image_zLLxyF","image_c6iKRK","image_cd6H7W","image_hhc4xB","image_QeQ8wi","image_3wJqzQ","image_eUhDX7"],"settings":{"edge_to_edge":false,"section_size":"medium","mobile_section_size":"mobile_small","carousel_effect":"fade","autoplay":true,"show_arrows":true,"show_dots":true,"cycle_speed":5}},"promotion_list_kTecJ6":{"type":"promotion-list","blocks":{"item_VH7pgp":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Immagine1.jpg","show_overlay":true,"overlay_opacity":95,"stretch_image":true,"background":"#222222","text_color":"#ffffff","title":"FESTA DELLA MUSICA","content":"Celebriamo insieme la Festa della Musica con il 15% di sconto applicabile su ordini superiori ai 100 euro.","content_position":"top_left","button_background":"#ffffff","button_text_color":"#000000","button_text":"Scopri","button_link":"shopify:\/\/pages\/festa-della-musica"}}},"block_order":["item_VH7pgp"],"settings":{"expand_items":true,"section_size":"medium","stack_mobile":true}},"image_with_text_qVw8NM":{"type":"image-with-text","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Immagine1.jpg","image_position":"left","image_width":50,"title":"FESTA DELLA MUSICA","content":"<p>Scopri i prodotti selezionati per celebrare la festa della musica<\/p>","button_text":"Scopri","button_link":"shopify:\/\/collections\/festa-della-musica"}},"featured_collection_Ln8Q76":{"type":"featured-collection","settings":{"collection":"frontpage","title":"IN EVIDENZA","products_count":12,"layout":"vertical","stack_products":false,"show_quick_buy":false,"link_title":"","link_url":""}},"collection_with_image_6MRFYn":{"type":"collection-with-image","settings":{"collection":"esclusive","products_count":12,"show_quick_buy":false,"background":"#c5161c","text_color":"#ffffff","title":"ESCLUSIVE","content":"Scopri tutti i prodotti disponibili in esclusiva su Sony Music Store","button_background":"#ffffff","button_text_color":"#ad141f","button_text":"Scopri","button_link":"shopify:\/\/collections\/esclusive"}},"promotion_list_wAJLbg":{"type":"promotion-list","blocks":{"item_n8BaRz":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/musicaitaliana.jpg","show_overlay":true,"overlay_opacity":100,"stretch_image":true,"background":"#394b39","text_color":"#ffffff","title":"IL MEGLIO DELLA MUSICA ITALIANA","content":"","content_position":"top_left","button_background":"#ffffff","button_text_color":"#0a460a","button_text":"Scopri","button_link":"shopify:\/\/collections\/musica-italiana"}},"item_Ua7X6D":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/caroselloimmagine.png","show_overlay":true,"overlay_opacity":26,"stretch_image":false,"background":"#ffffff","text_color":"#ffffff","title":"CAROSELLO RECORDS","content":"","content_position":"top_left","button_background":"#8f8425","button_text_color":"#ffffff","button_text":"Scopri","button_link":"shopify:\/\/collections\/carosello"}}},"block_order":["item_n8BaRz","item_Ua7X6D"],"settings":{"expand_items":true,"section_size":"small","stack_mobile":true}},"image_banner_99fc7c":{"type":"image-banner","blocks":{"image_A43MXp":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/app18-1024x606.png","image_width":140}},"text_GrqVEL":{"type":"text","settings":{"text":"Shop online dedicato ai prodotti acquistabili con 18app","text_style":"body","text_color":"#ffffff"}},"buttons_CV6M3L":{"type":"buttons","settings":{"button_label_1":"Acquista con 18app","button_link_1":"shopify:\/\/collections\/18n-app","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false,"text_color":"#ffffff","bg_color":"#1e2d7d"}}},"block_order":["image_A43MXp","text_GrqVEL","buttons_CV6M3L"],"disabled":true,"settings":{"marign_top":50,"marign_bottom":50,"image":"shopify:\/\/shop_images\/banner-18app-1920.jpg","image_overlay_opacity":0,"bg_color":"rgba(0,0,0,0)","bg_overlay_opacity":100,"image_height":"small","desktop_content_position":"middle-left","show_text_box":true,"desktop_content_alignment":"left","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":false}},"image_with_text_overlay_3x3d9h":{"type":"image-with-text-overlay","disabled":true,"settings":{"title":"Banner with text and CTA","content":"<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>","show_image_overlay":false,"color":"#ffffff"}},"featured_collection_gNFLGM":{"type":"featured-collection","settings":{"collection":"ultime-uscite","title":"Ultime uscite","products_count":12,"layout":"vertical","stack_products":false,"show_quick_buy":false,"link_title":"","link_url":""}},"newsletter_sme_popup_9K3hq4":{"type":"newsletter-sme-popup","disabled":true,"custom_css":[".popup--close {color: white;}"],"settings":{"marign_top":50,"marign_bottom":50,"title":"","content":"","ae_segment_id":"2097936","ae_brand_id":"5372657","ae_activities":"{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}","ae":"15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d","ae_form":"427238","ae_form_html":"<div data-validation=\"Enter a valid email address\">\n\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n<\/div>\n\n\t\t\t\t<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\"  style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"\/policies\/privacy-policy\" target=\"_blank\"> Privacy Policy<\/a><\/label>\n\t\t\t\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">","btn_txt":"Subscribe","background":"#ffffff","bg_image":"shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg","text":"#000000","image":"shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"}},"rich_text_zKVnLa":{"type":"rich-text","custom_css":[".container {margin-top: -50px; margin-bottom: -50px; padding-top: 25px; padding-bottom: 25px;}"],"settings":{"marign_top":50,"marign_bottom":50,"text_width":"wide","title":"SONY MUSIC STORE","content":"<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>","button_text":"","button_link":"shopify:\/\/collections\/all","bg_color":"#c5161c","text_color":"#ffffff","bt_bg_color":"#ffffff","bt_text_color":"#000000","center_text":false,"padding_top":0,"padding_bottom":0}},"newsletter_sme_96dtxz":{"type":"newsletter-sme","disabled":true,"settings":{"marign_top":50,"marign_bottom":0,"title":"Newsletter","content":"","ae_segment_id":"2097936","ae_brand_id":"5372657","ae_activities":"{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}","ae":"15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d","ae_form":"427238","ae_form_html":"<div data-validation=\"Enter a valid email address\">\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n<\/div>\n<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"\/policies\/privacy-policy\" target=\"_blank\"> Privacy Policy<\/a><\/label>\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">","btn_txt":"Subscribe","background":"#ffffff","bg_image":"shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg","text":"#ffffff","image":"shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"}},"newsletter_TmNANi":{"type":"newsletter","settings":{"title":"Iscriviti alla Newsletter","content":"<p>Iscriviti per ottenere subito il 10% di <strong>sconto<\/strong> sul tuo prossimo ordine!<\/p>","background":"#ffffff","text":"#000000"}}},"order":["slideshow_dwDbqU","promotion_list_kTecJ6","image_with_text_qVw8NM","featured_collection_Ln8Q76","collection_with_image_6MRFYn","promotion_list_wAJLbg","image_banner_99fc7c","image_with_text_overlay_3x3d9h","featured_collection_gNFLGM","newsletter_sme_popup_9K3hq4","rich_text_zKVnLa","newsletter_sme_96dtxz","newsletter_TmNANi"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "slideshow_dwDbqU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7m99JY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2160x720_02b6da91-08cc-46f2-8534-9a7bca210774.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/750x1100_fabbd30c-8d1f-4086-9c51-36548174b801.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/mezzosangue"
+          }
+        },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/raffaellacarradesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/carramobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/raffaella-carra"
+          }
+        },
+        "image_B3rw7r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/teduadesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/teduamobile_e14f1290-6c39-4cee-8b9c-7ae4e767e05d.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/tedua"
+          }
+        },
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2160x720_29021292-6007-4268-bfe2-a0f5265f52a8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/750x1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/dani-faiv"
+          }
+        },
+        "image_c6iKRK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/naytdesktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MOBILENAYT.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/habitat-tour-lp-nero-live-edition"
+          }
+        },
+        "image_cd6H7W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ayledesktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobileayle.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/la-parte-del-mondo-che-non-mi-piace-cd-autografato"
+          }
+        },
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gilmourdesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/gilmourmobile_b626f9c6-65ee-4fde-925d-b664af1a0792.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/david-gilmour"
+          }
+        },
+        "image_QeQ8wi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/desktopradioitalia.png",
+            "mobile_image": "shopify:\/\/shop_images\/mobileradioitalia.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/radio-italia-summer-hits-2024"
+          }
+        },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/desktopauroraeludovica.png",
+            "mobile_image": "shopify:\/\/shop_images\/mobileauroraeludovica.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/aurora-e-ludovica"
+          }
+        },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/acdcdesktop.png",
+            "mobile_image": "shopify:\/\/shop_images\/acdcmobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/ac-dc"
+          }
+        }
+      },
+      "block_order": [
+        "image_7m99JY",
+        "image_XHmBAC",
+        "image_B3rw7r",
+        "image_zLLxyF",
+        "image_c6iKRK",
+        "image_cd6H7W",
+        "image_hhc4xB",
+        "image_QeQ8wi",
+        "image_3wJqzQ",
+        "image_eUhDX7"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "medium",
+        "mobile_section_size": "mobile_small",
+        "carousel_effect": "fade",
+        "autoplay": true,
+        "show_arrows": true,
+        "show_dots": true,
+        "cycle_speed": 5
+      }
+    },
+    "promotion_list_kTecJ6": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_VH7pgp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Immagine1.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 95,
+            "stretch_image": true,
+            "background": "#222222",
+            "text_color": "#ffffff",
+            "title": "FESTA DELLA MUSICA",
+            "content": "Celebriamo insieme la Festa della Musica con il 15% di sconto applicabile su ordini superiori ai 100 euro.",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/pages\/festa-della-musica"
+          }
+        }
+      },
+      "block_order": [
+        "item_VH7pgp"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "medium",
+        "stack_mobile": true
+      }
+    },
+    "image_with_text_qVw8NM": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Immagine1.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "FESTA DELLA MUSICA",
+        "content": "<p>Scopri i prodotti selezionati per celebrare la festa della musica<\/p>",
+        "button_text": "Scopri",
+        "button_link": "shopify:\/\/collections\/festa-della-musica"
+      }
+    },
+    "featured_collection_Ln8Q76": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "title": "IN EVIDENZA",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
+    "collection_with_image_6MRFYn": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "esclusive",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#c5161c",
+        "text_color": "#ffffff",
+        "title": "ESCLUSIVE",
+        "content": "Scopri tutti i prodotti disponibili in esclusiva su Sony Music Store",
+        "button_background": "#ffffff",
+        "button_text_color": "#ad141f",
+        "button_text": "Scopri",
+        "button_link": "shopify:\/\/collections\/esclusive"
+      }
+    },
+    "promotion_list_wAJLbg": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_n8BaRz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/musicaitaliana.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#394b39",
+            "text_color": "#ffffff",
+            "title": "IL MEGLIO DELLA MUSICA ITALIANA",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#0a460a",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/collections\/musica-italiana"
+          }
+        },
+        "item_Ua7X6D": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/caroselloimmagine.png",
+            "show_overlay": true,
+            "overlay_opacity": 26,
+            "stretch_image": false,
+            "background": "#ffffff",
+            "text_color": "#ffffff",
+            "title": "CAROSELLO RECORDS",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#8f8425",
+            "button_text_color": "#ffffff",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/collections\/carosello"
+          }
+        }
+      },
+      "block_order": [
+        "item_n8BaRz",
+        "item_Ua7X6D"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "small",
+        "stack_mobile": true
+      }
+    },
+    "image_banner_99fc7c": {
+      "type": "image-banner",
+      "blocks": {
+        "image_A43MXp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/app18-1024x606.png",
+            "image_width": 140
+          }
+        },
+        "text_GrqVEL": {
+          "type": "text",
+          "settings": {
+            "text": "Shop online dedicato ai prodotti acquistabili con 18app",
+            "text_style": "body",
+            "text_color": "#ffffff"
+          }
+        },
+        "buttons_CV6M3L": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Acquista con 18app",
+            "button_link_1": "shopify:\/\/collections\/18n-app",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#1e2d7d"
+          }
+        }
+      },
+      "block_order": [
+        "image_A43MXp",
+        "text_GrqVEL",
+        "buttons_CV6M3L"
+      ],
+      "disabled": true,
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify:\/\/shop_images\/banner-18app-1920.jpg",
+        "image_overlay_opacity": 0,
+        "bg_color": "rgba(0,0,0,0)",
+        "bg_overlay_opacity": 100,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_overlay_3x3d9h": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "title": "Banner with text and CTA",
+        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "show_image_overlay": false,
+        "color": "#ffffff"
+      }
+    },
+    "featured_collection_gNFLGM": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "ultime-uscite",
+        "title": "Ultime uscite",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
+    "newsletter_sme_popup_9K3hq4": {
+      "type": "newsletter-sme-popup",
+      "disabled": true,
+      "custom_css": [
+        ".popup--close {color: white;}"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "title": "",
+        "content": "",
+        "ae_segment_id": "2097936",
+        "ae_brand_id": "5372657",
+        "ae_activities": "{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}",
+        "ae": "15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d",
+        "ae_form": "427238",
+        "ae_form_html": "<div data-validation=\"Enter a valid email address\">\n\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n<\/div>\n\n\t\t\t\t<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\"  style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"\/policies\/privacy-policy\" target=\"_blank\"> Privacy Policy<\/a><\/label>\n\t\t\t\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">",
+        "btn_txt": "Subscribe",
+        "background": "#ffffff",
+        "bg_image": "shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg",
+        "text": "#000000",
+        "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
+      }
+    },
+    "rich_text_zKVnLa": {
+      "type": "rich-text",
+      "custom_css": [
+        ".container {margin-top: -50px; margin-bottom: -50px; padding-top: 25px; padding-bottom: 25px;}"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "wide",
+        "title": "SONY MUSIC STORE",
+        "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter_sme_96dtxz": {
+      "type": "newsletter-sme",
+      "disabled": true,
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 0,
+        "title": "Newsletter",
+        "content": "",
+        "ae_segment_id": "2097936",
+        "ae_brand_id": "5372657",
+        "ae_activities": "{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}",
+        "ae": "15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d",
+        "ae_form": "427238",
+        "ae_form_html": "<div data-validation=\"Enter a valid email address\">\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n<\/div>\n<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"\/policies\/privacy-policy\" target=\"_blank\"> Privacy Policy<\/a><\/label>\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">",
+        "btn_txt": "Subscribe",
+        "background": "#ffffff",
+        "bg_image": "shopify:\/\/shop_images\/banner-newsletter-h2quadri-1280x213-1.jpg",
+        "text": "#ffffff",
+        "image": "shopify:\/\/shop_images\/Txt-Iscriviti-alla-Newsletter.png"
+      }
+    },
+    "newsletter_TmNANi": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Iscriviti alla Newsletter",
+        "content": "<p>Iscriviti per ottenere subito il 10% di <strong>sconto<\/strong> sul tuo prossimo ordine!<\/p>",
+        "background": "#ffffff",
+        "text": "#000000"
+      }
+    }
+  },
+  "order": [
+    "slideshow_dwDbqU",
+    "promotion_list_kTecJ6",
+    "image_with_text_qVw8NM",
+    "featured_collection_Ln8Q76",
+    "collection_with_image_6MRFYn",
+    "promotion_list_wAJLbg",
+    "image_banner_99fc7c",
+    "image_with_text_overlay_3x3d9h",
+    "featured_collection_gNFLGM",
+    "newsletter_sme_popup_9K3hq4",
+    "rich_text_zKVnLa",
+    "newsletter_sme_96dtxz",
+    "newsletter_TmNANi"
+  ]
+}

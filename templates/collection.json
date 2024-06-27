@@ -1,13 +1,30 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": false,
+        "collapse_collection_style": false,
+        "show_collection_top": false,
+        "top_bg_color": "#F3F3F3",
+        "headline_deco": false,
+        "headline_deco_col": "#d82222",
         "collection_image_size": "small",
         "products_per_row": "4",
         "default_products_per_page": 24,
+        "collection_pagination": "pagination",
+        "loading_button": "Load More",
         "default_view_layout": "grid",
         "show_quick_buy": "list_grid",
         "show_quick_view": "list_grid",
@@ -24,10 +41,35 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "list_collection_KYRaQj": {
+      "type": "list-collection",
+      "settings": {
+        "show_collection_image": true,
+        "collapse_collection_description": true,
+        "collapse_collection_style": true,
+        "show_collection_top": false,
+        "top_bg_color": "#F3F3F3",
+        "headline_deco": false,
+        "headline_deco_col": "#d82222",
+        "collection_image_size": "small",
+        "products_per_row": "4",
+        "default_products_per_page": 24,
+        "collection_pagination": "pagination",
+        "loading_button": "Load More",
+        "show_quick_buy": "list",
+        "show_quick_view": "list",
+        "quick_links": "",
+        "quick_links_show_products_count": true,
+        "show_filters": true,
+        "show_filter_color_swatch": true,
+        "open_group_filters_mode": "all_closed"
+      }
     }
   },
   "order": [
     "main",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "list_collection_KYRaQj"
   ]
 }
