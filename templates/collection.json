@@ -17,7 +17,7 @@
         "collapse_collection_description": false,
         "collapse_collection_style": false,
         "show_collection_top": false,
-        "top_bg_color": "#F3F3F3",
+        "top_bg_color": "#f3f3f3",
         "headline_deco": false,
         "headline_deco_col": "#d82222",
         "collection_image_size": "small",
@@ -35,13 +35,6 @@
         "open_group_filters_mode": "all_closed"
       }
     },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "title": "Recently viewed",
-        "show_quick_buy": false
-      }
-    },
     "list_collection_KYRaQj": {
       "type": "list-collection",
       "settings": {
@@ -49,7 +42,7 @@
         "collapse_collection_description": true,
         "collapse_collection_style": true,
         "show_collection_top": false,
-        "top_bg_color": "#F3F3F3",
+        "top_bg_color": "#f3f3f3",
         "headline_deco": false,
         "headline_deco_col": "#d82222",
         "collection_image_size": "small",
@@ -65,11 +58,18 @@
         "show_filter_color_swatch": true,
         "open_group_filters_mode": "all_closed"
       }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed",
+        "show_quick_buy": false
+      }
     }
   },
   "order": [
     "main",
-    "recently-viewed-products",
-    "list_collection_KYRaQj"
+    "list_collection_KYRaQj",
+    "recently-viewed-products"
   ]
 }
