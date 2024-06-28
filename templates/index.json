@@ -211,6 +211,7 @@
       "blocks": {
         "item_VH7pgp": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Immagine1.jpg",
             "show_overlay": true,
