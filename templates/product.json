@@ -48,7 +48,7 @@
           "type": "contest",
           "settings": {
             "contest_title": "Partecipa",
-            "contest_radio": "NO, ROMA, MILANO"
+            "contest_radio": "NO, SI"
           }
         },
         "buy_buttons": {
