@@ -4152,6 +4152,7 @@ img.lazyload[data-sizes=auto] {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 15px));
+  padding: 15px;
 }
 
 .collection-drawer__section-title {
@@ -7360,6 +7361,7 @@ select option {
 }
 
 .nav-dropdown--restrict {
+  width: unset;
   max-height: calc(100vh - 0px - 0px - 40px);
   max-height: calc(100vh - var(--header-height, 0px) - var(--announcement-bar-height, 0px) - 40px);
   overflow: auto;
@@ -7797,6 +7799,7 @@ select option {
 
   .nav-bar__item > .nav-dropdown {
     min-width: calc(100% + 20px);
+    width: unset;
   }
 
   .nav-bar__link {
