@@ -435,6 +435,12 @@
         "default": false
       },
       {
+        "type": "checkbox",
+        "id": "show_release_date",
+        "label": "Show Release-Date",
+        "default": false
+      },
+      {
         "type": "range",
         "id": "low_inventory_threshold",
         "label": "Low inventory threshold",

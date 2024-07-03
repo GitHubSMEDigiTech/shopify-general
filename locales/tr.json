@@ -201,6 +201,7 @@
       "choose_options": "Seçenek seçin",
       "sold_out": "Tükendi",
       "in_stock": "Stokta",
+      "release_date": "Coming soon. Release: {{ release }}",
       "oversell_stock": "Yakında yeniden stokta",
       "discount_html": "{{savings}} indirim",
       "low_stock_with_quantity_count": {

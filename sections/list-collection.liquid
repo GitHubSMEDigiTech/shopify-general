@@ -16,7 +16,7 @@
   {%- capture grid_classes -%}1/3--tablet 1/{{ section.settings.products_per_row }}--lap-and-up{%- endcapture -%}
 {%- endif -%}
 
-{%- assign view_mode = cart.attributes.collection_layout | default: section.settings.default_view_layout -%}
+{%- assign view_mode = 'list' -%}
 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
 
 {%- assign active_filters_count = 0 -%}
@@ -32,14 +32,15 @@
 {%- capture section_settings -%}
 {
   "currentSortBy": {{ sort_by | json }},
-  "defaultLayout": {{ section.settings.default_view_layout | json }},
+  "defaultLayout": {{ 'list' | json }},
   "defaultProductsPerPage": {{ section.settings.default_products_per_page | json }},
   "gridClasses": {{ grid_classes | json }}
 }
 {%- endcapture -%}
 
 <section data-section-id="{{ section.id }}" data-section-type="collection" data-section-settings='{{ section_settings }}'>
-  <div class="container container--flush">
+  
+  <div class="container container--flush collection__list">
     <div class="page__sub-header">
       <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb">
         <ol class="breadcrumb__list" role="list">
@@ -85,13 +86,13 @@
 
               <div class="collection__description {% if allow_collapse_description %}expandable-content{% endif %}" aria-expanded="false">
                 <div class="collection__meta-inner">
-                  <h1 class="collection__title heading h1">
+                  <h2 class="collection__title heading h1">
                     {%- if collection.handle == 'all' -%}
                       {{- 'collection.general.all_products' | t -}}
                     {%- else -%}
                       {{- collection.title -}}
                     {%- endif -%}
-                  </h1>
+                  </h2>
                 </div>
                 <div class="rte">
                   {{ collection.description }}
@@ -377,13 +378,13 @@
                           {%- endif -%}
 
                           <div class="collection__meta-inner">
-                            <h1 class="collection__title heading h1">
+                            <h2 class="collection__title heading h1">
                               {%- if collection.handle == 'all' -%}
                                 {{- 'collection.general.all_products' | t -}}
                               {%- else -%}
                                 {{- collection.title -}}
                               {%- endif -%}
-                            </h1>
+                            </h2>
 
                             {%- assign offset = paginate.current_offset | plus: 1 -%}
                             {%- assign page_size = paginate.current_offset | plus: paginate.page_size | at_most: paginate.items -%}
@@ -458,6 +459,8 @@
                       </div>
                     </div>
 
+                    {% render 'search-collection' %}
+
                     <div class="collection__toolbar-item collection__toolbar-item--sort">
                       {%- assign collection_sort_by = collection.sort_by | default: collection.default_sort_by -%}
 
@@ -492,18 +495,6 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-
-                    <div class="collection__toolbar-item collection__toolbar-item--layout">
-                      <span class="collection__layout-label hidden-phone">{{ 'collection.layout.title' | t }}</span>
-
-                      {%- if section.settings.default_view_layout == 'grid' -%}
-                        <button type="button" class="collection__layout-button {% if view_mode == 'grid' %}is-selected{% endif %} link touch-area" aria-label="{{ 'collection.layout.grid' | t }}" data-action="change-layout" data-layout-mode="grid">{% render 'icon', icon: 'grid' %}</button>
-                        <button type="button" class="collection__layout-button {% if view_mode == 'list' %}is-selected{% endif %} link touch-area" aria-label="{{ 'collection.layout.list' | t }}" data-action="change-layout" data-layout-mode="list">{% render 'icon', icon: 'list' %}</button>
-                      {%- else -%}
-                        <button type="button" class="collection__layout-button {% if view_mode == 'list' %}is-selected{% endif %} link touch-area" aria-label="{{ 'collection.layout.list' | t }}" data-action="change-layout" data-layout-mode="list">{% render 'icon', icon: 'list' %}</button>
-                        <button type="button" class="collection__layout-button {% if view_mode == 'grid' %}is-selected{% endif %} link touch-area" aria-label="{{ 'collection.layout.grid' | t }}" data-action="change-layout" data-layout-mode="grid">{% render 'icon', icon: 'grid' %}</button>
-                      {%- endif -%}
                     </div>
                   </div>
 
@@ -556,15 +547,11 @@
                       </div>
                     </div>
                   {%- else -%}
-                    {%- if view_mode == 'grid' -%}
-                      {%- assign show_as_list = false -%}
-                    {%- else -%}
-                      {%- assign show_as_list = true -%}
-                    {%- endif -%}
+                    {%- assign show_as_list = true -%}
 
-                    <div id="product-list" class="product-list product-list--collection {% if has_filters %}product-list--with-sidebar{% endif %}" data-next-url="{{ paginate.next.url }}">
+                    <div id="product-list" class="product-list product-list--collection {% if has_filters %}product-list--with-sidebar{% endif %}" data-next-url="{{ paginate.next.url }}" data-last-page="{{ paginate.pages }}">
                       {%- for product in collection.products -%}
-                        {%- render 'product-item', product: product, list: show_as_list, grid_classes: grid_classes -%}
+                        {%- render 'product-item', product: product, list: show_as_list, grid_classes: grid_classes, show_b2b: true -%}
                       {%- endfor -%}
                     </div>
                     {%- if section.settings.collection_pagination == "pagination" %}
@@ -795,7 +782,136 @@
       <div class="modal__inner"></div>
     </div>
   </div>
+
+    {%- comment -%}
+  --------------------------------------------------------------------------------------
+  ATC Button
+  --------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  <div id="product-list-atc">
+    <div><strong>Selected Items:</strong> <span data-items>0</span></div>
+    <div><strong>Total:</strong> <span data-price>0</span></div>
+    <button class="button button--primary">Send</button>
+  </div>
 </section>
+
+<script>
+  window.addEventListener('load', () => {
+    const atcBar = document.querySelector('#product-list-atc')
+    const atcBtn = document.querySelector('#product-list-atc button')
+
+    const totalItems = document.querySelector('#product-list-atc [data-items]')
+    const totalPrice = document.querySelector('#product-list-atc [data-price]')
+
+    let numberOfItems = 0;
+    let justSent = false;
+
+    let values = document.querySelectorAll('#product-list [name="quantity"]')
+
+
+    const formatter = new Intl.NumberFormat('de-DE', {
+      style: 'currency',
+      currency: 'EUR',
+
+      // These options are needed to round to whole numbers if that's what you want.
+      //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+      //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+    });
+
+    updateListListeners()
+   
+    // this will sent the form to shopify and update cart
+    atcBtn.addEventListener('click', () => {
+      let formData = getFormData()
+
+      // add all to cart
+      fetch(window.Shopify.routes.root + 'cart/add.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      })
+      .then(response => {
+        justSent = true;
+        window.location.reload();
+        return response.json();
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+    })
+
+    
+
+    function getFormData() {
+      let formData = {
+        'items': []
+        };
+
+      const items = document.querySelectorAll('#product-list .product-item__action-list')
+      for (let i = 0; i < items.length; i++) {
+        let quantity = items[i].querySelector('[name="quantity"]').value
+        if(quantity > 0) {
+          let id = items[i].querySelector('[name="id"]')
+          formData.items.push({ 'id': id.value, 'quantity': quantity, 'displayPrice': id.dataset.price })
+        }
+      }
+
+      return formData
+    }
+
+    function updateListListeners(){
+      values = document.querySelectorAll('#product-list [name="quantity"]')
+      // display infos on bottom bar
+      for (let v = 0; v < values.length; v++) {
+        //console.log(values[v])
+        values[v].addEventListener('input', (e) => {
+          let items = getFormData()
+
+          numberOfItems =  items.items.reduce(
+            (a, b) => {return Number(a) + Number(b.quantity) }, 0
+          );
+
+          totalItems.innerHTML = numberOfItems
+
+          
+          let calculatedPrice = items.items.reduce(
+            (a, b) => {return Number(a) + Number(b.quantity) * Number(b.displayPrice)}, 0
+          );
+
+          totalPrice.innerHTML = formatter.format(calculatedPrice/100)
+        })
+      }
+    } 
+
+    window.addEventListener("beforeunload", function (e) {
+      if (justSent || numberOfItems == 0) {
+          return undefined;
+      }
+      
+      var confirmationMessage = 'It looks like you have been editing something. '
+                              + 'If you leave before saving, your changes will be lost.';
+
+      (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+      return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+  });
+
+  window.addEventListener("clearListCounter", function (e) {
+    totalItems.innerHTML = 0
+    totalPrice.innerHTML = formatter.format(0)
+  });
+  
+
+  window.addEventListener("updateListListeners", function (e) {
+    updateListListeners()
+  });
+  
+  }, false )
+
+      
+</script>
 
 <style>
   .card__header--top,
@@ -940,22 +1056,6 @@
     },
     {
       "type": "select",
-      "id": "default_view_layout",
-      "label": "Default view layout",
-      "options": [
-        {
-          "value": "grid",
-          "label": "Grid"
-        },
-        {
-          "value": "list",
-          "label": "List"
-        }
-      ],
-      "default": "grid"
-    },
-    {
-      "type": "select",
       "id": "show_quick_buy",
       "label": "Show quick buy on...",
       "options": [
@@ -1038,6 +1138,12 @@
         }
       ],
       "default": "all_closed"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Collection",
+      "name": "Collection B2B list view"
     }
   ]
 }
