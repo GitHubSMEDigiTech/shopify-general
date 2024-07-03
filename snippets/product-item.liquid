@@ -266,11 +266,6 @@
                 {%- break -%}
               {%- endif -%}
             {%- endfor -%}
-            {%- if product.metafields.meta.street_date != blank and release > nowunix and settings.show_release_date -%}
-              true
-            {%- else -%}
-            false
-          {%- endif -%}
 
             {%- if should_calculate_inventory and settings.low_inventory_threshold > 0 -%}
               {%- assign all_inventory = 0 -%}
