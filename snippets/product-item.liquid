@@ -55,6 +55,10 @@
   {%- assign p_name = product.title | append: ' ' | append: shop.name | append: ' '  | append: ' ' | append: product.selected_or_first_available_variant.sku -%}
   {%- assign alt_default = p_name -%}
 
+  {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+  {% capture release %}{{ product.metafields.meta.street_date | date: '%s' }}{% endcapture %}
+  {% capture release_date %}{{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}{% endcapture %}
+
   {%- if product.media.size > 0 -%}
     {%- assign primary_media = product.featured_media -%}
 
@@ -295,13 +299,25 @@
               {%- endif -%}
             {%- else -%}
               {%- if product.variants.first.inventory_policy == 'continue' and product.variants.first.inventory_quantity <= 0 and product.variants.first.requires_shipping -%}
-                <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.oversell_stock' | t }}</span>
+                {%- if product.metafields.meta.street_date != blank and release > nowunix and settings.show_release_date -%}
+                  <span class="product-item__inventory inventory"> {{ 'collection.product.release_date' | t: release: release_date }} </span>
+                {%- else -%}
+                  <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.oversell_stock' | t }}</span>
+                {%- endif -%}
               {%- else -%}
-                <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.in_stock' | t }}</span>
+                {%- if product.metafields.meta.street_date != blank and release > nowunix and settings.show_release_date -%}
+                  <span class="product-item__inventory inventory"> {{ 'collection.product.release_date' | t: release: release_date }} </span>
+                {%- else -%}
+                  <span class="product-item__inventory inventory inventory--high">{{ 'collection.product.in_stock' | t }}</span>
+                {%- endif -%}
               {%- endif -%}
             {%- endif -%}
           {%- else -%}
-            <span class="product-item__inventory inventory">{{ 'collection.product.sold_out' | t }}</span>
+            {%- if product.metafields.meta.street_date != blank and release > nowunix and settings.show_release_date -%}
+              <span class="product-item__inventory inventory"> {{ 'collection.product.release_date' | t: release: release_date }} </span>
+            {%- else -%}
+              <span class="product-item__inventory inventory">{{ 'collection.product.sold_out' | t }}</span>
+            {%- endif -%}
           {%- endif -%}
         {%- endif -%}
       </div>

@@ -203,6 +203,7 @@
       "sold_out": "Esaurito",
       "in_stock": "In stock",
       "oversell_stock": "Disponibile a breve",
+      "release_date": "Coming soon. Release: {{ release }}",
       "discount_html": "Risparmi {{savings}}",
       "low_stock_with_quantity_count": {
         "one": "Ne rimane solo {{count}}",

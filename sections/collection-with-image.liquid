@@ -12,7 +12,7 @@
     <div class="featured-collection lazyload" {% if section.settings.image %}data-bgset="{{ section.settings.image | image_url: width: 1000 }} [--lap]"{% endif %}>
       <header class="featured-collection__header lazyload" {% if section.settings.image %}data-bgset="{{ section.settings.image | image_url: width: 1000 }} [--tablet]"{% endif %}>
         {%- if section.settings.title != blank -%}
-          <h2 class="featured-collection__title heading h2">{{ section.settings.title | escape }}</h2>
+          <h1 class="featured-collection__title heading h2">{{ section.settings.title | escape }}</h1>
         {%- endif -%}
 
         {%- if section.settings.content != blank -%}
