@@ -442,6 +442,7 @@
         "marign_bottom": 50,
         "text_width": "wide",
         "title": "SONY MUSIC STORE",
+        "h_one": true,
         "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>",
         "button_text": "",
         "button_link": "shopify:\/\/collections\/all",
