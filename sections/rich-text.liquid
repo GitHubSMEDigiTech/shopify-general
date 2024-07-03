@@ -26,7 +26,11 @@
 <section class="section-{{ section.id }}-margin rich-text--{{ section.id }} {%- if section.settings.center_text -%}section--text-centered{%- endif -%}" data-section-id="{{ section.id }}" data-section-type="rich-text">
   <div class="{{ container_classes }}">
     {%- if section.settings.title != blank -%}
-      <h2 class="heading h1">{{ section.settings.title | escape }}</h2>
+      {% if section.settings.h_one %}
+        <h1 class="heading h1">{{ section.settings.title | escape }}</h1>
+      {%- else -%}
+        <h2 class="heading h1">{{ section.settings.title | escape }}</h2>
+      {%- endif -%}
     {%- endif -%}
 
     <div class="rte">
@@ -116,6 +120,12 @@
       "id": "title",
       "label": "Heading",
       "default": "Your title"
+    },
+    {
+      "type": "checkbox",
+      "id": "h_one",
+      "default": false,
+      "label": "Make title H1"
     },
     {
       "type": "richtext",
