@@ -201,6 +201,7 @@
       "choose_options": "オプションを選択",
       "sold_out": "完売",
       "in_stock": "在庫あり",
+      "release_date": "Coming soon. Release: {{ release }}",
       "oversell_stock": "近々再入荷予定（購入可能）",
       "discount_html": "{{savings}}セーブ",
       "low_stock_with_quantity_count": {

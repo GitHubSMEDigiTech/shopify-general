@@ -202,6 +202,7 @@
       "sold_out": "Utsolgt",
       "in_stock": "På lager",
       "oversell_stock": "Snart på lager",
+      "release_date": "Coming soon. Release: {{ release }}",
       "discount_html": "Spar {{savings}}",
       "low_stock_with_quantity_count": {
         "one": "Bare {{count}} enhet igjen",
