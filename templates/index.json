@@ -29,6 +29,23 @@
             "link": "shopify:\/\/products\/zepeck"
           }
         },
+        "image_HbBJe4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3000x1200.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/750x1100_3d09d063-e6b9-4681-9673-1e95f4f3005a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/trap-fatta-bene"
+          }
+        },
         "image_7m99JY": {
           "type": "image",
           "settings": {
@@ -181,27 +198,11 @@
             "button_text": "",
             "link": "shopify:\/\/collections\/ac-dc"
           }
-        },
-        "image_HbBJe4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3000x1200.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/750x1100_3d09d063-e6b9-4681-9673-1e95f4f3005a.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/products\/trap-fatta-bene"
-          }
         }
       },
       "block_order": [
         "image_QeQ8wi",
+        "image_HbBJe4",
         "image_7m99JY",
         "image_XHmBAC",
         "image_B3rw7r",
@@ -210,8 +211,7 @@
         "image_cd6H7W",
         "image_hhc4xB",
         "image_3wJqzQ",
-        "image_eUhDX7",
-        "image_HbBJe4"
+        "image_eUhDX7"
       ],
       "settings": {
         "edge_to_edge": false,
