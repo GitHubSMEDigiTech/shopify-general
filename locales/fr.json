@@ -201,6 +201,7 @@
       "choose_options": "Choisir options",
       "sold_out": "Rupture",
       "in_stock": "En stock",
+      "release_date": "Coming soon. Release: {{ release }}",
       "oversell_stock": "En ré-approvisionnement",
       "discount_html": "Economisez {{savings}}",
       "low_stock_with_quantity_count": {
