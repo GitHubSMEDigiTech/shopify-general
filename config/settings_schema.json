@@ -437,7 +437,7 @@
       {
         "type": "checkbox",
         "id": "show_release_date",
-        "label": "Show Release Date",
+        "label": "Show Release-Date",
         "default": false
       },
       {
