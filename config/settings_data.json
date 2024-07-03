@@ -30,6 +30,7 @@
     "product_image_size": "short",
     "show_color_swatch": true,
     "show_inventory_quantity": false,
+    "show_release_date": true,
     "cart_type": "drawer",
     "social_facebook": "https:\/\/www.facebook.com\/store.sonymusic.it\/",
     "social_instagram": "https:\/\/www.instagram.com\/sonymusicstore_italia\/",
