@@ -158,7 +158,7 @@
     "general": {
       "all_collections": "Tutte le categorie",
       "all_products": "Tutti i prodotti",
-      "view_more": "Visualizza altri",
+      "view_more": "Visualizza altro",
       "view_less": "Visualizza meno",
       "brands": "Marchi",
       "empty": "Questa categoria è vuota",
@@ -212,7 +212,7 @@
       "sold_out": "Esaurito",
       "in_stock": "Disponibilità immediata",
       "oversell_stock": "Disponibile a breve",
-      "release_date": "Coming soon. Release: {{ release }}",
+      "release_date": "Data di uscita: {{ release }}",
       "discount_html": "Risparmi {{savings}}",
       "low_stock_with_quantity_count": {
         "one": "Ne rimane solo {{count}}",
