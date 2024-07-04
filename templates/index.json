@@ -198,6 +198,23 @@
             "button_text": "",
             "link": "shopify:\/\/collections\/ac-dc"
           }
+        },
+        "image_eeNq3P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/desktopradioitalia.png",
+            "mobile_image": "shopify:\/\/shop_images\/mobileradioitalia.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/radio-italia-summer-hits-2024"
+          }
         }
       },
       "block_order": [
@@ -211,7 +228,8 @@
         "image_cd6H7W",
         "image_hhc4xB",
         "image_3wJqzQ",
-        "image_eUhDX7"
+        "image_eUhDX7",
+        "image_eeNq3P"
       ],
       "settings": {
         "edge_to_edge": false,
