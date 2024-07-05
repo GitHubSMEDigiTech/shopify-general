@@ -292,7 +292,7 @@
       "settings": {
         "collection": "frontpage",
         "title": "IN EVIDENZA",
-        "products_count": 12,
+        "products_count": 24,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
