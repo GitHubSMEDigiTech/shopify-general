@@ -110,18 +110,19 @@
         "item_76VNq3": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
+            "image": "shopify:\/\/shop_images\/SME-Logo_d0ad3fdc-dc1d-4510-bd02-c7cc9e0a5d38.jpg",
+            "show_overlay": true,
             "overlay_opacity": 50,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
-            "title": "Canvass 6",
-            "content": "Tell more about your product, collection...",
+            "title": "Canvass 30 agosto 2024",
+            "content": "",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Learn more",
-            "button_link": ""
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-30-agosto-2024"
           }
         },
         "item_GcUFUx": {
