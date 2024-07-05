@@ -1,0 +1,205 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "promotion_list_PEcrT4": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_xfYjie": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25386727_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 12 luglio 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1b1b",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-12-luglio-2024"
+          }
+        },
+        "item_K4g9hY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25417953_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 19 luglio 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-19-luglio-2024"
+          }
+        },
+        "item_HEn3j9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25385642_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#fc2a68",
+            "text_color": "#ffffff",
+            "title": "Canvass 26 luglio 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#fc2a68",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-26-luglio-2024"
+          }
+        },
+        "item_GrVxjL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25353760_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#26c1ce",
+            "text_color": "#ffffff",
+            "title": "Canvass 2 agosto 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#26c1ce",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-02-agosto-2024"
+          }
+        },
+        "item_RNL79p": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25349052_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 9 agosto 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-09-agosto-2024"
+          }
+        },
+        "item_76VNq3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SME-Logo_d0ad3fdc-dc1d-4510-bd02-c7cc9e0a5d38.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 30 agosto 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-30-agosto-2024"
+          }
+        },
+        "item_GcUFUx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SME-Logo_3fee8a2f-037f-4d38-a33b-2c78d13d1f39.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 6 settembre 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": "shopify:\/\/collections\/canvass-6-settembre-2024"
+          }
+        },
+        "item_UYE3jp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SME-Logo_4c4a46ab-7a6c-4088-aaf4-ade6b18d5eef.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 13 settembre 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-13-settembre-2024"
+          }
+        },
+        "item_B7MRjp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SME-Logo_085fd2b8-f369-42ef-9264-8d306df022d6.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 20 settembre 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-20-settembre-2024"
+          }
+        }
+      },
+      "block_order": [
+        "item_xfYjie",
+        "item_K4g9hY",
+        "item_HEn3j9",
+        "item_GrVxjL",
+        "item_RNL79p",
+        "item_76VNq3",
+        "item_GcUFUx",
+        "item_UYE3jp",
+        "item_B7MRjp"
+      ],
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "promotion_list_PEcrT4"
+  ]
+}
