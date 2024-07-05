@@ -17,6 +17,24 @@
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
       "blocks": {
+        "item_B7MRjp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SME-Logo_085fd2b8-f369-42ef-9264-8d306df022d6.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 20 settembre 2024",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-20-settembre-2024"
+          }
+        },
         "item_xfYjie": {
           "type": "item",
           "settings": {
@@ -160,27 +178,10 @@
             "button_text": "Entra",
             "button_link": "shopify:\/\/collections\/canvass-13-settembre-2024"
           }
-        },
-        "item_B7MRjp": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SME-Logo_085fd2b8-f369-42ef-9264-8d306df022d6.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Canvass 20 settembre 2024",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-20-settembre-2024"
-          }
         }
       },
       "block_order": [
+        "item_B7MRjp",
         "item_xfYjie",
         "item_K4g9hY",
         "item_HEn3j9",
@@ -188,8 +189,7 @@
         "item_RNL79p",
         "item_76VNq3",
         "item_GcUFUx",
-        "item_UYE3jp",
-        "item_B7MRjp"
+        "item_UYE3jp"
       ],
       "settings": {
         "expand_items": false,
