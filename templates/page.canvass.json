@@ -44,7 +44,7 @@
             "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
-            "title": "Canvass 19 luglio",
+            "title": "Canvass 19 luglio 2024",
             "content": "",
             "content_position": "top_left",
             "button_background": "#ffffff",
@@ -56,18 +56,19 @@
         "item_HEn3j9": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
+            "image": "shopify:\/\/shop_images\/25385642_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
             "overlay_opacity": 50,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#fc2a68",
             "text_color": "#ffffff",
-            "title": "Canvass 3",
-            "content": "Tell more about your product, collection...",
+            "title": "Canvass 26 luglio 2024",
+            "content": "",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#fc2a68",
-            "button_text": "Learn more",
-            "button_link": ""
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-26-luglio-2024"
           }
         },
         "item_GrVxjL": {
