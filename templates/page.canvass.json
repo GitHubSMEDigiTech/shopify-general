@@ -41,7 +41,7 @@
             "image": "shopify:\/\/shop_images\/25417953_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
             "show_overlay": true,
             "overlay_opacity": 50,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
             "title": "Canvass 19 luglio",
