@@ -16,6 +16,155 @@
     },
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
+      "blocks": {
+        "item_xfYjie": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25386727_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 1",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1b1b",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_K4g9hY": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 2",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_HEn3j9": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#fc2a68",
+            "text_color": "#ffffff",
+            "title": "Canvass 3",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#fc2a68",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_GrVxjL": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#26c1ce",
+            "text_color": "#ffffff",
+            "title": "Canvass 4",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#26c1ce",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_RNL79p": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 5",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_76VNq3": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 6",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_GcUFUx": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 7",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "item_UYE3jp": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 8",
+            "content": "Tell more about your product, collection...",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_xfYjie",
+        "item_K4g9hY",
+        "item_HEn3j9",
+        "item_GrVxjL",
+        "item_RNL79p",
+        "item_76VNq3",
+        "item_GcUFUx",
+        "item_UYE3jp"
+      ],
       "settings": {
         "expand_items": false,
         "section_size": "medium",
