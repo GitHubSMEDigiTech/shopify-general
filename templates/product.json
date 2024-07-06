@@ -73,7 +73,7 @@
     "custom_liquid_GALb9j": {
       "type": "custom-liquid",
       "custom_css": [
-        "{font-size: 14px;}"
+        "{font-size: 16px;}"
       ],
       "settings": {
         "title": "Tracklist",
