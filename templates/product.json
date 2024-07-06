@@ -46,7 +46,6 @@
         },
         "liquid_eFVXPR": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "title": "Tracklist",
             "sku": "",
@@ -74,7 +73,7 @@
     "custom_liquid_GALb9j": {
       "type": "custom-liquid",
       "custom_css": [
-        "{font-size:14px; }"
+        "{font-size: 14px;}"
       ],
       "settings": {
         "title": "Tracklist",
