@@ -72,6 +72,17 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "blocks": {
+        "product_7YY8h9": {
+          "type": "product",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_7YY8h9"
+      ],
       "settings": {
         "heading": "You may also like",
         "show_quick_buy": false
