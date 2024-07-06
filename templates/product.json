@@ -9,17 +9,6 @@
 */
 {
   "sections": {
-    "custom_liquid_GALb9j": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Tracklist",
-        "include_margins": true,
-        "liquid": "{{product.metafields.meta.tracklist}}"
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -57,6 +46,7 @@
         },
         "liquid_eFVXPR": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "title": "Tracklist",
             "sku": "",
@@ -79,6 +69,17 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
+      }
+    },
+    "custom_liquid_GALb9j": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "{font-size:14px; }"
+      ],
+      "settings": {
+        "title": "Tracklist",
+        "include_margins": true,
+        "liquid": "{{product.metafields.meta.tracklist}}"
       }
     },
     "product-recommendations": {
@@ -108,8 +109,8 @@
     }
   },
   "order": [
-    "custom_liquid_GALb9j",
     "main",
+    "custom_liquid_GALb9j",
     "product-recommendations",
     "recently-viewed-products"
   ]
