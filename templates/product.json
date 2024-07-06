@@ -72,6 +72,7 @@
     },
     "custom_liquid_GALb9j": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "{font-size: 16px;}"
       ],
