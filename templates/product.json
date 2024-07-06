@@ -70,14 +70,6 @@
         "carousel_effect": "fade"
       }
     },
-    "custom_liquid_K6BEaC": {
-      "type": "custom-liquid",
-      "settings": {
-        "title": "Tracklist",
-        "include_margins": true,
-        "liquid": "{{product.metafields.meta.tracklist}}"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -95,7 +87,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_K6BEaC",
     "product-recommendations",
     "recently-viewed-products"
   ]
