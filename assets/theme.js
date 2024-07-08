@@ -13801,7 +13801,10 @@
           method: 'GET'
         }).then(function (response) {
           response.text().then(function (content) {
-            modal.querySelector('.modal__inner').innerHTML = content;
+            var res = document.createElement('div');
+            res.innerHTML = content;
+
+            modal.querySelector('.modal__inner').appendChild(res.querySelector('main'));
             modal.classList.remove('is-loading'); // Register a new section to power the JS
 
             console.log(modal.querySelector('[data-section-type="product"]'));
@@ -14229,6 +14232,7 @@
           method: 'GET'
         }).then(function (response) {
           response.text().then(function (content) {
+
             modal.querySelector('.modal__inner').innerHTML = content;
             modal.classList.remove('is-loading'); // Register a new section to power the JS
 
@@ -14489,6 +14493,7 @@
         } else {
           this.headerElement.classList.add('header--search-expanded');
           this.element.classList.add('is-visible');
+          window.setTimeout(() => document.getElementById('search-bar__input').focus(), 50);
         }
 
         this.isSearchOpen = !this.isSearchOpen;

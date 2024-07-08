@@ -202,6 +202,7 @@
       "choose_options": "Escoger opción",
       "sold_out": "Agotado",
       "in_stock": "Disponible",
+      "release_date": "Coming soon. Release: {{ release }}",
       "oversell_stock": "Pronto en stock",
       "discount_html": "Ahorrar {{savings}}",
       "low_stock_with_quantity_count": {

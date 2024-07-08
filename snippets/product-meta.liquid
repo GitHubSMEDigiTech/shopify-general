@@ -29,7 +29,7 @@
 
 <div class="product-meta">
   {%- if template.name == 'product' and template != 'product.quick-view' -%}
-    <h2 class="product-meta__title heading h1">{{ product.title }}</h2>
+    <h1 class="product-meta__title heading h1">{{ product.title }}</h1>
   {%- else -%}
     <h3 class="product-meta__title heading h2">
       <a href="{{ product.url }}">{{ product.title }}</a>
@@ -75,12 +75,13 @@
       {%- if block.settings.show_vendor -%}
         {%- assign vendor_handle = product.vendor | handle -%}
         {%- assign collection_for_vendor = collections[vendor_handle] -%}
-
+        <h2>
         {%- unless collection_for_vendor.empty? -%}
           <a class="product-meta__vendor link link--accented" href="{{ collection_for_vendor.url }}">{{ product.vendor }}</a>
         {%- else -%}
           <a class="product-meta__vendor link link--accented" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a>
         {%- endunless -%}
+        </h2>
       {%- endif -%}
 
       {%- if block.settings.show_sku -%}

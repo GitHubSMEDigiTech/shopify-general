@@ -130,7 +130,7 @@
                   <input type="hidden" name="options[prefix]" value="last">
                   <input type="hidden" name="options[unavailable_products]" value="{{ settings.search_unavailable_products }}">
                   <div class="search-bar__input-wrapper">
-                    <input class="search-bar__input" type="text" name="q" autocomplete="off" autocorrect="off" aria-label="{{ 'header.search.input_placeholder' | t }}" placeholder="{{ 'header.search.input_placeholder' | t }}">
+                    <input id="search-bar__input" class="search-bar__input" type="text" name="q" autocomplete="off" autocorrect="off" aria-label="{{ 'header.search.input_placeholder' | t }}" placeholder="{{ 'header.search.input_placeholder' | t }}" autofocus>
                     <button type="button" class="search-bar__input-clear hidden-lap-and-up" data-action="clear-input">
                       <span class="visually-hidden">{{ 'header.search.clear' | t }}</span>
                       {% render 'icon', icon: 'close' %}
@@ -369,7 +369,7 @@
                           <div class="popover__inner">
                             {%- form 'recover_customer_password', name: 'recover', class: 'form' -%}
                               <header class="popover__header">
-                                <h2 class="popover__title heading">{{ 'customer.recover_password.recover_password' | t }}</h2>
+                                <span class="popover__title heading h2">{{ 'customer.recover_password.recover_password' | t }}</span>
                                 <p class="popover__legend">{{ 'customer.recover_password.description' | t }}</p>
                               </header>
   
