@@ -18,7 +18,7 @@
             "show_vendor": true,
             "show_sku": true,
             "show_reviews_badge": false,
-            "show_share_buttons": true
+            "show_share_buttons": false
           }
         },
         "variant_selector": {
@@ -52,6 +52,15 @@
             "liquid": "{{product.metafields.meta.tracklist}}",
             "display_mode": "show_all"
           }
+        },
+        "liquid_mCCHJy": {
+          "type": "liquid",
+          "settings": {
+            "title": "Prezzo di listino",
+            "sku": "",
+            "liquid": "{{product.metafields.meta.list_ppd}}",
+            "display_mode": "show_all"
+          }
         }
       },
       "block_order": [
@@ -59,7 +68,8 @@
         "variant_selector",
         "buy_buttons",
         "description",
-        "liquid_eFVXPR"
+        "liquid_eFVXPR",
+        "liquid_mCCHJy"
       ],
       "settings": {
         "list_collections": false,
