@@ -21,15 +21,6 @@
             "show_share_buttons": false
           }
         },
-        "liquid_mCCHJy": {
-          "type": "liquid",
-          "settings": {
-            "title": "Prezzo di listino",
-            "sku": "",
-            "liquid": "{{product.metafields.meta.list_ppd}}",
-            "display_mode": "show_all"
-          }
-        },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {
@@ -65,7 +56,6 @@
       },
       "block_order": [
         "product_meta",
-        "liquid_mCCHJy",
         "variant_selector",
         "buy_buttons",
         "description",
