@@ -564,7 +564,7 @@
 
                     <div id="product-list" class="product-list product-list--collection {% if has_filters %}product-list--with-sidebar{% endif %}" data-next-url="{{ paginate.next.url }}">
                       {%- for product in collection.products -%}
-                        {%- render 'product-item', product: product, list: show_as_list, grid_classes: grid_classes -%}
+                        {%- render 'product-item', product: product, list: show_as_list, grid_classes: grid_classes, section: section -%}
                       {%- endfor -%}
                     </div>
                     {%- if section.settings.collection_pagination == "pagination" %}

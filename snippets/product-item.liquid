@@ -325,7 +325,7 @@
     {%- if cart_item.product.handle != blank -%}
       {% render 'product-item-b2b', product: product %}
     {%- endif -%}
-
+    
     {%- if request.page_type == 'collection' or request.page_type == 'search' or show_add_to_cart -%}
       {%- if section.settings.show_quick_view == 'list_grid' or section.settings.show_quick_buy == 'list_grid' or show_add_to_cart -%}
         {%- assign product_form_classes = 'product-item__action-list button-stack' -%}
@@ -345,7 +345,7 @@
       {%- if show_b2b -%}
         {% render 'product-item-atc-b2b', product: product, form_id: form_id, product_form_classes: product_form_classes, section: section %}
       {%- else -%}
-        {% render 'product-item-atc', product: product, form_id: form_id, product_form_classes: product_form_classes, section: section %}
+        {% render 'product-item-atc', product: product, form_id: form_id, product_form_classes: product_form_classes, section: section, show_add_to_cart: show_add_to_cart %}
       {%- endif -%}
        
       {%- endif -%}
