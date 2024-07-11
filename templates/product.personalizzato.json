@@ -167,6 +167,26 @@
         "section_size": "small"
       }
     },
+    "rich_text_qVNnkN": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "",
+        "h_one": false,
+        "content": "<h6>Photo Credit: Barry Feinstein<\/h6>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -185,6 +205,7 @@
   "order": [
     "main",
     "mosaic_TxRprL",
+    "rich_text_qVNnkN",
     "product-recommendations",
     "recently-viewed-products"
   ]
