@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -76,16 +85,86 @@
         "carousel_effect": "fade"
       }
     },
-    "image_with_text_rz6CBW": {
-      "type": "image-with-text",
+    "mosaic_TxRprL": {
+      "type": "mosaic",
+      "blocks": {
+        "item_Pg4Ppf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bobdylan1.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "item_FUp7Y6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boxbobdylan2.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "item_7GeA6B": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boxbobdylan3.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "item_QEB8rc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boxbobdylan4.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Pg4Ppf",
+        "item_FUp7Y6",
+        "item_7GeA6B",
+        "item_QEB8rc"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_0108.png",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "TOUR 2024",
-        "content": "<p>Le prime date dell'incredibile Tour dove potrete incontrare Aurora e Ludovica e firmare i vostri CD<\/p>",
-        "button_text": "",
-        "button_link": "shopify:\/\/collections\/all"
+        "section_size": "small"
       }
     },
     "product-recommendations": {
@@ -105,7 +184,7 @@
   },
   "order": [
     "main",
-    "image_with_text_rz6CBW",
+    "mosaic_TxRprL",
     "product-recommendations",
     "recently-viewed-products"
   ]
