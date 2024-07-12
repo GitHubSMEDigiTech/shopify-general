@@ -272,6 +272,28 @@
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.insideoutshop.de\/collections\/midprice-blowout"
           }
+        },
+        "banner_7KHxNe": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BIG_BIG.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/BigBigTrain_AFlareOnThe_Lens.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "Big big Train",
+            "head_color": "#ad141f",
+            "subtitle": "",
+            "subhead_color": "#9f9f9f",
+            "content": "Ltd. 3CD+Blu-ray Digipak in Slipcase\nGatefold black 2LP\nLtd. Gatefold transp. sun yellow 2LP",
+            "content_color": "#a5a5bb",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "13.September",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Big%20Big%20Train"
+          }
         }
       },
       "block_order": [
@@ -284,7 +306,8 @@
         "banner_9jMdYT",
         "banner_AwR8cY",
         "banner_dFPYTP",
-        "9868648a-affa-4d67-be87-afd569870a56"
+        "9868648a-affa-4d67-be87-afd569870a56",
+        "banner_7KHxNe"
       ],
       "settings": {
         "edge_to_edge": true,
