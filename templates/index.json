@@ -29,6 +29,23 @@
             "link": "shopify:\/\/products\/zepeck"
           }
         },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-desktop_2160x720_df017479-8127-4f7b-98c5-8f00d97df6de.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner-mobile_750x1100_3f37da48-c17d-45ce-b2a1-cd2bd4a29cb9.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/bundle-esclusivo-colapesce-dimartino"
+          }
+        },
         "image_HbBJe4": {
           "type": "image",
           "settings": {
@@ -182,23 +199,6 @@
             "link": "shopify:\/\/collections\/david-gilmour"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/desktopauroraeludovica.png",
-            "mobile_image": "shopify:\/\/shop_images\/mobileauroraeludovica.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/products\/aurora-e-ludovica"
-          }
-        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -236,6 +236,7 @@
       },
       "block_order": [
         "image_QeQ8wi",
+        "image_3wJqzQ",
         "image_HbBJe4",
         "image_c6iKRK",
         "image_cd6H7W",
@@ -245,7 +246,6 @@
         "image_B3rw7r",
         "image_zLLxyF",
         "image_hhc4xB",
-        "image_3wJqzQ",
         "image_eUhDX7",
         "image_eeNq3P"
       ],
