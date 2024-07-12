@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_C3ipp6": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vf.png",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/VomitForth_TerrifiedOfGod.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "VOMIT FORTH",
+            "head_color": "#ffffff",
+            "subtitle": "Terrified of god",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nLtd. transp. sun yellow LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 11",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Vomit+Forth&sort_by=created-descending"
+          }
+        },
         "banner_exmHjp": {
           "type": "banner",
           "settings": {
@@ -250,31 +272,10 @@
             "preorder_msg_color": "#ad141f",
             "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
           }
-        },
-        "banner_C3ipp6": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vf.png",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/VomitForth_TerrifiedOfGod.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "VOMIT FORTH",
-            "head_color": "#ffffff",
-            "subtitle": "Terrified of god",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nLtd. transp. sun yellow LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 11",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Vomit+Forth&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_C3ipp6",
         "banner_exmHjp",
         "banner_3M3Hqm",
         "banner_naHAQx",
@@ -283,8 +284,7 @@
         "banner_UqWUbb",
         "banner_ikGaAY",
         "banner_KChdED",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
-        "banner_C3ipp6"
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
         "edge_to_edge": true,
