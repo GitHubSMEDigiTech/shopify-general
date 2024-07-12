@@ -17,6 +17,7 @@
         "marign_bottom": 50,
         "text_width": "regular",
         "title": "HAPPY HOLIDAYS!",
+        "h_one": false,
         "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
         "button_text": "Our products",
         "button_link": "shopify:\/\/collections\/all",
@@ -36,6 +37,7 @@
         "marign_bottom": 0,
         "text_width": "narrow",
         "title": "",
+        "h_one": false,
         "content": "<p>Get <em>one <\/em><strong>free <\/strong><a href=\"https:\/\/www.cmdistro.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=f379bd6e6&_ss=r\" title=\"https:\/\/www.cmdistro.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=f379bd6e6&_ss=r\">Slipmat<\/a> with every LP order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.<\/p>",
         "button_text": "Show me your LPs",
         "button_link": "shopify:\/\/collections\/lp",
@@ -51,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_exmHjp": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bw.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/Bewitcher_SpellShock.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Bewitcher",
+            "head_color": "#ffffff",
+            "subtitle": "Spell Shock",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nGatefold black LP\nLtd. Gatefold lilac LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "september 27",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Bewitcher&sort_by=created-descending"
+          }
+        },
         "banner_3M3Hqm": {
           "type": "banner",
           "settings": {
@@ -229,6 +253,7 @@
         }
       },
       "block_order": [
+        "banner_exmHjp",
         "banner_3M3Hqm",
         "banner_naHAQx",
         "banner_6VnwrD",
