@@ -18693,7 +18693,7 @@
       bootTheme();
     } else {
       var scriptEl = document.createElement('script');
-      scriptEl.src = '//cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.matches,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,String.prototype.includes,Object.assign,CustomEvent,URL,DOMTokenList';
+      scriptEl.src = 'https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.matches,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,String.prototype.includes,Object.assign,CustomEvent,URL,DOMTokenList';
       scriptEl.async = false;
 
       scriptEl.onload = function () {
