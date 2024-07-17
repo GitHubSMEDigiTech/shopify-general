@@ -18686,14 +18686,14 @@
       })();
     }; // In order to prevent loading polyfills on modern browser, we first detect if the browser support fetch and assign (if
     // it does then it supports actually all the features we need). If that's not the case we first load the polyfill from
-    // polyfill.io and then boot the theme, otherwise we can skip this step completely
+    // ~~polyfill.io~~ cloudflare(https://blog.cloudflare.com/polyfill-io-now-available-on-cdnjs-reduce-your-supply-chain-risk) and then boot the theme, otherwise we can skip this step completely
 
 
     if ('fetch' in window && 'assign' in Object) {
       bootTheme();
     } else {
       var scriptEl = document.createElement('script');
-      scriptEl.src = '//cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.matches,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,String.prototype.includes,Object.assign,CustomEvent,URL,DOMTokenList';
+      scriptEl.src = 'https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.matches,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,String.prototype.includes,Object.assign,CustomEvent,URL,DOMTokenList';
       scriptEl.async = false;
 
       scriptEl.onload = function () {
