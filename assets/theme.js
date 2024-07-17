@@ -18686,7 +18686,7 @@
       })();
     }; // In order to prevent loading polyfills on modern browser, we first detect if the browser support fetch and assign (if
     // it does then it supports actually all the features we need). If that's not the case we first load the polyfill from
-    // polyfill.io and then boot the theme, otherwise we can skip this step completely
+    // ~~polyfill.io~~ cloudflare(https://blog.cloudflare.com/polyfill-io-now-available-on-cdnjs-reduce-your-supply-chain-risk) and then boot the theme, otherwise we can skip this step completely
 
 
     if ('fetch' in window && 'assign' in Object) {
