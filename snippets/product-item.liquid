@@ -90,6 +90,30 @@
     <div class="product-item__info-inner">
       {%- capture price_list -%}
         <div class="product-item__price-list price-list">
+          {%- if show_b2b -%}
+            <div class="product-item__vendor">List:
+            <span class="price price--compare">
+                <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
+                {%- if settings.currency_code_enabled -%}
+                  {{- product.metafields.meta.list_ppd | times: 100 | money_with_currency -}} 
+                {%- else -%}
+                  {{- product.metafields.meta.list_ppd | times: 100 | money -}} 
+                {%- endif -%}
+              </span></div><br>
+
+              {%- if product.metafields.meta.campaign_ppd > 0 -%}
+              <div class="product-item__vendor">Campaign:
+                <span class="price price--compare">
+                <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
+                {%- if settings.currency_code_enabled -%}
+                  {{- product.metafields.meta.campaign_ppd | times: 100 | money_with_currency -}} 
+                {%- else -%}
+                  {{- product.metafields.meta.campaign_ppd | times: 100 | money -}} 
+                {%- endif -%}
+              </span></div><br>
+
+              {%- endif -%}
+          {%- endif -%}
           {%- if product.price < product.compare_at_price -%}
             {%- if product.price_varies -%}
               {%- if settings.currency_code_enabled -%}
@@ -199,7 +223,7 @@
       <h3><a href="{{ filtered_variant.url | default: product.url }}" class="product-item__title text--strong link">{{ product.title }}</a></h3>
       {%- if show_b2b -%}
         <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
-        Support:  {{ product.metafields.meta.support }} </div>
+        {{ product.metafields.meta.support }} </div>
       {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}
