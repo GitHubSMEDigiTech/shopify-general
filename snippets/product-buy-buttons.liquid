@@ -6,20 +6,21 @@
       {%- else -%}
         <button type="submit" class="product-form__add-button button button--primary" data-action="add-to-cart">{{ 'product.form.add_to_cart' | t }}</button>
       {%- endif -%}
+      {%- if block.settings.show_payment_button and product.template_suffix != 'pre-order' -%}
+        {%  assign unbranded_selector = '' %} 
+        <!--{{ form | payment_button }}-->
+        <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="clickUnbranded()">
+        {{ 'collection.product.buy_now' | t}}
+        </button>
+        <div class="hidden">
+        {{ form | payment_button }}
+        </div>
+      {%- endif -%}
     {%- else -%}
       <button type="submit" class="product-form__add-button button button--disabled" disabled>{{ 'product.form.sold_out' | t }}</button>
     {%- endif -%}
 
-    {%- if block.settings.show_payment_button and product.template_suffix != 'pre-order' -%}
-      {%  assign unbranded_selector = '' %} 
-      <!--{{ form | payment_button }}-->
-      <button type="button" class="shopify-payment-button__button shopify-payment-button__button--unbranded" onclick="clickUnbranded()">
-      {{ 'collection.product.buy_now' | t}}
-      </button>
-      <div class="hidden">
-      {{ form | payment_button }}
-      </div>
-    {%- endif -%}
+   
   {%- else -%}
     <a href="mailto:{{ shop.email }}" class="button button--primary">{{ 'product.form.contact_us' | t }}</a>
   {%- endif -%}
