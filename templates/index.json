@@ -80,6 +80,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify:\/\/shop_images\/bw.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Bewitcher_SpellShock_0724_750-1100_Kopie.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify:\/\/shop_images\/Bewitcher_SpellShock.jpg",
             "cover_effect": "glow",
