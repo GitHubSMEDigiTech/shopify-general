@@ -57,6 +57,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify:\/\/shop_images\/BIG_BIG.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BigBigTrain_FlareOnLens_0724_750-1100.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify:\/\/shop_images\/BigBigTrain_AFlareOnThe_Lens.jpg",
             "cover_effect": "shadow",
