@@ -57,6 +57,7 @@
           "type": "banner",
           "settings": {
             "image": "shopify:\/\/shop_images\/vf.png",
+            "mobile_image": "shopify:\/\/shop_images\/VomitForth_0724_Insta.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify:\/\/shop_images\/VomitForth_TerrifiedOfGod.jpg",
             "cover_effect": "glow",
