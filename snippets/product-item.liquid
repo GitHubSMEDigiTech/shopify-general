@@ -343,6 +343,10 @@
               <span class="product-item__inventory inventory">{{ 'collection.product.sold_out' | t }}</span>
             {%- endif -%}
           {%- endif -%}
+        {%- else -%}
+          {%- if product.metafields.meta.street_date != blank and release > nowunix and settings.show_release_date -%}
+            <span class="product-item__inventory inventory"> {{ 'collection.product.release_date' | t: release: release_date }} </span>
+          {%- endif -%}
         {%- endif -%}
       </div>
     </div>
