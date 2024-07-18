@@ -111,7 +111,7 @@
     "custom_liquid_ApHwej": {
       "type": "custom-liquid",
       "settings": {
-        "title": "Your title",
+        "title": "Tracklist",
         "include_margins": true,
         "liquid": "{{product.metafields.meta.tracklist}}"
       }
