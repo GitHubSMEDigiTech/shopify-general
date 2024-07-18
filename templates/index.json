@@ -361,8 +361,8 @@
       ],
       "disabled": true,
       "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
+        "marign_top": 55,
+        "marign_bottom": 55,
         "image_overlay_opacity": 0,
         "bg_color": "rgba(0,0,0,0)",
         "bg_overlay_opacity": 100,

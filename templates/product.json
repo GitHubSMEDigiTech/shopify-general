@@ -46,6 +46,7 @@
         },
         "liquid_eFVXPR": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "title": "Tracklist",
             "sku": "",
@@ -106,12 +107,21 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "custom_liquid_ApHwej": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Your title",
+        "include_margins": true,
+        "liquid": "{{product.metafields.meta.tracklist}}"
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_GALb9j",
     "product-recommendations",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "custom_liquid_ApHwej"
   ]
 }
