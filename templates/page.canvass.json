@@ -161,21 +161,22 @@
             "button_link": "shopify:\/\/collections\/canvass-20-settembre-2024"
           }
         },
-        "item_WLUFU4": {
+        "item_qCMgWn": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
+            "image": "shopify:\/\/shop_images\/31588_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
             "overlay_opacity": 50,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
-            "title": "Prova Canvass",
+            "title": "Canvass 27 settembre 2024",
             "content": "Tell more about your product, collection...",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Learn more",
-            "button_link": "shopify:\/\/collections\/canvass-6-settembre-2024"
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-27-settembre-2024"
           }
         }
       },
@@ -188,7 +189,7 @@
         "item_GcUFUx",
         "item_UYE3jp",
         "item_B7MRjp",
-        "item_WLUFU4"
+        "item_qCMgWn"
       ],
       "settings": {
         "expand_items": false,
