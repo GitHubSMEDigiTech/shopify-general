@@ -14,6 +14,26 @@
       "settings": {
       }
     },
+    "rich_text_RCcNby": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "CONDIZIONI DI UTILIZZO DELL'IA",
+        "h_one": false,
+        "content": "<p>Aggiornato il 4 giugno 2024<\/p>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "form": {
       "type": "contact-form",
       "disabled": true,
@@ -26,41 +46,6 @@
     },
     "1715843242581a90c2": {
       "type": "apps",
-      "blocks": {
-        "hulk_form_builder_form_block_LWQ4db": {
-          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-          "settings": {
-            "form_uuid": "taB3S6M7BubAfkeOue4c3w",
-            "form_settings": false,
-            "font_color": "#000000",
-            "size": 14,
-            "input_background_color": "#FFF",
-            "input_background_color_focus": "#F4DADA",
-            "input_border_radius": 1,
-            "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2D2727",
-            "input_font_color": "#3D3131",
-            "input_size": 14,
-            "border_color": "#121212",
-            "border_radius": 2,
-            "border": 1,
-            "fill_color": "#EBE9E9",
-            "padding": 35,
-            "form_width": 600,
-            "btn_text": "Submit",
-            "sub_btn_txt_color": "#F3F3F3",
-            "sub_btn_bg_color": "#3F3333",
-            "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#FFFFFF",
-            "sub_btn_bdr_rad": 3,
-            "sub_btn_bdr_width": 1,
-            "fonts": "Gill Sans"
-          }
-        }
-      },
-      "block_order": [
-        "hulk_form_builder_form_block_LWQ4db"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -68,6 +53,7 @@
   },
   "order": [
     "main",
+    "rich_text_RCcNby",
     "form",
     "1715843242581a90c2"
   ]
