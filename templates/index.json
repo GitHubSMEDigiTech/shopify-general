@@ -53,6 +53,52 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_UdbiCj": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blood_incantation.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BloodIncantation_0724_750-1100.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/BloodIncantation_AbsoluteElsewhere.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Blood Incantation",
+            "head_color": "#ffffff",
+            "subtitle": "Absolute Elsewhere",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 3CD+Blu-ray Artbook\nLtd. CD Digipak\nGatefold black LP & Poster\nLtd. Gatefold transp. turquoise LP & Poster\nLtd. Gatefold clear-lilac splattered LP & Poster\nLtd. Gatefold transp. magenta LP & Poster",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Blood+Incantation&sort_by=created-descending"
+          }
+        },
+        "banner_mJ6g88": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/allt.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Allt_NewWorld_0724_750-1100.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/Allt_FromTheNewWorld.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "ALLT",
+            "head_color": "#ffffff",
+            "subtitle": "From The New World",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nblack LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "october 4",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Allt"
+          }
+        },
         "banner_xLBjAJ": {
           "type": "banner",
           "settings": {
@@ -318,32 +364,11 @@
             "preorder_msg_color": "#ad141f",
             "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
           }
-        },
-        "banner_mJ6g88": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/allt.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Allt_NewWorld_0724_750-1100.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Allt_FromTheNewWorld.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "ALLT",
-            "head_color": "#ffffff",
-            "subtitle": "From The New World",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nblack LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "october 4",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Allt"
-          }
         }
       },
       "block_order": [
+        "banner_UdbiCj",
+        "banner_mJ6g88",
         "banner_xLBjAJ",
         "banner_bQfLaj",
         "banner_C3ipp6",
@@ -355,8 +380,7 @@
         "banner_UqWUbb",
         "banner_ikGaAY",
         "banner_KChdED",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
-        "banner_mJ6g88"
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
         "edge_to_edge": true,
