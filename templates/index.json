@@ -46,23 +46,6 @@
             "link": "shopify:\/\/products\/bundle-esclusivo-colapesce-dimartino"
           }
         },
-        "image_HbBJe4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3000x1200.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/750x1100_3d09d063-e6b9-4681-9673-1e95f4f3005a.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/products\/trap-fatta-bene"
-          }
-        },
         "image_c6iKRK": {
           "type": "image",
           "settings": {
@@ -232,12 +215,28 @@
             "button_text": "",
             "link": "shopify:\/\/products\/radio-italia-summer-hits-2024"
           }
+        },
+        "image_TwXfBi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200x600_531d615e-f2d2-4f96-92d6-771180a7f6c5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/856x534_f3686f83-cf51-48fb-8d1a-68ec27dea7e4.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/collections\/papa-v"
+          }
         }
       },
       "block_order": [
         "image_QeQ8wi",
         "image_3wJqzQ",
-        "image_HbBJe4",
         "image_c6iKRK",
         "image_cd6H7W",
         "image_7m99JY",
@@ -247,7 +246,8 @@
         "image_zLLxyF",
         "image_hhc4xB",
         "image_eUhDX7",
-        "image_eeNq3P"
+        "image_eeNq3P",
+        "image_TwXfBi"
       ],
       "settings": {
         "edge_to_edge": false,
