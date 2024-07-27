@@ -79,7 +79,6 @@
           "type": "banner",
           "settings": {
             "image": "shopify:\/\/shop_images\/allt.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Allt_NewWorld_0724_750-1100.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify:\/\/shop_images\/Allt_FromTheNewWorld.jpg",
             "cover_effect": "glow",
