@@ -57,7 +57,6 @@
           "type": "banner",
           "settings": {
             "image": "shopify:\/\/shop_images\/blood_incantation.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/BloodIncantation_0724_750-1100.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify:\/\/shop_images\/BloodIncantation_AbsoluteElsewhere.jpg",
             "cover_effect": "glow",
@@ -71,7 +70,7 @@
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
-            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg": "oktober 4",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Blood+Incantation&sort_by=created-descending"
           }
