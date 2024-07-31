@@ -27,6 +27,12 @@
             "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br\/><strong>Consegna gratuita per ordini sopra i 70€ -<\/strong>Reso gratuito entro 14 giorni<\/h6>"
           }
         },
+        "text_GE8g7C": {
+          "type": "text",
+          "settings": {
+            "content": "<p>{{ product.metafields.custom.descrizionebreve.value }}<\/p>"
+          }
+        },
         "text_Hkfmce": {
           "type": "text",
           "settings": {
@@ -85,6 +91,7 @@
       "block_order": [
         "product_meta",
         "text_FYDwhT",
+        "text_GE8g7C",
         "text_Hkfmce",
         "variant_selector",
         "contest_dPa76e",
