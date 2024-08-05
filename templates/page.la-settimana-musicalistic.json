@@ -13,9 +13,30 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "rich_text_RfWnC3": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "",
+        "h_one": false,
+        "content": "<p>Sotto l'ombrellone non può mancare il tempo per dedicarsi all’enigmistica. Dal 1 agosto fino al 30 agosto partecipa al quiz de \"La settimana musicalistica\" su sony music store, da fare in spiaggia, al mare, in montagna, o nei tuoi momenti di relax, per dimostrare che la tua abilità batte tutti gli altri. Ogni settimana verrà pubblicata sul profilo instagram “<em>@sonymusicstore_italia<\/em>” la classifica che si concluderà il 30 agosto con i 3 migliori risultati.<br\/>Per partecipare è necessario iscriversi al quiz con un nickname di tua libera scelta  (non occorre nome e cognome) e un indirizzo email. I dati raccolti saranno usati esclusivamente per elaborare i risultati degli elaborati e formulare la classifica settimanale e mensile. Nello specifico verrà usato il nickname per la classifica pubblicata sul profilo instagram del sony music store e l'indirizzo email per comunicare il codice sconto da usare sul sito del sony music store per il prossimo acquisto in caso di vittoria. <br\/><br\/>Premi classifica settimanale (un solo vincitore a settimana)<br\/>1.\t<strong>10% di sconto<\/strong> utilizzabile su sony music store non cumulabile con altre promozioni in corso<br\/><br\/>La prima settimana va dal 12 al 18 agosto<br\/>La seconda settimana va dal 19 al 25 agosto<br\/>La terza settimana va dal 26 al 31 agosto<br\/><br\/>Premi classifica finale che sarà pubblicata sui social, sul profilo instagram del sony music store (“<em>@sonymusicstore_italia<\/em>”) durante la prima settimana di settembre:<br\/><br\/>1.\t30% di sconto non cumulabile con altre promozioni in corso utilizzabile su sony music store<br\/>2.\t20% di sconto non cumulabile con altre promozioni in corso utilizzabile su sony music store<br\/>3.\t15% di sconto non cumulabile con altre promozioni in corso utilizzabile su sony music store<br\/><br\/>Per identificare i vincitori saranno presi in considerazione dapprima il numero di risposte esatte e, in caso di parità,  la velocità di risposta alle domande. Per consultare l'informativa sulla privacy clicca qui. <br\/><\/p>",
+        "button_text": "Iscriviti e partecipa al quiz",
+        "button_link": "shopify:\/\/collections\/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_RfWnC3"
   ]
 }
