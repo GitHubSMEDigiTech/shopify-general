@@ -250,9 +250,9 @@
         "image_eeNq3P"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "medium",
-        "mobile_section_size": "mobile_small",
+        "mobile_section_size": "mobile_large",
         "carousel_effect": "fade",
         "autoplay": true,
         "show_arrows": true,
