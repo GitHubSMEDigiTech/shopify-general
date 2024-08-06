@@ -313,7 +313,7 @@
         "text_width": "regular",
         "title": "ATTENZIONE",
         "h_one": false,
-        "content": "<p>Le consegne potrebbero subire dei ritardi durante la settimana di Ferragosto. <\/p>",
+        "content": "<p>Le consegne potrebbero subire dei ritardi durante la settimana di Ferragosto. <br\/>Per qualsiasi informazione puoi sempre inviare una mail a contact.store.ita@sonymusic.com<\/p>",
         "button_text": "",
         "button_link": "shopify:\/\/collections\/all",
         "bg_color": "#c5161c",
