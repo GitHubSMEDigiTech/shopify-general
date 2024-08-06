@@ -220,7 +220,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/desktopradioitalia.png",
-            "mobile_image": "shopify:\/\/shop_images\/mobileradioitalia.png",
+            "mobile_image": "shopify:\/\/shop_images\/750x1100psd.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
