@@ -21,6 +21,12 @@
             "show_share_buttons": true
           }
         },
+        "text_kbYdML": {
+          "type": "text",
+          "settings": {
+            "content": "<h2><em><strong>Leaflet Autografato in carta pregiata 300 gr con titolo in rilievo<\/strong><\/em><\/h2>"
+          }
+        },
         "text_FYDwhT": {
           "type": "text",
           "settings": {
@@ -75,6 +81,7 @@
       },
       "block_order": [
         "product_meta",
+        "text_kbYdML",
         "text_FYDwhT",
         "text_c9Qgk6",
         "variant_selector",
@@ -90,108 +97,6 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
-      }
-    },
-    "mosaic_TxRprL": {
-      "type": "mosaic",
-      "blocks": {
-        "item_Pg4Ppf": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bobdylan1.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": ""
-          }
-        },
-        "item_FUp7Y6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/boxbobdylan2.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": ""
-          }
-        },
-        "item_7GeA6B": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/boxbobdylan3.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": ""
-          }
-        },
-        "item_QEB8rc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/boxbobdylan4.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_Pg4Ppf",
-        "item_FUp7Y6",
-        "item_7GeA6B",
-        "item_QEB8rc"
-      ],
-      "settings": {
-        "section_size": "small"
-      }
-    },
-    "rich_text_qVNnkN": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "narrow",
-        "title": "",
-        "h_one": false,
-        "content": "<h6>Photo Credit: Barry Feinstein<\/h6>",
-        "button_text": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": false,
-        "padding_top": 30,
-        "padding_bottom": 30
       }
     },
     "product-recommendations": {
@@ -211,8 +116,6 @@
   },
   "order": [
     "main",
-    "mosaic_TxRprL",
-    "rich_text_qVNnkN",
     "product-recommendations",
     "recently-viewed-products"
   ]
