@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/2160x720_b8d4402e-17a1-4e01-b4f8-c2cd744f1ec6.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/yungestmobile.png",
+            "mobile_image": "shopify:\/\/shop_images\/mobile2.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
