@@ -252,7 +252,7 @@
       "settings": {
         "edge_to_edge": true,
         "section_size": "medium",
-        "mobile_section_size": "mobile_large",
+        "mobile_section_size": "mobile_small",
         "carousel_effect": "fade",
         "autoplay": true,
         "show_arrows": true,
