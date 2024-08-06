@@ -21,15 +21,6 @@
             "show_share_buttons": true
           }
         },
-        "liquid_K3EaTG": {
-          "type": "liquid",
-          "settings": {
-            "title": "",
-            "sku": "",
-            "liquid": "<p style=\"color:#7E587E; \"> Leaflet Autografato in carta pregiata 300 gr con titolo in rilievo <\/p>",
-            "display_mode": "show_all"
-          }
-        },
         "text_kbYdML": {
           "type": "text",
           "settings": {
@@ -90,7 +81,6 @@
       },
       "block_order": [
         "product_meta",
-        "liquid_K3EaTG",
         "text_kbYdML",
         "text_FYDwhT",
         "text_c9Qgk6",
