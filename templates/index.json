@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_iXMCC9": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/haende_ganz_toll.jpg",
+            "bg_color": "#ffffff",
+            "cover_image": "shopify:\/\/shop_images\/swallowthesunshiningjpg.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "Swallow The Sun",
+            "head_color": "#000000",
+            "subtitle": "Shining",
+            "subhead_color": "#000000",
+            "content": "Ltd. CD Digipak\nblack LP\nLtd. Gatefold transp. sun yellow LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 18",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Swallow+The+Sun&sort_by=created-descending"
+          }
+        },
         "banner_km8CMJ": {
           "type": "banner",
           "settings": {
@@ -343,6 +365,7 @@
         }
       },
       "block_order": [
+        "banner_iXMCC9",
         "banner_km8CMJ",
         "banner_UdbiCj",
         "banner_mJ6g88",
