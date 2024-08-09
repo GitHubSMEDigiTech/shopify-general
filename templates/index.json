@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_km8CMJ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/helga_veddersen.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/Solstafir_HinHelgaKvoel.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Sólstafir",
+            "head_color": "#ffffff",
+            "subtitle": "Hin Helga Kvöl",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Box Set\nLtd. CD Digipak\nblack LP\nLtd. Gatefold red LP & Art print\nLtd. Gatefold white LP & Art print\nLtd. Gatefold transp. light blue-lilac marbled LP & Art print",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "November 11",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=S%C3%B3lstafir"
+          }
+        },
         "banner_UdbiCj": {
           "type": "banner",
           "settings": {
@@ -231,50 +253,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Kanonenfieber&sort_by=created-descending"
           }
         },
-        "banner_6VnwrD": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DAF.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/darkfuneraldarkfuneral30thanniversaryeditionjpg_800ae5c2-3887-48c3-8fc0-91f0c9e6f0c5.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#7e8bb7",
-            "title": "dark funeral",
-            "head_color": "#ffffff",
-            "subtitle": "Dark Funeral (30th Anniversary Edition)",
-            "subhead_color": "#7e8bb7",
-            "content": "Standard CD Jewelcase\nLtd. transp. blue-black marbled LP & LP-Booklet\nHand-Numbered, incl. Signed Art Print - Strictly limited to only 300 copies!",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "august 9",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dark+Funeral&sort_by=created-descending"
-          }
-        },
-        "banner_hdP3wT": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/INAP.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/inaphelionreaperdawnjpg_997681ac-b072-4efb-b9d2-87a5ba840c3f.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#a1692e",
-            "title": "in aphelion",
-            "head_color": "#ffffff",
-            "subtitle": "reaperdawn",
-            "subhead_color": "#ef1f25",
-            "content": "Standard CD Jewelcase\nGatefold black LP\nLtd. Gatefold bloodred LP (red Vinyl)",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#a1692e",
-            "show_preorder": true,
-            "preorder_msg": "august 9",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=In+Aphelion&sort_by=created-descending"
-          }
-        },
         "banner_UqWUbb": {
           "type": "banner",
           "settings": {
@@ -365,6 +343,7 @@
         }
       },
       "block_order": [
+        "banner_km8CMJ",
         "banner_UdbiCj",
         "banner_mJ6g88",
         "banner_xLBjAJ",
@@ -373,8 +352,6 @@
         "banner_exmHjp",
         "banner_3M3Hqm",
         "banner_naHAQx",
-        "banner_6VnwrD",
-        "banner_hdP3wT",
         "banner_UqWUbb",
         "banner_ikGaAY",
         "banner_KChdED",
