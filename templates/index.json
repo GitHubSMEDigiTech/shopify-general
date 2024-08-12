@@ -570,6 +570,14 @@
         "button_text": "Regolamento",
         "button_link": "shopify:\/\/pages\/la-settimana-musicalistica"
       }
+    },
+    "custom_liquid_LLYp3Y": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "include_margins": false,
+        "liquid": "<iframe height=\"650\" frameborder=\"0\" scrolling=\"yes\" layout=\"responsive\" allow=\"fullscreen\" sandbox=\"allow-downloads allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-scripts allow-top-navigation-by-user-activation\" resizable src=\"https:\/\/quiz.appify-pro.com\/quiz-maker\/admin\/admin-ajax.php?action=iframe&quiz=InNtLWl0ZDJjLm15c2hvcGlmeS5jb20lJTE0Ig%3D%3D&shop_url=sm-itd2c.myshopify.com&embed=1\" style=\"width:100%; max-width: 100%; margin: 0 auto; overflow: hidden;\"><\/iframe> <script type=\"text\/javascript\" src=\"https:\/\/quiz.appify-pro.com\/quiz-maker\/public\/js\/iframeResizer.min.js\"><\/script> <script type=\"text\/javascript\">iFrameResize({inPageLinks: true});<\/script>"
+      }
     }
   },
   "order": [
@@ -587,6 +595,7 @@
     "rich_text_zKVnLa",
     "newsletter_sme_96dtxz",
     "newsletter_TmNANi",
-    "image_with_text_V6NWLB"
+    "image_with_text_V6NWLB",
+    "custom_liquid_LLYp3Y"
   ]
 }
