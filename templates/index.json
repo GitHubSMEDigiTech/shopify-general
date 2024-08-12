@@ -558,6 +558,18 @@
         "background": "#ffffff",
         "text": "#000000"
       }
+    },
+    "image_with_text_V6NWLB": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Immagine1_2.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "LA SETTIMANA MUSICALISTICA",
+        "content": "<p>Partecipa al Quiz de \"<strong>La Settimana Musicalistica<\/strong>\" e ricevi fantastici premi!<\/p>",
+        "button_text": "Regolamento",
+        "button_link": "shopify:\/\/pages\/la-settimana-musicalistica"
+      }
     }
   },
   "order": [
@@ -574,6 +586,7 @@
     "newsletter_sme_popup_9K3hq4",
     "rich_text_zKVnLa",
     "newsletter_sme_96dtxz",
-    "newsletter_TmNANi"
+    "newsletter_TmNANi",
+    "image_with_text_V6NWLB"
   ]
 }
