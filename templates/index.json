@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_nwja4d": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FEVER.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/FEVER_333_DARKER_WHITE.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Fever 333",
+            "head_color": "#eeeeee",
+            "subtitle": "Darker White",
+            "subhead_color": "#eeeeee",
+            "content": "Standard CD Jewelcase\nLtd. POW333R MARBL333D LP (white-lilac-transp. magenta marbled Vinyl)",
+            "content_color": "#eeeeee",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 4",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_iXMCC9": {
           "type": "banner",
           "settings": {
@@ -365,6 +387,7 @@
         }
       },
       "block_order": [
+        "banner_nwja4d",
         "banner_iXMCC9",
         "banner_km8CMJ",
         "banner_UdbiCj",
