@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_9xMMjy": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kalt.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/Frost_Life_In_The_Wires_Packshot_3000px.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Frost*",
+            "head_color": "#cf0e0e",
+            "subtitle": "Life In The Wire",
+            "subhead_color": "#cf0e0e",
+            "content": "Ltd. 2CD Edition\nGatefold black 2LP\nLtd. Gatefold transp. red 2LP",
+            "content_color": "#cf0e0e",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 18",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Frost*&sort_by=created-descending"
+          }
+        },
         "banner_7KHxNe": {
           "type": "banner",
           "settings": {
@@ -142,139 +164,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Leprous&sort_by=created-descending"
           }
         },
-        "banner_LfNeiK": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SHBAY.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/stevehackettbayofkingsjpg_b6f907ed-885e-486b-98aa-83c8c60fa644.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "steve hackett",
-            "head_color": "#ffffff",
-            "subtitle": "bay of kings (Re-Issues 2024)",
-            "subhead_color": "#ffffff",
-            "content": "Special Edition CD Digipak\nGatefold black LP\nLtd. Gatefold transp. light blue LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "August 2",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
-        "banner_cN7FjR": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SHMO.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/stevehackettmomentumjpg_6330b9c3-76d8-4987-b387-99015ef922d5.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "steve hackett",
-            "head_color": "#910021",
-            "subtitle": "momentum (re-issues 2024)",
-            "subhead_color": "#910021",
-            "content": "Special Edition CD Digipak\nGatefold black LP\nLtd. Gatefold transp. orange LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "august 2",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
-        "banner_QUaajT": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Fishy.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Beardfish_Destined_0524_750-1100.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Beardfish_DestinedSolitaire.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "Beardfish",
-            "head_color": "#000000",
-            "subtitle": "Destined Solitaire",
-            "subhead_color": "#222021",
-            "content": "Gatefold black 2LP & LP-Booklet\nLtd. Gatefold transp. red 2LP & LP-Booklet",
-            "content_color": "#222021",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "July 19",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Beardfish&sort_by=created-descending"
-          }
-        },
-        "banner_9jMdYT": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner_kaipa.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/kaipasommargryningsljusjpg.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "KAIPA",
-            "head_color": "#ffffff",
-            "subtitle": "Sommargryningsljus",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Mediabook, Gatefold Black 2LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "JULY 28",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Kaipa&sort_by=created-descending"
-          }
-        },
-        "banner_AwR8cY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NI_NO.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/nightingalenightfalloverturereissueremasterjpg_428c1b0f-5943-4ced-94bc-f2d41457a035.jpg",
-            "cover_effect": "border",
-            "cover_color": "#ffffff",
-            "title": "nightingale",
-            "head_color": "#ffffff",
-            "subtitle": "Nightfall Overture (Re-issue)",
-            "subhead_color": "#555555",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. light blue LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 21",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Nightingale&sort_by=created-descending"
-          }
-        },
-        "banner_dFPYTP": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PW_4e61fc65-0630-41f2-87c8-d526b8346a65.jpg",
-            "bg_color": "#000000",
-            "cover_image": "shopify:\/\/shop_images\/psychoticwaltztochasethestarsdemos1987-1989jpg_0e5aa189-a824-4ead-93f0-940c81bbf20a.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#cfccca",
-            "title": "psychotic waltz",
-            "head_color": "#e2d9d2",
-            "subtitle": "re-issues 2024",
-            "subhead_color": "#e2d9d2",
-            "content": "A Social Grace \nBleeding\nInto The Everflow\nMosquito\nto chase the stars (demos 1987-1989)",
-            "content_color": "#4d7525",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#e2d9d2",
-            "show_preorder": true,
-            "preorder_msg": "May 31 \/ July 12",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Psychotic+Waltz&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -298,16 +187,11 @@
         }
       },
       "block_order": [
+        "banner_9xMMjy",
         "banner_7KHxNe",
         "banner_JnQdPc",
         "banner_NTbQaL",
         "banner_N49d3z",
-        "banner_LfNeiK",
-        "banner_cN7FjR",
-        "banner_QUaajT",
-        "banner_9jMdYT",
-        "banner_AwR8cY",
-        "banner_dFPYTP",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
