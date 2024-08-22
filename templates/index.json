@@ -305,26 +305,6 @@
         "button_link": "shopify:\/\/collections\/festa-della-musica"
       }
     },
-    "rich_text_3HiydX": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "regular",
-        "title": "ATTENZIONE",
-        "h_one": false,
-        "content": "<p>Le consegne potrebbero subire dei ritardi durante la settimana di Ferragosto. <br\/>Per qualsiasi informazione puoi sempre inviare una mail a contact.store.ita@sonymusic.com<\/p>",
-        "button_text": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "bg_color": "#c5161c",
-        "text_color": "#ffffff",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
@@ -584,7 +564,6 @@
     "slideshow_dwDbqU",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
-    "rich_text_3HiydX",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
     "promotion_list_wAJLbg",
