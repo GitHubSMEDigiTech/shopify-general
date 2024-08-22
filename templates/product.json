@@ -121,7 +121,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Prodotti consigliati",
         "show_quick_buy": false
       }
     },
