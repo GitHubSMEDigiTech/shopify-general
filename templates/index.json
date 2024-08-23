@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_MFQWzE": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pn_cb9b1946-f705-4149-99f7-30dc12db68d3.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/devintownsendpowernerdjpg_1af1a260-9985-4bfa-9283-bc98390e5267.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Devin townsend",
+            "head_color": "#e40613",
+            "subtitle": "powernerd",
+            "subhead_color": "#55575c",
+            "content": "Ltd. 2CD+Blu-ray Artbook\nLtd. 2CD Digipak & O-Card Standard CD Jewelcase Gatefold black LP & LP-Booklet Ltd. Gatefold white LP & LP-Booklet Ltd. Gatefold transp. coke bottle green LP & LP-Booklet Ltd. Gatefold dark green LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "october 25",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Devin+Townsend&sort_by=created-descending"
+          }
+        },
         "banner_9xMMjy": {
           "type": "banner",
           "settings": {
@@ -187,6 +209,7 @@
         }
       },
       "block_order": [
+        "banner_MFQWzE",
         "banner_9xMMjy",
         "banner_7KHxNe",
         "banner_JnQdPc",
