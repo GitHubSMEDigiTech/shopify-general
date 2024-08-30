@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_XN4Ky4": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BF.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/beardfishsongsforbeatingheartsjpg_f83c78a5-227c-4bc2-8dba-3a967a752c1e.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ef1e06",
+            "title": "beardfish",
+            "head_color": "#ffffff",
+            "subtitle": "Songs for beating hearts",
+            "subhead_color": "#51c72b",
+            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold transp. orange LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ef1e06",
+            "show_preorder": true,
+            "preorder_msg": "November 1",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Beardfish&sort_by=created-descending"
+          }
+        },
         "banner_MFQWzE": {
           "type": "banner",
           "settings": {
@@ -209,6 +231,7 @@
         }
       },
       "block_order": [
+        "banner_XN4Ky4",
         "banner_MFQWzE",
         "banner_9xMMjy",
         "banner_7KHxNe",
