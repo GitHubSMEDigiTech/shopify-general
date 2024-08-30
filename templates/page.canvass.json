@@ -17,60 +17,6 @@
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
       "blocks": {
-        "item_HEn3j9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/25385642_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#fc2a68",
-            "text_color": "#ffffff",
-            "title": "Canvass 26 luglio 2024",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#fc2a68",
-            "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-26-luglio-2024"
-          }
-        },
-        "item_GrVxjL": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/25353760_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#26c1ce",
-            "text_color": "#ffffff",
-            "title": "Canvass 2 agosto 2024",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#26c1ce",
-            "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-02-agosto-2024"
-          }
-        },
-        "item_RNL79p": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/25349052_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Canvass 9 agosto 2024",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-09-agosto-2024"
-          }
-        },
         "item_76VNq3": {
           "type": "item",
           "settings": {
@@ -163,9 +109,6 @@
         }
       },
       "block_order": [
-        "item_HEn3j9",
-        "item_GrVxjL",
-        "item_RNL79p",
         "item_76VNq3",
         "item_GcUFUx",
         "item_UYE3jp",
