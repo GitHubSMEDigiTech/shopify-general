@@ -46,23 +46,6 @@
             "link": "shopify:\/\/collections\/yungest-moonstar"
           }
         },
-        "image_TwXfBi": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1200x600_531d615e-f2d2-4f96-92d6-771180a7f6c5.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/856x534_f3686f83-cf51-48fb-8d1a-68ec27dea7e4.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/collections\/papa-v"
-          }
-        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -165,23 +148,6 @@
             "link": "shopify:\/\/collections\/mezzosangue"
           }
         },
-        "image_B3rw7r": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/teduadesktop.png",
-            "mobile_image": "shopify:\/\/shop_images\/teduamobile_e14f1290-6c39-4cee-8b9c-7ae4e767e05d.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/collections\/tedua"
-          }
-        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -203,20 +169,18 @@
       "block_order": [
         "image_3wJqzQ",
         "image_XHmBAC",
-        "image_TwXfBi",
         "image_eUhDX7",
         "image_hhc4xB",
         "image_cd6H7W",
         "image_QeQ8wi",
         "image_c6iKRK",
         "image_7m99JY",
-        "image_B3rw7r",
         "image_zLLxyF"
       ],
       "settings": {
         "edge_to_edge": false,
         "section_size": "medium",
-        "mobile_section_size": "mobile_small",
+        "mobile_section_size": "",
         "carousel_effect": "fade",
         "autoplay": true,
         "show_arrows": true,
