@@ -27,7 +27,7 @@
                 </ul>
               {% endunless %}
               <!-- Start new section -->
-                <div class="accordion" id="vendor_{{ vendor_letter }}"><span>{{ vendor_letter }}</span> {%- render 'icon', icon: 'plus' -%}</div>
+                <div class="accordion" id="vendor_{{ vendor_letter }}" aria-label="Toggle {{ vendor_letter |  escape}}-Vendors"><span>{{ vendor_letter }}</span> {%- render 'icon', icon: 'plus' -%}</div>
                 <ul class="panel">
             {% endif %}
              <!-- Section content, vendor list -->
@@ -47,7 +47,7 @@
 
           {% endfor %} 
         </div>
-        <ul class="vendor_nav">
+        <ul class="vendor_nav" aria-hidden="true">
           {% assign acc_nav_arr = acc_nav|  split: "-" %}
           {%  for nav in acc_nav_arr %} 
             <li onclick="navigate('vendor_{{ nav }}')">{{ nav }}</li>
