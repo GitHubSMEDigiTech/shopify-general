@@ -7,7 +7,7 @@
             {%- case block.type -%}
               {%- when 'text' -%}
                 <div class="footer__block-item footer__block-item--text" {{ block.shopify_attributes }}>
-                  <button class="footer__title heading h6" disabled aria-expanded="false" aria-controls="block-{{ block.id }}" data-action="toggle-collapsible">
+                  <button class="footer__title heading h6" disabled aria-expanded="false" aria-controls="block-{{ block.id }}" data-action="toggle-collapsible" aria-label="{{ block.settings.title }} toggle">
                     <span>{{ block.settings.title | escape }}</span>
                     <span class="plus-button"></span>
                   </button>

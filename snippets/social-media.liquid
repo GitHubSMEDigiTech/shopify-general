@@ -121,7 +121,7 @@
 {%- endcapture -%}
 
 {%- if social_media_count > 0 -%}
-  <ul class="social-media__item-list {% if show_social_media_name %}social-media__item-list--stack{% endif %} list--unstyled" role="list">
+  <ul class="social-media__item-list {% if show_social_media_name %}social-media__item-list--stack{% endif %} list--unstyled" role="list" {% if show_social_media_name %}{{ show_social_media_name }}{% endif %}>
     {{ social_media }}
   </ul>
 {%- endif -%}
