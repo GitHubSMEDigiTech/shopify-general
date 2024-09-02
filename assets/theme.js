@@ -6839,6 +6839,7 @@
       PrevNextButton.prototype.createSVG = function () {
         var svg = document.createElementNS(svgURI, 'svg');
         svg.setAttribute('class', 'flickity-button-icon');
+        svg.setAttribute('ariaLabel', `${this.isPrevious ? ' previous' : ' next'} Slide`);
         svg.setAttribute('viewBox', '0 0 100 100');
         var path = document.createElementNS(svgURI, 'path');
         var pathMovements = getArrowMovements(this.parent.options.arrowShape);
