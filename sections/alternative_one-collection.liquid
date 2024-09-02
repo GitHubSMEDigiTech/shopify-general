@@ -528,7 +528,8 @@ window.addEventListener('load', function() {
     window.onscroll = function () {
       let scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
       let rightHeight = right.offsetHeight;
-      if(scrollTop < rightHeight - left.offsetHeight) {
+      if(scrollTop < rightHeight - left.offsetHeight*2) {
+      //if(left.scrollTop + left.offsetHeight >= right.scrollTop + rightHeight ) {
         left.classList.add(scrollClass)
       } else {
         left.classList.remove(scrollClass)
