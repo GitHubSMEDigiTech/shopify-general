@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_c6iKRK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shiva_BannerDesktop_2160x720_v2_49f7a252-955e-46da-979c-944704eab44f.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/bannermobileshiva3_750581ef-8a81-4982-aa35-3713c8c4c979.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/habitat-tour-lp-nero-live-edition"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -114,23 +131,6 @@
             "link": "shopify:\/\/products\/zepeck"
           }
         },
-        "image_c6iKRK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/naytdesktop.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/MOBILENAYT.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/products\/habitat-tour-lp-nero-live-edition"
-          }
-        },
         "image_7m99JY": {
           "type": "image",
           "settings": {
@@ -167,13 +167,13 @@
         }
       },
       "block_order": [
+        "image_c6iKRK",
         "image_3wJqzQ",
         "image_XHmBAC",
         "image_eUhDX7",
         "image_hhc4xB",
         "image_cd6H7W",
         "image_QeQ8wi",
-        "image_c6iKRK",
         "image_7m99JY",
         "image_zLLxyF"
       ],
