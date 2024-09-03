@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Shiva_BannerDesktop_2160x720_v2_49f7a252-955e-46da-979c-944704eab44f.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/bannermobileshiva3_750581ef-8a81-4982-aa35-3713c8c4c979.png",
+            "mobile_image": "shopify:\/\/shop_images\/shivamobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
