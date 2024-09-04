@@ -11,7 +11,20 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "image_with_text_pjWN9e": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Immagine1_2.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "PREMI IN PALIO",
+        "content": "<p><strong>1.<\/strong>\t30% di sconto non cumulabile con altre promozioni in corso utilizzabile su sony music store<br\/><strong>2.<\/strong>\t20% di sconto non cumulabile con altre promozioni in corso utilizzabile su sony music store<br\/><strong>3.<\/strong>\t15% di sconto non cumulabile con altre promozioni in corso utilizzabile su sony music store<\/p>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/all"
       }
     },
     "rich_text_RfWnC3": {
@@ -37,6 +50,7 @@
   },
   "order": [
     "main",
+    "image_with_text_pjWN9e",
     "rich_text_RfWnC3"
   ]
 }
