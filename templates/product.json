@@ -73,7 +73,6 @@
     },
     "custom_liquid_GALb9j": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         "{font-size: 16px;}"
       ],
@@ -107,24 +106,12 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
-    },
-    "custom_liquid_ApHwej": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "{font-size: 16px;}"
-      ],
-      "settings": {
-        "title": "Tracklist",
-        "include_margins": true,
-        "liquid": "{{product.metafields.meta.tracklist}}"
-      }
     }
   },
   "order": [
     "main",
     "custom_liquid_GALb9j",
     "product-recommendations",
-    "recently-viewed-products",
-    "custom_liquid_ApHwej"
+    "recently-viewed-products"
   ]
 }
