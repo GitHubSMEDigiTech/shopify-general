@@ -110,6 +110,9 @@
     },
     "custom_liquid_ApHwej": {
       "type": "custom-liquid",
+      "custom_css": [
+        "{font-site: 16px; }"
+      ],
       "settings": {
         "title": "Tracklist",
         "include_margins": true,
