@@ -43,24 +43,13 @@
           "settings": {
             "display_mode": "show_all"
           }
-        },
-        "liquid_eFVXPR": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "title": "Tracklist",
-            "sku": "",
-            "liquid": "{{product.metafields.meta.tracklist}}",
-            "display_mode": "show_all"
-          }
         }
       },
       "block_order": [
         "product_meta",
         "variant_selector",
         "buy_buttons",
-        "description",
-        "liquid_eFVXPR"
+        "description"
       ],
       "settings": {
         "list_collections": false,
