@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_GyqJGX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/neal.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/nealmorsetheresonancenohillforaclimberjpg_68fa0149-7628-4c69-a25c-1b906940a347.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "neal morse",
+            "head_color": "#ffffff",
+            "subtitle": "no hill for a climber",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. 2CD Digipak\nStandard CD Jewelcase\nGatefold black 2LP\nLtd. Gatefold transp. petrol green 2LP",
+            "content_color": "#5690ad",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#5690ad",
+            "show_preorder": true,
+            "preorder_msg": "November 8",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Neal+Morse&sort_by=created-descending"
+          }
+        },
         "banner_XN4Ky4": {
           "type": "banner",
           "settings": {
@@ -186,28 +208,6 @@
             "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Jordan+Rudess&sort_by=created-ascending"
           }
         },
-        "banner_N49d3z": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LEP.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/leprousmelodiesofatonementjpg_91b63551-e711-4bb1-9b8c-db0b1768c3c2.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#fcf3b2",
-            "title": "leprous",
-            "head_color": "#ffffff",
-            "subtitle": "melodies of atonement",
-            "subhead_color": "#fcf3b2",
-            "content": "Ltd. Deluxe 2CD+Blu-ray Artbook\nLtd. CD Mediabook & Patch\nStandard CD Jewelcase\nGatefold black 2LP\nLtd. Gatefold transp. red 2LP\nLtd. Gatefold transp. sun yellow-black marbled 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#fcf3b2",
-            "show_preorder": true,
-            "preorder_msg": "august 30",
-            "preorder_msg_color": "#da1810",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Leprous&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -231,13 +231,13 @@
         }
       },
       "block_order": [
+        "banner_GyqJGX",
         "banner_XN4Ky4",
         "banner_MFQWzE",
         "banner_9xMMjy",
         "banner_7KHxNe",
         "banner_JnQdPc",
         "banner_NTbQaL",
-        "banner_N49d3z",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
