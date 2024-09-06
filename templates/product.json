@@ -64,7 +64,8 @@
       "type": "custom-liquid",
       "custom_css": [
         "{font-size: 16px;}",
-        "table {}"
+        "table {}",
+        "td, th {padding: 10px;}"
       ],
       "settings": {
         "title": "Tracklist",
