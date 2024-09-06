@@ -53,6 +53,94 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_PxNWz7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/enf.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/enforcedaleapintothedarkepjpg_84991ced-1507-4999-a259-e81f8ab26b4f.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "enforced",
+            "head_color": "#e71820",
+            "subtitle": "a leap into the dark",
+            "subhead_color": "#e71820",
+            "content": "Standard CD Jewelcase\nblack LP\nLtd. red LP",
+            "content_color": "#e71820",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#e71820",
+            "show_preorder": true,
+            "preorder_msg": "october 25",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Enforced&sort_by=created-descending"
+          }
+        },
+        "banner_B4DQtx": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dist.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/distanttsukuyomioriginsjpg_b6827894-fe22-480c-a906-0bcb4c9ad9f4.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "distant",
+            "head_color": "#ffffff",
+            "subtitle": "Tsukuyomi: The Origin",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nblack LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#cfa943",
+            "show_preorder": true,
+            "preorder_msg": "november 22",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Distant&sort_by=created-descending"
+          }
+        },
+        "banner_qdQnhA": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tribu.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/tribulationsubrosainaeternumjpg_71f82ce8-169a-47c3-ae28-596c111d8f36.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#d60913",
+            "title": "tribulation",
+            "head_color": "#d60913",
+            "subtitle": "Sub Rosa In Æternum",
+            "subhead_color": "#d60913",
+            "content": "Ltd. CD Mediabook\nStandard CD Jewelcase\nblack LP\nLtd. Gatefold ultra clear LP & LP-Booklet\nLtd. Gatefold Side A\/B split (red&black) LP & LP-Booklet",
+            "content_color": "#d60913",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#d60913",
+            "show_preorder": true,
+            "preorder_msg": "november 1",
+            "preorder_msg_color": "#ffffff",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Tribulation&sort_by=created-descending"
+          }
+        },
+        "banner_G8pfGX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/darkt.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/darktranquillityprojector2024jpg_ed87a2eb-bbb7-40e0-98f9-f9473962d25b.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#f9ef95",
+            "title": "dark tranquillity",
+            "head_color": "#ffffff",
+            "subtitle": "projector",
+            "subhead_color": "#afb5b5",
+            "content": "Ltd. brick red LP\nLtd. transp. sun yellow LP",
+            "content_color": "#afb5b5",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#f9ef95",
+            "show_preorder": true,
+            "preorder_msg": "november 1",
+            "preorder_msg_color": "#000000",
+            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Dark+Tranquillity&sort_by=created-descending"
+          }
+        },
         "banner_nwja4d": {
           "type": "banner",
           "settings": {
@@ -253,28 +341,6 @@
             "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Bewitcher&sort_by=created-descending"
           }
         },
-        "banner_3M3Hqm": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DT.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/darktranquillityendtimesignalsstandardjpg_793e8035-0dbd-4bd4-b739-3f3b5df9498e.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "dark tranquillity",
-            "head_color": "#c5c5c5",
-            "subtitle": "endtime signals",
-            "subhead_color": "#e6564e",
-            "content": "Ltd. Deluxe Gatefold 2LP (Midnight Haze LP & black bonus LP) in O-Card\nLtd. CD Digipak in O-Card\nStandard CD Jewelcase\nGatefold black LP\nLtd. Gatefold pearlescent deep-blue LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "august 16",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dark+Tranquillity&sort_by=created-descending"
-          }
-        },
         "banner_naHAQx": {
           "type": "banner",
           "settings": {
@@ -319,50 +385,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Heriot&sort_by=created-descending"
           }
         },
-        "banner_ikGaAY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EOS.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/edgeofsanitynothingbutdeathremainsreissue2024jpg_ad47072a-9e26-4f38-9bcb-355299200835.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Edge of sanity",
-            "head_color": "#5d4090",
-            "subtitle": "nothing but death remains (Re-issue)",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. blue LP\nLtd. lilac LP",
-            "content_color": "#5d4090",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#5d4090",
-            "show_preorder": true,
-            "preorder_msg": "august 23",
-            "preorder_msg_color": "#ffffff",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
-        },
-        "banner_KChdED": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DREV.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/dreamevilmetalgodsjpg_7f850ee0-bfc2-445c-8d6a-61f689469e59.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#f99528",
-            "title": "dream evil",
-            "head_color": "#ffffff",
-            "subtitle": "metal gods",
-            "subhead_color": "#f99528",
-            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. sun yellow LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#f99528",
-            "show_preorder": true,
-            "preorder_msg": "July 26",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Dream+Evil&sort_by=created-descending"
-          }
-        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "settings": {
@@ -387,6 +409,10 @@
         }
       },
       "block_order": [
+        "banner_PxNWz7",
+        "banner_B4DQtx",
+        "banner_qdQnhA",
+        "banner_G8pfGX",
         "banner_nwja4d",
         "banner_iXMCC9",
         "banner_km8CMJ",
@@ -396,11 +422,8 @@
         "banner_bQfLaj",
         "banner_C3ipp6",
         "banner_exmHjp",
-        "banner_3M3Hqm",
         "banner_naHAQx",
         "banner_UqWUbb",
-        "banner_ikGaAY",
-        "banner_KChdED",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
