@@ -223,7 +223,11 @@
       <h3><a href="{{ filtered_variant.url | default: product.url }}" class="product-item__title text--strong link">{{ product.title }}</a></h3>
       {%- if show_b2b -%}
         <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
-        {{ product.metafields.meta.support }} </div>
+        {{ product.metafields.meta.support }} 
+        Barcode: {{ selected_variant.barcode }} <br>
+        {{- 'product.general.sku' | t -}} <span class="product-meta__sku-number">{{ selected_variant.sku }}</span> <br>
+        Pezzi: {{ product.metafields.meta.item_in_set }}
+        </div>
       {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}
