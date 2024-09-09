@@ -86,7 +86,11 @@
 
       {%- if block.settings.show_sku -%}
         <span class="product-meta__sku" {% if selected_variant.sku == blank %}style="display: none"{% endif %}>
-          {{- 'product.general.sku' | t -}} <span class="product-meta__sku-number">{{ selected_variant.sku }}</span>
+          Barcode: {{ selected_variant.barcode }} <br>
+          {{- 'product.general.sku' | t -}} <span class="product-meta__sku-number">{{ selected_variant.sku }}</span> <br>
+          Release: {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
+          Support: {{ product.metafields.meta.support }}<br>
+          Pezzi: {{ product.metafields.meta.item_in_set }}
         </span>
       {%- endif -%}
     </div>
