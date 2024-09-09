@@ -88,8 +88,8 @@
         <span class="product-meta__sku" {% if selected_variant.sku == blank %}style="display: none"{% endif %}>
           Barcode: {{ selected_variant.barcode }} <br>
           {{- 'product.general.sku' | t -}} <span class="product-meta__sku-number">{{ selected_variant.sku }}</span> <br>
-          Release: {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
-          Support: {{ product.metafields.meta.support }}<br>
+          Data release: {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
+          Supporto: {{ product.metafields.meta.support }}<br>
           Pezzi: {{ product.metafields.meta.item_in_set }}
         </span>
       {%- endif -%}
