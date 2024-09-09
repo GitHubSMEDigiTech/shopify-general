@@ -224,9 +224,11 @@
       {%- if show_b2b -%}
         Barcode: {{ filtered_variant.barcode }} <br>
         {{- 'product.general.sku' | t -}} <span class="product-meta__sku-number">{{ filtered_variant.sku }}</span> <br>
+        <div class="product-item__vendor">
         Data release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
         Supporto: {{ product.metafields.meta.support }} <br>
         Pezzi: {{ product.metafields.meta.item_in_set }}
+        </div>
       {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}
