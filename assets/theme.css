@@ -10093,8 +10093,8 @@ shopify-payment-terms {
   display: block;
   margin-bottom: 6px;
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
-  #text-transform: uppercase;
-}
+  /* text-transform: uppercase; */
+ }
 
 .product-item__vendor,
 .product-item__title {
@@ -14461,4 +14461,7 @@ shopify-payment-terms {
   .value-picker--auto {
     min-width: 0;
   }
+}
+.list-price {
+   margin-right: 6px;
 }

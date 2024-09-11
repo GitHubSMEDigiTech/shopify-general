@@ -140,7 +140,32 @@
     <span class="product-form__info-title text--strong">{{ 'product.form.price' | t }}:</span>
 
     <div class="product-form__info-content" role="region" aria-live="polite">
-      <div class="price-list">
+      
+    <div class="price-list">
+
+    <div class="product-item__vendor list-price">
+      <span class="price price--compare">
+          <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
+          {%- if settings.currency_code_enabled -%}
+            {{- product.metafields.meta.list_ppd | times: 100 | money_with_currency -}} 
+          {%- else -%}
+            {{- product.metafields.meta.list_ppd | times: 100 | money -}} 
+          {%- endif -%}
+        </span></div><br>
+
+        {%- if product.metafields.meta.campaign_ppd > 0 -%}
+        <div class="product-item__vendor list-price">Campaign:
+          <span class="price price--compare">
+          <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
+          {%- if settings.currency_code_enabled -%}
+            {{- product.metafields.meta.campaign_ppd | times: 100 | money_with_currency -}} 
+          {%- else -%}
+            {{- product.metafields.meta.campaign_ppd | times: 100 | money -}} 
+          {%- endif -%}
+        </span></div><br>
+
+        {%- endif -%}
+        
         {%- if selected_variant.compare_at_price > selected_variant.price -%}
           <span class="price price--highlight">
             <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
@@ -172,6 +197,8 @@
             {%- endif -%}
           </span>
         {%- endif -%}
+      
+        </div>
       </div>
 
       <div class="product-form__price-info" style="display: {% if selected_variant.unit_price_measurement %}block{% else %}none{% endif %}">

@@ -91,7 +91,7 @@
       {%- capture price_list -%}
         <div class="product-item__price-list price-list">
           {%- if show_b2b -%}
-            <div class="product-item__vendor">List:
+            <div class="product-item__vendor list-price">List:
             <span class="price price--compare">
                 <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {%- if settings.currency_code_enabled -%}
@@ -102,7 +102,7 @@
               </span></div><br>
 
               {%- if product.metafields.meta.campaign_ppd > 0 -%}
-              <div class="product-item__vendor">Campaign:
+              <div class="product-item__vendor list-price">Campaign:
                 <span class="price price--compare">
                 <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {%- if settings.currency_code_enabled -%}
