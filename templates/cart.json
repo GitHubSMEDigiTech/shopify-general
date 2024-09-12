@@ -1,13 +1,48 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-cart",
+      "blocks": {
+        "trust_Lr7JQf": {
+          "type": "trust",
+          "settings": {
+            "icon": "bi-alert",
+            "title": "Your title",
+            "content": "<p>Short content about your store<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "trust_Lr7JQf"
+      ],
       "settings": {
+        "enable_order_notes": true,
+        "show_payment_icons": true,
+        "gift_wrap_product": "",
+        "gift_wrap_text": "Do you want a gift wrap?",
+        "gift_wrap_button": "Add a gift wrap",
+        "show_shipping_estimator": true,
+        "shipping_estimator_default_country": "United States",
+        "trust_heading": "Our guarantees",
+        "upsell_heading": "Complete your cart",
+        "upsell_collection": "",
+        "upsell_products_count": 4
       }
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
+        "title": "Recently viewed",
+        "show_quick_buy": false
       }
     }
   },
