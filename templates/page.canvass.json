@@ -17,24 +17,6 @@
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
       "blocks": {
-        "item_76VNq3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SME-Logo_d0ad3fdc-dc1d-4510-bd02-c7cc9e0a5d38.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Canvass 30 agosto 2024",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-30-agosto-2024"
-          }
-        },
         "item_GcUFUx": {
           "type": "item",
           "settings": {
@@ -124,25 +106,61 @@
             "button_text": "Entra",
             "button_link": "shopify:\/\/collections\/canvass-04-ottobre-2024"
           }
+        },
+        "item_FaqfVg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SME-Logo_3bd5dd06-019d-42ab-a7bf-160f56c5419b.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 11 ottobre 2024",
+            "content": "Rovere - 11 case",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-11-ottobre-2024"
+          }
         }
       },
       "block_order": [
-        "item_76VNq3",
         "item_GcUFUx",
         "item_UYE3jp",
         "item_B7MRjp",
         "item_qCMgWn",
-        "item_WcjUA7"
+        "item_WcjUA7",
+        "item_FaqfVg"
       ],
       "settings": {
         "expand_items": false,
         "section_size": "medium",
         "stack_mobile": false
       }
+    },
+    "collection_with_image_jFbBcx": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "canvass-11-ottobre-2024",
+        "products_count": 12,
+        "show_quick_buy": true,
+        "image": "shopify:\/\/shop_images\/SME-Logo_3bd5dd06-019d-42ab-a7bf-160f56c5419b.jpg",
+        "background": "#0774d7",
+        "text_color": "#ffffff",
+        "title": "Canvass 11 ottobre 2024",
+        "content": "",
+        "button_background": "#e1e3e4",
+        "button_text_color": "#ff0000",
+        "button_text": "Entra",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
-    "promotion_list_PEcrT4"
+    "promotion_list_PEcrT4",
+    "collection_with_image_jFbBcx"
   ]
 }
