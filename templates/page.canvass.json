@@ -156,11 +156,29 @@
         "button_text": "Entra",
         "button_link": "shopify:\/\/collections\/canvass-11-ottobre-2024"
       }
+    },
+    "collection_with_image_b7axEB": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "canvass-18-ottobre-2024",
+        "products_count": 12,
+        "show_quick_buy": true,
+        "image": "shopify:\/\/shop_images\/SME-Logo_3bd5dd06-019d-42ab-a7bf-160f56c5419b.jpg",
+        "background": "#ffffff",
+        "text_color": "#1c1b1b",
+        "title": "Canvass 18 ottobre 2024",
+        "content": "",
+        "button_background": "#e1e3e4",
+        "button_text_color": "#ff0000",
+        "button_text": "Entra",
+        "button_link": "shopify:\/\/collections\/canvass-18-ottobre-2024"
+      }
     }
   },
   "order": [
     "main",
     "promotion_list_PEcrT4",
-    "collection_with_image_jFbBcx"
+    "collection_with_image_jFbBcx",
+    "collection_with_image_b7axEB"
   ]
 }
