@@ -418,7 +418,10 @@
                     </div>
                   </header>
                 {% endunless %} 
+                
 
+
+                <!--
                 <div>
                   <div class="collection__toolbar {% if collection.description != blank or collection.template_suffix == 'brand' %}collection__toolbar--bordered{% endif %}">
                     {%- if has_filters -%}
@@ -436,8 +439,8 @@
 
                       <div class="value-picker-wrapper">
                         <button class="value-picker-button" aria-haspopup="true" aria-expanded="false" aria-controls="display-by-selector" data-action="open-value-picker">
-                          <span class="hidden-phone">{{ 'collection.general.display' | t }}: {{ 'collection.general.page_size' | t: page_size: paginate.page_size }}</span><!--
-                          -->{%- render 'icon', icon: 'arrow-bottom' -%}
+                          <span class="hidden-phone">{{ 'collection.general.display' | t }}: {{ 'collection.general.page_size' | t: page_size: paginate.page_size }}</span>
+                          {%- render 'icon', icon: 'arrow-bottom' -%}
                         </button>
 
                         <div id="display-by-selector" class="value-picker" aria-hidden="true">
@@ -473,9 +476,9 @@
 
                       <div class="value-picker-wrapper">
                         <button class="value-picker-button" aria-haspopup="true" aria-expanded="false" aria-controls="sort-by-selector" data-action="open-value-picker">
-                          <span class="hidden-tablet-and-up">{{ 'collection.sorting.title' | t }}</span><!--
-                          --><span class="hidden-phone">{{ 'collection.sorting.title' | t }}: {{ collection_sort_by_name }}</span><!--
-                          -->{%- render 'icon', icon: 'arrow-bottom' -%}
+                          <span class="hidden-tablet-and-up">{{ 'collection.sorting.title' | t }}</span>
+                          <span class="hidden-phone">{{ 'collection.sorting.title' | t }}: {{ collection_sort_by_name }}</span>
+                          {%- render 'icon', icon: 'arrow-bottom' -%}
                         </button>
 
                         <div id="sort-by-selector" class="value-picker" aria-hidden="true">
@@ -497,7 +500,7 @@
                       </div>
                     </div>
                   </div>
-
+                -->
                   {%- comment -%}
                   --------------------------------------------------------------------------------------
                   MOBILE FILTERS

@@ -10023,7 +10023,7 @@ shopify-payment-terms {
 
 .product-item {
   position: relative;
-  padding: 20px;
+  padding: 4px;
   min-width: 0;
   flex-shrink: 0;
   background: var(--secondary-background);
@@ -10074,7 +10074,7 @@ shopify-payment-terms {
 }
 
 .product-item__price-list:first-child {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 /* This trick is done to add some spacing in case the prices fall into two lines */
@@ -10103,7 +10103,7 @@ shopify-payment-terms {
 }
 
 .product-item__title {
-  margin-bottom: 12px;
+  margin-bottom: -20px;
 }
 
 .product-item__title + .product-item__vendor {
@@ -10137,7 +10137,7 @@ shopify-payment-terms {
 }
 
 .product-item__inventory {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .product-item__inventory::before {
