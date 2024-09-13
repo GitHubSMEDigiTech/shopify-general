@@ -106,6 +106,23 @@
             "button_text": "Entra",
             "button_link": "shopify:\/\/collections\/canvass-11-ottobre-2024"
           }
+        },
+        "item_zNE7Gz": {
+          "type": "item",
+          "settings": {
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 18 ottobre 2024",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify:\/\/collections\/canvass-18-ottobre-2024"
+          }
         }
       },
       "block_order": [
@@ -113,7 +130,8 @@
         "item_B7MRjp",
         "item_qCMgWn",
         "item_WcjUA7",
-        "item_FaqfVg"
+        "item_FaqfVg",
+        "item_zNE7Gz"
       ],
       "settings": {
         "expand_items": false,
