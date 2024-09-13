@@ -92,7 +92,7 @@
         "item_FaqfVg": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logosony.png",
+            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 70,
             "stretch_image": true,
