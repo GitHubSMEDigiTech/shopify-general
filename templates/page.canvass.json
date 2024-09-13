@@ -110,8 +110,9 @@
         "item_zNE7Gz": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
             "show_overlay": true,
-            "overlay_opacity": 50,
+            "overlay_opacity": 70,
             "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
