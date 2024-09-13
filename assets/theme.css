@@ -10023,7 +10023,7 @@ shopify-payment-terms {
 
 .product-item {
   position: relative;
-  padding: 4px;
+  padding: 4px 4px 4px 8px;
   min-width: 0;
   flex-shrink: 0;
   background: var(--secondary-background);
