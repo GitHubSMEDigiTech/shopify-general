@@ -20,7 +20,7 @@
         "item_UYE3jp": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SME-Logo_4c4a46ab-7a6c-4088-aaf4-ade6b18d5eef.jpg",
+            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": true,
@@ -38,7 +38,7 @@
         "item_B7MRjp": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SME-Logo_085fd2b8-f369-42ef-9264-8d306df022d6.jpg",
+            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": true,
@@ -56,7 +56,7 @@
         "item_qCMgWn": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/25667929_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": true,
@@ -74,7 +74,7 @@
         "item_WcjUA7": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/25668660_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": true,
