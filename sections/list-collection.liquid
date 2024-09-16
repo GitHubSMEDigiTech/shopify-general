@@ -855,11 +855,14 @@
 
       const items = document.querySelectorAll('#product-list .product-item__action-list')
       for (let i = 0; i < items.length; i++) {
-        let quantity = items[i].querySelector('[name="quantity"]').value
-        if(quantity > 0) {
-          let id = items[i].querySelector('[name="id"]')
-          formData.items.push({ 'id': id.value, 'quantity': quantity, 'displayPrice': id.dataset.price })
-        }
+        // Check if the quantity field is defined for the product (when out of stock, it is not defined)  
+        if (items[i].querySelector('[name="quantity"]')) {
+          let quantity = items[i].querySelector('[name="quantity"]').value
+          if(quantity > 0) {
+            let id = items[i].querySelector('[name="id"]')
+            formData.items.push({ 'id': id.value, 'quantity': quantity, 'displayPrice': id.dataset.price })
+          }
+        }  
       }
 
       return formData
