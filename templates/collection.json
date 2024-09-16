@@ -47,7 +47,7 @@
         "headline_deco_col": "#d82222",
         "collection_image_size": "small",
         "products_per_row": "4",
-        "default_products_per_page": 24,
+        "default_products_per_page": 48,
         "collection_pagination": "loading",
         "loading_button": "Load More",
         "show_quick_buy": "list",
