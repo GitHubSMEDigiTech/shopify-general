@@ -260,23 +260,6 @@
     "promotion_list_wAJLbg": {
       "type": "promotion-list",
       "blocks": {
-        "item_7nCVRt": {
-          "type": "item",
-          "settings": {
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "stretch_image": false,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Your heading",
-            "content": "Tell more about your product, collection...",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Learn more",
-            "button_link": ""
-          }
-        },
         "item_n8BaRz": {
           "type": "item",
           "settings": {
@@ -313,7 +296,6 @@
         }
       },
       "block_order": [
-        "item_7nCVRt",
         "item_n8BaRz",
         "item_Ua7X6D"
       ],
