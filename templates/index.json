@@ -204,7 +204,7 @@
           "settings": {
             "show_overlay": false,
             "overlay_opacity": 50,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#6f42ef",
             "text_color": "#ffffff",
             "title": "COFANETTI",
