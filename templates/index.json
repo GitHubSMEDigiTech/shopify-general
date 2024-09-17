@@ -196,6 +196,36 @@
         "stack_mobile": false
       }
     },
+    "promotion_list_teMBhT": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_YhampT": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#6f42ef",
+            "text_color": "#ffffff",
+            "title": "COFANETTI",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#6f42ef",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/collections\/cofanetti-45-euro"
+          }
+        }
+      },
+      "block_order": [
+        "item_YhampT"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
@@ -351,6 +381,7 @@
     "collection_list_XWxmfc",
     "promotion_list_kTecJ6",
     "promotion_list_NPgWtL",
+    "promotion_list_teMBhT",
     "featured_collection_Ln8Q76",
     "promotion_list_wAJLbg",
     "promotion_list_XTyR97",
