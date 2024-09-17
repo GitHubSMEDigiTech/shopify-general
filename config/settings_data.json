@@ -214,11 +214,25 @@
             "settings": {
               "menu": "footer"
             }
+          },
+          "links_m6R3NA": {
+            "type": "links",
+            "settings": {
+              "menu": "area-clienti"
+            }
+          },
+          "links_BLFmRg": {
+            "type": "links",
+            "settings": {
+              "menu": "main-menu"
+            }
           }
         },
         "block_order": [
           "text_E9wczG",
-          "footer-1"
+          "footer-1",
+          "links_m6R3NA",
+          "links_BLFmRg"
         ],
         "settings": {
           "show_social_media": true,
