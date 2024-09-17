@@ -165,6 +165,37 @@
         "stack_mobile": true
       }
     },
+    "promotion_list_NPgWtL": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_nFDWVx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/silver-cornet-instrument-on-sheet-music.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#6f42ef",
+            "text_color": "#ffffff",
+            "title": "Colonne Sonore",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#6f42ef",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/collections\/colonne-sonore"
+          }
+        }
+      },
+      "block_order": [
+        "item_nFDWVx"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
@@ -319,6 +350,7 @@
     "slideshow_dwDbqU",
     "collection_list_XWxmfc",
     "promotion_list_kTecJ6",
+    "promotion_list_NPgWtL",
     "featured_collection_Ln8Q76",
     "promotion_list_wAJLbg",
     "promotion_list_XTyR97",
