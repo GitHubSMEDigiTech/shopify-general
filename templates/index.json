@@ -293,11 +293,29 @@
             "button_text": "Scopri",
             "button_link": "shopify:\/\/collections\/carosello-records"
           }
+        },
+        "item_37rYHV": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Century Media",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/collections\/century-media"
+          }
         }
       },
       "block_order": [
         "item_n8BaRz",
-        "item_Ua7X6D"
+        "item_Ua7X6D",
+        "item_37rYHV"
       ],
       "settings": {
         "expand_items": true,
