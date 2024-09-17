@@ -16,6 +16,8 @@
     "footer_heading_text_color": "#ffffff",
     "footer_body_text_color": "#ffffff",
     "footer_accent_color": "#c5161c",
+    "heading_font": "roboto_n4",
+    "text_font": "roboto_n4",
     "currency_code_enabled": true,
     "show_vendor": true,
     "show_secondary_image": true,
@@ -206,7 +208,7 @@
             "settings": {
               "title": "About our store",
               "liquid": "<img style=\"max-width: 140px\" width=\"1659\" height=\"413\" src=\"\/\/sm-itd2c.myshopify.com\/cdn\/shop\/files\/SM_Horizontal_Oneline_RedandWhite_RGB_Logo_140x@2x.jpg?v=1707914749\" alt=\"Sony Music Italy D2C\">",
-              "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.<\/p><p>Partita IVA, CF e R.I.: 08072811006<br\/>R.E.A.: 1781820<\/p><p>Cap. Soc. 5.955.000,00 € i.v.<br\/>S.L. Tutti i diritti sono riservati<\/p>"
+              "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.<\/p><p>Partita IVA, CF e R.I.: 08072811006<br\/>R.E.A.: 1781820<\/p><h6>Cap. Soc. 5.955.000,00 € i.v.<br\/>S.L. Tutti i diritti sono riservati<\/h6>"
             }
           },
           "links_BLFmRg": {
