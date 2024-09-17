@@ -380,7 +380,7 @@
         "item_QUi4tg"
       ],
       "settings": {
-        "expand_items": false,
+        "expand_items": true,
         "section_size": "medium",
         "stack_mobile": false
       }
