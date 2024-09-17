@@ -140,8 +140,9 @@
         "item_VH7pgp": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/records-for-sale.jpg",
             "show_overlay": true,
-            "overlay_opacity": 95,
+            "overlay_opacity": 100,
             "stretch_image": true,
             "background": "#222222",
             "text_color": "#ffffff",
