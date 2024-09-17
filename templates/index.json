@@ -294,23 +294,6 @@
             "button_link": "shopify:\/\/collections\/ear-music"
           }
         },
-        "item_Ua7X6D": {
-          "type": "item",
-          "settings": {
-            "show_overlay": true,
-            "overlay_opacity": 26,
-            "stretch_image": false,
-            "background": "#ffffff",
-            "text_color": "#ffffff",
-            "title": "CAROSELLO RECORDS",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#8f8425",
-            "button_text_color": "#ffffff",
-            "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/carosello-records"
-          }
-        },
         "item_HHQaPE": {
           "type": "item",
           "settings": {
@@ -327,13 +310,30 @@
             "button_text": "Scopri",
             "button_link": "shopify:\/\/collections\/insideoutmusic"
           }
+        },
+        "item_Ua7X6D": {
+          "type": "item",
+          "settings": {
+            "show_overlay": true,
+            "overlay_opacity": 26,
+            "stretch_image": false,
+            "background": "#ffffff",
+            "text_color": "#ffffff",
+            "title": "CAROSELLO RECORDS",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#8f8425",
+            "button_text_color": "#ffffff",
+            "button_text": "Scopri",
+            "button_link": "shopify:\/\/collections\/carosello-records"
+          }
         }
       },
       "block_order": [
         "item_37rYHV",
         "item_n8BaRz",
-        "item_Ua7X6D",
-        "item_HHQaPE"
+        "item_HHQaPE",
+        "item_Ua7X6D"
       ],
       "settings": {
         "expand_items": true,
