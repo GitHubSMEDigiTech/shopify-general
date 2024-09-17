@@ -197,13 +197,13 @@
             "stretch_image": true,
             "background": "#222222",
             "text_color": "#ffffff",
-            "title": "FESTA DELLA MUSICA",
-            "content": "Celebriamo insieme la Festa della Musica con il 15% di sconto applicabile su ordini superiori ai 100 euro.",
+            "title": "I NOSTRI TITOLI A MENO DI 10 EURO",
+            "content": "",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/pages\/festa-della-musica"
+            "button_link": "shopify:\/\/collections\/prodotti-a-meno-di-10-euro"
           }
         }
       },
