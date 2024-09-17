@@ -291,10 +291,11 @@
         "item_37rYHV": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
+            "image": "shopify:\/\/shop_images\/centurymedia.png",
+            "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": false,
-            "background": "#000000",
+            "background": "#ffffff",
             "text_color": "#ffffff",
             "title": "Century Media",
             "content": "",
@@ -308,10 +309,11 @@
         "item_n8BaRz": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/earmusic.png",
             "show_overlay": true,
             "overlay_opacity": 100,
-            "stretch_image": true,
-            "background": "#394b39",
+            "stretch_image": false,
+            "background": "#ffffff",
             "text_color": "#ffffff",
             "title": "Ear Music",
             "content": "",
@@ -325,10 +327,11 @@
         "item_HHQaPE": {
           "type": "item",
           "settings": {
-            "show_overlay": false,
+            "image": "shopify:\/\/shop_images\/InsideOut_Music_Logo.png",
+            "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": false,
-            "background": "#000000",
+            "background": "#ffffff",
             "text_color": "#ffffff",
             "title": "InsideOutMusic",
             "content": "",
@@ -342,6 +345,7 @@
         "item_Ua7X6D": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/caroselloimmagine.png",
             "show_overlay": true,
             "overlay_opacity": 26,
             "stretch_image": false,
