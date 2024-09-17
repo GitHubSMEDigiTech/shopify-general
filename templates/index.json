@@ -15,7 +15,7 @@
         "image_7m99JY": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_Mobile-750x1100px_v1_29336097-2bcd-45a4-91c7-bc612021f635.jpg",
+            "image": "shopify:\/\/shop_images\/Banner_Desktop-2160x720px_v1_26f64099-95a5-4a8e-ad97-e33e5e0f3fd7.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Banner_Mobile-750x1100px_v1_3ea0749d-a3cb-4b8d-9b85-3574c4655c61.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
@@ -178,7 +178,7 @@
         "image_eUhDX7"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "medium",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "fade",
