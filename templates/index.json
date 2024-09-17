@@ -275,7 +275,7 @@
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
-        "collection": "frontpage",
+        "collection": "in-evidenza",
         "title": "IN EVIDENZA",
         "products_count": 12,
         "layout": "vertical",
