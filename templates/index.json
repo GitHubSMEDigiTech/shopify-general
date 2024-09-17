@@ -188,6 +188,60 @@
         "cycle_speed": 5
       }
     },
+    "collection_list_XWxmfc": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_eief67": {
+          "type": "collection",
+          "settings": {
+            "collection": "vinili",
+            "link": ""
+          }
+        },
+        "collection_HDWXaL": {
+          "type": "collection",
+          "settings": {
+            "collection": "cd",
+            "link": "shopify:\/\/collections\/cd"
+          }
+        },
+        "collection_gRe4Vf": {
+          "type": "collection",
+          "settings": {
+            "collection": "dvd-e-blu-ray",
+            "link": ""
+          }
+        },
+        "collection_3cBz6T": {
+          "type": "collection",
+          "settings": {
+            "collection": "cassette",
+            "link": ""
+          }
+        },
+        "collection_mrWxmM": {
+          "type": "collection",
+          "settings": {
+            "collection": "libri",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_eief67",
+        "collection_HDWXaL",
+        "collection_gRe4Vf",
+        "collection_3cBz6T",
+        "collection_mrWxmM"
+      ],
+      "settings": {
+        "title": "FORMATI",
+        "link_title": "View all",
+        "link": "shopify:\/\/collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
       "blocks": {
@@ -218,18 +272,6 @@
         "stack_mobile": true
       }
     },
-    "image_with_text_qVw8NM": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "image_position": "left",
-        "image_width": 50,
-        "title": "FESTA DELLA MUSICA",
-        "content": "<p>Scopri i prodotti selezionati per celebrare la festa della musica<\/p>",
-        "button_text": "Scopri",
-        "button_link": "shopify:\/\/collections\/festa-della-musica"
-      }
-    },
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
@@ -241,22 +283,6 @@
         "show_quick_buy": false,
         "link_title": "",
         "link_url": ""
-      }
-    },
-    "collection_with_image_6MRFYn": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "esclusive",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#c5161c",
-        "text_color": "#ffffff",
-        "title": "ESCLUSIVE",
-        "content": "Scopri tutti i prodotti disponibili in esclusiva su Sony Music Store",
-        "button_background": "#ffffff",
-        "button_text_color": "#ad141f",
-        "button_text": "Scopri",
-        "button_link": "shopify:\/\/collections\/esclusive"
       }
     },
     "promotion_list_wAJLbg": {
@@ -343,69 +369,6 @@
         "stack_mobile": true
       }
     },
-    "image_banner_99fc7c": {
-      "type": "image-banner",
-      "blocks": {
-        "image_A43MXp": {
-          "type": "image",
-          "settings": {
-            "image_width": 140
-          }
-        },
-        "text_GrqVEL": {
-          "type": "text",
-          "settings": {
-            "text": "Shop online dedicato ai prodotti acquistabili con 18app",
-            "text_style": "body",
-            "text_color": "#ffffff"
-          }
-        },
-        "buttons_CV6M3L": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Acquista con 18app",
-            "button_link_1": "shopify:\/\/collections\/18n-app",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "text_color": "#ffffff",
-            "bg_color": "#1e2d7d"
-          }
-        }
-      },
-      "block_order": [
-        "image_A43MXp",
-        "text_GrqVEL",
-        "buttons_CV6M3L"
-      ],
-      "disabled": true,
-      "settings": {
-        "marign_top": 55,
-        "marign_bottom": 55,
-        "image_overlay_opacity": 0,
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_overlay_opacity": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "image_with_text_overlay_3x3d9h": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "title": "Banner with text and CTA",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-        "show_image_overlay": false,
-        "color": "#ffffff"
-      }
-    },
     "featured_collection_gNFLGM": {
       "type": "featured-collection",
       "settings": {
@@ -417,28 +380,6 @@
         "show_quick_buy": false,
         "link_title": "",
         "link_url": ""
-      }
-    },
-    "newsletter_sme_popup_9K3hq4": {
-      "type": "newsletter-sme-popup",
-      "disabled": true,
-      "custom_css": [
-        ".popup--close {color: white;}"
-      ],
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "title": "",
-        "content": "",
-        "ae_segment_id": "2097936",
-        "ae_brand_id": "5372657",
-        "ae_activities": "{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}",
-        "ae": "15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d",
-        "ae_form": "427238",
-        "ae_form_html": "<div data-validation=\"Enter a valid email address\">\n\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n<\/div>\n\n\t\t\t\t<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\"  style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"\/policies\/privacy-policy\" target=\"_blank\"> Privacy Policy<\/a><\/label>\n\t\t\t\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">",
-        "btn_txt": "Subscribe",
-        "background": "#ffffff",
-        "text": "#000000"
       }
     },
     "rich_text_zKVnLa": {
@@ -463,49 +404,15 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "newsletter_sme_96dtxz": {
-      "type": "newsletter-sme",
-      "disabled": true,
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 0,
-        "title": "Newsletter",
-        "content": "",
-        "ae_segment_id": "2097936",
-        "ae_brand_id": "5372657",
-        "ae_activities": "{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}",
-        "ae": "15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d",
-        "ae_form": "427238",
-        "ae_form_html": "<div data-validation=\"Enter a valid email address\">\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n<\/div>\n<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"\/policies\/privacy-policy\" target=\"_blank\"> Privacy Policy<\/a><\/label>\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">",
-        "btn_txt": "Subscribe",
-        "background": "#ffffff",
-        "text": "#ffffff"
-      }
-    },
-    "newsletter_TmNANi": {
-      "type": "newsletter",
-      "settings": {
-        "title": "Iscriviti alla Newsletter",
-        "content": "<p>Iscriviti per ottenere subito il 10% di <strong>sconto<\/strong> sul tuo prossimo ordine!<\/p>",
-        "background": "#ffffff",
-        "text": "#000000"
-      }
     }
   },
   "order": [
     "slideshow_dwDbqU",
+    "collection_list_XWxmfc",
     "promotion_list_kTecJ6",
-    "image_with_text_qVw8NM",
     "featured_collection_Ln8Q76",
-    "collection_with_image_6MRFYn",
     "promotion_list_wAJLbg",
-    "image_banner_99fc7c",
-    "image_with_text_overlay_3x3d9h",
     "featured_collection_gNFLGM",
-    "newsletter_sme_popup_9K3hq4",
-    "rich_text_zKVnLa",
-    "newsletter_sme_96dtxz",
-    "newsletter_TmNANi"
+    "rich_text_zKVnLa"
   ]
 }
