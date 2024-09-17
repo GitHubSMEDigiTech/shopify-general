@@ -268,7 +268,7 @@
       ],
       "settings": {
         "expand_items": true,
-        "section_size": "medium",
+        "section_size": "small",
         "stack_mobile": true
       }
     },
