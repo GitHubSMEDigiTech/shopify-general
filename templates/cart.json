@@ -11,28 +11,15 @@
   "sections": {
     "main": {
       "type": "main-cart",
-      "blocks": {
-        "trust_Lr7JQf": {
-          "type": "trust",
-          "settings": {
-            "icon": "bi-customer-support",
-            "title": "Your title",
-            "content": "<p>Short content about your store<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "trust_Lr7JQf"
-      ],
       "settings": {
         "enable_order_notes": true,
-        "show_payment_icons": true,
+        "show_payment_icons": false,
         "gift_wrap_product": "",
         "gift_wrap_text": "Do you want a gift wrap?",
         "gift_wrap_button": "Add a gift wrap",
-        "show_shipping_estimator": true,
-        "shipping_estimator_default_country": "United States",
-        "trust_heading": "Our guarantees",
+        "show_shipping_estimator": false,
+        "shipping_estimator_default_country": "Italy",
+        "trust_heading": "",
         "upsell_heading": "Complete your cart",
         "upsell_collection": "",
         "upsell_products_count": 4
@@ -41,7 +28,7 @@
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
-        "title": "Recently viewed",
+        "title": "Ultimi prodotti visualizzati",
         "show_quick_buy": false
       }
     }
