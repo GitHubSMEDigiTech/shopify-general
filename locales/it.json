@@ -514,7 +514,10 @@
       },
       "payment_gateway": {
         "generic_payment_terms": "Come da contratto",
-        "deferred_payment_label": "-"
+        "deferred_payment_label": "Gli importi indicati sono IVA esclusa"
+      },
+      "thank_you": {
+        "choose_payment_method_later": "Gli importi indicati sono IVA esclusa"
       }
     }
   },
