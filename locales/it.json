@@ -513,7 +513,8 @@
         "free_total_label": "Calcolate in seguito"
       },
       "payment_gateway": {
-        "generic_payment_terms": "Come da contratto"
+        "generic_payment_terms": "Come da contratto",
+        "deferred_payment_label": "-"
       }
     }
   },
