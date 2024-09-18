@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "meta": {
@@ -341,7 +350,7 @@
       "free": "Omaggio!",
       "taxes_and_shipping_at_checkout": "IVA e costi di spedizione sono calcolati al checkout",
       "taxes_and_shipping_policy_at_checkout_html": "IVA e <a href=\"{{ link }}\">scosti di spedizione<\/a> sono calcolati al checkout",
-      "taxes_included_but_shipping_at_checkout": "IVA inclusa. Spedizione calcolara al checkout",
+      "taxes_included_but_shipping_at_checkout": "IVA Esclusa",
       "taxes_included_and_shipping_policy_html": "IVA inclusa. <a href=\"{{ link }}\">Spedizione<\/a> calcolata al checkout",
       "total": "Totale",
       "checkout": "Checkout"
