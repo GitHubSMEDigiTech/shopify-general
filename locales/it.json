@@ -507,7 +507,17 @@
         }
       },
       "shipping": {
-        "free_rate_label": "."
+        "free_rate_label": "-"
+      },
+      "order_summary": {
+        "free_total_label": "-"
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "shipping": {
+        "free": "-"
       }
     }
   }
