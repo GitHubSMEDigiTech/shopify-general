@@ -340,7 +340,7 @@
       "empty_button": "Acquista i nostri prodotti",
       "search": "Cerca...",
       "view_cart": "Visualizza carrello",
-      "note_title": "Informazioni aggiuntive",
+      "note_title": "Note Ordine",
       "edit_note": "Modifica",
       "save_note": "Salva",
       "secure_payments": "Pagamenti sicuri al 100%",
@@ -498,5 +498,14 @@
     "month_day_year": "%d %B %Y",
     "short_month_day_year": "%d %b %Y",
     "month_day_year_time": "%d %B %Y alle %H:%M%P"
+  },
+  "shopify": {
+    "checkout": {
+      "localized_fields": {
+        "additional_information": {
+          "title": "Note Ordine"
+        }
+      }
+    }
   }
 }
