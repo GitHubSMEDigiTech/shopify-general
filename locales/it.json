@@ -505,6 +505,9 @@
         "additional_information": {
           "title": "Note Ordine"
         }
+      },
+      "shipping": {
+        "free_rate_label": "."
       }
     }
   }
