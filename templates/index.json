@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_PnFNVN": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BC.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify:\/\/shop_images\/bodycountmercilessjpg_0033e6c7-62b3-4814-ab1f-0f9cfcab4bf5.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#e82128",
+            "title": "body count",
+            "head_color": "#e82128",
+            "subtitle": "merciless",
+            "subhead_color": "#e82128",
+            "content": "Ltd. Deluxe 2CD Box Set\nLtd. CD Digipak\nblack LP\nLtd. DemoCrips blue LP (blue Vinyl)\nLtd. red blood spot LP (ultra clear-red colour in colour)",
+            "content_color": "#046eb1",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#046eb1",
+            "show_preorder": true,
+            "preorder_msg": "november 22",
+            "preorder_msg_color": "#e82128",
+            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Body+Count&sort_by=created-descending"
+          }
+        },
         "banner_PxNWz7": {
           "type": "banner",
           "settings": {
@@ -273,28 +295,6 @@
             "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Cemetery+Skyline&sort_by=created-descending"
           }
         },
-        "banner_bQfLaj": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/untoo.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/untoothersneverneverlandjpg_451ec454-6f3b-43e5-a546-41b8ef4b37e4.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#c9a3b2",
-            "title": "unto others",
-            "head_color": "#c9a3b2",
-            "subtitle": "never, neverland",
-            "subhead_color": "#d16366",
-            "content": "Ltd. CD Digipak\nblack LP & Poster\nLtd. Starlight Sparkles LP & Poster",
-            "content_color": "#c9a3b2",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#c9a3b2",
-            "show_preorder": true,
-            "preorder_msg": "september 20",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Unto+Others&sort_by=created-descending"
-          }
-        },
         "banner_C3ipp6": {
           "type": "banner",
           "settings": {
@@ -339,28 +339,6 @@
             "preorder_msg": "september 27",
             "preorder_msg_color": "#000000",
             "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Bewitcher&sort_by=created-descending"
-          }
-        },
-        "banner_naHAQx": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/kafi.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/kanonenfieberdieurkatastrophejpg_ff10e119-ed0d-4cef-a69c-62dd7bc0f3aa.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "kanonenfieber",
-            "head_color": "#ffffff",
-            "subtitle": "die urkatastrophe",
-            "subhead_color": "#ffffff",
-            "content": "Deluxe transp. sand-dark red colored splattered 2LP Artbook\nCD Mediabook & Patch\nStandard CD Jewelcase\nblack LP\nGatefold transp. orange LP & LP-Booklet\nGatefold transp. olive green-white splattered LP & LP-Booklet\nGatefold transp. bottle green-bone colored-black splattered LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "september 20",
-            "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Kanonenfieber&sort_by=created-descending"
           }
         },
         "banner_UqWUbb": {
@@ -409,6 +387,7 @@
         }
       },
       "block_order": [
+        "banner_PnFNVN",
         "banner_PxNWz7",
         "banner_B4DQtx",
         "banner_qdQnhA",
@@ -419,10 +398,8 @@
         "banner_UdbiCj",
         "banner_mJ6g88",
         "banner_xLBjAJ",
-        "banner_bQfLaj",
         "banner_C3ipp6",
         "banner_exmHjp",
-        "banner_naHAQx",
         "banner_UqWUbb",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
