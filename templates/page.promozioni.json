@@ -19,6 +19,7 @@
       "blocks": {
         "item_xfYjie": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/23792278_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
             "show_overlay": true,
@@ -37,6 +38,7 @@
         },
         "item_K4g9hY": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/20888791_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
             "show_overlay": true,
