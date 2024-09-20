@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Desktop-2160x720px_v1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Banner_Mobile-750x1100px_v1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify:\/\/products\/iddu-sicilian-letters"
+          }
+        },
         "image_7m99JY": {
           "type": "image",
           "settings": {
@@ -44,23 +61,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify:\/\/collections\/shiva"
-          }
-        },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_2160x720_e73c3c4b-b7d9-4a4a-aed7-3a29b168a3fc.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_750x1100_d5c83c46-7fcd-4b99-a49f-54dfe0b38f05.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify:\/\/collections\/fabri-fibra"
           }
         },
         "image_3wJqzQ": {
@@ -167,9 +167,9 @@
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_7m99JY",
         "image_c6iKRK",
-        "image_zLLxyF",
         "image_3wJqzQ",
         "image_XHmBAC",
         "image_eUhDX7",
