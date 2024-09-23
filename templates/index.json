@@ -284,7 +284,7 @@
       ],
       "settings": {
         "title": "Etichette in distribuzione",
-        "link_title": "View all",
+        "link_title": "",
         "link": "shopify://collections",
         "round_images": true,
         "show_collection_title": true
