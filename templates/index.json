@@ -255,7 +255,7 @@
           "type": "collection",
           "settings": {
             "collection": "ear-music",
-            "image": "shopify://shop_images/earmusic.png",
+            "image": "shopify://shop_images/earmusic_79869160-67ca-4b51-86ea-7a4cc7b05984.png",
             "link": "shopify://collections/ear-music"
           }
         },
@@ -292,102 +292,10 @@
     },
     "promotion_list_wAJLbg": {
       "type": "promotion-list",
-      "blocks": {
-        "item_37rYHV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/centurymedia.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": false,
-            "background": "#ffffff",
-            "text_color": "#ffffff",
-            "title": "Century Media",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Scopri",
-            "button_link": "shopify://collections/century-media"
-          }
-        },
-        "item_n8BaRz": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/earmusic.png",
-            "show_overlay": true,
-            "overlay_opacity": 100,
-            "stretch_image": false,
-            "background": "#ffffff",
-            "text_color": "#ffffff",
-            "title": "Ear Music",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#0a460a",
-            "button_text": "Scopri",
-            "button_link": "shopify://collections/ear-music"
-          }
-        }
-      },
-      "block_order": [
-        "item_37rYHV",
-        "item_n8BaRz"
-      ],
       "settings": {
         "expand_items": true,
         "section_size": "small",
         "stack_mobile": true
-      }
-    },
-    "promotion_list_XTyR97": {
-      "type": "promotion-list",
-      "blocks": {
-        "item_Txg8qj": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/caroselloimmagine_cc24397c-69e3-4ce1-aeb5-7d18e35bcade.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": false,
-            "background": "#ffffff",
-            "text_color": "#ffffff",
-            "title": "CAROSELLO RECORDS",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1b1b",
-            "button_text": "Scopri",
-            "button_link": "shopify://collections/carosello-records"
-          }
-        },
-        "item_QUi4tg": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/InsideOut_Music_Logo_727229e1-8549-4436-810a-3020aa861a84.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": false,
-            "background": "#ffffff",
-            "text_color": "#ffffff",
-            "title": "InsideOutMuisc",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Scopri",
-            "button_link": "shopify://collections/insideoutmusic"
-          }
-        }
-      },
-      "block_order": [
-        "item_Txg8qj",
-        "item_QUi4tg"
-      ],
-      "settings": {
-        "expand_items": true,
-        "section_size": "medium",
-        "stack_mobile": false
       }
     },
     "featured_collection_gNFLGM": {
@@ -436,7 +344,6 @@
     "featured_collection_Ln8Q76",
     "collection_list_tPfEeG",
     "promotion_list_wAJLbg",
-    "promotion_list_XTyR97",
     "featured_collection_gNFLGM",
     "rich_text_zKVnLa"
   ]
