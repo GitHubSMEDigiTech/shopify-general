@@ -15,8 +15,8 @@
         "image_7m99JY": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_Desktop-2160x720px_v1_26f64099-95a5-4a8e-ad97-e33e5e0f3fd7.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_Mobile-750x1100px_v1_3ea0749d-a3cb-4b8d-9b85-3574c4655c61.jpg",
+            "image": "shopify://shop_images/Banner_Desktop-2160x720px_v1_26f64099-95a5-4a8e-ad97-e33e5e0f3fd7.jpg",
+            "mobile_image": "shopify://shop_images/Banner_Mobile-750x1100px_v1_3ea0749d-a3cb-4b8d-9b85-3574c4655c61.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -26,14 +26,14 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify:\/\/collections\/canvass-11-ottobre-2024"
+            "link": "shopify://collections/canvass-11-ottobre-2024"
           }
         },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desktop_gilmour.png",
-            "mobile_image": "shopify:\/\/shop_images\/gilmour_story.png",
+            "image": "shopify://shop_images/desktop_gilmour.png",
+            "mobile_image": "shopify://shop_images/gilmour_story.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -43,14 +43,14 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify:\/\/collections\/raffaella-carra"
+            "link": "shopify://collections/raffaella-carra"
           }
         },
         "image_B3rw7r": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_2160x720_afd9c240-6f1f-41c8-8ce8-3d1154a0147f.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Banner_750x1100_cb4f8ca1-6e0d-4af6-a9d6-9473e9cfdbe1.jpg",
+            "image": "shopify://shop_images/Banner_2160x720_afd9c240-6f1f-41c8-8ce8-3d1154a0147f.jpg",
+            "mobile_image": "shopify://shop_images/Banner_750x1100_cb4f8ca1-6e0d-4af6-a9d6-9473e9cfdbe1.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -60,7 +60,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify:\/\/collections\/tedua"
+            "link": "shopify://collections/tedua"
           }
         }
       },
@@ -94,7 +94,7 @@
           "type": "collection",
           "settings": {
             "collection": "cd",
-            "link": "shopify:\/\/collections\/cd"
+            "link": "shopify://collections/cd"
           }
         },
         "collection_gRe4Vf": {
@@ -129,7 +129,7 @@
       "settings": {
         "title": "FORMATI",
         "link_title": "View all",
-        "link": "shopify:\/\/collections\/all",
+        "link": "shopify://collections/all",
         "round_images": true,
         "show_collection_title": true
       }
@@ -140,7 +140,7 @@
         "item_VH7pgp": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/records-for-sale.jpg",
+            "image": "shopify://shop_images/records-for-sale.jpg",
             "show_overlay": true,
             "overlay_opacity": 100,
             "stretch_image": true,
@@ -152,7 +152,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/prodotti-a-meno-di-10-euro"
+            "button_link": "shopify://collections/prodotti-a-meno-di-10-euro"
           }
         }
       },
@@ -171,7 +171,7 @@
         "item_nFDWVx": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/film-reel-catches-light-tangled-on-a-white-surface.jpg",
+            "image": "shopify://shop_images/film-reel-catches-light-tangled-on-a-white-surface.jpg",
             "show_overlay": true,
             "overlay_opacity": 100,
             "stretch_image": true,
@@ -183,7 +183,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#6f42ef",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/colonne-sonore"
+            "button_link": "shopify://collections/colonne-sonore"
           }
         }
       },
@@ -202,7 +202,7 @@
         "item_YhampT": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DavidGilmour_LuckAndStrange_LP_Deluxe_dbfea784-a676-4124-96ed-37003f278437.jpg",
+            "image": "shopify://shop_images/DavidGilmour_LuckAndStrange_LP_Deluxe_dbfea784-a676-4124-96ed-37003f278437.jpg",
             "show_overlay": true,
             "overlay_opacity": 98,
             "stretch_image": true,
@@ -214,7 +214,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#6f42ef",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/cofanetti-45-euro"
+            "button_link": "shopify://collections/cofanetti-45-euro"
           }
         }
       },
@@ -240,13 +240,76 @@
         "link_url": ""
       }
     },
+    "collection_list_tPfEeG": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_WCRFJi": {
+          "type": "collection",
+          "settings": {
+            "collection": "century-media",
+            "image": "shopify://shop_images/centurymedia.png",
+            "link": "shopify://collections/century-media"
+          }
+        },
+        "collection_QxCLXx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_fi3czR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_Dt3nUx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_wmgMym": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        },
+        "collection_bg4h63": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_WCRFJi",
+        "collection_QxCLXx",
+        "collection_fi3czR",
+        "collection_Dt3nUx",
+        "collection_wmgMym",
+        "collection_bg4h63"
+      ],
+      "settings": {
+        "title": "Our collections",
+        "link_title": "View all",
+        "link": "shopify://collections",
+        "round_images": true,
+        "show_collection_title": true
+      }
+    },
     "promotion_list_wAJLbg": {
       "type": "promotion-list",
       "blocks": {
         "item_37rYHV": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/centurymedia.png",
+            "image": "shopify://shop_images/centurymedia.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": false,
@@ -258,13 +321,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/century-media"
+            "button_link": "shopify://collections/century-media"
           }
         },
         "item_n8BaRz": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/earmusic.png",
+            "image": "shopify://shop_images/earmusic.png",
             "show_overlay": true,
             "overlay_opacity": 100,
             "stretch_image": false,
@@ -276,7 +339,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#0a460a",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/ear-music"
+            "button_link": "shopify://collections/ear-music"
           }
         }
       },
@@ -296,7 +359,7 @@
         "item_Txg8qj": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/caroselloimmagine_cc24397c-69e3-4ce1-aeb5-7d18e35bcade.png",
+            "image": "shopify://shop_images/caroselloimmagine_cc24397c-69e3-4ce1-aeb5-7d18e35bcade.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": false,
@@ -308,13 +371,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#1c1b1b",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/carosello-records"
+            "button_link": "shopify://collections/carosello-records"
           }
         },
         "item_QUi4tg": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/InsideOut_Music_Logo_727229e1-8549-4436-810a-3020aa861a84.png",
+            "image": "shopify://shop_images/InsideOut_Music_Logo_727229e1-8549-4436-810a-3020aa861a84.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": false,
@@ -326,7 +389,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Scopri",
-            "button_link": "shopify:\/\/collections\/insideoutmusic"
+            "button_link": "shopify://collections/insideoutmusic"
           }
         }
       },
@@ -364,9 +427,9 @@
         "text_width": "wide",
         "title": "SONY MUSIC STORE",
         "h_one": false,
-        "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.<\/p>",
+        "content": "<p>SONY MUSIC ENTERTAINMENT è una società discografica multinazionale dotata sia di un vasto repertorio di artisti contemporanei che comprende un gran numero di superstar locali e internazionali, sia di un amplissimo catalogo che annovera molti dei più importanti artisti, album e brani della storia della musica di tutti i tempi.</p>",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "bg_color": "#c5161c",
         "text_color": "#ffffff",
         "bt_bg_color": "#ffffff",
@@ -384,6 +447,7 @@
     "promotion_list_NPgWtL",
     "promotion_list_teMBhT",
     "featured_collection_Ln8Q76",
+    "collection_list_tPfEeG",
     "promotion_list_wAJLbg",
     "promotion_list_XTyR97",
     "featured_collection_gNFLGM",
