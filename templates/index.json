@@ -254,8 +254,9 @@
         "collection_QxCLXx": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "link": ""
+            "collection": "ear-music",
+            "image": "shopify://shop_images/earmusic.png",
+            "link": "shopify://collections/ear-music"
           }
         },
         "collection_fi3czR": {
