@@ -262,8 +262,9 @@
         "collection_fi3czR": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "link": ""
+            "collection": "carosello-records",
+            "image": "shopify://shop_images/caroselloimmagine_cc24397c-69e3-4ce1-aeb5-7d18e35bcade.png",
+            "link": "shopify://collections/carosello-records"
           }
         },
         "collection_Dt3nUx": {
