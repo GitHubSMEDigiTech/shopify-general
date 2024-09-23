@@ -270,22 +270,9 @@
         "collection_Dt3nUx": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection_wmgMym": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
-          }
-        },
-        "collection_bg4h63": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "link": ""
+            "collection": "insideoutmusic",
+            "image": "shopify://shop_images/InsideOut_Music_Logo_727229e1-8549-4436-810a-3020aa861a84.png",
+            "link": "shopify://collections/insideoutmusic"
           }
         }
       },
@@ -293,9 +280,7 @@
         "collection_WCRFJi",
         "collection_QxCLXx",
         "collection_fi3czR",
-        "collection_Dt3nUx",
-        "collection_wmgMym",
-        "collection_bg4h63"
+        "collection_Dt3nUx"
       ],
       "settings": {
         "title": "Our collections",
