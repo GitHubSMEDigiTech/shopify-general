@@ -164,7 +164,7 @@
         "item_pQ9my9": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/logosony.png",
+            "image": "shopify://shop_images/SonyMusicLogo_nomatte.gif",
             "show_overlay": true,
             "overlay_opacity": 70,
             "stretch_image": true,
