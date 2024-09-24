@@ -287,7 +287,7 @@
         "link_title": "",
         "link": "shopify://collections",
         "round_images": true,
-        "show_collection_title": true
+        "show_collection_title": false
       }
     },
     "promotion_list_wAJLbg": {
