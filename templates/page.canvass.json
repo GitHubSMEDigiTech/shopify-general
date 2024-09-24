@@ -20,7 +20,7 @@
         "item_qCMgWn": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
+            "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": true,
@@ -32,13 +32,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-27-settembre-2024"
+            "button_link": "shopify://collections/canvass-27-settembre-2024"
           }
         },
         "item_WcjUA7": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
+            "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 50,
             "stretch_image": true,
@@ -50,13 +50,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-04-ottobre-2024"
+            "button_link": "shopify://collections/canvass-04-ottobre-2024"
           }
         },
         "item_FaqfVg": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
+            "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 70,
             "stretch_image": true,
@@ -68,13 +68,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-11-ottobre-2024"
+            "button_link": "shopify://collections/canvass-11-ottobre-2024"
           }
         },
         "item_zNE7Gz": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
+            "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 70,
             "stretch_image": true,
@@ -86,13 +86,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-18-ottobre-2024"
+            "button_link": "shopify://collections/canvass-18-ottobre-2024"
           }
         },
         "item_UpYPHC": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
+            "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 70,
             "stretch_image": true,
@@ -104,13 +104,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-25-ottobre-2024"
+            "button_link": "shopify://collections/canvass-25-ottobre-2024"
           }
         },
         "item_eF3t8Y": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
+            "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 70,
             "stretch_image": true,
@@ -122,13 +122,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-1-novembre-2024"
+            "button_link": "shopify://collections/canvass-1-novembre-2024"
           }
         },
         "item_j9FLHc": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sonymusiclogo.png",
+            "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
             "overlay_opacity": 70,
             "stretch_image": true,
@@ -140,7 +140,25 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "Entra",
-            "button_link": "shopify:\/\/collections\/canvass-8-novembre-2024"
+            "button_link": "shopify://collections/canvass-8-novembre-2024"
+          }
+        },
+        "item_fMcgTN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 70,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 15 novembre 2024",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-15-novembre-2024"
           }
         }
       },
@@ -151,7 +169,8 @@
         "item_zNE7Gz",
         "item_UpYPHC",
         "item_eF3t8Y",
-        "item_j9FLHc"
+        "item_j9FLHc",
+        "item_fMcgTN"
       ],
       "settings": {
         "expand_items": false,
