@@ -262,35 +262,124 @@
         "button_link": "shopify://collections/esclusive"
       }
     },
-    "promotion_list_XEebrg": {
-      "type": "promotion-list",
+    "rich_text_Y66cji": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "COLONNE SONORE",
+        "h_one": true,
+        "content": "<p>Le più belle colonne sonore in CD e Vinile</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ff0000",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "mosaic_gB4niq": {
+      "type": "mosaic",
       "blocks": {
-        "item_HHwtHV": {
+        "item_RRXFpX": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/spilled-popcorn-on-a-red-background.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 100,
-            "stretch_image": true,
-            "background": "#6f42ef",
-            "text_color": "#ffffff",
-            "title": "COLONNE SONORE",
-            "content": "Scopri le colonne sonore in CD e VInile",
+            "image": "shopify://shop_images/7833075_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 0,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
             "content_position": "top_left",
-            "button_background": "#e1e3e4",
-            "button_text_color": "#ff0000",
-            "button_text": "SCOPRI",
-            "button_link": "shopify://collections/colonne-sonore"
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": "shopify://collections/colonne-sonore"
+          }
+        },
+        "item_k3Fqdc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ghostbuster.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": "shopify://collections/colonne-sonore"
+          }
+        },
+        "item_q7Cb4c": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/12259726_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": "shopify://collections/colonne-sonore"
+          }
+        },
+        "item_GqqeM4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/animalifantastici.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": "shopify://collections/colonne-sonore"
+          }
+        },
+        "item_q8PziY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/14074443_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#4f5558",
+            "title": "",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "Learn more",
+            "link": "shopify://collections/colonne-sonore"
           }
         }
       },
       "block_order": [
-        "item_HHwtHV"
+        "item_RRXFpX",
+        "item_k3Fqdc",
+        "item_q7Cb4c",
+        "item_GqqeM4",
+        "item_q8PziY"
       ],
       "settings": {
-        "expand_items": true,
-        "section_size": "medium",
-        "stack_mobile": false
+        "section_size": "medium"
       }
     },
     "promotion_list_wAJLbg": {
@@ -505,7 +594,8 @@
     "image_with_text_qVw8NM",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
-    "promotion_list_XEebrg",
+    "rich_text_Y66cji",
+    "mosaic_gB4niq",
     "promotion_list_wAJLbg",
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
