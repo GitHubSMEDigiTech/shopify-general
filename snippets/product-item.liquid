@@ -229,6 +229,8 @@
         Supporto: {{ product.metafields.meta.support }} &nbsp;&nbsp;&nbsp; 
         (Pezzi: {{ product.metafields.meta.item_in_set }})
         </div>
+      {%- elsif settings.show_release_date_product -%}
+        <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}</div>
       {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}

@@ -50,6 +50,8 @@
       }
 
       hidden_pagination.replaceChildren(newPagination);
+      if(document.querySelector('.list-collection'))
+        window.updateListListeners()
     }
   }, false)
 </script>

@@ -38,7 +38,7 @@
 }
 {%- endcapture -%}
 
-<section data-section-id="{{ section.id }}" data-section-type="collection" data-section-settings='{{ section_settings }}'>
+<section data-section-id="{{ section.id }}" data-section-type="collection" data-section-settings='{{ section_settings }}' class="list-collection">
   
   <div class="container container--flush collection__list">
     <div class="page__sub-header">
@@ -855,14 +855,13 @@
 
       const items = document.querySelectorAll('#product-list .product-item__action-list')
       for (let i = 0; i < items.length; i++) {
-        // Check if the quantity field is defined for the product (when out of stock, it is not defined)  
         if (items[i].querySelector('[name="quantity"]')) {
           let quantity = items[i].querySelector('[name="quantity"]').value
           if(quantity > 0) {
             let id = items[i].querySelector('[name="id"]')
             formData.items.push({ 'id': id.value, 'quantity': quantity, 'displayPrice': id.dataset.price })
           }
-        }  
+        }
       }
 
       return formData
@@ -891,6 +890,10 @@
         })
       }
     } 
+
+    window.updateListListeners = () => {
+      updateListListeners()
+    }
 
     window.addEventListener("beforeunload", function (e) {
       if (justSent || numberOfItems == 0) {
