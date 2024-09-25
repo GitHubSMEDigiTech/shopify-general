@@ -224,6 +224,8 @@
       {%- if show_b2b -%}
         <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
         {{ product.metafields.meta.support }} </div>
+      {%- elsif settings.show_release_date_product -%}
+        <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}</div>
       {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}
