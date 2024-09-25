@@ -430,6 +430,13 @@
       },
       {
         "type": "checkbox",
+        "id": "show_release_date_product",
+        "label": "Show Release-Date Product",
+        "info": "Always shows Release-Date on product level underneath the Title",
+        "default": false
+      },
+      {
+        "type": "checkbox",
         "id": "show_inventory_quantity",
         "label": "Show inventory",
         "default": false
@@ -437,7 +444,8 @@
       {
         "type": "checkbox",
         "id": "show_release_date",
-        "label": "Show Release-Date",
+        "label": "Show Release-Date Inventory",
+        "info": "Shows Release-Date on inventory level(same row) and only if it's in the future",
         "default": false
       },
       {
