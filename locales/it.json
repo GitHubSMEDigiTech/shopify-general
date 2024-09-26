@@ -210,7 +210,7 @@
       "quick_view": "Anteprima",
       "choose_options": "Scegli le opzioni",
       "sold_out": "Non disponibile",
-      "in_stock": "In stock",
+      "in_stock": "Disponibile",
       "oversell_stock": "Disponibile a breve",
       "release_date": "Coming soon. Release: {{ release }}",
       "discount_html": "Risparmi {{savings}}",
@@ -412,7 +412,7 @@
       "price": "Prezzo",
       "inventory": "Stock",
       "quantity": "Quantità",
-      "in_stock": "In stock",
+      "in_stock": "Disponibile",
       "oversell_stock": "In arrivo a breve",
       "incoming_stock": "In arrivo il {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
@@ -525,6 +525,13 @@
       "throttle": {
         "merchandise": {
           "sold_out": "Non disponibile"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Disponibile"
         }
       }
     }
