@@ -37,7 +37,7 @@
       "previous_page": "Precedente",
       "next_page": "Successivo",
       "go_to_page": "Vai alla pagina {{page}}",
-      "page_count": "Pagina {{current_page}} \/ {{pages}}"
+      "page_count": "Pagina {{current_page}} / {{pages}}"
     },
     "breadcrumb": {
       "title": "Sei qui",
@@ -62,7 +62,7 @@
       "currency": "Valuta",
       "language": "Lingua",
       "account": "il mio account",
-      "login": "Accedi \/ Registrati",
+      "login": "Accedi / Registrati",
       "welcome": "Ciao {{first_name}}",
       "cart": "Carrello"
     },
@@ -209,7 +209,7 @@
       "pre_order": "Preordine",
       "quick_view": "Anteprima",
       "choose_options": "Scegli le opzioni",
-      "sold_out": "Esaurito",
+      "sold_out": "Non disponibile",
       "in_stock": "In stock",
       "oversell_stock": "Disponibile a breve",
       "release_date": "Coming soon. Release: {{ release }}",
@@ -253,12 +253,12 @@
       "fulfillment_status": "Stato di avanzamento",
       "back_to_account": "Torna al tuo account",
       "cancelled_at": "Ordine cancellato il {{date}}. Motivo: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "Tutti i prodotti sono stati spediti. Traccia la tua spedizione con il numero {{tracking_number}} o attraverso il <a href=\"{{tracking_url}}\" target=\"_blank\">seguente link<\/a>.",
-      "fulfillment_with_url_html": "utti i prodotti sono stati spediti. Traccia la tua spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui<\/a>.",
+      "fulfillment_with_url_and_number_html": "Tutti i prodotti sono stati spediti. Traccia la tua spedizione con il numero {{tracking_number}} o attraverso il <a href=\"{{tracking_url}}\" target=\"_blank\">seguente link</a>.",
+      "fulfillment_with_url_html": "utti i prodotti sono stati spediti. Traccia la tua spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui</a>.",
       "fulfillment_with_number_html": "Tutti i prodotti sono stati spediti. Traccia la tua spedizione attraverso il numero {{tracking_number}}.",
       "fulfillment_html": "Tutti i prodotti sono stati spediti.",
-      "line_fulfillment_with_url_and_number_html": "Questo prodotto è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui<\/a>.",
-      "line_fulfillment_with_url_html": "Questo prodotto è stato spedito.  Traccia la spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui<\/a>.",
+      "line_fulfillment_with_url_and_number_html": "Questo prodotto è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui</a>.",
+      "line_fulfillment_with_url_html": "Questo prodotto è stato spedito.  Traccia la spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui</a>.",
       "line_fulfillment_with_number_html": "Questo prodotto è stato spedito. Traccia la spedizione con il numero {{tracking_number}}.",
       "line_fulfillment_html": "Questo prodotto è stato spedito.",
       "product": "Prodotto",
@@ -349,9 +349,9 @@
       "amount_saved_html": "Stai risparmiando {{amount_saved}}!",
       "free": "Omaggio!",
       "taxes_and_shipping_at_checkout": "IVA e costi di spedizione sono calcolati al checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "IVA e <a href=\"{{ link }}\">scosti di spedizione<\/a> sono calcolati al checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "IVA e <a href=\"{{ link }}\">scosti di spedizione</a> sono calcolati al checkout",
       "taxes_included_but_shipping_at_checkout": "Le spese di spedizione verranno calcolate in fase di evasione ordine",
-      "taxes_included_and_shipping_policy_html": "IVA inclusa. <a href=\"{{ link }}\">Spedizione<\/a> calcolata al checkout",
+      "taxes_included_and_shipping_policy_html": "IVA inclusa. <a href=\"{{ link }}\">Spedizione</a> calcolata al checkout",
       "total": "Totale",
       "checkout": "Checkout"
     },
@@ -397,7 +397,7 @@
       "estimate_shipping": "Stima dei costi di spedizione",
       "refund_policy": "Politica di rimborso",
       "include_taxes": "IVA compresa",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">I costi di spedizione vengono calcolati<\/a> al checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">I costi di spedizione vengono calcolati</a> al checkout",
       "reviews_count": {
         "zero": "Nessuna recensione",
         "one": "{{ count }} recensione",
@@ -405,7 +405,7 @@
       }
     },
     "labels": {
-      "sold_out": "Esaurito"
+      "sold_out": "Non disponibile"
     },
     "form": {
       "variant": "Variante",
@@ -424,7 +424,7 @@
         "other": "In stock ({{count}} units), pronti per essere spediti"
       },
       "add_to_cart": "Aggiungi al carrello",
-      "sold_out": "Esaurito",
+      "sold_out": "Non disponibile",
       "pre_order": "Pre ordine",
       "unavailable": "Non disponibile",
       "contact_us": "Contattaci",
@@ -518,6 +518,14 @@
       },
       "thank_you": {
         "choose_payment_method_later": "Gli importi indicati sono IVA esclusa"
+      },
+      "stock": {
+        "sold_out_label": "Non disponibile"
+      },
+      "throttle": {
+        "merchandise": {
+          "sold_out": "Non disponibile"
+        }
       }
     }
   },
