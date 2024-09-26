@@ -219,8 +219,8 @@
         "other": "Ne rimangono ancora {{count}}"
       },
       "in_stock_with_quantity_count": {
-        "one": "In stock, {{count}}",
-        "other": "In stock, {{count}}"
+        "one": "Disponibile",
+        "other": "Disponibile"
       }
     }
   },
@@ -420,8 +420,8 @@
         "other": "Ultimi {{count}} disponibili"
       },
       "in_stock_with_quantity_count": {
-        "one": "In stock ({{count}} unit), pronto per essere spedito",
-        "other": "In stock ({{count}} units), pronti per essere spediti"
+        "one": "Disponibile",
+        "other": "Disponibile"
       },
       "add_to_cart": "Aggiungi al carrello",
       "sold_out": "Non disponibile",
