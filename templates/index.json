@@ -110,21 +110,13 @@
             "collection": "cassette",
             "link": ""
           }
-        },
-        "collection_mrWxmM": {
-          "type": "collection",
-          "settings": {
-            "collection": "libri",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "collection_eief67",
         "collection_HDWXaL",
         "collection_gRe4Vf",
-        "collection_3cBz6T",
-        "collection_mrWxmM"
+        "collection_3cBz6T"
       ],
       "settings": {
         "title": "FORMATI",
