@@ -175,6 +175,7 @@
       "blocks": {
         "item_YhampT": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DavidGilmour_LuckAndStrange_LP_Deluxe_dbfea784-a676-4124-96ed-37003f278437.jpg",
             "show_overlay": true,
