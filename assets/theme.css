@@ -10221,6 +10221,8 @@ shopify-payment-terms {
 
 .product-item--vertical .product-item__action-button--list-view-only + .product-item__action-button,
 .product-item--horizontal .product-item__action-button--list-view-only + .product-item__action-button {
+  /* 27/09/24 BS display none to disable "Anteprima" button */
+  display: none;
   margin-top: 0;
 }
 
