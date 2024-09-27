@@ -510,7 +510,7 @@
         "free_rate_label": "-"
       },
       "order_summary": {
-        "free_total_label": "Calcolate in seguito"
+        "free_total_label": "inclusa"
       },
       "payment_gateway": {
         "generic_payment_terms": "Come da contratto",
