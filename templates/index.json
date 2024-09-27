@@ -32,7 +32,7 @@
         "image_XHmBAC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/desktop_gilmour_5861c10b-2a73-4a52-b68c-1de8928cf9cd.png",
+            "image": "shopify://shop_images/gilmourb2b.png",
             "mobile_image": "shopify://shop_images/gilmour_story.png",
             "show_overlay": false,
             "overlay_opacity": 30,
