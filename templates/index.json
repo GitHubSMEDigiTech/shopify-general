@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2160x720_3.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_e82ca7e1-d0f0-4c34-8065-94d4a0b0362f.png",
+            "mobile_image": "shopify://shop_images/ollymobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
