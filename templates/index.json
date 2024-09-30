@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_cd6H7W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_3.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_e82ca7e1-d0f0-4c34-8065-94d4a0b0362f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/olly"
+          }
+        },
         "image_QeQ8wi": {
           "type": "image",
           "settings": {
@@ -147,26 +164,10 @@
             "button_text": "",
             "link": "shopify://collections/david-gilmour"
           }
-        },
-        "image_cd6H7W": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/VENERUSdesktop.jpg",
-            "mobile_image": "shopify://shop_images/venerusmobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/magica-musica-2lp-gatefold-orange"
-          }
         }
       },
       "block_order": [
+        "image_cd6H7W",
         "image_QeQ8wi",
         "image_zLLxyF",
         "image_7m99JY",
@@ -174,8 +175,7 @@
         "image_3wJqzQ",
         "image_XHmBAC",
         "image_eUhDX7",
-        "image_hhc4xB",
-        "image_cd6H7W"
+        "image_hhc4xB"
       ],
       "settings": {
         "edge_to_edge": false,
