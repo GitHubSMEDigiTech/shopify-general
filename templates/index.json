@@ -109,6 +109,22 @@
             "button_text": "",
             "link": "shopify://collections/ac-dc"
           }
+        },
+        "image_6YKHeW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/deandrebannerb2b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -117,7 +133,8 @@
         "image_XHmBAC",
         "image_CBXRTm",
         "image_VqjjpQ",
-        "image_9TUQjJ"
+        "image_9TUQjJ",
+        "image_6YKHeW"
       ],
       "settings": {
         "edge_to_edge": false,
