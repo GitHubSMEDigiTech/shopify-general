@@ -160,6 +160,24 @@
             "button_text": "Entra",
             "button_link": "shopify://collections/canvass-22-novembre-2024"
           }
+        },
+        "item_KJnNYj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 29 novembre 2024",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-29-novembre-2024"
+          }
         }
       },
       "block_order": [
@@ -170,7 +188,8 @@
         "item_eF3t8Y",
         "item_j9FLHc",
         "item_fMcgTN",
-        "item_pQ9my9"
+        "item_pQ9my9",
+        "item_KJnNYj"
       ],
       "settings": {
         "expand_items": false,
