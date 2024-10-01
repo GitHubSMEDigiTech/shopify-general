@@ -1,0 +1,72 @@
+    <script type="text/javascript">
+      const performanceCookieCategory = 'C0002';
+      const targetingCookieCategory = 'C0004';
+      function waitForOneTrust() {
+            hasOneTrustLoaded();
+            let attempts = 0;
+            const interval = setInterval(function () {
+
+                if (hasOneTrustLoaded() || attempts > 100){
+                    clearInterval(interval);
+                }
+
+                attempts++;
+
+            }, 100)
+
+        }
+
+        function hasOneTrustLoaded() {
+            if(typeof window.OnetrustActiveGroups === 'string'){
+                //check now
+                optanonWrapper()
+                // and wrap and trigger after cookie opt-in
+                window.OptanonWrapper = optanonWrapper;
+
+                return true;
+
+            }
+
+            return false;
+
+        }
+        function sendConsent(analyticsConsent,targetingConsent) {
+            console.log('Send Consent')
+            window.Shopify.customerPrivacy.setTrackingConsent(
+              {
+                "analytics":    analyticsConsent,
+                "marketing":    targetingConsent,
+              },
+              () => console.log('Consent captured Performance ' +  analyticsConsent + ' Consent captured Targeting ' +  targetingConsent)
+
+          );
+
+      }
+        function optanonWrapper() {
+            const analyticsConsent = window.OnetrustActiveGroups.includes(performanceCookieCategory);
+            const targetingConsent = window.OnetrustActiveGroups.includes(targetingCookieCategory);
+            console.log('Loading Shopify API')
+
+            
+            window.Shopify.loadFeatures(
+                [
+                    {
+                        name: 'consent-tracking-api',
+                        version: '0.1',
+                    },
+                ],
+                error => {
+                    if (error) {
+                        console.error(error);
+                    }
+                    sendConsent(analyticsConsent,targetingConsent)
+
+                },
+            );
+        }
+
+        (function () {
+            waitForOneTrust();
+        })();
+    </script>
+    <!-- OneTrust Cookies Consent Notice end -->
