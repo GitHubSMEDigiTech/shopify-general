@@ -24,6 +24,7 @@
     "show_reviews_badge": false,
     "show_discount": true,
     "show_color_swatch": true,
+    "show_release_date_product": true,
     "show_inventory_quantity": true,
     "cart_type": "notification",
     "logo": "shopify://shop_images/SonyMusicLogo_whitematte.gif",
