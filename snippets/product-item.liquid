@@ -91,7 +91,7 @@
       {%- capture price_list -%}
         <div class="product-item__price-list price-list">
           {%- if show_b2b -%}
-            <div class="product-item__vendor">List:
+            <div class="product-item__vendor">{{ 'collection.list.list' | t }}:
             <span class="price price--compare">
                 <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {%- if settings.currency_code_enabled -%}
@@ -102,7 +102,7 @@
               </span></div><br>
 
               {%- if product.metafields.meta.campaign_ppd > 0 -%}
-              <div class="product-item__vendor">Campaign:
+              <div class="product-item__vendor">{{ 'collection.list.campaign' | t }}:
                 <span class="price price--compare">
                 <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {%- if settings.currency_code_enabled -%}
@@ -222,10 +222,10 @@
 
       <h3><a href="{{ filtered_variant.url | default: product.url }}" class="product-item__title text--strong link">{{ product.title }}</a></h3>
       {%- if show_b2b -%}
-        <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
+        <div class="product-item__vendor">{{ 'collection.list.release' | t }}:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
         {{ product.metafields.meta.support }} </div>
       {%- elsif settings.show_release_date_product -%}
-        <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}</div>
+        <div class="product-item__vendor">{{ 'collection.list.release' | t }}:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}</div>
       {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}
