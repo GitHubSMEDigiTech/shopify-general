@@ -30,13 +30,14 @@
     "show_reviews_badge": false,
     "product_image_size": "short",
     "show_color_swatch": true,
+    "show_release_date_product": true,
     "show_inventory_quantity": false,
-    "show_release_date": true,
+    "show_release_date": false,
     "cart_type": "drawer",
-    "social_facebook": "https:\/\/www.facebook.com\/store.sonymusic.it\/",
-    "social_instagram": "https:\/\/www.instagram.com\/sonymusicstore_italia\/",
-    "favicon": "shopify:\/\/shop_images\/logosonystore_7f027dbd-9ce4-4c65-92c9-8e25ba35568e.png",
-    "logo": "shopify:\/\/shop_images\/SonyMusicLogo_whitematte.gif",
+    "social_facebook": "https://www.facebook.com/store.sonymusic.it/",
+    "social_instagram": "https://www.instagram.com/sonymusicstore_italia/",
+    "favicon": "shopify://shop_images/logosonystore_7f027dbd-9ce4-4c65-92c9-8e25ba35568e.png",
+    "logo": "shopify://shop_images/SonyMusicLogo_whitematte.gif",
     "logo_width": 70,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -134,7 +135,7 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -164,7 +165,7 @@
           "show_newsletter": true,
           "newsletter_button": "Subscribe & Save",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
         }
       },
       "popups": {
@@ -181,7 +182,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/SM_Horizontal_Oneline_RedandWhite_RGB_Logo.jpg",
+          "logo": "shopify://shop_images/SM_Horizontal_Oneline_RedandWhite_RGB_Logo.jpg",
           "logo_max_width": 140,
           "mobile_logo_max_width": 100,
           "show_locale_selector": true,
@@ -217,8 +218,8 @@
             "type": "text",
             "settings": {
               "title": "",
-              "liquid": "<img style=\"max-width: 140px\" width=\"1659\" height=\"413\" src=\"\/\/sm-itd2c.myshopify.com\/cdn\/shop\/files\/SM_Horizontal_Oneline_RedandWhite_RGB_Logo_140x@2x.jpg?v=1707914749\" alt=\"Sony Music Italy D2C\">",
-              "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.<\/p><p>Partita IVA, CF e R.I.: 08072811006<br\/>R.E.A.: 1781820<\/p><p>Cap. Soc. 5.955.000,00 € i.v.<br\/>S.L. Tutti i diritti sono riservati<\/p>"
+              "liquid": "<img style=\"max-width: 140px\" width=\"1659\" height=\"413\" src=\"//sm-itd2c.myshopify.com/cdn/shop/files/SM_Horizontal_Oneline_RedandWhite_RGB_Logo_140x@2x.jpg?v=1707914749\" alt=\"Sony Music Italy D2C\">",
+              "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.</p><p>Partita IVA, CF e R.I.: 08072811006<br/>R.E.A.: 1781820</p><p>Cap. Soc. 5.955.000,00 € i.v.<br/>S.L. Tutti i diritti sono riservati</p>"
             }
           },
           "footer-1": {
@@ -232,7 +233,7 @@
             "disabled": true,
             "settings": {
               "title": "Newsletter",
-              "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
             }
           },
           "links_wfmPgy": {
@@ -265,7 +266,7 @@
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_cookie_bar": false,
-          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "text": "<p>Use this bar to show information about your cookie policy.</p>",
           "accept_button": "Accept"
         }
       }
@@ -275,13 +276,13 @@
     ],
     "blocks": {
       "319724205969189013": {
-        "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
         "settings": {
         }
       },
       "6530966394998176969": {
-        "type": "shopify:\/\/apps\/dc-pre-orders-preorder-now\/blocks\/preorder-app-embed\/31798c03-8451-4b34-b6bd-53a41ce1a967",
+        "type": "shopify://apps/dc-pre-orders-preorder-now/blocks/preorder-app-embed/31798c03-8451-4b34-b6bd-53a41ce1a967",
         "disabled": false,
         "settings": {
           "preorder-button-text": "Aggiungi preorder",
@@ -294,7 +295,7 @@
           "line-item-prop-product-type-key": "Product type",
           "line-item-prop-product-type-value": "Preorder",
           "line-item-prop-ship-by-text": "Ships by",
-          "product-form-selector": "form[action*='cart\/Add' i]"
+          "product-form-selector": "form[action*='cart/Add' i]"
         }
       }
     }
@@ -398,7 +399,7 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
