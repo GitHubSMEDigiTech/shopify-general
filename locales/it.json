@@ -161,7 +161,9 @@
       "send": "Invia a Carrello",
       "list": "List",
       "campagin": "Campaign",
-      "release": "Release"
+      "release": "Release",
+      "supporto": "Supporto",
+      "pezzi": "Pezzi"
     },
     "general": {
       "all_collections": "Tutte le categorie",
