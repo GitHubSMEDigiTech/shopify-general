@@ -146,6 +146,14 @@
     }
   },
   "collection": {
+    "list": {
+      "selected_items": "Selected Items",
+      "total": "Total",
+      "send": "Send",
+      "list": "List",
+      "campagin": "Campaign",
+      "release": "Release"
+    },
     "general": {
       "all_collections": "Todas as coleções",
       "all_products": "Todos os produtos",

@@ -91,7 +91,7 @@
       {%- capture price_list -%}
         <div class="product-item__price-list price-list">
           {%- if show_b2b -%}
-            <div class="product-item__vendor list-price">List:
+            <div class="product-item__vendor">{{ 'collection.list.list' | t }}:
             <span class="price price--compare">
                 <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {%- if settings.currency_code_enabled -%}
@@ -102,7 +102,7 @@
               </span></div><br>
 
               {%- if product.metafields.meta.campaign_ppd > 0 -%}
-              <div class="product-item__vendor list-price">Campaign:
+              <div class="product-item__vendor">{{ 'collection.list.campaign' | t }}:
                 <span class="price price--compare">
                 <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
                 {%- if settings.currency_code_enabled -%}
@@ -225,12 +225,15 @@
         <div class="product-item__vendor">
         Barcode: {{ product.selected_or_first_available_variant.barcode }} &nbsp;&nbsp;&nbsp;
         ({{- 'product.general.sku' | t -}} <span class="product-meta__sku-number">{{ product.selected_or_first_available_variant.sku }}</span>) <br>
-        Data release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
+        {{ 'collection.list.release' | t }}:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
         Supporto: {{ product.metafields.meta.support }} &nbsp;&nbsp;&nbsp; 
         (Pezzi: {{ product.metafields.meta.item_in_set }})
         </div>
       {%- elsif settings.show_release_date_product -%}
-        <div class="product-item__vendor">Release:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}</div>
+        <div class="product-item__vendor">Supporto:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}<br>
+        {{ product.metafields.meta.support }} </div>
+      {%- elsif settings.show_release_date_product -%}
+        <div class="product-item__vendor">{{ 'collection.list.release' | t }}:  {{ product.metafields.meta.street_date | date: '%d.%m.%Y' }}</div>
       {%- endif -%}
 
       {%- if settings.product_price_position == 'before_title' -%}
