@@ -18,9 +18,9 @@
         "text_width": "regular",
         "title": "HAPPY HOLIDAYS!",
         "h_one": false,
-        "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
+        "content": "<h5>We are going on <strong>Christmas break </strong><em><strong>from December 18 until January 02</strong></em>. You can still order as usual, but there will be delays in your shipment.<br/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!</strong></em></h5>",
         "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "bg_color": "#ffffff",
         "text_color": "#000000",
         "bt_bg_color": "#ffffff",
@@ -38,9 +38,9 @@
         "text_width": "narrow",
         "title": "",
         "h_one": false,
-        "content": "<p>Get <em>one <\/em><strong>free <\/strong><a href=\"https:\/\/www.cmdistro.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=f379bd6e6&_ss=r\" title=\"https:\/\/www.cmdistro.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=f379bd6e6&_ss=r\">Slipmat<\/a> with every LP order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.<\/p>",
+        "content": "<p>Get <em>one </em><strong>free </strong><a href=\"https://www.cmdistro.de/de/products/slipmat-cm-inside-out-logo?_pos=1&_sid=f379bd6e6&_ss=r\" title=\"https://www.cmdistro.de/de/products/slipmat-cm-inside-out-logo?_pos=1&_sid=f379bd6e6&_ss=r\">Slipmat</a> with every LP order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.</p>",
         "button_text": "Show me your LPs",
-        "button_link": "shopify:\/\/collections\/lp",
+        "button_link": "shopify://collections/lp",
         "bg_color": "#000000",
         "text_color": "#ffffff",
         "bt_bg_color": "#ad141f",
@@ -53,12 +53,34 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_j6xHXw": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/LC.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/lacunacoilsleeplessempirejpg_93acc69f-b350-4e3e-b89f-1e5650ee5979.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#787878",
+            "title": "lacuna coil",
+            "head_color": "#787878",
+            "subtitle": "sleepless empire",
+            "subhead_color": "#787878",
+            "content": "Ltd. Deluxe CD Box Set \nLtd. CD Digipak\nblack LP & LP-Booklet\nLtd. white LP & LP-Booklet\nLtd. Sparkle Rainbow LP & LP-Booklet",
+            "content_color": "#787878",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "february 14",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Lacuna+Coil&sort_by=created-descending"
+          }
+        },
         "banner_PnFNVN": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BC.jpg",
+            "image": "shopify://shop_images/BC.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/bodycountmercilessjpg_0033e6c7-62b3-4814-ab1f-0f9cfcab4bf5.jpg",
+            "cover_image": "shopify://shop_images/bodycountmercilessjpg_0033e6c7-62b3-4814-ab1f-0f9cfcab4bf5.jpg",
             "cover_effect": "glow",
             "cover_color": "#e82128",
             "title": "body count",
@@ -72,15 +94,15 @@
             "show_preorder": true,
             "preorder_msg": "november 22",
             "preorder_msg_color": "#e82128",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Body+Count&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/collections/vendors?q=Body+Count&sort_by=created-descending"
           }
         },
         "banner_PxNWz7": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/enf.jpg",
+            "image": "shopify://shop_images/enf.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/enforcedaleapintothedarkepjpg_84991ced-1507-4999-a259-e81f8ab26b4f.jpg",
+            "cover_image": "shopify://shop_images/enforcedaleapintothedarkepjpg_84991ced-1507-4999-a259-e81f8ab26b4f.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "enforced",
@@ -94,15 +116,15 @@
             "show_preorder": true,
             "preorder_msg": "october 25",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Enforced&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Enforced&sort_by=created-descending"
           }
         },
         "banner_B4DQtx": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dist.jpg",
+            "image": "shopify://shop_images/dist.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/distanttsukuyomioriginsjpg_b6827894-fe22-480c-a906-0bcb4c9ad9f4.jpg",
+            "cover_image": "shopify://shop_images/distanttsukuyomioriginsjpg_b6827894-fe22-480c-a906-0bcb4c9ad9f4.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "distant",
@@ -116,37 +138,37 @@
             "show_preorder": true,
             "preorder_msg": "november 22",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Distant&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Distant&sort_by=created-descending"
           }
         },
         "banner_qdQnhA": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tribu.jpg",
+            "image": "shopify://shop_images/tribu.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/tribulationsubrosainaeternumjpg_71f82ce8-169a-47c3-ae28-596c111d8f36.jpg",
+            "cover_image": "shopify://shop_images/tribulationsubrosainaeternumjpg_71f82ce8-169a-47c3-ae28-596c111d8f36.jpg",
             "cover_effect": "glow",
             "cover_color": "#d60913",
             "title": "tribulation",
             "head_color": "#d60913",
             "subtitle": "Sub Rosa In Æternum",
             "subhead_color": "#d60913",
-            "content": "Ltd. CD Mediabook\nStandard CD Jewelcase\nblack LP\nLtd. Gatefold ultra clear LP & LP-Booklet\nLtd. Gatefold Side A\/B split (red&black) LP & LP-Booklet",
+            "content": "Ltd. CD Mediabook\nStandard CD Jewelcase\nblack LP\nLtd. Gatefold ultra clear LP & LP-Booklet\nLtd. Gatefold Side A/B split (red&black) LP & LP-Booklet",
             "content_color": "#d60913",
             "show_preorder_banner": true,
             "preorder_bar_color": "#d60913",
             "show_preorder": true,
             "preorder_msg": "november 1",
             "preorder_msg_color": "#ffffff",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Tribulation&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Tribulation&sort_by=created-descending"
           }
         },
         "banner_G8pfGX": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/darkt.jpg",
+            "image": "shopify://shop_images/darkt.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/darktranquillityprojector2024jpg_ed87a2eb-bbb7-40e0-98f9-f9473962d25b.jpg",
+            "cover_image": "shopify://shop_images/darktranquillityprojector2024jpg_ed87a2eb-bbb7-40e0-98f9-f9473962d25b.jpg",
             "cover_effect": "glow",
             "cover_color": "#f9ef95",
             "title": "dark tranquillity",
@@ -160,15 +182,15 @@
             "show_preorder": true,
             "preorder_msg": "november 1",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Dark+Tranquillity&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Dark+Tranquillity&sort_by=created-descending"
           }
         },
         "banner_nwja4d": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FEVER.jpg",
+            "image": "shopify://shop_images/FEVER.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/FEVER_333_DARKER_WHITE.jpg",
+            "cover_image": "shopify://shop_images/FEVER_333_DARKER_WHITE.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Fever 333",
@@ -182,15 +204,15 @@
             "show_preorder": true,
             "preorder_msg": "October 4",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=FEVER%20333"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=FEVER%20333"
           }
         },
         "banner_iXMCC9": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/haende_ganz_toll.jpg",
+            "image": "shopify://shop_images/haende_ganz_toll.jpg",
             "bg_color": "#ffffff",
-            "cover_image": "shopify:\/\/shop_images\/swallowthesunshiningjpg.jpg",
+            "cover_image": "shopify://shop_images/swallowthesunshiningjpg.jpg",
             "cover_effect": "shadow",
             "cover_color": "#ffffff",
             "title": "Swallow The Sun",
@@ -204,15 +226,15 @@
             "show_preorder": true,
             "preorder_msg": "October 18",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Swallow+The+Sun&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Swallow+The+Sun&sort_by=created-descending"
           }
         },
         "banner_km8CMJ": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/helga_veddersen.jpg",
+            "image": "shopify://shop_images/helga_veddersen.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Solstafir_HinHelgaKvoel.jpg",
+            "cover_image": "shopify://shop_images/Solstafir_HinHelgaKvoel.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Sólstafir",
@@ -226,15 +248,15 @@
             "show_preorder": true,
             "preorder_msg": "November 11",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=S%C3%B3lstafir"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=S%C3%B3lstafir"
           }
         },
         "banner_UdbiCj": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blood_incantation.jpg",
+            "image": "shopify://shop_images/blood_incantation.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/BloodIncantation_AbsoluteElsewhere.jpg",
+            "cover_image": "shopify://shop_images/BloodIncantation_AbsoluteElsewhere.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Blood Incantation",
@@ -248,15 +270,15 @@
             "show_preorder": true,
             "preorder_msg": "oktober 4",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Blood+Incantation&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/collections/vendors?q=Blood+Incantation&sort_by=created-descending"
           }
         },
         "banner_mJ6g88": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/allt.jpg",
+            "image": "shopify://shop_images/allt.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Allt_FromTheNewWorld.jpg",
+            "cover_image": "shopify://shop_images/Allt_FromTheNewWorld.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "ALLT",
@@ -270,15 +292,15 @@
             "show_preorder": true,
             "preorder_msg": "october 4",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Allt"
+            "link": "https://www.cmdistro.de/collections/vendors?q=Allt"
           }
         },
         "banner_xLBjAJ": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cemsky.jpg",
+            "image": "shopify://shop_images/cemsky.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/cemeteryskylinenordicgothicjpg_f2de0c1a-cae0-4e6b-ac10-596a2b0e2351.jpg",
+            "cover_image": "shopify://shop_images/cemeteryskylinenordicgothicjpg_f2de0c1a-cae0-4e6b-ac10-596a2b0e2351.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "cemetery skyline",
@@ -292,16 +314,16 @@
             "show_preorder": true,
             "preorder_msg": "October 11",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Cemetery+Skyline&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/collections/vendors?q=Cemetery+Skyline&sort_by=created-descending"
           }
         },
         "banner_C3ipp6": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vf.png",
-            "mobile_image": "shopify:\/\/shop_images\/VomitForth_0724_Insta.jpg",
+            "image": "shopify://shop_images/vf.png",
+            "mobile_image": "shopify://shop_images/VomitForth_0724_Insta.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/VomitForth_TerrifiedOfGod.jpg",
+            "cover_image": "shopify://shop_images/VomitForth_TerrifiedOfGod.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "VOMIT FORTH",
@@ -315,16 +337,16 @@
             "show_preorder": true,
             "preorder_msg": "October 11",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Vomit+Forth&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/collections/vendors?q=Vomit+Forth&sort_by=created-descending"
           }
         },
         "banner_exmHjp": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bw.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Bewitcher_SpellShock_0724_750-1100_Kopie.jpg",
+            "image": "shopify://shop_images/bw.jpg",
+            "mobile_image": "shopify://shop_images/Bewitcher_SpellShock_0724_750-1100_Kopie.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Bewitcher_SpellShock.jpg",
+            "cover_image": "shopify://shop_images/Bewitcher_SpellShock.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Bewitcher",
@@ -338,15 +360,15 @@
             "show_preorder": true,
             "preorder_msg": "september 27",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/de\/collections\/vendors?q=Bewitcher&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Bewitcher&sort_by=created-descending"
           }
         },
         "banner_UqWUbb": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HER.jpg",
+            "image": "shopify://shop_images/HER.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/heriotdevouredbythemouthofhelljpg_7c3def7a-8b0e-4fd2-8fa3-3763b55a6e81.jpg",
+            "cover_image": "shopify://shop_images/heriotdevouredbythemouthofhelljpg_7c3def7a-8b0e-4fd2-8fa3-3763b55a6e81.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "heriot",
@@ -360,15 +382,15 @@
             "show_preorder": true,
             "preorder_msg": "September 27",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.cmdistro.de\/collections\/vendors?q=Heriot&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/collections/vendors?q=Heriot&sort_by=created-descending"
           }
         },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blowout.jpg",
+            "image": "shopify://shop_images/blowout.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/cm_logo.png",
+            "cover_image": "shopify://shop_images/cm_logo.png",
             "cover_effect": "shadow",
             "cover_color": "#ffffff",
             "title": "midprice blowout",
@@ -382,11 +404,12 @@
             "show_preorder": false,
             "preorder_msg": "click to enter the vault!",
             "preorder_msg_color": "#ad141f",
-            "link": "https:\/\/www.cmdistro.de\/collections\/midprice-blowout"
+            "link": "https://www.cmdistro.de/collections/midprice-blowout"
           }
         }
       },
       "block_order": [
+        "banner_j6xHXw",
         "banner_PnFNVN",
         "banner_PxNWz7",
         "banner_B4DQtx",
@@ -460,7 +483,7 @@
           "type": "collection",
           "settings": {
             "collection": "judas-priest-firepower-tour-edition",
-            "image": "shopify:\/\/shop_images\/judas-priest-mock-up-tour-edition.jpg",
+            "image": "shopify://shop_images/judas-priest-mock-up-tour-edition.jpg",
             "link": ""
           }
         }
@@ -481,7 +504,7 @@
       "disabled": true,
       "settings": {
         "title": "Newsletter",
-        "content": "<p>Subscribe to our newsletter!<\/p>",
+        "content": "<p>Subscribe to our newsletter!</p>",
         "background": "#ffffff",
         "text": "#666666"
       }
@@ -492,13 +515,13 @@
         "marign_top": 50,
         "marign_bottom": 50,
         "title": "Newsletter",
-        "content": "<p>Subscribe to our newsletter!<\/p>",
+        "content": "<p>Subscribe to our newsletter!</p>",
         "ae_segment_id": "1700057",
         "ae_brand_id": "3447671",
         "ae_activities": "{\"actions\":{\"formsubmission\":98131,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S2400000NgsDAEAZ\":98132}}",
         "ae": "a46886de7a3bb739711087fe2c65a5e972b8ff824d078c63999efe0547896899",
         "ae_form": "218351",
-        "ae_form_html": "<div class=\"form-group\" data-validation=\"Enter a valid email address\">\n\t\t\t\t<label for=\"field_email_address\">\n\t\t\t\t\tEmail Address\n\t\t\t\t<\/label>\n\t\t\t\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\">\n\t\t\t<\/div>\n\n <input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t id=\"confirmation_email\" class=\"display-none\" checked=\"checked\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t\t id=\"ts-for-mailing-list-id[0]\" class=\"triggered_sends display-none\"  value=\"6420609;CMDistroNewsletter_WPFormConfirm;a0S2400000NgsDAEAZ\">\n\t\t\t\t<div class=\"input-group hidden\">\n\t\t\t\t\t<div class=\"checkbox\">\n\t\t\t\t\t\t<label for=\"mailing-list-id[0]\">\n\t\t\t\t\t\t\t<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\"\n\t\t\t\t\t\t\t\t\t\t name=\"mailing-list-id[0]\" value=\"a0S2400000NgsDAEAZ\">\n\t\t\t\t\t\t\t<p>I'd like to subscribe to the CMDistro.de Newsletter newsletter<\/p>\t\t\t\t\t\t<\/label>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>",
+        "ae_form_html": "<div class=\"form-group\" data-validation=\"Enter a valid email address\">\n\t\t\t\t<label for=\"field_email_address\">\n\t\t\t\t\tEmail Address\n\t\t\t\t</label>\n\t\t\t\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\">\n\t\t\t</div>\n\n <input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t id=\"confirmation_email\" class=\"display-none\" checked=\"checked\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"triggered_sends[]\"\n\t\t\t\t\t\t\t id=\"ts-for-mailing-list-id[0]\" class=\"triggered_sends display-none\"  value=\"6420609;CMDistroNewsletter_WPFormConfirm;a0S2400000NgsDAEAZ\">\n\t\t\t\t<div class=\"input-group hidden\">\n\t\t\t\t\t<div class=\"checkbox\">\n\t\t\t\t\t\t<label for=\"mailing-list-id[0]\">\n\t\t\t\t\t\t\t<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\"\n\t\t\t\t\t\t\t\t\t\t name=\"mailing-list-id[0]\" value=\"a0S2400000NgsDAEAZ\">\n\t\t\t\t\t\t\t<p>I'd like to subscribe to the CMDistro.de Newsletter newsletter</p>\t\t\t\t\t\t</label>\n\t\t\t\t\t</div>\n\t\t\t\t</div>",
         "btn_txt": "Subscribe",
         "background": "#ffffff",
         "text": "#000000"
