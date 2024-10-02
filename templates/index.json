@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony-2170x720_Pre.jpg",
+            "mobile_image": "shopify://shop_images/naskamobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/naska"
+          }
+        },
         "image_cd6H7W": {
           "type": "image",
           "settings": {
@@ -131,23 +148,6 @@
             "link": "shopify://collections/shiva"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PDM_BannerDesktop_2160x720_v2.jpg",
-            "mobile_image": "shopify://shop_images/PDM_BannerMobile_750x1100_3cf8608e-8ae5-43b8-a634-77b3e8db8828.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/purple-disco-machine"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -201,6 +201,7 @@
         }
       },
       "block_order": [
+        "image_3wJqzQ",
         "image_cd6H7W",
         "image_wfGmGy",
         "image_QeQ8wi",
@@ -208,7 +209,6 @@
         "image_zLLxyF",
         "image_7m99JY",
         "image_c6iKRK",
-        "image_3wJqzQ",
         "image_XHmBAC",
         "image_eUhDX7",
         "image_hhc4xB"
