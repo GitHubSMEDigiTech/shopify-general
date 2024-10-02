@@ -146,6 +146,14 @@
     }
   },
   "collection": {
+    "list": {
+      "selected_items": "Quantità selezionata",
+      "total": "Totale",
+      "send": "Invia a Carrello",
+      "list": "List",
+      "campagin": "Campaign",
+      "release": "Release"
+    },
     "general": {
       "all_collections": "Tutte le categorie",
       "all_products": "Tutti i prodotti",
