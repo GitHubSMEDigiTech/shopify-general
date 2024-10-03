@@ -973,11 +973,26 @@
       } 
       // end SME_digital_datalayer
 
-      document.addEventListener('DOMContentLoaded', function() {
-        try {
-          new SME_digital_datalayer();
-        } catch(error) {
-          console.error('%c[ERROR] Initialization Failed:', 'background: #ff0000; color: white; font-size: 14px; font-weight: bold;', error);
+      window.addEventListener('load', function() {
+        try{
+          var delayInMilliseconds = 5000; //5 second
+          setTimeout(function() {
+            var myconsent = window.OnetrustActiveGroups;
+            console.log(myconsent);
+
+            if(myconsent.includes("C0002")) {
+        		var acceptPT= "True"
+        	} else if(myconsent.includes("C0004")){
+        		var acceptPT= "True"
+        	} else {
+        		var acceptPT= "False"
+        	}
+	
+        	if (acceptPT== "True") {
+              new SME_digital_datalayer();
+          } }, delayInMilliseconds);
+        }catch(error) {
+          console.log(error);
         }
       });
     

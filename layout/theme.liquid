@@ -13,6 +13,7 @@
       })(window,document,'script','dataLayer','GTM-NJ8WB5');</script>
     <!-- End Google Tag Manager -->
     {% render 'dataLayer' %}
+    {% render 'oneTrust'  %}
 
     {%- capture seo_page_title -%}
       {%- if request.page_type == 'search' and search.terms != blank -%}
