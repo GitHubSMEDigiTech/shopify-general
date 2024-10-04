@@ -18,9 +18,9 @@
         "text_width": "regular",
         "title": "HAPPY HOLIDAYS!",
         "h_one": false,
-        "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
+        "content": "<h5>We are going on <strong>Christmas break </strong><em><strong>from December 18 until January 02</strong></em>. You can still order as usual, but there will be delays in your shipment.<br/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!</strong></em></h5>",
         "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "bg_color": "#ffffff",
         "text_color": "#000000",
         "bt_bg_color": "#ffffff",
@@ -38,9 +38,9 @@
         "text_width": "narrow",
         "title": "",
         "h_one": false,
-        "content": "<p>Get <em>one <\/em><strong>free <\/strong><a href=\"https:\/\/www.insideoutshop.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=b37daa04e&_ss=r\" title=\"https:\/\/www.insideoutshop.de\/de\/products\/slipmat-cm-inside-out-logo?_pos=1&_sid=b37daa04e&_ss=r\">Slipmat<\/a> with every Vinyl order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.<\/p>",
+        "content": "<p>Get <em>one </em><strong>free </strong><a href=\"https://www.insideoutshop.de/de/products/slipmat-cm-inside-out-logo?_pos=1&_sid=b37daa04e&_ss=r\" title=\"https://www.insideoutshop.de/de/products/slipmat-cm-inside-out-logo?_pos=1&_sid=b37daa04e&_ss=r\">Slipmat</a> with every Vinyl order that has exceeded a cart value of 120€. Slipmats cannot be purchased seperately.</p>",
         "button_text": "Show me your LPs",
-        "button_link": "shopify:\/\/collections\/lp",
+        "button_link": "shopify://collections/lp",
         "bg_color": "#000000",
         "text_color": "#ffffff",
         "bt_bg_color": "#3f6ab1",
@@ -53,12 +53,34 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_GdTMBc": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/JT.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/jethrotullthejethrotullchristmasalbumoriginalreleasejpg_b04c3661-c8f7-4077-afaa-7f909037355e.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#feffff",
+            "title": "jethro tull",
+            "head_color": "#75564f",
+            "subtitle": "The Jethro Tull Christmas Album - Fresh Snow At Christmas",
+            "subhead_color": "#fef9d2",
+            "content": "Ltd. Deluxe 4CD+Blu-ray Mediabook\nGatefold black 2LP",
+            "content_color": "#75564f",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#fef9d2",
+            "show_preorder": true,
+            "preorder_msg": "december 6",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
+          }
+        },
         "banner_GyqJGX": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/neal.jpg",
+            "image": "shopify://shop_images/neal.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/nealmorsetheresonancenohillforaclimberjpg_68fa0149-7628-4c69-a25c-1b906940a347.jpg",
+            "cover_image": "shopify://shop_images/nealmorsetheresonancenohillforaclimberjpg_68fa0149-7628-4c69-a25c-1b906940a347.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "neal morse",
@@ -72,15 +94,15 @@
             "show_preorder": true,
             "preorder_msg": "November 8",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Neal+Morse&sort_by=created-descending"
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Neal+Morse&sort_by=created-descending"
           }
         },
         "banner_XN4Ky4": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BF.jpg",
+            "image": "shopify://shop_images/BF.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/beardfishsongsforbeatingheartsjpg_f83c78a5-227c-4bc2-8dba-3a967a752c1e.jpg",
+            "cover_image": "shopify://shop_images/beardfishsongsforbeatingheartsjpg_f83c78a5-227c-4bc2-8dba-3a967a752c1e.jpg",
             "cover_effect": "glow",
             "cover_color": "#ef1e06",
             "title": "beardfish",
@@ -94,15 +116,15 @@
             "show_preorder": true,
             "preorder_msg": "November 1",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Beardfish&sort_by=created-descending"
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Beardfish&sort_by=created-descending"
           }
         },
         "banner_MFQWzE": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pn_cb9b1946-f705-4149-99f7-30dc12db68d3.jpg",
+            "image": "shopify://shop_images/pn_cb9b1946-f705-4149-99f7-30dc12db68d3.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/devintownsendpowernerdjpg_1af1a260-9985-4bfa-9283-bc98390e5267.jpg",
+            "cover_image": "shopify://shop_images/devintownsendpowernerdjpg_1af1a260-9985-4bfa-9283-bc98390e5267.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Devin townsend",
@@ -116,15 +138,15 @@
             "show_preorder": true,
             "preorder_msg": "october 25",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/vendors?q=Devin+Townsend&sort_by=created-descending"
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Devin+Townsend&sort_by=created-descending"
           }
         },
         "banner_9xMMjy": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kalt.jpg",
+            "image": "shopify://shop_images/kalt.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify:\/\/shop_images\/Frost_Life_In_The_Wires_Packshot_3000px.jpg",
+            "cover_image": "shopify://shop_images/Frost_Life_In_The_Wires_Packshot_3000px.jpg",
             "cover_effect": "none",
             "cover_color": "#ffffff",
             "title": "Frost*",
@@ -138,13 +160,13 @@
             "show_preorder": true,
             "preorder_msg": "October 18",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/de\/collections\/vendors?q=Frost*&sort_by=created-descending"
+            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Frost*&sort_by=created-descending"
           }
         },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IOM_Releases_1122_2160-720.jpg",
+            "image": "shopify://shop_images/IOM_Releases_1122_2160-720.jpg",
             "bg_color": "#eeeeee",
             "cover_effect": "none",
             "cover_color": "#ffffff",
@@ -159,11 +181,12 @@
             "show_preorder": false,
             "preorder_msg": "Click here to enter the vault!!",
             "preorder_msg_color": "#000000",
-            "link": "https:\/\/www.insideoutshop.de\/collections\/midprice-blowout"
+            "link": "https://www.insideoutshop.de/collections/midprice-blowout"
           }
         }
       },
       "block_order": [
+        "banner_GdTMBc",
         "banner_GyqJGX",
         "banner_XN4Ky4",
         "banner_MFQWzE",
@@ -246,7 +269,7 @@
       "type": "newsletter",
       "settings": {
         "title": "Newsletter",
-        "content": "<p>Subscribe to our newsletter!<\/p>",
+        "content": "<p>Subscribe to our newsletter!</p>",
         "background": "#ffffff",
         "text": "#666666"
       }
