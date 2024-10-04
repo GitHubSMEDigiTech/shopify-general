@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_QREb8T": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/AE_7e842289-5868-41bf-b912-1af50ad25ac6.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/archenemyblooddynastyjpg_b2199270-337f-4a62-9194-6d6f6514f12b.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#b06e5a",
+            "title": "arch enemy",
+            "head_color": "#d1cab8",
+            "subtitle": "blood dynasty",
+            "subhead_color": "#d1cab8",
+            "content": "Ltd. Deluxe A/B split (red&golden) LP+bonus LP+CD Artbook & Art print\nLtd. Deluxe CD Box Set \nSpecial Edition CD\nblack LP & LP-Booklet\nLtd. dark green LP & LP-Booklet\nLtd. bright gold LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#d1cab8",
+            "show_preorder": true,
+            "preorder_msg": "march 28",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/arch-enemy?sort_by=created-descending"
+          }
+        },
         "banner_j6xHXw": {
           "type": "banner",
           "settings": {
@@ -340,51 +362,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Vomit+Forth&sort_by=created-descending"
           }
         },
-        "banner_exmHjp": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/bw.jpg",
-            "mobile_image": "shopify://shop_images/Bewitcher_SpellShock_0724_750-1100_Kopie.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Bewitcher_SpellShock.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Bewitcher",
-            "head_color": "#ffffff",
-            "subtitle": "Spell Shock",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nGatefold black LP\nLtd. Gatefold lilac LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "september 27",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Bewitcher&sort_by=created-descending"
-          }
-        },
-        "banner_UqWUbb": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/HER.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/heriotdevouredbythemouthofhelljpg_7c3def7a-8b0e-4fd2-8fa3-3763b55a6e81.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "heriot",
-            "head_color": "#ffffff",
-            "subtitle": "Devoured by the Mouth of Hell",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. orange LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 27",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Heriot&sort_by=created-descending"
-          }
-        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "settings": {
@@ -409,6 +386,7 @@
         }
       },
       "block_order": [
+        "banner_QREb8T",
         "banner_j6xHXw",
         "banner_PnFNVN",
         "banner_PxNWz7",
@@ -422,8 +400,6 @@
         "banner_mJ6g88",
         "banner_xLBjAJ",
         "banner_C3ipp6",
-        "banner_exmHjp",
-        "banner_UqWUbb",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
