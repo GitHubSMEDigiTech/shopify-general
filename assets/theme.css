@@ -3823,7 +3823,7 @@ img.lazyload[data-sizes=auto] {
 .collection__filter-group {
   padding: 13px 20px 14px 20px;
   border-bottom: 1px solid var(--border-color);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .collection__filter-group-name {
@@ -3996,7 +3996,7 @@ img.lazyload[data-sizes=auto] {
   .collection__filter-group {
     padding: 6px 0;
     border-bottom: 0;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .collection__filter-group-name {
