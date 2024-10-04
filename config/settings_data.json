@@ -212,16 +212,16 @@
               "content": "<p>@2022 Sony Music Entertainment Italy s.p.a.</p><p>Partita IVA, CF e R.I.: 08072811006<br/>R.E.A.: 1781820</p><h6>Cap. Soc. 5.955.000,00 € i.v.<br/>S.L. Tutti i diritti sono riservati</h6>"
             }
           },
-          "links_BLFmRg": {
-            "type": "links",
-            "settings": {
-              "menu": "main-menu"
-            }
-          },
           "footer-1": {
             "type": "links",
             "settings": {
               "menu": "footer"
+            }
+          },
+          "links_BLFmRg": {
+            "type": "links",
+            "settings": {
+              "menu": "main-menu"
             }
           },
           "links_AWxkCB": {
@@ -233,8 +233,8 @@
         },
         "block_order": [
           "text_E9wczG",
-          "links_BLFmRg",
           "footer-1",
+          "links_BLFmRg",
           "links_AWxkCB"
         ],
         "custom_css": [
