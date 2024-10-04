@@ -3823,6 +3823,7 @@ img.lazyload[data-sizes=auto] {
 .collection__filter-group {
   padding: 13px 20px 14px 20px;
   border-bottom: 1px solid var(--border-color);
+  font-size: 13px;
 }
 
 .collection__filter-group-name {
@@ -3995,6 +3996,7 @@ img.lazyload[data-sizes=auto] {
   .collection__filter-group {
     padding: 6px 0;
     border-bottom: 0;
+    font-size: 13px;
   }
 
   .collection__filter-group-name {
@@ -7045,8 +7047,8 @@ select option {
   box-shadow: 2px 0 0 0 var(--secondary-background);
 }
 .plyr.plyr--full-ui.plyr--video .plyr__progress input[type=range]::-webkit-slider-runnable-track {
-  background-image: linear-gradient(to right, currentColor 0, rgba(var(--text-color-rgb) 0.6)) 0);
-  background-image: linear-gradient(to right, currentColor var(--value, 0), rgba(var(--text-color-rgb) 0.6)) var(--value, 0));
+  background-image: linear-gradient(to right, currentColor 0, rgba(var(--text-color-rgb) 0.6) 0);
+  background-image: linear-gradient(to right, currentColor var(--value, 0), rgba(var(--text-color-rgb) 0.6) var(--value, 0));
 }
 .plyr.plyr--full-ui.plyr--video .plyr__progress input[type=range]::-moz-range-track {
   background-color: rgba(var(--text-color-rgb) 0.6);
