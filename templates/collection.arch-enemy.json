@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "46338822-9410-46bb-b9ee-de365b10d376": {
@@ -22,7 +31,7 @@
         "banner_n6mknz": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/AE_981a9748-8af9-41c2-9e92-7b3a8f003857.jpg",
+            "image": "shopify://shop_images/AE_7e842289-5868-41bf-b912-1af50ad25ac6.jpg",
             "bg_color": "#eeeeee",
             "cover_effect": "shadow",
             "cover_color": "#ffffff",
@@ -51,6 +60,8 @@
         "mobile_section_size": "",
         "carousel_effect": "slide",
         "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
         "cycle_speed": 5
       }
     },
@@ -59,6 +70,7 @@
       "settings": {
         "show_collection_image": false,
         "collapse_collection_description": false,
+        "collapse_collection_style": false,
         "show_collection_top": false,
         "top_bg_color": "#f3f3f3",
         "headline_deco": false,
@@ -66,6 +78,8 @@
         "collection_image_size": "small",
         "products_per_row": "4",
         "default_products_per_page": 24,
+        "collection_pagination": "pagination",
+        "loading_button": "Load More",
         "default_view_layout": "grid",
         "show_quick_buy": "list_grid",
         "show_quick_view": "list",
