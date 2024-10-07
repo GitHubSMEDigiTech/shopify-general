@@ -65,7 +65,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/National.png",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
