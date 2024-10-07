@@ -141,6 +141,22 @@
             "button_text": "",
             "link": "shopify://collections/fabrizio-de-andre"
           }
+        },
+        "image_hpa3aU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/National.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/national-album-day"
+          }
         }
       },
       "block_order": [
@@ -151,7 +167,8 @@
         "image_CBXRTm",
         "image_VqjjpQ",
         "image_9TUQjJ",
-        "image_6YKHeW"
+        "image_6YKHeW",
+        "image_hpa3aU"
       ],
       "settings": {
         "edge_to_edge": false,
