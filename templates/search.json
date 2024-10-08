@@ -1,8 +1,25 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-search",
       "settings": {
+        "products_per_row": "4",
+        "default_view_layout": "list",
+        "show_quick_view": "list",
+        "show_quick_buy": "list",
+        "quick_links": "",
+        "show_filters": true,
+        "show_filter_color_swatch": true,
+        "open_group_filters_mode": "all_closed"
       }
     }
   },
