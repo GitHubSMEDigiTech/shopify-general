@@ -86,14 +86,14 @@
         "product_7YY8h9"
       ],
       "settings": {
-        "heading": "You may also like",
+        "heading": "Ti Potrebbero piacere",
         "show_quick_buy": false
       }
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
-        "title": "Recently viewed",
+        "title": "Visti di recente",
         "show_quick_buy": false
       }
     }
