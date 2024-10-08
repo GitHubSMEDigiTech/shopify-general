@@ -35,7 +35,7 @@
           "type": "question",
           "settings": {
             "title": "Quali sono i tempi di spedizione?",
-            "answer": "<h6>Il corriere spedisce generalmente in 24/48h e 7/7 (inclusi sabato e domenica)*servizio disponibile in tutte le aree idonee. <br/>Eventuali ritardi possono essere causati da disfunzioni nel servizio da parte del corriere, da cause di forza maggiore o in caso di festività.</h6>"
+            "answer": "<h6>Il corriere spedisce generalmente in 24/48h e 7/7 (inclusi sabato e domenica)<br/>*servizio disponibile in tutte le aree idonee. <br/>Eventuali ritardi possono essere causati da disfunzioni nel servizio da parte del corriere, da cause di forza maggiore o in caso di festività.<br/>Servizi inclusi: tracking in tempo reale e 5 tentativi di consegna. </h6>"
           }
         },
         "question_R4Ucz6": {
