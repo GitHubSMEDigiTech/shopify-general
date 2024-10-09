@@ -9175,6 +9175,9 @@ select option {
  * PRODUCT META
  * --------------------------------------------------------------------
  */
+ .label-bold {
+  font-weight: bold;
+}
 
 .product-meta {
   position: relative;
