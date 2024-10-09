@@ -112,6 +112,7 @@
         },
         "image_VqjjpQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/VENERUSdesktop.jpg",
             "show_overlay": false,
