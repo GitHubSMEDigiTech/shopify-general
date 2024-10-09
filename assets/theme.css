@@ -9182,7 +9182,7 @@ select option {
 }
 
 .product-meta__title {
-  margin-bottom: 14px;
+  margin-bottom: -18px;
 }
 
 /* When within a modal, we have to add an extra margin to prevent the title to overlap the close button */
@@ -9210,6 +9210,7 @@ select option {
 
 .product-meta__vendor {
   text-transform: uppercase;
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 20px));
 }
 
 .product-meta__vendor + .product-meta__sku::before {
@@ -9272,7 +9273,7 @@ select option {
 
   .product-meta__reference,
   .product-meta__reviews-badge {
-    margin-bottom: -2px;
+    margin-bottom: -20px;
   }
 
   .product-meta__reviews-badge {
@@ -9330,7 +9331,6 @@ select option {
   display: table;
   width: 100%;
   margin: -22px 0 6px 0;
-  border-spacing: 0 22px;
 }
 
 .product-form__info-item {
