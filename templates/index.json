@@ -126,6 +126,22 @@
             "link": "shopify://collections/canvass-11-ottobre-2024"
           }
         },
+        "image_8qhdec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HALSEY_BannerDesktop_2160x720_383b268b-5944-47cf-9ca9-3de0abd1cf1b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/halsey"
+          }
+        },
         "image_VqjjpQ": {
           "type": "image",
           "settings": {
@@ -183,6 +199,7 @@
         "image_afJGJz",
         "image_XHmBAC",
         "image_CBXRTm",
+        "image_8qhdec",
         "image_VqjjpQ",
         "image_9TUQjJ",
         "image_6YKHeW"
