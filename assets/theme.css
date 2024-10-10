@@ -9425,7 +9425,7 @@ shopify-payment-terms {
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: -9px;
+    margin: 9px;
   }
 
   .product-form__payment-container > * {
