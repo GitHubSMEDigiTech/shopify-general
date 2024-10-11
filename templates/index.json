@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "fc6b99b4-7b3b-4cac-b837-93c99192edda": {
@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_3Q3EXP": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/elegy.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/edgeofsanityelegychapterijpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#97d2c7",
+            "title": "edge of sanity",
+            "head_color": "#ffffff",
+            "subtitle": "Elegy - Chapter I (Demos Comp.)",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nGatefold black 2LP\nLtd. Gatefold transp. coke bottle green 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "February 28",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
+          }
+        },
         "banner_QREb8T": {
           "type": "banner",
           "settings": {
@@ -73,6 +95,28 @@
             "preorder_msg": "march 28",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/arch-enemy?sort_by=created-descending"
+          }
+        },
+        "banner_pNETXX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/infernal.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/edgeofsanityinfernalre-issuejpg_fb3f8390-be3d-4b56-b04e-38160d6f1d5b.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ed8a01",
+            "title": "edge of sanity",
+            "head_color": "#ed8a01",
+            "subtitle": "infernal",
+            "subhead_color": "#ed8a01",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. deep blood red LP \nLtd. apricot colored LP",
+            "content_color": "#ed8a01",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ed8a01",
+            "show_preorder": true,
+            "preorder_msg": "February 28",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
         "banner_j6xHXw": {
@@ -207,28 +251,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Dark+Tranquillity&sort_by=created-descending"
           }
         },
-        "banner_nwja4d": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/FEVER.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/FEVER_333_DARKER_WHITE.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Fever 333",
-            "head_color": "#eeeeee",
-            "subtitle": "Darker White",
-            "subhead_color": "#eeeeee",
-            "content": "Standard CD Jewelcase\nLtd. POW333R MARBL333D LP (white-lilac-transp. magenta marbled Vinyl)",
-            "content_color": "#eeeeee",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 4",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=FEVER%20333"
-          }
-        },
         "banner_iXMCC9": {
           "type": "banner",
           "settings": {
@@ -271,50 +293,6 @@
             "preorder_msg": "November 11",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/de/collections/vendors?q=S%C3%B3lstafir"
-          }
-        },
-        "banner_UdbiCj": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/blood_incantation.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/BloodIncantation_AbsoluteElsewhere.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Blood Incantation",
-            "head_color": "#ffffff",
-            "subtitle": "Absolute Elsewhere",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 3CD+Blu-ray Artbook\nLtd. CD Digipak\nGatefold black LP & Poster\nLtd. Gatefold transp. turquoise LP & Poster\nLtd. Gatefold clear-lilac splattered LP & Poster\nLtd. Gatefold transp. magenta LP & Poster",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "oktober 4",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Blood+Incantation&sort_by=created-descending"
-          }
-        },
-        "banner_mJ6g88": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/allt.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Allt_FromTheNewWorld.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "ALLT",
-            "head_color": "#ffffff",
-            "subtitle": "From The New World",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nblack LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "october 4",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Allt"
           }
         },
         "banner_xLBjAJ": {
@@ -386,18 +364,17 @@
         }
       },
       "block_order": [
+        "banner_3Q3EXP",
         "banner_QREb8T",
+        "banner_pNETXX",
         "banner_j6xHXw",
         "banner_PnFNVN",
         "banner_PxNWz7",
         "banner_B4DQtx",
         "banner_qdQnhA",
         "banner_G8pfGX",
-        "banner_nwja4d",
         "banner_iXMCC9",
         "banner_km8CMJ",
-        "banner_UdbiCj",
-        "banner_mJ6g88",
         "banner_xLBjAJ",
         "banner_C3ipp6",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
