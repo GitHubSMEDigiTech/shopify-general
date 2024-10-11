@@ -53,24 +53,24 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "banner_3Q3EXP": {
+        "banner_4Gb6FY": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/elegy.jpg",
+            "image": "shopify://shop_images/sorrows.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/edgeofsanityelegychapterijpg.jpg",
+            "cover_image": "shopify://shop_images/edgeofsanitythespectralsorrowsre-issuejpg_4bee31fc-4b4c-467d-b861-dda27c60dcbb.jpg",
             "cover_effect": "glow",
-            "cover_color": "#97d2c7",
+            "cover_color": "#c66f8e",
             "title": "edge of sanity",
             "head_color": "#ffffff",
-            "subtitle": "Elegy - Chapter I (Demos Comp.)",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nGatefold black 2LP\nLtd. Gatefold transp. coke bottle green 2LP",
+            "subtitle": "the spectral sorrows",
+            "subhead_color": "#c66f8e",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. petrol green LP \nLtd. clear LP",
             "content_color": "#ffffff",
             "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
+            "preorder_bar_color": "#c66f8e",
             "show_preorder": true,
-            "preorder_msg": "February 28",
+            "preorder_msg": "december 12",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
@@ -97,22 +97,22 @@
             "link": "https://www.cmdistro.de/collections/arch-enemy?sort_by=created-descending"
           }
         },
-        "banner_pNETXX": {
+        "banner_3Q3EXP": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/infernal.jpg",
+            "image": "shopify://shop_images/elegy.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/edgeofsanityinfernalre-issuejpg_fb3f8390-be3d-4b56-b04e-38160d6f1d5b.jpg",
+            "cover_image": "shopify://shop_images/edgeofsanityelegychapterijpg.jpg",
             "cover_effect": "glow",
-            "cover_color": "#ed8a01",
+            "cover_color": "#97d2c7",
             "title": "edge of sanity",
-            "head_color": "#ed8a01",
-            "subtitle": "infernal",
-            "subhead_color": "#ed8a01",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. deep blood red LP \nLtd. apricot colored LP",
-            "content_color": "#ed8a01",
+            "head_color": "#ffffff",
+            "subtitle": "Elegy - Chapter I (Demos Comp.)",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nGatefold black 2LP\nLtd. Gatefold transp. coke bottle green 2LP",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
-            "preorder_bar_color": "#ed8a01",
+            "preorder_bar_color": "#ffffff",
             "show_preorder": true,
             "preorder_msg": "February 28",
             "preorder_msg_color": "#000000",
@@ -139,6 +139,28 @@
             "preorder_msg": "february 14",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Lacuna+Coil&sort_by=created-descending"
+          }
+        },
+        "banner_pNETXX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/infernal.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/edgeofsanityinfernalre-issuejpg_fb3f8390-be3d-4b56-b04e-38160d6f1d5b.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ed8a01",
+            "title": "edge of sanity",
+            "head_color": "#ed8a01",
+            "subtitle": "infernal",
+            "subhead_color": "#ed8a01",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. deep blood red LP \nLtd. apricot colored LP",
+            "content_color": "#ed8a01",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ed8a01",
+            "show_preorder": true,
+            "preorder_msg": "February 28",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
         "banner_PnFNVN": {
@@ -364,10 +386,11 @@
         }
       },
       "block_order": [
-        "banner_3Q3EXP",
+        "banner_4Gb6FY",
         "banner_QREb8T",
-        "banner_pNETXX",
+        "banner_3Q3EXP",
         "banner_j6xHXw",
+        "banner_pNETXX",
         "banner_PnFNVN",
         "banner_PxNWz7",
         "banner_B4DQtx",
