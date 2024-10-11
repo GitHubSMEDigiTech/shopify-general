@@ -1,33 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_qKarbL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner-Desktop_2160x720px.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/canvass-25-ottobre-2024"
-          }
-        },
         "image_7m99JY": {
           "type": "image",
           "settings": {
@@ -43,71 +27,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/canvass-11-ottobre-2024"
-          }
-        },
-        "image_MCEnhK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/articolo31-protomaranza_banner_2160x720_v5.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/protomaranza"
-          }
-        },
-        "image_hpa3aU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/National.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/national-album-day"
-          }
-        },
-        "image_afJGJz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BannerDesktop_1200x600__ROSALIA.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rosalia"
-          }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gilmourb2b.png",
-            "mobile_image": "shopify://shop_images/gilmour_story.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/luck-and-strange"
           }
         },
         "image_CBXRTm": {
@@ -126,6 +45,22 @@
             "link": "shopify://collections/canvass-11-ottobre-2024"
           }
         },
+        "image_qKarbL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner-Desktop_2160x720px.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/canvass-25-ottobre-2024"
+          }
+        },
         "image_8qhdec": {
           "type": "image",
           "settings": {
@@ -140,6 +75,55 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/halsey"
+          }
+        },
+        "image_afJGJz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BannerDesktop_1200x600__ROSALIA.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rosalia"
+          }
+        },
+        "image_hpa3aU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/National.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/national-album-day"
+          }
+        },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gilmourb2b.png",
+            "mobile_image": "shopify://shop_images/gilmour_story.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/luck-and-strange"
           }
         },
         "image_VqjjpQ": {
@@ -192,14 +176,13 @@
         }
       },
       "block_order": [
-        "image_qKarbL",
         "image_7m99JY",
-        "image_MCEnhK",
-        "image_hpa3aU",
-        "image_afJGJz",
-        "image_XHmBAC",
         "image_CBXRTm",
+        "image_qKarbL",
         "image_8qhdec",
+        "image_afJGJz",
+        "image_hpa3aU",
+        "image_XHmBAC",
         "image_VqjjpQ",
         "image_9TUQjJ",
         "image_6YKHeW"
