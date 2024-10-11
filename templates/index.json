@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "d455e7fc-a136-4680-9463-5503d5126216": {
@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_tixkB8": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/parasomnia.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/dreamtheaterparasomniacoverembargo11102024jpg_52a00cc2-e8dc-4527-ab1f-38f3fd29c63d.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#d3d4c8",
+            "title": "dream theater",
+            "head_color": "#ffffff",
+            "subtitle": "parasomnia",
+            "subhead_color": "#d3d4c8",
+            "content": "Deluxe Box Set \nDeluxe 2CD+Blu-ray Artbook\nCD Digipak | Gatefold black 2LP | Ltd. Gatefold ultra clear 2LP\nLtd. Gatefold transp. light blue-black marbled 2LP | Ltd. Gatefold pearlescent deep-blue 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#d3d4c8",
+            "show_preorder": true,
+            "preorder_msg": "february 7",
+            "preorder_msg_color": "#3c4a4b",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Dream+Theater&sort_by=created-descending"
+          }
+        },
         "banner_GdTMBc": {
           "type": "banner",
           "settings": {
@@ -186,6 +208,7 @@
         }
       },
       "block_order": [
+        "banner_tixkB8",
         "banner_GdTMBc",
         "banner_GyqJGX",
         "banner_XN4Ky4",
