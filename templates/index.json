@@ -32,7 +32,7 @@
         "image_7m99JY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1200x600_2.jpg",
+            "image": "shopify://shop_images/dardustDesktop_1.png",
             "mobile_image": "shopify://shop_images/dardustmobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
