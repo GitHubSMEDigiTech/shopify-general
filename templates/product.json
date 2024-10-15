@@ -54,7 +54,7 @@
           "type": "contest",
           "settings": {
             "contest_title": "Partecipa",
-            "contest_radio": "SI, NO"
+            "contest_radio": ""
           }
         },
         "buy_buttons": {
