@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,19 +24,19 @@
         "text_FYDwhT": {
           "type": "text",
           "settings": {
-            "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br\/><strong>Consegna gratuita per ordini sopra i 70€ -<\/strong>Reso gratuito entro 14 giorni<\/h6>"
+            "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€ -</strong>Reso gratuito entro 14 giorni</h6>"
           }
         },
         "text_GE8g7C": {
           "type": "text",
           "settings": {
-            "content": "<p>{{ product.metafields.custom.descrizionebreve.value }}<\/p>"
+            "content": "<p>{{ product.metafields.custom.descrizionebreve.value }}</p>"
           }
         },
         "text_Hkfmce": {
           "type": "text",
           "settings": {
-            "content": "<p>{{ product.metafields.meta.additional_information.value }}<\/p>"
+            "content": "<p>{{ product.metafields.meta.additional_information.value }}</p>"
           }
         },
         "variant_selector": {
@@ -53,7 +53,7 @@
         "contest_dPa76e": {
           "type": "contest",
           "settings": {
-            "contest_title": "Partecipa",
+            "contest_title": "Santi Francesi",
             "contest_radio": "SI, NO"
           }
         },
@@ -115,7 +115,7 @@
       "settings": {
         "title": "",
         "include_margins": true,
-        "liquid": "<h3 class=\"h2\">Descrizione<\/h3>\n<p>{{product.content}}<\/p>"
+        "liquid": "<h3 class=\"h2\">Descrizione</h3>\n<p>{{product.content}}</p>"
       }
     },
     "product-recommendations": {
