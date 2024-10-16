@@ -5,12 +5,19 @@
         {{ product.metafields.meta.contest_description }}
     </p>
     <div class="contest_checkboxes"> 
-        {%- assign options = block.settings.contest_radio | split: ',' -%}
+        {%- if block.settings.contest_radio != blank -%}
 
-        {% for option in options -%}
-            {%- assign o = option | strip -%}
-        <span><input type="radio" id="contest{{ o }}" name="properties[Contest-{{ product.metafields.meta.contest }}]" value="{{ o }}" {% if forloop.index == 1 %} checked {% endif %} />{{ o }}</span>
-        {%- endfor %}
+           {%- assign options = block.settings.contest_radio | split: ',' -%}
+
+           {% for option in options -%}
+               {%- assign o = option | strip -%}
+           <span><input type="radio" id="contest{{ o }}" name="properties[Contest-{{ product.metafields.meta.contest }}]" value="{{ o }}" {% if forloop.index == 1 %} checked {% endif %} />{{ o }}</span>
+           {%- endfor %}
+        {%- else -%}
+           <span><input type="text" id="contestmg" name="properties[Contest-{{ product.metafields.meta.contest }}]"  /></span> 
+
+        {%- endif -%}
+
     </div>
 </div>
     
