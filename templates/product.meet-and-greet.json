@@ -54,7 +54,7 @@
           "type": "contest",
           "settings": {
             "contest_title": "Meet and Greet",
-            "contest_radio": ""
+            "contest_radio": "a"
           }
         },
         "buy_buttons": {
