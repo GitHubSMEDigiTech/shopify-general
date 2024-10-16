@@ -1297,6 +1297,9 @@ body:not(.is-tabbing) textarea:focus {
   margin: 0;
 }
 
+.contest_text {
+  width: 420px;
+}
 
 @supports (--css: variables) {
   .anchor {
