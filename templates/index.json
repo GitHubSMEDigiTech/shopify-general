@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_2ffa51e6-82cd-4803-95a1-3e3a758629c6.jpg",
+            "mobile_image": "shopify://shop_images/mobiledrefgold.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/drefgold"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -218,6 +235,7 @@
         }
       },
       "block_order": [
+        "image_QQwqrR",
         "image_x98LVH",
         "image_7m99JY",
         "image_3wJqzQ",
