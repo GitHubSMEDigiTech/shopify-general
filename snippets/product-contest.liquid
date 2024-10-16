@@ -5,6 +5,7 @@
         {{ product.metafields.meta.contest_description }}
     </p>
     <div class="contest_checkboxes"> 
+        {%- comment -%}  create radio button or input text based on contest_radio field {%- endcomment -%}
         {%- if block.settings.contest_radio != blank -%}
 
            {%- assign options = block.settings.contest_radio | split: ',' -%}
@@ -14,7 +15,7 @@
            <span><input type="radio" id="contest{{ o }}" name="properties[Contest-{{ product.metafields.meta.contest }}]" value="{{ o }}" {% if forloop.index == 1 %} checked {% endif %} />{{ o }}</span>
            {%- endfor %}
         {%- else -%}
-           <span><input type="text" id="contestmg" name="properties[Contest-{{ product.metafields.meta.contest }}]"  /></span> 
+           <span><input class="contest_text" type="text" id="contestmg" name="properties[Contest-{{ product.metafields.meta.contest }}]"  /></span> 
 
         {%- endif -%}
 
