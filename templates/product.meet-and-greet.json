@@ -53,8 +53,8 @@
         "contest_dPa76e": {
           "type": "contest",
           "settings": {
-            "contest_title": "Partecipa",
-            "contest_radio": "SI,NO"
+            "contest_title": "Meet and Greet",
+            "contest_radio": ""
           }
         },
         "buy_buttons": {
