@@ -50,13 +50,6 @@
             "low_inventory_threshold": 0
           }
         },
-        "contest_dPa76e": {
-          "type": "contest",
-          "settings": {
-            "contest_title": "Meet and Greet",
-            "contest_radio": ""
-          }
-        },
         "liquid_qce644": {
           "type": "liquid",
           "settings": {
@@ -64,6 +57,13 @@
             "sku": "",
             "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>",
             "display_mode": "show_all"
+          }
+        },
+        "contest_dPa76e": {
+          "type": "contest",
+          "settings": {
+            "contest_title": "Meet and Greet",
+            "contest_radio": ""
           }
         },
         "buy_buttons": {
@@ -103,8 +103,8 @@
         "text_GE8g7C",
         "text_Hkfmce",
         "variant_selector",
-        "contest_dPa76e",
         "liquid_qce644",
+        "contest_dPa76e",
         "buy_buttons",
         "description",
         "liquid_Tbd46i",
