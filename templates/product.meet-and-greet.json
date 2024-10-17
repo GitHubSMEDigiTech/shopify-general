@@ -101,15 +101,6 @@
           "settings": {
             "content": "<p>Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></p><h6>Si applica l'informativa che, nella specifica operazione qui contemplata va integrata come segue: <br/>Titolari del trattamento: anche Vivo Concerti (mettere tutti i dati)<br/>Finalità: I dati personali raccolti sono trattati al fine di consentire la partecipazione all’iniziativa promossa da SMEI e Vivo Concerti sulla landing page…………<br/>che permette all’utente che abbia effettuato il pre-order seguendo le istruzioni e secondo le condizioni del Regolamento parteciperà al firma copie<br/>Base giuridica del trattamento:  Il trattamento dei dati personali si basa sul libero consenso dell’utente.<br/>Tuttavia, sebbene il conferimento dei dati sia facoltativo, la mancata prestazione del consenso da parte dell’utente per le finalità di cui al paragrafo 3, determina l’impossibilità di poter partecipare all’iniziativa.<br/>Come possono essere esercitati tali diritti? Tali diritti potranno essere esercitati inviando:<br/>- una comunicazione a mezzo posta elettronica all’indirizzo privacy.italy@sonymusic.com e (mettere mail di Vivo)</h6>"
           }
-        },
-        "liquid_ppHaq8": {
-          "type": "liquid",
-          "settings": {
-            "title": "",
-            "sku": "",
-            "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>",
-            "display_mode": "show_all"
-          }
         }
       },
       "block_order": [
@@ -124,8 +115,7 @@
         "liquid_Tbd46i",
         "liquid_t64EVj",
         "liquid_4LWTy9",
-        "text_RAnwjh",
-        "liquid_ppHaq8"
+        "text_RAnwjh"
       ],
       "settings": {
         "list_collections": true,
