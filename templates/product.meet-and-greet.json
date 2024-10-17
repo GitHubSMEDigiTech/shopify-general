@@ -21,12 +21,6 @@
             "show_share_buttons": true
           }
         },
-        "text_FYDwhT": {
-          "type": "text",
-          "settings": {
-            "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€ -</strong>Reso gratuito entro 14 giorni</h6>"
-          }
-        },
         "liquid_cqG7ph": {
           "type": "liquid",
           "settings": {
@@ -34,6 +28,12 @@
             "sku": "",
             "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>",
             "display_mode": "show_all"
+          }
+        },
+        "text_FYDwhT": {
+          "type": "text",
+          "settings": {
+            "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€ -</strong>Reso gratuito entro 14 giorni</h6>"
           }
         },
         "text_GE8g7C": {
@@ -99,8 +99,8 @@
       },
       "block_order": [
         "product_meta",
-        "text_FYDwhT",
         "liquid_cqG7ph",
+        "text_FYDwhT",
         "text_GE8g7C",
         "text_Hkfmce",
         "variant_selector",
