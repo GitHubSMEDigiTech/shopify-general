@@ -21,15 +21,6 @@
             "show_share_buttons": true
           }
         },
-        "liquid_cqG7ph": {
-          "type": "liquid",
-          "settings": {
-            "title": "Privacy Policy",
-            "sku": "",
-            "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>",
-            "display_mode": "show_all"
-          }
-        },
         "text_FYDwhT": {
           "type": "text",
           "settings": {
@@ -99,7 +90,6 @@
       },
       "block_order": [
         "product_meta",
-        "liquid_cqG7ph",
         "text_FYDwhT",
         "text_GE8g7C",
         "text_Hkfmce",
@@ -117,6 +107,34 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
+      }
+    },
+    "custom_liquid_Rt8HTF": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "Privacy Policy",
+        "include_margins": true,
+        "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>"
+      }
+    },
+    "rich_text_E8whhr": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "",
+        "h_one": false,
+        "content": "<p>Si applica l'informativa al link che, nella specifica operazione qui contemplata, va integrata come segue: <br/><strong>Titolari del trattamento</strong>: Sony Music Entertainment (dati) e Vivo Concerti (mettere tutti i dati)</p><p><strong>Finalità:<br/></strong>I<br/>dati personali raccolti sono trattati al fine di consentire la partecipazione<br/>all’iniziativa promossa da SMEI e Vivo Concerti sulla landing page…………<em><br/><br/></em>che permette all’utente che abbia effettuato il <strong>pre-order seguendo le<br/>istruzioni e secondo le condizioni del Regolamento parteciperà al firma copie</strong></p><p><strong>Base giuridica del trattamento</strong>: <strong> </strong>Il trattamento dei<br/>dati personali si basa sul libero consenso dell’utente.</p><p>Tuttavia,<br/>sebbene il conferimento dei dati sia facoltativo, la mancata prestazione del<br/>consenso da parte dell’utente per le finalità di cui al paragrafo 3, determina<br/>l’impossibilità di poter partecipare all’iniziativa.</p><p><strong>Come<br/>possono essere esercitati tali diritti? </strong>Tali diritti potranno essere esercitati<br/>inviando:</p><p>- una comunicazione a mezzo posta elettronica<br/>all’indirizzo <a href=\"mailto:privacy.italy@sonymusic.com\">privacy.italy@sonymusic.com</a></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "custom_liquid_RgYmJH": {
@@ -145,6 +163,8 @@
   },
   "order": [
     "main",
+    "custom_liquid_Rt8HTF",
+    "rich_text_E8whhr",
     "custom_liquid_RgYmJH",
     "product-recommendations",
     "recently-viewed-products"
