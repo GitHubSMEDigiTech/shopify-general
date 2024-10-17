@@ -27,6 +27,15 @@
             "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€ -</strong>Reso gratuito entro 14 giorni</h6>"
           }
         },
+        "liquid_cqG7ph": {
+          "type": "liquid",
+          "settings": {
+            "title": "Privacy Policy",
+            "sku": "",
+            "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>",
+            "display_mode": "show_all"
+          }
+        },
         "text_GE8g7C": {
           "type": "text",
           "settings": {
@@ -48,15 +57,6 @@
             "show_taxes_included": false,
             "show_inventory_quantity": false,
             "low_inventory_threshold": 0
-          }
-        },
-        "liquid_qce644": {
-          "type": "liquid",
-          "settings": {
-            "title": "Privacy Policy",
-            "sku": "",
-            "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>",
-            "display_mode": "show_all"
           }
         },
         "contest_dPa76e": {
@@ -100,10 +100,10 @@
       "block_order": [
         "product_meta",
         "text_FYDwhT",
+        "liquid_cqG7ph",
         "text_GE8g7C",
         "text_Hkfmce",
         "variant_selector",
-        "liquid_qce644",
         "contest_dPa76e",
         "buy_buttons",
         "description",
