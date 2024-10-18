@@ -125,6 +125,22 @@
             "link": "shopify://collections/luck-and-strange"
           }
         },
+        "image_QdhU8r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop-2160x720px_v2.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/iddu-sicilian-letters"
+          }
+        },
         "image_VqjjpQ": {
           "type": "image",
           "settings": {
@@ -182,6 +198,7 @@
         "image_8qhdec",
         "image_hpa3aU",
         "image_XHmBAC",
+        "image_QdhU8r",
         "image_VqjjpQ",
         "image_9TUQjJ",
         "image_6YKHeW"
