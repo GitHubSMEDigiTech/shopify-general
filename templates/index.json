@@ -75,6 +75,28 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Sacramentum&sort_by=created-descending"
           }
         },
+        "banner_ytLRNJ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Sarcator.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Sarcator_SwarmingAngels_Flies.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Sarcator",
+            "head_color": "#ffffff",
+            "subtitle": "Swarming Angels & Flies",
+            "subhead_color": "#555555",
+            "content": "Ltd. CD Jewelcase in O-Card\nblack LP\nLtd. lilac LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sarcator"
+          }
+        },
         "banner_4Gb6FY": {
           "type": "banner",
           "settings": {
@@ -338,32 +360,11 @@
             "preorder_msg_color": "#ad141f",
             "link": "https://www.cmdistro.de/collections/midprice-blowout"
           }
-        },
-        "banner_ytLRNJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Sarcator.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Sarcator_SwarmingAngels_Flies.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Sarcator",
-            "head_color": "#ffffff",
-            "subtitle": "Swarming Angels & Flies",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Jewelcase in O-Card\nblack LP\nLtd. lilac LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "Preorder Date or Message",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sarcator"
-          }
         }
       },
       "block_order": [
         "banner_WpgByM",
+        "banner_ytLRNJ",
         "banner_4Gb6FY",
         "banner_QREb8T",
         "banner_3Q3EXP",
@@ -375,8 +376,7 @@
         "banner_qdQnhA",
         "banner_G8pfGX",
         "banner_km8CMJ",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
-        "banner_ytLRNJ"
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
         "edge_to_edge": true,
