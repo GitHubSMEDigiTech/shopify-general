@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_WpgByM": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/sacramentum.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Sacramentum_TheComingOfChaos_2024.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Sacramentum",
+            "head_color": "#ffffff",
+            "subtitle": "The Coming Of Chaos (Re-issue 2024)",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. blue LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "December 12",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sacramentum&sort_by=created-descending"
+          }
+        },
         "banner_4Gb6FY": {
           "type": "banner",
           "settings": {
@@ -317,30 +339,31 @@
             "link": "https://www.cmdistro.de/collections/midprice-blowout"
           }
         },
-        "banner_WpgByM": {
+        "banner_ytLRNJ": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/sacramentum.jpg",
+            "image": "shopify://shop_images/Sarcator.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Sacramentum_TheComingOfChaos_2024.jpg",
+            "cover_image": "shopify://shop_images/Sarcator_SwarmingAngels_Flies.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
-            "title": "Sacramentum",
+            "title": "Sarcator",
             "head_color": "#ffffff",
-            "subtitle": "The Coming Of Chaos (Re-issue 2024)",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. blue LP",
-            "content_color": "#ffffff",
+            "subtitle": "Swarming Angels & Flies",
+            "subhead_color": "#555555",
+            "content": "Ltd. CD Jewelcase in O-Card\nblack LP\nLtd. lilac LP",
+            "content_color": "#555555",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
-            "preorder_msg": "December 12",
+            "preorder_msg": "Preorder Date or Message",
             "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sacramentum&sort_by=created-descending"
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sarcator"
           }
         }
       },
       "block_order": [
+        "banner_WpgByM",
         "banner_4Gb6FY",
         "banner_QREb8T",
         "banner_3Q3EXP",
@@ -353,7 +376,7 @@
         "banner_G8pfGX",
         "banner_km8CMJ",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
-        "banner_WpgByM"
+        "banner_ytLRNJ"
       ],
       "settings": {
         "edge_to_edge": true,
