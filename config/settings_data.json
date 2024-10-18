@@ -31,7 +31,7 @@
     "product_image_size": "short",
     "show_color_swatch": true,
     "show_release_date_product": true,
-    "show_inventory_quantity": true,
+    "show_inventory_quantity": false,
     "show_release_date": false,
     "low_inventory_threshold": 10,
     "cart_type": "drawer",
