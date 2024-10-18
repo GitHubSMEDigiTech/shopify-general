@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_color": "#000000",
@@ -31,8 +31,9 @@
     "product_image_size": "short",
     "show_color_swatch": true,
     "show_release_date_product": true,
-    "show_inventory_quantity": false,
+    "show_inventory_quantity": true,
     "show_release_date": false,
+    "low_inventory_threshold": 10,
     "cart_type": "drawer",
     "social_facebook": "https://www.facebook.com/store.sonymusic.it/",
     "social_instagram": "https://www.instagram.com/sonymusicstore_italia/",

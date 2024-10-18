@@ -334,6 +334,19 @@
         "button_link": "shopify://collections/esclusive"
       }
     },
+    "featured_collection_chRPbA": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "in-esaurimento",
+        "title": "CD e Vinili in esaurimento",
+        "products_count": 20,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "link_title": "Vedi tutti",
+        "link_url": ""
+      }
+    },
     "rich_text_Y66cji": {
       "type": "rich-text",
       "settings": {
@@ -666,6 +679,7 @@
     "image_with_text_qVw8NM",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
+    "featured_collection_chRPbA",
     "rich_text_Y66cji",
     "mosaic_gB4niq",
     "promotion_list_wAJLbg",
