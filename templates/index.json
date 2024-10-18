@@ -273,28 +273,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Dark+Tranquillity&sort_by=created-descending"
           }
         },
-        "banner_iXMCC9": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/haende_ganz_toll.jpg",
-            "bg_color": "#ffffff",
-            "cover_image": "shopify://shop_images/swallowthesunshiningjpg.jpg",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "Swallow The Sun",
-            "head_color": "#000000",
-            "subtitle": "Shining",
-            "subhead_color": "#000000",
-            "content": "Ltd. CD Digipak\nblack LP\nLtd. Gatefold transp. sun yellow LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 18",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Swallow+The+Sun&sort_by=created-descending"
-          }
-        },
         "banner_km8CMJ": {
           "type": "banner",
           "settings": {
@@ -315,51 +293,6 @@
             "preorder_msg": "November 11",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/de/collections/vendors?q=S%C3%B3lstafir"
-          }
-        },
-        "banner_xLBjAJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/cemsky.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/cemeteryskylinenordicgothicjpg_f2de0c1a-cae0-4e6b-ac10-596a2b0e2351.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "cemetery skyline",
-            "head_color": "#ffffff",
-            "subtitle": "nordic gothic",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nblack LP\nLtd. Sparkle Universe LP",
-            "content_color": "#fdfce5",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 11",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Cemetery+Skyline&sort_by=created-descending"
-          }
-        },
-        "banner_C3ipp6": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/vf.png",
-            "mobile_image": "shopify://shop_images/VomitForth_0724_Insta.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/VomitForth_TerrifiedOfGod.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "VOMIT FORTH",
-            "head_color": "#ffffff",
-            "subtitle": "Terrified of god",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nLtd. transp. sun yellow LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 11",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Vomit+Forth&sort_by=created-descending"
           }
         },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
@@ -383,6 +316,28 @@
             "preorder_msg_color": "#ad141f",
             "link": "https://www.cmdistro.de/collections/midprice-blowout"
           }
+        },
+        "banner_WpgByM": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/sacramentum.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Sacramentum_TheComingOfChaos_2024.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Sacramentum",
+            "head_color": "#ffffff",
+            "subtitle": "The Coming Of Chaos (Re-issue 2024)",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. blue LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "December 12",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sacramentum&sort_by=created-descending"
+          }
         }
       },
       "block_order": [
@@ -396,11 +351,9 @@
         "banner_B4DQtx",
         "banner_qdQnhA",
         "banner_G8pfGX",
-        "banner_iXMCC9",
         "banner_km8CMJ",
-        "banner_xLBjAJ",
-        "banner_C3ipp6",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
+        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2",
+        "banner_WpgByM"
       ],
       "settings": {
         "edge_to_edge": true,
