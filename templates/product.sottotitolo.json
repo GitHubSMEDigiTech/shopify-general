@@ -77,6 +77,12 @@
             "liquid": "{{product.metafields.meta.tracklist}}",
             "display_mode": "show_all"
           }
+        },
+        "text_KgUTFA": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Il film \"<strong>Fiore Mio</strong>\" sarà nelle sale 25-26-27 Novembre 2024. Presentando alla cassa del cinema la mail di conferma di acquisto del vinile, potrai entrare alla proiezione al prezzo ridotto applicato dalla sala. <br/>Convenzione valida nei cinema aderenti. Non comprende eventuali diritti di prevendita. </p>"
+          }
         }
       },
       "block_order": [
@@ -88,7 +94,8 @@
         "contest_dPa76e",
         "buy_buttons",
         "description",
-        "liquid_Tbd46i"
+        "liquid_Tbd46i",
+        "text_KgUTFA"
       ],
       "settings": {
         "list_collections": true,
