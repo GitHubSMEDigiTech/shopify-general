@@ -60,22 +60,6 @@
             "link": "shopify://products/urban-impressionism"
           }
         },
-        "image_afJGJz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BannerDesktop_1200x600__ROSALIA.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rosalia"
-          }
-        },
         "image_8qhdec": {
           "type": "image",
           "settings": {
@@ -194,7 +178,6 @@
         "image_qKarbL",
         "image_R4RqR7",
         "image_My4Ecd",
-        "image_afJGJz",
         "image_8qhdec",
         "image_hpa3aU",
         "image_XHmBAC",
