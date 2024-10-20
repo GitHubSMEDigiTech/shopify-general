@@ -17,24 +17,6 @@
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
       "blocks": {
-        "item_zNE7Gz": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/sonymusiclogo.png",
-            "show_overlay": true,
-            "overlay_opacity": 70,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Canvass 18 ottobre 2024",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify://collections/canvass-18-ottobre-2024"
-          }
-        },
         "item_UpYPHC": {
           "type": "item",
           "settings": {
@@ -253,7 +235,6 @@
         }
       },
       "block_order": [
-        "item_zNE7Gz",
         "item_UpYPHC",
         "item_eF3t8Y",
         "item_j9FLHc",
