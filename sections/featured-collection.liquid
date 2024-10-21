@@ -43,9 +43,9 @@
             {%- endif -%}
 
             {%- if use_placeholder -%}
-              {%- include 'product-item-placeholder', product: product, grid_classes: grid_classes, show_add_to_cart: section.settings.show_quick_buy -%}
+              {%- include 'product-item-placeholder', product: product, grid_classes: grid_classes, show_add_to_cart: section.settings.show_quick_buy, show_quick_inventory: section.settings.show_quick_inventory -%}
             {%- else -%}
-              {%- include 'product-item', product: product, grid_classes: grid_classes, show_add_to_cart: section.settings.show_quick_buy -%}
+              {%- include 'product-item', product: product, grid_classes: grid_classes, show_add_to_cart: section.settings.show_quick_buy, show_quick_inventory: section.settings.show_quick_inventory -%}
             {%- endif -%}
           {%- elsif section.settings.layout == 'horizontal' -%}
             {%- if use_placeholder -%}
@@ -173,6 +173,12 @@
       "label": "Show quick buy",
       "default": false,
       "info": "Only shows if layout is set to vertical"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_quick_inventory",
+      "label": "Show Inventory",
+      "default": false
     },
     {
       "type": "text",
