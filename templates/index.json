@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vascobrondidesktop_1_1.png",
+            "mobile_image": "shopify://shop_images/ascoltareGliAlberi_1_1_36469861-9fe4-4d88-8d6c-d54f0d4a0caf.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/ascoltare-gli-alberi-lp-trasparente-ghiaccio-num"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -165,23 +182,6 @@
             "link": "shopify://collections/halsey"
           }
         },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop-2160x720px_v1.jpg",
-            "mobile_image": "shopify://shop_images/Banner_Mobile-750x1100px_v1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/iddu-sicilian-letters"
-          }
-        },
         "image_c6iKRK": {
           "type": "image",
           "settings": {
@@ -235,6 +235,7 @@
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_QQwqrR",
         "image_x98LVH",
         "image_7m99JY",
@@ -244,7 +245,6 @@
         "image_QeQ8wi",
         "image_eUhDX7",
         "image_4rUz77",
-        "image_zLLxyF",
         "image_c6iKRK",
         "image_XHmBAC",
         "image_hhc4xB"
