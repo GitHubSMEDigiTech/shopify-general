@@ -143,6 +143,18 @@
         "carousel_effect": "fade"
       }
     },
+    "image_with_text_eQVxnh": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/santifrancesiticket.jpg",
+        "image_position": "left",
+        "image_width": 35,
+        "title": "Dove trovo il numero del sigillo fiscale?",
+        "content": "<p>Nella parte destra del biglietto trovi il numero del sigillo fiscale preceduto da SF</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all"
+      }
+    },
     "custom_liquid_RgYmJH": {
       "type": "custom-liquid",
       "disabled": true,
@@ -169,6 +181,7 @@
   },
   "order": [
     "main",
+    "image_with_text_eQVxnh",
     "custom_liquid_RgYmJH",
     "product-recommendations",
     "recently-viewed-products"
