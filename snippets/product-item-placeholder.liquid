@@ -90,7 +90,7 @@ This create a placeholder for product item, and is used exclusively on home page
         </div>
       {%- endif -%}
 
-      {%- if settings.show_inventory_quantity -%}
+      {%- if settings.show_inventory_quantity or show_quick_inventory or collection.metafields.custom.show_intentory -%}
         {%- capture random_inventory -%}{% cycle 1, 24, 10, 150, 40, 38 %}{%- endcapture -%}
         {%- assign random_inventory = random_inventory | times: 1 -%}
 

@@ -443,6 +443,12 @@
       },
       {
         "type": "checkbox",
+        "id": "show_inventory_quantity_number",
+        "label": "Show inventory Number",
+        "default": false
+      },
+      {
+        "type": "checkbox",
         "id": "show_release_date",
         "label": "Show Release-Date Inventory",
         "info": "Shows Release-Date on inventory level(same row) and only if it's in the future",
