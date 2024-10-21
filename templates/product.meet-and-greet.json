@@ -105,6 +105,12 @@
             "display_mode": "show_all"
           }
         },
+        "text_bBxx7X": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Puoi consultare <strong>qui</strong> il Regolamento dell'operazione. </p>"
+          }
+        },
         "text_RAnwjh": {
           "type": "text",
           "settings": {
@@ -125,6 +131,7 @@
         "liquid_Tbd46i",
         "liquid_t64EVj",
         "liquid_4LWTy9",
+        "text_bBxx7X",
         "text_RAnwjh"
       ],
       "settings": {
