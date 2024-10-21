@@ -332,6 +332,7 @@
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
+        "show_quick_inventory": false,
         "link_title": "",
         "link_url": ""
       }
@@ -361,6 +362,7 @@
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
+        "show_quick_inventory": true,
         "link_title": "Vedi tutti",
         "link_url": ""
       }
@@ -609,6 +611,7 @@
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
+        "show_quick_inventory": false,
         "link_title": "",
         "link_url": ""
       }
