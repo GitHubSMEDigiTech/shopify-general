@@ -72,7 +72,7 @@
         "liquid_b4jzwN": {
           "type": "liquid",
           "settings": {
-            "title": "pp",
+            "title": "Privacy Policy",
             "sku": "",
             "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>",
             "display_mode": "show_all"
@@ -136,14 +136,6 @@
         "carousel_effect": "fade"
       }
     },
-    "custom_liquid_Rt8HTF": {
-      "type": "custom-liquid",
-      "settings": {
-        "title": "Privacy Policy",
-        "include_margins": true,
-        "liquid": "<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>"
-      }
-    },
     "custom_liquid_RgYmJH": {
       "type": "custom-liquid",
       "disabled": true,
@@ -170,7 +162,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_Rt8HTF",
     "custom_liquid_RgYmJH",
     "product-recommendations",
     "recently-viewed-products"
