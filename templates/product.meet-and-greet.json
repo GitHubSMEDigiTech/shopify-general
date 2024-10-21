@@ -143,16 +143,58 @@
         "carousel_effect": "fade"
       }
     },
-    "image_with_text_eQVxnh": {
-      "type": "image-with-text",
+    "rich_text_MwqyDP": {
+      "type": "rich-text",
       "settings": {
-        "image": "shopify://shop_images/santiSF.jpg",
-        "image_position": "left",
-        "image_width": 55,
-        "title": "Dove trovo il numero del sigillo fiscale?",
-        "content": "<p>Nella parte destra del biglietto trovi il numero del sigillo fiscale preceduto da SF</p>",
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "Dove trovo il numero del Sigillo Fiscale?",
+        "h_one": false,
+        "content": "<p>Il numero del Sigillo Fiscale è situato nella parte destra del biglietto ed è preceduto dalle lettere SF. </p>",
         "button_text": "",
-        "button_link": "shopify://collections/all"
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "slideshow_6GRprz": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4CAxnQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/santiSF.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4CAxnQ"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "large",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
       }
     },
     "custom_liquid_RgYmJH": {
@@ -181,7 +223,8 @@
   },
   "order": [
     "main",
-    "image_with_text_eQVxnh",
+    "rich_text_MwqyDP",
+    "slideshow_6GRprz",
     "custom_liquid_RgYmJH",
     "product-recommendations",
     "recently-viewed-products"
