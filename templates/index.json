@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_9kfgaA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-desktop-2160x720_0616489e-0454-46e2-a292-642324959db6.jpg",
+            "mobile_image": "shopify://shop_images/banner-mobile-750x1100_2df94f70-5dc0-4e32-ab76-8476ad72b4e1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/santi-francesi"
+          }
+        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -235,6 +252,7 @@
         }
       },
       "block_order": [
+        "image_9kfgaA",
         "image_zLLxyF",
         "image_QQwqrR",
         "image_x98LVH",
