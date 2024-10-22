@@ -337,18 +337,18 @@
         "stack_mobile": false
       }
     },
-    "featured_collection_Ln8Q76": {
+    "featured_collection_Aa36dV": {
       "type": "featured-collection",
       "settings": {
-        "collection": "in-evidenza",
-        "title": "IN EVIDENZA",
-        "products_count": 18,
+        "collection": "in-evidenza-1",
+        "title": "In Evidenza",
+        "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
         "show_quick_inventory": false,
         "link_title": "",
-        "link_url": "shopify://collections/in-evidenza-1"
+        "link_url": ""
       }
     },
     "collection_list_tPfEeG": {
@@ -453,7 +453,7 @@
     "promotion_list_kTecJ6",
     "promotion_list_NPgWtL",
     "promotion_list_teMBhT",
-    "featured_collection_Ln8Q76",
+    "featured_collection_Aa36dV",
     "collection_list_tPfEeG",
     "promotion_list_wAJLbg",
     "featured_collection_gNFLGM",
