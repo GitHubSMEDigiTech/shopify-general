@@ -106,7 +106,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/luck-and-strange"
+            "link": "shopify://collections/david-gilmour"
           }
         },
         "image_QdhU8r": {
@@ -123,22 +123,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/iddu-sicilian-letters"
-          }
-        },
-        "image_VqjjpQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/VENERUSdesktop.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/venerus"
           }
         },
         "image_9TUQjJ": {
@@ -182,7 +166,6 @@
         "image_hpa3aU",
         "image_XHmBAC",
         "image_QdhU8r",
-        "image_VqjjpQ",
         "image_9TUQjJ",
         "image_6YKHeW"
       ],
