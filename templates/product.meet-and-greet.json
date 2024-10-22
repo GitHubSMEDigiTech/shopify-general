@@ -136,6 +136,60 @@
         "carousel_effect": "fade"
       }
     },
+    "rich_text_NRnQPG": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "Dove trovo il numero del Sigillo Fiscale?",
+        "h_one": false,
+        "content": "<p>Trovi il numero del Sigillo Fiscale nella parte destra del biglietto in tuo possesso, preceduto dalle lettere SF come negli esempi sotto. </p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "slideshow_KFNMaw": {
+      "type": "slideshow",
+      "blocks": {
+        "image_kcDzCL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/santiSF.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kcDzCL"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "large",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
     "custom_liquid_RgYmJH": {
       "type": "custom-liquid",
       "disabled": true,
@@ -162,6 +216,8 @@
   },
   "order": [
     "main",
+    "rich_text_NRnQPG",
+    "slideshow_KFNMaw",
     "custom_liquid_RgYmJH",
     "product-recommendations",
     "recently-viewed-products"
