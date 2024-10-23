@@ -91,11 +91,32 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
+    },
+    "rich_text_ytzWwq": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "",
+        "h_one": false,
+        "content": "<h1><strong>STAY TUNED!</strong></h1>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "collection_list_GLUEnY",
     "main",
-    "rich_text_reKWw8"
+    "rich_text_reKWw8",
+    "rich_text_ytzWwq"
   ]
 }
