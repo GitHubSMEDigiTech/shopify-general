@@ -71,10 +71,31 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "rich_text_reKWw8": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "",
+        "h_one": false,
+        "content": "<p><strong>Sony Music Italy</strong> sarà la prima casa discografica a partecipare al <strong>LUCCA COMICS & GAMES 2024</strong>, che si terrà dal 30 Ottobre fina al 3 novembre a Lucca, con uno store dedicato ai suoi prodotti! <br/>Lo store sarà nel cuore del festival, nello storico centro storico di dischi lucchese \"Sky Stone and Songs\" (via Vittorio Veneto, 7)</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "collection_list_GLUEnY",
-    "main"
+    "main",
+    "rich_text_reKWw8"
   ]
 }
