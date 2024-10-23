@@ -43,13 +43,21 @@
             "image": "shopify://shop_images/sethu_LP_15166b81-ce35-466d-9fb2-8a942d856f73.png",
             "link": ""
           }
+        },
+        "collection_aLgVbp": {
+          "type": "collection",
+          "settings": {
+            "collection": "salmo",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "collection_UfEJ4p",
         "collection_gqiXyw",
         "collection_YiHmrF",
-        "collection_VFnnBQ"
+        "collection_VFnnBQ",
+        "collection_aLgVbp"
       ],
       "settings": {
         "title": "",
