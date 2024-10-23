@@ -78,6 +78,7 @@
         },
         "image_hpa3aU": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/National.png",
             "show_overlay": false,
