@@ -53,6 +53,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_FpDPzV": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/LoveIsNoise_ToLiveInADifferentWay_Banner.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/loveisnoisetoliveinadifferentwayjpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Love Is Noise",
+            "head_color": "#eaf935",
+            "subtitle": "To live in a different way",
+            "subhead_color": "#eaf935",
+            "content": "Ltd. CD Edition\nLtd. neon yellow LP",
+            "content_color": "#eaf935",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "February 14",
+            "preorder_msg_color": "#222021",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Love%20Is%20Noise"
+          }
+        },
         "banner_WpgByM": {
           "type": "banner",
           "settings": {
@@ -363,6 +385,7 @@
         }
       },
       "block_order": [
+        "banner_FpDPzV",
         "banner_WpgByM",
         "banner_ytLRNJ",
         "banner_4Gb6FY",
@@ -398,6 +421,7 @@
         "layout": "vertical",
         "stack_products": true,
         "show_quick_buy": true,
+        "show_quick_inventory": false,
         "link_title": "View all",
         "link_url": ""
       }
@@ -411,6 +435,7 @@
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
+        "show_quick_inventory": false,
         "link_title": "View all",
         "link_url": ""
       }
@@ -424,6 +449,7 @@
         "layout": "vertical",
         "stack_products": true,
         "show_quick_buy": true,
+        "show_quick_inventory": false,
         "link_title": "View all",
         "link_url": ""
       }
