@@ -97,6 +97,28 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=M%C3%BAr"
           }
         },
+        "banner_xqMe4G": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/BloodIncantation_Banner.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/BloodIncantation_AbsoluteElsewhere.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Blood Incantation",
+            "head_color": "#ffffff",
+            "subtitle": "Absolute Elsewhere",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Gatefold transp. sun yellow LP & Poster",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "November 29",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Blood%20Incantation"
+          }
+        },
         "banner_WpgByM": {
           "type": "banner",
           "settings": {
@@ -409,6 +431,7 @@
       "block_order": [
         "banner_FpDPzV",
         "banner_ghUyLQ",
+        "banner_xqMe4G",
         "banner_WpgByM",
         "banner_ytLRNJ",
         "banner_4Gb6FY",
