@@ -75,6 +75,28 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Love%20Is%20Noise"
           }
         },
+        "banner_ghUyLQ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Mur_Mur_Banner.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/murmurjpg_26df93f2-54c5-421c-aa5f-ce293d120790.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Múr",
+            "head_color": "#ffffff",
+            "subtitle": "Múr",
+            "subhead_color": "#555555",
+            "content": "Ltd. CD Digipak\nLtd. deep blood red LP",
+            "content_color": "#666666",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "November 22",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=M%C3%BAr"
+          }
+        },
         "banner_WpgByM": {
           "type": "banner",
           "settings": {
@@ -386,6 +408,7 @@
       },
       "block_order": [
         "banner_FpDPzV",
+        "banner_ghUyLQ",
         "banner_WpgByM",
         "banner_ytLRNJ",
         "banner_4Gb6FY",
