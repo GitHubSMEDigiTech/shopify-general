@@ -28,6 +28,22 @@
             "link": "shopify://collections/la-rappresentante-di-lista"
           }
         },
+        "image_8qhdec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HALSEY_BannerDesktop_2160x720_383b268b-5944-47cf-9ca9-3de0abd1cf1b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/halsey"
+          }
+        },
         "image_R4RqR7": {
           "type": "image",
           "settings": {
@@ -60,22 +76,6 @@
             "link": "shopify://products/urban-impressionism"
           }
         },
-        "image_8qhdec": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/HALSEY_BannerDesktop_2160x720_383b268b-5944-47cf-9ca9-3de0abd1cf1b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/halsey"
-          }
-        },
         "image_hpa3aU": {
           "type": "image",
           "settings": {
@@ -90,6 +90,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/national-album-day"
+          }
+        },
+        "image_QdhU8r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop-2160x720px_v2.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/iddu-sicilian-letters"
           }
         },
         "image_XHmBAC": {
@@ -107,22 +123,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/david-gilmour"
-          }
-        },
-        "image_QdhU8r": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop-2160x720px_v2.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/iddu-sicilian-letters"
           }
         },
         "image_9TUQjJ": {
@@ -160,12 +160,12 @@
       },
       "block_order": [
         "image_qKarbL",
+        "image_8qhdec",
         "image_R4RqR7",
         "image_My4Ecd",
-        "image_8qhdec",
         "image_hpa3aU",
-        "image_XHmBAC",
         "image_QdhU8r",
+        "image_XHmBAC",
         "image_9TUQjJ",
         "image_6YKHeW"
       ],
