@@ -93,6 +93,26 @@
         "padding_bottom": 30
       }
     },
+    "logo_list_LGndHy": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_h4yaDw": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/SONY_STORE_800x800px_23C0770_78a9adac-a4fa-4b00-bf95-bb692e76ef53.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_h4yaDw"
+      ],
+      "settings": {
+        "title": "",
+        "link_title": "",
+        "link": ""
+      }
+    },
     "rich_text_ytzWwq": {
       "type": "rich-text",
       "settings": {
@@ -118,6 +138,7 @@
     "collection_list_GLUEnY",
     "main",
     "rich_text_reKWw8",
+    "logo_list_LGndHy",
     "rich_text_ytzWwq"
   ]
 }
