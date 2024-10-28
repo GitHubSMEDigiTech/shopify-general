@@ -16,8 +16,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2160x720.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
+            "show_overlay": true,
+            "overlay_opacity": 50,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
