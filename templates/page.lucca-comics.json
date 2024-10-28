@@ -48,6 +48,7 @@
           "type": "collection",
           "settings": {
             "collection": "salmo",
+            "image": "shopify://shop_images/helvisbackcategoria_1.png",
             "link": ""
           }
         }
