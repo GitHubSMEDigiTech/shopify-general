@@ -117,8 +117,8 @@
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sony-2170x720_NUOVO.jpg",
-            "mobile_image": "shopify://shop_images/naskamobile_1.jpg",
+            "image": "shopify://shop_images/bannercarradesktop_7fb84339-fa22-4869-991a-7276ac0177e8.png",
+            "mobile_image": "shopify://shop_images/carramobile_e8b32aba-c852-4036-8857-4d2e651ae876.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -128,7 +128,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/naska"
+            "link": "shopify://collections/raffaella-carra"
           }
         },
         "image_cd6H7W": {
