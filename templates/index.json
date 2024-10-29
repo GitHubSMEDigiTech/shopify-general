@@ -44,6 +44,22 @@
             "link": "shopify://collections/la-rappresentante-di-lista"
           }
         },
+        "image_Tf8jQz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bannercarradesktop.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/raffaella-carra"
+          }
+        },
         "image_8qhdec": {
           "type": "image",
           "settings": {
@@ -177,6 +193,7 @@
       "block_order": [
         "image_zVhk4n",
         "image_qKarbL",
+        "image_Tf8jQz",
         "image_8qhdec",
         "image_R4RqR7",
         "image_My4Ecd",
