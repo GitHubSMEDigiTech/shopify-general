@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_8.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_5.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nicola-siciliano"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -232,26 +249,10 @@
             "button_text": "",
             "link": "shopify://collections/yungest-moonstar"
           }
-        },
-        "image_hhc4xB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gilmourdesktop.png",
-            "mobile_image": "shopify://shop_images/gilmourmobile_b626f9c6-65ee-4fde-925d-b664af1a0792.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/david-gilmour"
-          }
         }
       },
       "block_order": [
+        "image_hhc4xB",
         "image_eUhDX7",
         "image_9kfgaA",
         "image_zLLxyF",
@@ -264,8 +265,7 @@
         "image_QeQ8wi",
         "image_4rUz77",
         "image_c6iKRK",
-        "image_XHmBAC",
-        "image_hhc4xB"
+        "image_XHmBAC"
       ],
       "settings": {
         "edge_to_edge": false,
