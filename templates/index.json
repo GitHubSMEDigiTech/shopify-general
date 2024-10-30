@@ -28,6 +28,22 @@
             "link": "shopify://collections/canvass-22-novembre-2024"
           }
         },
+        "image_LUjzd7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nicola-siciliano"
+          }
+        },
         "image_Tf8jQz": {
           "type": "image",
           "settings": {
@@ -192,6 +208,7 @@
       },
       "block_order": [
         "image_zVhk4n",
+        "image_LUjzd7",
         "image_Tf8jQz",
         "image_qKarbL",
         "image_8qhdec",
