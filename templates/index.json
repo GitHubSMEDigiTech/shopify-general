@@ -162,7 +162,7 @@
             "image": "shopify://shop_images/gilmourb2b.png",
             "mobile_image": "shopify://shop_images/gilmour_story.png",
             "show_overlay": false,
-            "overlay_opacity": 30,
+            "overlay_opacity": 5,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
