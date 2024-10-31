@@ -2,7 +2,7 @@
   {% for order in customer.orders %}
     {% for line_item in order.line_items%}
       {%- if line_item.product.id == product.id -%}
-        {%- assign item_line = line_item -%}
+        {%- line_item.quantity -%}
       {%- endif -%}
     {% endfor %}
   {% endfor %}
