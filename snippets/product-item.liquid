@@ -8,15 +8,6 @@
       {%- endif -%}     
     {%- endfor -%}     
   {%- endif -%}
-
-  {% for order in customer.orders %}
-    {% for line_item in order.line_items%}
-      {%- if line_item.product.id == product.id -%}
-        {%- assign item_line = line_item -%}
-      {%- endif -%}
-    {% endfor %}
-  {% endfor %}
-
 {%- endif -%}
 
 
@@ -373,6 +364,9 @@
     </div>
     {%- if cart_item.product.handle != blank -%}
       {% render 'product-item-b2b', product: product %}
+    {%- endif -%}
+    {%- if item_line.product.handle != blank -%}
+      {% render 'product-item-line-b2b', product: product %}
     {%- endif -%}
     
     {%- if request.page_type == 'collection' or request.page_type == 'search' or show_add_to_cart -%}
