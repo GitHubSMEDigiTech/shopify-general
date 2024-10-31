@@ -10,8 +10,6 @@
   {%- endif -%}
 {%- endif -%}
 
-
-
 <div class="product-item {% if horizontal %}product-item--horizontal{% elsif list %}product-item--list{% else %}product-item--vertical{% endif %} {% if section.id == 'blog-sidebar' %}product-item--compact{% endif %} {{ grid_classes }}" data-product-title="{{ product.title | url_encode }}"  data-product-vendor="{{ product.vendor | url_encode }}">
   {%- capture product_labels -%}
     {%- unless hide_labels -%}
@@ -365,7 +363,6 @@
     {%- if cart_item.product.handle != blank -%}
       {% render 'product-item-b2b', product: product %}
     {%- endif -%}
-    {% render 'product-item-line-b2b', product: product %}
     
     {%- if request.page_type == 'collection' or request.page_type == 'search' or show_add_to_cart -%}
       {%- if section.settings.show_quick_view == 'list_grid' or section.settings.show_quick_buy == 'list_grid' or show_add_to_cart -%}
