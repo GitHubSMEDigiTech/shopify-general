@@ -1,0 +1,9 @@
+<div class="product-item__b2b-inner">
+  {% for order in customer.orders %}
+    {% for line_item in order.line_items%}
+      {%- if line_item.product.id == product.id -%}
+        {%- assign item_line = line_item -%}
+      {%- endif -%}
+    {% endfor %}
+  {% endfor %}
+</div>
