@@ -90,8 +90,8 @@
         <noscript>
           <img src="{{ primary_media | image_url: width: 600 }}" alt="{{ alt_default | escape }}">
         </noscript>
-        {%- if item_line.product.handle != blank -%}
-          <span class="header__cart-count">{{ item_line.quantity }}</span>
+        {%- if cart_item.product.handle != blank -%}
+          <span class="header__cart-count">{{ cart_item.quantity }}</span>
         {%- endif -%}
       </div>
     </a>
