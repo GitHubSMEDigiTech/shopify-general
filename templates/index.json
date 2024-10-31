@@ -353,13 +353,21 @@
             "collection": "naska",
             "link": ""
           }
+        },
+        "collection_FJVXpn": {
+          "type": "collection",
+          "settings": {
+            "collection": "lacuna-coil",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "collection_NkGAYP",
         "collection_YbbKgw",
         "collection_TWfhxE",
-        "collection_fKMwAz"
+        "collection_fKMwAz",
+        "collection_FJVXpn"
       ],
       "settings": {
         "title": "I prodotti del LUCCA COMICS finalmente Online!",
