@@ -2,8 +2,9 @@
   {% for order in customer.orders %}
     {% for line_item in order.line_items%}
       {%- if line_item.product.id == product.id -%}
-        <span class="label-bold">ord:</span> {%- line_item.quantity -%}
+        {% assign total_quantity = line_item.quantity | sum: "quantity" %}
       {%- endif -%}
     {% endfor %}
   {% endfor %}
+  {{ total_quantity }}
 </div>
