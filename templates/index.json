@@ -32,6 +32,7 @@
     },
     "rich_text_RAwgHJ": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "marign_top": 0,
         "marign_bottom": 0,
@@ -295,28 +296,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Body+Count&sort_by=created-descending"
           }
         },
-        "banner_PxNWz7": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/enf.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/enforcedaleapintothedarkepjpg_84991ced-1507-4999-a259-e81f8ab26b4f.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "enforced",
-            "head_color": "#e71820",
-            "subtitle": "a leap into the dark",
-            "subhead_color": "#e71820",
-            "content": "Standard CD Jewelcase\nblack LP\nLtd. red LP",
-            "content_color": "#e71820",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#e71820",
-            "show_preorder": true,
-            "preorder_msg": "october 25",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Enforced&sort_by=created-descending"
-          }
-        },
         "banner_B4DQtx": {
           "type": "banner",
           "settings": {
@@ -440,7 +419,6 @@
         "banner_j6xHXw",
         "banner_pNETXX",
         "banner_PnFNVN",
-        "banner_PxNWz7",
         "banner_B4DQtx",
         "banner_qdQnhA",
         "banner_G8pfGX",
