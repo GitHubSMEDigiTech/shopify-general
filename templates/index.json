@@ -32,6 +32,7 @@
     },
     "rich_text_GDp3Km": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "marign_top": 0,
         "marign_bottom": 0,
@@ -163,28 +164,6 @@
             "link": "https://www.insideoutshop.de/collections/vendors?q=Devin+Townsend&sort_by=created-descending"
           }
         },
-        "banner_9xMMjy": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/kalt.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Frost_Life_In_The_Wires_Packshot_3000px.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "Frost*",
-            "head_color": "#3363a5",
-            "subtitle": "Life In The Wire",
-            "subhead_color": "#51c4e4",
-            "content": "Ltd. 2CD Edition\nGatefold black 2LP\nLtd. Gatefold transp. red 2LP",
-            "content_color": "#cf0e0e",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 18",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Frost*&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -213,7 +192,6 @@
         "banner_GyqJGX",
         "banner_XN4Ky4",
         "banner_MFQWzE",
-        "banner_9xMMjy",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
@@ -236,6 +214,7 @@
         "layout": "vertical",
         "stack_products": true,
         "show_quick_buy": true,
+        "show_quick_inventory": false,
         "link_title": "View all",
         "link_url": ""
       }
@@ -249,6 +228,7 @@
         "layout": "vertical",
         "stack_products": true,
         "show_quick_buy": true,
+        "show_quick_inventory": false,
         "link_title": "View all",
         "link_url": ""
       }
@@ -262,6 +242,7 @@
         "layout": "horizontal",
         "stack_products": true,
         "show_quick_buy": true,
+        "show_quick_inventory": false,
         "link_title": "View all",
         "link_url": ""
       }
