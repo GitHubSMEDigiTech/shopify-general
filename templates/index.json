@@ -76,54 +76,6 @@
             "link": "shopify://collections/nicola-siciliano"
           }
         },
-        "image_Tf8jQz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bannercarradesktop.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/raffaella-carra"
-          }
-        },
-        "image_qKarbL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner-Desktop_2160x720px.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/la-rappresentante-di-lista"
-          }
-        },
-        "image_8qhdec": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/HALSEY_BannerDesktop_2160x720_383b268b-5944-47cf-9ca9-3de0abd1cf1b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/halsey"
-          }
-        },
         "image_R4RqR7": {
           "type": "image",
           "settings": {
@@ -140,6 +92,23 @@
             "link": "shopify://products/berlinguer-la-grande-ambizione-lp-black"
           }
         },
+        "image_qKarbL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Banner-Desktop_2160x720px.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/la-rappresentante-di-lista"
+          }
+        },
         "image_My4Ecd": {
           "type": "image",
           "settings": {
@@ -154,6 +123,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/urban-impressionism"
+          }
+        },
+        "image_Tf8jQz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bannercarradesktop.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/raffaella-carra"
           }
         },
         "image_XHmBAC": {
@@ -211,11 +196,10 @@
         "image_d9Mw6i",
         "image_zVhk4n",
         "image_LUjzd7",
-        "image_Tf8jQz",
-        "image_qKarbL",
-        "image_8qhdec",
         "image_R4RqR7",
+        "image_qKarbL",
         "image_My4Ecd",
+        "image_Tf8jQz",
         "image_XHmBAC",
         "image_9TUQjJ",
         "image_6YKHeW"
