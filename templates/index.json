@@ -60,7 +60,7 @@
             "image": "shopify://shop_images/Insomnium_ShadowsOfTheDyingSun_back.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify://shop_images/Insomnium_ShadowsOfTheDyingSun_VinylReissue2025.jpg",
-            "cover_effect": "none",
+            "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "insomnium",
             "head_color": "#ffffff",
