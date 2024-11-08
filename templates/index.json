@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_m4BAYT": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Insomnium_ShadowsOfTheDyingSun_back.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Insomnium_ShadowsOfTheDyingSun_VinylReissue2025.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "insomnium",
+            "head_color": "#ffffff",
+            "subtitle": "shadows of the dying sun",
+            "subhead_color": "#555555",
+            "content": "Ltd. Gatefold deep blood red 2LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "january 10",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Insomnium&sort_by=created-descending"
+          }
+        },
         "banner_FpDPzV": {
           "type": "banner",
           "settings": {
@@ -318,28 +340,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Distant&sort_by=created-descending"
           }
         },
-        "banner_qdQnhA": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/tribu.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/tribulationsubrosainaeternumjpg_71f82ce8-169a-47c3-ae28-596c111d8f36.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#d60913",
-            "title": "tribulation",
-            "head_color": "#d60913",
-            "subtitle": "Sub Rosa In Æternum",
-            "subhead_color": "#d60913",
-            "content": "Ltd. CD Mediabook\nStandard CD Jewelcase\nblack LP\nLtd. Gatefold ultra clear LP & LP-Booklet\nLtd. Gatefold Side A/B split (red&black) LP & LP-Booklet",
-            "content_color": "#d60913",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#d60913",
-            "show_preorder": true,
-            "preorder_msg": "november 1",
-            "preorder_msg_color": "#ffffff",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Tribulation&sort_by=created-descending"
-          }
-        },
         "banner_G8pfGX": {
           "type": "banner",
           "settings": {
@@ -408,6 +408,7 @@
         }
       },
       "block_order": [
+        "banner_m4BAYT",
         "banner_FpDPzV",
         "banner_ghUyLQ",
         "banner_xqMe4G",
@@ -420,7 +421,6 @@
         "banner_pNETXX",
         "banner_PnFNVN",
         "banner_B4DQtx",
-        "banner_qdQnhA",
         "banner_G8pfGX",
         "banner_km8CMJ",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
