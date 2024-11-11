@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/massimopericolodesktop.png",
+            "mobile_image": "shopify://shop_images/massimopericolomobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/massimo-pericolo"
+          }
+        },
         "image_ctJtxk": {
           "type": "image",
           "settings": {
@@ -232,26 +249,10 @@
             "button_text": "",
             "link": "shopify://collections/olly"
           }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_b8d4402e-17a1-4e01-b4f8-c2cd744f1ec6.jpg",
-            "mobile_image": "shopify://shop_images/mobile4_9d0a8e8a-9d4f-4af3-af90-77f37e141e18.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/yungest-moonstar"
-          }
         }
       },
       "block_order": [
+        "image_XHmBAC",
         "image_ctJtxk",
         "image_wfGmGy",
         "image_QeQ8wi",
@@ -264,8 +265,7 @@
         "image_x98LVH",
         "image_7m99JY",
         "image_3wJqzQ",
-        "image_cd6H7W",
-        "image_XHmBAC"
+        "image_cd6H7W"
       ],
       "settings": {
         "edge_to_edge": false,
