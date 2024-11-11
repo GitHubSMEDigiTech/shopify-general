@@ -126,6 +126,7 @@
         },
         "image_R4RqR7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner-desktop-2160x720.jpg",
             "show_overlay": false,
