@@ -60,6 +60,22 @@
             "link": "shopify://collections/fiorella-mannoia-disobbedire"
           }
         },
+        "image_8HkMrz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/massimopericolodesktop.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/massimo-pericolo"
+          }
+        },
         "image_d9Mw6i": {
           "type": "image",
           "settings": {
@@ -210,6 +226,7 @@
         "image_DyKMAY",
         "image_D9CX6k",
         "image_Cyxp9y",
+        "image_8HkMrz",
         "image_d9Mw6i",
         "image_zVhk4n",
         "image_LUjzd7",
