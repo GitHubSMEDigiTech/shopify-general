@@ -278,6 +278,26 @@
         "cycle_speed": 5
       }
     },
+    "rich_text_Yjrb3a": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 20,
+        "marign_bottom": 20,
+        "text_width": "narrow",
+        "title": "",
+        "h_one": false,
+        "content": "<p><strong>Spedizioni anche in Europa (esclusa UK) </strong></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
       "blocks": {
@@ -751,6 +771,7 @@
   },
   "order": [
     "slideshow_dwDbqU",
+    "rich_text_Yjrb3a",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_list_iikd3m",
