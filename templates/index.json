@@ -76,10 +76,10 @@
             "link": "shopify://collections/massimo-pericolo"
           }
         },
-        "image_d9Mw6i": {
+        "image_LUjzd7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner-desktop-2160x720.png",
+            "image": "shopify://shop_images/2160x720_3.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -89,7 +89,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/diss-gacha-cultura-italiana"
+            "link": "shopify://collections/nicola-siciliano"
           }
         },
         "image_zVhk4n": {
@@ -108,10 +108,10 @@
             "link": "shopify://collections/nayt-lettera-q"
           }
         },
-        "image_LUjzd7": {
+        "image_d9Mw6i": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_3.jpg",
+            "image": "shopify://shop_images/banner-desktop-2160x720.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -121,7 +121,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/nicola-siciliano"
+            "link": "shopify://collections/diss-gacha-cultura-italiana"
           }
         },
         "image_R4RqR7": {
@@ -143,6 +143,7 @@
         },
         "image_My4Ecd": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/dardustDesktop.png",
             "show_overlay": true,
@@ -228,9 +229,9 @@
         "image_D9CX6k",
         "image_Cyxp9y",
         "image_8HkMrz",
-        "image_d9Mw6i",
-        "image_zVhk4n",
         "image_LUjzd7",
+        "image_zVhk4n",
+        "image_d9Mw6i",
         "image_R4RqR7",
         "image_My4Ecd",
         "image_Tf8jQz",
