@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_Eyhcpf": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/DF.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/darkfortressanthemsfrombeyondthegravejpg_456588e1-7dcc-4f55-b848-235aefb63b79.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#d75a10",
+            "title": "dark fortress",
+            "head_color": "#ffffff",
+            "subtitle": "Anthems From Beyond The Grave - Live In Europe 2023",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#d75a10",
+            "show_preorder": true,
+            "preorder_msg": "january 17",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Dark+Fortress&sort_by=created-descending"
+          }
+        },
         "banner_m4BAYT": {
           "type": "banner",
           "settings": {
@@ -340,50 +362,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Distant&sort_by=created-descending"
           }
         },
-        "banner_G8pfGX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/darkt.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/darktranquillityprojector2024jpg_ed87a2eb-bbb7-40e0-98f9-f9473962d25b.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#f9ef95",
-            "title": "dark tranquillity",
-            "head_color": "#ffffff",
-            "subtitle": "projector",
-            "subhead_color": "#afb5b5",
-            "content": "Ltd. brick red LP\nLtd. transp. sun yellow LP",
-            "content_color": "#afb5b5",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#f9ef95",
-            "show_preorder": true,
-            "preorder_msg": "november 1",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Dark+Tranquillity&sort_by=created-descending"
-          }
-        },
-        "banner_km8CMJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/helga_veddersen.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Solstafir_HinHelgaKvoel.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Sólstafir",
-            "head_color": "#ffffff",
-            "subtitle": "Hin Helga Kvöl",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Box Set\nLtd. CD Digipak\nblack LP\nLtd. Gatefold red LP & Art print\nLtd. Gatefold white LP & Art print\nLtd. Gatefold transp. light blue-lilac marbled LP & Art print",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "November 11",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=S%C3%B3lstafir"
-          }
-        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "settings": {
@@ -408,6 +386,7 @@
         }
       },
       "block_order": [
+        "banner_Eyhcpf",
         "banner_m4BAYT",
         "banner_FpDPzV",
         "banner_ghUyLQ",
@@ -421,8 +400,6 @@
         "banner_pNETXX",
         "banner_PnFNVN",
         "banner_B4DQtx",
-        "banner_G8pfGX",
-        "banner_km8CMJ",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
