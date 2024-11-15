@@ -54,6 +54,50 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_jxdmAi": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/RS.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/riversideliveid3lpcoverartworkjpg_f999d81f-0d98-41d8-9b41-0ab1bd16ad58.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#cbacc1",
+            "title": "riverside",
+            "head_color": "#ffffff",
+            "subtitle": "Live ID.",
+            "subhead_color": "#cbacc1",
+            "content": "Ltd. 2CD+Blu-ray Digipak\nGatefold black 3LP & LP-Booklet\nLtd. Gatefold blue 3LP & LP-Booklet",
+            "content_color": "#cbacc1",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#272c5e",
+            "show_preorder": true,
+            "preorder_msg": "january 24",
+            "preorder_msg_color": "#ffffff",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Riverside&sort_by=created-descending"
+          }
+        },
+        "banner_K3RFig": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/SH_31efb1a5-918e-432c-8696-b1ca5f5871c4.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/stevehackettlivemagicattradingboundariesjpg_0f690b82-58ae-4175-b6e8-72dd8534bced.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#00add0",
+            "title": "steve hackett",
+            "head_color": "#000000",
+            "subtitle": "Live Magic At Trading Boundaries",
+            "subhead_color": "#000000",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold lilac 2LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "january 17",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Steve+Hackett&sort_by=created-descending"
+          }
+        },
         "banner_tixkB8": {
           "type": "banner",
           "settings": {
@@ -98,72 +142,6 @@
             "link": "https://www.insideoutshop.de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
           }
         },
-        "banner_GyqJGX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/neal.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/nealmorsetheresonancenohillforaclimberjpg_68fa0149-7628-4c69-a25c-1b906940a347.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "neal morse",
-            "head_color": "#ffffff",
-            "subtitle": "no hill for a climber",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. 2CD Digipak\nStandard CD Jewelcase\nGatefold black 2LP\nLtd. Gatefold transp. petrol green 2LP",
-            "content_color": "#5690ad",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#5690ad",
-            "show_preorder": true,
-            "preorder_msg": "November 8",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Neal+Morse&sort_by=created-descending"
-          }
-        },
-        "banner_XN4Ky4": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/BF.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/beardfishsongsforbeatingheartsjpg_f83c78a5-227c-4bc2-8dba-3a967a752c1e.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ef1e06",
-            "title": "beardfish",
-            "head_color": "#ffffff",
-            "subtitle": "Songs for beating hearts",
-            "subhead_color": "#51c72b",
-            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold transp. orange LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ef1e06",
-            "show_preorder": true,
-            "preorder_msg": "November 1",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Beardfish&sort_by=created-descending"
-          }
-        },
-        "banner_MFQWzE": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/pn_cb9b1946-f705-4149-99f7-30dc12db68d3.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/devintownsendpowernerdjpg_1af1a260-9985-4bfa-9283-bc98390e5267.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Devin townsend",
-            "head_color": "#e40613",
-            "subtitle": "powernerd",
-            "subhead_color": "#e40613",
-            "content": "Ltd. 2CD+Blu-ray Artbook\nLtd. 2CD Digipak & O-Card Standard CD Jewelcase Gatefold black LP & LP-Booklet Ltd. Gatefold white LP & LP-Booklet Ltd. Gatefold transp. coke bottle green LP & LP-Booklet Ltd. Gatefold dark green LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "october 25",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Devin+Townsend&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -187,11 +165,10 @@
         }
       },
       "block_order": [
+        "banner_jxdmAi",
+        "banner_K3RFig",
         "banner_tixkB8",
         "banner_GdTMBc",
-        "banner_GyqJGX",
-        "banner_XN4Ky4",
-        "banner_MFQWzE",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
