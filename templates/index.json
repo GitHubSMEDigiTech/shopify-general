@@ -56,6 +56,7 @@
       "blocks": {
         "banner_jxdmAi": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/RS.jpg",
             "bg_color": "#eeeeee",
