@@ -79,6 +79,7 @@
         },
         "banner_K3RFig": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SH_31efb1a5-918e-432c-8696-b1ca5f5871c4.jpg",
             "bg_color": "#eeeeee",
