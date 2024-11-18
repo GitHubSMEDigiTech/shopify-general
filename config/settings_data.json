@@ -20,7 +20,7 @@
     "footer_body_text_color": "#ffffff",
     "footer_accent_color": "#c5161c",
     "product_sold_out_color": "#c5161c",
-    "product_label_1_background": "#c5161c",
+    "product_label_1_background": "#dfc52f",
     "base_text_font_size": 15,
     "heading_font": "roboto_n4",
     "text_font": "roboto_n4",
@@ -172,8 +172,7 @@
       },
       "popups": {
         "type": "popups",
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -273,15 +272,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "319724205969189013": {
         "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6530966394998176969": {
         "type": "shopify://apps/dc-pre-orders-preorder-now/blocks/preorder-app-embed/31798c03-8451-4b34-b6bd-53a41ce1a967",
