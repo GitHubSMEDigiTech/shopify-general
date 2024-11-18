@@ -66,6 +66,23 @@
             "link": "shopify://collections/gianni-morandi"
           }
         },
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ilvolodesktop.png",
+            "mobile_image": "shopify://shop_images/ilvolomobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/il-volo"
+          }
+        },
         "image_7m99JY": {
           "type": "image",
           "settings": {
@@ -252,28 +269,12 @@
             "button_text": "",
             "link": "shopify://collections/drefgold"
           }
-        },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner-desktop-2160x720.jpg",
-            "mobile_image": "shopify://shop_images/banner-mobile-750x1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/iosonouncane"
-          }
         }
       },
       "block_order": [
         "image_3wJqzQ",
         "image_cd6H7W",
+        "image_x98LVH",
         "image_7m99JY",
         "image_XHmBAC",
         "image_ctJtxk",
@@ -284,8 +285,7 @@
         "image_eUhDX7",
         "image_9kfgaA",
         "image_zLLxyF",
-        "image_QQwqrR",
-        "image_x98LVH"
+        "image_QQwqrR"
       ],
       "settings": {
         "edge_to_edge": false,
