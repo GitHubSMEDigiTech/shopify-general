@@ -256,8 +256,8 @@
         "image_QQwqrR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_2ffa51e6-82cd-4803-95a1-3e3a758629c6.jpg",
-            "mobile_image": "shopify://shop_images/mobiledrefgold.png",
+            "image": "shopify://shop_images/2160x720_13.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_10_8c69036c-5055-4a46-9647-8be55db8b5d3.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -267,7 +267,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/drefgold"
+            "link": "shopify://products/daniel-destiny"
           }
         }
       },
