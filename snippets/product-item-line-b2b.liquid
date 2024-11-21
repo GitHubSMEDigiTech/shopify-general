@@ -1,4 +1,4 @@
-<div class="product-item__b2b-inner">
+<div class="product-item__price-info">
   {% if customer.orders_count > 0 %}
     {% for order in customer.orders %}
       {% for line_item in order.line_items %}
@@ -9,9 +9,9 @@
     {% endfor %}
     
     {% if total_quantity > 0 %}
-      <p>You have ordered a total of {{ total_quantity }} units ".</p>
+      <p>{{ total_quantity }}</p>
     {% else %}
-      <p>You have not ordered the product yet.</p>
+     {%- comment -%}  <p>You have not ordered the product yet.</p> {%- endcomment -%} 
     {% endif %}
   {% endif %}
 </div>
