@@ -158,7 +158,6 @@
         },
         "image_My4Ecd": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/dardustDesktop.png",
             "show_overlay": true,
@@ -171,23 +170,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/urban-impressionism"
-          }
-        },
-        "image_Tf8jQz": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/bannercarradesktop.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/raffaella-carra"
           }
         },
         "image_XHmBAC": {
@@ -251,7 +233,6 @@
         "image_d9Mw6i",
         "image_R4RqR7",
         "image_My4Ecd",
-        "image_Tf8jQz",
         "image_XHmBAC",
         "image_9TUQjJ",
         "image_6YKHeW"
