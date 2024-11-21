@@ -32,6 +32,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-desktop-2160x720_1.png",
+            "mobile_image": "shopify://shop_images/banner-mobile-750x1100_ae532f93-3dbf-4f86-83f4-92b3a87dba78.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/diss-gacha"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -252,26 +269,10 @@
             "button_text": "",
             "link": "shopify://collections/santi-francesi"
           }
-        },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/vascobrondidesktop_1_1.png",
-            "mobile_image": "shopify://shop_images/ascoltareGliAlberi_1_1_36469861-9fe4-4d88-8d6c-d54f0d4a0caf.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/ascoltare-gli-alberi-lp-trasparente-ghiaccio-num"
-          }
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_QQwqrR",
         "image_3wJqzQ",
         "image_cd6H7W",
@@ -284,8 +285,7 @@
         "image_4rUz77",
         "image_hhc4xB",
         "image_eUhDX7",
-        "image_9kfgaA",
-        "image_zLLxyF"
+        "image_9kfgaA"
       ],
       "settings": {
         "edge_to_edge": false,
