@@ -12,6 +12,102 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_Bebfkj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_4.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 20,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/damiano-david"
+          }
+        },
+        "image_DyKMAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_PTN.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
+          }
+        },
+        "image_D9CX6k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Minacelentanob2b.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/mina-celentano-lp-blu-32-p-booklet"
+          }
+        },
+        "image_Cyxp9y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Mannoia_B2B.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/fiorella-mannoia-disobbedire"
+          }
+        },
+        "image_DaWh7w": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ilvolodesktop_1.png",
+            "show_overlay": true,
+            "overlay_opacity": 20,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/il-volo-ad-astra"
+          }
+        },
+        "image_8HkMrz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/massimopericolodesktop.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/massimo-pericolo"
+          }
+        },
         "image_zVhk4n": {
           "type": "image",
           "settings": {
@@ -25,13 +121,13 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/canvass-22-novembre-2024"
+            "link": "shopify://collections/nayt-lettera-q"
           }
         },
-        "image_LUjzd7": {
+        "image_d9Mw6i": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_1.jpg",
+            "image": "shopify://shop_images/banner-desktop-2160x720.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -41,55 +137,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/nicola-siciliano"
-          }
-        },
-        "image_Tf8jQz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bannercarradesktop.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/raffaella-carra"
-          }
-        },
-        "image_qKarbL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner-Desktop_2160x720px.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/la-rappresentante-di-lista"
-          }
-        },
-        "image_8qhdec": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/HALSEY_BannerDesktop_2160x720_383b268b-5944-47cf-9ca9-3de0abd1cf1b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/halsey"
+            "link": "shopify://collections/diss-gacha-cultura-italiana"
           }
         },
         "image_R4RqR7": {
@@ -175,11 +223,14 @@
         }
       },
       "block_order": [
+        "image_Bebfkj",
+        "image_DyKMAY",
+        "image_D9CX6k",
+        "image_Cyxp9y",
+        "image_DaWh7w",
+        "image_8HkMrz",
         "image_zVhk4n",
-        "image_LUjzd7",
-        "image_Tf8jQz",
-        "image_qKarbL",
-        "image_8qhdec",
+        "image_d9Mw6i",
         "image_R4RqR7",
         "image_My4Ecd",
         "image_XHmBAC",
@@ -246,8 +297,27 @@
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
       "blocks": {
+        "item_wQkrLe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/records-for-sale_777a1acf-d342-4591-b552-6b7fd73c3158.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "RECORD STORE DAY",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Scopri",
+            "button_link": "shopify://collections/record-store-day"
+          }
+        },
         "item_VH7pgp": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/records-for-sale.jpg",
             "show_overlay": true,
@@ -266,6 +336,7 @@
         }
       },
       "block_order": [
+        "item_wQkrLe",
         "item_VH7pgp"
       ],
       "settings": {
@@ -342,7 +413,7 @@
       "settings": {
         "collection": "in-evidenza-1",
         "title": "In Evidenza",
-        "products_count": 18,
+        "products_count": 24,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
