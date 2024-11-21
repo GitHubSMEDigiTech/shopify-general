@@ -1,10 +1,17 @@
 <div class="product-item__b2b-inner">
-  {% for order in customer.orders %}
-    {% for line_item in order.line_items%}
-      {%- if line_item.product.id == product.id -%}
-        {% assign total_quantity = line_item.quantity | sum: "quantity" %}
-      {%- endif -%}
+  {% if customer.orders_count > 0 %}
+    {% for order in customer.orders %}
+      {% for line_item in order.line_items %}
+        {%- if line_item.product.id == product.id -%}
+          {% assign total_quantity = total_quantity | plus: line_item.quantity %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
-  {{ total_quantity }}
+    
+    {% if total_quantity > 0 %}
+      <p>You have ordered a total of {{ total_quantity }} units ".</p>
+    {% else %}
+      <p>You have not ordered the product yet.</p>
+    {% endif %}
+  {% endif %}
 </div>
