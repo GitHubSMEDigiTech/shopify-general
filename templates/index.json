@@ -314,30 +314,10 @@
             "button_text": "Scopri",
             "button_link": "shopify://collections/record-store-day"
           }
-        },
-        "item_VH7pgp": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/records-for-sale.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 100,
-            "stretch_image": true,
-            "background": "#222222",
-            "text_color": "#ffffff",
-            "title": "I NOSTRI TITOLI A MENO DI 10 EURO",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#1c1b1b",
-            "button_text": "Scopri",
-            "button_link": "shopify://collections/prodotti-a-meno-di-10-euro"
-          }
         }
       },
       "block_order": [
-        "item_wQkrLe",
-        "item_VH7pgp"
+        "item_wQkrLe"
       ],
       "settings": {
         "expand_items": true,
@@ -373,6 +353,38 @@
       "settings": {
         "expand_items": true,
         "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
+    "promotion_list_BDmd3c": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_EJiqPn": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/summer-record-shopping-in-city.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#6f42ef",
+            "text_color": "#ffffff",
+            "title": "I NOSTRI TITOLI A MENO DI 10 EURO",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Scopri",
+            "button_link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "item_EJiqPn"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "small",
         "stack_mobile": false
       }
     },
@@ -523,6 +535,7 @@
     "collection_list_XWxmfc",
     "promotion_list_kTecJ6",
     "promotion_list_NPgWtL",
+    "promotion_list_BDmd3c",
     "promotion_list_teMBhT",
     "featured_collection_Aa36dV",
     "collection_list_tPfEeG",
