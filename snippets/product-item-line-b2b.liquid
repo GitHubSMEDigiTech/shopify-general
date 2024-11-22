@@ -2,8 +2,8 @@
   {% if customer.orders_count > 0 %}
     {% for order in customer.orders %}
       {% for line_item in order.line_items %}
+        <p>{{ line_item.product.id }}{{ product.id }}</p>
         {%- if line_item.product.id == product.id -%}
-          <p>{{ line_item.product.id }}{{ product.id }}</p>
           {% assign total_quantity = total_quantity | plus: line_item.quantity %}
         {% endif %}
       {% endfor %}
