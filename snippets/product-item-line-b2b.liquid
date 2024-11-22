@@ -1,4 +1,4 @@
-<div class="header__cart-count">
+<div class="product-item__b2b-inner">
   {%- if customer.orders_count > 0 -%}
     {%- for order in customer.orders -%}
       {%- for line_item in order.line_items -%}
@@ -8,11 +8,11 @@
       {%- endfor -%}
     {%- endfor -%}
     
-    {% if total_quantity > 0 %}
+    {%- if total_quantity > 0 -%}
       <p>{{ total_quantity }}</p>
-    {% else %}
+    {%- else -%}
       <p>{{ product.id }}</p>
       {%- comment -%}  <p>x</p> {%- endcomment -%} 
-    {% endif %}
-  {% endif %}
+    {%- endif -%}
+  {%- endif -%}
 </div>
