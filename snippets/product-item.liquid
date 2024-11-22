@@ -15,6 +15,7 @@
     {%- for line_item in order.line_items -%}
       {%- if line_item.product.id == product.id -%}
         {%- assign total_item = line_item -%}
+        {%- assign total_quantity = total_quantity | plus: line_item.quantity -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}
@@ -374,7 +375,7 @@
       {% render 'product-item-b2b', product: product %}
     {%- endif -%}
     {%- if total_item.product.handle != blank -%}
-      <span class="product-item__b2b-inner">{{ total_item.quantity }}</span>
+      <span class="product-item__b2b-inner">{{ total_quantity }}</span>
     {%- endif -%} 
     {%- if request.page_type == 'collection' or request.page_type == 'search' or show_add_to_cart -%}
       {%- if section.settings.show_quick_view == 'list_grid' or section.settings.show_quick_buy == 'list_grid' or show_add_to_cart -%}
