@@ -236,6 +236,23 @@
             "link": "shopify://products/lieto-fine-cd-autografato-esc-sony-music-store"
           }
         },
+        "image_NDBHHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LISA_ALTER_EGO_BannerDesktop_2160x720_5d1eb368-3cf0-4b2d-bacf-d59598f73e90.jpg",
+            "mobile_image": "shopify://shop_images/LISA_ALTER_EGO_BannerMobile_750x1100_433a691e-4280-41d2-8c39-e930c79a9d8a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": "shopify://collections/lisa"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -267,6 +284,7 @@
         "image_ctJtxk",
         "image_wfGmGy",
         "image_4rUz77",
+        "image_NDBHHY",
         "image_eUhDX7"
       ],
       "settings": {
