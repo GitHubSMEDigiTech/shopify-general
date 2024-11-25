@@ -239,8 +239,8 @@
         "image_eUhDX7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_7.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_4.jpg",
+            "image": "shopify://shop_images/2160x720_b85f6bdc-3853-46ea-9843-f16b6593472a.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d56788df-6df5-4cd3-8d66-b24151789f17.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
