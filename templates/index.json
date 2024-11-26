@@ -390,12 +390,69 @@
         "collection_fKMwAz",
         "collection_FJVXpn"
       ],
+      "disabled": true,
       "settings": {
         "title": "I prodotti del LUCCA COMICS finalmente Online!",
         "link_title": "Scopri",
         "link": "shopify://pages/lucca-comics-2024",
         "round_images": true,
         "show_collection_title": true
+      }
+    },
+    "image_banner_t4jtqB": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_jzHnyA": {
+          "type": "heading",
+          "settings": {
+            "heading": "E' già Natale",
+            "heading_size": "h1",
+            "text_color": "#000000"
+          }
+        },
+        "text_HpwCtj": {
+          "type": "text",
+          "settings": {
+            "text": "I grandi classici della tradizione natalizia in CD e in Vinile per riscaldare le tue feste!",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_4wgiMx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Natale 24",
+            "button_link_1": "shopify://collections/natale-cd-e-vinili",
+            "button_style_secondary_1": false,
+            "button_label_2": "Regali di Natale",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jzHnyA",
+        "text_HpwCtj",
+        "buttons_4wgiMx"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify://shop_images/natale2mobile_0c54f0b1-da55-4fcf-af2d-b2d446e514da.png",
+        "image_2": "shopify://shop_images/sfondomariah.png",
+        "image_overlay_opacity": 0,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 60,
+        "image_height": "medium",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "featured_collection_Ln8Q76": {
@@ -775,6 +832,7 @@
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_list_iikd3m",
+    "image_banner_t4jtqB",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
