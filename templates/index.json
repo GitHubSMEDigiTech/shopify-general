@@ -411,9 +411,9 @@
         "title": "",
         "content": "",
         "button_background": "#ffffff",
-        "button_text_color": "#0774d7",
-        "button_text": "",
-        "button_link": ""
+        "button_text_color": "#000000",
+        "button_text": "Scopri",
+        "button_link": "shopify://collections/natale-cd-e-vinili"
       }
     },
     "featured_collection_Ln8Q76": {
