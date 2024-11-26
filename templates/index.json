@@ -399,6 +399,23 @@
         "show_collection_title": true
       }
     },
+    "collection_with_image_dRpcWf": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "natale-cd-e-vinili",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "image": "shopify://shop_images/natale1mobile_7251dace-70a2-400f-b184-cb94a5e857cd.png",
+        "background": "#ff0000",
+        "text_color": "#ffffff",
+        "title": "",
+        "content": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
@@ -776,6 +793,7 @@
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_list_iikd3m",
+    "collection_with_image_dRpcWf",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
