@@ -445,7 +445,7 @@
         "image_overlay_opacity": 0,
         "bg_color": "#ffffff",
         "bg_overlay_opacity": 60,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "middle-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
