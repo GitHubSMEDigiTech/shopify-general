@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -37,7 +37,7 @@
       "previous_page": "Precedente",
       "next_page": "Successivo",
       "go_to_page": "Vai alla pagina {{page}}",
-      "page_count": "Pagina {{current_page}} \/ {{pages}}"
+      "page_count": "Pagina {{current_page}} / {{pages}}"
     },
     "breadcrumb": {
       "title": "Sei qui",
@@ -62,7 +62,7 @@
       "currency": "Valuta",
       "language": "Lingua",
       "account": "il mio account",
-      "login": "Accedi \/ Registrati",
+      "login": "Accedi / Registrati",
       "welcome": "Ciao {{first_name}}",
       "cart": "Carrello"
     },
@@ -261,12 +261,12 @@
       "fulfillment_status": "Stato di avanzamento",
       "back_to_account": "Torna al tuo account",
       "cancelled_at": "Ordine cancellato il {{date}}. Motivo: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "Tutti i prodotti sono stati spediti. Traccia la tua spedizione con il numero {{tracking_number}} o attraverso il <a href=\"{{tracking_url}}\" target=\"_blank\">seguente link<\/a>.",
-      "fulfillment_with_url_html": "utti i prodotti sono stati spediti. Traccia la tua spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui<\/a>.",
+      "fulfillment_with_url_and_number_html": "Tutti i prodotti sono stati spediti. Traccia la tua spedizione con il numero {{tracking_number}} o attraverso il <a href=\"{{tracking_url}}\" target=\"_blank\">seguente link</a>.",
+      "fulfillment_with_url_html": "utti i prodotti sono stati spediti. Traccia la tua spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui</a>.",
       "fulfillment_with_number_html": "Tutti i prodotti sono stati spediti. Traccia la tua spedizione attraverso il numero {{tracking_number}}.",
       "fulfillment_html": "Tutti i prodotti sono stati spediti.",
-      "line_fulfillment_with_url_and_number_html": "Questo prodotto è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui<\/a>.",
-      "line_fulfillment_with_url_html": "Questo prodotto è stato spedito.  Traccia la spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui<\/a>.",
+      "line_fulfillment_with_url_and_number_html": "Questo prodotto è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui</a>.",
+      "line_fulfillment_with_url_html": "Questo prodotto è stato spedito.  Traccia la spedizione <a href=\"{{tracking_url}}\" target=\"_blank\">cliccando qui</a>.",
       "line_fulfillment_with_number_html": "Questo prodotto è stato spedito. Traccia la spedizione con il numero {{tracking_number}}.",
       "line_fulfillment_html": "Questo prodotto è stato spedito.",
       "product": "Prodotto",
@@ -357,9 +357,9 @@
       "amount_saved_html": "Stai risparmiando {{amount_saved}}!",
       "free": "Omaggio!",
       "taxes_and_shipping_at_checkout": "IVA e costi di spedizione sono calcolati al checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "IVA e <a href=\"{{ link }}\">scosti di spedizione<\/a> sono calcolati al checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "IVA e <a href=\"{{ link }}\">scosti di spedizione</a> sono calcolati al checkout",
       "taxes_included_but_shipping_at_checkout": "Spese spedizione calcolate al checkout",
-      "taxes_included_and_shipping_policy_html": "IVA inclusa. <a href=\"{{ link }}\">Spedizione<\/a> calcolata al checkout",
+      "taxes_included_and_shipping_policy_html": "IVA inclusa. <a href=\"{{ link }}\">Spedizione</a> calcolata al checkout",
       "total": "Totale",
       "checkout": "Checkout"
     },
@@ -405,7 +405,7 @@
       "estimate_shipping": "Stima dei costi di spedizione",
       "refund_policy": "Politica di rimborso",
       "include_taxes": "IVA compresa",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">I costi di spedizione vengono calcolati<\/a> al checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">I costi di spedizione vengono calcolati</a> al checkout",
       "reviews_count": {
         "zero": "Nessuna recensione",
         "one": "{{ count }} recensione",
@@ -510,7 +510,7 @@
   "shopify": {
     "checkout": {
       "review": {
-        "review_notice_html": "<p style=\"color:blue; \"><b>Facendo Click sul pulsante \"Paga ora\" confermi di aver letto, compreso ed accettato Termini e condizioni del servizio e l'Informativa sulla Privacy entrambe raggiungibili ai link in fondo a questa pagina.<\/b><\/p>"
+        "review_notice_html": "<p style=\"color:blue; \"><b>Facendo Click sul pulsante \"Paga ora\" confermi di aver letto, compreso ed accettato Termini e condizioni del servizio e l'Informativa sulla Privacy entrambe raggiungibili ai link in fondo a questa pagina.</b></p>"
       },
       "localized_fields": {
         "additional_information": {
@@ -519,6 +519,9 @@
       },
       "stock": {
         "go_back_to_cart_button_label": "Torna al carrello"
+      },
+      "contact": {
+        "civic_number_warning": "ATTENZIONE * AGGIUNGI UN NUMERO CIVICI, SE ESISTENTE"
       }
     }
   }
