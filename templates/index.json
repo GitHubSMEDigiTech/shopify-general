@@ -298,6 +298,41 @@
         "cycle_speed": 5
       }
     },
+    "slideshow_KUj7zP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NfURDh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/natale1_7b40e433-e2ba-4180-8b24-1dd7288f0236.png",
+            "mobile_image": "shopify://shop_images/natale1mobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/natale-cd-e-vinili"
+          }
+        }
+      },
+      "block_order": [
+        "image_NfURDh"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "small",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
       "blocks": {
@@ -773,6 +808,7 @@
   "order": [
     "rich_text_Yjrb3a",
     "slideshow_dwDbqU",
+    "slideshow_KUj7zP",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_list_iikd3m",
