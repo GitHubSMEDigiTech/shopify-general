@@ -20,7 +20,8 @@
     "footer_body_text_color": "#ffffff",
     "footer_accent_color": "#c5161c",
     "product_sold_out_color": "#c5161c",
-    "product_label_1_background": "#dfc52f",
+    "product_label_1_background": "#c5161c",
+    "product_label_2_background": "#dfc52f",
     "base_text_font_size": 15,
     "heading_font": "roboto_n4",
     "text_font": "roboto_n4",
@@ -295,6 +296,11 @@
           "line-item-prop-ship-by-text": "Ships by",
           "product-form-selector": "form[action*='cart/Add' i]"
         }
+      },
+      "16278478101612877664": {
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
