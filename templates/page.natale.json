@@ -48,10 +48,136 @@
         "show_dots": false,
         "cycle_speed": 5
       }
+    },
+    "rich_text_jiJkrR": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "",
+        "h_one": false,
+        "content": "<p>Per questo <strong>Natale </strong>regalati della buona musica! <br/>Abbiamo preparato dei box natalizi che puoi acquistare con uno sconto speciale del 20% da applicare al check out. <br/>Il codice è valido solo se acquisti il box completo (tutti i prodotti selezionati contenuti nel box). Fanno parte della promozione tutti i prodotti contrassegnati con il tag color oro \"PROMO\". </p><p><strong>CODICE PROMO</strong>: <em>Natale24</em></p><p>Operazione valida fino al 23/12/24<br/><br/></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "featured_collection_tmjCCQ": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bluvertigo",
+        "title": "1° BOX: BLUVERTIGO",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
+    "featured_collection_NftbE9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "david-gilmour",
+        "title": "2° BOX: DAVID GILMOUR",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_kJ79Y4": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "articolo-31",
+        "title": "3° BOX: ARTICOLO31",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_BpX78r": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "tedua",
+        "title": "4° BOX: TEDUA",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_Hdq4M4": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "pinguini-tattici-nucleari",
+        "title": "5° BOX: PINGUINI TATTICI NUCLEARI",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_LicFtq": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "beyonce",
+        "title": "6° BOX: BEYONCE'",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_jitj4b": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "mezzosangue",
+        "title": "7° BOX: MEZZOSANGUE",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_fNMemC"
+    "slideshow_fNMemC",
+    "rich_text_jiJkrR",
+    "featured_collection_tmjCCQ",
+    "featured_collection_NftbE9",
+    "featured_collection_kJ79Y4",
+    "featured_collection_BpX78r",
+    "featured_collection_Hdq4M4",
+    "featured_collection_LicFtq",
+    "featured_collection_jitj4b"
   ]
 }
