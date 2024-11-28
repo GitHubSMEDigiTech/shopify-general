@@ -156,6 +156,22 @@
             "link": "shopify://collections/diss-gacha-cultura-italiana"
           }
         },
+        "image_JJQULe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rocco_1_af396a55-e34d-4fa7-9be4-d745c9a7a280.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rocco-hunt-spiraglio-di-periferia-reloaded"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -216,6 +232,7 @@
         "image_DaWh7w",
         "image_8HkMrz",
         "image_d9Mw6i",
+        "image_JJQULe",
         "image_XHmBAC",
         "image_6YKHeW",
         "image_9TUQjJ"
