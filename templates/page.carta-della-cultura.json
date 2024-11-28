@@ -12,9 +12,45 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "slideshow_aGkDfk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QQFMGX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hands-up-at-concert.jpg",
+            "mobile_image": "shopify://shop_images/hands-up-at-concert.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QQFMGX"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "medium",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_aGkDfk"
   ]
 }
