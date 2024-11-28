@@ -66,6 +66,23 @@
             "link": "shopify://collections/diss-gacha"
           }
         },
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_10.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/pinguini-tattici-nucleari"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -202,23 +219,6 @@
             "link": "shopify://collections/minacelentano"
           }
         },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_10.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pinguini-tattici-nucleari"
-          }
-        },
         "image_4rUz77": {
           "type": "image",
           "settings": {
@@ -274,6 +274,7 @@
       "block_order": [
         "image_hhc4xB",
         "image_zLLxyF",
+        "image_wfGmGy",
         "image_9kfgaA",
         "image_QQwqrR",
         "image_3wJqzQ",
@@ -282,7 +283,6 @@
         "image_7m99JY",
         "image_XHmBAC",
         "image_ctJtxk",
-        "image_wfGmGy",
         "image_4rUz77",
         "image_NDBHHY",
         "image_eUhDX7"
