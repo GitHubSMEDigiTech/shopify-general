@@ -100,6 +100,23 @@
             "link": "shopify://collections/raffaella-carra"
           }
         },
+        "image_4rUz77": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rocco_1.png",
+            "mobile_image": "shopify://shop_images/roccocate_1.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rocco-hunt"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -219,23 +236,6 @@
             "link": "shopify://collections/minacelentano"
           }
         },
-        "image_4rUz77": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_6.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/lieto-fine-cd-autografato-esc-sony-music-store"
-          }
-        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -276,6 +276,7 @@
         "image_zLLxyF",
         "image_wfGmGy",
         "image_9kfgaA",
+        "image_4rUz77",
         "image_QQwqrR",
         "image_3wJqzQ",
         "image_cd6H7W",
@@ -283,7 +284,6 @@
         "image_7m99JY",
         "image_XHmBAC",
         "image_ctJtxk",
-        "image_4rUz77",
         "image_NDBHHY",
         "image_eUhDX7"
       ],
