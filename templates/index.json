@@ -60,12 +60,12 @@
             "link": "shopify://products/mina-celentano-lp-blu-32-p-booklet"
           }
         },
-        "image_Bebfkj": {
+        "image_zVhk4n": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_4.jpg",
+            "image": "shopify://shop_images/2160x720_6.jpg",
             "show_overlay": true,
-            "overlay_opacity": 20,
+            "overlay_opacity": 50,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
@@ -73,7 +73,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://products/damiano-david"
+            "link": "shopify://collections/nayt-lettera-q"
           }
         },
         "image_Cyxp9y": {
@@ -92,12 +92,12 @@
             "link": "shopify://collections/fiorella-mannoia-disobbedire"
           }
         },
-        "image_zVhk4n": {
+        "image_Bebfkj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_6.jpg",
+            "image": "shopify://shop_images/2160x720_4.jpg",
             "show_overlay": true,
-            "overlay_opacity": 50,
+            "overlay_opacity": 20,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
@@ -105,7 +105,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/nayt-lettera-q"
+            "link": "shopify://products/damiano-david"
           }
         },
         "image_DaWh7w": {
@@ -226,9 +226,9 @@
         "image_3JpJck",
         "image_DyKMAY",
         "image_D9CX6k",
-        "image_Bebfkj",
-        "image_Cyxp9y",
         "image_zVhk4n",
+        "image_Cyxp9y",
+        "image_Bebfkj",
         "image_DaWh7w",
         "image_8HkMrz",
         "image_d9Mw6i",
