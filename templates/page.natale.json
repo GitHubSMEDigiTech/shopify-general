@@ -73,7 +73,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "bluvertigo",
-        "title": "1° BOX: BLUVERTIGO",
+        "title": "1° SELEZIONE: BLUVERTIGO",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -87,7 +87,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "david-gilmour",
-        "title": "2° BOX: DAVID GILMOUR",
+        "title": "2° SELEZIONE: DAVID GILMOUR",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -101,7 +101,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "articolo-31",
-        "title": "3° BOX: ARTICOLO31",
+        "title": "3° SELEZIONE: ARTICOLO 31",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -115,7 +115,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "tedua",
-        "title": "4° BOX: TEDUA",
+        "title": "4° SELEZIONE: TEDUA",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -129,7 +129,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "pinguini-tattici-nucleari",
-        "title": "5° BOX: PINGUINI TATTICI NUCLEARI",
+        "title": "5° SELEZIONE: PINGUINI TATTICI NUCLEARI",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -143,7 +143,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "beyonce",
-        "title": "6° BOX: BEYONCE'",
+        "title": "6° SELEZIONE: BEYONCE'",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -157,7 +157,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "mezzosangue",
-        "title": "7° BOX: MEZZOSANGUE",
+        "title": "7° SELEZIONE: MEZZOSANGUE",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
