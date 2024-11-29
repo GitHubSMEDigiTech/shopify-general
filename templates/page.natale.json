@@ -69,81 +69,11 @@
         "padding_bottom": 30
       }
     },
-    "featured_collection_tmjCCQ": {
+    "featured_collection_edtXF3": {
       "type": "featured-collection",
       "settings": {
-        "collection": "bluvertigo",
-        "title": "1° SELEZIONE: BLUVERTIGO",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "",
-        "link_url": ""
-      }
-    },
-    "featured_collection_NftbE9": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "david-gilmour",
-        "title": "2° SELEZIONE: DAVID GILMOUR",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
-    "featured_collection_kJ79Y4": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "articolo-31",
-        "title": "3° SELEZIONE: ARTICOLO 31",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
-    "featured_collection_BpX78r": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "tedua",
-        "title": "4° SELEZIONE: TEDUA",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
-    "featured_collection_Hdq4M4": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "pinguini-tattici-nucleari",
-        "title": "5° SELEZIONE: PINGUINI TATTICI NUCLEARI",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
-    "featured_collection_jitj4b": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "mezzosangue",
-        "title": "7° SELEZIONE: MEZZOSANGUE",
+        "collection": "promo-natale",
+        "title": "PROMO NATALE",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
@@ -158,11 +88,6 @@
     "main",
     "slideshow_fNMemC",
     "rich_text_jiJkrR",
-    "featured_collection_tmjCCQ",
-    "featured_collection_NftbE9",
-    "featured_collection_kJ79Y4",
-    "featured_collection_BpX78r",
-    "featured_collection_Hdq4M4",
-    "featured_collection_jitj4b"
+    "featured_collection_edtXF3"
   ]
 }
