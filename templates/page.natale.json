@@ -139,20 +139,6 @@
         "link_url": ""
       }
     },
-    "featured_collection_LicFtq": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "beyonce",
-        "title": "6° SELEZIONE: BEYONCE'",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
-    },
     "featured_collection_jitj4b": {
       "type": "featured-collection",
       "settings": {
@@ -177,7 +163,6 @@
     "featured_collection_kJ79Y4",
     "featured_collection_BpX78r",
     "featured_collection_Hdq4M4",
-    "featured_collection_LicFtq",
     "featured_collection_jitj4b"
   ]
 }
