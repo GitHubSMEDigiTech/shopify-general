@@ -298,6 +298,61 @@
         "cycle_speed": 5
       }
     },
+    "image_banner_CyfkAN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_4GGDRD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Natale 2024</strong>",
+            "heading_size": "h1",
+            "text_color": "#000000"
+          }
+        },
+        "text_VwRfqT": {
+          "type": "text",
+          "settings": {
+            "text": "Per questo <strong>Natale </strong>regalati della buona musica! Abbiamo selezionato alcuni dei nostri più importanti titoli che puoi acquistare con uno <strong>sconto speciale del 20%</strong> da applicare al check out.",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_6YCnjp": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PROMO NATALE",
+            "button_link_1": "shopify://pages/natale",
+            "button_style_secondary_1": false,
+            "button_label_2": "Classici di Natale",
+            "button_link_2": "shopify://collections/natale-cd-e-vinili",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4GGDRD",
+        "text_VwRfqT",
+        "buttons_6YCnjp"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify://shop_images/natale1mobile.png",
+        "image_overlay_opacity": 20,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 70,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "slideshow_KUj7zP": {
       "type": "slideshow",
       "blocks": {
@@ -322,6 +377,7 @@
       "block_order": [
         "image_NfURDh"
       ],
+      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "small",
@@ -808,6 +864,7 @@
   "order": [
     "rich_text_Yjrb3a",
     "slideshow_dwDbqU",
+    "image_banner_CyfkAN",
     "slideshow_KUj7zP",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
