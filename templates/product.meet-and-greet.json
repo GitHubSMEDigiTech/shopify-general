@@ -179,6 +179,7 @@
       "block_order": [
         "image_kcDzCL"
       ],
+      "disabled": true,
       "settings": {
         "edge_to_edge": false,
         "section_size": "large",
