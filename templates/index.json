@@ -62,6 +62,7 @@
         },
         "image_zVhk4n": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_6.jpg",
             "show_overlay": true,
@@ -78,6 +79,7 @@
         },
         "image_Cyxp9y": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Banner_Mannoia_B2B.jpg",
             "show_overlay": true,
