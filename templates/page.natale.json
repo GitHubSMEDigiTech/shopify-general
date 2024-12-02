@@ -72,9 +72,23 @@
     "featured_collection_edtXF3": {
       "type": "featured-collection",
       "settings": {
-        "collection": "promo-natale",
+        "collection": "promo-natale-1",
         "title": "PROMO NATALE",
         "products_count": 25,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_tJr3Kn": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "promo-natale",
+        "title": "Prodotti internazionali",
+        "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
@@ -88,6 +102,7 @@
     "main",
     "slideshow_fNMemC",
     "rich_text_jiJkrR",
-    "featured_collection_edtXF3"
+    "featured_collection_edtXF3",
+    "featured_collection_tJr3Kn"
   ]
 }
