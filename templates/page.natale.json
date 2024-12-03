@@ -40,7 +40,7 @@
       ],
       "settings": {
         "edge_to_edge": true,
-        "section_size": "medium",
+        "section_size": "small",
         "mobile_section_size": "",
         "carousel_effect": "slide",
         "autoplay": true,
