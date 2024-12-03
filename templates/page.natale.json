@@ -49,6 +49,26 @@
         "cycle_speed": 5
       }
     },
+    "rich_text_3gFA9x": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "Idee Regalo per Natale: CD e Vinili",
+        "h_one": true,
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "rich_text_jiJkrR": {
       "type": "rich-text",
       "settings": {
@@ -101,6 +121,7 @@
   "order": [
     "main",
     "slideshow_fNMemC",
+    "rich_text_3gFA9x",
     "rich_text_jiJkrR",
     "featured_collection_edtXF3",
     "featured_collection_tJr3Kn"
