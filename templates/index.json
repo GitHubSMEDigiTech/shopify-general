@@ -32,6 +32,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_fb549fde-79ec-498e-b438-6486430c86dd.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_aa8b745a-2f05-4e7c-b513-22a68222571b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/thasup"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -47,23 +64,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/mondo-marcio"
-          }
-        },
-        "image_hhc4xB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_e2b8c3ef-2dfd-4f13-b200-96d602d3bb15.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_66ae6c4e-4928-482e-a23b-110c20630d64.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/thasup"
           }
         },
         "image_zLLxyF": {
@@ -272,8 +272,8 @@
         }
       },
       "block_order": [
-        "image_eUhDX7",
         "image_hhc4xB",
+        "image_eUhDX7",
         "image_zLLxyF",
         "image_wfGmGy",
         "image_9kfgaA",
