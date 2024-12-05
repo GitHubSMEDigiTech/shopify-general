@@ -1,13 +1,13 @@
+<div class="carta_cultura">
 {%- if product.metafields.meta.street_date != blank -%}
     {% assign system_date = now | date: "%Y-%m-%d" %}
     {% assign metafield_date = product.metafields.meta.street_date | date: "%Y-%m-%d" %}
     {% if metafield_date > system_date %}
-      <p>The date in the metafield is in the future: {{ metafield_date }}</p>
-    {% elsif metafield_date == system_date %}
-      <p>The date in the metafield is today: {{ metafield_date }}</p>
+      <p>Prodotto non acquistabile con Carta Cultura  {{ metafield_date }}</p>
     {% else %}
-      <p>The date in the metafield is in the past: {{ metafield_date }}</p>
+      <p>Prodotto acquistabile con Carta Cultura a partire dal  {{ product.metafields.meta.street_date }}</p>
     {% endif %}
 {% else %}
   <p>No date is set in the metafield.</p>
-{% endif %}    
+{% endif %}  
+</div>  

@@ -1303,10 +1303,12 @@ body:not(.is-tabbing) textarea:focus {
 
 .carta_cultura {
   margin: 9px;
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 14px));
 }
 
 .carta_cultura p {
   margin: 0;
+  font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 14px));
 }
 
 
