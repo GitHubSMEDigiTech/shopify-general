@@ -93,7 +93,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "promo-natale-1",
-        "title": "PROMO NATALE",
+        "title": "PROMO NATALE: Prodotti italiani",
         "products_count": 25,
         "layout": "vertical",
         "stack_products": false,
@@ -107,7 +107,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "promo-natale",
-        "title": "Prodotti internazionali",
+        "title": "PROMO NATALE: Prodotti internazionali",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
