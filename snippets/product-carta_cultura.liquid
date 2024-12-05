@@ -4,9 +4,9 @@
     {% assign metafield_date = product.metafields.meta.street_date | date: "%Y-%m-%d" %}
     {% assign metafield_date_show = product.metafields.meta.street_date | date: "%d/%m/%Y" %}
     {% if metafield_date > system_date %}
-      <p>Prodotto non acquistabile con Carta Cultura  {{ metafield_date }}</p>
+      <p>Prodotto acquistabile con Carta Cultura a partire dal  {{ metafield_date_show }}</p>
     {% else %}
-      <p>Prodotto acquistabile con Carta Cultura a partire dal  {{ metafield_date_show }} {{ metafield_date }} {{ system_date }}</p>
+      <p>Prodotto acquistabile con Carta Cultura</p>
     {% endif %}
 {% else %}
   <p>No date is set in the metafield.</p>
