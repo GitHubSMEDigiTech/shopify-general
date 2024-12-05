@@ -1301,6 +1301,15 @@ body:not(.is-tabbing) textarea:focus {
   width: 420px;
 }
 
+.carta_cultura {
+  margin: 9px;
+}
+
+.carta_cultura p {
+  margin: 0;
+}
+
+
 @supports (--css: variables) {
   .anchor {
     top: calc(-1 * var(--header-height));
