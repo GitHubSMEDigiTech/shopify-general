@@ -21,6 +21,9 @@
 
           {%- when 'buy_buttons' -%}
             {%- render 'product-buy-buttons', product: product, form: form, block: block -%}
+          
+          {%- when 'carta_cultura' -%}
+            {%- render 'product-carta_cultura', product: product, block: block -%}
 
           {%- when 'text' -%}
             {%- if block.settings.content != blank -%}
