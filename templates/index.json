@@ -365,7 +365,7 @@
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Scopri",
+            "button_text": "",
             "button_link": "shopify://collections/record-store-day"
           }
         }
