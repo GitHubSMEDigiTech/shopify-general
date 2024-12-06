@@ -522,6 +522,10 @@
       },
       "contact": {
         "civic_number_warning": "Aggiungi un numero civico, se esistente"
+      },
+      "thank_you": {
+        "in_transit": "Pronto per la spedizione",
+        "in_transit_title": "Il tuo ordine è pronto per la spedizione"
       }
     }
   },
