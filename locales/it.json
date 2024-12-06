@@ -573,5 +573,13 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "on_its_way_label": "Pronto per la Spedizione",
+        "on_its_way_description": "La Merce è pronta per la spedizione"
+      }
+    }
   }
 }
