@@ -28,23 +28,6 @@
             "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
           }
         },
-        "image_3JpJck": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_7.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/thasup"
-          }
-        },
         "image_D9CX6k": {
           "type": "image",
           "settings": {
@@ -59,40 +42,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/mina-celentano-lp-blu-32-p-booklet"
-          }
-        },
-        "image_zVhk4n": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_6.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt-lettera-q"
-          }
-        },
-        "image_Cyxp9y": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Banner_Mannoia_B2B.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/fiorella-mannoia-disobbedire"
           }
         },
         "image_Bebfkj": {
@@ -227,10 +176,7 @@
       },
       "block_order": [
         "image_DyKMAY",
-        "image_3JpJck",
         "image_D9CX6k",
-        "image_zVhk4n",
-        "image_Cyxp9y",
         "image_Bebfkj",
         "image_DaWh7w",
         "image_8HkMrz",
