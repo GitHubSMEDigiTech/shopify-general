@@ -249,6 +249,14 @@
             "settings": {
               "menu": "footer-1"
             }
+          },
+          "text_JJzV4w": {
+            "type": "text",
+            "settings": {
+              "title": "SICUREZZA",
+              "liquid": "",
+              "content": "<p><strong>C’è qualcosa che ti preoccupa o che vuoi domandarci in relazione alla sicurezza dei nostri prodotti? Contattaci a questo indirizzo di posta elettronica: </strong><a href=\"mailto:product.safety@sonymusic.com\"><strong>product.safety@sonymusic.com</strong></a></p>"
+            }
           }
         },
         "block_order": [
@@ -256,7 +264,8 @@
           "footer-1",
           "footer-2",
           "links_wfmPgy",
-          "links_GENJ44"
+          "links_GENJ44",
+          "text_JJzV4w"
         ],
         "custom_css": [
           "footer {font-size: calc( var(--base-text-font-size) - (var(--default-text-font-size) - 13px) );}",
