@@ -353,6 +353,26 @@
         "show_text_below": true
       }
     },
+    "rich_text_mA9Xxr": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "Spedizioni durante le festività",
+        "h_one": false,
+        "content": "<p>Durante le festività non sono assicurate le consegne nei giorni 25 dicembre, 26 dicembre, 31 dicembre e 1 gennaio. </p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "slideshow_KUj7zP": {
       "type": "slideshow",
       "blocks": {
@@ -865,6 +885,7 @@
     "rich_text_Yjrb3a",
     "slideshow_dwDbqU",
     "image_banner_CyfkAN",
+    "rich_text_mA9Xxr",
     "slideshow_KUj7zP",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
