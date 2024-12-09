@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "accent_color": "#c5161c",
@@ -160,8 +160,7 @@
       },
       "popups": {
         "type": "popups",
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -229,13 +228,22 @@
             "settings": {
               "menu": "area-clienti"
             }
+          },
+          "text_fLMKwC": {
+            "type": "text",
+            "settings": {
+              "title": "SICUREZZA",
+              "liquid": "",
+              "content": "<p><strong>C’è qualcosa che ti preoccupa o che vuoi domandarci in relazione alla sicurezza dei nostri prodotti? Contattaci a questo indirizzo di posta elettronica: </strong><a href=\"mailto:product.safety@sonymusic.com\"><strong>product.safety@sonymusic.com</strong></a></p>"
+            }
           }
         },
         "block_order": [
           "text_E9wczG",
           "footer-1",
           "links_BLFmRg",
-          "links_AWxkCB"
+          "links_AWxkCB",
+          "text_fLMKwC"
         ],
         "custom_css": [
           "footer {font-size: calc( var(--base-text-font-size) - (var(--default-text-font-size) - 13px) );}",
@@ -252,9 +260,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
