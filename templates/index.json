@@ -76,22 +76,6 @@
             "link": "shopify://collections/massimo-pericolo"
           }
         },
-        "image_d9Mw6i": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner-desktop-2160x720.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/diss-gacha-cultura-italiana"
-          }
-        },
         "image_JJQULe": {
           "type": "image",
           "settings": {
@@ -163,7 +147,6 @@
         "image_D9CX6k",
         "image_DaWh7w",
         "image_8HkMrz",
-        "image_d9Mw6i",
         "image_JJQULe",
         "image_XHmBAC",
         "image_6YKHeW",
