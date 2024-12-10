@@ -44,22 +44,6 @@
             "link": "shopify://products/mina-celentano-lp-blu-32-p-booklet"
           }
         },
-        "image_Bebfkj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_4.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/damiano-david"
-          }
-        },
         "image_DaWh7w": {
           "type": "image",
           "settings": {
@@ -177,7 +161,6 @@
       "block_order": [
         "image_DyKMAY",
         "image_D9CX6k",
-        "image_Bebfkj",
         "image_DaWh7w",
         "image_8HkMrz",
         "image_d9Mw6i",
