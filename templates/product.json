@@ -71,7 +71,7 @@
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
           "type": "text",
           "settings": {
-            "content": "<h6>GPSR Information</h6><p>{{ product.metafields.custom.gpsr_manufacturer.value }}</p><p>{{ product.metafields.sme.gpsr_street.value }}</p><p>{{ product.metafields.custom.gpsr_city.value }}</p><p>{{ product.metafields.custom.gpsr_country.value }}</p><p>{{ product.metafields.custom.gpsr_link.value }}</p>"
+            "content": "<h6>GPSR Information</h6><h6>Manufacturer:{{ product.metafields.custom.gpsr_manufacturer.value }}</h6><h6>Address:{{ product.metafields.sme.gpsr_street.value }}</h6><h6>City:{{ product.metafields.custom.gpsr_city.value }}</h6><h6>Country:{{ product.metafields.custom.gpsr_country.value }}</h6><h6>Link:{{ product.metafields.custom.gpsr_link.value }}</h6>"
           }
         }
       },
