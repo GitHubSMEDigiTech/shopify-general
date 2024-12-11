@@ -521,7 +521,7 @@
         "go_back_to_cart_button_label": "Torna al carrello"
       },
       "contact": {
-        "civic_number_warning": "<b>ATTENZIONE : Aggiungi un numero civico , se esistente </b> "
+        "civic_number_warning": "ATTENZIONE : Aggiungi un numero civico , se esistente "
       },
       "thank_you": {
         "in_transit": "Pronto per la spedizione",
