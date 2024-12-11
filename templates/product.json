@@ -44,12 +44,6 @@
             "display_mode": "show_all"
           }
         },
-        "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
-          "type": "text",
-          "settings": {
-            "content": "<p>{{ product.metafields.custom.gpsr_manufacturer.value }}</p><p>{{ product.metafields.sme.gpsr_street.value }}</p><p>{{ product.metafields.custom.gpsr_city.value }}</p><p>{{ product.metafields.custom.gpsr_country.value }}</p><p>{{ product.metafields.custom.gpsr_link.value }}</p>"
-          }
-        },
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
           "type": "text",
           "settings": {
@@ -73,6 +67,12 @@
           "settings": {
             "content": "<h6>All ordered items will be shipped in one delivery. In case of a pre-order, we will only ship once all items have been released. </h6>"
           }
+        },
+        "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
+          "type": "text",
+          "settings": {
+            "content": "<h6>GPSR Information</h6><p>{{ product.metafields.custom.gpsr_manufacturer.value }}</p><p>{{ product.metafields.sme.gpsr_street.value }}</p><p>{{ product.metafields.custom.gpsr_city.value }}</p><p>{{ product.metafields.custom.gpsr_country.value }}</p><p>{{ product.metafields.custom.gpsr_link.value }}</p>"
+          }
         }
       },
       "block_order": [
@@ -80,11 +80,11 @@
         "variant_selector",
         "buy_buttons",
         "description",
-        "31335ddd-c1ea-40e0-a1af-6a2e064faae3",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
         "3fff165e-dcfa-4169-b4e7-1e46cdb5a883",
-        "text_ptPnQh"
+        "text_ptPnQh",
+        "31335ddd-c1ea-40e0-a1af-6a2e064faae3"
       ],
       "settings": {
         "list_collections": false,
