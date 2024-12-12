@@ -108,6 +108,22 @@
             "link": "shopify://collections/rocco-hunt-spiraglio-di-periferia-reloaded"
           }
         },
+        "image_zzDWLM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1_00526abd-b70b-4b6a-bf1b-2efe52881f11.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/daft-punk"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -156,22 +172,6 @@
             "button_text": "",
             "link": "shopify://collections/ac-dc"
           }
-        },
-        "image_zzDWLM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1_00526abd-b70b-4b6a-bf1b-2efe52881f11.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/daft-punk"
-          }
         }
       },
       "block_order": [
@@ -181,10 +181,10 @@
         "image_DaWh7w",
         "image_8HkMrz",
         "image_JJQULe",
+        "image_zzDWLM",
         "image_XHmBAC",
         "image_6YKHeW",
-        "image_9TUQjJ",
-        "image_zzDWLM"
+        "image_9TUQjJ"
       ],
       "settings": {
         "edge_to_edge": false,
