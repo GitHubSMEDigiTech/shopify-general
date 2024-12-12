@@ -15,7 +15,7 @@
         "image_DyKMAY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_PTN.jpg",
+            "image": "shopify://shop_images/2160x720_10_1.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
