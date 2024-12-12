@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -35,49 +44,34 @@
             "display_mode": "show_all"
           }
         },
-        "31335ddd-c1ea-40e0-a1af-6a2e064faae3": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "content": "<p>{{ product.metafields.sme.release_name.value }}<\/p>"
-          }
-        },
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5": {
           "type": "text",
           "settings": {
-            "content": "<h5>Release date: {{ product.metafields.sme.street_date | metafield_tag }}<\/h5>"
+            "content": "<h5>Release date: {{ product.metafields.sme.street_date | metafield_tag }}</h5>"
           }
         },
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
           "type": "text",
           "settings": {
-            "content": "<h5>Dist. number: {{ product.metafields.sme.distribution_number.value }}<\/h5>"
-          }
-        },
-        "3e6f20d1-0dd0-492e-842a-879b7ff34b9b": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "content": "<p>FSK: {{ product.metafields.sme.fsk.value }}<\/p>"
-          }
-        },
-        "2e75b2af-c1ad-445e-9263-9bb1a032d880": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Episode: {{ product.metafields.sme.episode.value }}<\/p>"
+            "content": "<h5>Dist. number: {{ product.metafields.sme.distribution_number.value }}</h5>"
           }
         },
         "caae8b81-4155-4df7-94b3-d971bcc57458": {
           "type": "text",
           "settings": {
-            "content": "<h6>{{ product.metafields.sme.additional_information.value }}<\/h6>"
+            "content": "<h6>{{ product.metafields.sme.additional_information.value }}</h6>"
           }
         },
         "text_JPPhjr": {
           "type": "text",
           "settings": {
-            "content": "<h6>All ordered items will be shipped in one delivery. In case of a pre-order, we will only ship once all items have been released. <\/h6>"
+            "content": "<h6>All ordered items will be shipped in one delivery. In case of a pre-order, we will only ship once all items have been released. </h6>"
+          }
+        },
+        "2e75b2af-c1ad-445e-9263-9bb1a032d880": {
+          "type": "text",
+          "settings": {
+            "content": "<h6>Manufacturer:<br/>Sony Music Entertainment International Services GmbH<br/>PO BOX 510<br/>Gütersloh<br/>DE - Germany<br/>Link:<br/>product.safety@sonymusic.com<br/></h6>"
           }
         }
       },
@@ -86,15 +80,14 @@
         "variant_selector",
         "buy_buttons",
         "description",
-        "31335ddd-c1ea-40e0-a1af-6a2e064faae3",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
         "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
-        "3e6f20d1-0dd0-492e-842a-879b7ff34b9b",
-        "2e75b2af-c1ad-445e-9263-9bb1a032d880",
         "caae8b81-4155-4df7-94b3-d971bcc57458",
-        "text_JPPhjr"
+        "text_JPPhjr",
+        "2e75b2af-c1ad-445e-9263-9bb1a032d880"
       ],
       "settings": {
+        "list_collections": false,
         "image_size": "small",
         "enable_video_looping": false,
         "enable_image_zoom": true,
