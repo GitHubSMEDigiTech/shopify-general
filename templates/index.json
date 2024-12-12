@@ -54,6 +54,29 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_UAPYBU": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/cry.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Cryptosis_CelestialDeath.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "CRYPTOSIS",
+            "head_color": "#ffffff",
+            "subtitle": "celestial death",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold deep blood red LP",
+            "content_color": "#abc096",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "march 7",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Cryptosis&sort_by=created-descending"
+          }
+        },
         "banner_Eyhcpf": {
           "type": "banner",
           "settings": {
@@ -118,28 +141,6 @@
             "preorder_msg": "February 14",
             "preorder_msg_color": "#222021",
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Love%20Is%20Noise"
-          }
-        },
-        "banner_ghUyLQ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Mur_Mur_Banner.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/murmurjpg_26df93f2-54c5-421c-aa5f-ce293d120790.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Múr",
-            "head_color": "#ffffff",
-            "subtitle": "Múr",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Digipak\nLtd. deep blood red LP",
-            "content_color": "#666666",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "November 22",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=M%C3%BAr"
           }
         },
         "banner_xqMe4G": {
@@ -318,50 +319,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
-        "banner_PnFNVN": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/BC.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/bodycountmercilessjpg_0033e6c7-62b3-4814-ab1f-0f9cfcab4bf5.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#e82128",
-            "title": "body count",
-            "head_color": "#e82128",
-            "subtitle": "merciless",
-            "subhead_color": "#e82128",
-            "content": "Ltd. Deluxe 2CD Box Set\nLtd. CD Digipak\nblack LP\nLtd. DemoCrips blue LP (blue Vinyl)\nLtd. red blood spot LP (ultra clear-red colour in colour)",
-            "content_color": "#046eb1",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#046eb1",
-            "show_preorder": true,
-            "preorder_msg": "november 22",
-            "preorder_msg_color": "#e82128",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Body+Count&sort_by=created-descending"
-          }
-        },
-        "banner_B4DQtx": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/dist.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/distanttsukuyomioriginsjpg_b6827894-fe22-480c-a906-0bcb4c9ad9f4.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "distant",
-            "head_color": "#ffffff",
-            "subtitle": "Tsukuyomi: The Origin",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nblack LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#cfa943",
-            "show_preorder": true,
-            "preorder_msg": "november 22",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Distant&sort_by=created-descending"
-          }
-        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "settings": {
@@ -386,10 +343,10 @@
         }
       },
       "block_order": [
+        "banner_UAPYBU",
         "banner_Eyhcpf",
         "banner_m4BAYT",
         "banner_FpDPzV",
-        "banner_ghUyLQ",
         "banner_xqMe4G",
         "banner_WpgByM",
         "banner_ytLRNJ",
@@ -398,8 +355,6 @@
         "banner_3Q3EXP",
         "banner_j6xHXw",
         "banner_pNETXX",
-        "banner_PnFNVN",
-        "banner_B4DQtx",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
