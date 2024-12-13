@@ -35,8 +35,8 @@
         "image_hhc4xB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/desktopthasup.png",
-            "mobile_image": "shopify://shop_images/mobilethasup.png",
+            "image": "shopify://shop_images/thasupcatdesktop.png",
+            "mobile_image": "shopify://shop_images/thasupcat_f5eaf0b1-6e3f-48c9-a730-92cbe34a9841.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
