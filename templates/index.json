@@ -69,8 +69,8 @@
         "image_zLLxyF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner-desktop-2160x720_1.png",
-            "mobile_image": "shopify://shop_images/banner-mobile-750x1100_ae532f93-3dbf-4f86-83f4-92b3a87dba78.png",
+            "image": "shopify://shop_images/V2_-_banner-desktop-2160x720_1.png",
+            "mobile_image": "shopify://shop_images/V2_-_banner-mobile-750x1100.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
