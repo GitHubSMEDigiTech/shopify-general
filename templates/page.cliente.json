@@ -12,9 +12,30 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "rich_text_cze3Fn": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "",
+        "h_one": false,
+        "content": "<p>Se sei un negoziante e vuoi entrare nel mondo sony music come rivenditore,  scrivici a itateam.store@sonymusic.com</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_cze3Fn"
   ]
 }
