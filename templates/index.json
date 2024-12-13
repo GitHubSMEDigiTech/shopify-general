@@ -197,6 +197,26 @@
         "cycle_speed": 5
       }
     },
+    "rich_text_GKqCHN": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "ATTENZIONE",
+        "h_one": false,
+        "content": "<p>Si ricorda che per poter ricevere i prodotti<br/>prima di Natale, è necessario inserire i relativi ordini <strong>entro la sera di<br/>domenica 15 dicembre</strong></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "collection_list_XWxmfc": {
       "type": "collection-list",
       "blocks": {
@@ -480,6 +500,7 @@
   },
   "order": [
     "slideshow_dwDbqU",
+    "rich_text_GKqCHN",
     "collection_list_XWxmfc",
     "promotion_list_BDmd3c",
     "promotion_list_kTecJ6",
