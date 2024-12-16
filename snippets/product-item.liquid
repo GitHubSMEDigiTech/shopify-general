@@ -374,9 +374,11 @@
     {%- if cart_item.product.handle != blank -%}
       {% render 'product-item-b2b', product: product %}
     {%- endif -%}
+    {%- comment -%}
     {%- if total_item.product.handle != blank -%}
       <span class="product-item__price-info">{{ total_quantity }}</span>
     {%- endif -%} 
+    {%- endcomment -%}  
     {%- if request.page_type == 'collection' or request.page_type == 'search' or show_add_to_cart -%}
       {%- if section.settings.show_quick_view == 'list_grid' or section.settings.show_quick_buy == 'list_grid' or show_add_to_cart -%}
         {%- assign product_form_classes = 'product-item__action-list button-stack' -%}
