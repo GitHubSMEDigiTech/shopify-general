@@ -1,14 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "a57f13ef-bd41-4516-9d01-a40a1fa11701": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
-        "text_width": "regular",
-        "title": "HAPPY HOLIDAYS!",
-        "content": "<h5>We are going on <strong>Christmas break <\/strong><em><strong>from December 18 until January 02<\/strong><\/em>. You can still order as usual, but there will be delays in your shipment.<br\/><em><strong>We would like to thank you for a fantastic 2023, wish you happy holidays and a good start for 2024!<\/strong><\/em><\/h5>",
-        "button_text": "Our products",
-        "button_link": "shopify:\/\/collections\/all"
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "wide",
+        "title": "Service Shutdown!",
+        "h_one": false,
+        "content": "<p><strong>Dear business partners</strong> </p><p>Please note that our B2B service will be <em>shut down</em><em><strong> by December 31.</strong></em><strong> </strong></p><p><strong>From January 1</strong> business orders will be fulfilled by Sony Music Europe (SME) directly. All open orders will of course be processed by us until they are closed. </p><p>For further info please reach out to <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\"><em><strong>wholesale@cmdistro.de</strong></em></a></p>",
+        "button_text": "",
+        "button_link": "",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "slideshow": {
@@ -17,7 +35,7 @@
         "banner_XrPHMD": {
           "type": "banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/midpr_c62c2d42-fc09-409b-bc83-b22a54d2946d.jpg",
+            "image": "shopify://shop_images/midpr_c62c2d42-fc09-409b-bc83-b22a54d2946d.jpg",
             "bg_color": "#eeeeee",
             "cover_effect": "none",
             "cover_color": "#ffffff",
@@ -32,14 +50,14 @@
             "show_preorder": false,
             "preorder_msg": "Click here to enter our vault!",
             "preorder_msg_color": "#ffffff",
-            "link": "shopify:\/\/collections\/midprice"
+            "link": "shopify://collections/midprice"
           }
         },
         "efb4d623-b806-4488-a2c7-ea7ac756f98d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CMR_Releases_1122_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/CMR_Releases_1122_750-1100.jpg",
+            "image": "shopify://shop_images/CMR_Releases_1122_2160-720.jpg",
+            "mobile_image": "shopify://shop_images/CMR_Releases_1122_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -49,14 +67,14 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify:\/\/collections\/century-media-records"
+            "link": "shopify://collections/century-media-records"
           }
         },
         "7b9c0ef7-fe8b-475d-b05a-00d63668d99a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IOM_Releases_1122_2160-720.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/IOM_Releases_1122_750-1100.jpg",
+            "image": "shopify://shop_images/IOM_Releases_1122_2160-720.jpg",
+            "mobile_image": "shopify://shop_images/IOM_Releases_1122_750-1100.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -66,7 +84,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify:\/\/collections\/insideout-music"
+            "link": "shopify://collections/insideout-music"
           }
         }
       },
@@ -75,12 +93,15 @@
         "efb4d623-b806-4488-a2c7-ea7ac756f98d",
         "7b9c0ef7-fe8b-475d-b05a-00d63668d99a"
       ],
+      "disabled": true,
       "settings": {
         "edge_to_edge": false,
         "section_size": "medium",
         "mobile_section_size": "mobile_small",
         "carousel_effect": "slide",
         "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
         "cycle_speed": 5
       }
     },
