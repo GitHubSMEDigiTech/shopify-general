@@ -41,7 +41,7 @@
           "type": "question",
           "settings": {
             "title": "Dove si consegna?",
-            "answer": "<h6>In tutta Italia ad eccezione di Campione d’Italia e Livigno e in tutta Europa</h6>"
+            "answer": "<h6>In tutta Italia ad eccezione di Campione d’Italia e Livigno </h6>"
           }
         },
         "question_YaR8bp": {
@@ -55,7 +55,7 @@
           "type": "question",
           "settings": {
             "title": "Quali sono i costi di spedizione?",
-            "answer": "<h6>La spedizione prevede una tariffa nazionale unica al costo di 3.50 € e una tariffa di 15.90€ per consegne in Europa. </h6>"
+            "answer": "<h6>La spedizione prevede una tariffa nazionale unica al costo di 3.50 €</h6>"
           }
         },
         "question_N8dGTt": {
