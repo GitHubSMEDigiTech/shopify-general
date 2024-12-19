@@ -88,7 +88,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2160x720_10.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_7.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_7.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
