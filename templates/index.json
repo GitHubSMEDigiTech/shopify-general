@@ -199,7 +199,6 @@
     },
     "rich_text_GKqCHN": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
@@ -269,7 +268,6 @@
       "blocks": {
         "item_zAprhf": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/natale1_1_1.png",
             "show_overlay": true,
