@@ -44,22 +44,6 @@
             "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
           }
         },
-        "image_ipRpLr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/morandib2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/gianni-morandi-lattrazione"
-          }
-        },
         "image_DaWh7w": {
           "type": "image",
           "settings": {
@@ -74,6 +58,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/il-volo-ad-astra"
+          }
+        },
+        "image_ipRpLr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/morandib2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/gianni-morandi-lattrazione"
           }
         },
         "image_8HkMrz": {
@@ -177,8 +177,8 @@
       "block_order": [
         "image_D9CX6k",
         "image_DyKMAY",
-        "image_ipRpLr",
         "image_DaWh7w",
+        "image_ipRpLr",
         "image_8HkMrz",
         "image_JJQULe",
         "image_zzDWLM",
