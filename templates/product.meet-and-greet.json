@@ -108,7 +108,7 @@
         "text_RAnwjh": {
           "type": "text",
           "settings": {
-            "content": "<p>Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></p><h6>Si applica l'informativa consultabile qui</h6><h6><br/><strong>Finalità</strong>: I dati personali raccolti sono trattati al fine di consentire la partecipazione all’iniziativa promossa da SMEI e Sociable<br/>Weavers s.r.l. sulla landing page https://store.sonymusic.it/collections/mondo-marcio<br/>che permette all’utente che abbia effettuato il pre-order seguendo le istruzioni e secondo le condizioni del Regolamento parteciperà al firma copie<br/>Base giuridica del trattamento:  Il trattamento dei dati personali si basa sul libero consenso dell’utente.<br/><br/>Tuttavia, sebbene il conferimento dei dati sia facoltativo, la mancata prestazione del consenso da parte dell’utente per le finalità di cui al paragrafo 3, determina l’impossibilità di poter partecipare all’iniziativa.<br/><br/>Come possono essere esercitati tali diritti? Tali diritti potranno essere esercitati inviando:<br/>- una comunicazione a mezzo posta elettronica all’indirizzo privacy.italy@sonymusic.com e info@plasmaconcerti.com</h6>"
+            "content": "<h5>Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></h5>"
           }
         }
       },
