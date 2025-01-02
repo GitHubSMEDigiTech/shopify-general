@@ -339,6 +339,7 @@
         "text_VwRfqT",
         "buttons_6YCnjp"
       ],
+      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
@@ -358,6 +359,7 @@
     },
     "rich_text_mA9Xxr": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
