@@ -54,7 +54,7 @@
           "type": "contest",
           "settings": {
             "contest_title": "",
-            "contest_radio": ""
+            "contest_radio": "si, no"
           }
         },
         "buy_buttons": {
@@ -71,6 +71,7 @@
         },
         "liquid_b4jzwN": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "title": "Privacy Policy",
             "sku": "",
@@ -89,6 +90,7 @@
         },
         "liquid_t64EVj": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "title": "INSTORE TOUR",
             "sku": "",
