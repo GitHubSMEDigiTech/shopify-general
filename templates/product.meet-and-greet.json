@@ -109,6 +109,7 @@
         },
         "text_RAnwjh": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h5>Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></h5>"
           }
