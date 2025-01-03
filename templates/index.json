@@ -141,6 +141,22 @@
             "link": "shopify://collections/david-gilmour"
           }
         },
+        "image_a7atqp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/luciodallab2b_b73b361e-80fa-4da5-bbcb-615a1fedb03c.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/lucio-dalla"
+          }
+        },
         "image_6YKHeW": {
           "type": "image",
           "settings": {
@@ -183,6 +199,7 @@
         "image_JJQULe",
         "image_zzDWLM",
         "image_XHmBAC",
+        "image_a7atqp",
         "image_6YKHeW",
         "image_9TUQjJ"
       ],
