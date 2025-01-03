@@ -146,7 +146,7 @@
           "settings": {
             "image": "shopify://shop_images/luciodallab2b_b73b361e-80fa-4da5-bbcb-615a1fedb03c.png",
             "show_overlay": false,
-            "overlay_opacity": 30,
+            "overlay_opacity": 70,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
