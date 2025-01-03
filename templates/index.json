@@ -124,6 +124,22 @@
             "link": "shopify://collections/daft-punk"
           }
         },
+        "image_9hUM9T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lucacarbonib2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/luca-carboni"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -214,6 +230,7 @@
         "image_8HkMrz",
         "image_JJQULe",
         "image_zzDWLM",
+        "image_9hUM9T",
         "image_XHmBAC",
         "image_a7atqp",
         "image_wiRjiq",
