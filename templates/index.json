@@ -35,10 +35,9 @@
       "blocks": {
         "image_QQwqrR": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BobDylan_BannerDesktop_2160x720_9df25cbe-219a-44ec-ae26-0bae67d8f588.jpg",
-            "mobile_image": "shopify://shop_images/BobDylan_BannerMobile_750x1100_34f0a04f-a4b4-423b-8958-f04ce9a98b64.jpg",
+            "image": "shopify://shop_images/BobDylan_BannerDesktop_2160x720_V2.jpg",
+            "mobile_image": "shopify://shop_images/BobDylan_BannerMobile_750x1100_V2.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
