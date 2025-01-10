@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_zj7C4X": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/SW.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/spiritworldhelldoradojpg_e6f4dac3-51d4-4916-b2ab-e450fdce17ce.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#e2ad23",
+            "title": "SpiritWorld",
+            "head_color": "#e2ad23",
+            "subtitle": "Helldorado",
+            "subhead_color": "#e2ad23",
+            "content": "Ltd. CD Digipak\nLtd. white LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#e2ad23",
+            "show_preorder": true,
+            "preorder_msg": "March 21",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=SpiritWorld&sort_by=created-descending"
+          }
+        },
         "banner_UAPYBU": {
           "type": "banner",
           "settings": {
@@ -98,28 +120,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Dark+Fortress&sort_by=created-descending"
           }
         },
-        "banner_m4BAYT": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Insomnium_ShadowsOfTheDyingSun_back.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Insomnium_ShadowsOfTheDyingSun_VinylReissue2025.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "insomnium",
-            "head_color": "#ffffff",
-            "subtitle": "shadows of the dying sun",
-            "subhead_color": "#555555",
-            "content": "Ltd. Gatefold deep blood red 2LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "january 10",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Insomnium&sort_by=created-descending"
-          }
-        },
         "banner_FpDPzV": {
           "type": "banner",
           "settings": {
@@ -142,50 +142,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Love%20Is%20Noise"
           }
         },
-        "banner_xqMe4G": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/BloodIncantation_Banner.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/BloodIncantation_AbsoluteElsewhere.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Blood Incantation",
-            "head_color": "#ffffff",
-            "subtitle": "Absolute Elsewhere",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Gatefold transp. sun yellow LP & Poster",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "November 29",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Blood%20Incantation"
-          }
-        },
-        "banner_WpgByM": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/sacramentum.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Sacramentum_TheComingOfChaos_2024.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Sacramentum",
-            "head_color": "#ffffff",
-            "subtitle": "The Coming Of Chaos (Re-issue 2024)",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nblack LP\nLtd. transp. blue LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "December 12",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sacramentum&sort_by=created-descending"
-          }
-        },
         "banner_ytLRNJ": {
           "type": "banner",
           "settings": {
@@ -206,28 +162,6 @@
             "preorder_msg": "January 17",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Sarcator"
-          }
-        },
-        "banner_4Gb6FY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/sorrows.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/edgeofsanitythespectralsorrowsre-issuejpg_4bee31fc-4b4c-467d-b861-dda27c60dcbb.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#c66f8e",
-            "title": "edge of sanity",
-            "head_color": "#ffffff",
-            "subtitle": "the spectral sorrows",
-            "subhead_color": "#c66f8e",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. petrol green LP \nLtd. clear LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#c66f8e",
-            "show_preorder": true,
-            "preorder_msg": "december 6",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
         "banner_QREb8T": {
@@ -342,14 +276,11 @@
         }
       },
       "block_order": [
+        "banner_zj7C4X",
         "banner_UAPYBU",
         "banner_Eyhcpf",
-        "banner_m4BAYT",
         "banner_FpDPzV",
-        "banner_xqMe4G",
-        "banner_WpgByM",
         "banner_ytLRNJ",
-        "banner_4Gb6FY",
         "banner_QREb8T",
         "banner_3Q3EXP",
         "banner_j6xHXw",
