@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_RBLLXh": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/JT_b61ff256-176e-459a-832a-83032c9b606f.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/jethrotullcuriousruminantjpg_9e4b908b-e407-458a-a1b6-0adb82fd483c.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#fbe5bb",
+            "title": "Jethro Tull",
+            "head_color": "#fbe5bb",
+            "subtitle": "Curious Ruminant",
+            "subhead_color": "#fbe5bb",
+            "content": "Ltd. Deluxe ultra clear 2LP+2CD+Blu-ray Artbook & 2 photo prints\nLtd. Deluxe 2CD+Blu-ray Artbook\nSpecial Edition CD Digipak\nGatefold black LP & LP-Booklet\nLtd. Gatefold red LP & LP-Booklet",
+            "content_color": "#fbe5bb",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "March 7",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
+          }
+        },
         "banner_jxdmAi": {
           "type": "banner",
           "settings": {
@@ -120,28 +142,6 @@
             "link": "https://www.insideoutshop.de/collections/vendors?q=Dream+Theater&sort_by=created-descending"
           }
         },
-        "banner_GdTMBc": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/JT.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/jethrotullthejethrotullchristmasalbumoriginalreleasejpg_b04c3661-c8f7-4077-afaa-7f909037355e.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#feffff",
-            "title": "jethro tull",
-            "head_color": "#75564f",
-            "subtitle": "The Jethro Tull Christmas Album - Fresh Snow At Christmas",
-            "subhead_color": "#fef9d2",
-            "content": "Ltd. Deluxe 4CD+Blu-ray Mediabook\nGatefold black 2LP",
-            "content_color": "#75564f",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#fef9d2",
-            "show_preorder": true,
-            "preorder_msg": "december 6",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "settings": {
@@ -165,10 +165,10 @@
         }
       },
       "block_order": [
+        "banner_RBLLXh",
         "banner_jxdmAi",
         "banner_K3RFig",
         "banner_tixkB8",
-        "banner_GdTMBc",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
