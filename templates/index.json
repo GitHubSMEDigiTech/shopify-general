@@ -28,6 +28,22 @@
             "link": "shopify://collections/better-man"
           }
         },
+        "image_cbNher": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bobdylanb2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/a-complete-unknown-original-motion-picture-soundtrack"
+          }
+        },
         "image_DyKMAY": {
           "type": "image",
           "settings": {
@@ -240,6 +256,7 @@
       },
       "block_order": [
         "image_xWLDex",
+        "image_cbNher",
         "image_DyKMAY",
         "image_D9CX6k",
         "image_DaWh7w",
