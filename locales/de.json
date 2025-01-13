@@ -421,7 +421,7 @@
         "inventory": "Lagerbestand",
         "quantity": "Menge",
         "in_stock": "Auf Lager",
-        "oversell_stock": "Jetzt vorbestellen / verfügbar 3-5 Tage ab Veröffentlichung",
+        "oversell_stock": "Jetzt vorbestellen / verfügbar in 3-5 Tagen ab Veröffentlichung",
         "incoming_stock": "Ab dem {{ next_incoming_date }} wieder auf Lager",
         "low_stock_with_quantity_count": {
           "one": "Nur noch {{count}} verfügbar",
