@@ -261,7 +261,7 @@
         "fulfillment_status": "Lieferstatus",
         "back_to_account": "Zurück zum Konto",
         "cancelled_at": "Bestellung wurde storniert am {{date}}. Grund: {{reason}}.",
-        "fulfillment_with_url_and_number_html": "Alle Prudukte wurden versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}} oder <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier</a>.",
+        "fulfillment_with_url_and_number_html": "Alle Produkte wurden versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}} oder <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier</a>.",
         "fulfillment_with_url_html": "Alle Prudukte wurden versandt. Zum Verfolgen der Lieferung <a href=\"{{tracking_url}}\" target=\"_blank\">klicke hier</a>.",
         "fulfillment_with_number_html": "Alle Prudukte wurden versandt. Verfolge die Lieferung mit der Sendungsnummer {{tracking_number}}.",
         "fulfillment_html": "Alle Prudukte wurden versandt.",
@@ -421,7 +421,7 @@
         "inventory": "Lagerbestand",
         "quantity": "Menge",
         "in_stock": "Auf Lager",
-        "oversell_stock": "Nachschub kommt bald",
+        "oversell_stock": "Jetzt vorbestellen / verfügbar 3-5 Tage ab Veröffentlichung",
         "incoming_stock": "Ab dem {{ next_incoming_date }} wieder auf Lager",
         "low_stock_with_quantity_count": {
           "one": "Nur noch {{count}} verfügbar",
