@@ -12,22 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_xWLDex": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/RobbieWilliams_BannerDesktop_2160x720_07e7f7b8-027c-4bec-8525-c275c7441651.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/better-man"
-          }
-        },
         "image_cbNher": {
           "type": "image",
           "settings": {
@@ -44,10 +28,10 @@
             "link": "shopify://collections/a-complete-unknown-original-motion-picture-soundtrack"
           }
         },
-        "image_DyKMAY": {
+        "image_xWLDex": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_10_1.jpg",
+            "image": "shopify://shop_images/RobbieWilliams_BannerDesktop_2160x720_07e7f7b8-027c-4bec-8525-c275c7441651.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -57,7 +41,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
+            "link": "shopify://collections/better-man"
           }
         },
         "image_D9CX6k": {
@@ -74,6 +58,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/mina-celentano"
+          }
+        },
+        "image_DyKMAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_10_1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
           }
         },
         "image_DaWh7w": {
@@ -172,23 +172,6 @@
             "link": "shopify://collections/luca-carboni"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gilmourb2b.png",
-            "mobile_image": "shopify://shop_images/gilmour_story.png",
-            "show_overlay": false,
-            "overlay_opacity": 5,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/david-gilmour"
-          }
-        },
         "image_a7atqp": {
           "type": "image",
           "settings": {
@@ -252,24 +235,41 @@
             "button_text": "",
             "link": "shopify://collections/ac-dc"
           }
+        },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gilmourb2b.png",
+            "mobile_image": "shopify://shop_images/gilmour_story.png",
+            "show_overlay": false,
+            "overlay_opacity": 5,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/david-gilmour"
+          }
         }
       },
       "block_order": [
-        "image_xWLDex",
         "image_cbNher",
-        "image_DyKMAY",
+        "image_xWLDex",
         "image_D9CX6k",
+        "image_DyKMAY",
         "image_DaWh7w",
         "image_ipRpLr",
         "image_8HkMrz",
         "image_JJQULe",
         "image_zzDWLM",
         "image_9hUM9T",
-        "image_XHmBAC",
         "image_a7atqp",
         "image_wiRjiq",
         "image_6YKHeW",
-        "image_9TUQjJ"
+        "image_9TUQjJ",
+        "image_XHmBAC"
       ],
       "settings": {
         "edge_to_edge": false,
