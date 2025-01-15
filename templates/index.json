@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-desktop-2160x720_2_1.png",
+            "mobile_image": "shopify://shop_images/banner-mobile-750x1100_1_1.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/jake-la-furia"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -222,23 +239,6 @@
             "link": "shopify://collections/fiorella-mannoia"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/massimopericolodesktop.png",
-            "mobile_image": "shopify://shop_images/massimopericolomobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/massimo-pericolo"
-          }
-        },
         "image_ctJtxk": {
           "type": "image",
           "settings": {
@@ -275,6 +275,7 @@
         }
       },
       "block_order": [
+        "image_XHmBAC",
         "image_QQwqrR",
         "image_3wJqzQ",
         "image_hhc4xB",
@@ -286,7 +287,6 @@
         "image_cd6H7W",
         "image_x98LVH",
         "image_7m99JY",
-        "image_XHmBAC",
         "image_ctJtxk",
         "image_NDBHHY"
       ],
