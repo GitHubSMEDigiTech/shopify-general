@@ -12,9 +12,24 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "featured_collection_3HfW74": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "thasup",
+        "title": "thasup",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": "shopify://collections/thasup"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_collection_3HfW74"
   ]
 }
