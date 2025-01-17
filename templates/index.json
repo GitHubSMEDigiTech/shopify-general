@@ -54,6 +54,50 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_kBcNcH": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/stif.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/sometimeinfebruarywheremountainshidejpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#f7faf6",
+            "title": "sometime in february",
+            "head_color": "#f7faf6",
+            "subtitle": "where mountains hide",
+            "subhead_color": "#8390a8",
+            "content": "Ltd. CD Digipak\nLtd. transp. light blue-lilac marbled LP",
+            "content_color": "#8390a8",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#8390a8",
+            "show_preorder": true,
+            "preorder_msg": "march 21",
+            "preorder_msg_color": "#f7faf6",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Sometime+In+February&sort_by=created-descending"
+          }
+        },
+        "banner_dn3tTB": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/tt_bf1e5b17-c31a-426d-885a-57994cf59bbb.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/tiktaalikagodsofpangaeajpg_7449ee77-7c59-4b64-853b-ce4c49b2ca21.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#574c93",
+            "title": "tiktaalika",
+            "head_color": "#e8b08c",
+            "subtitle": "gods of pangaea",
+            "subhead_color": "#e8b08c",
+            "content": "Ltd. CD Edition\nLtd. Gatefold transp. magenta LP",
+            "content_color": "#e8b08c",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#bb2d4a",
+            "show_preorder": true,
+            "preorder_msg": "march 14",
+            "preorder_msg_color": "#574c93",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Tiktaalika&sort_by=created-descending"
+          }
+        },
         "banner_RBLLXh": {
           "type": "banner",
           "settings": {
@@ -144,6 +188,7 @@
         },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IOM_Releases_1122_2160-720.jpg",
             "bg_color": "#eeeeee",
@@ -165,6 +210,8 @@
         }
       },
       "block_order": [
+        "banner_kBcNcH",
+        "banner_dn3tTB",
         "banner_RBLLXh",
         "banner_jxdmAi",
         "banner_K3RFig",
