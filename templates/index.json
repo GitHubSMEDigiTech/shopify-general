@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_JfeYgm": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/it.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/imperialtriumphantgoldstarjpg_a3ebe587-fe47-45e2-bdd9-9a6e2095c1db.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#1084b6",
+            "title": "imperial triumphant",
+            "head_color": "#1084b6",
+            "subtitle": "goldstar",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold creamy white LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#1084b6",
+            "show_preorder": true,
+            "preorder_msg": "march 21",
+            "preorder_msg_color": "#f7b002",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Imperial+Triumphant&sort_by=created-descending"
+          }
+        },
         "banner_zj7C4X": {
           "type": "banner",
           "settings": {
@@ -254,6 +276,7 @@
         },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/blowout.jpg",
             "bg_color": "#eeeeee",
@@ -276,6 +299,7 @@
         }
       },
       "block_order": [
+        "banner_JfeYgm",
         "banner_zj7C4X",
         "banner_UAPYBU",
         "banner_Eyhcpf",
