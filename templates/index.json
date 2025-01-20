@@ -33,6 +33,41 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop_.Def_1_1_1.jpg",
+            "mobile_image": "shopify://shop_images/Banner_Mobile_Def_1_1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/joan-thiele"
+          }
+        },
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_d8b616fa-aa8e-4a4c-9f01-9ac60aa1090b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_45b23e3d-6f08-46b5-8349-4fdf48455dcb.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/dani-faiv"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -82,24 +117,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/better-man-original-motion-picture-soundtrack"
-          }
-        },
-        "image_hhc4xB": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/thasupcatdesktop.png",
-            "mobile_image": "shopify://shop_images/thasupcat_f5eaf0b1-6e3f-48c9-a730-92cbe34a9841.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/thasup-mara-sattei"
           }
         },
         "image_eUhDX7": {
@@ -204,23 +221,6 @@
             "link": "shopify://collections/gianni-morandi"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ilvolodesktop.png",
-            "mobile_image": "shopify://shop_images/ilvolomobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/il-volo"
-          }
-        },
         "image_7m99JY": {
           "type": "image",
           "disabled": true,
@@ -275,17 +275,17 @@
         }
       },
       "block_order": [
+        "image_hhc4xB",
+        "image_x98LVH",
         "image_XHmBAC",
         "image_QQwqrR",
         "image_3wJqzQ",
-        "image_hhc4xB",
         "image_eUhDX7",
         "image_zLLxyF",
         "image_wfGmGy",
         "image_9kfgaA",
         "image_4rUz77",
         "image_cd6H7W",
-        "image_x98LVH",
         "image_7m99JY",
         "image_ctJtxk",
         "image_NDBHHY"
