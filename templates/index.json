@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_PnktfH": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/cal.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/calibanbackfromhelljpg_e8eb437e-c0f9-4a87-9fb1-784d53fed2fe.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#f7e2c7",
+            "title": "caliban",
+            "head_color": "#f7e2c7",
+            "subtitle": "back from hell",
+            "subhead_color": "#812123",
+            "content": "Ltd. CD Digipak & Branded Air Freshener\nblack LP\nLtd. creamy white LP\nLtd. olive green LP + Tote Bag + Autograph card",
+            "content_color": "#f7e2c7",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#f7e2c7",
+            "show_preorder": true,
+            "preorder_msg": "april 25",
+            "preorder_msg_color": "#812123",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Caliban&sort_by=created-descending"
+          }
+        },
         "banner_JfeYgm": {
           "type": "banner",
           "settings": {
@@ -120,28 +142,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Cryptosis&sort_by=created-descending"
           }
         },
-        "banner_Eyhcpf": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/DF.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/darkfortressanthemsfrombeyondthegravejpg_456588e1-7dcc-4f55-b848-235aefb63b79.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#d75a10",
-            "title": "dark fortress",
-            "head_color": "#ffffff",
-            "subtitle": "Anthems From Beyond The Grave - Live In Europe 2023",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold black 2LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#d75a10",
-            "show_preorder": true,
-            "preorder_msg": "january 17",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Dark+Fortress&sort_by=created-descending"
-          }
-        },
         "banner_FpDPzV": {
           "type": "banner",
           "settings": {
@@ -162,28 +162,6 @@
             "preorder_msg": "February 14",
             "preorder_msg_color": "#222021",
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Love%20Is%20Noise"
-          }
-        },
-        "banner_ytLRNJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Sarcator.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Sarcator_SwarmingAngels_Flies.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Sarcator",
-            "head_color": "#ffffff",
-            "subtitle": "Swarming Angels & Flies",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Jewelcase in O-Card\nblack LP\nLtd. lilac LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "January 17",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Sarcator"
           }
         },
         "banner_QREb8T": {
@@ -299,12 +277,11 @@
         }
       },
       "block_order": [
+        "banner_PnktfH",
         "banner_JfeYgm",
         "banner_zj7C4X",
         "banner_UAPYBU",
-        "banner_Eyhcpf",
         "banner_FpDPzV",
-        "banner_ytLRNJ",
         "banner_QREb8T",
         "banner_3Q3EXP",
         "banner_j6xHXw",
