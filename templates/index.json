@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop.jpg",
+            "mobile_image": "shopify://shop_images/Mobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/chi-e-nicola-felpieri-lp-black"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -169,23 +186,6 @@
             "link": "shopify://collections/diss-gacha"
           }
         },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_10.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_12.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pinguini-tattici-nucleari"
-          }
-        },
         "image_4rUz77": {
           "type": "image",
           "settings": {
@@ -274,6 +274,7 @@
         }
       },
       "block_order": [
+        "image_wfGmGy",
         "image_eUhDX7",
         "image_hhc4xB",
         "image_x98LVH",
@@ -282,7 +283,6 @@
         "image_9kfgaA",
         "image_3wJqzQ",
         "image_zLLxyF",
-        "image_wfGmGy",
         "image_4rUz77",
         "image_cd6H7W",
         "image_7m99JY",
