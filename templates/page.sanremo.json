@@ -12,9 +12,85 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "slideshow_7ynGEa": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Rac8ie": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Rac8ie"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "preserve_ratio",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
+    "rich_text_wWUVdy": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "Festival di Sanremo 2025",
+        "h_one": false,
+        "content": "<p>Il 75° Festival di Sanremo torna al teatro Ariston dal 11 al 15 febbraio 2025 con la conduzione di Carlo Conti. <br/>Sono 9 i Big di Sony Music per questa edizione: </p><p> Giorgia, con \"LA CURA PER ME\"<br/>Emis Killa, con \"DEMONI\"<br/>Gaia, con \"CHIAMO IO CHIAMI TU\"<br/>Olly, con \"BALORDA NOSTALGIA\"<br/>Rocco Hunt, con \"MILLE VOTE ANCORA\"<br/>Noemi, con \"SE T'INNAMORI MUORI\"<br/>Bresh, con \"LA TANA DEL GRANCHIO\"<br/>Francesca Michielin, con \"FANGO IN PARADISO\"<br/>Joan Thiele, con \"ECO\"</p><p></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "rich_text_iqCaFK": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "Gli ospiti del Festival di Sanremo 2025",
+        "h_one": false,
+        "content": "<p>Martedì 11 febbraio: Lorenzo Jovanotti<br/>Mercoledì 12 febbraio: Damiano David<br/>Premi alla carriera a Iva Zanicchi e Antonello Venditti</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_7ynGEa",
+    "rich_text_wWUVdy",
+    "rich_text_iqCaFK"
   ]
 }
