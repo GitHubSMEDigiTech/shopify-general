@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop.jpg",
+            "mobile_image": "shopify://shop_images/iSUCMobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/lirica-ucraina"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -152,23 +169,6 @@
             "link": "shopify://collections/shiva"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/RobbieWilliams_BannerDesktop_2160x720_876a4dc7-3d9a-444e-bf7f-b66c7c90d176.jpg",
-            "mobile_image": "shopify://shop_images/RobbieWilliams_BannerMobile_750x1100_574e3454-1f30-43ad-9bed-2bf12efec650.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/better-man-original-motion-picture-soundtrack"
-          }
-        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -274,6 +274,7 @@
         }
       },
       "block_order": [
+        "image_3wJqzQ",
         "image_wfGmGy",
         "image_eUhDX7",
         "image_hhc4xB",
@@ -281,7 +282,6 @@
         "image_XHmBAC",
         "image_QQwqrR",
         "image_9kfgaA",
-        "image_3wJqzQ",
         "image_zLLxyF",
         "image_4rUz77",
         "image_cd6H7W",
