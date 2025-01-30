@@ -12,10 +12,10 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_MUritm": {
+        "image_Pegefh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop.jpg",
+            "image": "shopify://shop_images/Banner_Desktop.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -25,7 +25,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://products/chi-e-nicola-felpieri-lp-black"
+            "link": "shopify://products/lirica-ucraina"
           }
         },
         "image_Cnzyja": {
@@ -42,6 +42,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/joan-thiele-joanita"
+          }
+        },
+        "image_MUritm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/chi-e-nicola-felpieri-lp-black"
           }
         },
         "image_cbNher": {
@@ -288,8 +304,9 @@
         }
       },
       "block_order": [
-        "image_MUritm",
+        "image_Pegefh",
         "image_Cnzyja",
+        "image_MUritm",
         "image_cbNher",
         "image_D9CX6k",
         "image_xWLDex",
