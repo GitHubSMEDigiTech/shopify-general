@@ -514,6 +514,22 @@
         "show_collection_title": true
       }
     },
+    "collection_with_image_d44Bni": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "sanremo-2025",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#c5161c",
+        "text_color": "#ffffff",
+        "title": "Sanremo 2025",
+        "content": "Scopri il Catalogo: Vinili e CD degli Artisti Sony Music",
+        "button_background": "#ffffff",
+        "button_text_color": "#ff0000",
+        "button_text": "Scopri",
+        "button_link": ""
+      }
+    },
     "featured_collection_Ln8Q76": {
       "type": "featured-collection",
       "settings": {
@@ -894,6 +910,7 @@
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_list_iikd3m",
+    "collection_with_image_d44Bni",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
