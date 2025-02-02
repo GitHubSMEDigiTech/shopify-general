@@ -195,6 +195,24 @@
             "button_text": "Entra",
             "button_link": "shopify://collections/canvass-4-aprile-2025"
           }
+        },
+        "item_iPg9i6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 70,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 25 Aprile 2025",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -207,7 +225,8 @@
         "item_jn6Lq6",
         "item_XegEGb",
         "item_YtxXXc",
-        "item_RcTWPt"
+        "item_RcTWPt",
+        "item_iPg9i6"
       ],
       "settings": {
         "expand_items": false,
