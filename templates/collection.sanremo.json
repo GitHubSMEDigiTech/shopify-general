@@ -11,17 +11,16 @@
   "sections": {
     "collection_with_image_nMMffk": {
       "type": "collection-with-image",
-      "disabled": true,
       "settings": {
-        "collection": "",
+        "collection": "novita-sanremo-2025",
         "products_count": 12,
         "show_quick_buy": false,
-        "background": "#AD141F",
+        "background": "#ad141f",
         "text_color": "#ffffff",
         "title": "Novità degli artisti in gara a Sanremo",
         "content": "CD e Vinili in uscita",
         "button_background": "#ffffff",
-        "button_text_color": "#AD141F",
+        "button_text_color": "#ad141f",
         "button_text": "Scopri",
         "button_link": ""
       }
