@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_2b178b83-9f81-4347-9836-9bcab8784428.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_760095b3-f39a-4c4a-9f35-9a29a4391465.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/noemi"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -99,23 +116,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/joan-thiele"
-          }
-        },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_d8b616fa-aa8e-4a4c-9f01-9ac60aa1090b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_45b23e3d-6f08-46b5-8349-4fdf48455dcb.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/dani-faiv"
           }
         },
         "image_XHmBAC": {
@@ -274,11 +274,11 @@
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_3wJqzQ",
         "image_wfGmGy",
         "image_eUhDX7",
         "image_hhc4xB",
-        "image_x98LVH",
         "image_XHmBAC",
         "image_QQwqrR",
         "image_9kfgaA",
