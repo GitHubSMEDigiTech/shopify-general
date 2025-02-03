@@ -9,6 +9,23 @@
  */
 {
   "sections": {
+    "collection_with_image_nMMffk": {
+      "type": "collection-with-image",
+      "disabled": true,
+      "settings": {
+        "collection": "",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#AD141F",
+        "text_color": "#ffffff",
+        "title": "Novità degli artisti in gara a Sanremo",
+        "content": "CD e Vinili in uscita",
+        "button_background": "#ffffff",
+        "button_text_color": "#AD141F",
+        "button_text": "Scopri",
+        "button_link": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -43,6 +60,7 @@
     }
   },
   "order": [
+    "collection_with_image_nMMffk",
     "main",
     "recently-viewed-products"
   ]
