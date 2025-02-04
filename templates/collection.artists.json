@@ -43,7 +43,7 @@
         "headline_deco_col": "#d82222",
         "products_per_row": "3",
         "default_products_per_page": 24,
-        "collection_pagination": "loading",
+        "collection_pagination": "pagination",
         "loading_button": "Load More",
         "default_view_layout": "grid",
         "show_quick_buy": "list",
