@@ -28,6 +28,38 @@
             "link": "shopify://collections/noemi-nostalgia"
           }
         },
+        "image_Cnzyja": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop_.Def_1.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 20,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/joan-thiele-joanita"
+          }
+        },
+        "image_9TUQjJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/acdcb2b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/ac-dc"
+          }
+        },
         "image_7WBgFd": {
           "type": "image",
           "settings": {
@@ -58,22 +90,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/lirica-ucraina"
-          }
-        },
-        "image_Cnzyja": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop_.Def_1.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/joan-thiele-joanita"
           }
         },
         "image_cbNher": {
@@ -239,11 +255,11 @@
             "link": "shopify://collections/daft-punk"
           }
         },
-        "image_9hUM9T": {
+        "image_wiRjiq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/lucacarbonib2b_1.png",
-            "show_overlay": false,
+            "image": "shopify://shop_images/battistib2b.png",
+            "show_overlay": true,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
@@ -252,7 +268,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/luca-carboni"
+            "link": "shopify://collections/lucio-battisti"
           }
         },
         "image_a7atqp": {
@@ -271,22 +287,6 @@
             "link": "shopify://collections/lucio-dalla"
           }
         },
-        "image_wiRjiq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/battistib2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/lucio-battisti"
-          }
-        },
         "image_6YKHeW": {
           "type": "image",
           "settings": {
@@ -303,10 +303,10 @@
             "link": "shopify://collections/fabrizio-de-andre"
           }
         },
-        "image_9TUQjJ": {
+        "image_9hUM9T": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/acdcb2b.jpg",
+            "image": "shopify://shop_images/lucacarbonib2b_1.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -316,7 +316,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/ac-dc"
+            "link": "shopify://collections/luca-carboni"
           }
         },
         "image_XHmBAC": {
@@ -339,9 +339,10 @@
       },
       "block_order": [
         "image_XmhDKG",
+        "image_Cnzyja",
+        "image_9TUQjJ",
         "image_7WBgFd",
         "image_Pegefh",
-        "image_Cnzyja",
         "image_cbNher",
         "image_MUritm",
         "image_D9CX6k",
@@ -352,11 +353,10 @@
         "image_8HkMrz",
         "image_JJQULe",
         "image_zzDWLM",
-        "image_9hUM9T",
-        "image_a7atqp",
         "image_wiRjiq",
+        "image_a7atqp",
         "image_6YKHeW",
-        "image_9TUQjJ",
+        "image_9hUM9T",
         "image_XHmBAC"
       ],
       "settings": {
