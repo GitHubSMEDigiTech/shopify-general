@@ -138,8 +138,8 @@
         "image_QQwqrR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BobDylan_BannerDesktop_2160x720_V2.jpg",
-            "mobile_image": "shopify://shop_images/BobDylan_BannerMobile_750x1100_V2.jpg",
+            "image": "shopify://shop_images/2160x720_a9c5a250-a055-4250-b0c0-f0a2c80e968a.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2beab542-7a7b-46de-98d8-14ab346e45cb.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -149,7 +149,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/timothee-chalamet"
+            "link": "shopify://collections/bob-dylan"
           }
         },
         "image_9kfgaA": {
