@@ -300,119 +300,6 @@
         "cycle_speed": 5
       }
     },
-    "image_banner_CyfkAN": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_4GGDRD": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Natale 2024</strong>",
-            "heading_size": "h1",
-            "text_color": "#000000"
-          }
-        },
-        "text_VwRfqT": {
-          "type": "text",
-          "settings": {
-            "text": "Per questo <strong>Natale </strong>regalati della buona musica! Abbiamo selezionato alcuni dei nostri più importanti titoli che puoi acquistare con uno <strong>sconto speciale del 20%</strong> da applicare al check out.",
-            "text_style": "body",
-            "text_color": "#000000"
-          }
-        },
-        "buttons_6YCnjp": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "PROMO NATALE",
-            "button_link_1": "shopify://pages/natale",
-            "button_style_secondary_1": false,
-            "button_label_2": "Classici di Natale",
-            "button_link_2": "shopify://collections/natale-cd-e-vinili",
-            "button_style_secondary_2": false,
-            "text_color": "#ffffff",
-            "bg_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4GGDRD",
-        "text_VwRfqT",
-        "buttons_6YCnjp"
-      ],
-      "disabled": true,
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "image": "shopify://shop_images/natale1mobile.png",
-        "image_overlay_opacity": 20,
-        "bg_color": "#ffffff",
-        "bg_overlay_opacity": 70,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_mA9Xxr": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "narrow",
-        "title": "Spedizioni durante le festività",
-        "h_one": false,
-        "content": "<p>Durante le festività non sono assicurate le consegne nei giorni 24 dicembre, 25 dicembre, 26 dicembre, 31 dicembre e 1 gennaio. <br/><strong>Ultima spedizione</strong> per le consegne prima di Natale: 22/12</p>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "slideshow_KUj7zP": {
-      "type": "slideshow",
-      "blocks": {
-        "image_NfURDh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/natale1_7b40e433-e2ba-4180-8b24-1dd7288f0236.png",
-            "mobile_image": "shopify://shop_images/natale1mobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/natale-cd-e-vinili"
-          }
-        }
-      },
-      "block_order": [
-        "image_NfURDh"
-      ],
-      "disabled": true,
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "small",
-        "mobile_section_size": "mobile_large",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "show_arrows": false,
-        "show_dots": false,
-        "cycle_speed": 5
-      }
-    },
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
       "blocks": {
@@ -516,6 +403,7 @@
     },
     "collection_with_image_d44Bni": {
       "type": "collection-with-image",
+      "disabled": true,
       "settings": {
         "collection": "sanremo-2025",
         "products_count": 12,
@@ -542,6 +430,41 @@
         "show_quick_inventory": false,
         "link_title": "",
         "link_url": ""
+      }
+    },
+    "slideshow_HhpkAx": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wMdUHe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_2c6beb50-d1f2-49e0-8626-cd0113406436.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_685760d5-e7a9-473f-8a99-743e8c9cc78d.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "top_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Scopri",
+            "link": "shopify://collections/sanremo-2025"
+          }
+        }
+      },
+      "block_order": [
+        "image_wMdUHe"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "medium",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
       }
     },
     "collection_with_image_6MRFYn": {
@@ -585,7 +508,7 @@
         "content": "<p>Le più belle colonne sonore in CD e Vinile</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
-        "bg_color": "#ff0000",
+        "bg_color": "#c5161c",
         "text_color": "#ffffff",
         "bt_bg_color": "#ffffff",
         "bt_text_color": "#000000",
@@ -904,14 +827,12 @@
   "order": [
     "rich_text_Yjrb3a",
     "slideshow_dwDbqU",
-    "image_banner_CyfkAN",
-    "rich_text_mA9Xxr",
-    "slideshow_KUj7zP",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_list_iikd3m",
     "collection_with_image_d44Bni",
     "featured_collection_Ln8Q76",
+    "slideshow_HhpkAx",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
     "rich_text_Y66cji",
