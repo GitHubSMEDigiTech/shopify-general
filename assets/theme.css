@@ -2767,6 +2767,11 @@ img.lazyload[data-sizes=auto] {
   max-width: 740px;
   margin-left: auto;
   display: flex;
+
+  background-size: 40% auto;
+  background-attachment: fixed;
+  background-position: 10% center;
+  background-repeat: no-repeat;
 }
 
 .collection__image--scrolling {

@@ -40,16 +40,13 @@
 
 <section data-section-id="{{ section.id }}" data-section-type="collection" data-section-settings='{{ section_settings }}'>
   <div class="collection-alternative-one">
-    <div class="collection__image--container">
-      {%- if collection.all_products_count > 0 -%}
-               
-        {%- assign col_name = collection.title | append: ' '   -%}
-        {%- assign alt_default = col_name | append: shop.name   -%}
-        
-        {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900', image: collection.image -%}{%- endcapture -%}
-        {%- assign image_url = collection.image | image_url: width: 900 -%}
-        <img class="lazyload image--fade-in collection__image--scrolling" data-media-id="{{ collection.image.id }}" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ alt_default | escape }}">
-      {%- endif -%}
+    {%- assign col_name = collection.title | append: ' '   -%}
+    {%- assign alt_default = col_name | append: shop.name   -%}
+    
+    {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900', image: collection.image -%}{%- endcapture -%}
+    {%- assign image_url = collection.image | image_url: width: 900 -%}
+    <div class="collection__image--container" {%- if collection.all_products_count > 0 -%}style="background-image: url({{ image_url }})"{%- endif -%}>
+      
     </div>
     <div class="collection--container">
 
@@ -524,7 +521,7 @@ window.addEventListener('load', function() {
 
   var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-  if(screenWidth > 640) {
+  /*if(screenWidth > 640) {
     window.onscroll = function () {
       let scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
       let rightHeight = right.offsetHeight;
@@ -537,7 +534,7 @@ window.addEventListener('load', function() {
     }
   } else {
     left.classList.remove(scrollClass)
-  }
+  }*/
 
 });
 </script>
