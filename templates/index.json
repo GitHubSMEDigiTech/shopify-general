@@ -318,7 +318,7 @@
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Scopri",
+            "button_text": "",
             "button_link": "shopify://pages/festa-della-musica"
           }
         }
@@ -448,7 +448,7 @@
             "content_position": "top_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Scopri",
+            "button_text": "",
             "link": "shopify://collections/sanremo-2025"
           }
         }
