@@ -241,8 +241,8 @@
         "image_ctJtxk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/minacelentanodesktop.png",
-            "mobile_image": "shopify://shop_images/paperii_1.png",
+            "image": "shopify://shop_images/acdcb2b_1.jpg",
+            "mobile_image": "shopify://shop_images/ACDCMobile_e3e73180-5f15-406e-b0a1-3728cab3edae.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -252,7 +252,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/minacelentano"
+            "link": "shopify://collections/ac-dc"
           }
         },
         "image_NDBHHY": {
