@@ -44,11 +44,11 @@
             "link": "shopify://collections/joan-thiele-joanita"
           }
         },
-        "image_9TUQjJ": {
+        "image_wiRjiq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/acdcb2b.jpg",
-            "show_overlay": false,
+            "image": "shopify://shop_images/battistib2b.png",
+            "show_overlay": true,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
@@ -57,7 +57,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/ac-dc"
+            "link": "shopify://collections/lucio-battisti"
           }
         },
         "image_7WBgFd": {
@@ -76,22 +76,6 @@
             "link": "shopify://collections/bob-dylan"
           }
         },
-        "image_Pegefh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/lirica-ucraina"
-          }
-        },
         "image_cbNher": {
           "type": "image",
           "settings": {
@@ -108,6 +92,38 @@
             "link": "shopify://collections/a-complete-unknown-original-motion-picture-soundtrack"
           }
         },
+        "image_Pegefh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/lirica-ucraina"
+          }
+        },
+        "image_9TUQjJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/acdcb2b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/ac-dc"
+          }
+        },
         "image_MUritm": {
           "type": "image",
           "settings": {
@@ -122,22 +138,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/chi-e-nicola-felpieri-lp-black"
-          }
-        },
-        "image_D9CX6k": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Minacelentanob2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mina-celentano"
           }
         },
         "image_xWLDex": {
@@ -171,6 +171,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
+          }
+        },
+        "image_D9CX6k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Minacelentanob2b.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mina-celentano"
           }
         },
         "image_DaWh7w": {
@@ -255,22 +271,6 @@
             "link": "shopify://collections/daft-punk"
           }
         },
-        "image_wiRjiq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/battistib2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/lucio-battisti"
-          }
-        },
         "image_a7atqp": {
           "type": "image",
           "settings": {
@@ -340,20 +340,20 @@
       "block_order": [
         "image_XmhDKG",
         "image_Cnzyja",
-        "image_9TUQjJ",
+        "image_wiRjiq",
         "image_7WBgFd",
-        "image_Pegefh",
         "image_cbNher",
+        "image_Pegefh",
+        "image_9TUQjJ",
         "image_MUritm",
-        "image_D9CX6k",
         "image_xWLDex",
         "image_DyKMAY",
+        "image_D9CX6k",
         "image_DaWh7w",
         "image_ipRpLr",
         "image_8HkMrz",
         "image_JJQULe",
         "image_zzDWLM",
-        "image_wiRjiq",
         "image_a7atqp",
         "image_6YKHeW",
         "image_9hUM9T",
