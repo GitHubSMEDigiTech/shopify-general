@@ -497,6 +497,61 @@
         "link_url": ""
       }
     },
+    "image_banner_zGEwKR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_K9qy4m": {
+          "type": "heading",
+          "settings": {
+            "heading": "LUCIO DALLA & LUCIO BATTISTI",
+            "heading_size": "h1",
+            "text_color": "#000000"
+          }
+        },
+        "text_QbhGMx": {
+          "type": "text",
+          "settings": {
+            "text": "I più grandi capolavori della musica italiana in edizione speciale",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_9jdr7C": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Lucio Battisti",
+            "button_link_1": "shopify://collections/lucio-battisti",
+            "button_style_secondary_1": false,
+            "button_label_2": "Lucio Dalla",
+            "button_link_2": "shopify://collections/lucio-dalla",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K9qy4m",
+        "text_QbhGMx",
+        "buttons_9jdr7C"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify://shop_images/dallaebattisti.png",
+        "image_overlay_opacity": 20,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 80,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_Y66cji": {
       "type": "rich-text",
       "settings": {
@@ -726,7 +781,7 @@
       "type": "image-with-text-overlay",
       "disabled": true,
       "settings": {
-        "title": "Banner with text and CTA",
+        "title": "",
         "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
         "show_image_overlay": false,
         "color": "#ffffff"
@@ -835,6 +890,7 @@
     "slideshow_HhpkAx",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
+    "image_banner_zGEwKR",
     "rich_text_Y66cji",
     "mosaic_gB4niq",
     "promotion_list_wAJLbg",
