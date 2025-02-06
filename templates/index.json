@@ -321,6 +321,7 @@
         },
         "image_XHmBAC": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/gilmourb2b.png",
             "mobile_image": "shopify://shop_images/gilmour_story.png",
