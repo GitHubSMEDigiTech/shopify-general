@@ -67,6 +67,40 @@
             "link": "shopify://collections/noemi"
           }
         },
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop_.Def_1_1_1.jpg",
+            "mobile_image": "shopify://shop_images/Banner_Mobile_Def_1_1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/joan-thiele"
+          }
+        },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_53ac0b3a-921e-4b6c-a26d-2083be062887.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_10add4cb-b132-4f90-a2b5-15d3a1d6a9f1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -99,40 +133,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/chi-e-nicola-felpieri-lp-black"
-          }
-        },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_53ac0b3a-921e-4b6c-a26d-2083be062887.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_10add4cb-b132-4f90-a2b5-15d3a1d6a9f1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt"
-          }
-        },
-        "image_hhc4xB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop_.Def_1_1_1.jpg",
-            "mobile_image": "shopify://shop_images/Banner_Mobile_Def_1_1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/joan-thiele"
           }
         },
         "image_XHmBAC": {
@@ -276,10 +276,10 @@
       "block_order": [
         "image_zLLxyF",
         "image_x98LVH",
+        "image_hhc4xB",
+        "image_eUhDX7",
         "image_3wJqzQ",
         "image_wfGmGy",
-        "image_eUhDX7",
-        "image_hhc4xB",
         "image_XHmBAC",
         "image_QQwqrR",
         "image_9kfgaA",
