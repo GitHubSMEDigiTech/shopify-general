@@ -60,7 +60,7 @@
             "image": "shopify://shop_images/Benthos.png",
             "bg_color": "#eeeeee",
             "cover_image": "shopify://shop_images/Benthos_FromNothing.jpg",
-            "cover_effect": "none",
+            "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Benthos",
             "head_color": "#ffffff",
