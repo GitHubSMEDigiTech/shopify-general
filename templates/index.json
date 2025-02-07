@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_VMBqgY": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Lorna.png",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/LornaShore_FleshCoffin.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#000000",
+            "title": "Lorna Shore",
+            "head_color": "#cf0e0e",
+            "subtitle": "Flesh Coffin (Re-issue 2025)",
+            "subhead_color": "#cf0e0e",
+            "content": "black LP",
+            "content_color": "#cf0e0e",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "March 14",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Lorna+Shore&sort_by=created-descending"
+          }
+        },
         "banner_PnktfH": {
           "type": "banner",
           "settings": {
@@ -277,6 +299,7 @@
         }
       },
       "block_order": [
+        "banner_VMBqgY",
         "banner_PnktfH",
         "banner_JfeYgm",
         "banner_zj7C4X",
