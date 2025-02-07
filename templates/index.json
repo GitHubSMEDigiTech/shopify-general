@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_ELe4Dh": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Benthos.png",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Benthos_FromNothing.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Benthos",
+            "head_color": "#ffffff",
+            "subtitle": "From Nothing",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nLtd. clear-black marbled LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 11",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Benthos"
+          }
+        },
         "banner_kBcNcH": {
           "type": "banner",
           "settings": {
@@ -210,6 +232,7 @@
         }
       },
       "block_order": [
+        "banner_ELe4Dh",
         "banner_kBcNcH",
         "banner_dn3tTB",
         "banner_RBLLXh",
