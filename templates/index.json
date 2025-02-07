@@ -273,6 +273,7 @@
         },
         "image_a7atqp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/luciodallab2b_b73b361e-80fa-4da5-bbcb-615a1fedb03c.png",
             "show_overlay": false,
@@ -289,6 +290,7 @@
         },
         "image_6YKHeW": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/deandrebannerb2b.jpg",
             "show_overlay": false,
@@ -305,6 +307,7 @@
         },
         "image_9hUM9T": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/lucacarbonib2b_1.png",
             "show_overlay": false,
