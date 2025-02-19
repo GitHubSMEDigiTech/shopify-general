@@ -432,6 +432,36 @@
         "link_url": ""
       }
     },
+    "collection_with_image_6MRFYn": {
+      "type": "collection-with-image",
+      "settings": {
+        "collection": "esclusive",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#c5161c",
+        "text_color": "#ffffff",
+        "title": "ESCLUSIVE",
+        "content": "Scopri tutti i prodotti disponibili in esclusiva su Sony Music Store",
+        "button_background": "#ffffff",
+        "button_text_color": "#ad141f",
+        "button_text": "Scopri",
+        "button_link": "shopify://collections/esclusive"
+      }
+    },
+    "featured_collection_chRPbA": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "in-esaurimento",
+        "title": "CD e Vinili in esaurimento",
+        "products_count": 20,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": true,
+        "link_title": "Vedi tutti",
+        "link_url": ""
+      }
+    },
     "slideshow_HhpkAx": {
       "type": "slideshow",
       "blocks": {
@@ -465,36 +495,6 @@
         "show_arrows": false,
         "show_dots": false,
         "cycle_speed": 5
-      }
-    },
-    "collection_with_image_6MRFYn": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "esclusive",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#c5161c",
-        "text_color": "#ffffff",
-        "title": "ESCLUSIVE",
-        "content": "Scopri tutti i prodotti disponibili in esclusiva su Sony Music Store",
-        "button_background": "#ffffff",
-        "button_text_color": "#ad141f",
-        "button_text": "Scopri",
-        "button_link": "shopify://collections/esclusive"
-      }
-    },
-    "featured_collection_chRPbA": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "in-esaurimento",
-        "title": "CD e Vinili in esaurimento",
-        "products_count": 20,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": true,
-        "link_title": "Vedi tutti",
-        "link_url": ""
       }
     },
     "image_banner_zGEwKR": {
@@ -887,10 +887,10 @@
     "collection_list_iikd3m",
     "collection_with_image_d44Bni",
     "featured_collection_Ln8Q76",
-    "slideshow_HhpkAx",
+    "image_banner_zGEwKR",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
-    "image_banner_zGEwKR",
+    "slideshow_HhpkAx",
     "rich_text_Y66cji",
     "mosaic_gB4niq",
     "promotion_list_wAJLbg",
