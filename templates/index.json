@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_z7LYfY": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/01.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/cosmiccathedraldeepwaterjpg_77064124-5146-4ed9-8a60-a50076b2ec1e.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#000000",
+            "title": "cosmic cathedral",
+            "head_color": "#e4ce93",
+            "subtitle": "deep water",
+            "subhead_color": "#e4ce93",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold transp. green 2LP",
+            "content_color": "#e4ce93",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 25",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Cosmic+Cathedral&sort_by=created-descending"
+          }
+        },
         "banner_ELe4Dh": {
           "type": "banner",
           "settings": {
@@ -142,50 +164,6 @@
             "link": "https://www.insideoutshop.de/de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
           }
         },
-        "banner_jxdmAi": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/RS.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/riversideliveid3lpcoverartworkjpg_f999d81f-0d98-41d8-9b41-0ab1bd16ad58.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#cbacc1",
-            "title": "riverside",
-            "head_color": "#ffffff",
-            "subtitle": "Live ID.",
-            "subhead_color": "#cbacc1",
-            "content": "Ltd. 2CD+Blu-ray Digipak\nGatefold black 3LP & LP-Booklet\nLtd. Gatefold blue 3LP & LP-Booklet",
-            "content_color": "#cbacc1",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#272c5e",
-            "show_preorder": true,
-            "preorder_msg": "january 24",
-            "preorder_msg_color": "#ffffff",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Riverside&sort_by=created-descending"
-          }
-        },
-        "banner_K3RFig": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/SH_31efb1a5-918e-432c-8696-b1ca5f5871c4.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/stevehackettlivemagicattradingboundariesjpg_0f690b82-58ae-4175-b6e8-72dd8534bced.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#00add0",
-            "title": "steve hackett",
-            "head_color": "#000000",
-            "subtitle": "Live Magic At Trading Boundaries",
-            "subhead_color": "#000000",
-            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold lilac 2LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "january 17",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
         "banner_tixkB8": {
           "type": "banner",
           "settings": {
@@ -232,12 +210,11 @@
         }
       },
       "block_order": [
+        "banner_z7LYfY",
         "banner_ELe4Dh",
         "banner_kBcNcH",
         "banner_dn3tTB",
         "banner_RBLLXh",
-        "banner_jxdmAi",
-        "banner_K3RFig",
         "banner_tixkB8",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
