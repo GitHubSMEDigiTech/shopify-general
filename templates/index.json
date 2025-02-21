@@ -164,28 +164,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Cryptosis&sort_by=created-descending"
           }
         },
-        "banner_FpDPzV": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/LoveIsNoise_ToLiveInADifferentWay_Banner.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/loveisnoisetoliveinadifferentwayjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Love Is Noise",
-            "head_color": "#eaf935",
-            "subtitle": "To live in a different way",
-            "subhead_color": "#eaf935",
-            "content": "Ltd. CD Edition\nLtd. neon yellow LP",
-            "content_color": "#eaf935",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "February 14",
-            "preorder_msg_color": "#222021",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Love%20Is%20Noise"
-          }
-        },
         "banner_QREb8T": {
           "type": "banner",
           "settings": {
@@ -228,28 +206,6 @@
             "preorder_msg": "February 28",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
-        },
-        "banner_j6xHXw": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/LC.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/lacunacoilsleeplessempirejpg_93acc69f-b350-4e3e-b89f-1e5650ee5979.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#787878",
-            "title": "lacuna coil",
-            "head_color": "#787878",
-            "subtitle": "sleepless empire",
-            "subhead_color": "#787878",
-            "content": "Ltd. Deluxe CD Box Set \nLtd. CD Digipak\nblack LP & LP-Booklet\nLtd. white LP & LP-Booklet\nLtd. Sparkle Rainbow LP & LP-Booklet",
-            "content_color": "#787878",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "february 14",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Lacuna+Coil&sort_by=created-descending"
           }
         },
         "banner_pNETXX": {
@@ -304,10 +260,8 @@
         "banner_JfeYgm",
         "banner_zj7C4X",
         "banner_UAPYBU",
-        "banner_FpDPzV",
         "banner_QREb8T",
         "banner_3Q3EXP",
-        "banner_j6xHXw",
         "banner_pNETXX",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
