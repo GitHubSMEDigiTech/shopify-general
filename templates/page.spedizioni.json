@@ -80,6 +80,7 @@
         },
         "question_6XRaJJ": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "title": "Posso pagare con 18app e Carta Cultura?",
             "answer": "<p>Puoi acquistare con Carta Cultura i prodotti non in preorder e con un limite di un'unità per prodotto</p>"
