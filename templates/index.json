@@ -101,6 +101,23 @@
             "link": "shopify://collections/joan-thiele"
           }
         },
+        "image_NDBHHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LISA_ALTER_EGO_BannerDesktop_2160x720_5d1eb368-3cf0-4b2d-bacf-d59598f73e90.jpg",
+            "mobile_image": "shopify://shop_images/LISA_ALTER_EGO_BannerMobile_750x1100_433a691e-4280-41d2-8c39-e930c79a9d8a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/lisa"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -204,23 +221,6 @@
             "link": "shopify://collections/shiva"
           }
         },
-        "image_4rUz77": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/rocco_1.png",
-            "mobile_image": "shopify://shop_images/roccocate_1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rocco-hunt"
-          }
-        },
         "image_cd6H7W": {
           "type": "image",
           "settings": {
@@ -237,40 +237,6 @@
             "button_text": "",
             "link": "shopify://collections/gianni-morandi"
           }
-        },
-        "image_ctJtxk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/acdcb2b_1.jpg",
-            "mobile_image": "shopify://shop_images/ACDCMobile_e3e73180-5f15-406e-b0a1-3728cab3edae.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/ac-dc"
-          }
-        },
-        "image_NDBHHY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LISA_ALTER_EGO_BannerDesktop_2160x720_5d1eb368-3cf0-4b2d-bacf-d59598f73e90.jpg",
-            "mobile_image": "shopify://shop_images/LISA_ALTER_EGO_BannerMobile_750x1100_433a691e-4280-41d2-8c39-e930c79a9d8a.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/lisa"
-          }
         }
       },
       "block_order": [
@@ -278,16 +244,14 @@
         "image_zLLxyF",
         "image_x98LVH",
         "image_hhc4xB",
+        "image_NDBHHY",
         "image_eUhDX7",
         "image_3wJqzQ",
         "image_wfGmGy",
         "image_XHmBAC",
         "image_QQwqrR",
         "image_9kfgaA",
-        "image_4rUz77",
-        "image_cd6H7W",
-        "image_ctJtxk",
-        "image_NDBHHY"
+        "image_cd6H7W"
       ],
       "settings": {
         "edge_to_edge": false,
@@ -432,6 +396,61 @@
         "link_url": ""
       }
     },
+    "image_banner_zGEwKR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_K9qy4m": {
+          "type": "heading",
+          "settings": {
+            "heading": "LUCIO DALLA & LUCIO BATTISTI",
+            "heading_size": "h1",
+            "text_color": "#000000"
+          }
+        },
+        "text_QbhGMx": {
+          "type": "text",
+          "settings": {
+            "text": "I più grandi capolavori della musica italiana in edizione speciale",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_9jdr7C": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Lucio Battisti",
+            "button_link_1": "shopify://collections/lucio-battisti",
+            "button_style_secondary_1": false,
+            "button_label_2": "Lucio Dalla",
+            "button_link_2": "shopify://collections/lucio-dalla",
+            "button_style_secondary_2": false,
+            "text_color": "#ffffff",
+            "bg_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K9qy4m",
+        "text_QbhGMx",
+        "buttons_9jdr7C"
+      ],
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify://shop_images/dallaebattisti.png",
+        "image_overlay_opacity": 20,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 80,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "collection_with_image_6MRFYn": {
       "type": "collection-with-image",
       "settings": {
@@ -495,61 +514,6 @@
         "show_arrows": false,
         "show_dots": false,
         "cycle_speed": 5
-      }
-    },
-    "image_banner_zGEwKR": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_K9qy4m": {
-          "type": "heading",
-          "settings": {
-            "heading": "LUCIO DALLA & LUCIO BATTISTI",
-            "heading_size": "h1",
-            "text_color": "#000000"
-          }
-        },
-        "text_QbhGMx": {
-          "type": "text",
-          "settings": {
-            "text": "I più grandi capolavori della musica italiana in edizione speciale",
-            "text_style": "body",
-            "text_color": "#000000"
-          }
-        },
-        "buttons_9jdr7C": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Lucio Battisti",
-            "button_link_1": "shopify://collections/lucio-battisti",
-            "button_style_secondary_1": false,
-            "button_label_2": "Lucio Dalla",
-            "button_link_2": "shopify://collections/lucio-dalla",
-            "button_style_secondary_2": false,
-            "text_color": "#ffffff",
-            "bg_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_K9qy4m",
-        "text_QbhGMx",
-        "buttons_9jdr7C"
-      ],
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "image": "shopify://shop_images/dallaebattisti.png",
-        "image_overlay_opacity": 20,
-        "bg_color": "#ffffff",
-        "bg_overlay_opacity": 80,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "rich_text_Y66cji": {
