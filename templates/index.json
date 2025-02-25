@@ -499,124 +499,18 @@
         "cycle_speed": 5
       }
     },
-    "rich_text_Y66cji": {
-      "type": "rich-text",
+    "featured_collection_4VmJid": {
+      "type": "featured-collection",
       "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "narrow",
-        "title": "COLONNE SONORE",
-        "h_one": true,
-        "content": "<p>Le più belle colonne sonore in CD e Vinile</p>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#c5161c",
-        "text_color": "#ffffff",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "mosaic_gB4niq": {
-      "type": "mosaic",
-      "blocks": {
-        "item_RRXFpX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/7833075_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 0,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/colonne-sonore"
-          }
-        },
-        "item_k3Fqdc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/ghostbuster.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/colonne-sonore"
-          }
-        },
-        "item_q7Cb4c": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/12259726_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/colonne-sonore"
-          }
-        },
-        "item_GqqeM4": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/animalifantastici.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/colonne-sonore"
-          }
-        },
-        "item_q8PziY": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/14074443_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#4f5558",
-            "title": "",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/colonne-sonore"
-          }
-        }
-      },
-      "block_order": [
-        "item_RRXFpX",
-        "item_k3Fqdc",
-        "item_q7Cb4c",
-        "item_GqqeM4",
-        "item_q8PziY"
-      ],
-      "settings": {
-        "section_size": "medium"
+        "collection": "colonne-sonore",
+        "title": "Colonne Sonore: le più belle colonne sonore in CD e Vinile",
+        "products_count": 30,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "Vedi tutti",
+        "link_url": ""
       }
     },
     "promotion_list_wAJLbg": {
@@ -838,8 +732,7 @@
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
     "slideshow_HhpkAx",
-    "rich_text_Y66cji",
-    "mosaic_gB4niq",
+    "featured_collection_4VmJid",
     "promotion_list_wAJLbg",
     "image_banner_99fc7c",
     "image_with_text_overlay_3x3d9h",
