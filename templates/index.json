@@ -142,6 +142,7 @@
         },
         "image_9TUQjJ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/acdcb2b.jpg",
             "show_overlay": false,
