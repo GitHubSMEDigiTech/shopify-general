@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_Yk6J4R": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Love.png",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/TheFlowerKings_LOVE.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "The Flower Kings",
+            "head_color": "#ffffff",
+            "subtitle": "LOVE",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold neon orange 2LP\nLtd. Gatefold transp. light blue 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "May 2",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/de/collections/vendors?q=The+Flower+Kings&sort_by=created-descending"
+          }
+        },
         "banner_z7LYfY": {
           "type": "banner",
           "settings": {
@@ -210,6 +232,7 @@
         }
       },
       "block_order": [
+        "banner_Yk6J4R",
         "banner_z7LYfY",
         "banner_ELe4Dh",
         "banner_kBcNcH",
