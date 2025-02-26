@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_LzEQrJ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/TripMelana.png",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Triptykon_MelanaChasmata_Reissue_2025.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Triptykon",
+            "head_color": "#ffffff",
+            "subtitle": "Melana Chasmata (Re-issue 2025)",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Gatefold deep blood red 2LP & LP-Booklet & 2xPoster\nLtd. Gatefold blue 2LP & LP-Booklet & 2xPoster",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_VMBqgY": {
           "type": "banner",
           "settings": {
@@ -255,6 +277,7 @@
         }
       },
       "block_order": [
+        "banner_LzEQrJ",
         "banner_VMBqgY",
         "banner_PnktfH",
         "banner_JfeYgm",
