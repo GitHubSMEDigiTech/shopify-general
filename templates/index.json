@@ -56,6 +56,7 @@
       "blocks": {
         "banner_Yk6J4R": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Love.png",
             "bg_color": "#eeeeee",
@@ -208,6 +209,28 @@
             "link": "https://www.insideoutshop.de/collections/vendors?q=Dream+Theater&sort_by=created-descending"
           }
         },
+        "banner_UdUdax": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Haken.png",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Haken_LiveformsFaunaLiveInLondon_Vinyl.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Haken",
+            "head_color": "#ffffff",
+            "subtitle": "Liveforms: Fauna Live In London",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. 3CD+Blu-ray Digipak in Slipcase\nGatefold black 2LP\nLtd. Gatefold transp. orange 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "May 9",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "disabled": true,
@@ -239,6 +262,7 @@
         "banner_dn3tTB",
         "banner_RBLLXh",
         "banner_tixkB8",
+        "banner_UdUdax",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
