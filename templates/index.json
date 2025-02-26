@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_9kfgaA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_f3a721d1-6770-44f8-af49-ced8da0c2431.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ef8256a4-e8b8-41db-9cdd-0af42a224166.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/pink-floyd"
+          }
+        },
         "image_7m99JY": {
           "type": "image",
           "settings": {
@@ -202,26 +219,10 @@
             "button_text": "",
             "link": "shopify://collections/bob-dylan"
           }
-        },
-        "image_9kfgaA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/orizz_1.png",
-            "mobile_image": "shopify://shop_images/vert_2.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/shiva"
-          }
         }
       },
       "block_order": [
+        "image_9kfgaA",
         "image_7m99JY",
         "image_zLLxyF",
         "image_x98LVH",
@@ -231,8 +232,7 @@
         "image_eUhDX7",
         "image_3wJqzQ",
         "image_wfGmGy",
-        "image_QQwqrR",
-        "image_9kfgaA"
+        "image_QQwqrR"
       ],
       "settings": {
         "edge_to_edge": false,
