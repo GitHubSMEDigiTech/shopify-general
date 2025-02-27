@@ -92,22 +92,6 @@
             "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
           }
         },
-        "image_Cnzyja": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop_.Def_1.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/joan-thiele-joanita"
-          }
-        },
         "image_jntpdb": {
           "type": "image",
           "settings": {
@@ -170,6 +154,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/a-complete-unknown-original-motion-picture-soundtrack"
+          }
+        },
+        "image_Cnzyja": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Banner_Desktop_.Def_1.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 20,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/joan-thiele-joanita"
           }
         },
         "image_9TUQjJ": {
@@ -281,11 +282,11 @@
         "image_gXpadj",
         "image_XyQFhb",
         "image_DyKMAY",
-        "image_Cnzyja",
         "image_jntpdb",
         "image_MUritm",
         "image_7WBgFd",
         "image_cbNher",
+        "image_Cnzyja",
         "image_9TUQjJ",
         "image_a7atqp",
         "image_D9CX6k",
