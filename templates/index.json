@@ -60,6 +60,22 @@
             "link": "shopify://collections/gaia-rosa-dei-venti"
           }
         },
+        "image_XyQFhb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BERSANI_preoorder_2160x720_1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/samuele-bersani-orchestra-live"
+          }
+        },
         "image_DyKMAY": {
           "type": "image",
           "settings": {
@@ -263,6 +279,7 @@
         "image_BtCDQf",
         "image_XmhDKG",
         "image_gXpadj",
+        "image_XyQFhb",
         "image_DyKMAY",
         "image_Cnzyja",
         "image_jntpdb",
