@@ -154,6 +154,7 @@
         },
         "image_3wJqzQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Banner_Desktop.jpg",
             "mobile_image": "shopify://shop_images/iSUCMobile.png",
