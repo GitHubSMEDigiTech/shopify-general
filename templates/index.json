@@ -142,6 +142,7 @@
         },
         "image_7WBgFd": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_8.jpg",
             "show_overlay": false,
@@ -154,39 +155,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/bob-dylan"
-          }
-        },
-        "image_cbNher": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bobdylanb2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/a-complete-unknown-original-motion-picture-soundtrack"
-          }
-        },
-        "image_Cnzyja": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop_.Def_1.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/joan-thiele-joanita"
           }
         },
         "image_9TUQjJ": {
@@ -223,23 +191,6 @@
             "link": "shopify://collections/lucio-dalla"
           }
         },
-        "image_D9CX6k": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Minacelentanob2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mina-celentano"
-          }
-        },
         "image_wiRjiq": {
           "type": "image",
           "disabled": true,
@@ -255,23 +206,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/lucio-battisti"
-          }
-        },
-        "image_DaWh7w": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/ilvolodesktop_1.png",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/il-volo-ad-astra"
           }
         },
         "image_6YKHeW": {
@@ -302,13 +236,9 @@
         "image_jntpdb",
         "image_MUritm",
         "image_7WBgFd",
-        "image_cbNher",
-        "image_Cnzyja",
         "image_9TUQjJ",
         "image_a7atqp",
-        "image_D9CX6k",
         "image_wiRjiq",
-        "image_DaWh7w",
         "image_6YKHeW"
       ],
       "settings": {
