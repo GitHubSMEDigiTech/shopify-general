@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_9kfgaA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_f3a721d1-6770-44f8-af49-ced8da0c2431.jpg",
+            "mobile_image": "shopify://shop_images/pinkFloyd_mobile_png_da2a47c7-4599-4352-9b29-58b58768eef7.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/pink-floyd"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -65,23 +82,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/samuele-bersani"
-          }
-        },
-        "image_9kfgaA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_f3a721d1-6770-44f8-af49-ced8da0c2431.jpg",
-            "mobile_image": "shopify://shop_images/pinkFloyd_mobile_png_da2a47c7-4599-4352-9b29-58b58768eef7.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pink-floyd"
           }
         },
         "image_zLLxyF": {
@@ -223,9 +223,9 @@
         }
       },
       "block_order": [
+        "image_9kfgaA",
         "image_eUhDX7",
         "image_FV8WFP",
-        "image_9kfgaA",
         "image_zLLxyF",
         "image_x98LVH",
         "image_NDBHHY",
