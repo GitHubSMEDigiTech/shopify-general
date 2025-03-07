@@ -54,6 +54,72 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_rqFXx6": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/kanofi.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Kanonenfieber_LiveInOberhausen_f57dc1be-d4e0-4ce8-ad8a-0bb3542166f7.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ccc7ab",
+            "title": "kanonenfieber",
+            "head_color": "#ccc7ab",
+            "subtitle": "live in oberhausen",
+            "subhead_color": "#ccc7ab",
+            "content": "Ltd. CD+Blu-ray Digipak\nGatefold black 2LP\nLtd. Gatefold transp. orange 2LP",
+            "content_color": "#ccc7ab",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "april 18",
+            "preorder_msg_color": "#36453e",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Kanonenfieber&sort_by=created-descending"
+          }
+        },
+        "banner_PKKjCY": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/bi.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/BloodIncantation_HiddenHistoryOfTheHumanRace.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#9d8d50",
+            "title": "blood incantation",
+            "head_color": "#60bb46",
+            "subtitle": "Hidden History of the Human Race (Re-issue 2025)",
+            "subhead_color": "#60bb46",
+            "content": "List of ReleasesGatefold transp. coke bottle green LP & Booklet\nLtd. Gatefold Sparkle Universe LP & Booklet\nLtd. Gatefold neon yellow LP & Booklet",
+            "content_color": "#60bb46",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#23616e",
+            "show_preorder": true,
+            "preorder_msg": "april 18",
+            "preorder_msg_color": "#60bb46",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Blood+Incantation&sort_by=created-descending"
+          }
+        },
+        "banner_hLdNHw": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/vil.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Vildhjarta_DarSkogenSjungerUnderEvighetensGranar_418270a3-e16b-4cc9-9c0a-8ba645c1760f.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "vildhjarta",
+            "head_color": "#000000",
+            "subtitle": "+ där skogen sjunger under evighetens granar +",
+            "subhead_color": "#000000",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold reddish ReVinyl 2LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "may 30",
+            "preorder_msg_color": "#b80000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Vildhjarta&sort_by=created-descending"
+          }
+        },
         "banner_Xinnbq": {
           "type": "banner",
           "settings": {
@@ -230,50 +296,6 @@
             "link": "https://www.cmdistro.de/collections/arch-enemy?sort_by=created-descending"
           }
         },
-        "banner_3Q3EXP": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/elegy.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/edgeofsanityelegychapterijpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#97d2c7",
-            "title": "edge of sanity",
-            "head_color": "#ffffff",
-            "subtitle": "Elegy - Chapter I (Demos Comp.)",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nGatefold black 2LP\nLtd. Gatefold transp. coke bottle green 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "February 28",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
-        },
-        "banner_pNETXX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/infernal.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/edgeofsanityinfernalre-issuejpg_fb3f8390-be3d-4b56-b04e-38160d6f1d5b.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ed8a01",
-            "title": "edge of sanity",
-            "head_color": "#ed8a01",
-            "subtitle": "infernal",
-            "subhead_color": "#ed8a01",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. deep blood red LP \nLtd. apricot colored LP",
-            "content_color": "#ed8a01",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ed8a01",
-            "show_preorder": true,
-            "preorder_msg": "February 28",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
-        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "disabled": true,
@@ -299,6 +321,9 @@
         }
       },
       "block_order": [
+        "banner_rqFXx6",
+        "banner_PKKjCY",
+        "banner_hLdNHw",
         "banner_Xinnbq",
         "banner_LzEQrJ",
         "banner_VMBqgY",
@@ -307,8 +332,6 @@
         "banner_zj7C4X",
         "banner_UAPYBU",
         "banner_QREb8T",
-        "banner_3Q3EXP",
-        "banner_pNETXX",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
