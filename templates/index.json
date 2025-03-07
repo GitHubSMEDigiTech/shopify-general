@@ -54,6 +54,50 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_Kfpc4U": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/ns.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/nadsylvanmonumentatajpg.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "nad sylvan",
+            "head_color": "#ffffff",
+            "subtitle": "monumentata",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold transp. green LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#000000",
+            "show_preorder": true,
+            "preorder_msg": "June 20",
+            "preorder_msg_color": "#ffffff",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Nad+Sylvan&sort_by=created-descending"
+          }
+        },
+        "banner_MQXjx7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/pv.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/pridianvenetiandarkjpg_a707cf5b-db30-4513-92ab-cf796efe2e89.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#73c7b0",
+            "title": "pridian",
+            "head_color": "#73c7b0",
+            "subtitle": "venetian dark",
+            "subhead_color": "#73c7b0",
+            "content": "Standard CD Jewelcase\nLtd. transp. blue-black marbled LP",
+            "content_color": "#909aa3",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#73c7b0",
+            "show_preorder": true,
+            "preorder_msg": "may 16",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Pridian&sort_by=created-descending"
+          }
+        },
         "banner_UdUdax": {
           "type": "banner",
           "settings": {
@@ -208,28 +252,6 @@
             "link": "https://www.insideoutshop.de/de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
           }
         },
-        "banner_tixkB8": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/parasomnia.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/dreamtheaterparasomniacoverembargo11102024jpg_52a00cc2-e8dc-4527-ab1f-38f3fd29c63d.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#d3d4c8",
-            "title": "dream theater",
-            "head_color": "#ffffff",
-            "subtitle": "parasomnia",
-            "subhead_color": "#d3d4c8",
-            "content": "Deluxe Box Set \nDeluxe 2CD+Blu-ray Artbook\nCD Digipak | Gatefold black 2LP | Ltd. Gatefold ultra clear 2LP\nLtd. Gatefold transp. light blue-black marbled 2LP | Ltd. Gatefold pearlescent deep-blue 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#d3d4c8",
-            "show_preorder": true,
-            "preorder_msg": "february 7",
-            "preorder_msg_color": "#3c4a4b",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Dream+Theater&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "disabled": true,
@@ -254,6 +276,8 @@
         }
       },
       "block_order": [
+        "banner_Kfpc4U",
+        "banner_MQXjx7",
         "banner_UdUdax",
         "banner_Yk6J4R",
         "banner_z7LYfY",
@@ -261,7 +285,6 @@
         "banner_kBcNcH",
         "banner_dn3tTB",
         "banner_RBLLXh",
-        "banner_tixkB8",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
