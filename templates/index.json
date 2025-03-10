@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_tt9Gb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/naskadesktop.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/naska"
+          }
+        },
         "image_dbMgwj": {
           "type": "image",
           "settings": {
@@ -227,6 +243,7 @@
         }
       },
       "block_order": [
+        "image_tt9Gb4",
         "image_dbMgwj",
         "image_BtCDQf",
         "image_XmhDKG",
