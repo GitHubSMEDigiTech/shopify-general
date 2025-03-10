@@ -241,7 +241,7 @@
         "carousel_effect": "fade",
         "autoplay": true,
         "show_arrows": true,
-        "show_dots": true,
+        "show_dots": false,
         "cycle_speed": 5
       }
     },
