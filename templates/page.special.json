@@ -19,6 +19,7 @@
       "blocks": {
         "image_m6xLCr": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_69ece3fc-c12d-42e6-aba3-7847a0065671.jpg",
             "mobile_image": "shopify://shop_images/750x1100_080f1e31-371d-4afd-a01a-ab6705f32813.jpg",
@@ -51,6 +52,7 @@
     },
     "rich_text_4DNKt7": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
@@ -71,6 +73,7 @@
     },
     "featured_collection_PgynqP": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "",
         "title": "Damiano David \"FUNNY little FEARS\"",
