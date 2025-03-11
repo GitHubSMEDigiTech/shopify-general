@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_69ece3fc-c12d-42e6-aba3-7847a0065671.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_080f1e31-371d-4afd-a01a-ab6705f32813.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -202,26 +219,10 @@
             "button_text": "",
             "link": "shopify://products/chi-e-nicola-felpieri-lp-black"
           }
-        },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a9c5a250-a055-4250-b0c0-f0a2c80e968a.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2beab542-7a7b-46de-98d8-14ab346e45cb.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bob-dylan"
-          }
         }
       },
       "block_order": [
+        "image_QQwqrR",
         "image_3wJqzQ",
         "image_hhc4xB",
         "image_9kfgaA",
@@ -231,8 +232,7 @@
         "image_x98LVH",
         "image_NDBHHY",
         "image_XHmBAC",
-        "image_wfGmGy",
-        "image_QQwqrR"
+        "image_wfGmGy"
       ],
       "settings": {
         "edge_to_edge": false,
