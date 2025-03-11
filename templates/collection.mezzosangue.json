@@ -35,6 +35,59 @@
         "open_group_filters_mode": "all_closed"
       }
     },
+    "slideshow_JRHE7e": {
+      "type": "slideshow",
+      "blocks": {
+        "image_yK3wHX": {
+          "type": "image",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yK3wHX"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "preserve_ratio",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
+    "rich_text_CMaXFH": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "PREORDINA E ACCEDI AL PRESALE PER IL \"VISCERALE TOUR\"",
+        "h_one": false,
+        "content": "<p>Acquista in preorder il nuovo album di Mezzosangue “<strong>Viscerale</strong>” in qualsiasi formato su Sony Music Store e accedi al presale dei biglietti per le date del \"<strong>VISCERALE TOUR</strong>\". <br/>Preordinando il nuovo album, dal 12 marzo al 16 marzo ore 18.00, riceverai nei giorni successivi una mail con un codice che ti consentirà di accedere al <strong>presale </strong>aperto il 17 marzo ore 12.00.<br/>Ad ogni ordine verrà inviata una mail con un codice che da accesso al presale di due biglietti. <br/>Assicurati di ricevere la mail: eventuali richieste verranno gestite entro le ore 11.00 del giorno 17 marzo<br/></p>",
+        "button_text": "",
+        "button_link": "",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "alternative_one_collection_CtE6tE": {
       "type": "alternative_one-collection",
       "settings": {
@@ -65,6 +118,8 @@
   },
   "order": [
     "main",
+    "slideshow_JRHE7e",
+    "rich_text_CMaXFH",
     "alternative_one_collection_CtE6tE",
     "recently-viewed-products"
   ]
