@@ -88,6 +88,24 @@
             "button_link": "shopify://collections/canvass-4-aprile-2025"
           }
         },
+        "item_rXGhWw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 70,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-11-aprile-2026"
+          }
+        },
         "item_79JjQF": {
           "type": "item",
           "settings": {
@@ -220,6 +238,7 @@
         "item_XegEGb",
         "item_YtxXXc",
         "item_RcTWPt",
+        "item_rXGhWw",
         "item_79JjQF",
         "item_W7cTqn",
         "item_iPg9i6",
