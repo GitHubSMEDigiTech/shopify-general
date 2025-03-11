@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
     },
     "slideshow_8FrpwF": {
@@ -71,7 +72,7 @@
     "featured_collection_PgynqP": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "damiano-david",
         "title": "Damiano David \"FUNNY little FEARS\"",
         "products_count": 12,
         "layout": "vertical",
