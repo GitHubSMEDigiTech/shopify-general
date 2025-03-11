@@ -41,15 +41,16 @@
         "image_yK3wHX": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/2000x1047.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
+            "title": "",
+            "content": "",
             "content_position": "middle_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
-            "button_text": "Button",
+            "button_text": "",
             "link": ""
           }
         }
@@ -58,8 +59,8 @@
         "image_yK3wHX"
       ],
       "settings": {
-        "edge_to_edge": false,
-        "section_size": "preserve_ratio",
+        "edge_to_edge": true,
+        "section_size": "large",
         "mobile_section_size": "",
         "carousel_effect": "slide",
         "autoplay": true,
@@ -102,6 +103,26 @@
         "link_url": ""
       }
     },
+    "rich_text_yPTnfy": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "\"VISCERALE TOUR\": le date",
+        "h_one": false,
+        "content": "<p><strong>25 OTTOBRE - </strong>ROMA, ORION<strong><br/>3 NOVEMBRE - </strong>MILANO, ALCATRAZ<strong><br/>5 NOVEMBRE - </strong>FIRENZE, TEATRO CARTIERE CARRARA<strong><br/>7 NOVEMBRE -</strong> PERUGIA URBAN<strong><br/>8 NOVEMBRE - </strong>SENIGALLIA (AN),<br/>MAMAMIA<strong><br/>14 NOVEMBRE - </strong>PADOVA, HALL<strong><br/>21 NOVEMBRE - </strong>NAPOLI, CASA DELLA<br/>MUSICA<strong><br/>22 NOVEMBRE - </strong>BOLOGNA, ESTRAGON</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "alternative_one_collection_CtE6tE": {
       "type": "alternative_one-collection",
       "settings": {
@@ -135,6 +156,7 @@
     "slideshow_JRHE7e",
     "rich_text_CMaXFH",
     "featured_collection_b7qCMU",
+    "rich_text_yPTnfy",
     "alternative_one_collection_CtE6tE",
     "recently-viewed-products"
   ]
