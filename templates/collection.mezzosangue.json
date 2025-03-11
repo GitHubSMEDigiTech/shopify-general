@@ -88,6 +88,20 @@
         "padding_bottom": 30
       }
     },
+    "featured_collection_b7qCMU": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "title": "VISCERALE",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
     "alternative_one_collection_CtE6tE": {
       "type": "alternative_one-collection",
       "settings": {
@@ -120,6 +134,7 @@
     "main",
     "slideshow_JRHE7e",
     "rich_text_CMaXFH",
+    "featured_collection_b7qCMU",
     "alternative_one_collection_CtE6tE",
     "recently-viewed-products"
   ]
