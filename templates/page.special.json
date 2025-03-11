@@ -11,10 +11,83 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
+    },
+    "slideshow_8FrpwF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_m6xLCr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_69ece3fc-c12d-42e6-aba3-7847a0065671.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_080f1e31-371d-4afd-a01a-ab6705f32813.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_m6xLCr"
+      ],
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "medium",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
+    "rich_text_4DNKt7": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "In esclusiva, la card Autografata di Damiano David",
+        "h_one": false,
+        "content": "<p>Preordina  l'LP Picture Zoetrope di \"FUNNY little FEARS\" in esclusiva su Sony Music Store per ottenere la card Autografata di Damiano David. <br/></p><p>Fino a esaurimento scorte</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "featured_collection_PgynqP": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "title": "Damiano David \"FUNNY little FEARS\"",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_8FrpwF",
+    "rich_text_4DNKt7",
+    "featured_collection_PgynqP"
   ]
 }
