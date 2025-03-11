@@ -91,7 +91,7 @@
     "featured_collection_b7qCMU": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "viscerale",
         "title": "VISCERALE",
         "products_count": 12,
         "layout": "vertical",
