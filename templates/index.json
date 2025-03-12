@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_dc37b2b4-6c46-48a3-b0b1-6270069ad01c.jpg",
+            "mobile_image": "shopify://shop_images/visceraleMobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mezzosangue"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -222,6 +239,7 @@
         }
       },
       "block_order": [
+        "image_4T4yhV",
         "image_QQwqrR",
         "image_3wJqzQ",
         "image_hhc4xB",
