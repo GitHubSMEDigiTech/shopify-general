@@ -12,9 +12,65 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "slideshow_BmJg3b": {
+      "type": "slideshow",
+      "blocks": {
+        "image_HEYPmj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2000x1047.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HEYPmj"
+      ],
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "large",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": false,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
+    "rich_text_mNrLEw": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "PREORDINA E ACCEDI AL PRESALE PER IL \"VISCERALE TOUR\"",
+        "h_one": false,
+        "content": "<p>Acquista in Preorder il nuovo album di <strong>MezzoSangue</strong> \"<strong>Viscerale</strong>\" in qualsiasi formato su Sony Music Store e accedi al presale dei biglietti per le date del \"<strong>VISCERALE TOUR</strong>\". <br/>Preordinando il nuovo album, dal 12 marzo al 16 marzo ore 18.00, riceverai nei giorni successivi una mail con un codice che ti consentirà di accedere al <strong>presale</strong> aperto il 17 marzo ore 12.00. <br/>Ad ogni ordine verrà inviata una mail con un codice che da accesso al presale di due biglietti. <br/>Assicurati di ricevere la mail: eventuali richieste verranno gestite <strong>entro e non oltre le ore 11.00</strong> del giorno 17 marzo</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "slideshow_BmJg3b",
+    "rich_text_mNrLEw"
   ]
 }
