@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
     },
     "slideshow_BmJg3b": {
@@ -66,11 +67,47 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
+    },
+    "featured_collection_rkceyW": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "title": "MezzoSangue \"VISCERALE\"",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "rich_text_r3ahMN": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "",
+        "h_one": false,
+        "content": "<p><strong>\"VISCERALE TOUR\" </strong>le date:</p><p><strong>25 OTTOBRE</strong> - ROMA, ORION <br/><strong>3 NOVEMBRE</strong> - MILANO, ALCATRAZ <br/><strong>5 NOVEMBRE</strong> - FIRENZE, TEATRO CARTIERE CARRARA <br/><strong>7 NOVEMBRE</strong> - PERUGIA URBAN <br/><strong>8 NOVEMBRE</strong> - SENIGALLIA (AN), MAMAMIA <br/><strong>14 NOVEMBRE</strong> - PADOVA, HALL <br/><strong>21 NOVEMBRE</strong> - NAPOLI, CASA DELLA MUSICA <br/><strong>22 NOVEMBRE</strong> - BOLOGNA, ESTRAGON </p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "main",
     "slideshow_BmJg3b",
-    "rich_text_mNrLEw"
+    "rich_text_mNrLEw",
+    "featured_collection_rkceyW",
+    "rich_text_r3ahMN"
   ]
 }
