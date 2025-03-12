@@ -73,8 +73,8 @@
       "settings": {
         "collection": "viscerale",
         "title": "MezzoSangue \"VISCERALE\"",
-        "products_count": 12,
-        "layout": "vertical",
+        "products_count": 4,
+        "layout": "horizontal",
         "stack_products": false,
         "show_quick_buy": false,
         "show_quick_inventory": false,
