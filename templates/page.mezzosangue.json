@@ -71,14 +71,14 @@
     "featured_collection_rkceyW": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "viscerale",
         "title": "MezzoSangue \"VISCERALE\"",
         "products_count": 12,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
         "show_quick_inventory": false,
-        "link_title": "View all",
+        "link_title": "",
         "link_url": ""
       }
     },
