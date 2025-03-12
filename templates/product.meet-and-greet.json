@@ -57,6 +57,12 @@
             "contest_radio": "si, no"
           }
         },
+        "text_4QNNTd": {
+          "type": "text",
+          "settings": {
+            "content": "<h6><em>Flaggando su \"si\" , ci autorizzi a contattarti via mail per comunicazioni essenziali per partecipare all'attività</em></h6>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -120,6 +126,7 @@
         "text_Hkfmce",
         "variant_selector",
         "contest_dPa76e",
+        "text_4QNNTd",
         "buy_buttons",
         "description",
         "liquid_b4jzwN",
