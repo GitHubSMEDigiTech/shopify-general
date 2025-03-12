@@ -21,7 +21,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2000x1047.jpg",
-            "mobile_image": "shopify://shop_images/390x390_a9b0946c-ee90-454a-a490-2e13a99e3f37.jpg",
+            "mobile_image": "shopify://shop_images/1080x1080_eefe5048-2f8a-4bf5-989d-b04acfa24890.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
