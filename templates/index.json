@@ -314,6 +314,7 @@
     },
     "e9b924ee-c0b2-487a-8027-bb5354c3b608": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "midprice-blowout",
         "title": "Now On Midprice",
