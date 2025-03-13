@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_NEFFA_1.jpg",
+            "mobile_image": "shopify://shop_images/mobilenefffa_fa32a0d6-7514-4277-85d3-576e85c9f0ce.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/neffa"
+          }
+        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -239,6 +256,7 @@
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_4T4yhV",
         "image_QQwqrR",
         "image_3wJqzQ",
