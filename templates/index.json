@@ -361,6 +361,7 @@
     },
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "midprice-blowout",
         "title": "Midprice Blowout",
