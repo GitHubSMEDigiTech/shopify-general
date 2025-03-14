@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_iQn3Xh": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/ORTH.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Orthodox_ADoorLeftOpen_801e7540-1510-453e-a2bb-93062b252b8c.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "orthodox",
+            "head_color": "#ffffff",
+            "subtitle": "a door left open",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nyellow LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "rgba(0,0,0,0)",
+            "show_preorder": true,
+            "preorder_msg": "June 6",
+            "preorder_msg_color": "#ffffff",
+            "link": "https://www.cmdistro.de/de/collections/vendors?q=Orthodox&sort_by=created-descending"
+          }
+        },
         "banner_rqFXx6": {
           "type": "banner",
           "settings": {
@@ -164,28 +186,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Triptykon&sort_by=created-descending"
           }
         },
-        "banner_VMBqgY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Lorna.png",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/LornaShore_FleshCoffin.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#000000",
-            "title": "Lorna Shore",
-            "head_color": "#cf0e0e",
-            "subtitle": "Flesh Coffin (Re-issue 2025)",
-            "subhead_color": "#cf0e0e",
-            "content": "black LP",
-            "content_color": "#cf0e0e",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 14",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Lorna+Shore&sort_by=created-descending"
-          }
-        },
         "banner_PnktfH": {
           "type": "banner",
           "settings": {
@@ -252,28 +252,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=SpiritWorld&sort_by=created-descending"
           }
         },
-        "banner_UAPYBU": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/cry.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Cryptosis_CelestialDeath.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "CRYPTOSIS",
-            "head_color": "#ffffff",
-            "subtitle": "celestial death",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold deep blood red LP",
-            "content_color": "#abc096",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "march 7",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Cryptosis&sort_by=created-descending"
-          }
-        },
         "banner_QREb8T": {
           "type": "banner",
           "settings": {
@@ -321,16 +299,15 @@
         }
       },
       "block_order": [
+        "banner_iQn3Xh",
         "banner_rqFXx6",
         "banner_PKKjCY",
         "banner_hLdNHw",
         "banner_Xinnbq",
         "banner_LzEQrJ",
-        "banner_VMBqgY",
         "banner_PnktfH",
         "banner_JfeYgm",
         "banner_zj7C4X",
-        "banner_UAPYBU",
         "banner_QREb8T",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
