@@ -53,8 +53,8 @@
         "image_4T4yhV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_dc37b2b4-6c46-48a3-b0b1-6270069ad01c.jpg",
-            "mobile_image": "shopify://shop_images/visceraleMobile.jpg",
+            "image": "shopify://shop_images/mezzosangue2b.png",
+            "mobile_image": "shopify://shop_images/visceralemobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
