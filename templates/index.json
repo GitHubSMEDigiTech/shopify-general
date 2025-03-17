@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_gjabXL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_11.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mondo-marcio-credo"
+          }
+        },
         "image_tt9Gb4": {
           "type": "image",
           "settings": {
@@ -260,6 +276,7 @@
         }
       },
       "block_order": [
+        "image_gjabXL",
         "image_tt9Gb4",
         "image_UjMj4i",
         "image_9gqhmK",
