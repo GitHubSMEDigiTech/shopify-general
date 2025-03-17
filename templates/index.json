@@ -110,6 +110,7 @@
         },
         "image_XmhDKG": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner_Noemi_b1c4a83d-7a4b-4296-b000-4457ffe1c2dd.jpg",
             "show_overlay": false,
