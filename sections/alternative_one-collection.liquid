@@ -45,7 +45,8 @@
     
     {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900', image: collection.image -%}{%- endcapture -%}
     {%- assign image_url = collection.image | image_url: width: 900 -%}
-    <div class="collection__image--container" {%- if collection.all_products_count > 0 -%}style="background-image: url({{ image_url }})"{%- endif -%}>
+    <div class="collection__image--container" 
+    style="{%- if collection.all_products_count > 0 -%}background-image: url({{ image_url }});{%- endif -%} {%- if collection.image.height > collection.image.width -%}background-size: auto 70%; background-position: 15% center;{%- endif -%}">
       
     </div>
     <div class="collection--container">
