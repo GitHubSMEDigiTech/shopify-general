@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
     },
     "slideshow_aGkDfk": {
@@ -47,10 +48,81 @@
         "show_dots": false,
         "cycle_speed": 5
       }
+    },
+    "rich_text_Mbp4UX": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "Bonus Cultura Sony Music Italy",
+        "h_one": true,
+        "content": "<p>Dal 31 gennaio 2025 al 30 giugno 2025 puoi richiedere la “Carta della cultura giovani” e la “Carta del merito”, ciascuna del valore di 500 euro, cumulabili tra loro. </p><p><br/>Puoi acquistare i beni consentiti fino al 31 dicembre 2025.</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "rich_text_RxNcMA": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "Come posso usare il Bonus Cultura su Sony Music Store",
+        "h_one": false,
+        "content": "<p>Puoi usare il bonus cultura per acquistare CD, Vinili, Musicassette o Box contenenti i tre supporti. <br/>Non puoi usarlo per acquistare merch o accessori.<br/></p><p></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "rich_text_pkE48L": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "Bonus Cultura: condizioni di utilizzo",
+        "h_one": false,
+        "content": "<ul><li>Non puoi acquistare merch o accessori</li><li>Non puoi acquistare prodotti in preorder</li><li>Non è possibile acquistare più unità dello stesso prodotto</li><li>Non è possibile chiedere il rimborso di prodotti acquistati con bonus cultura</li><li>In caso di prodotti difettosi, è possibile richiedere la sostituzione come da condizioni di vendita</li></ul>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "recently_viewed_products_3QQXDq": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Visti di recente",
+        "show_quick_buy": true
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_aGkDfk"
+    "slideshow_aGkDfk",
+    "rich_text_Mbp4UX",
+    "rich_text_RxNcMA",
+    "rich_text_pkE48L",
+    "recently_viewed_products_3QQXDq"
   ]
 }
