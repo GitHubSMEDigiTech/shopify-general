@@ -223,8 +223,8 @@
         "image_NDBHHY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LISA_ALTER_EGO_BannerDesktop_2160x720_5d1eb368-3cf0-4b2d-bacf-d59598f73e90.jpg",
-            "mobile_image": "shopify://shop_images/LISA_ALTER_EGO_BannerMobile_750x1100_433a691e-4280-41d2-8c39-e930c79a9d8a.jpg",
+            "image": "shopify://shop_images/LISA_ALTER_EGO_BannerDesktop_2160x720_11a60791-e01c-4258-ba3d-eb06c5b26732.jpg",
+            "mobile_image": "shopify://shop_images/LISA_ALTER_EGO_BannerMobile_750x1100_4069d141-2e36-4a68-8b51-0bb74a8a6799.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
