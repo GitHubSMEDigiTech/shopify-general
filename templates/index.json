@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_yPgpCR": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/hau.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/TheHaunted_SongsOfLastResort_e476825e-35f8-440c-be17-772ff42adbec.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#e8150c",
+            "title": "the haunted",
+            "head_color": "#ffffff",
+            "subtitle": "songs of last resort",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Mediabook & Poster\nStandard CD Jewelcase\nblack LP & Poster\nLtd. transp. red LP & Poster",
+            "content_color": "#02a6a5",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "rgba(0,0,0,0)",
+            "show_preorder": true,
+            "preorder_msg": "may 30",
+            "preorder_msg_color": "#ffffff",
+            "link": "https://www.cmdistro.de/collections/vendors?q=The+Haunted&sort_by=created-descending"
+          }
+        },
         "banner_iQn3Xh": {
           "type": "banner",
           "settings": {
@@ -299,6 +321,7 @@
         }
       },
       "block_order": [
+        "banner_yPgpCR",
         "banner_iQn3Xh",
         "banner_rqFXx6",
         "banner_PKKjCY",
