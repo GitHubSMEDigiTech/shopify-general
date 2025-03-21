@@ -214,6 +214,24 @@
             "button_link": "shopify://collections/canvass-23-maggio-2025"
           }
         },
+        "item_cixGU8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 70,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 30 maggio 2025",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-30-maggio-2025"
+          }
+        },
         "item_JcWcPw": {
           "type": "item",
           "settings": {
@@ -263,6 +281,7 @@
         "item_R8irkh",
         "item_AbJLRd",
         "item_JkErGk",
+        "item_cixGU8",
         "item_JcWcPw",
         "item_kmHkPL"
       ],
