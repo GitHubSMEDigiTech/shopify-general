@@ -172,8 +172,8 @@
         "image_FV8WFP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BERSANI_preoorder_2160x720_1.jpg",
-            "mobile_image": "shopify://shop_images/BERSANI_preoorder_750x1100_1.jpg",
+            "image": "shopify://shop_images/BERSANI_acquista_2160x720_f1fe6a3b-c263-4b0d-8e4e-f18c30e61d85.jpg",
+            "mobile_image": "shopify://shop_images/BERSANI_acquista_750x1100_6b6421d7-c378-444f-b357-e5105efe1956.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -189,8 +189,8 @@
         "image_zLLxyF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_14b84574-65fc-47b1-b2b9-7d6693e0d0a9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_b61169b7-849b-4d0c-bac6-f585d78c5c69.jpg",
+            "image": "shopify://shop_images/2160x720_17.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_15.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
