@@ -113,7 +113,7 @@
             "content": "List of ReleasesGatefold transp. coke bottle green LP & Booklet\nLtd. Gatefold Sparkle Universe LP & Booklet\nLtd. Gatefold neon yellow LP & Booklet",
             "content_color": "#60bb46",
             "show_preorder_banner": true,
-            "preorder_bar_color": "#23616e",
+            "preorder_bar_color": "rgba(0,0,0,0)",
             "show_preorder": true,
             "preorder_msg": "april 18",
             "preorder_msg_color": "#60bb46",
