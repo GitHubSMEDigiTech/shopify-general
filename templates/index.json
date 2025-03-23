@@ -175,6 +175,7 @@
         },
         "image_7WBgFd": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_8.jpg",
             "show_overlay": false,
