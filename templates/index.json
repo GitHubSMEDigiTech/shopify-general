@@ -50,6 +50,23 @@
             "link": "shopify://collections/giorgio-poi"
           }
         },
+        "image_NDBHHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PND_BannerDesktop_2160x720_3428edaa-baf6-4cae-bb2a-e5fea4601cb4.jpg",
+            "mobile_image": "shopify://shop_images/PND_BannerMobile_750x1100_cb14aa89-e2ac-4be6-b411-3741a51c0d8d.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/partynextdoor"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -220,23 +237,6 @@
             "link": "shopify://collections/gaia"
           }
         },
-        "image_NDBHHY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LISA_ALTER_EGO_BannerDesktop_2160x720_11a60791-e01c-4258-ba3d-eb06c5b26732.jpg",
-            "mobile_image": "shopify://shop_images/LISA_ALTER_EGO_BannerMobile_750x1100_4069d141-2e36-4a68-8b51-0bb74a8a6799.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/lisa"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -257,6 +257,7 @@
       },
       "block_order": [
         "image_x98LVH",
+        "image_NDBHHY",
         "image_wfGmGy",
         "image_G3f6rF",
         "image_4T4yhV",
@@ -267,7 +268,6 @@
         "image_eUhDX7",
         "image_FV8WFP",
         "image_zLLxyF",
-        "image_NDBHHY",
         "image_XHmBAC"
       ],
       "settings": {
