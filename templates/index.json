@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3bky7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PND_BannerDesktop_2160x720_2dbae555-2521-440d-a505-82e1effb7482.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/partynextdoor-drake"
+          }
+        },
         "image_gXpadj": {
           "type": "image",
           "settings": {
@@ -260,6 +276,7 @@
         }
       },
       "block_order": [
+        "image_G3bky7",
         "image_gXpadj",
         "image_dbMgwj",
         "image_BtCDQf",
