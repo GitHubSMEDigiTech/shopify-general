@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_793aa8aa-af8c-4072-9032-651a06949c2b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a8bbeee2-05c0-4e08-991f-9213f523d923.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/giorgio-poi"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -203,23 +220,6 @@
             "link": "shopify://collections/gaia"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_2b178b83-9f81-4347-9836-9bcab8784428.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_760095b3-f39a-4c4a-9f35-9a29a4391465.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/noemi"
-          }
-        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -256,6 +256,7 @@
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_wfGmGy",
         "image_G3f6rF",
         "image_4T4yhV",
@@ -266,7 +267,6 @@
         "image_eUhDX7",
         "image_FV8WFP",
         "image_zLLxyF",
-        "image_x98LVH",
         "image_NDBHHY",
         "image_XHmBAC"
       ],
