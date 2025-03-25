@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MileyCyrus_BannerDesktop_2160x720_a687ca27-8e56-42ca-a2ed-c1d38228e520.jpg",
+            "mobile_image": "shopify://shop_images/MileyCyrus_BannerMobile_750x1100_1d191a65-204d-421d-ad96-9435d3a39f3f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/miley-cyrus"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -133,23 +150,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/damiano-david"
-          }
-        },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_2160x720_2.jpg",
-            "mobile_image": "shopify://shop_images/naskamobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/naska"
           }
         },
         "image_hhc4xB": {
@@ -256,13 +256,13 @@
         }
       },
       "block_order": [
+        "image_3wJqzQ",
         "image_x98LVH",
         "image_NDBHHY",
         "image_wfGmGy",
         "image_G3f6rF",
         "image_4T4yhV",
         "image_QQwqrR",
-        "image_3wJqzQ",
         "image_hhc4xB",
         "image_9kfgaA",
         "image_eUhDX7",
