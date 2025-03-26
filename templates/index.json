@@ -50,6 +50,23 @@
             "link": "shopify://collections/salmo"
           }
         },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_8d2ad87a-36a3-4faa-9d0e-e57ff34ca26b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a1fc15dc-dc05-4744-a300-a0820476eda0.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/nessuno-cd-autografato-esc-e-commerce"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -236,27 +253,11 @@
             "button_text": "",
             "link": "shopify://collections/samuele-bersani"
           }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PTNdesktop.png",
-            "mobile_image": "shopify://shop_images/mobileptn.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pinguini-tattici-nucleari"
-          }
         }
       },
       "block_order": [
         "image_zLLxyF",
+        "image_XHmBAC",
         "image_3wJqzQ",
         "image_x98LVH",
         "image_NDBHHY",
@@ -267,8 +268,7 @@
         "image_hhc4xB",
         "image_9kfgaA",
         "image_eUhDX7",
-        "image_FV8WFP",
-        "image_XHmBAC"
+        "image_FV8WFP"
       ],
       "settings": {
         "edge_to_edge": false,
