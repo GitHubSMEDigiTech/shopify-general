@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_SALMO.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_SALMO.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -220,23 +237,6 @@
             "link": "shopify://collections/samuele-bersani"
           }
         },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_17.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_15.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/gaia"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -256,6 +256,7 @@
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_3wJqzQ",
         "image_x98LVH",
         "image_NDBHHY",
@@ -267,7 +268,6 @@
         "image_9kfgaA",
         "image_eUhDX7",
         "image_FV8WFP",
-        "image_zLLxyF",
         "image_XHmBAC"
       ],
       "settings": {
