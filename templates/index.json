@@ -110,6 +110,7 @@
         },
         "image_tt9Gb4": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/naskadesktop.png",
             "show_overlay": false,
@@ -126,6 +127,7 @@
         },
         "image_gXpadj": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/gaiab2b.png",
             "show_overlay": false,
