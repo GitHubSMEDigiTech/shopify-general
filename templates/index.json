@@ -681,6 +681,56 @@
         "image": "shopify://shop_images/Txt-Iscriviti-alla-Newsletter.png"
       }
     },
+    "newsletter_sme_96dtxz": {
+      "type": "newsletter-sme",
+      "disabled": true,
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 0,
+        "title": "Newsletter",
+        "content": "",
+        "ae_segment_id": "2097936",
+        "ae_brand_id": "5372657",
+        "ae_activities": "{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}",
+        "ae": "15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d",
+        "ae_form": "427238",
+        "ae_form_html": "<div data-validation=\"Enter a valid email address\">\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n</div>\n<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">",
+        "btn_txt": "Subscribe",
+        "background": "#ffffff",
+        "bg_image": "shopify://shop_images/banner-newsletter-h2quadri-1280x213-1.jpg",
+        "text": "#ffffff",
+        "image": "shopify://shop_images/Txt-Iscriviti-alla-Newsletter.png"
+      }
+    },
+    "rich_text_khzwtU": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "Iscriviti alla Newsletter",
+        "h_one": false,
+        "content": "<p>Iscriviti alla <strong>Newsletter </strong>di Sony Music Store per scoprire i nuovi prodotti e usufruire di vantaggi speciali. Inoltre, ricevi subito il 10% di <strong>sconto </strong>sul prossimo ordine. </p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "newsletter_TmNANi": {
+      "type": "newsletter",
+      "settings": {
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "text": "#000000"
+      }
+    },
     "rich_text_zKVnLa": {
       "type": "rich-text",
       "custom_css": [
@@ -703,36 +753,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "newsletter_sme_96dtxz": {
-      "type": "newsletter-sme",
-      "disabled": true,
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 0,
-        "title": "Newsletter",
-        "content": "",
-        "ae_segment_id": "2097936",
-        "ae_brand_id": "5372657",
-        "ae_activities": "{\"actions\":{\"formsubmission\":139079,\"secondaryformsubmission\":0},\"mailing_list_optins\":{\"a0S0800000tmwlyEAA\":139082}}",
-        "ae": "15b42df4780f7a2703b29eed584c7355438f005fde3e9e2a879d7206d951067d",
-        "ae_form": "427238",
-        "ae_form_html": "<div data-validation=\"Enter a valid email address\">\n\t<input class=\"form-control\" id=\"field_email_address\" name=\"field_email_address\" type=\"text\" placeholder=\"Email Adress\">\n</div>\n<input type=\"checkbox\" name=\"privacy\" id=\"form-field-privacy\" required=\"required\" aria-required=\"true\">\n\t\t\t\t<label for=\"form-field-privacy\" style=\"display: inline-block; font-size: 0.7rem\">Ho letto e accetto la <a href=\"/policies/privacy-policy\" target=\"_blank\"> Privacy Policy</a></label>\n<input type=\"hidden\" class=\"mailing-list-id\" id=\"mailing-list-id[0]\" name=\"mailing-list-id[0]\" value=\"a0S0800000tmwlyEAA\">",
-        "btn_txt": "Subscribe",
-        "background": "#ffffff",
-        "bg_image": "shopify://shop_images/banner-newsletter-h2quadri-1280x213-1.jpg",
-        "text": "#ffffff",
-        "image": "shopify://shop_images/Txt-Iscriviti-alla-Newsletter.png"
-      }
-    },
-    "newsletter_TmNANi": {
-      "type": "newsletter",
-      "settings": {
-        "title": "Iscriviti alla Newsletter",
-        "content": "<p>Iscriviti per ottenere subito il 10% di <strong>sconto</strong> sul tuo prossimo ordine!</p>",
-        "background": "#ffffff",
-        "text": "#000000"
-      }
     }
   },
   "order": [
@@ -753,8 +773,9 @@
     "image_with_text_overlay_3x3d9h",
     "featured_collection_gNFLGM",
     "newsletter_sme_popup_9K3hq4",
-    "rich_text_zKVnLa",
     "newsletter_sme_96dtxz",
-    "newsletter_TmNANi"
+    "rich_text_khzwtU",
+    "newsletter_TmNANi",
+    "rich_text_zKVnLa"
   ]
 }
