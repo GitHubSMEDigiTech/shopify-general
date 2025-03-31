@@ -478,42 +478,6 @@
         "cycle_speed": 5
       }
     },
-    "slideshow_HhpkAx": {
-      "type": "slideshow",
-      "blocks": {
-        "image_wMdUHe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_77932241-ece0-406c-923c-640b49305c5e.png",
-            "mobile_image": "shopify://shop_images/750x1100_685760d5-e7a9-473f-8a99-743e8c9cc78d.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "top_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/sanremo-2025"
-          }
-        }
-      },
-      "block_order": [
-        "image_wMdUHe"
-      ],
-      "disabled": true,
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "large",
-        "mobile_section_size": "",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "show_arrows": false,
-        "show_dots": false,
-        "cycle_speed": 5
-      }
-    },
     "featured_collection_4VmJid": {
       "type": "featured-collection",
       "settings": {
@@ -578,69 +542,33 @@
         "stack_mobile": true
       }
     },
-    "image_banner_99fc7c": {
-      "type": "image-banner",
-      "blocks": {
-        "image_A43MXp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/app18-1024x606.png",
-            "image_width": 140
-          }
-        },
-        "text_GrqVEL": {
-          "type": "text",
-          "settings": {
-            "text": "Shop online dedicato ai prodotti acquistabili con 18app",
-            "text_style": "body",
-            "text_color": "#ffffff"
-          }
-        },
-        "buttons_CV6M3L": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Acquista con 18app",
-            "button_link_1": "shopify://collections/18n-app",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "text_color": "#ffffff",
-            "bg_color": "#1e2d7d"
-          }
-        }
-      },
-      "block_order": [
-        "image_A43MXp",
-        "text_GrqVEL",
-        "buttons_CV6M3L"
-      ],
-      "disabled": true,
+    "rich_text_khzwtU": {
+      "type": "rich-text",
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
-        "image": "shopify://shop_images/banner-18app-1920.jpg",
-        "image_overlay_opacity": 0,
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_overlay_opacity": 100,
-        "image_height": "small",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
+        "text_width": "regular",
+        "title": "Iscriviti alla Newsletter",
+        "h_one": true,
+        "content": "<p>Iscriviti alla <strong>Newsletter </strong>di Sony Music Store per scoprire i nuovi prodotti e usufruire di vantaggi speciali. Inoltre, ricevi subito il 10% di <strong>sconto </strong>sul prossimo ordine. </p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
-    "image_with_text_overlay_3x3d9h": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
+    "newsletter_TmNANi": {
+      "type": "newsletter",
       "settings": {
         "title": "",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-        "show_image_overlay": false,
-        "color": "#ffffff"
+        "content": "",
+        "background": "#ffffff",
+        "text": "#000000"
       }
     },
     "featured_collection_gNFLGM": {
@@ -702,35 +630,6 @@
         "image": "shopify://shop_images/Txt-Iscriviti-alla-Newsletter.png"
       }
     },
-    "rich_text_khzwtU": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "regular",
-        "title": "Iscriviti alla Newsletter",
-        "h_one": false,
-        "content": "<p>Iscriviti alla <strong>Newsletter </strong>di Sony Music Store per scoprire i nuovi prodotti e usufruire di vantaggi speciali. Inoltre, ricevi subito il 10% di <strong>sconto </strong>sul prossimo ordine. </p>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#c5161c",
-        "text_color": "#ffffff",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "newsletter_TmNANi": {
-      "type": "newsletter",
-      "settings": {
-        "title": "",
-        "content": "",
-        "background": "#ffffff",
-        "text": "#000000"
-      }
-    },
     "rich_text_zKVnLa": {
       "type": "rich-text",
       "custom_css": [
@@ -766,16 +665,13 @@
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
     "slideshow_h7KX3P",
-    "slideshow_HhpkAx",
     "featured_collection_4VmJid",
     "promotion_list_wAJLbg",
-    "image_banner_99fc7c",
-    "image_with_text_overlay_3x3d9h",
+    "rich_text_khzwtU",
+    "newsletter_TmNANi",
     "featured_collection_gNFLGM",
     "newsletter_sme_popup_9K3hq4",
     "newsletter_sme_96dtxz",
-    "rich_text_khzwtU",
-    "newsletter_TmNANi",
     "rich_text_zKVnLa"
   ]
 }
