@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3kGB38": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rocco_Hunt_Banner.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rocco-hunt-ragazzo-di-giu"
+          }
+        },
         "image_RpyWXF": {
           "type": "image",
           "settings": {
@@ -245,6 +261,7 @@
         }
       },
       "block_order": [
+        "image_3kGB38",
         "image_RpyWXF",
         "image_BtCDQf",
         "image_UjMj4i",
