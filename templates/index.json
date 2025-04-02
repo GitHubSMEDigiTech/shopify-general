@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_44615b49-fa10-47a7-bc7f-7d333bce126b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_67386fa6-569d-43c5-bf54-719cc672bdf9.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rocco-hunt"
+          }
+        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -236,26 +253,10 @@
             "button_text": "",
             "link": "shopify://collections/olly"
           }
-        },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BERSANI_acquista_2160x720_f1fe6a3b-c263-4b0d-8e4e-f18c30e61d85.jpg",
-            "mobile_image": "shopify://shop_images/BERSANI_acquista_750x1100_6b6421d7-c378-444f-b357-e5105efe1956.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/samuele-bersani"
-          }
         }
       },
       "block_order": [
+        "image_FV8WFP",
         "image_zLLxyF",
         "image_XHmBAC",
         "image_3wJqzQ",
@@ -267,8 +268,7 @@
         "image_QQwqrR",
         "image_hhc4xB",
         "image_9kfgaA",
-        "image_eUhDX7",
-        "image_FV8WFP"
+        "image_eUhDX7"
       ],
       "settings": {
         "edge_to_edge": false,
