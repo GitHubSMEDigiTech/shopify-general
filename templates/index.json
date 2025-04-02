@@ -126,6 +126,7 @@
         },
         "image_DyKMAY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_10_1.jpg",
             "show_overlay": false,
