@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_48XJq4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mostrob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mostro"
+          }
+        },
         "image_3kGB38": {
           "type": "image",
           "settings": {
@@ -261,6 +277,7 @@
         }
       },
       "block_order": [
+        "image_48XJq4",
         "image_3kGB38",
         "image_RpyWXF",
         "image_BtCDQf",
