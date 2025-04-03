@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_0cd42bad-7d8f-4acf-b2f1-d15de3561426.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_0480e4a3-e580-41b5-b1f2-b4a0cd6c3ec0.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mostro"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -236,26 +253,10 @@
             "button_text": "",
             "link": "shopify://collections/pink-floyd"
           }
-        },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720-copia.jpg",
-            "mobile_image": "shopify://shop_images/750x1100-copia_d9d9443f-0f3e-45af-885e-c53a8143ed12.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/olly"
-          }
         }
       },
       "block_order": [
+        "image_eUhDX7",
         "image_FV8WFP",
         "image_zLLxyF",
         "image_XHmBAC",
@@ -267,8 +268,7 @@
         "image_4T4yhV",
         "image_QQwqrR",
         "image_hhc4xB",
-        "image_9kfgaA",
-        "image_eUhDX7"
+        "image_9kfgaA"
       ],
       "settings": {
         "edge_to_edge": false,
