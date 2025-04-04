@@ -44,6 +44,22 @@
             "link": "shopify://collections/mostro"
           }
         },
+        "image_RpyWXF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/salmob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo-ranch"
+          }
+        },
         "image_3kGB38": {
           "type": "image",
           "settings": {
@@ -60,10 +76,10 @@
             "link": "shopify://collections/rocco-hunt-ragazzo-di-giu"
           }
         },
-        "image_RpyWXF": {
+        "image_9gqhmK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/salmob2b.png",
+            "image": "shopify://shop_images/bannerb2b.nuovo.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -73,7 +89,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/salmo-ranch"
+            "link": "shopify://collections/neffa-canerandagio"
           }
         },
         "image_BtCDQf": {
@@ -92,22 +108,6 @@
             "link": "shopify://collections/pink-floyd"
           }
         },
-        "image_UjMj4i": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/mezzosangue2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mezzosangue-viscerale"
-          }
-        },
         "image_gjabXL": {
           "type": "image",
           "settings": {
@@ -124,6 +124,22 @@
             "link": "shopify://collections/mondo-marcio-credo"
           }
         },
+        "image_UjMj4i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mezzosangue2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mezzosangue-viscerale"
+          }
+        },
         "image_G3bky7": {
           "type": "image",
           "settings": {
@@ -138,22 +154,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/partynextdoor-drake"
-          }
-        },
-        "image_9gqhmK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bannerb2b.nuovo.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/neffa-canerandagio"
           }
         },
         "image_jntpdb": {
@@ -296,13 +296,13 @@
       "block_order": [
         "image_QhXTxt",
         "image_48XJq4",
-        "image_3kGB38",
         "image_RpyWXF",
-        "image_BtCDQf",
-        "image_UjMj4i",
-        "image_gjabXL",
-        "image_G3bky7",
+        "image_3kGB38",
         "image_9gqhmK",
+        "image_BtCDQf",
+        "image_gjabXL",
+        "image_UjMj4i",
+        "image_G3bky7",
         "image_jntpdb",
         "image_DyKMAY",
         "image_XyQFhb",
