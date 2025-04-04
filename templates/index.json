@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_jt9q4L": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/cri_1.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/EdgeOfSanity_Crimson_8d7ccadc-0db5-4c46-996f-89c17da77175.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#cf0f2c",
+            "title": "edge of sanity",
+            "head_color": "#ffffff",
+            "subtitle": "crimson",
+            "subhead_color": "#cf0f2c",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. red LP\nLtd. transp. petrol green LP",
+            "content_color": "#cf0f2c",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "june 6",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
+          }
+        },
         "banner_yPgpCR": {
           "type": "banner",
           "settings": {
@@ -74,6 +96,28 @@
             "preorder_msg": "may 30",
             "preorder_msg_color": "#ffffff",
             "link": "https://www.cmdistro.de/collections/vendors?q=The+Haunted&sort_by=created-descending"
+          }
+        },
+        "banner_TAd3Ef": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/cri_2.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/EdgeOfSanity_CrimsonII_05934bbc-86de-4d5a-8a74-2f2618af440a.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#feed58",
+            "title": "edge of sanity",
+            "head_color": "#ffffff",
+            "subtitle": "crimson ii",
+            "subhead_color": "#feed58",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. orange LP\nLtd. brick red LP",
+            "content_color": "#feed58",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "august 8",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
         "banner_iQn3Xh": {
@@ -230,50 +274,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Caliban&sort_by=created-descending"
           }
         },
-        "banner_JfeYgm": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/it.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/imperialtriumphantgoldstarjpg_a3ebe587-fe47-45e2-bdd9-9a6e2095c1db.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#1084b6",
-            "title": "imperial triumphant",
-            "head_color": "#1084b6",
-            "subtitle": "goldstar",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold creamy white LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#1084b6",
-            "show_preorder": true,
-            "preorder_msg": "march 21",
-            "preorder_msg_color": "#f7b002",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Imperial+Triumphant&sort_by=created-descending"
-          }
-        },
-        "banner_zj7C4X": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/SW.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/spiritworldhelldoradojpg_e6f4dac3-51d4-4916-b2ab-e450fdce17ce.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#e2ad23",
-            "title": "SpiritWorld",
-            "head_color": "#e2ad23",
-            "subtitle": "Helldorado",
-            "subhead_color": "#e2ad23",
-            "content": "Ltd. CD Digipak\nLtd. white LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#e2ad23",
-            "show_preorder": true,
-            "preorder_msg": "March 21",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=SpiritWorld&sort_by=created-descending"
-          }
-        },
         "banner_QREb8T": {
           "type": "banner",
           "settings": {
@@ -321,7 +321,9 @@
         }
       },
       "block_order": [
+        "banner_jt9q4L",
         "banner_yPgpCR",
+        "banner_TAd3Ef",
         "banner_iQn3Xh",
         "banner_rqFXx6",
         "banner_PKKjCY",
@@ -329,8 +331,6 @@
         "banner_Xinnbq",
         "banner_LzEQrJ",
         "banner_PnktfH",
-        "banner_JfeYgm",
-        "banner_zj7C4X",
         "banner_QREb8T",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
