@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_QFMqha": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/nig_1.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Nightingale_TheBreathingShadow_5dbb933c-0879-4b62-84d0-3146bb475b26.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#d60f0d",
+            "title": "nightingale",
+            "head_color": "#ffffff",
+            "subtitle": "the breathing shadow",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. deep blood red LP",
+            "content_color": "#d60f0d",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "rgba(0,0,0,0)",
+            "show_preorder": true,
+            "preorder_msg": "june 6",
+            "preorder_msg_color": "#ffffff",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Nightingale&sort_by=created-descending"
+          }
+        },
         "banner_7thMAw": {
           "type": "banner",
           "settings": {
@@ -96,6 +118,28 @@
             "preorder_msg": "may 16",
             "preorder_msg_color": "#b7141b",
             "link": "https://www.insideoutshop.de/de/collections/vendors?q=Spock%27s+Beard&sort_by=created-descending"
+          }
+        },
+        "banner_bdcU39": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/nig_2.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Nightingale_TheClosingChronicles_a3c5782c-a82c-4c2a-99b5-f2b03bf00d84.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#d4dde4",
+            "title": "nightingale",
+            "head_color": "#ffffff",
+            "subtitle": "the closing chronicles",
+            "subhead_color": "#000000",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. blue LP",
+            "content_color": "#d4dde4",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#000000",
+            "show_preorder": true,
+            "preorder_msg": "august 8",
+            "preorder_msg_color": "#d4dde4",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Nightingale&sort_by=created-descending"
           }
         },
         "banner_Kfpc4U": {
@@ -276,8 +320,10 @@
         }
       },
       "block_order": [
+        "banner_QFMqha",
         "banner_7thMAw",
         "banner_DBNx9A",
+        "banner_bdcU39",
         "banner_Kfpc4U",
         "banner_MQXjx7",
         "banner_UdUdax",
