@@ -28,22 +28,6 @@
             "link": "shopify://collections/bruce-springsteen-the-lost-albums"
           }
         },
-        "image_48XJq4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/mostrob2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mostro"
-          }
-        },
         "image_RpyWXF": {
           "type": "image",
           "settings": {
@@ -60,11 +44,11 @@
             "link": "shopify://collections/salmo-ranch"
           }
         },
-        "image_3kGB38": {
+        "image_48XJq4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rocco_Hunt_Banner.jpg",
-            "show_overlay": true,
+            "image": "shopify://shop_images/mostrob2b.png",
+            "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
@@ -73,7 +57,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/rocco-hunt-ragazzo-di-giu"
+            "link": "shopify://collections/mostro"
           }
         },
         "image_9gqhmK": {
@@ -90,6 +74,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/neffa-canerandagio"
+          }
+        },
+        "image_3kGB38": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rocco_Hunt_Banner.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rocco-hunt-ragazzo-di-giu"
           }
         },
         "image_BtCDQf": {
@@ -296,10 +296,10 @@
       },
       "block_order": [
         "image_QhXTxt",
-        "image_48XJq4",
         "image_RpyWXF",
-        "image_3kGB38",
+        "image_48XJq4",
         "image_9gqhmK",
+        "image_3kGB38",
         "image_BtCDQf",
         "image_gjabXL",
         "image_G3bky7",
