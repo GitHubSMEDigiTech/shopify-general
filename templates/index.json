@@ -499,8 +499,8 @@
     "featured_collection_4VmJid": {
       "type": "featured-collection",
       "settings": {
-        "collection": "colonne-sonore",
-        "title": "Colonne Sonore: le più belle colonne sonore in CD e Vinile",
+        "collection": "musica-italiana",
+        "title": "MUSICA ITALIANA",
         "products_count": 30,
         "layout": "vertical",
         "stack_products": false,
@@ -516,19 +516,19 @@
         "item_n8BaRz": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/musicaitaliana.jpg",
+            "image": "shopify://shop_images/spilled-popcorn-on-a-red-background.jpg",
             "show_overlay": true,
             "overlay_opacity": 100,
             "stretch_image": true,
             "background": "#394b39",
             "text_color": "#ffffff",
-            "title": "IL MEGLIO DELLA MUSICA ITALIANA",
+            "title": "COLONNE SONORE",
             "content": "",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#0a460a",
             "button_text": "Scopri",
-            "button_link": "shopify://collections/musica-italiana"
+            "button_link": "shopify://collections/colonne-sonore"
           }
         },
         "item_Ua7X6D": {
