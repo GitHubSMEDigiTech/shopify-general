@@ -1,11 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-        "main": {
-            "type": "main-page",
-            "settings": {}
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
     },
-    "order": [
-        "main"
-    ]
+    "newsletter_46bYgM": {
+      "type": "newsletter",
+      "settings": {
+        "title": "",
+        "content": "<p>Inserisci il tuo indirizzo email per restare aggiornato su tutte le novità del Sony Music Store e per ricevere subito il 10% di sconto sul prossimo ordine! </p>",
+        "background": "#ffffff",
+        "text": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter_46bYgM"
+  ]
 }
