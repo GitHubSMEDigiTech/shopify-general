@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_mfGRED": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/avkrvst.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/AVKRVST_WavingAtTheSky_03c2a879-5390-4dbd-a888-360df4ecc5bd.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "avkrvst",
+            "head_color": "#ffffff",
+            "subtitle": "Waving at the sky",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold creamy white LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "June 13",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Avkrvst"
+          }
+        },
         "banner_QFMqha": {
           "type": "banner",
           "settings": {
@@ -274,28 +296,6 @@
             "link": "https://www.insideoutshop.de/de/collections/vendors?q=Benthos"
           }
         },
-        "banner_kBcNcH": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/stif.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/sometimeinfebruarywheremountainshidejpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#f7faf6",
-            "title": "sometime in february",
-            "head_color": "#f7faf6",
-            "subtitle": "where mountains hide",
-            "subhead_color": "#8390a8",
-            "content": "Ltd. CD Digipak\nLtd. transp. light blue-lilac marbled LP",
-            "content_color": "#8390a8",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#8390a8",
-            "show_preorder": true,
-            "preorder_msg": "march 21",
-            "preorder_msg_color": "#f7faf6",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Sometime+In+February&sort_by=created-descending"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "disabled": true,
@@ -320,6 +320,7 @@
         }
       },
       "block_order": [
+        "banner_mfGRED",
         "banner_QFMqha",
         "banner_7thMAw",
         "banner_DBNx9A",
@@ -330,7 +331,6 @@
         "banner_Yk6J4R",
         "banner_z7LYfY",
         "banner_ELe4Dh",
-        "banner_kBcNcH",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
