@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_AhTzh7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/baest.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Baest_Colossal_42e83211-87c5-463e-abf2-623e7f87ae7c.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Baest",
+            "head_color": "#ffffff",
+            "subtitle": "Colossal",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nblack LP\nLtd. neon orange LP\nLtd. transp. sun yellow-red splattered LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "August 15",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Baest&sort_by=created-descending"
+          }
+        },
         "banner_jt9q4L": {
           "type": "banner",
           "settings": {
@@ -274,28 +296,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Caliban&sort_by=created-descending"
           }
         },
-        "banner_QREb8T": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/AE_7e842289-5868-41bf-b912-1af50ad25ac6.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/archenemyblooddynastyjpg_b2199270-337f-4a62-9194-6d6f6514f12b.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#b06e5a",
-            "title": "arch enemy",
-            "head_color": "#d1cab8",
-            "subtitle": "blood dynasty",
-            "subhead_color": "#d1cab8",
-            "content": "Ltd. Deluxe A/B split (red&golden) LP+bonus LP+CD Artbook & Art print\nLtd. Deluxe CD Box Set \nSpecial Edition CD\nblack LP & LP-Booklet\nLtd. dark green LP & LP-Booklet\nLtd. bright gold LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#d1cab8",
-            "show_preorder": true,
-            "preorder_msg": "march 28",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/arch-enemy?sort_by=created-descending"
-          }
-        },
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
           "type": "banner",
           "disabled": true,
@@ -321,6 +321,7 @@
         }
       },
       "block_order": [
+        "banner_AhTzh7",
         "banner_jt9q4L",
         "banner_yPgpCR",
         "banner_TAd3Ef",
@@ -331,7 +332,6 @@
         "banner_Xinnbq",
         "banner_LzEQrJ",
         "banner_PnktfH",
-        "banner_QREb8T",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
       ],
       "settings": {
