@@ -44,6 +44,22 @@
             "link": "shopify://collections/salmo-ranch"
           }
         },
+        "image_WUWEhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_13.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david-funny-little-fears"
+          }
+        },
         "image_VwhDEJ": {
           "type": "image",
           "settings": {
@@ -313,6 +329,7 @@
       "block_order": [
         "image_QhXTxt",
         "image_RpyWXF",
+        "image_WUWEhB",
         "image_VwhDEJ",
         "image_48XJq4",
         "image_9gqhmK",
