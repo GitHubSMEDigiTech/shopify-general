@@ -28,22 +28,6 @@
             "link": "shopify://collections/bruce-springsteen-the-lost-albums"
           }
         },
-        "image_RpyWXF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/salmob2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/salmo-ranch"
-          }
-        },
         "image_WUWEhB": {
           "type": "image",
           "settings": {
@@ -58,6 +42,38 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/damiano-david-funny-little-fears"
+          }
+        },
+        "image_9gqhmK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bannerb2b.nuovo.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/neffa-canerandagio"
+          }
+        },
+        "image_RpyWXF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/salmob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo-ranch"
           }
         },
         "image_VwhDEJ": {
@@ -90,22 +106,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/mostro"
-          }
-        },
-        "image_9gqhmK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bannerb2b.nuovo.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/neffa-canerandagio"
           }
         },
         "image_3kGB38": {
@@ -172,23 +172,6 @@
             "link": "shopify://collections/partynextdoor-drake"
           }
         },
-        "image_UjMj4i": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/mezzosangue2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mezzosangue-viscerale"
-          }
-        },
         "image_jntpdb": {
           "type": "image",
           "disabled": true,
@@ -206,40 +189,6 @@
             "link": "shopify://collections/nayt"
           }
         },
-        "image_DyKMAY": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_10_1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/hello-world-pinguini-tattici-nucleari"
-          }
-        },
-        "image_XyQFhb": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/BERSANI_acquista_2160x720_57f1b6e4-2143-4d3b-a0ed-7449fc0186f6.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/samuele-bersani-orchestra-live"
-          }
-        },
         "image_7WBgFd": {
           "type": "image",
           "disabled": true,
@@ -255,23 +204,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/bob-dylan"
-          }
-        },
-        "image_9TUQjJ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/acdcb2b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/ac-dc"
           }
         },
         "image_a7atqp": {
@@ -328,21 +260,17 @@
       },
       "block_order": [
         "image_QhXTxt",
-        "image_RpyWXF",
         "image_WUWEhB",
+        "image_9gqhmK",
+        "image_RpyWXF",
         "image_VwhDEJ",
         "image_48XJq4",
-        "image_9gqhmK",
         "image_3kGB38",
         "image_BtCDQf",
         "image_gjabXL",
         "image_G3bky7",
-        "image_UjMj4i",
         "image_jntpdb",
-        "image_DyKMAY",
-        "image_XyQFhb",
         "image_7WBgFd",
-        "image_9TUQjJ",
         "image_a7atqp",
         "image_wiRjiq",
         "image_6YKHeW"
