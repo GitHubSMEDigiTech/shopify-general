@@ -20,6 +20,7 @@
           "type": "collection",
           "settings": {
             "collection": "pinguini-tattici-nucleari",
+            "image": "shopify://shop_images/PTNLPBlack.png",
             "link": ""
           }
         },
@@ -48,7 +49,7 @@
         "collection_C4PjmV": {
           "type": "collection",
           "settings": {
-            "collection": "depeche-mode",
+            "collection": "pink-floyd",
             "link": ""
           }
         },
