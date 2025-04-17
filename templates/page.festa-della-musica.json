@@ -15,14 +15,13 @@
     },
     "rich_text_g44rFE": {
       "type": "rich-text",
-      "name": "Rich text",
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
         "text_width": "regular",
         "title": "",
         "h_one": false,
-        "content": "<p>Cerca i prodotti con tag <strong>PASQUA 25</strong> e usufruisci di uno sconto del 20% al carrello. </p>",
+        "content": "<p>Cerca i prodotti con tag <strong>PASQUA 25</strong> e usufruisci di uno sconto del 20% al carrello. <br/>Promo valida fino al 30 aprile 2025 e sui prodotti selezionati.<br/>Il codice sconto si applica in automatico al carrello al raggiungimento di una spesa di 70 euro.</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#ffffff",
