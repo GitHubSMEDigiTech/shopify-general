@@ -1,68 +1,37 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {
-      }
+      "settings": {}
     },
-    "collection_with_image_MqryXd": {
-      "type": "collection-with-image",
+    "rich_text_g44rFE": {
+      "type": "rich-text",
+      "name": "Rich text",
       "settings": {
-        "collection": "internazionali",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "image": "shopify:\/\/shop_images\/Immagine1.jpg",
-        "background": "#e1e3e4",
-        "text_color": "#ffffff",
-        "title": "FESTA DELLA MUSICA",
-        "content": "Prodotti Internazionali",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "button_text": "Scopri",
-        "button_link": ""
-      }
-    },
-    "collection_with_image_tAHgm6": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "locali",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "image": "shopify:\/\/shop_images\/a-concert-seen-through-an-audience-member-s-mobile-phone.jpg",
-        "background": "#e1e3e4",
-        "text_color": "#131313",
-        "title": "ITALIANA",
-        "content": "",
-        "button_background": "#ffffff",
-        "button_text_color": "#131313",
-        "button_text": "Scopri",
-        "button_link": ""
-      }
-    },
-    "collection_with_image_9LHQYL": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "esclusive",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "image": "shopify:\/\/shop_images\/music-fans-at-a-venue.jpg",
-        "background": "#e1e3e4",
-        "text_color": "#131313",
-        "title": "ESCLUSIVE",
-        "content": "",
-        "button_background": "#ffffff",
-        "button_text_color": "#131313",
-        "button_text": "Scopri",
-        "button_link": ""
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "",
+        "h_one": false,
+        "content": "<p>Cerca i prodotti con tag <strong>PASQUA 25</strong> e usufruisci di uno sconto del 20% al carrello. </p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "rich_text_nUfEr6": {
@@ -72,9 +41,10 @@
         "marign_bottom": 50,
         "text_width": "narrow",
         "title": "",
+        "h_one": false,
         "content": "",
         "button_text": "Scopri tutti i prodotti",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "bg_color": "#ffffff",
         "text_color": "#000000",
         "bt_bg_color": "#e1e3e4",
@@ -87,9 +57,7 @@
   },
   "order": [
     "main",
-    "collection_with_image_MqryXd",
-    "collection_with_image_tAHgm6",
-    "collection_with_image_9LHQYL",
+    "rich_text_g44rFE",
     "rich_text_nUfEr6"
   ]
 }
