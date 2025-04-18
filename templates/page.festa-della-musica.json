@@ -74,26 +74,6 @@
         "link_title": "View all",
         "link_url": ""
       }
-    },
-    "rich_text_nUfEr6": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "narrow",
-        "title": "",
-        "h_one": false,
-        "content": "",
-        "button_text": "Scopri tutti i prodotti",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
-        "bt_bg_color": "#e1e3e4",
-        "bt_text_color": "#000000",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
     }
   },
   "order": [
@@ -101,7 +81,6 @@
     "rich_text_g44rFE",
     "featured_collection_n3BMqX",
     "featured_collection_wAxfiR",
-    "featured_collection_XAdVV9",
-    "rich_text_nUfEr6"
+    "featured_collection_XAdVV9"
   ]
 }
