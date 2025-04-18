@@ -47,6 +47,34 @@
         "link_url": ""
       }
     },
+    "featured_collection_wAxfiR": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "internazionale-promo-pasqua",
+        "title": "INTERNAZIONALE",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_XAdVV9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "musica-italiana-promo-pasqua",
+        "title": "MUSICA ITALIANA",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "rich_text_nUfEr6": {
       "type": "rich-text",
       "settings": {
@@ -72,6 +100,8 @@
     "main",
     "rich_text_g44rFE",
     "featured_collection_n3BMqX",
+    "featured_collection_wAxfiR",
+    "featured_collection_XAdVV9",
     "rich_text_nUfEr6"
   ]
 }
