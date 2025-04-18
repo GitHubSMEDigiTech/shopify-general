@@ -12,10 +12,10 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_QhXTxt": {
+        "image_BtCDQf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BRUCEDESKTOP.png",
+            "image": "shopify://shop_images/2160x720_c7a34d33-7b4a-49d1-b5d1-50eb94c3ff50.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -25,7 +25,23 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/bruce-springsteen-the-lost-albums"
+            "link": "shopify://collections/pink-floyd"
+          }
+        },
+        "image_48XJq4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mostrob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mostro"
           }
         },
         "image_WUWEhB": {
@@ -42,6 +58,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/damiano-david-funny-little-fears"
+          }
+        },
+        "image_QhXTxt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BRUCEDESKTOP.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen-the-lost-albums"
           }
         },
         "image_9gqhmK": {
@@ -76,38 +108,6 @@
             "link": "shopify://collections/salmo-ranch"
           }
         },
-        "image_VwhDEJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_38b51e1f-c22f-429b-ae2e-319d3cefd777.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/arcade-fire-pink-elephant"
-          }
-        },
-        "image_48XJq4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/mostrob2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mostro"
-          }
-        },
         "image_3kGB38": {
           "type": "image",
           "settings": {
@@ -124,10 +124,10 @@
             "link": "shopify://collections/rocco-hunt-ragazzo-di-giu"
           }
         },
-        "image_BtCDQf": {
+        "image_VwhDEJ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_c7a34d33-7b4a-49d1-b5d1-50eb94c3ff50.jpg",
+            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_38b51e1f-c22f-429b-ae2e-319d3cefd777.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -137,7 +137,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/pink-floyd"
+            "link": "shopify://collections/arcade-fire-pink-elephant"
           }
         },
         "image_gjabXL": {
@@ -259,14 +259,14 @@
         }
       },
       "block_order": [
-        "image_QhXTxt",
+        "image_BtCDQf",
+        "image_48XJq4",
         "image_WUWEhB",
+        "image_QhXTxt",
         "image_9gqhmK",
         "image_RpyWXF",
-        "image_VwhDEJ",
-        "image_48XJq4",
         "image_3kGB38",
-        "image_BtCDQf",
+        "image_VwhDEJ",
         "image_gjabXL",
         "image_G3bky7",
         "image_jntpdb",
