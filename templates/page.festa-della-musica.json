@@ -33,6 +33,20 @@
         "padding_bottom": 30
       }
     },
+    "featured_collection_n3BMqX": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "promo-pasqua-25",
+        "title": "CD e Vinili",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "rich_text_nUfEr6": {
       "type": "rich-text",
       "settings": {
@@ -57,6 +71,7 @@
   "order": [
     "main",
     "rich_text_g44rFE",
+    "featured_collection_n3BMqX",
     "rich_text_nUfEr6"
   ]
 }
