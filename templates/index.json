@@ -610,7 +610,7 @@
           "type": "offer",
           "settings": {
             "title": "OFFERTE",
-            "content": "<p>Usa il codice PASQUA25 per ottenere il 20% di sconto su prodotti selezionati. Clicca <a href=\"/pages/promo-pasqua-2025\" title=\"PROMO Pasqua 2025\"><strong>qui </strong></a>per scoprire l'offerta. </p>"
+            "content": "<p>Usa il codice <strong>PASQUA25</strong> per ottenere il 20% di sconto su prodotti selezionati. Clicca <a href=\"/pages/promo-pasqua-2025\" title=\"PROMO Pasqua 2025\"><strong>qui </strong></a>per scoprire l'offerta. </p>"
           }
         }
       },
