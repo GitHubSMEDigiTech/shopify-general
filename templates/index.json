@@ -44,6 +44,22 @@
             "link": "shopify://collections/mostro"
           }
         },
+        "image_RpyWXF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/salmob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo-ranch"
+          }
+        },
         "image_WUWEhB": {
           "type": "image",
           "settings": {
@@ -78,6 +94,7 @@
         },
         "image_9gqhmK": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bannerb2b.nuovo.png",
             "show_overlay": false,
@@ -90,22 +107,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/neffa-canerandagio"
-          }
-        },
-        "image_RpyWXF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/salmob2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/salmo-ranch"
           }
         },
         "image_3kGB38": {
@@ -124,22 +125,6 @@
             "link": "shopify://collections/rocco-hunt-ragazzo-di-giu"
           }
         },
-        "image_VwhDEJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_38b51e1f-c22f-429b-ae2e-319d3cefd777.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/arcade-fire-pink-elephant"
-          }
-        },
         "image_gjabXL": {
           "type": "image",
           "settings": {
@@ -154,6 +139,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/mondo-marcio-credo"
+          }
+        },
+        "image_VwhDEJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_38b51e1f-c22f-429b-ae2e-319d3cefd777.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/arcade-fire-pink-elephant"
           }
         },
         "image_G3bky7": {
@@ -261,13 +262,13 @@
       "block_order": [
         "image_BtCDQf",
         "image_48XJq4",
+        "image_RpyWXF",
         "image_WUWEhB",
         "image_QhXTxt",
         "image_9gqhmK",
-        "image_RpyWXF",
         "image_3kGB38",
-        "image_VwhDEJ",
         "image_gjabXL",
+        "image_VwhDEJ",
         "image_G3bky7",
         "image_jntpdb",
         "image_7WBgFd",
