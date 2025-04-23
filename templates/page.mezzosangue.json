@@ -20,8 +20,8 @@
         "image_HEYPmj": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2000x1047.jpg",
-            "mobile_image": "shopify://shop_images/390x390_a9b0946c-ee90-454a-a490-2e13a99e3f37.jpg",
+            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_Londra.jpg",
+            "mobile_image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerMobile_750x1100_Londra.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -54,10 +54,10 @@
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
-        "text_width": "narrow",
-        "title": "PREORDINA E ACCEDI AL PRESALE PER IL \"VISCERALE TOUR\"",
-        "h_one": false,
-        "content": "<p>Acquista in Preorder il nuovo album di <strong>MezzoSangue</strong> \"<strong>Viscerale</strong>\" in qualsiasi formato su Sony Music Store e accedi al presale dei biglietti per le date del \"<strong>VISCERALE TOUR</strong>\". <br/>Preordinando il nuovo album, dal 12 marzo al 16 marzo ore 18.00, riceverai nei giorni successivi una mail con un codice che ti consentirà di accedere al <strong>presale</strong> aperto il 17 marzo ore 12.00. <br/>Ad ogni ordine verrà inviata una mail con un codice che da accesso al presale di due biglietti. <br/>Assicurati di ricevere la mail: eventuali richieste verranno gestite <strong>entro e non oltre le ore 11.00</strong> del giorno 17 marzo</p>",
+        "text_width": "regular",
+        "title": "PREORDINA E PARTECIPA AL CONCORSO: RADIO FRECCIA TI PORTA A LONDRA ALL'ESCLUSIVO UNDERPLAY DI \"PINK ELEPHANT\" DEGLI ARCADE FIRE",
+        "h_one": true,
+        "content": "<p>Acquista in Preorder il nuovo album degli ARCADE FIRE \"PINK ELEPHANT\" e partecipa al concorso per partecipare all'esclusivo Underplay di \"PINK ELEPHANT\" degli ARCADE FIRE che si terrà il 14/05/2025 presso il Royal Albert di Londra.</p><p><strong>INIZIO CONCORSO</strong>: dal 25 aprile 2025 ore 00.01<br/><strong>FINE CONCORSO</strong>: al 01 maggio 2025 ore 23.59</p><p><strong>TERMINE ULTIMO DI REGISTRAZIONE </strong>DEL CODICE: 02 maggio 2025 ore 13.00</p><p><strong>DATA ESTRAZIONE</strong>: 05 maggio 2025 ore 14.00</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#ffffff",
@@ -65,6 +65,26 @@
         "bt_bg_color": "#ffffff",
         "bt_text_color": "#000000",
         "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "rich_text_gwxWDt": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "wide",
+        "title": "MONTEPREMI",
+        "h_one": false,
+        "content": "<p><strong>n. 2 pacchetti viaggio</strong> a Londra per n. 2 persone cad. per assistere all’underplay del nuovo album di Arcade Fire “Pink Elephant” che si terrà il 14/05/2025 presso Royal Albert Hall di Londra del valore di € 4.000,00 cad. composti da:</p><ul><li><strong>volo A/R da Milano o Roma</strong> con partenza il 14 maggio 2025 e ritorno il 15 maggio 2025 (la scelta del volo e degli orari di partenza sarà a discrezione della società promotrice e comunicata ai vincitori e non potrà essere modificata)</li><li><strong>trasferimento </strong>dall’aeroporto di Londra all’hotel e viceversa,</li><li><strong>trasferimento </strong>dall’hotel al luogo dell’evento e viceversa</li><li><strong>pernottamento </strong>in Hotel di categoria 4 stelle a Londra (vincitore + accompagnatore) in camera doppia (pernottamento e prima colazione)</li><li>si specifica che tutte le spese derivanti da ogni prestazione non incluse nel presente elenco saranno a carico dei vincitori (in via esemplificativa, ma non esaustiva: trasferimento dalla residenza del vincitore all’aeroporto di partenza e viceversa)</li></ul><p>MONTEPREMI TOTALE: € 8.000,00</p><p>Clicca <strong>qui </strong>per consultare il regolamento completo</p>",
+        "button_text": "",
+        "button_link": "",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
         "padding_top": 30,
         "padding_bottom": 30
       }
@@ -82,33 +102,13 @@
         "link_title": "",
         "link_url": ""
       }
-    },
-    "rich_text_r3ahMN": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "regular",
-        "title": "",
-        "h_one": false,
-        "content": "<p><strong>\"VISCERALE TOUR\" </strong>le date:</p><p><strong>25 OTTOBRE</strong> - ROMA, ORION <br/><strong>3 NOVEMBRE</strong> - MILANO, ALCATRAZ <br/><strong>5 NOVEMBRE</strong> - FIRENZE, TEATRO CARTIERE CARRARA <br/><strong>7 NOVEMBRE</strong> - PERUGIA URBAN <br/><strong>8 NOVEMBRE</strong> - SENIGALLIA (AN), MAMAMIA <br/><strong>14 NOVEMBRE</strong> - PADOVA, HALL <br/><strong>21 NOVEMBRE</strong> - NAPOLI, CASA DELLA MUSICA <br/><strong>22 NOVEMBRE</strong> - BOLOGNA, ESTRAGON </p>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
     }
   },
   "order": [
     "main",
     "slideshow_BmJg3b",
     "rich_text_mNrLEw",
-    "featured_collection_rkceyW",
-    "rich_text_r3ahMN"
+    "rich_text_gwxWDt",
+    "featured_collection_rkceyW"
   ]
 }
