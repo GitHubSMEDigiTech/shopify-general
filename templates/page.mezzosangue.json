@@ -69,6 +69,20 @@
         "padding_bottom": 30
       }
     },
+    "featured_collection_rkceyW": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "arcade-fire",
+        "title": "PINK ELEPHANT",
+        "products_count": 4,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
     "rich_text_gwxWDt": {
       "type": "rich-text",
       "settings": {
@@ -88,27 +102,13 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
-    },
-    "featured_collection_rkceyW": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "arcade-fire",
-        "title": "PINK ELEPHANT",
-        "products_count": 4,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "",
-        "link_url": ""
-      }
     }
   },
   "order": [
     "main",
     "slideshow_BmJg3b",
     "rich_text_mNrLEw",
-    "rich_text_gwxWDt",
-    "featured_collection_rkceyW"
+    "featured_collection_rkceyW",
+    "rich_text_gwxWDt"
   ]
 }
