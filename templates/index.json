@@ -11,14 +11,13 @@
   "sections": {
     "rich_text_Yjrb3a": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 20,
         "marign_bottom": 20,
         "text_width": "narrow",
         "title": "",
         "h_one": false,
-        "content": "<p><strong>We ship also to Europe (excluding </strong><span style=\"text-decoration:underline\"><strong>UK)</strong></span><strong>  </strong></p>",
+        "content": "<p><strong>AVVISO IMPORTANTE: possibili ritardi nelle consegne durante le festività</strong></p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#c5161c",
