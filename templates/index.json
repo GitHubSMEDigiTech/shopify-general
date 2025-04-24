@@ -415,10 +415,10 @@
         "image_nMajwq"
       ],
       "settings": {
-        "edge_to_edge": true,
+        "edge_to_edge": false,
         "section_size": "large",
         "mobile_section_size": "",
-        "carousel_effect": "fade",
+        "carousel_effect": "slide",
         "autoplay": true,
         "show_arrows": false,
         "show_dots": false,
