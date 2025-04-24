@@ -415,7 +415,7 @@
         "image_nMajwq"
       ],
       "settings": {
-        "edge_to_edge": false,
+        "edge_to_edge": true,
         "section_size": "large",
         "mobile_section_size": "",
         "carousel_effect": "slide",
