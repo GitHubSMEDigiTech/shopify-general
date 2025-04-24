@@ -291,14 +291,13 @@
     },
     "rich_text_GKqCHN": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
         "text_width": "narrow",
         "title": "ATTENZIONE",
         "h_one": false,
-        "content": "<p>Si ricorda che per poter ricevere i prodotti<br/>prima di Natale, è necessario inserire i relativi ordini <strong>entro la sera di<br/>domenica 15 dicembre</strong></p>",
+        "content": "<p>Possibili ritardi nelle consegne durante le festività (Pasqua, 25 Aprile, 1 Maggio)</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#c5161c",
