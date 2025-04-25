@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_h3qFbw": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Unbenannt.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/jakkomjakszyksonofglenjpg-79200.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Jakko M Jakszyk",
+            "head_color": "#ffffff",
+            "subtitle": "Son of glen",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold transp. red LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "June 27",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Jakko%20M%20Jakszyk"
+          }
+        },
         "banner_mfGRED": {
           "type": "banner",
           "settings": {
@@ -252,50 +274,6 @@
             "link": "https://www.insideoutshop.de/de/collections/vendors?q=The+Flower+Kings&sort_by=created-descending"
           }
         },
-        "banner_z7LYfY": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/01.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/cosmiccathedraldeepwaterjpg_77064124-5146-4ed9-8a60-a50076b2ec1e.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#000000",
-            "title": "cosmic cathedral",
-            "head_color": "#e4ce93",
-            "subtitle": "deep water",
-            "subhead_color": "#e4ce93",
-            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold transp. green 2LP",
-            "content_color": "#e4ce93",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "April 25",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Cosmic+Cathedral&sort_by=created-descending"
-          }
-        },
-        "banner_ELe4Dh": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Benthos.png",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Benthos_FromNothing.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Benthos",
-            "head_color": "#ffffff",
-            "subtitle": "From Nothing",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nLtd. clear-black marbled LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "April 11",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Benthos"
-          }
-        },
         "9868648a-affa-4d67-be87-afd569870a56": {
           "type": "banner",
           "disabled": true,
@@ -320,6 +298,7 @@
         }
       },
       "block_order": [
+        "banner_h3qFbw",
         "banner_mfGRED",
         "banner_QFMqha",
         "banner_7thMAw",
@@ -329,8 +308,6 @@
         "banner_MQXjx7",
         "banner_UdUdax",
         "banner_Yk6J4R",
-        "banner_z7LYfY",
-        "banner_ELe4Dh",
         "9868648a-affa-4d67-be87-afd569870a56"
       ],
       "settings": {
