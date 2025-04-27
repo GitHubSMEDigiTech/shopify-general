@@ -375,7 +375,6 @@
         },
         "image_NNfHar": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bruce.png",
             "show_overlay": false,
