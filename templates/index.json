@@ -124,6 +124,22 @@
             "link": "shopify://collections/partynextdoor-drake"
           }
         },
+        "image_H3nExt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_15.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/a-minute-a-moment"
+          }
+        },
         "image_jntpdb": {
           "type": "image",
           "settings": {
@@ -234,6 +250,7 @@
         "image_QhXTxt",
         "image_VwhDEJ",
         "image_G3bky7",
+        "image_H3nExt",
         "image_jntpdb",
         "image_9gqhmK",
         "image_7WBgFd",
