@@ -76,6 +76,22 @@
             "link": "shopify://collections/damiano-david-funny-little-fears"
           }
         },
+        "image_HcWLEB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ketamab2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/ketama126-33"
+          }
+        },
         "image_QhXTxt": {
           "type": "image",
           "settings": {
@@ -247,6 +263,7 @@
         "image_48XJq4",
         "image_RpyWXF",
         "image_WUWEhB",
+        "image_HcWLEB",
         "image_QhXTxt",
         "image_VwhDEJ",
         "image_G3bky7",
