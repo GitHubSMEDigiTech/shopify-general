@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_7mHF3H": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/signs.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/SignsOfTheSwarm_ToRidMyselfOfTruth.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Signs Of The Swarm",
+            "head_color": "#ffffff",
+            "subtitle": "To Rid Myself Of Truth",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold black LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "August 22",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_AhTzh7": {
           "type": "banner",
           "settings": {
@@ -321,6 +343,7 @@
         }
       },
       "block_order": [
+        "banner_7mHF3H",
         "banner_AhTzh7",
         "banner_jt9q4L",
         "banner_yPgpCR",
