@@ -56,7 +56,6 @@
       "blocks": {
         "banner_7mHF3H": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/signs.jpg",
             "bg_color": "#eeeeee",
