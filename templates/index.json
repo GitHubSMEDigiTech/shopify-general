@@ -138,8 +138,8 @@
         "image_eUhDX7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_0cd42bad-7d8f-4acf-b2f1-d15de3561426.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_0480e4a3-e580-41b5-b1f2-b4a0cd6c3ec0.jpg",
+            "image": "shopify://shop_images/mostroDesktop.png",
+            "mobile_image": "shopify://shop_images/mostroMobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
