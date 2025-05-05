@@ -358,9 +358,8 @@
       "blocks": {
         "image_yDTjqP": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2160x720_14.jpg",
+            "image": "shopify://shop_images/pinkfloyddesktop.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
