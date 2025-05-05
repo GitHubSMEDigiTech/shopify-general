@@ -11,6 +11,7 @@
   "sections": {
     "rich_text_Yjrb3a": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "marign_top": 20,
         "marign_bottom": 20,
