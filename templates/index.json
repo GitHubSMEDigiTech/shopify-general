@@ -205,6 +205,7 @@
         },
         "image_wfGmGy": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_04e1e8c6-d421-43d8-967d-804ff9d24dbc.jpg",
             "mobile_image": "shopify://shop_images/750x1100_53b71188-b8d7-4d3b-a700-082bf5880b25.jpg",
@@ -222,6 +223,7 @@
         },
         "image_FV8WFP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_44615b49-fa10-47a7-bc7f-7d333bce126b.jpg",
             "mobile_image": "shopify://shop_images/750x1100_67386fa6-569d-43c5-bf54-719cc672bdf9.jpg",
