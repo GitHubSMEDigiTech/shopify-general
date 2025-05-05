@@ -467,8 +467,8 @@
         "image_GA7emn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_f3a721d1-6770-44f8-af49-ced8da0c2431.jpg",
-            "mobile_image": "shopify://shop_images/pinkFloyd_mobile_png_da2a47c7-4599-4352-9b29-58b58768eef7.png",
+            "image": "shopify://shop_images/pinkfloyddesktop.png",
+            "mobile_image": "shopify://shop_images/pinkfloydMobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
