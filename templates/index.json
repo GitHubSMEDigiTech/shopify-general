@@ -50,23 +50,6 @@
             "link": "shopify://collections/alessandra-amoroso"
           }
         },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Desktop_SALMO_62b07d6d-6ed1-4ff4-a184-35b9a074b9bb.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_SALMO_735fb025-f5ba-4e20-a751-708c64aed51c.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/salmo"
-          }
-        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -82,6 +65,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/claudio-baglioni"
+          }
+        },
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_SALMO_62b07d6d-6ed1-4ff4-a184-35b9a074b9bb.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_SALMO_735fb025-f5ba-4e20-a751-708c64aed51c.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo"
           }
         },
         "image_hhc4xB": {
@@ -274,8 +274,8 @@
       },
       "block_order": [
         "image_wfGmGy",
-        "image_zLLxyF",
         "image_FV8WFP",
+        "image_zLLxyF",
         "image_hhc4xB",
         "image_G3f6rF",
         "image_4T4yhV",
