@@ -28,6 +28,22 @@
             "link": "shopify://collections/damiano-david-funny-little-fears"
           }
         },
+        "image_ffXwbh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/baglionib2b.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/claudio-baglioni-la-vita-e-adesso_il-sogno-e-sempre"
+          }
+        },
         "image_RpyWXF": {
           "type": "image",
           "settings": {
@@ -261,6 +277,7 @@
       },
       "block_order": [
         "image_WUWEhB",
+        "image_ffXwbh",
         "image_RpyWXF",
         "image_BtCDQf",
         "image_HcWLEB",
