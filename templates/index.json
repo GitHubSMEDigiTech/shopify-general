@@ -103,8 +103,9 @@
         },
         "image_hhc4xB": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_Londra.jpg",
+            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_69d080dc-a205-4ba8-850a-4d93a039cea1.jpg",
             "mobile_image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerMobile_750x1100_Londra.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
