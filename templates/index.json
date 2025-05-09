@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_QWzaAc": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/hackett.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/SteveHackett_TheLambStandsUpLiveAtTheRoyalAlbertHall.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Steve Hackett",
+            "head_color": "#ffffff",
+            "subtitle": "The Lamb Stands Up Live At The Royal Albert Hall",
+            "subhead_color": "#eeeeee",
+            "content": "Special Edition 2CD+Blu-ray Digipak in Slipcase\nLtd. Deluxe black 4LP & LP-Booklet Box Set\nLtd. Deluxe lilac 4LP & LP-Booklet Box Set",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "July 11",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_h3qFbw": {
           "type": "banner",
           "settings": {
@@ -298,6 +320,7 @@
         }
       },
       "block_order": [
+        "banner_QWzaAc",
         "banner_h3qFbw",
         "banner_mfGRED",
         "banner_QFMqha",
