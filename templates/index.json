@@ -224,8 +224,8 @@
         "image_eUhDX7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/mostroDesktop.png",
-            "mobile_image": "shopify://shop_images/mostroMobile.png",
+            "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_69d080dc-a205-4ba8-850a-4d93a039cea1.jpg",
+            "mobile_image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerMobile_750x1100_60fceb1a-3555-45fe-a636-aa004f53f566.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
