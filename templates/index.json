@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_69ece3fc-c12d-42e6-aba3-7847a0065671.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_080f1e31-371d-4afd-a01a-ab6705f32813.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -255,23 +272,6 @@
             "link": "shopify://collections/partynextdoor"
           }
         },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_69ece3fc-c12d-42e6-aba3-7847a0065671.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_080f1e31-371d-4afd-a01a-ab6705f32813.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/damiano-david"
-          }
-        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -291,6 +291,7 @@
         }
       },
       "block_order": [
+        "image_QQwqrR",
         "image_wfGmGy",
         "image_FV8WFP",
         "image_zLLxyF",
@@ -304,7 +305,6 @@
         "image_eUhDX7",
         "image_3wJqzQ",
         "image_NDBHHY",
-        "image_QQwqrR",
         "image_9kfgaA"
       ],
       "settings": {
