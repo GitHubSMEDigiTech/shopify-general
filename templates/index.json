@@ -12,38 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_ffXwbh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/baglionib2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/claudio-baglioni-la-vita-e-adesso_il-sogno-e-sempre"
-          }
-        },
-        "image_QVbpj9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/amorosob2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/alessandra-amoroso-io-non-sarei"
-          }
-        },
         "image_WUWEhB": {
           "type": "image",
           "settings": {
@@ -74,6 +42,38 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/salmo-ranch"
+          }
+        },
+        "image_ffXwbh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/baglionib2b.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/claudio-baglioni-la-vita-e-adesso_il-sogno-e-sempre"
+          }
+        },
+        "image_QVbpj9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/amorosob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/alessandra-amoroso-io-non-sarei"
           }
         },
         "image_BtCDQf": {
@@ -276,10 +276,10 @@
         }
       },
       "block_order": [
-        "image_ffXwbh",
-        "image_QVbpj9",
         "image_WUWEhB",
         "image_RpyWXF",
+        "image_ffXwbh",
+        "image_QVbpj9",
         "image_BtCDQf",
         "image_HcWLEB",
         "image_48XJq4",
