@@ -67,6 +67,23 @@
             "link": "shopify://collections/damiano-david"
           }
         },
+        "image_HciHCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_ad4f7ee7-628e-4217-b0ab-09e3b1626ce5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_3f7bbc86-712a-4d84-ab92-ee49f5737a89.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/jade"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -309,6 +326,7 @@
       "block_order": [
         "image_DjX6Ay",
         "image_QQwqrR",
+        "image_HciHCp",
         "image_hhc4xB",
         "image_wfGmGy",
         "image_FV8WFP",
