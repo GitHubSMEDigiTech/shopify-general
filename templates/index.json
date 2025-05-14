@@ -377,6 +377,7 @@
       "blocks": {
         "image_yDTjqP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pinkfloyddesktop.png",
             "show_overlay": false,
@@ -454,6 +455,7 @@
       "blocks": {
         "item_YhampT": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/records-for-sale.jpg",
             "show_overlay": true,
@@ -505,7 +507,6 @@
       "block_order": [
         "item_nFDWVx"
       ],
-      "disabled": true,
       "settings": {
         "expand_items": true,
         "section_size": "small",
