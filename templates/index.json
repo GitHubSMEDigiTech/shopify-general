@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_DjX6Ay": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_7625ec3a-8f85-44f1-98a3-262c2785df32.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_bc9126fe-2033-4d31-af2e-45f323edc622.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/fabri-fibra"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -290,6 +307,7 @@
         }
       },
       "block_order": [
+        "image_DjX6Ay",
         "image_QQwqrR",
         "image_hhc4xB",
         "image_wfGmGy",
