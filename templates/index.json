@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_Xinnbq": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Lorna.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/LornaShore_IFeelTheEverblackFestering.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Lorna Shore",
+            "head_color": "#ffffff",
+            "subtitle": "I Feel The Everblack Festering Within Me",
+            "subhead_color": "#ffffff",
+            "content": "Gatefold black 2LP\nLtd. CD Edition in O-Card\nLtd. Gatefold dark blue marbled 2LP\nLtd. Deluxe Gatefold golden 2LP & Slipmat in O-Card",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 12",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Lorna%20Shore&sort_by=created-descending"
+          }
+        },
         "banner_7mHF3H": {
           "type": "banner",
           "settings": {
@@ -188,6 +210,7 @@
         },
         "banner_rqFXx6": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/kanofi.jpg",
             "bg_color": "#eeeeee",
@@ -210,6 +233,7 @@
         },
         "banner_PKKjCY": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bi.jpg",
             "bg_color": "#eeeeee",
@@ -252,29 +276,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Vildhjarta&sort_by=created-descending"
           }
         },
-        "banner_Xinnbq": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Lorna.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/LornaShore_IFeelTheEverblackFestering.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Lorna Shore",
-            "head_color": "#ffffff",
-            "subtitle": "I Feel The Everblack Festering Within Me",
-            "subhead_color": "#ffffff",
-            "content": "Gatefold black 2LP\nLtd. CD Edition in O-Card\nLtd. Gatefold dark blue marbled 2LP\nLtd. Deluxe Gatefold golden 2LP & Slipmat in O-Card",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 12",
-            "preorder_msg_color": "#000000",
-            "link": ""
-          }
-        },
         "banner_LzEQrJ": {
           "type": "banner",
           "disabled": true,
@@ -300,6 +301,7 @@
         },
         "banner_PnktfH": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/cal.jpg",
             "bg_color": "#eeeeee",
@@ -345,6 +347,7 @@
         }
       },
       "block_order": [
+        "banner_Xinnbq",
         "banner_7mHF3H",
         "banner_AhTzh7",
         "banner_jt9q4L",
@@ -354,7 +357,6 @@
         "banner_rqFXx6",
         "banner_PKKjCY",
         "banner_hLdNHw",
-        "banner_Xinnbq",
         "banner_LzEQrJ",
         "banner_PnktfH",
         "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
