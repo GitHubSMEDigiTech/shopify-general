@@ -50,23 +50,6 @@
             "link": "shopify://collections/damiano-david"
           }
         },
-        "image_FwMKHm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_4caaaf7d-d399-40d4-bfef-274262e6211c.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_6689ac71-4575-4260-851e-e9c92ece978b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/wolf-alice"
-          }
-        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -82,6 +65,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/fabri-fibra"
+          }
+        },
+        "image_FwMKHm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_4caaaf7d-d399-40d4-bfef-274262e6211c.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_6689ac71-4575-4260-851e-e9c92ece978b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/wolf-alice"
           }
         },
         "image_HciHCp": {
@@ -239,6 +239,7 @@
         },
         "image_XHmBAC": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_18.jpg",
             "mobile_image": "shopify://shop_images/750x1100_16.jpg",
@@ -342,8 +343,8 @@
       },
       "block_order": [
         "image_QQwqrR",
-        "image_FwMKHm",
         "image_DjX6Ay",
+        "image_FwMKHm",
         "image_HciHCp",
         "image_hhc4xB",
         "image_wfGmGy",
