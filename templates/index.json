@@ -70,8 +70,8 @@
         "image_FwMKHm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_4caaaf7d-d399-40d4-bfef-274262e6211c.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_6689ac71-4575-4260-851e-e9c92ece978b.jpg",
+            "image": "shopify://shop_images/2160x720_55f7fe38-8eab-4ded-ac75-69b12d5cdcd0.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_bdeace45-d035-47f6-b7a4-fcd7f54c4909.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
