@@ -154,6 +154,7 @@
         },
         "image_zLLxyF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_SALMO_62b07d6d-6ed1-4ff4-a184-35b9a074b9bb.jpg",
             "mobile_image": "shopify://shop_images/Mobile_SALMO_735fb025-f5ba-4e20-a751-708c64aed51c.jpg",
