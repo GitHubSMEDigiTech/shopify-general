@@ -31,8 +31,8 @@
         "image_WUWEhB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_13.jpg",
-            "show_overlay": true,
+            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
+            "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
