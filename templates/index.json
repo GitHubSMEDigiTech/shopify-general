@@ -254,28 +254,30 @@
         },
         "banner_Xinnbq": {
           "type": "banner",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/tripEpari.png",
+            "image": "shopify://shop_images/Lorna.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Triptykon_EparisteraDaimones_Reissue_2025.jpg",
+            "cover_image": "shopify://shop_images/LornaShore_IFeelTheEverblackFestering.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
-            "title": "Triptykon",
+            "title": "Lorna Shore",
             "head_color": "#ffffff",
-            "subtitle": "Eparistera Daimones (Re-issue 2025)",
+            "subtitle": "I Feel The Everblack Festering Within Me",
             "subhead_color": "#ffffff",
-            "content": "Ltd. Gatefold lilac 2LP & 2xPoster\nLtd. Gatefold grey 2LP & 2xPoster",
+            "content": "Gatefold black 2LP\nLtd. CD Edition in O-Card\nLtd. Gatefold dark blue marbled 2LP\nLtd. Deluxe Gatefold golden 2LP & Slipmat in O-Card",
             "content_color": "#ffffff",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
-            "preorder_msg": "May 2",
+            "preorder_msg": "September 12",
             "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Triptykon&sort_by=created-descending"
+            "link": ""
           }
         },
         "banner_LzEQrJ": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/TripMelana.png",
             "bg_color": "#eeeeee",
