@@ -56,7 +56,6 @@
       "blocks": {
         "banner_Xinnbq": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Lorna.jpg",
             "bg_color": "#eeeeee",
