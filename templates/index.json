@@ -540,8 +540,8 @@
         "image_GA7emn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_69ece3fc-c12d-42e6-aba3-7847a0065671.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_080f1e31-371d-4afd-a01a-ab6705f32813.jpg",
+            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
+            "mobile_image": "shopify://shop_images/750x1100FuoriOra.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
