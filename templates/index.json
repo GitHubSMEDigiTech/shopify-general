@@ -273,6 +273,7 @@
         },
         "image_eUhDX7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerDesktop_2160x720_69d080dc-a205-4ba8-850a-4d93a039cea1.jpg",
             "mobile_image": "shopify://shop_images/ArcadeFire_PinkElephant_BannerMobile_750x1100_60fceb1a-3555-45fe-a636-aa004f53f566.jpg",
@@ -307,6 +308,7 @@
         },
         "image_NDBHHY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PND_BannerDesktop_2160x720_3428edaa-baf6-4cae-bb2a-e5fea4601cb4.jpg",
             "mobile_image": "shopify://shop_images/PND_BannerMobile_750x1100_cb14aa89-e2ac-4be6-b411-3741a51c0d8d.jpg",
