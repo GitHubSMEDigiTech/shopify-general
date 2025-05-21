@@ -28,22 +28,6 @@
             "link": "shopify://collections/bresh-mediterraneo"
           }
         },
-        "image_WUWEhB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/damiano-david-funny-little-fears"
-          }
-        },
         "image_n7CPDY": {
           "type": "image",
           "settings": {
@@ -58,6 +42,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/fabri-fibra-mentre-los-angeles-brucia"
+          }
+        },
+        "image_WUWEhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david-funny-little-fears"
           }
         },
         "image_RpyWXF": {
@@ -156,22 +156,6 @@
             "link": "shopify://collections/pink-floyd"
           }
         },
-        "image_QhXTxt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BRUCEDESKTOP.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bruce-springsteen-the-lost-albums"
-          }
-        },
         "image_QD3jiU": {
           "type": "image",
           "settings": {
@@ -186,6 +170,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/fuori-menu"
+          }
+        },
+        "image_QhXTxt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BRUCEDESKTOP.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen-the-lost-albums"
           }
         },
         "image_H3nExt": {
@@ -291,16 +291,16 @@
       },
       "block_order": [
         "image_7G4dBj",
-        "image_WUWEhB",
         "image_n7CPDY",
+        "image_WUWEhB",
         "image_RpyWXF",
         "image_ffXwbh",
         "image_QVbpj9",
         "image_HcWLEB",
         "image_UFqddC",
         "image_BtCDQf",
-        "image_QhXTxt",
         "image_QD3jiU",
+        "image_QhXTxt",
         "image_H3nExt",
         "image_jntpdb",
         "image_7WBgFd",
