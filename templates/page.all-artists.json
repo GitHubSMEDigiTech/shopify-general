@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
     },
     "collection_list_G4BxWk": {
@@ -69,6 +70,7 @@
         "collection_C4PjmV",
         "collection_XA8B7k"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "link_title": "View all",
