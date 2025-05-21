@@ -79,7 +79,6 @@
     },
     "list_of_vendors_tFVzar": {
       "type": "list-of-vendors",
-      "disabled": true,
       "settings": {
         "text_color": "#444444",
         "bg_color": "#eeeeee",
