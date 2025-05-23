@@ -205,6 +205,22 @@
             "link": "shopify://products/a-minute-a-moment"
           }
         },
+        "image_C8VMXJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_JADE.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/jade"
+          }
+        },
         "image_jntpdb": {
           "type": "image",
           "settings": {
@@ -303,6 +319,7 @@
         "image_QD3jiU",
         "image_QhXTxt",
         "image_H3nExt",
+        "image_C8VMXJ",
         "image_jntpdb",
         "image_7WBgFd",
         "image_a7atqp",
