@@ -540,8 +540,8 @@
         "image_GA7emn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
-            "mobile_image": "shopify://shop_images/750x1100FuoriOra.jpg",
+            "image": "shopify://shop_images/2160x720_9d4ea29a-fc6b-4cb0-a949-fcd49beefcf5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_c2bb8ed7-9bea-4f2e-aaab-0e4a0b96a305.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -551,7 +551,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/damiano-david"
+            "link": "shopify://collections/bresh"
           }
         }
       },
