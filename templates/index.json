@@ -67,11 +67,11 @@
             "link": "shopify://collections/fabri-fibra"
           }
         },
-        "image_XHmBAC": {
+        "image_QQwqrR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_2.png",
-            "mobile_image": "shopify://shop_images/750x1100_4_1.png",
+            "image": "shopify://shop_images/2160x720_df6db042-8d84-4fef-8670-e4733017f97c.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_f7f2960c-1cb7-4850-904f-755bfefefcab.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -81,7 +81,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/ketama126"
+            "link": "shopify://products/scrivero-il-tuo-nome-live-angelo-venti-edition"
           }
         },
         "image_FwMKHm": {
@@ -152,6 +152,23 @@
             "link": "shopify://collections/i-cani"
           }
         },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_2.png",
+            "mobile_image": "shopify://shop_images/750x1100_4_1.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/ketama126"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -167,23 +184,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/alessandra-amoroso"
-          }
-        },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
-            "mobile_image": "shopify://shop_images/750x1100FuoriOra.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/damiano-david"
           }
         },
         "image_FV8WFP": {
@@ -327,7 +327,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/pinkfloyddesktop.png",
-            "mobile_image": "shopify://shop_images/pinkFloyd_mobile_png_da2a47c7-4599-4352-9b29-58b58768eef7.png",
+            "mobile_image": "shopify://shop_images/pinkfloydMobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -344,13 +344,13 @@
       "block_order": [
         "image_eUhDX7",
         "image_DjX6Ay",
-        "image_XHmBAC",
+        "image_QQwqrR",
         "image_FwMKHm",
         "image_zLLxyF",
         "image_HciHCp",
         "image_hhc4xB",
+        "image_XHmBAC",
         "image_wfGmGy",
-        "image_QQwqrR",
         "image_FV8WFP",
         "image_x47WFh",
         "image_x98LVH",
