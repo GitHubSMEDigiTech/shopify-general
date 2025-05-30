@@ -373,6 +373,22 @@
     "slideshow_gwyfxw": {
       "type": "slideshow",
       "blocks": {
+        "image_PPrT7V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Bresh.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 20,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bresh-mediterraneo"
+          }
+        },
         "image_yDTjqP": {
           "type": "image",
           "settings": {
@@ -424,6 +440,7 @@
         }
       },
       "block_order": [
+        "image_PPrT7V",
         "image_yDTjqP",
         "image_NNfHar",
         "image_nMajwq"
