@@ -78,6 +78,7 @@
         },
         "image_UFqddC": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_Chiamamifaro.jpg",
             "show_overlay": false,
