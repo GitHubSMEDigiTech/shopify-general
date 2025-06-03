@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_14ceba7a-3960-4f9c-93fc-ddd21ca0b89a.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a580447d-ee8f-4fdd-8d5a-302fba3d0c66.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/dj-shocca"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -150,23 +167,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/i-cani"
-          }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_2.png",
-            "mobile_image": "shopify://shop_images/750x1100_4_1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/ketama126"
           }
         },
         "image_wfGmGy": {
@@ -342,6 +342,7 @@
         }
       },
       "block_order": [
+        "image_XHmBAC",
         "image_eUhDX7",
         "image_DjX6Ay",
         "image_QQwqrR",
@@ -349,7 +350,6 @@
         "image_zLLxyF",
         "image_HciHCp",
         "image_hhc4xB",
-        "image_XHmBAC",
         "image_wfGmGy",
         "image_FV8WFP",
         "image_x47WFh",
