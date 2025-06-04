@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_RiYqNL": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/orbit.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/OrbitCulture_DeathAboveLife.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Orbit Culture",
+            "head_color": "#eeeeee",
+            "subtitle": "Death Above Life",
+            "subhead_color": "#eeeeee",
+            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold greenish ReVinyl 2LP",
+            "content_color": "#eeeeee",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_Xinnbq": {
           "type": "banner",
           "settings": {
@@ -208,52 +230,6 @@
             "link": "https://www.cmdistro.de/de/collections/vendors?q=Orthodox&sort_by=created-descending"
           }
         },
-        "banner_rqFXx6": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/kanofi.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Kanonenfieber_LiveInOberhausen_f57dc1be-d4e0-4ce8-ad8a-0bb3542166f7.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ccc7ab",
-            "title": "kanonenfieber",
-            "head_color": "#ccc7ab",
-            "subtitle": "live in oberhausen",
-            "subhead_color": "#ccc7ab",
-            "content": "Ltd. CD+Blu-ray Digipak\nGatefold black 2LP\nLtd. Gatefold transp. orange 2LP",
-            "content_color": "#ccc7ab",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "april 18",
-            "preorder_msg_color": "#36453e",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Kanonenfieber&sort_by=created-descending"
-          }
-        },
-        "banner_PKKjCY": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/bi.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/BloodIncantation_HiddenHistoryOfTheHumanRace.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#9d8d50",
-            "title": "blood incantation",
-            "head_color": "#60bb46",
-            "subtitle": "Hidden History of the Human Race (Re-issue 2025)",
-            "subhead_color": "#60bb46",
-            "content": "List of ReleasesGatefold transp. coke bottle green LP & Booklet\nLtd. Gatefold Sparkle Universe LP & Booklet\nLtd. Gatefold neon yellow LP & Booklet",
-            "content_color": "#60bb46",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "rgba(0,0,0,0)",
-            "show_preorder": true,
-            "preorder_msg": "april 18",
-            "preorder_msg_color": "#60bb46",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Blood+Incantation&sort_by=created-descending"
-          }
-        },
         "banner_hLdNHw": {
           "type": "banner",
           "settings": {
@@ -275,78 +251,10 @@
             "preorder_msg_color": "#b80000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Vildhjarta&sort_by=created-descending"
           }
-        },
-        "banner_LzEQrJ": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/TripMelana.png",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Triptykon_MelanaChasmata_Reissue_2025.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Triptykon",
-            "head_color": "#ffffff",
-            "subtitle": "Melana Chasmata (Re-issue 2025)",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Gatefold deep blood red 2LP & LP-Booklet & 2xPoster\nLtd. Gatefold blue 2LP & LP-Booklet & 2xPoster",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "May 2",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Triptykon&sort_by=created-descending"
-          }
-        },
-        "banner_PnktfH": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/cal.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/calibanbackfromhelljpg_e8eb437e-c0f9-4a87-9fb1-784d53fed2fe.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#f7e2c7",
-            "title": "caliban",
-            "head_color": "#f7e2c7",
-            "subtitle": "back from hell",
-            "subhead_color": "#812123",
-            "content": "Ltd. CD Digipak & Branded Air Freshener\nblack LP\nLtd. creamy white LP\nLtd. olive green LP + Tote Bag + Autograph card",
-            "content_color": "#f7e2c7",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#f7e2c7",
-            "show_preorder": true,
-            "preorder_msg": "april 25",
-            "preorder_msg_color": "#812123",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Caliban&sort_by=created-descending"
-          }
-        },
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/blowout.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/cm_logo.png",
-            "cover_effect": "shadow",
-            "cover_color": "#ffffff",
-            "title": "midprice blowout",
-            "head_color": "#ffffff",
-            "subtitle": "on selected catalog titles",
-            "subhead_color": "#540601",
-            "content": "be quick - only available while supplies last",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "click to enter the vault!",
-            "preorder_msg_color": "#ad141f",
-            "link": "https://www.cmdistro.de/collections/midprice-blowout"
-          }
         }
       },
       "block_order": [
+        "banner_RiYqNL",
         "banner_Xinnbq",
         "banner_7mHF3H",
         "banner_AhTzh7",
@@ -354,12 +262,7 @@
         "banner_yPgpCR",
         "banner_TAd3Ef",
         "banner_iQn3Xh",
-        "banner_rqFXx6",
-        "banner_PKKjCY",
-        "banner_hLdNHw",
-        "banner_LzEQrJ",
-        "banner_PnktfH",
-        "dbfa430a-1bf6-4c22-bbce-8a658cc186d2"
+        "banner_hLdNHw"
       ],
       "settings": {
         "edge_to_edge": true,
