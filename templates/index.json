@@ -93,22 +93,6 @@
             "link": "shopify://products/lost-found"
           }
         },
-        "image_WUWEhB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/damiano-david-funny-little-fears"
-          }
-        },
         "image_RpyWXF": {
           "type": "image",
           "settings": {
@@ -123,6 +107,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/salmo-ranch"
+          }
+        },
+        "image_WUWEhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720FuoriOra.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david-funny-little-fears"
           }
         },
         "image_BtCDQf": {
@@ -207,7 +207,6 @@
         },
         "image_7WBgFd": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_8.jpg",
             "show_overlay": false,
@@ -280,8 +279,8 @@
         "image_QVbpj9",
         "image_n7CPDY",
         "image_UFqddC",
-        "image_WUWEhB",
         "image_RpyWXF",
+        "image_WUWEhB",
         "image_BtCDQf",
         "image_QhXTxt",
         "image_H3nExt",
@@ -372,24 +371,9 @@
     "slideshow_gwyfxw": {
       "type": "slideshow",
       "blocks": {
-        "image_PPrT7V": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Bresh.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 20,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bresh-mediterraneo"
-          }
-        },
         "image_yDTjqP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pinkfloyddesktop.png",
             "show_overlay": false,
@@ -439,7 +423,6 @@
         }
       },
       "block_order": [
-        "image_PPrT7V",
         "image_yDTjqP",
         "image_NNfHar",
         "image_nMajwq"
