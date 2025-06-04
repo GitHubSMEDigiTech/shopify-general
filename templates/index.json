@@ -76,6 +76,22 @@
             "link": "shopify://collections/fabri-fibra-mentre-los-angeles-brucia"
           }
         },
+        "image_QhXTxt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BRUCEDESKTOP.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen-the-lost-albums"
+          }
+        },
         "image_UFqddC": {
           "type": "image",
           "disabled": true,
@@ -139,22 +155,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/pink-floyd"
-          }
-        },
-        "image_QhXTxt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BRUCEDESKTOP.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bruce-springsteen-the-lost-albums"
           }
         },
         "image_H3nExt": {
@@ -278,11 +278,11 @@
         "image_7G4dBj",
         "image_QVbpj9",
         "image_n7CPDY",
+        "image_QhXTxt",
         "image_UFqddC",
         "image_RpyWXF",
         "image_WUWEhB",
         "image_BtCDQf",
-        "image_QhXTxt",
         "image_H3nExt",
         "image_C8VMXJ",
         "image_jntpdb",
