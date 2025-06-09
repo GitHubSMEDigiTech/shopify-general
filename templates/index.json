@@ -120,6 +120,7 @@
         },
         "image_FwMKHm": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_55f7fe38-8eab-4ded-ac75-69b12d5cdcd0.jpg",
             "mobile_image": "shopify://shop_images/750x1100_bdeace45-d035-47f6-b7a4-fcd7f54c4909.jpg",
@@ -239,6 +240,7 @@
         },
         "image_G3f6rF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/CR_ORIZZONTALE.jpg",
             "mobile_image": "shopify://shop_images/VERTICALE.jpg",
@@ -290,6 +292,7 @@
         },
         "image_3wJqzQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/MileyCyrus_BannerDesktop_2160x720_a687ca27-8e56-42ca-a2ed-c1d38228e520.jpg",
             "mobile_image": "shopify://shop_images/MileyCyrus_BannerMobile_750x1100_1d191a65-204d-421d-ad96-9435d3a39f3f.jpg",
