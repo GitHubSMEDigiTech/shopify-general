@@ -33,6 +33,18 @@
         "padding_bottom": 30
       }
     },
+    "image_with_text_Ptqfp8": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image_position": "left",
+        "image_width": 50,
+        "title": "Your title",
+        "content": "<p>Use this text to share information about your brand with your customers.<br/>Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_text": "Our products",
+        "button_link": "https://sm-itd2c.myshopify.com/cart/43712840728630:1?channel=buy_button"
+      }
+    },
     "featured_collection_n3BMqX": {
       "type": "featured-collection",
       "settings": {
@@ -79,6 +91,7 @@
   "order": [
     "main",
     "rich_text_g44rFE",
+    "image_with_text_Ptqfp8",
     "featured_collection_n3BMqX",
     "featured_collection_wAxfiR",
     "featured_collection_XAdVV9"
