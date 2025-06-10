@@ -94,6 +94,7 @@
         },
         "image_BtCDQf": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pinkfloyddesktop.png",
             "show_overlay": false,
