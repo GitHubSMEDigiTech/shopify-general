@@ -142,50 +142,6 @@
             "link": "https://www.insideoutshop.de/collections/vendors?q=Nightingale&sort_by=created-descending"
           }
         },
-        "banner_7thMAw": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/lep_ec6d8759-b8eb-4eba-8c89-e3a9b2b530cc.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/leprousthecongregationjpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#a19991",
-            "title": "leprous",
-            "head_color": "#a19991",
-            "subtitle": "The Congregation (10th Anniversary Edition)",
-            "subhead_color": "#a19991",
-            "content": "Gatefold deep blood red 2LP",
-            "content_color": "#a19991",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#a19991",
-            "show_preorder": true,
-            "preorder_msg": "may 23",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/de/products/leprous-the-congregation-10th-anniversary-edition-gatefold-deep-blood-red-2lp"
-          }
-        },
-        "banner_DBNx9A": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/spo.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/spocksbeardoctanejpg_10d982e8-299d-444e-8b16-09f83e0f3f91.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#b7141b",
-            "title": "spock's beard",
-            "head_color": "#b7141b",
-            "subtitle": "octane (re-issue 2025)",
-            "subhead_color": "#b7141b",
-            "content": "Gatefold black 2LP\nLtd. Gatefold red 2LP",
-            "content_color": "#b7141b",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#fefefe",
-            "show_preorder": true,
-            "preorder_msg": "may 16",
-            "preorder_msg_color": "#b7141b",
-            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Spock%27s+Beard&sort_by=created-descending"
-          }
-        },
         "banner_bdcU39": {
           "type": "banner",
           "settings": {
@@ -229,94 +185,6 @@
             "preorder_msg_color": "#ffffff",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Nad+Sylvan&sort_by=created-descending"
           }
-        },
-        "banner_MQXjx7": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/pv.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/pridianvenetiandarkjpg_a707cf5b-db30-4513-92ab-cf796efe2e89.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#73c7b0",
-            "title": "pridian",
-            "head_color": "#73c7b0",
-            "subtitle": "venetian dark",
-            "subhead_color": "#73c7b0",
-            "content": "Standard CD Jewelcase\nLtd. transp. blue-black marbled LP",
-            "content_color": "#909aa3",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#73c7b0",
-            "show_preorder": true,
-            "preorder_msg": "may 16",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Pridian&sort_by=created-descending"
-          }
-        },
-        "banner_UdUdax": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Haken.png",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Haken_LiveformsFaunaLiveInLondon_Vinyl.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Haken",
-            "head_color": "#ffffff",
-            "subtitle": "Liveforms: Fauna Live In London",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. 3CD+Blu-ray Digipak in Slipcase\nGatefold black 2LP\nLtd. Gatefold transp. orange 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "May 9",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/de/collections/vendors?q=Haken&sort_by=created-descending"
-          }
-        },
-        "banner_Yk6J4R": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Love.png",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/TheFlowerKings_LOVE.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "The Flower Kings",
-            "head_color": "#ffffff",
-            "subtitle": "LOVE",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold neon orange 2LP\nLtd. Gatefold transp. light blue 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "May 2",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/de/collections/vendors?q=The+Flower+Kings&sort_by=created-descending"
-          }
-        },
-        "9868648a-affa-4d67-be87-afd569870a56": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/IOM_Releases_1122_2160-720.jpg",
-            "bg_color": "#eeeeee",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "Midprice",
-            "head_color": "#ffffff",
-            "subtitle": "blowout",
-            "subhead_color": "#ad1a62",
-            "content": "tons of items \nat massively reduced prices",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "Click here to enter the vault!!",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/midprice-blowout"
-          }
         }
       },
       "block_order": [
@@ -324,14 +192,8 @@
         "banner_h3qFbw",
         "banner_mfGRED",
         "banner_QFMqha",
-        "banner_7thMAw",
-        "banner_DBNx9A",
         "banner_bdcU39",
-        "banner_Kfpc4U",
-        "banner_MQXjx7",
-        "banner_UdUdax",
-        "banner_Yk6J4R",
-        "9868648a-affa-4d67-be87-afd569870a56"
+        "banner_Kfpc4U"
       ],
       "settings": {
         "edge_to_edge": true,
