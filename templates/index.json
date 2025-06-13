@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_7DiBtC": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/btbam.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/betweentheburiedandmethebluenowherejpg-96554.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Between The Buried And Me",
+            "head_color": "#ffffff",
+            "subtitle": "The Blue Nowhere",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Edition\nLtd. Deluxe light blue-white haze 2LP+2CD & door hanger\nLtd. Gatefold mint colored 2LP\nLtd. Gatefold clear-orange yolk effect 2LP",
+            "content_color": "#666666",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 12",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Between%20The%20Buried%20And%20Me"
+          }
+        },
         "banner_HGCLmi": {
           "type": "banner",
           "settings": {
@@ -210,6 +232,7 @@
         }
       },
       "block_order": [
+        "banner_7DiBtC",
         "banner_HGCLmi",
         "banner_QWzaAc",
         "banner_h3qFbw",
