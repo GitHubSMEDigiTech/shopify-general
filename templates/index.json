@@ -33,11 +33,11 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_eUhDX7": {
+        "image_DjX6Ay": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_9d4ea29a-fc6b-4cb0-a949-fcd49beefcf5.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_c2bb8ed7-9bea-4f2e-aaab-0e4a0b96a305.jpg",
+            "image": "shopify://shop_images/2160x720_7625ec3a-8f85-44f1-98a3-262c2785df32.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_bc9126fe-2033-4d31-af2e-45f323edc622.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -47,7 +47,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/bresh"
+            "link": "shopify://collections/fabri-fibra"
           }
         },
         "image_G3f6rF": {
@@ -84,6 +84,23 @@
             "link": "shopify://products/radio-italia-summer-hits-2025"
           }
         },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9d4ea29a-fc6b-4cb0-a949-fcd49beefcf5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_c2bb8ed7-9bea-4f2e-aaab-0e4a0b96a305.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bresh"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -116,23 +133,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/dj-shocca"
-          }
-        },
-        "image_DjX6Ay": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_7625ec3a-8f85-44f1-98a3-262c2785df32.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_bc9126fe-2033-4d31-af2e-45f323edc622.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/fabri-fibra"
           }
         },
         "image_QQwqrR": {
@@ -343,12 +343,12 @@
         }
       },
       "block_order": [
-        "image_eUhDX7",
+        "image_DjX6Ay",
         "image_G3f6rF",
         "image_FwMKHm",
+        "image_eUhDX7",
         "image_FV8WFP",
         "image_XHmBAC",
-        "image_DjX6Ay",
         "image_QQwqrR",
         "image_zLLxyF",
         "image_HciHCp",
