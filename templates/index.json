@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_HGCLmi": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Arjen.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/arjenanthonylucassensongsnoonewillhearjpg-97303.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Arjen Anthony Lucassen",
+            "head_color": "#ffffff",
+            "subtitle": "Songs No One Will Hear",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 3CD+Blu-ray Artbook\nSpecial Edition CD Digipak\nGatefold black 2LP\nLtd. Gatefold transp. sun yellow 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 12",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Arjen%20Anthony%20Lucassen"
+          }
+        },
         "banner_QWzaAc": {
           "type": "banner",
           "settings": {
@@ -188,6 +210,7 @@
         }
       },
       "block_order": [
+        "banner_HGCLmi",
         "banner_QWzaAc",
         "banner_h3qFbw",
         "banner_mfGRED",
