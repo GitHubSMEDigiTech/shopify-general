@@ -158,7 +158,6 @@
         },
         "image_RpyWXF": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/salmob2b.png",
             "show_overlay": false,
@@ -175,7 +174,6 @@
         },
         "image_WUWEhB": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720FuoriOra.jpg",
             "show_overlay": false,
