@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_irrtQR": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Sangui.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Sanguisugabogg_HideousAftermath_74f529bd-dcf0-4131-9c51-553a5b023c9c.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Sanguisugabogg",
+            "head_color": "#ffffff",
+            "subtitle": "Hideous Aftermath",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nGatefold transp. red LP & LP-Booklet\nLtd. Gatefold white-black marbled LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Ocotber 10",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_RiYqNL": {
           "type": "banner",
           "settings": {
@@ -164,28 +186,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
-        "banner_yPgpCR": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/hau.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/TheHaunted_SongsOfLastResort_e476825e-35f8-440c-be17-772ff42adbec.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#e8150c",
-            "title": "the haunted",
-            "head_color": "#ffffff",
-            "subtitle": "songs of last resort",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Mediabook & Poster\nStandard CD Jewelcase\nblack LP & Poster\nLtd. transp. red LP & Poster",
-            "content_color": "#02a6a5",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "rgba(0,0,0,0)",
-            "show_preorder": true,
-            "preorder_msg": "may 30",
-            "preorder_msg_color": "#ffffff",
-            "link": "https://www.cmdistro.de/collections/vendors?q=The+Haunted&sort_by=created-descending"
-          }
-        },
         "banner_TAd3Ef": {
           "type": "banner",
           "settings": {
@@ -207,62 +207,16 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
-        },
-        "banner_iQn3Xh": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/ORTH.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Orthodox_ADoorLeftOpen_801e7540-1510-453e-a2bb-93062b252b8c.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "orthodox",
-            "head_color": "#ffffff",
-            "subtitle": "a door left open",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nyellow LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "rgba(0,0,0,0)",
-            "show_preorder": true,
-            "preorder_msg": "June 6",
-            "preorder_msg_color": "#ffffff",
-            "link": "https://www.cmdistro.de/de/collections/vendors?q=Orthodox&sort_by=created-descending"
-          }
-        },
-        "banner_hLdNHw": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/vil.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Vildhjarta_DarSkogenSjungerUnderEvighetensGranar_418270a3-e16b-4cc9-9c0a-8ba645c1760f.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "vildhjarta",
-            "head_color": "#000000",
-            "subtitle": "+ där skogen sjunger under evighetens granar +",
-            "subhead_color": "#000000",
-            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold reddish ReVinyl 2LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "may 30",
-            "preorder_msg_color": "#b80000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Vildhjarta&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_irrtQR",
         "banner_RiYqNL",
         "banner_Xinnbq",
         "banner_7mHF3H",
         "banner_AhTzh7",
         "banner_jt9q4L",
-        "banner_yPgpCR",
-        "banner_TAd3Ef",
-        "banner_iQn3Xh",
-        "banner_hLdNHw"
+        "banner_TAd3Ef"
       ],
       "settings": {
         "edge_to_edge": true,
