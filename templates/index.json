@@ -81,7 +81,7 @@
           "settings": {
             "image": "shopify://shop_images/baglionib2b.png",
             "show_overlay": true,
-            "overlay_opacity": 50,
+            "overlay_opacity": 20,
             "text_color": "#ffffff",
             "title": "",
             "content": "",
@@ -90,22 +90,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/claudio-baglioni-la-vita-e-adesso_il-sogno-e-sempre"
-          }
-        },
-        "image_7G4dBj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Bresh.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bresh-mediterraneo"
           }
         },
         "image_BtCDQf": {
@@ -122,6 +106,38 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/pink-floyd"
+          }
+        },
+        "image_RpyWXF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/salmob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo-ranch"
+          }
+        },
+        "image_7G4dBj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Bresh.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bresh-mediterraneo"
           }
         },
         "image_jntpdb": {
@@ -156,22 +172,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/bob-dylan"
-          }
-        },
-        "image_RpyWXF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/salmob2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/salmo-ranch"
           }
         },
         "image_WUWEhB": {
@@ -280,11 +280,11 @@
         "image_QhXTxt",
         "image_QVbpj9",
         "image_ffXwbh",
-        "image_7G4dBj",
         "image_BtCDQf",
+        "image_RpyWXF",
+        "image_7G4dBj",
         "image_jntpdb",
         "image_7WBgFd",
-        "image_RpyWXF",
         "image_WUWEhB",
         "image_H3nExt",
         "image_C8VMXJ",
