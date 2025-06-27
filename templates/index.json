@@ -101,6 +101,23 @@
             "link": "shopify://products/radio-italia-summer-hits-2025"
           }
         },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_dadc1c33-bc1d-4597-9f2a-5be59ebdcd23.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2d26f384-62d7-4821-a650-393a23cc13e2.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/dj-shocca"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -133,23 +150,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/claudio-baglioni"
-          }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_14ceba7a-3960-4f9c-93fc-ddd21ca0b89a.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_a580447d-ee8f-4fdd-8d5a-302fba3d0c66.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/dj-shocca"
           }
         },
         "image_QQwqrR": {
@@ -346,9 +346,9 @@
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_FwMKHm",
+        "image_XHmBAC",
         "image_eUhDX7",
         "image_FV8WFP",
-        "image_XHmBAC",
         "image_QQwqrR",
         "image_zLLxyF",
         "image_HciHCp",
