@@ -135,40 +135,6 @@
             "link": "shopify://collections/bresh"
           }
         },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/baglionidesktop.png",
-            "mobile_image": "shopify://shop_images/baglionimobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/claudio-baglioni"
-          }
-        },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_df6db042-8d84-4fef-8670-e4733017f97c.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_f7f2960c-1cb7-4850-904f-755bfefefcab.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/scrivero-il-tuo-nome-live-angelo-venti-edition"
-          }
-        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -184,23 +150,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/lost-found"
-          }
-        },
-        "image_HciHCp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_ad4f7ee7-628e-4217-b0ab-09e3b1626ce5.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_3f7bbc86-712a-4d84-ab92-ee49f5737a89.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/jade"
           }
         },
         "image_hhc4xB": {
@@ -237,11 +186,11 @@
             "link": "shopify://collections/alessandra-amoroso"
           }
         },
-        "image_x47WFh": {
+        "image_HciHCp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_Fuori_Ora_1.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_Fuori_Ora_1.jpg",
+            "image": "shopify://shop_images/2160x720_ad4f7ee7-628e-4217-b0ab-09e3b1626ce5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_3f7bbc86-712a-4d84-ab92-ee49f5737a89.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -251,7 +200,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/rino-gaetano"
+            "link": "shopify://collections/jade"
           }
         },
         "image_x98LVH": {
@@ -323,6 +272,57 @@
             "link": "shopify://collections/partynextdoor"
           }
         },
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_df6db042-8d84-4fef-8670-e4733017f97c.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_f7f2960c-1cb7-4850-904f-755bfefefcab.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/scrivero-il-tuo-nome-live-angelo-venti-edition"
+          }
+        },
+        "image_x47WFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_Fuori_Ora_1.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_Fuori_Ora_1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rino-gaetano"
+          }
+        },
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/baglionidesktop.png",
+            "mobile_image": "shopify://shop_images/baglionimobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/claudio-baglioni"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -348,17 +348,17 @@
         "image_FwMKHm",
         "image_XHmBAC",
         "image_eUhDX7",
-        "image_FV8WFP",
-        "image_QQwqrR",
         "image_zLLxyF",
-        "image_HciHCp",
         "image_hhc4xB",
         "image_wfGmGy",
-        "image_x47WFh",
+        "image_HciHCp",
         "image_x98LVH",
         "image_4T4yhV",
         "image_kNcaX3",
         "image_NDBHHY",
+        "image_QQwqrR",
+        "image_x47WFh",
+        "image_FV8WFP",
         "image_9kfgaA"
       ],
       "settings": {
