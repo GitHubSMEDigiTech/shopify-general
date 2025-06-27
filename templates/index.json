@@ -76,6 +76,28 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Sanguisugabogg"
           }
         },
+        "banner_Kyj8EX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/man.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/MANWITHAMISSION_XV_EP-AcrosstheGlobe_c67574b7-8087-4917-8a82-00a00aa0e0ae.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Man With A Mission",
+            "head_color": "#ffffff",
+            "subtitle": "XV e.p. Across the Globe",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\ntransp. magenta LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 19",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_RiYqNL": {
           "type": "banner",
           "settings": {
@@ -211,6 +233,7 @@
       },
       "block_order": [
         "banner_irrtQR",
+        "banner_Kyj8EX",
         "banner_RiYqNL",
         "banner_Xinnbq",
         "banner_7mHF3H",
