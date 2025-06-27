@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_eDytBX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/asym.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/asymmetricuniverseamemoryandwhatcameafterjpg-98114.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Asymmetric Universe",
+            "head_color": "#666666",
+            "subtitle": "A Memory And What Came After",
+            "subhead_color": "#555555",
+            "content": "Ltd. CD Digipak\nLtd. transp. blue-black marbled LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "29 August",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Asymmetric%20Universe"
+          }
+        },
         "banner_7DiBtC": {
           "type": "banner",
           "settings": {
@@ -232,6 +254,7 @@
         }
       },
       "block_order": [
+        "banner_eDytBX",
         "banner_7DiBtC",
         "banner_HGCLmi",
         "banner_QWzaAc",
