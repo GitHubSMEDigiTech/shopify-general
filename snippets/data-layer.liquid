@@ -1,8 +1,5 @@
 <script>  
   /**
-  * Author: Triangle Digital
-  * Website: triangledigital.xyz
-  * Email: contact@triangledigital.xyz
   * Last Update: 17 May 2024
   * Description: This script handles various eCommerce tracking events, 
   * collecting customer data, handling AJAX requests, and pushing 
@@ -10,14 +7,17 @@
   */
   
   (function() {
-      // Defining the class triangle_digital_datalayer
-      class triangle_digital_datalayer {
+      // Defining the class SME_digital_datalayer
+      class SME_digital_datalayer {
         constructor() {
           // Initializing dataLayer if not already defined
           window.dataLayer = window.dataLayer || []; 
           
           // Prefix for events name
           this.eventPrefix = 'SME_';
+
+          //Turn Console Log On and Off
+          this.debugOn = 'No'
 
           // Setting value to true to get formatted product ID
           this.formattedItemId = true; 
@@ -511,7 +511,7 @@
             let targetElement = event.target.closest(self.beginCheckoutButtons.join(', '));
             if(targetElement) {
               self.ecommerceDataLayer('begin_checkout', self.cart);
-              // console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.cart);
+              console.log('%c[SME SHOPIFY PIXEL DEBUGGER] Begin Checkout Event Pushed:', 'background: #6a1b9a; color: #fff; font-size: 14px; font-weight: bold;', self.cart);
             }
           });
         }
@@ -971,8 +971,7 @@
           });
         }
       } 
-      // end triangle_digital_datalayer
-      // end triangle_digital_datalayer
+      // end SME_digital_datalayer
 
       window.addEventListener('load', function() {
         try{
@@ -990,7 +989,7 @@
         	}
 	
         	if (acceptPT== "True") {
-              new triangle_digital_datalayer();
+              new SME_digital_datalayer();
           } }, delayInMilliseconds);
         }catch(error) {
           console.log(error);
