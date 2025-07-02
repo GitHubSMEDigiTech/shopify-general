@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_3eQKL7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/BEAT.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/beatlivejpg-100188.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "BEAT",
+            "head_color": "#ffffff",
+            "subtitle": "Live",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 3CD+Blu-ray Artbook\nSpecial Edition 2CD+Blu-ray Digipak\nLtd. Deluxe Triple-Gatefold black 3LP\nLtd. Deluxe Triple-Gatefold transp. blue 3LP\nLtd. Deluxe Triple-Gatefold transp. sun yellow 3LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 26",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_eDytBX": {
           "type": "banner",
           "settings": {
@@ -71,7 +93,7 @@
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
-            "preorder_msg": "29 August",
+            "preorder_msg": "August 29",
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Asymmetric%20Universe"
           }
@@ -254,6 +276,7 @@
         }
       },
       "block_order": [
+        "banner_3eQKL7",
         "banner_eDytBX",
         "banner_7DiBtC",
         "banner_HGCLmi",
