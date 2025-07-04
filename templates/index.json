@@ -539,8 +539,8 @@
         "image_GA7emn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_7625ec3a-8f85-44f1-98a3-262c2785df32.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_bc9126fe-2033-4d31-af2e-45f323edc622.jpg",
+            "image": "shopify://shop_images/2160x720_03285fc8-55c5-4c4b-afcf-e8ef8c9f38eb.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_fb0f8ff3-ecea-464e-b6dd-1f7022d42861.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
