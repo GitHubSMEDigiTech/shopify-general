@@ -361,8 +361,8 @@
         "image_9kfgaA"
       ],
       "settings": {
-        "edge_to_edge": true,
-        "section_size": "large",
+        "edge_to_edge": false,
+        "section_size": "medium",
         "mobile_section_size": "",
         "carousel_effect": "fade",
         "autoplay": true,
