@@ -137,10 +137,9 @@
         },
         "image_eUhDX7": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2160x720_8943122c-ae81-4021-87c7-6d557552bfdc.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_47f41509-ed09-4681-95f0-96a7d0ccc0be.jpg",
+            "image": "shopify://shop_images/2160x720_8de9cfc5-9270-49d8-8839-af8aecbe98a4.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_65eec4a2-fab6-40fe-a029-51ef04ea59a2.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -150,7 +149,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/bresh"
+            "link": "shopify://collections/wolf-alice"
           }
         },
         "image_zLLxyF": {
