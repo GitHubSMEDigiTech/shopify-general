@@ -274,8 +274,8 @@
         "image_QQwqrR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_df6db042-8d84-4fef-8670-e4733017f97c.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_f7f2960c-1cb7-4850-904f-755bfefefcab.jpg",
+            "image": "shopify://shop_images/ICY_ANNO_ZERO_BANNER_SONY_OUT_1.jpg",
+            "mobile_image": "shopify://shop_images/ICY_ANNO_ZERO_BANNER_SONY_OUT_2.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -285,7 +285,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://products/scrivero-il-tuo-nome-live-angelo-venti-edition"
+            "link": "shopify://collections/icy-subzero"
           }
         },
         "image_x47WFh": {
