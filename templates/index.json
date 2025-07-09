@@ -69,6 +69,7 @@
         },
         "image_3wJqzQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BANNER_SONY_2.jpg",
             "mobile_image": "shopify://shop_images/icycat.png",
