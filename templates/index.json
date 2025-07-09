@@ -60,6 +60,22 @@
             "link": "shopify://collections/bruce-springsteen-the-lost-albums"
           }
         },
+        "image_JBKFzr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_icy_subzero.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/icy-subzero-anno-zero"
+          }
+        },
         "image_QVbpj9": {
           "type": "image",
           "settings": {
@@ -278,6 +294,7 @@
         "image_bP3ehD",
         "image_n7CPDY",
         "image_QhXTxt",
+        "image_JBKFzr",
         "image_QVbpj9",
         "image_ffXwbh",
         "image_BtCDQf",
