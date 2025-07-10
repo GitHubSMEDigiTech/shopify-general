@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_NM6fYb": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/mice.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/OfMiceAndMen_AnotherMiracle_8f52a13c-800b-4531-b7a8-af93ab2804f6.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Of Mice & Men",
+            "head_color": "#ffffff",
+            "subtitle": "Another Miracle",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nwhite LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "November 14",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Of%20Mice%20%26%20Men"
+          }
+        },
         "banner_irrtQR": {
           "type": "banner",
           "settings": {
@@ -232,6 +254,7 @@
         }
       },
       "block_order": [
+        "banner_NM6fYb",
         "banner_irrtQR",
         "banner_Kyj8EX",
         "banner_RiYqNL",
