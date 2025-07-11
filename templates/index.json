@@ -50,6 +50,23 @@
             "link": "shopify://collections/the-zen-circus"
           }
         },
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_147562be-f364-4906-8b77-3b26eb0aec8f.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_05deac29-5e31-402d-bf53-db8b34b4419f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -167,23 +184,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/wolf-alice"
-          }
-        },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_chiamamifaro_2f238525-31cf-42d2-913e-65fbd2281aa8.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_chiamamifaro_ef200ab4-92dd-435f-b887-731c6fe64206.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/lost-found"
           }
         },
         "image_hhc4xB": {
@@ -342,6 +342,7 @@
       },
       "block_order": [
         "image_3wJqzQ",
+        "image_zLLxyF",
         "image_QQwqrR",
         "image_NDBHHY",
         "image_DjX6Ay",
@@ -349,7 +350,6 @@
         "image_FwMKHm",
         "image_XHmBAC",
         "image_eUhDX7",
-        "image_zLLxyF",
         "image_hhc4xB",
         "image_wfGmGy",
         "image_HciHCp",
