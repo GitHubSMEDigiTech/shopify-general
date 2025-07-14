@@ -482,6 +482,20 @@
         "stack_mobile": false
       }
     },
+    "featured_collection_Aa36dV": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "in-evidenza",
+        "title": "In evidenza",
+        "products_count": 24,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": "shopify://collections/in-evidenza"
+      }
+    },
     "promotion_list_teMBhT": {
       "type": "promotion-list",
       "blocks": {
@@ -576,7 +590,7 @@
         "stack_mobile": true
       }
     },
-    "featured_collection_Aa36dV": {
+    "featured_collection_6DjtHh": {
       "type": "featured-collection",
       "settings": {
         "collection": "in-evidenza-1",
@@ -692,10 +706,11 @@
     "collection_list_XWxmfc",
     "slideshow_gwyfxw",
     "promotion_list_BDmd3c",
+    "featured_collection_Aa36dV",
     "promotion_list_teMBhT",
     "promotion_list_NPgWtL",
     "promotion_list_kTecJ6",
-    "featured_collection_Aa36dV",
+    "featured_collection_6DjtHh",
     "collection_list_tPfEeG",
     "promotion_list_wAJLbg",
     "featured_collection_gNFLGM",
