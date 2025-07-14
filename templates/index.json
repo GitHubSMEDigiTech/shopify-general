@@ -580,7 +580,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "in-evidenza-1",
-        "title": "In Evidenza",
+        "title": "Prossime uscite",
         "products_count": 24,
         "layout": "vertical",
         "stack_products": false,
