@@ -526,6 +526,9 @@
       "thank_you": {
         "in_transit": "Pronto per la spedizione",
         "in_transit_title": "Il tuo ordine è pronto per la spedizione"
+      },
+      "payment": {
+        "no_method_error": "La musicassetta degli dbfwhgae"
       }
     }
   },
