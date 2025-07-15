@@ -9,24 +9,9 @@
  */
 {
   "sections": {
-    "collection_with_image_nMMffk": {
-      "type": "collection-with-image",
-      "settings": {
-        "collection": "novita-sanremo-2025",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#ad141f",
-        "text_color": "#ffffff",
-        "title": "Novità degli artisti in gara a Sanremo",
-        "content": "CD e Vinili in uscita",
-        "button_background": "#ffffff",
-        "button_text_color": "#ad141f",
-        "button_text": "Scopri",
-        "button_link": ""
-      }
-    },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": true,
@@ -50,17 +35,69 @@
         "open_group_filters_mode": "all_closed"
       }
     },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
+    "featured_product_aB9CeV": {
+      "type": "featured-product",
+      "blocks": {
+        "product_meta_qtTzLe": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_reviews_badge": false,
+            "show_share_buttons": true
+          }
+        },
+        "featured_description_iFGnAL": {
+          "type": "featured_description",
+          "settings": {}
+        },
+        "variant_selector_38wLty": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "show_quantity_selector": true,
+            "show_taxes_included": false,
+            "show_inventory_quantity": false,
+            "low_inventory_threshold": 0
+          }
+        }
+      },
+      "block_order": [
+        "product_meta_qtTzLe",
+        "featured_description_iFGnAL",
+        "variant_selector_38wLty"
+      ],
+      "name": "Featured product",
       "settings": {
-        "title": "Recently viewed",
-        "show_quick_buy": false
+        "product": "spider-man-2-original-motion-picture-score",
+        "title": "",
+        "link_title": "",
+        "link_url": "https://sm-itd2c.myshopify.com/cart/43712840728630:1?channel=buy_button",
+        "image_size": "small",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "zoom_effect": "outside",
+        "carousel_effect": "fade"
+      }
+    },
+    "image_with_text_rnzALn": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/27219647_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "Your title",
+        "content": "<p>Use this text to share information about your brand with your customers.<br/>Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_text": "Our products",
+        "button_link": "https://sm-itd2c.myshopify.com/cart/43712840728630:1?channel=buy_button"
       }
     }
   },
   "order": [
-    "collection_with_image_nMMffk",
     "main",
-    "recently-viewed-products"
+    "featured_product_aB9CeV",
+    "image_with_text_rnzALn"
   ]
 }
