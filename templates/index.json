@@ -338,14 +338,13 @@
     },
     "rich_text_GKqCHN": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
         "text_width": "narrow",
-        "title": "ATTENZIONE",
+        "title": "CHIUSURA ESTIVA!!!",
         "h_one": false,
-        "content": "<p>In occasione delle festività, potrebbero esserci dei ritardi nelle consegne</p>",
+        "content": "<p>Si ricorda che dal 6 al 20 agosto i nostri uffici saranno chiusi e gli ordini non verranno evasi. Vi invitiamo ad inserire i vostri ordini entro il 3 agosto.</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#c5161c",
