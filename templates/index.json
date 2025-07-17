@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_ColombreMariaAntonietta_3.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_ColombreMariaAntonietta_4.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/luna-di-miele-lp-bianco"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -305,23 +322,6 @@
             "link": "shopify://collections/rino-gaetano"
           }
         },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/baglionidesktop.png",
-            "mobile_image": "shopify://shop_images/baglionimobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/claudio-baglioni"
-          }
-        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -341,6 +341,7 @@
         }
       },
       "block_order": [
+        "image_FV8WFP",
         "image_3wJqzQ",
         "image_zLLxyF",
         "image_QQwqrR",
@@ -357,7 +358,6 @@
         "image_4T4yhV",
         "image_kNcaX3",
         "image_x47WFh",
-        "image_FV8WFP",
         "image_9kfgaA"
       ],
       "settings": {
