@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_p47RLU": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/royal.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/royalsorrowinnerdeepsjpg-102277.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Royal Sorrow",
+            "head_color": "#ffffff",
+            "subtitle": "Innerdeeps",
+            "subhead_color": "#eeeeee",
+            "content": "Ltd. CD Edition\nneon orange LP",
+            "content_color": "#eeeeee",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 26",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Royal%20Sorrow"
+          }
+        },
         "banner_3eQKL7": {
           "type": "banner",
           "settings": {
@@ -276,6 +298,7 @@
         }
       },
       "block_order": [
+        "banner_p47RLU",
         "banner_3eQKL7",
         "banner_eDytBX",
         "banner_7DiBtC",
