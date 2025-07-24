@@ -9,6 +9,42 @@
  */
 {
   "sections": {
+    "slideshow_KQtHiU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8WJnMQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/THE_ZEN_CIRCUS_desktop.png",
+            "mobile_image": "shopify://shop_images/THE_ZEN_CIRCUS_mobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "Slide title",
+            "content": "Tell your story",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8WJnMQ"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "small",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
     "featured_collection_PjHXRX": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -58,6 +94,7 @@
     }
   },
   "order": [
+    "slideshow_KQtHiU",
     "featured_collection_PjHXRX",
     "main",
     "recently-viewed-products"
