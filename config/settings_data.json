@@ -29,7 +29,7 @@
     "show_vendor": true,
     "show_secondary_image": true,
     "show_reviews_badge": false,
-    "product_image_size": "short",
+    "product_image_size": "square",
     "show_color_swatch": true,
     "show_release_date_product": true,
     "show_inventory_quantity": false,
@@ -308,11 +308,6 @@
       },
       "pagefly-page-builder": {
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
-        "disabled": false,
-        "settings": {}
-      },
-      "8814297988395605169": {
-        "type": "shopify://apps/adperfect-marketing-platform/blocks/app-embed/8b4a8c56-21b5-437e-95f9-cd5dc65ceb49",
         "disabled": false,
         "settings": {}
       }
