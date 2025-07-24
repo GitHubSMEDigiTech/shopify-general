@@ -1,17 +1,23 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_374tfR": {
+          "type": "text",
+          "settings": {
+            "content": "<h4>A grande richiesta di nuovo disponibile! </h4>"
+          }
+        },
         "product_meta": {
           "type": "product_meta",
           "settings": {
@@ -21,22 +27,16 @@
             "show_share_buttons": true
           }
         },
-        "text_kbYdML": {
-          "type": "text",
-          "settings": {
-            "content": "<h2><em><strong>Leaflet Autografato in carta pregiata 300 gr con titolo in rilievo<\/strong><\/em><\/h2>"
-          }
-        },
         "text_FYDwhT": {
           "type": "text",
           "settings": {
-            "content": "<h6>Consegna a 3,50€  in tutta Italia – esclusi Livigno e Campione d’Italia<br\/><strong>Consegna gratuita per ordini sopra i 70€   - <\/strong>Reso gratuito entro 14 giorni<\/h6>"
+            "content": "<h6>Consegna a 3,50€  in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€   - </strong>Reso gratuito entro 14 giorni</h6>"
           }
         },
         "text_c9Qgk6": {
           "type": "text",
           "settings": {
-            "content": "<p>{{ product.metafields.meta.additional_information.value }}<\/p>"
+            "content": "<p>{{ product.metafields.meta.additional_information.value }}</p>"
           }
         },
         "variant_selector": {
@@ -80,8 +80,8 @@
         }
       },
       "block_order": [
+        "text_374tfR",
         "product_meta",
-        "text_kbYdML",
         "text_FYDwhT",
         "text_c9Qgk6",
         "variant_selector",
