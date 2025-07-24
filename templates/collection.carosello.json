@@ -35,8 +35,8 @@
       ],
       "name": "Slideshow",
       "settings": {
-        "edge_to_edge": false,
-        "section_size": "medium",
+        "edge_to_edge": true,
+        "section_size": "small",
         "mobile_section_size": "",
         "carousel_effect": "slide",
         "autoplay": true,
