@@ -9,6 +9,21 @@
  */
 {
   "sections": {
+    "featured_collection_PjHXRX": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "carosello",
+        "title": "In Evidenza",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -43,6 +58,7 @@
     }
   },
   "order": [
+    "featured_collection_PjHXRX",
     "main",
     "recently-viewed-products"
   ]
