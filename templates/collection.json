@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,7 +20,7 @@
         "headline_deco": true,
         "headline_deco_col": "#d82222",
         "collection_image_size": "large",
-        "products_per_row": "4",
+        "products_per_row": "3",
         "default_products_per_page": 24,
         "collection_pagination": "pagination",
         "loading_button": "Load More",
