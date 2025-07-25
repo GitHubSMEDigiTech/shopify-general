@@ -12,8 +12,8 @@
     "rich_text_Yjrb3a": {
       "type": "rich-text",
       "settings": {
-        "marign_top": 20,
-        "marign_bottom": 20,
+        "marign_top": 10,
+        "marign_bottom": 10,
         "text_width": "narrow",
         "title": "",
         "h_one": false,
