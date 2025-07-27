@@ -221,22 +221,6 @@
             "link": "shopify://collections/damiano-david-funny-little-fears"
           }
         },
-        "image_H3nExt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_15.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/a-minute-a-moment"
-          }
-        },
         "image_C8VMXJ": {
           "type": "image",
           "settings": {
@@ -319,7 +303,6 @@
         "image_jntpdb",
         "image_7WBgFd",
         "image_WUWEhB",
-        "image_H3nExt",
         "image_C8VMXJ",
         "image_a7atqp",
         "image_wiRjiq",
