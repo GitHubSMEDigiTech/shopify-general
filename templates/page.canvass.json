@@ -216,6 +216,7 @@
         },
         "item_PAmWeB": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SonyMusicLogo_whitematte.gif",
             "show_overlay": true,
