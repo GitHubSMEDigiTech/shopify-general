@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": true,
@@ -36,6 +37,7 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "title": "Recently viewed",
         "show_quick_buy": false
