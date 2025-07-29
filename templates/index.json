@@ -321,7 +321,6 @@
     },
     "rich_text_GKqCHN": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
