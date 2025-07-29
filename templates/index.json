@@ -273,8 +273,8 @@
         "image_x98LVH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_dc0a2f86-7cbb-4953-821c-d54f20396c8c.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_38539118-2eeb-447c-8cf9-cdf036d40d0e.jpg",
+            "image": "shopify://shop_images/gilmourdesktoop.png",
+            "mobile_image": "shopify://shop_images/mobilegilmour.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -284,7 +284,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://products/fuori-menu"
+            "link": "shopify://collections/the-luck-and-strange-concerts"
           }
         },
         "image_4T4yhV": {
