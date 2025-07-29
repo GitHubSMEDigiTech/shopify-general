@@ -35,8 +35,8 @@
         "image_x98LVH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gilmourdesktoop.png",
-            "mobile_image": "shopify://shop_images/mobilegilmour.png",
+            "image": "shopify://shop_images/2160x720_54ce8d70-3087-4e1e-92e0-0caa76825185.jpg",
+            "mobile_image": "shopify://shop_images/750x1100.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
