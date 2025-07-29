@@ -32,6 +32,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gilmourdesktoop.png",
+            "mobile_image": "shopify://shop_images/mobilegilmour.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/the-luck-and-strange-concerts"
+          }
+        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -270,23 +287,6 @@
             "link": "shopify://collections/jade"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gilmourdesktoop.png",
-            "mobile_image": "shopify://shop_images/mobilegilmour.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-luck-and-strange-concerts"
-          }
-        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -340,6 +340,7 @@
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_x47WFh",
         "image_FV8WFP",
         "image_3wJqzQ",
@@ -354,7 +355,6 @@
         "image_hhc4xB",
         "image_wfGmGy",
         "image_HciHCp",
-        "image_x98LVH",
         "image_4T4yhV",
         "image_kNcaX3",
         "image_9kfgaA"
