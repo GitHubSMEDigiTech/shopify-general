@@ -108,22 +108,6 @@
             "link": "shopify://collections/claudio-baglioni-la-vita-e-adesso_il-sogno-e-sempre"
           }
         },
-        "image_BtCDQf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pinkfloyddesktop.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pink-floyd"
-          }
-        },
         "image_C8VMXJ": {
           "type": "image",
           "settings": {
@@ -280,7 +264,6 @@
         "image_QUXtDw",
         "image_QVbpj9",
         "image_ffXwbh",
-        "image_BtCDQf",
         "image_C8VMXJ",
         "image_RpyWXF",
         "image_7G4dBj",
@@ -373,7 +356,6 @@
       "blocks": {
         "image_yDTjqP": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pinkfloyddesktop.png",
             "show_overlay": false,
