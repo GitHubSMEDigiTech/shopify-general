@@ -119,6 +119,7 @@
         },
         "image_QQwqrR": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ICY_ANNO_ZERO_BANNER_SONY_OUT_1.jpg",
             "mobile_image": "shopify://shop_images/ICY_ANNO_ZERO_BANNER_SONY_OUT_2.jpg",
@@ -170,6 +171,7 @@
         },
         "image_G3f6rF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_99b550bb-5ac9-42f1-8476-b04e8e0d2294.jpg",
             "mobile_image": "shopify://shop_images/750x1100_6e2bf620-b0da-4f92-afca-57affd28622b.jpg",
@@ -202,23 +204,6 @@
             "link": "shopify://products/radio-italia-summer-hits-2025"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_dadc1c33-bc1d-4597-9f2a-5be59ebdcd23.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2d26f384-62d7-4821-a650-393a23cc13e2.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/dj-shocca"
-          }
-        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -236,8 +221,26 @@
             "link": "shopify://collections/wolf-alice"
           }
         },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_dadc1c33-bc1d-4597-9f2a-5be59ebdcd23.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2d26f384-62d7-4821-a650-393a23cc13e2.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/dj-shocca"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_d516a3e0-6c01-4236-a0de-8e13c46ed912.jpg",
             "mobile_image": "shopify://shop_images/750x1100_97a76743-ea3a-4daf-849c-389d49e79219.jpg",
@@ -255,6 +258,7 @@
         },
         "image_wfGmGy": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_b196e9eb-5059-4cbb-b22b-ce618db8b014.jpg",
             "mobile_image": "shopify://shop_images/750x1100_d5d290c7-7b8e-424f-a85f-6cbca25c5ae0.jpg",
@@ -289,6 +293,7 @@
         },
         "image_4T4yhV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_790d315f-1c17-4c9f-8df7-2fe486a2c9e1.jpg",
             "mobile_image": "shopify://shop_images/750x1100_e146214f-96b0-4b39-ae12-69d6f533d779.jpg",
@@ -350,8 +355,8 @@
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_FwMKHm",
-        "image_XHmBAC",
         "image_eUhDX7",
+        "image_XHmBAC",
         "image_hhc4xB",
         "image_wfGmGy",
         "image_HciHCp",
