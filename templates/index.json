@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_a4XMn4": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/crown.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/crownlandsritualijpg-106835.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Crown Lands",
+            "head_color": "#ad141f",
+            "subtitle": "Ritual I & II",
+            "subhead_color": "#ad141f",
+            "content": "Ltd. transp. orange 2LP",
+            "content_color": "#ad141f",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 10",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Crown%20Lands"
+          }
+        },
         "banner_p47RLU": {
           "type": "banner",
           "settings": {
@@ -163,152 +185,15 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Arjen%20Anthony%20Lucassen"
           }
-        },
-        "banner_QWzaAc": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/hackett.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/SteveHackett_TheLambStandsUpLiveAtTheRoyalAlbertHall.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Steve Hackett",
-            "head_color": "#ffffff",
-            "subtitle": "The Lamb Stands Up Live At The Royal Albert Hall",
-            "subhead_color": "#eeeeee",
-            "content": "Special Edition 2CD+Blu-ray Digipak in Slipcase\nLtd. Deluxe black 4LP & LP-Booklet Box Set\nLtd. Deluxe lilac 4LP & LP-Booklet Box Set",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "July 11",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Steve+Hackett&sort_by=created-descending"
-          }
-        },
-        "banner_h3qFbw": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Unbenannt.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/jakkomjakszyksonofglenjpg-79200.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "Jakko M Jakszyk",
-            "head_color": "#ffffff",
-            "subtitle": "Son of glen",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold black LP\nLtd. Gatefold transp. red LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 27",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Jakko%20M%20Jakszyk"
-          }
-        },
-        "banner_mfGRED": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/avkrvst.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/AVKRVST_WavingAtTheSky_03c2a879-5390-4dbd-a888-360df4ecc5bd.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "avkrvst",
-            "head_color": "#ffffff",
-            "subtitle": "Waving at the sky",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold creamy white LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 13",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Avkrvst"
-          }
-        },
-        "banner_QFMqha": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/nig_1.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Nightingale_TheBreathingShadow_5dbb933c-0879-4b62-84d0-3146bb475b26.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#d60f0d",
-            "title": "nightingale",
-            "head_color": "#ffffff",
-            "subtitle": "the breathing shadow",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. deep blood red LP",
-            "content_color": "#d60f0d",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "rgba(0,0,0,0)",
-            "show_preorder": true,
-            "preorder_msg": "june 6",
-            "preorder_msg_color": "#ffffff",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Nightingale&sort_by=created-descending"
-          }
-        },
-        "banner_bdcU39": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/nig_2.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Nightingale_TheClosingChronicles_a3c5782c-a82c-4c2a-99b5-f2b03bf00d84.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#d4dde4",
-            "title": "nightingale",
-            "head_color": "#ffffff",
-            "subtitle": "the closing chronicles",
-            "subhead_color": "#000000",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. blue LP",
-            "content_color": "#d4dde4",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#000000",
-            "show_preorder": true,
-            "preorder_msg": "august 8",
-            "preorder_msg_color": "#d4dde4",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Nightingale&sort_by=created-descending"
-          }
-        },
-        "banner_Kfpc4U": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/ns.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/nadsylvanmonumentatajpg.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "nad sylvan",
-            "head_color": "#ffffff",
-            "subtitle": "monumentata",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold transp. green LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#000000",
-            "show_preorder": true,
-            "preorder_msg": "June 20",
-            "preorder_msg_color": "#ffffff",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Nad+Sylvan&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_a4XMn4",
         "banner_p47RLU",
         "banner_3eQKL7",
         "banner_eDytBX",
         "banner_7DiBtC",
-        "banner_HGCLmi",
-        "banner_QWzaAc",
-        "banner_h3qFbw",
-        "banner_mfGRED",
-        "banner_QFMqha",
-        "banner_bdcU39",
-        "banner_Kfpc4U"
+        "banner_HGCLmi"
       ],
       "settings": {
         "edge_to_edge": true,
