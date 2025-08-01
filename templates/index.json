@@ -12,22 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_4YUhdE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Gilmour.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/david-gilmour"
-          }
-        },
         "image_mkkh7F": {
           "type": "image",
           "settings": {
@@ -58,6 +42,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/radio-italia-summer-hits-2025"
+          }
+        },
+        "image_4YUhdE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Gilmour.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/david-gilmour"
           }
         },
         "image_TtKNdn": {
@@ -275,9 +275,9 @@
         }
       },
       "block_order": [
-        "image_4YUhdE",
         "image_mkkh7F",
         "image_bP3ehD",
+        "image_4YUhdE",
         "image_TtKNdn",
         "image_n7CPDY",
         "image_C8VMXJ",
