@@ -18,6 +18,7 @@
       "blocks": {
         "item_xfYjie": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
@@ -51,31 +52,11 @@
             "button_text": "Entra",
             "button_link": "shopify://collections/campagna-vinili-local"
           }
-        },
-        "item_K4g9hY": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/20888791_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "VINILI ABBATTIMENTO LUGLIO-AGOSTO 2024",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify://collections/vinili-abbattimento-luglio_agosto-2024"
-          }
         }
       },
       "block_order": [
         "item_xfYjie",
-        "item_htmMgt",
-        "item_K4g9hY"
+        "item_htmMgt"
       ],
       "settings": {
         "expand_items": false,
