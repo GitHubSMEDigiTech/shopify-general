@@ -318,29 +318,6 @@
         "link_url": ""
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "70f01c09-f5e7-4e04-bb51-7e12261015c4": {
-          "type": "collection",
-          "settings": {
-            "collection": "judas-priest-firepower-tour-edition",
-            "image": "shopify://shop_images/judas-priest-mock-up-tour-edition.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "70f01c09-f5e7-4e04-bb51-7e12261015c4"
-      ],
-      "settings": {
-        "title": "Specials",
-        "link_title": "View all",
-        "link": "",
-        "round_images": false,
-        "show_collection_title": true
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "disabled": true,
@@ -377,7 +354,6 @@
     "featured-collection",
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
     "featured-products",
-    "collection-list",
     "newsletter",
     "newsletter_sme_yjbrtn"
   ]
