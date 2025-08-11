@@ -159,7 +159,7 @@
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
-            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg": "October 3",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Orbit%20Culture"
           }
@@ -229,50 +229,6 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Baest&sort_by=created-descending"
           }
-        },
-        "banner_jt9q4L": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/cri_1.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/EdgeOfSanity_Crimson_8d7ccadc-0db5-4c46-996f-89c17da77175.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#cf0f2c",
-            "title": "edge of sanity",
-            "head_color": "#ffffff",
-            "subtitle": "crimson",
-            "subhead_color": "#cf0f2c",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. red LP\nLtd. transp. petrol green LP",
-            "content_color": "#cf0f2c",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "june 6",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
-        },
-        "banner_TAd3Ef": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/cri_2.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/EdgeOfSanity_CrimsonII_05934bbc-86de-4d5a-8a74-2f2618af440a.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#feed58",
-            "title": "edge of sanity",
-            "head_color": "#ffffff",
-            "subtitle": "crimson ii",
-            "subhead_color": "#feed58",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nblack LP\nLtd. transp. orange LP\nLtd. brick red LP",
-            "content_color": "#feed58",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "august 8",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
@@ -283,9 +239,7 @@
         "banner_RiYqNL",
         "banner_Xinnbq",
         "banner_7mHF3H",
-        "banner_AhTzh7",
-        "banner_jt9q4L",
-        "banner_TAd3Ef"
+        "banner_AhTzh7"
       ],
       "settings": {
         "edge_to_edge": true,
