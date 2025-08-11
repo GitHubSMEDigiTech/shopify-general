@@ -54,6 +54,29 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_8pCnck": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Coroner.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Coroner_DissonanceTheory.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Coroner",
+            "head_color": "#ffffff",
+            "subtitle": "Dissonance Theory",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. 2CD Mediabook\nStandard CD Jewelcase\nblack LP\nLtd. deep blood red LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_zQ6HpU": {
           "type": "banner",
           "settings": {
@@ -232,6 +255,7 @@
         }
       },
       "block_order": [
+        "banner_8pCnck",
         "banner_zQ6HpU",
         "banner_NM6fYb",
         "banner_irrtQR",
