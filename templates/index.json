@@ -56,7 +56,6 @@
       "blocks": {
         "banner_8pCnck": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Coroner.jpg",
             "bg_color": "#eeeeee",
@@ -74,7 +73,7 @@
             "show_preorder": true,
             "preorder_msg": "Preorder Date or Message",
             "preorder_msg_color": "#000000",
-            "link": ""
+            "link": "https://www.cmdistro.de/collections/vendors?q=Coroner"
           }
         },
         "banner_zQ6HpU": {
