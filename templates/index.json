@@ -28,22 +28,6 @@
             "link": "shopify://collections/wolf-alice-the-clearing"
           }
         },
-        "image_bP3ehD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Amazon_750x223_bdda811e-2eae-4ff1-b9b3-642c23581bab.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/radio-italia-summer-hits-2025"
-          }
-        },
         "image_TtKNdn": {
           "type": "image",
           "settings": {
@@ -58,6 +42,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/neffa-canerandagio"
+          }
+        },
+        "image_bP3ehD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Amazon_750x223_bdda811e-2eae-4ff1-b9b3-642c23581bab.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/radio-italia-summer-hits-2025"
           }
         },
         "image_4YUhdE": {
@@ -76,22 +76,6 @@
             "link": "shopify://collections/david-gilmour"
           }
         },
-        "image_n7CPDY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/fibrab2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/fabri-fibra-mentre-los-angeles-brucia"
-          }
-        },
         "image_C8VMXJ": {
           "type": "image",
           "settings": {
@@ -106,6 +90,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/jade"
+          }
+        },
+        "image_n7CPDY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fibrab2b.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/fabri-fibra-mentre-los-angeles-brucia"
           }
         },
         "image_QUXtDw": {
@@ -276,11 +276,11 @@
       },
       "block_order": [
         "image_mkkh7F",
-        "image_bP3ehD",
         "image_TtKNdn",
+        "image_bP3ehD",
         "image_4YUhdE",
-        "image_n7CPDY",
         "image_C8VMXJ",
+        "image_n7CPDY",
         "image_QUXtDw",
         "image_QVbpj9",
         "image_ffXwbh",
