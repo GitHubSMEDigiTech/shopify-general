@@ -358,10 +358,10 @@
     "slideshow_gwyfxw": {
       "type": "slideshow",
       "blocks": {
-        "image_yDTjqP": {
+        "image_NNfHar": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pinkfloyddesktop.png",
+            "image": "shopify://shop_images/bruce.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -371,7 +371,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/pink-floyd"
+            "link": "shopify://collections/bruce-springsteen"
           }
         },
         "image_QQitzp": {
@@ -390,11 +390,10 @@
             "link": "shopify://collections/radio-italia-summer-hits-2025"
           }
         },
-        "image_NNfHar": {
+        "image_yDTjqP": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/bruce.png",
+            "image": "shopify://shop_images/pinkfloyddesktop.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -404,7 +403,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/bruce-springsteen"
+            "link": "shopify://collections/pink-floyd"
           }
         },
         "image_nMajwq": {
@@ -426,9 +425,9 @@
         }
       },
       "block_order": [
-        "image_yDTjqP",
-        "image_QQitzp",
         "image_NNfHar",
+        "image_QQitzp",
+        "image_yDTjqP",
         "image_nMajwq"
       ],
       "settings": {
