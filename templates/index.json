@@ -208,8 +208,8 @@
         "image_eUhDX7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_8de9cfc5-9270-49d8-8839-af8aecbe98a4.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_65eec4a2-fab6-40fe-a029-51ef04ea59a2.jpg",
+            "image": "shopify://shop_images/wolfalicebannerfuori.png",
+            "mobile_image": "shopify://shop_images/wolfalicemobilefuori.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
