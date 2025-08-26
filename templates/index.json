@@ -33,23 +33,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_54ce8d70-3087-4e1e-92e0-0caa76825185.jpg",
-            "mobile_image": "shopify://shop_images/750x1100.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/david-gilmour"
-          }
-        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -65,6 +48,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/neffa"
+          }
+        },
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_54ce8d70-3087-4e1e-92e0-0caa76825185.jpg",
+            "mobile_image": "shopify://shop_images/750x1100.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/david-gilmour"
           }
         },
         "image_FV8WFP": {
@@ -346,8 +346,8 @@
         }
       },
       "block_order": [
-        "image_x98LVH",
         "image_x47WFh",
+        "image_x98LVH",
         "image_FV8WFP",
         "image_3wJqzQ",
         "image_zLLxyF",
