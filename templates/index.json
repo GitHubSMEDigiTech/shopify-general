@@ -50,6 +50,40 @@
             "link": "shopify://collections/neffa"
           }
         },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wolfalicebannerfuori.png",
+            "mobile_image": "shopify://shop_images/wolfalicemobilefuori.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/wolf-alice"
+          }
+        },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/THE_ZEN_CIRCUS_desktop.png",
+            "mobile_image": "shopify://shop_images/THE_ZEN_CIRCUS_mobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/the-zen-circus"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -82,23 +116,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/luna-di-miele-lp-bianco"
-          }
-        },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/THE_ZEN_CIRCUS_desktop.png",
-            "mobile_image": "shopify://shop_images/THE_ZEN_CIRCUS_mobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-zen-circus"
           }
         },
         "image_zLLxyF": {
@@ -205,25 +222,9 @@
             "link": "shopify://products/radio-italia-summer-hits-2025"
           }
         },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/wolfalicebannerfuori.png",
-            "mobile_image": "shopify://shop_images/wolfalicemobilefuori.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/wolf-alice"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_dadc1c33-bc1d-4597-9f2a-5be59ebdcd23.jpg",
             "mobile_image": "shopify://shop_images/750x1100_2d26f384-62d7-4821-a650-393a23cc13e2.jpg",
@@ -347,16 +348,16 @@
       },
       "block_order": [
         "image_x47WFh",
+        "image_eUhDX7",
+        "image_3wJqzQ",
         "image_x98LVH",
         "image_FV8WFP",
-        "image_3wJqzQ",
         "image_zLLxyF",
         "image_QQwqrR",
         "image_NDBHHY",
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_FwMKHm",
-        "image_eUhDX7",
         "image_XHmBAC",
         "image_hhc4xB",
         "image_wfGmGy",
