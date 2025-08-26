@@ -545,8 +545,8 @@
         "image_GA7emn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_03285fc8-55c5-4c4b-afcf-e8ef8c9f38eb.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_fb0f8ff3-ecea-464e-b6dd-1f7022d42861.jpg",
+            "image": "shopify://shop_images/Banner_Desktop_Neffa_Canerandagio_3prodotti_parte2.png",
+            "mobile_image": "shopify://shop_images/Banner_Mobile_Neffa_Canerandagio_3prodotti_parte2.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -556,7 +556,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/bresh"
+            "link": "shopify://collections/neffa"
           }
         }
       },
