@@ -100,6 +100,7 @@
         "liquid_Tbd46i",
         "liquid_t64EVj"
       ],
+      "disabled": true,
       "settings": {
         "list_collections": true,
         "image_size": "small",
@@ -107,29 +108,6 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
-      }
-    },
-    "custom_liquid_RgYmJH": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "include_margins": true,
-        "liquid": "<h3 class=\"h2\">Descrizione</h3>\n<p>{{product.content}}</p>"
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "Prodotti consigliati",
-        "show_quick_buy": false
-      }
-    },
-    "recently-viewed-products": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "title": "Visti di recente",
-        "show_quick_buy": false
       }
     },
     "1740665642dbc6fbaf": {
@@ -143,8 +121,34 @@
       "block_order": [
         "sc_back_in_stock_app_block_AwjfMr"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
+      }
+    },
+    "custom_liquid_RgYmJH": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "include_margins": true,
+        "liquid": "<h3 class=\"h2\">Descrizione</h3>\n<p>{{product.content}}</p>"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "Prodotti consigliati",
+        "show_quick_buy": false
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "title": "Visti di recente",
+        "show_quick_buy": false
       }
     },
     "pf-ba83ef65": {
