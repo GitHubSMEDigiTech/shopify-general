@@ -365,7 +365,3 @@ main .accent-background+.shopify-section {
     height: 100%;
 	border: 0;
 }
-
-[data-pf-type] {
-    z-index: 1;
-}
