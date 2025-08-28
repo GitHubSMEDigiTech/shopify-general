@@ -334,7 +334,6 @@
         },
         "collection_3cBz6T": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "cassette",
             "link": ""
