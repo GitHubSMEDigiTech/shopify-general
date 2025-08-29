@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_wWCYQz": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/luna.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/LunaticSoul_TheWorldUnderUnsun_AlbumCover.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Lunatic Soul",
+            "head_color": "#ffffff",
+            "subtitle": "The World Under Unsun",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. 2CD Mediabook\nGatefold black 2LP & LP-Booklet\nLtd. Gatefold transp. sun yellow-red marbled 2LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 31",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_a4XMn4": {
           "type": "banner",
           "settings": {
@@ -120,28 +142,6 @@
             "link": ""
           }
         },
-        "banner_eDytBX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/asym.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/asymmetricuniverseamemoryandwhatcameafterjpg-98114.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Asymmetric Universe",
-            "head_color": "#666666",
-            "subtitle": "A Memory And What Came After",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Digipak\nLtd. transp. blue-black marbled LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "August 29",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Asymmetric%20Universe"
-          }
-        },
         "banner_7DiBtC": {
           "type": "banner",
           "settings": {
@@ -169,7 +169,6 @@
           "settings": {
             "image": "shopify://shop_images/Arjen.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/arjenanthonylucassensongsnoonewillhearjpg-97303.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Arjen Anthony Lucassen",
@@ -188,10 +187,10 @@
         }
       },
       "block_order": [
+        "banner_wWCYQz",
         "banner_a4XMn4",
         "banner_p47RLU",
         "banner_3eQKL7",
-        "banner_eDytBX",
         "banner_7DiBtC",
         "banner_HGCLmi"
       ],
