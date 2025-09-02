@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_fG7Tpa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/olly_banner.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/olly-tutta-vita-sempre"
+          }
+        },
         "image_TtKNdn": {
           "type": "image",
           "settings": {
@@ -226,6 +242,7 @@
         }
       },
       "block_order": [
+        "image_fG7Tpa",
         "image_TtKNdn",
         "image_4YUhdE",
         "image_C8VMXJ",
