@@ -543,8 +543,8 @@
         "image_GA7emn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Banner_Desktop_Neffa_Canerandagio_3prodotti_parte2.png",
-            "mobile_image": "shopify://shop_images/Banner_Mobile_Neffa_Canerandagio_3prodotti_parte2.png",
+            "image": "shopify://shop_images/2160x720_a3fbb3c5-b0ff-46c7-b392-18eb2e87d070.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_9bfc0025-c172-4dd4-8271-60ce29083142.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
