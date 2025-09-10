@@ -28,22 +28,6 @@
             "link": "shopify://collections/olly-tutta-vita-sempre"
           }
         },
-        "image_TtKNdn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bannerb2bneffa.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/neffa-canerandagio"
-          }
-        },
         "image_4YUhdE": {
           "type": "image",
           "settings": {
@@ -58,6 +42,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/david-gilmour"
+          }
+        },
+        "image_TtKNdn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bannerb2bneffa.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/neffa-canerandagio"
           }
         },
         "image_C8VMXJ": {
@@ -108,6 +108,22 @@
             "link": "shopify://collections/fabri-fibra-mentre-los-angeles-brucia"
           }
         },
+        "image_RpyWXF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/salmob2b.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo-ranch"
+          }
+        },
         "image_QVbpj9": {
           "type": "image",
           "settings": {
@@ -138,22 +154,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/claudio-baglioni-la-vita-e-adesso_il-sogno-e-sempre"
-          }
-        },
-        "image_RpyWXF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/salmob2b.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/salmo-ranch"
           }
         },
         "image_wiRjiq": {
@@ -190,6 +190,7 @@
         },
         "image_7WBgFd": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_8.jpg",
             "show_overlay": false,
@@ -206,6 +207,7 @@
         },
         "image_6YKHeW": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/deandrebannerb2b.jpg",
             "show_overlay": false,
@@ -240,14 +242,14 @@
       },
       "block_order": [
         "image_fG7Tpa",
-        "image_TtKNdn",
         "image_4YUhdE",
+        "image_TtKNdn",
         "image_C8VMXJ",
         "image_QUXtDw",
         "image_n7CPDY",
+        "image_RpyWXF",
         "image_QVbpj9",
         "image_ffXwbh",
-        "image_RpyWXF",
         "image_wiRjiq",
         "image_jntpdb",
         "image_7WBgFd",
