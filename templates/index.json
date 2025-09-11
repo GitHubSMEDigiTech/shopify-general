@@ -157,22 +157,6 @@
             "link": "shopify://collections/claudio-baglioni-la-vita-e-adesso_il-sogno-e-sempre"
           }
         },
-        "image_wiRjiq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/battistib2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/lucio-battisti"
-          }
-        },
         "image_jntpdb": {
           "type": "image",
           "settings": {
@@ -187,6 +171,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/nayt"
+          }
+        },
+        "image_wiRjiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/battistib2b.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/lucio-battisti"
           }
         },
         "image_7WBgFd": {
@@ -251,8 +251,8 @@
         "image_RpyWXF",
         "image_QVbpj9",
         "image_ffXwbh",
-        "image_wiRjiq",
         "image_jntpdb",
+        "image_wiRjiq",
         "image_7WBgFd",
         "image_6YKHeW",
         "image_a7atqp"
