@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wywhdesktop.png",
+            "mobile_image": "shopify://shop_images/mobilewywh.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/wywh"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -237,24 +254,6 @@
             "link": "shopify://products/radio-italia-summer-hits-2025"
           }
         },
-        "image_hhc4xB": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_d516a3e0-6c01-4236-a0de-8e13c46ed912.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_97a76743-ea3a-4daf-849c-389d49e79219.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/i-cani"
-          }
-        },
         "image_wfGmGy": {
           "type": "image",
           "disabled": true,
@@ -344,6 +343,7 @@
         }
       },
       "block_order": [
+        "image_hhc4xB",
         "image_XHmBAC",
         "image_G3f6rF",
         "image_QQwqrR",
@@ -356,7 +356,6 @@
         "image_NDBHHY",
         "image_DjX6Ay",
         "image_FwMKHm",
-        "image_hhc4xB",
         "image_wfGmGy",
         "image_HciHCp",
         "image_4T4yhV",
