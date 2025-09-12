@@ -14,8 +14,8 @@
       "blocks": {
         "image_cw9LmB": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/wywhdesktop.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
