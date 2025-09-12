@@ -35,9 +35,8 @@
       "blocks": {
         "image_hhc4xB": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/wywhdesktop_a6d75996-e0df-4cab-8a52-aa8caa6f848c.png",
+            "image": "shopify://shop_images/wywhdesktop_a57b9013-a2e6-414b-b998-d7a656e5da2f.png",
             "mobile_image": "shopify://shop_images/mobilewywh.png",
             "show_overlay": false,
             "overlay_opacity": 30,
