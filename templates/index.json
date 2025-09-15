@@ -174,6 +174,7 @@
         },
         "image_wiRjiq": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/battistib2b.png",
             "show_overlay": true,
