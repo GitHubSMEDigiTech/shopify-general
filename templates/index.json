@@ -50,6 +50,23 @@
             "link": "shopify://collections/wywh"
           }
         },
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_SALMO_2765f1a6-9b2e-49b6-abf0-9e4cad2416f4.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_SALMO_NEW.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -254,24 +271,6 @@
             "link": "shopify://products/radio-italia-summer-hits-2025"
           }
         },
-        "image_wfGmGy": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_b196e9eb-5059-4cbb-b22b-ce618db8b014.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_d5d290c7-7b8e-424f-a85f-6cbca25c5ae0.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/alessandra-amoroso"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -344,6 +343,7 @@
       },
       "block_order": [
         "image_hhc4xB",
+        "image_wfGmGy",
         "image_XHmBAC",
         "image_G3f6rF",
         "image_QQwqrR",
@@ -356,7 +356,6 @@
         "image_NDBHHY",
         "image_DjX6Ay",
         "image_FwMKHm",
-        "image_wfGmGy",
         "image_HciHCp",
         "image_4T4yhV",
         "image_kNcaX3",
