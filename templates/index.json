@@ -44,6 +44,22 @@
             "link": "shopify://collections/olly-tutta-vita-sempre"
           }
         },
+        "image_EtxY9n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_6c8e6a41-1006-4a8c-8c2f-82a89ef5c9a7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
+          }
+        },
         "image_4YUhdE": {
           "type": "image",
           "settings": {
@@ -244,6 +260,7 @@
       "block_order": [
         "image_cw9LmB",
         "image_fG7Tpa",
+        "image_EtxY9n",
         "image_4YUhdE",
         "image_TtKNdn",
         "image_QUXtDw",
