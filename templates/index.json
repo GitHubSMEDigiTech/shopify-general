@@ -104,8 +104,8 @@
         "image_QQwqrR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_3f8c8ea9-04e3-4e37-b7e9-923ae137ef02.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_a44e2218-102d-45e5-a61e-4e910dc8565b.jpg",
+            "image": "shopify://shop_images/2160x720_b6d1d25f-5e2d-4b84-be5f-496c505db5bf.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_cb16bdec-1f7e-4cba-b5e9-46a5748e5e65.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
