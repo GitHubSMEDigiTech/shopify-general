@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_kC8Ue9": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/DT.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/dreamtheaterquarantiemeliveaparisjpg-133614.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Dream Theater",
+            "head_color": "#ffffff",
+            "subtitle": "Quarantième: Live à Paris",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 3CD+3Blu-ray Artbook\nSpecial Edition 3CD+2Blu-ray Digipak in Slipcase \nLtd. Deluxe black 4LP Edition \nLtd. Deluxe orange 4LP Edition",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "November 28",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Dream+Theater&sort_by=created-descending"
+          }
+        },
         "banner_nCYifV": {
           "type": "banner",
           "settings": {
@@ -231,6 +253,7 @@
         }
       },
       "block_order": [
+        "banner_kC8Ue9",
         "banner_nCYifV",
         "banner_VhbdT8",
         "banner_wWCYQz",
