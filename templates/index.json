@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_nCYifV": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Steve.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/stevehackettamidsummernightsdreamjpg-133350.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Steve Hackett",
+            "head_color": "#ffffff",
+            "subtitle": "A Midsummer Night's Dream",
+            "subhead_color": "#ffffff",
+            "content": "Special Edition CD Digipak\nGatefold black LP\nLtd. Gatefold transp. magenta LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "November 21",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Steve%20Hackett"
+          }
+        },
         "banner_VhbdT8": {
           "type": "banner",
           "settings": {
@@ -209,6 +231,7 @@
         }
       },
       "block_order": [
+        "banner_nCYifV",
         "banner_VhbdT8",
         "banner_wWCYQz",
         "banner_a4XMn4",
