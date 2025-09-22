@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a3fbb3c5-b0ff-46c7-b392-18eb2e87d070.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_bd626ece-6a71-4621-8060-e824c3c8f9b7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/olly"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -82,23 +99,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/bruce-springsteen"
-          }
-        },
-        "image_G3f6rF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a3fbb3c5-b0ff-46c7-b392-18eb2e87d070.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_bd626ece-6a71-4621-8060-e824c3c8f9b7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/olly"
           }
         },
         "image_QQwqrR": {
@@ -342,10 +342,10 @@
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_hhc4xB",
         "image_wfGmGy",
         "image_XHmBAC",
-        "image_G3f6rF",
         "image_QQwqrR",
         "image_x47WFh",
         "image_eUhDX7",
