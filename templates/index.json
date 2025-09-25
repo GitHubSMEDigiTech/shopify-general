@@ -30,6 +30,7 @@
         },
         "image_fG7Tpa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/olly_banner.png",
             "show_overlay": false,
