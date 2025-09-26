@@ -231,6 +231,24 @@
             "button_text": "Learn more",
             "button_link": "shopify://collections/canvass-16-gennaio-2026"
           }
+        },
+        "item_pbH7aN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 06 febbraio 2026",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Learn more",
+            "button_link": "shopify://collections/canvass-06-febbraio-2026"
+          }
         }
       },
       "block_order": [
@@ -245,7 +263,8 @@
         "item_W9wKPi",
         "item_RpckQn",
         "item_wCYYPg",
-        "item_HU8QHk"
+        "item_HU8QHk",
+        "item_pbH7aN"
       ],
       "settings": {
         "expand_items": false,
