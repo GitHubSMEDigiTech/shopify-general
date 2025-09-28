@@ -157,6 +157,22 @@
             "link": "shopify://collections/salmo-ranch"
           }
         },
+        "image_wiRjiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/battistib2b.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/lucio-battisti"
+          }
+        },
         "image_QVbpj9": {
           "type": "image",
           "settings": {
@@ -205,23 +221,6 @@
             "link": "shopify://collections/nayt"
           }
         },
-        "image_wiRjiq": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/battistib2b.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/lucio-battisti"
-          }
-        },
         "image_6YKHeW": {
           "type": "image",
           "disabled": true,
@@ -267,10 +266,10 @@
         "image_7WBgFd",
         "image_n7CPDY",
         "image_RpyWXF",
+        "image_wiRjiq",
         "image_QVbpj9",
         "image_ffXwbh",
         "image_jntpdb",
-        "image_wiRjiq",
         "image_6YKHeW",
         "image_a7atqp"
       ],
