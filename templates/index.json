@@ -101,6 +101,23 @@
             "link": "shopify://collections/bruce-springsteen"
           }
         },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/THE_ZEN_CIRCUS_desktop.png",
+            "mobile_image": "shopify://shop_images/THE_ZEN_CIRCUS_mobile.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/the-zen-circus"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -150,23 +167,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/wolf-alice"
-          }
-        },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/THE_ZEN_CIRCUS_desktop.png",
-            "mobile_image": "shopify://shop_images/THE_ZEN_CIRCUS_mobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-zen-circus"
           }
         },
         "image_x98LVH": {
@@ -254,23 +254,6 @@
             "link": "shopify://collections/fabri-fibra"
           }
         },
-        "image_FwMKHm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/bannerRadioitaliadesktop.png",
-            "mobile_image": "shopify://shop_images/mobileRadioItalia_2c61af7e-4cc4-435f-b932-aac441794cb9.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/radio-italia-summer-hits-2025"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -346,16 +329,15 @@
         "image_hhc4xB",
         "image_wfGmGy",
         "image_XHmBAC",
+        "image_3wJqzQ",
         "image_QQwqrR",
         "image_x47WFh",
         "image_eUhDX7",
-        "image_3wJqzQ",
         "image_x98LVH",
         "image_FV8WFP",
         "image_zLLxyF",
         "image_NDBHHY",
         "image_DjX6Ay",
-        "image_FwMKHm",
         "image_HciHCp",
         "image_4T4yhV",
         "image_kNcaX3",
