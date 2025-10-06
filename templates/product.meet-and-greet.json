@@ -125,7 +125,7 @@
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
-        "text_width": "narrow",
+        "text_width": "regular",
         "title": "Dove trovo il numero del CODICE A BARRE?",
         "h_one": false,
         "content": "<p><strong>TICKETONE</strong>: Trovi il<strong> numero del codice a barre </strong>nella parte sinistra del biglietto.<br/><strong>TICKETMASTER</strong>: trovi il numero del codice a barre, in alto o a sinistra del biglietto</p>",
