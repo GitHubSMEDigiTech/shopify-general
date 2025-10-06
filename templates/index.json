@@ -37,6 +37,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/NEFFA_BANNER-02.jpg",
+            "mobile_image": "shopify://shop_images/Banner_Mobile_Neffa_Canerandagio_3prodotti_parte2.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
