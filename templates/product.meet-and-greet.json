@@ -39,28 +39,12 @@
             "content": "<p>{{ product.metafields.meta.additional_information.value }}</p>"
           }
         },
-        "variant_selector": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "block",
-            "color_mode": "color",
-            "show_quantity_selector": true,
-            "show_taxes_included": false,
-            "show_inventory_quantity": false,
-            "low_inventory_threshold": 0
-          }
-        },
         "contest_dPa76e": {
           "type": "contest",
+          "disabled": true,
           "settings": {
             "contest_title": "",
             "contest_radio": "si, no"
-          }
-        },
-        "text_4QNNTd": {
-          "type": "text",
-          "settings": {
-            "content": "<h6><em>Flaggando su \"si\" , ci autorizzi a contattarti via mail per comunicazioni essenziali per partecipare all'attività</em></h6>"
           }
         },
         "buy_buttons": {
@@ -84,25 +68,6 @@
             "display_mode": "show_all"
           }
         },
-        "liquid_Tbd46i": {
-          "type": "liquid",
-          "settings": {
-            "title": "Tracklist",
-            "sku": "",
-            "liquid": "{{product.metafields.meta.tracklist}}",
-            "display_mode": "show_all"
-          }
-        },
-        "liquid_t64EVj": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "title": "INSTORE TOUR",
-            "sku": "",
-            "liquid": "{{product.metafields.meta.instore_tour}}",
-            "display_mode": "show_all"
-          }
-        },
         "liquid_4LWTy9": {
           "type": "liquid",
           "settings": {
@@ -111,13 +76,6 @@
             "liquid": "<h3 class=\"h2\">Descrizione</h3>\n<p>{{product.content}}</p>",
             "display_mode": "show_all"
           }
-        },
-        "text_RAnwjh": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Acquista in preorder il nuovo album degli <strong>ARCARE FIRE</strong> in formato CD o LP e partecipa al concorso per accedere all’esclusivo Underplay di “<strong>PINK ELEPHANT</strong>” che si terrà il 14/05/2025 alla Royal Albert Hall di Londra.<br/> <br/>Riceverai, nelle ore successive all’acquisto, una mail con un codice univoco. <br/>Successivamente all’acquisto, e al ricevimento del codice, potrai collegarti sulla pagina dedicata al concorso ( <a href=\"https://play.rtl.it/contest/radiofreccia-ti-porta-a-londra-all-esclusivo-underplay-di-pink-elephant-di-arcade-fire/\" target=\"_blank\" title=\"https://play.rtl.it/contest/radiofreccia-ti-porta-a-londra-all-esclusivo-underplay-di-pink-elephant-di-arcade-fire/\">https://play.rtl.it/contest/radiofreccia-ti-porta-a-londra-all-esclusivo-underplay-di-pink-elephant-di-arcade-fire/</a> ), per inserire il codice univoco ricevuto via mail. <br/> <br/>Assicurati di ricevere correttamente la mail, controlla anche la posta indesiderata e/o lo spam. <br/></p><p>La partecipazione al concorso dovrà avvenire entro e non oltre le ore 13.00 del 02 maggio 2025. </p><p><strong>INIZIO CONCORSO</strong>: dal 25/04/2025 ore 00.01<br/><strong>FINE CONCORSO</strong>: al 01/05/2025 ore 23.59<br/> <br/><strong>TERMINE ULTIMO REGISTRAZIONE</strong>: 02/05/2025 ore 13.00<br/> <br/><strong>DATA ESTRAZIONE</strong>: 05/05/2025 ore 14.00<br/> <br/><strong>MONTEPREMI TOTALE</strong>: 8.000 euro <br/> <br/>Si precisa che ad <strong>ogni </strong>ordine verrà inviata <strong>una </strong>mail con <strong>un </strong>codice che ti permetterà di partecipare al concorso. <br/> <br/>Per qualsiasi informazione aggiuntiva puoi scriverci al contact.store.ita@sonymusic.com <br/> <br/>Clicca <a href=\"https://cloud.rtl.it/radiofreccia/docs/2025/regolamento-arcade-fire-DEF.pdf\" target=\"_blank\" title=\"https://cloud.rtl.it/radiofreccia/docs/2025/regolamento-arcade-fire-DEF.pdf\"><strong>qui </strong></a>per consultare il Regolamento. <br/></p>"
-          }
         }
       },
       "block_order": [
@@ -125,16 +83,11 @@
         "text_FYDwhT",
         "text_GE8g7C",
         "text_Hkfmce",
-        "variant_selector",
         "contest_dPa76e",
-        "text_4QNNTd",
         "buy_buttons",
         "description",
         "liquid_b4jzwN",
-        "liquid_Tbd46i",
-        "liquid_t64EVj",
-        "liquid_4LWTy9",
-        "text_RAnwjh"
+        "liquid_4LWTy9"
       ],
       "settings": {
         "list_collections": true,
@@ -145,16 +98,36 @@
         "carousel_effect": "fade"
       }
     },
+    "rich_text_FkW6jP": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "Inserisci il numero del codice a barre e ottieni il 30% di sconto",
+        "h_one": false,
+        "content": "<ol><li>Aggiungi al carrello \" Canerandagio - Doppio LP Trasparente Autografato (Parte 2)\"</li><li>Inserisci i numeri che compongoni il codice a barre del biglietto nel box \"codice sconto\" presente nel carrello</li><li>Clicca su \"applica\" e ottieni il 30% di sconto</li></ol>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "rich_text_NRnQPG": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
         "text_width": "narrow",
-        "title": "Dove trovo il numero del Sigillo Fiscale?",
+        "title": "Dove trovo il numero del CODICE A BARRE?",
         "h_one": false,
-        "content": "<p>Trovi il numero del Sigillo Fiscale nella parte destra del biglietto in tuo possesso, preceduto dalle lettere SF.</p>",
+        "content": "<p>Trovi il<strong> numero del codice a barre </strong>nella parte sinistra del biglietto.</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#ffffff",
@@ -172,12 +145,12 @@
         "image_kcDzCL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/santiSF.jpg",
+            "image": "shopify://shop_images/neffato.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
-            "title": "Slide title",
-            "content": "Tell your story",
+            "title": "",
+            "content": "",
             "content_position": "middle_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -189,7 +162,6 @@
       "block_order": [
         "image_kcDzCL"
       ],
-      "disabled": true,
       "settings": {
         "edge_to_edge": false,
         "section_size": "large",
@@ -199,15 +171,6 @@
         "show_arrows": false,
         "show_dots": false,
         "cycle_speed": 5
-      }
-    },
-    "custom_liquid_RgYmJH": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "include_margins": true,
-        "liquid": "<h3 class=\"h2\">Descrizione</h3>\n<p>{{product.content}}</p>"
       }
     },
     "product-recommendations": {
@@ -227,9 +190,9 @@
   },
   "order": [
     "main",
+    "rich_text_FkW6jP",
     "rich_text_NRnQPG",
     "slideshow_KFNMaw",
-    "custom_liquid_RgYmJH",
     "product-recommendations",
     "recently-viewed-products"
   ]
