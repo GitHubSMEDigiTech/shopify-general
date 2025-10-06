@@ -146,6 +146,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/neffato.jpg",
+            "mobile_image": "shopify://shop_images/neffaticket.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
