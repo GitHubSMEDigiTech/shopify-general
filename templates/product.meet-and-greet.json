@@ -162,6 +162,7 @@
         },
         "image_PDR6kc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ticketmaster2.png",
             "show_overlay": false,
