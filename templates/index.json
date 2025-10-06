@@ -50,6 +50,23 @@
             "link": "shopify://collections/olly"
           }
         },
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_d6769736-85da-42c9-9567-b9a1d6a3ce54.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_698295d8-f10f-480a-857f-8a912d299deb.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/giorgia"
+          }
+        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -133,23 +150,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/the-zen-circus"
-          }
-        },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_b6d1d25f-5e2d-4b84-be5f-496c505db5bf.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_cb16bdec-1f7e-4cba-b5e9-46a5748e5e65.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/sick-budd"
           }
         },
         "image_x47WFh": {
@@ -325,12 +325,12 @@
       },
       "block_order": [
         "image_G3f6rF",
+        "image_QQwqrR",
         "image_4T4yhV",
         "image_hhc4xB",
         "image_wfGmGy",
         "image_XHmBAC",
         "image_3wJqzQ",
-        "image_QQwqrR",
         "image_x47WFh",
         "image_eUhDX7",
         "image_x98LVH",
