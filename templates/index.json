@@ -97,6 +97,7 @@
         },
         "image_EtxY9n": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_6c8e6a41-1006-4a8c-8c2f-82a89ef5c9a7.jpg",
             "show_overlay": false,
