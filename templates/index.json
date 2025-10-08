@@ -12,24 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_ntahL8": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_18.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_3.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/papa-v-night-skinny"
-          }
-        },
         "image_KdLe8U": {
           "type": "image",
           "settings": {
@@ -277,7 +259,6 @@
         }
       },
       "block_order": [
-        "image_ntahL8",
         "image_KdLe8U",
         "image_4YUhdE",
         "image_cw9LmB",
