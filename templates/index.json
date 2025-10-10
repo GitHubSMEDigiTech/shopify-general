@@ -60,7 +60,7 @@
             "image": "shopify://shop_images/CL.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify://shop_images/crystallaketheweightofsoundjpg-136366.jpg",
-            "cover_effect": "none",
+            "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Crystal Lake",
             "head_color": "#ad141f",
