@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_BTaLQL": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/CL.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/crystallaketheweightofsoundjpg-136366.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Crystal Lake",
+            "head_color": "#ad141f",
+            "subtitle": "The Weight of Sound",
+            "subhead_color": "#ad141f",
+            "content": "Ltd. CD Digipak\ngrey LP",
+            "content_color": "#ad141f",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "January 23",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Crystal%20Lake"
+          }
+        },
         "banner_zt7AGV": {
           "type": "banner",
           "settings": {
@@ -141,105 +163,14 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Of%20Mice%20%26%20Men"
           }
-        },
-        "banner_irrtQR": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Sangui.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Sanguisugabogg_HideousAftermath_74f529bd-dcf0-4131-9c51-553a5b023c9c.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "Sanguisugabogg",
-            "head_color": "#ffffff",
-            "subtitle": "Hideous Aftermath",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nGatefold transp. red LP & LP-Booklet\nLtd. Gatefold white-black marbled LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 10",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Sanguisugabogg"
-          }
-        },
-        "banner_Kyj8EX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/man.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/MANWITHAMISSION_XV_EP-AcrosstheGlobe_c67574b7-8087-4917-8a82-00a00aa0e0ae.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Man With A Mission",
-            "head_color": "#ffffff",
-            "subtitle": "XV e.p. Across the Globe",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\ntransp. magenta LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 19",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=MAN%20WITH%20A%20MISSION"
-          }
-        },
-        "banner_RiYqNL": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/orbit.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/OrbitCulture_DeathAboveLife.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Orbit Culture",
-            "head_color": "#eeeeee",
-            "subtitle": "Death Above Life",
-            "subhead_color": "#eeeeee",
-            "content": "Ltd. CD Digipak\nGatefold black 2LP\nLtd. Gatefold greenish ReVinyl 2LP",
-            "content_color": "#eeeeee",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 3",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Orbit%20Culture"
-          }
-        },
-        "banner_Xinnbq": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Lorna.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/LornaShore_IFeelTheEverblackFestering.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Lorna Shore",
-            "head_color": "#ffffff",
-            "subtitle": "I Feel The Everblack Festering Within Me",
-            "subhead_color": "#ffffff",
-            "content": "Gatefold black 2LP\nLtd. CD Edition in O-Card\nLtd. Gatefold dark blue marbled 2LP\nLtd. Deluxe Gatefold golden 2LP & Slipmat in O-Card",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 12",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Lorna%20Shore&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_BTaLQL",
         "banner_zt7AGV",
         "banner_8pCnck",
         "banner_zQ6HpU",
-        "banner_NM6fYb",
-        "banner_irrtQR",
-        "banner_Kyj8EX",
-        "banner_RiYqNL",
-        "banner_Xinnbq"
+        "banner_NM6fYb"
       ],
       "settings": {
         "edge_to_edge": true,
