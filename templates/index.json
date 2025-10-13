@@ -67,6 +67,23 @@
             "link": "shopify://collections/olly"
           }
         },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_af93067a-5b4c-4c98-b6d1-c82b4a19bd70.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_598464fb-1b22-4d1a-bca0-519af5febb82.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/alvaro-soler"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -186,23 +203,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/neffa"
-          }
-        },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/wolfalicebannerfuori.png",
-            "mobile_image": "shopify://shop_images/wolfalicemobilefuori.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/wolf-alice"
           }
         },
         "image_FV8WFP": {
@@ -328,6 +328,7 @@
       "block_order": [
         "image_x98LVH",
         "image_G3f6rF",
+        "image_eUhDX7",
         "image_QQwqrR",
         "image_4T4yhV",
         "image_hhc4xB",
@@ -335,7 +336,6 @@
         "image_XHmBAC",
         "image_3wJqzQ",
         "image_x47WFh",
-        "image_eUhDX7",
         "image_FV8WFP",
         "image_zLLxyF",
         "image_NDBHHY",
