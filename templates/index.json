@@ -44,6 +44,22 @@
             "link": "shopify://collections/david-gilmour"
           }
         },
+        "image_EeajA7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_70298e82-2025-4896-92a8-95b931b280de.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/alvaro-soler-el-camino"
+          }
+        },
         "image_cw9LmB": {
           "type": "image",
           "settings": {
@@ -261,6 +277,7 @@
       "block_order": [
         "image_KdLe8U",
         "image_4YUhdE",
+        "image_EeajA7",
         "image_cw9LmB",
         "image_fG7Tpa",
         "image_EtxY9n",
