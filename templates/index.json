@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_54ce8d70-3087-4e1e-92e0-0caa76825185.jpg",
+            "mobile_image": "shopify://shop_images/mobilegilmour.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/david-gilmour"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -151,24 +168,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/salmo"
-          }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9514a036-d219-47be-8cb3-4eea6d630b6d.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_18.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bruce-springsteen"
           }
         },
         "image_3wJqzQ": {
@@ -326,6 +325,7 @@
         }
       },
       "block_order": [
+        "image_XHmBAC",
         "image_x98LVH",
         "image_G3f6rF",
         "image_eUhDX7",
@@ -333,7 +333,6 @@
         "image_4T4yhV",
         "image_hhc4xB",
         "image_wfGmGy",
-        "image_XHmBAC",
         "image_3wJqzQ",
         "image_x47WFh",
         "image_FV8WFP",
