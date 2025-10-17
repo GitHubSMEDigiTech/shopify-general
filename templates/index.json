@@ -36,8 +36,8 @@
         "image_XHmBAC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_54ce8d70-3087-4e1e-92e0-0caa76825185.jpg",
-            "mobile_image": "shopify://shop_images/mobilegilmour.png",
+            "image": "shopify://shop_images/2160x720_21_0aebb70f-99f5-4bef-80b2-dc3bcc128663.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_20_9510d03e-7ead-4ca6-9858-63863397e6fd.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
