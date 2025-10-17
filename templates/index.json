@@ -46,6 +46,22 @@
             "link": "shopify://collections/papa-v-night-skinny"
           }
         },
+        "image_eyUyGr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/David_Gilmour_banner.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/david-gilmour"
+          }
+        },
         "image_KdLe8U": {
           "type": "image",
           "settings": {
@@ -262,6 +278,7 @@
       "block_order": [
         "image_BBXPtE",
         "image_Dfjnif",
+        "image_eyUyGr",
         "image_KdLe8U",
         "image_EeajA7",
         "image_7WBgFd",
