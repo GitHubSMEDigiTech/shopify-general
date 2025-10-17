@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_f62545c9-9fb4-4ecb-9733-01246697edea.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_5ee0be42-907a-413e-8389-9f4daa406ca7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/papa-v-night-skinny"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -187,23 +204,6 @@
             "link": "shopify://collections/salmo"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/THE_ZEN_CIRCUS_desktop.png",
-            "mobile_image": "shopify://shop_images/THE_ZEN_CIRCUS_mobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-zen-circus"
-          }
-        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -325,6 +325,7 @@
         }
       },
       "block_order": [
+        "image_3wJqzQ",
         "image_XHmBAC",
         "image_NDBHHY",
         "image_x98LVH",
@@ -334,7 +335,6 @@
         "image_4T4yhV",
         "image_hhc4xB",
         "image_wfGmGy",
-        "image_3wJqzQ",
         "image_x47WFh",
         "image_FV8WFP",
         "image_zLLxyF",
