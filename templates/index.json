@@ -12,22 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_L63AHk": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_c694c875-cff2-4292-a638-260539c5ceef.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
-          }
-        },
         "image_RjmWFX": {
           "type": "image",
           "settings": {
@@ -42,6 +26,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
+          }
+        },
+        "image_L63AHk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c694c875-cff2-4292-a638-260539c5ceef.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
           }
         },
         "image_BBXPtE": {
@@ -110,22 +110,6 @@
             "link": "shopify://collections/giorgia"
           }
         },
-        "image_EeajA7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_70298e82-2025-4896-92a8-95b931b280de.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/alvaro-soler-el-camino"
-          }
-        },
         "image_7WBgFd": {
           "type": "image",
           "settings": {
@@ -176,6 +160,7 @@
         },
         "image_TtKNdn": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bannerb2bneffa.png",
             "show_overlay": false,
@@ -192,6 +177,7 @@
         },
         "image_RpyWXF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/salmob2b.png",
             "show_overlay": false,
@@ -208,6 +194,7 @@
         },
         "image_QVbpj9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/amorosob2b.png",
             "show_overlay": false,
@@ -224,6 +211,7 @@
         },
         "image_ffXwbh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/baglionib2b.png",
             "show_overlay": true,
@@ -308,13 +296,12 @@
         }
       },
       "block_order": [
-        "image_L63AHk",
         "image_RjmWFX",
+        "image_L63AHk",
         "image_BBXPtE",
         "image_Dfjnif",
         "image_eyUyGr",
         "image_KdLe8U",
-        "image_EeajA7",
         "image_7WBgFd",
         "image_cw9LmB",
         "image_n7CPDY",
