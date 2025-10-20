@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c623778d-e79e-4bbf-938a-37c821599cea.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a7f95abf-8af3-42a5-98e2-eb0be4c9038b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -186,23 +203,6 @@
             "link": "shopify://collections/wywh"
           }
         },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Desktop_SALMO_2765f1a6-9b2e-49b6-abf0-9e4cad2416f4.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_SALMO_NEW.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/salmo"
-          }
-        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_wfGmGy",
         "image_3wJqzQ",
         "image_XHmBAC",
         "image_4T4yhV",
@@ -333,7 +334,6 @@
         "image_eUhDX7",
         "image_QQwqrR",
         "image_hhc4xB",
-        "image_wfGmGy",
         "image_x47WFh",
         "image_FV8WFP",
         "image_zLLxyF",
