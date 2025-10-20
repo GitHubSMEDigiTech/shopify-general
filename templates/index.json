@@ -60,7 +60,7 @@
             "image": "shopify://shop_images/gaerea.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify://shop_images/gaerealossjpg-139344.jpg",
-            "cover_effect": "none",
+            "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Gaerea",
             "head_color": "#ffffff",
