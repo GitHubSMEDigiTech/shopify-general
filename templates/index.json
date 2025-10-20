@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_L63AHk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c694c875-cff2-4292-a638-260539c5ceef.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
+          }
+        },
         "image_BBXPtE": {
           "type": "image",
           "settings": {
@@ -276,6 +292,7 @@
         }
       },
       "block_order": [
+        "image_L63AHk",
         "image_BBXPtE",
         "image_Dfjnif",
         "image_eyUyGr",
