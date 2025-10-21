@@ -50,6 +50,23 @@
             "link": "shopify://collections/nitro"
           }
         },
+        "image_HciHCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_baf7338b-33f6-4e77-baf7-b07c81024feb.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_06d832f7-cfb3-4ae4-961d-df81d6dc5158.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/dani-faiv"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -271,23 +288,6 @@
             "link": "shopify://collections/fabri-fibra"
           }
         },
-        "image_HciHCp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_ad4f7ee7-628e-4217-b0ab-09e3b1626ce5.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_3f7bbc86-712a-4d84-ab92-ee49f5737a89.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/jade"
-          }
-        },
         "image_kNcaX3": {
           "type": "image",
           "settings": {
@@ -325,6 +325,7 @@
       },
       "block_order": [
         "image_x47WFh",
+        "image_HciHCp",
         "image_wfGmGy",
         "image_3wJqzQ",
         "image_XHmBAC",
@@ -338,7 +339,6 @@
         "image_FV8WFP",
         "image_zLLxyF",
         "image_DjX6Ay",
-        "image_HciHCp",
         "image_kNcaX3",
         "image_9kfgaA"
       ],
