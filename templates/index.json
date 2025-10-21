@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x47WFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_721128e2-a4f9-40b6-a23f-d6e3d5f37621.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_02505c7b-4db1-4307-9259-68a07c7dd16a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nitro"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -203,23 +220,6 @@
             "link": "shopify://collections/wywh"
           }
         },
-        "image_x47WFh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Desktop_Neffa_Canerandagio_3prodotti_parte2.png",
-            "mobile_image": "shopify://shop_images/Banner_Mobile_Neffa_Canerandagio_3prodotti_parte2.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/neffa"
-          }
-        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_x47WFh",
         "image_wfGmGy",
         "image_3wJqzQ",
         "image_XHmBAC",
@@ -334,7 +335,6 @@
         "image_eUhDX7",
         "image_QQwqrR",
         "image_hhc4xB",
-        "image_x47WFh",
         "image_FV8WFP",
         "image_zLLxyF",
         "image_DjX6Ay",
