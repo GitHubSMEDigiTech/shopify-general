@@ -95,6 +95,22 @@
             "link": "shopify://collections/papa-v-night-skinny"
           }
         },
+        "image_dcxRfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rosalia-lux"
+          }
+        },
         "image_eyUyGr": {
           "type": "image",
           "settings": {
@@ -335,6 +351,7 @@
         "image_L63AHk",
         "image_BBXPtE",
         "image_Dfjnif",
+        "image_dcxRfd",
         "image_eyUyGr",
         "image_KdLe8U",
         "image_mF3iC9",
