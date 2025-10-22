@@ -45,22 +45,6 @@
             "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
           }
         },
-        "image_nXRViG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/damianobanner.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/damiano-david"
-          }
-        },
         "image_L63AHk": {
           "type": "image",
           "settings": {
@@ -92,6 +76,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/tyler-the-creator-chromakopia"
+          }
+        },
+        "image_nXRViG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/damianobanner.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david"
           }
         },
         "image_Dfjnif": {
@@ -297,9 +297,9 @@
       "block_order": [
         "image_RjmWFX",
         "image_4zRqbV",
-        "image_nXRViG",
         "image_L63AHk",
         "image_BBXPtE",
+        "image_nXRViG",
         "image_Dfjnif",
         "image_dcxRfd",
         "image_eyUyGr",
