@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_kNcaX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a9dbd0cb-fc6a-42ec-a463-c8ac59d00b12.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d250ca37-fe7c-4c40-967d-3509a39443f8.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tommaso-paradiso"
+          }
+        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -288,23 +305,6 @@
             "link": "shopify://collections/fabri-fibra"
           }
         },
-        "image_kNcaX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BRUCEDESKTOP_6074ee46-52c8-4da8-80c6-5f9b66adcbe7.png",
-            "mobile_image": "shopify://shop_images/BRUCEMOBILE.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bruce-springsteen"
-          }
-        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_kNcaX3",
         "image_x47WFh",
         "image_HciHCp",
         "image_wfGmGy",
@@ -339,7 +340,6 @@
         "image_FV8WFP",
         "image_zLLxyF",
         "image_DjX6Ay",
-        "image_kNcaX3",
         "image_9kfgaA"
       ],
       "settings": {
