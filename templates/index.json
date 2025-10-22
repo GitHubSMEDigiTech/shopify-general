@@ -67,6 +67,23 @@
             "link": "shopify://collections/nitro"
           }
         },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_73145ad7-1162-4505-82f9-2ef5ab23b993.jpg",
+            "mobile_image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Mobile_750x1100_d480361f-665b-43f9-9451-9e802d58a6dd.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rosalia"
+          }
+        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -203,23 +220,6 @@
             "link": "shopify://collections/olly"
           }
         },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_af93067a-5b4c-4c98-b6d1-c82b4a19bd70.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_598464fb-1b22-4d1a-bca0-519af5febb82.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/alvaro-soler"
-          }
-        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -326,6 +326,7 @@
       "block_order": [
         "image_kNcaX3",
         "image_x47WFh",
+        "image_eUhDX7",
         "image_HciHCp",
         "image_wfGmGy",
         "image_3wJqzQ",
@@ -334,7 +335,6 @@
         "image_NDBHHY",
         "image_x98LVH",
         "image_G3f6rF",
-        "image_eUhDX7",
         "image_QQwqrR",
         "image_hhc4xB",
         "image_FV8WFP",
