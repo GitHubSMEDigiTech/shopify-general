@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_NDBHHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_62a0d80d-dd42-4db3-9e09-40265ad3e8c5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_1e05b0ed-2e95-46d3-bab2-e0e8037bb533.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen"
+          }
+        },
         "image_kNcaX3": {
           "type": "image",
           "settings": {
@@ -167,23 +184,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/tyler-the-creator"
-          }
-        },
-        "image_NDBHHY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_613d7a80-80b8-4be7-94e5-c2f7935232cf.jpg",
-            "mobile_image": "shopify://shop_images/BRUCEMOBILE_f2333dd1-017a-4150-bf38-ec877f5e1b78.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bruce-springsteen"
           }
         },
         "image_x98LVH": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_NDBHHY",
         "image_kNcaX3",
         "image_x47WFh",
         "image_eUhDX7",
@@ -332,7 +333,6 @@
         "image_3wJqzQ",
         "image_XHmBAC",
         "image_4T4yhV",
-        "image_NDBHHY",
         "image_x98LVH",
         "image_G3f6rF",
         "image_QQwqrR",
