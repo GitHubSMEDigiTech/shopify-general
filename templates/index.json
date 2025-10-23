@@ -163,93 +163,6 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Crown%20Lands"
           }
-        },
-        "banner_p47RLU": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/royal.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/royalsorrowinnerdeepsjpg-102277.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Royal Sorrow",
-            "head_color": "#ffffff",
-            "subtitle": "Innerdeeps",
-            "subhead_color": "#eeeeee",
-            "content": "Ltd. CD Edition\nneon orange LP",
-            "content_color": "#eeeeee",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 26",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Royal%20Sorrow"
-          }
-        },
-        "banner_3eQKL7": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/BEAT.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/beatlivejpg-100188.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "BEAT",
-            "head_color": "#ffffff",
-            "subtitle": "Live",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 3CD+Blu-ray Artbook\nSpecial Edition 2CD+Blu-ray Digipak\nLtd. Deluxe Triple-Gatefold black 3LP\nLtd. Deluxe Triple-Gatefold transp. blue 3LP\nLtd. Deluxe Triple-Gatefold transp. sun yellow 3LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 26",
-            "preorder_msg_color": "#000000",
-            "link": ""
-          }
-        },
-        "banner_7DiBtC": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/btbam.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/betweentheburiedandmethebluenowherejpg-96554.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Between The Buried And Me",
-            "head_color": "#20c2b4",
-            "subtitle": "The Blue Nowhere",
-            "subhead_color": "#20c2b4",
-            "content": "Ltd. CD Edition\nLtd. Deluxe light blue-white haze 2LP+2CD & door hanger\nLtd. Gatefold mint colored 2LP\nLtd. Gatefold clear-orange yolk effect 2LP",
-            "content_color": "#20c2b4",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 12",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Between%20The%20Buried%20And%20Me"
-          }
-        },
-        "banner_HGCLmi": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Arjen.jpg",
-            "bg_color": "#eeeeee",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Arjen Anthony Lucassen",
-            "head_color": "#ffffff",
-            "subtitle": "Songs No One Will Hear",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 3CD+Blu-ray Artbook\nSpecial Edition CD Digipak\nGatefold black 2LP\nLtd. Gatefold transp. sun yellow 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 12",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Arjen%20Anthony%20Lucassen"
-          }
         }
       },
       "block_order": [
@@ -257,11 +170,7 @@
         "banner_nCYifV",
         "banner_VhbdT8",
         "banner_wWCYQz",
-        "banner_a4XMn4",
-        "banner_p47RLU",
-        "banner_3eQKL7",
-        "banner_7DiBtC",
-        "banner_HGCLmi"
+        "banner_a4XMn4"
       ],
       "settings": {
         "edge_to_edge": true,
