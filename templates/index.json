@@ -12,6 +12,39 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_L63AHk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_cf21c11b-3b73-47e8-b7c6-bd887a4575b6.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
+          }
+        },
+        "image_BBXPtE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Desktop_2160x720_A_-_desktop.jpg",
+            "mobile_image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Mobile_750x1100_A-mobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tyler-the-creator-chromakopia"
+          }
+        },
         "image_RjmWFX": {
           "type": "image",
           "settings": {
@@ -45,10 +78,10 @@
             "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
           }
         },
-        "image_L63AHk": {
+        "image_KdLe8U": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_cf21c11b-3b73-47e8-b7c6-bd887a4575b6.jpg",
+            "image": "shopify://shop_images/2160x720_170f67fc-3c1f-49a6-af77-3ec2f7b650f4.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -58,24 +91,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
-          }
-        },
-        "image_BBXPtE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Desktop_2160x720_A_-_desktop.jpg",
-            "mobile_image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Mobile_750x1100_A-mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tyler-the-creator-chromakopia"
+            "link": "shopify://collections/giorgia"
           }
         },
         "image_nXRViG": {
@@ -111,22 +127,6 @@
             "link": "shopify://collections/papa-v-night-skinny"
           }
         },
-        "image_dcxRfd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rosalia-lux"
-          }
-        },
         "image_eyUyGr": {
           "type": "image",
           "settings": {
@@ -143,10 +143,10 @@
             "link": "shopify://collections/david-gilmour"
           }
         },
-        "image_KdLe8U": {
+        "image_dcxRfd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_170f67fc-3c1f-49a6-af77-3ec2f7b650f4.jpg",
+            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -156,7 +156,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/giorgia"
+            "link": "shopify://collections/rosalia-lux"
           }
         },
         "image_mF3iC9": {
@@ -295,15 +295,15 @@
         }
       },
       "block_order": [
-        "image_RjmWFX",
-        "image_4zRqbV",
         "image_L63AHk",
         "image_BBXPtE",
+        "image_RjmWFX",
+        "image_4zRqbV",
+        "image_KdLe8U",
         "image_nXRViG",
         "image_Dfjnif",
-        "image_dcxRfd",
         "image_eyUyGr",
-        "image_KdLe8U",
+        "image_dcxRfd",
         "image_mF3iC9",
         "image_7WBgFd",
         "image_cw9LmB",
