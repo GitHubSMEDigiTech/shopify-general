@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2160x720_62a0d80d-dd42-4db3-9e09-40265ad3e8c5.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_1e05b0ed-2e95-46d3-bab2-e0e8037bb533.jpg",
+            "mobile_image": "shopify://shop_images/BRUCEMOBILE_cefc6986-4f97-466b-b0f0-12fd096a6a28.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
