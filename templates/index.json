@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_30afa877-b570-4bed-a2f7-0ddc8b8141f2.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_aa659209-05e6-4cf6-b157-7bd4267a2dc1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/gigi-dalessio"
+          }
+        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -186,23 +203,6 @@
             "link": "shopify://collections/tyler-the-creator"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/NEFFA_BANNER-02.jpg",
-            "mobile_image": "shopify://shop_images/BANNER_VERTICALI-04.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/canerandagio-doppio-lp-trasparente-parte-1-2"
-          }
-        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_NDBHHY",
         "image_kNcaX3",
         "image_x47WFh",
@@ -333,7 +334,6 @@
         "image_3wJqzQ",
         "image_XHmBAC",
         "image_4T4yhV",
-        "image_x98LVH",
         "image_G3f6rF",
         "image_QQwqrR",
         "image_hhc4xB",
