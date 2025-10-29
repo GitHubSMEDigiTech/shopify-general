@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_374tfR": {
-          "type": "text",
-          "settings": {
-            "content": "<h4>A grande richiesta di nuovo disponibile! </h4>"
-          }
-        },
         "product_meta": {
           "type": "product_meta",
           "settings": {
@@ -25,6 +19,12 @@
             "show_sku": true,
             "show_reviews_badge": false,
             "show_share_buttons": true
+          }
+        },
+        "text_374tfR": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Il nuovo album disponibile in formato CD Autografato e LP marmorizzato Autografato con <strong>Card di Auguri </strong></p>"
           }
         },
         "text_FYDwhT": {
@@ -80,8 +80,8 @@
         }
       },
       "block_order": [
-        "text_374tfR",
         "product_meta",
+        "text_374tfR",
         "text_FYDwhT",
         "text_c9Qgk6",
         "variant_selector",
