@@ -45,39 +45,6 @@
             "link": "shopify://collections/tyler-the-creator-chromakopia"
           }
         },
-        "image_RjmWFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a9cf8bb2-97aa-4845-9448-19d70f4a070f.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
-          }
-        },
-        "image_4zRqbV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Paradiso_desktop.jpg",
-            "mobile_image": "shopify://shop_images/banner_Paradiso_mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
-          }
-        },
         "image_KdLe8U": {
           "type": "image",
           "settings": {
@@ -94,10 +61,10 @@
             "link": "shopify://collections/giorgia"
           }
         },
-        "image_nXRViG": {
+        "image_dcxRfd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/damianobanner.png",
+            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -107,7 +74,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/damiano-david"
+            "link": "shopify://collections/rosalia-lux"
           }
         },
         "image_Dfjnif": {
@@ -127,6 +94,55 @@
             "link": "shopify://collections/papa-v-night-skinny"
           }
         },
+        "image_RjmWFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a9cf8bb2-97aa-4845-9448-19d70f4a070f.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
+          }
+        },
+        "image_nXRViG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/damianobanner.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david"
+          }
+        },
+        "image_4zRqbV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Paradiso_desktop.jpg",
+            "mobile_image": "shopify://shop_images/banner_Paradiso_mobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
+          }
+        },
         "image_eyUyGr": {
           "type": "image",
           "settings": {
@@ -141,22 +157,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/david-gilmour"
-          }
-        },
-        "image_dcxRfd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rosalia-lux"
           }
         },
         "image_mF3iC9": {
@@ -297,13 +297,13 @@
       "block_order": [
         "image_L63AHk",
         "image_BBXPtE",
-        "image_RjmWFX",
-        "image_4zRqbV",
         "image_KdLe8U",
-        "image_nXRViG",
-        "image_Dfjnif",
-        "image_eyUyGr",
         "image_dcxRfd",
+        "image_Dfjnif",
+        "image_RjmWFX",
+        "image_nXRViG",
+        "image_4zRqbV",
+        "image_eyUyGr",
         "image_mF3iC9",
         "image_7WBgFd",
         "image_cw9LmB",
