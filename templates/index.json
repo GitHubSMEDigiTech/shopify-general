@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Desktop_2160x720_A_-_desktop.jpg",
+            "mobile_image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Mobile_750x1100_A-mobile_09902fcc-f4f8-4422-8341-26d2a8a640b5.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tyler-the-creator"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -186,6 +203,23 @@
             "link": "shopify://collections/papa-v-night-skinny"
           }
         },
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_147562be-f364-4906-8b77-3b26eb0aec8f.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_05deac29-5e31-402d-bf53-db8b34b4419f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/giveon"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -201,23 +235,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/david-gilmour"
-          }
-        },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Desktop_2160x720_A_-_desktop.jpg",
-            "mobile_image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Mobile_750x1100_A-mobile_09902fcc-f4f8-4422-8341-26d2a8a640b5.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tyler-the-creator"
           }
         },
         "image_G3f6rF": {
@@ -271,23 +288,6 @@
             "link": "shopify://collections/wywh"
           }
         },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_147562be-f364-4906-8b77-3b26eb0aec8f.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_05deac29-5e31-402d-bf53-db8b34b4419f.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/giveon"
-          }
-        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_4T4yhV",
         "image_FV8WFP",
         "image_x98LVH",
         "image_HciHCp",
@@ -333,12 +334,11 @@
         "image_eUhDX7",
         "image_wfGmGy",
         "image_3wJqzQ",
+        "image_zLLxyF",
         "image_XHmBAC",
-        "image_4T4yhV",
         "image_G3f6rF",
         "image_QQwqrR",
         "image_hhc4xB",
-        "image_zLLxyF",
         "image_DjX6Ay",
         "image_9kfgaA"
       ],
