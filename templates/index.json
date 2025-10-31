@@ -353,6 +353,23 @@
         "cycle_speed": 5
       }
     },
+    "collection_with_image_THJq63": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "lucca-comics",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#c5161c",
+        "text_color": "#ffffff",
+        "title": "LUCCA COMICS",
+        "content": "I prodotti del Lucca Comics finalmente Online!",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Scopri",
+        "button_link": ""
+      }
+    },
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
       "blocks": {
@@ -396,62 +413,6 @@
         "content": "<p>Scopri i prodotti selezionati per celebrare la festa della musica</p>",
         "button_text": "Scopri",
         "button_link": "shopify://collections/festa-della-musica"
-      }
-    },
-    "collection_list_iikd3m": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_NkGAYP": {
-          "type": "collection",
-          "settings": {
-            "collection": "giorgio-vanni",
-            "image": "shopify://shop_images/Vanni_CDAUT_1b03f1eb-44a4-473f-a1be-1434c3bf23d7.png",
-            "link": ""
-          }
-        },
-        "collection_YbbKgw": {
-          "type": "collection",
-          "settings": {
-            "collection": "salmo",
-            "link": ""
-          }
-        },
-        "collection_TWfhxE": {
-          "type": "collection",
-          "settings": {
-            "collection": "sethu",
-            "link": ""
-          }
-        },
-        "collection_fKMwAz": {
-          "type": "collection",
-          "settings": {
-            "collection": "naska",
-            "link": ""
-          }
-        },
-        "collection_FJVXpn": {
-          "type": "collection",
-          "settings": {
-            "collection": "lacuna-coil",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_NkGAYP",
-        "collection_YbbKgw",
-        "collection_TWfhxE",
-        "collection_fKMwAz",
-        "collection_FJVXpn"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "I prodotti del LUCCA COMICS finalmente Online!",
-        "link_title": "Scopri",
-        "link": "shopify://pages/lucca-comics",
-        "round_images": true,
-        "show_collection_title": true
       }
     },
     "collection_with_image_d44Bni": {
@@ -729,9 +690,9 @@
   "order": [
     "rich_text_Yjrb3a",
     "slideshow_dwDbqU",
+    "collection_with_image_THJq63",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
-    "collection_list_iikd3m",
     "collection_with_image_d44Bni",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
