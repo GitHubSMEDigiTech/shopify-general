@@ -67,6 +67,23 @@
             "link": "shopify://collections/gigi-dalessio"
           }
         },
+        "image_HciHCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_36786aaf-39e0-4a62-b857-c2e3dc54c01b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a20f916f-1f3c-45aa-b045-c632ce34ad88.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/dani-faiv"
+          }
+        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -133,23 +150,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/rosalia"
-          }
-        },
-        "image_HciHCp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_baf7338b-33f6-4e77-baf7-b07c81024feb.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_06d832f7-cfb3-4ae4-961d-df81d6dc5158.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/dani-faiv"
           }
         },
         "image_wfGmGy": {
@@ -326,11 +326,11 @@
       "block_order": [
         "image_FV8WFP",
         "image_x98LVH",
+        "image_HciHCp",
         "image_NDBHHY",
         "image_kNcaX3",
         "image_x47WFh",
         "image_eUhDX7",
-        "image_HciHCp",
         "image_wfGmGy",
         "image_3wJqzQ",
         "image_XHmBAC",
