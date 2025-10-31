@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_BBXPtE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Desktop_2160x720_A_-_desktop.jpg",
+            "mobile_image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Mobile_750x1100_A-mobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tyler-the-creator-chromakopia"
+          }
+        },
         "image_L63AHk": {
           "type": "image",
           "settings": {
@@ -28,11 +45,10 @@
             "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
           }
         },
-        "image_BBXPtE": {
+        "image_7WBgFd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Desktop_2160x720_A_-_desktop.jpg",
-            "mobile_image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Mobile_750x1100_A-mobile.jpg",
+            "image": "shopify://shop_images/2160x720_8.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -42,7 +58,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/tyler-the-creator-chromakopia"
+            "link": "shopify://collections/bob-dylan"
           }
         },
         "image_KdLe8U": {
@@ -159,39 +175,6 @@
             "link": "shopify://collections/david-gilmour"
           }
         },
-        "image_mF3iC9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Dani_Faiv_desktop.jpg",
-            "mobile_image": "shopify://shop_images/banner_Dani_Faiv_mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/teoria-del-contrario-mixtape-vol-1-2-3-3-cd-digisleeve"
-          }
-        },
-        "image_7WBgFd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_8.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bob-dylan"
-          }
-        },
         "image_cw9LmB": {
           "type": "image",
           "settings": {
@@ -295,8 +278,9 @@
         }
       },
       "block_order": [
-        "image_L63AHk",
         "image_BBXPtE",
+        "image_L63AHk",
+        "image_7WBgFd",
         "image_KdLe8U",
         "image_dcxRfd",
         "image_Dfjnif",
@@ -304,8 +288,6 @@
         "image_nXRViG",
         "image_4zRqbV",
         "image_eyUyGr",
-        "image_mF3iC9",
-        "image_7WBgFd",
         "image_cw9LmB",
         "image_n7CPDY",
         "image_jntpdb",
