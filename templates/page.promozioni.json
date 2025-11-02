@@ -37,6 +37,7 @@
         },
         "item_htmMgt": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/sonymusiclogo.png",
             "show_overlay": true,
