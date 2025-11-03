@@ -210,7 +210,6 @@
         },
         "image_jntpdb": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/naytbannermartino.png",
             "show_overlay": false,
