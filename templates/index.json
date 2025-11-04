@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_73145ad7-1162-4505-82f9-2ef5ab23b993.jpg",
+            "mobile_image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Mobile_750x1100_d480361f-665b-43f9-9451-9e802d58a6dd.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rosalia"
+          }
+        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -150,23 +167,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/nitro"
-          }
-        },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_73145ad7-1162-4505-82f9-2ef5ab23b993.jpg",
-            "mobile_image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Mobile_750x1100_d480361f-665b-43f9-9451-9e802d58a6dd.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rosalia"
           }
         },
         "image_wfGmGy": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_eUhDX7",
         "image_4T4yhV",
         "image_FV8WFP",
         "image_x98LVH",
@@ -331,7 +332,6 @@
         "image_NDBHHY",
         "image_kNcaX3",
         "image_x47WFh",
-        "image_eUhDX7",
         "image_wfGmGy",
         "image_3wJqzQ",
         "image_zLLxyF",
