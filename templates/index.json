@@ -193,7 +193,6 @@
         },
         "image_n7CPDY": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/fibrab2b.png",
             "show_overlay": true,
