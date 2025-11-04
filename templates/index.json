@@ -120,50 +120,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Crystal%20Lake"
           }
         },
-        "banner_zt7AGV": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/BI_3bf7e2ee-1205-4732-95db-742519257933.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Blood_Incantation_-_Starspawn.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Blood Incantation",
-            "head_color": "#ffffff",
-            "subtitle": "Starspawn (Re-issue 2021)",
-            "subhead_color": "#ffffff",
-            "content": "Gatefold pearlescent sunrise LP & Poster",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 3",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Blood%20Incantation"
-          }
-        },
-        "banner_8pCnck": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Coroner.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Coroner_DissonanceTheory.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Coroner",
-            "head_color": "#ffffff",
-            "subtitle": "Dissonance Theory",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. 2CD Mediabook\nStandard CD Jewelcase\nblack LP\nLtd. deep blood red LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 17th",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Coroner"
-          }
-        },
         "banner_zQ6HpU": {
           "type": "banner",
           "settings": {
@@ -213,8 +169,6 @@
         "banner_K643c4",
         "banner_eirK9t",
         "banner_BTaLQL",
-        "banner_zt7AGV",
-        "banner_8pCnck",
         "banner_zQ6HpU",
         "banner_NM6fYb"
       ],
