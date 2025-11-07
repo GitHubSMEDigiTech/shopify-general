@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_DVaCHY": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/bigbig.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/bigbigtrainwoodcutjpg-142463.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Big Big Train",
+            "head_color": "#ffbd00",
+            "subtitle": "Woodcut",
+            "subhead_color": "#ffbd00",
+            "content": "Ltd. CD+Blu-ray Mediabook\nStandard CD Jewelcase\nLtd. Gatefold Inkwell Black 2LP & LP-Booklet (black vinyl)\nLtd. Gatefold Hawthorn White 2LP & LP-Booklet (white vinyl)",
+            "content_color": "#ffbd00",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "February 6",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Big+Big+Train&sort_by=created-descending"
+          }
+        },
         "banner_kC8Ue9": {
           "type": "banner",
           "settings": {
@@ -166,6 +188,7 @@
         }
       },
       "block_order": [
+        "banner_DVaCHY",
         "banner_kC8Ue9",
         "banner_nCYifV",
         "banner_VhbdT8",
