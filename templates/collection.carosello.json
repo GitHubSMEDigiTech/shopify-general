@@ -15,8 +15,8 @@
         "image_8WJnMQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/THE_ZEN_CIRCUS_desktop.png",
-            "mobile_image": "shopify://shop_images/THE_ZEN_CIRCUS_mobile.png",
+            "image": "shopify://shop_images/COEZ_acquista_ora.png",
+            "mobile_image": "shopify://shop_images/coezmobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
