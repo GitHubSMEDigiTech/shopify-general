@@ -15,7 +15,7 @@
         "image_8WJnMQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/COEZ_acquista_ora.png",
+            "image": "shopify://shop_images/coezdesktop.png",
             "mobile_image": "shopify://shop_images/coezmobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
@@ -36,7 +36,7 @@
       "name": "Slideshow",
       "settings": {
         "edge_to_edge": true,
-        "section_size": "small",
+        "section_size": "large",
         "mobile_section_size": "",
         "carousel_effect": "slide",
         "autoplay": true,
