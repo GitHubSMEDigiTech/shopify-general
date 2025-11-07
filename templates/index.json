@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_8dgHF7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/stabbing.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Stabbing_EonOfObscenity_2.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Stabbing",
+            "head_color": "#ffffff",
+            "subtitle": "Eon of Obscenity",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nred-black marbled LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "January 30",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Stabbing"
+          }
+        },
         "banner_K643c4": {
           "type": "banner",
           "settings": {
@@ -166,6 +188,7 @@
         }
       },
       "block_order": [
+        "banner_8dgHF7",
         "banner_K643c4",
         "banner_eirK9t",
         "banner_BTaLQL",
