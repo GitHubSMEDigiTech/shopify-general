@@ -50,6 +50,23 @@
             "link": "shopify://collections/rosalia"
           }
         },
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_7b59e16b-7207-4a91-aee1-baa0449003d3.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2171d4cd-4756-4aa7-b862-33ff4126a656.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/giorgia"
+          }
+        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -254,23 +271,6 @@
             "link": "shopify://collections/olly"
           }
         },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_d6769736-85da-42c9-9567-b9a1d6a3ce54.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_698295d8-f10f-480a-857f-8a912d299deb.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/giorgia"
-          }
-        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -325,6 +325,7 @@
       },
       "block_order": [
         "image_eUhDX7",
+        "image_QQwqrR",
         "image_4T4yhV",
         "image_FV8WFP",
         "image_x98LVH",
@@ -337,7 +338,6 @@
         "image_zLLxyF",
         "image_XHmBAC",
         "image_G3f6rF",
-        "image_QQwqrR",
         "image_hhc4xB",
         "image_DjX6Ay",
         "image_9kfgaA"
