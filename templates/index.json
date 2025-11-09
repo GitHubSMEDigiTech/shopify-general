@@ -12,22 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_KdLe8U": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_170f67fc-3c1f-49a6-af77-3ec2f7b650f4.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/giorgia"
-          }
-        },
         "image_dcxRfd": {
           "type": "image",
           "settings": {
@@ -42,6 +26,39 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/rosalia-lux"
+          }
+        },
+        "image_Dfjnif": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Papa_V_-_banner_desktop.jpg",
+            "mobile_image": "shopify://shop_images/Papa_V_-_banner_mobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/papa-v-night-skinny"
+          }
+        },
+        "image_RjmWFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a9cf8bb2-97aa-4845-9448-19d70f4a070f.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
           }
         },
         "image_BBXPtE": {
@@ -91,39 +108,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/bob-dylan"
-          }
-        },
-        "image_Dfjnif": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Papa_V_-_banner_desktop.jpg",
-            "mobile_image": "shopify://shop_images/Papa_V_-_banner_mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/papa-v-night-skinny"
-          }
-        },
-        "image_RjmWFX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a9cf8bb2-97aa-4845-9448-19d70f4a070f.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
           }
         },
         "image_nXRViG": {
@@ -193,6 +177,7 @@
         },
         "image_n7CPDY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/fibrab2b.png",
             "show_overlay": true,
@@ -209,6 +194,7 @@
         },
         "image_jntpdb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/naytbannermartino.png",
             "show_overlay": false,
@@ -276,13 +262,12 @@
         }
       },
       "block_order": [
-        "image_KdLe8U",
         "image_dcxRfd",
+        "image_Dfjnif",
+        "image_RjmWFX",
         "image_BBXPtE",
         "image_L63AHk",
         "image_7WBgFd",
-        "image_Dfjnif",
-        "image_RjmWFX",
         "image_nXRViG",
         "image_4zRqbV",
         "image_eyUyGr",
