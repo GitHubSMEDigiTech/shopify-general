@@ -353,23 +353,6 @@
         "cycle_speed": 5
       }
     },
-    "collection_with_image_THJq63": {
-      "type": "collection-with-image",
-      "name": "Collection with image",
-      "settings": {
-        "collection": "lucca-comics",
-        "products_count": 12,
-        "show_quick_buy": false,
-        "background": "#c5161c",
-        "text_color": "#ffffff",
-        "title": "LUCCA COMICS",
-        "content": "I prodotti del Lucca Comics finalmente Online!",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "button_text": "Scopri",
-        "button_link": "shopify://pages/luccacomics"
-      }
-    },
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
       "blocks": {
@@ -474,6 +457,23 @@
         "show_quick_inventory": true,
         "link_title": "Vedi tutti",
         "link_url": ""
+      }
+    },
+    "collection_with_image_THJq63": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "lucca-comics",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#c5161c",
+        "text_color": "#ffffff",
+        "title": "LUCCA COMICS",
+        "content": "I prodotti del Lucca Comics finalmente Online!",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "button_text": "Scopri",
+        "button_link": "shopify://pages/luccacomics"
       }
     },
     "slideshow_h7KX3P": {
@@ -690,13 +690,13 @@
   "order": [
     "rich_text_Yjrb3a",
     "slideshow_dwDbqU",
-    "collection_with_image_THJq63",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_with_image_d44Bni",
     "featured_collection_Ln8Q76",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
+    "collection_with_image_THJq63",
     "slideshow_h7KX3P",
     "featured_collection_4VmJid",
     "promotion_list_wAJLbg",
