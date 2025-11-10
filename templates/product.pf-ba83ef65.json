@@ -100,7 +100,6 @@
         "liquid_Tbd46i",
         "liquid_t64EVj"
       ],
-      "disabled": true,
       "settings": {
         "list_collections": true,
         "image_size": "small",
@@ -108,22 +107,6 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
-      }
-    },
-    "1740665642dbc6fbaf": {
-      "type": "apps",
-      "blocks": {
-        "sc_back_in_stock_app_block_AwjfMr": {
-          "type": "shopify://apps/sc-back-in-stock/blocks/app-block/839cbcb7-0406-4c2b-8e74-a54d987b90ab",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "sc_back_in_stock_app_block_AwjfMr"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
       }
     },
     "custom_liquid_RgYmJH": {
@@ -137,7 +120,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "heading": "Prodotti consigliati",
         "show_quick_buy": false
@@ -145,10 +127,24 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
-      "disabled": true,
       "settings": {
         "title": "Visti di recente",
         "show_quick_buy": false
+      }
+    },
+    "1740665642dbc6fbaf": {
+      "type": "apps",
+      "blocks": {
+        "sc_back_in_stock_app_block_AwjfMr": {
+          "type": "shopify://apps/sc-back-in-stock/blocks/app-block/839cbcb7-0406-4c2b-8e74-a54d987b90ab",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "sc_back_in_stock_app_block_AwjfMr"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "pf-ba83ef65": {
