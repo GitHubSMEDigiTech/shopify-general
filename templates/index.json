@@ -566,6 +566,37 @@
       "blocks": {
         "item_wQkrLe": {
           "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/icy-winter-christmas-decor.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "PRODOTTI PER IL NATALE",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "button_link": "shopify://collections/natale-2024"
+          }
+        }
+      },
+      "block_order": [
+        "item_wQkrLe"
+      ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "small",
+        "stack_mobile": true
+      }
+    },
+    "promotion_list_BRdfgN": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_WCVcbk": {
+          "type": "item",
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/records-for-sale_777a1acf-d342-4591-b552-6b7fd73c3158.jpg",
@@ -585,7 +616,7 @@
         }
       },
       "block_order": [
-        "item_wQkrLe"
+        "item_WCVcbk"
       ],
       "settings": {
         "expand_items": true,
@@ -713,6 +744,7 @@
     "promotion_list_teMBhT",
     "promotion_list_NPgWtL",
     "promotion_list_kTecJ6",
+    "promotion_list_BRdfgN",
     "featured_collection_6DjtHh",
     "collection_list_tPfEeG",
     "promotion_list_wAJLbg",
