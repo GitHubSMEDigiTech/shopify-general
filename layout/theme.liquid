@@ -291,25 +291,27 @@
       <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
     </ul>
   </body>
-  <script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
           try {
           setTimeout(function () {
             window.__pagefly_helper_store__ &&
               window.__pagefly_helper_store__.subscribe(function (res) {
             $.getJSON('/cart.json').then(cart => {
-			document.dispatchEvent(new CustomEvent("product:added",{
-              bubbles: !0,
+              document.documentElement.dispatchEvent(new CustomEvent('product:added', {
+              bubbles: true,
               detail: {
-                variant: res.variant_id ,
                 quantity: 1
               }
-		}));
+            }));
+              $('.header__cart-count').text(cart.item_count)
+                              });
 		});
-              });
           }, 2500);
         } catch (e) {
           console.warn(e);
         }
     </script>
+
 
 </html>
