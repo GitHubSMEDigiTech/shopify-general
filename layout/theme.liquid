@@ -292,19 +292,27 @@
     </ul>
   </body>
 <!-- PAGEFLY CART HELPER - DO NOT DELETE -->
-    <script>
+<script>
           try {
           setTimeout(function () {
             window.__pagefly_helper_store__ &&
               window.__pagefly_helper_store__.subscribe(function (res) {
-            	document.dispatchEvent(new CustomEvent('cart:refresh'));
-                {% comment %} document.querySelector('#cart-drawer-toggle').click() {% endcomment %}
+            $.getJSON('/cart.json').then(cart => {
+			document.dispatchEvent(new CustomEvent("product:added",{
+              bubbles: !0,
+              detail: {
+                variant: res.variant_id ,
+                quantity: 1
+              }
+		}));
 		});
+              });
           }, 2500);
         } catch (e) {
           console.warn(e);
         }
     </script>
+
 
 
 </html>
