@@ -9,6 +9,42 @@
  */
 {
   "sections": {
+    "slideshow_6NQ4XF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jzjDMx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/music-fans-at-a-venue.jpg",
+            "mobile_image": "shopify://shop_images/music-fans-at-a-venue.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "text_color": "#ffffff",
+            "title": "BLACK FRIDAY",
+            "content": "BLACK FRIDAY? Alza il Volume!\nCD e Vinili a prezzi da HIT - solo per pochi giorni",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jzjDMx"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "large",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -43,6 +79,7 @@
     }
   },
   "order": [
+    "slideshow_6NQ4XF",
     "main",
     "recently-viewed-products"
   ]
