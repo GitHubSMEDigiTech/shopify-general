@@ -298,6 +298,8 @@
             window.__pagefly_helper_store__ &&
               window.__pagefly_helper_store__.subscribe(function (res) {
             $.getJSON('/cart.json').then(cart => {
+              document.dispatchEvent(new CustomEvent('cart:refresh'));
+
               document.documentElement.dispatchEvent(new CustomEvent('product:added', {
               bubbles: true,
               detail: {
