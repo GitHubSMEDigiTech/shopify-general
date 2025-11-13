@@ -398,6 +398,7 @@
       "blocks": {
         "image_iDe9ED": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_a9cf8bb2-97aa-4845-9448-19d70f4a070f.jpg",
             "show_overlay": false,
