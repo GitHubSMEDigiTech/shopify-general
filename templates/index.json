@@ -152,6 +152,23 @@
             "link": "shopify://collections/dani-faiv"
           }
         },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_f62545c9-9fb4-4ecb-9733-01246697edea.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_5ee0be42-907a-413e-8389-9f4daa406ca7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/papa-v-night-skinny"
+          }
+        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -218,23 +235,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/eros-ramazzotti"
-          }
-        },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_f62545c9-9fb4-4ecb-9733-01246697edea.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_5ee0be42-907a-413e-8389-9f4daa406ca7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/papa-v-night-skinny"
           }
         },
         "image_XHmBAC": {
@@ -331,11 +331,11 @@
         "image_FV8WFP",
         "image_x98LVH",
         "image_HciHCp",
+        "image_3wJqzQ",
         "image_NDBHHY",
         "image_kNcaX3",
         "image_x47WFh",
         "image_wfGmGy",
-        "image_3wJqzQ",
         "image_XHmBAC",
         "image_G3f6rF",
         "image_hhc4xB",
