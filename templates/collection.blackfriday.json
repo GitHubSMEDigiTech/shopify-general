@@ -70,6 +70,38 @@
         "open_group_filters_mode": "all_closed"
       }
     },
+    "collection_with_image_nhDQyF": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "black-friday-i-piu-venduti",
+        "products_count": 28,
+        "show_quick_buy": false,
+        "background": "#222222",
+        "text_color": "#ffffff",
+        "title": "ULTIME USCITE",
+        "content": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "featured_collection_LP3fJk": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "black-friday-musica-italiana",
+        "title": "Il meglio della Musica Italiana",
+        "products_count": 24,
+        "layout": "horizontal",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
@@ -81,6 +113,8 @@
   "order": [
     "slideshow_6NQ4XF",
     "main",
+    "collection_with_image_nhDQyF",
+    "featured_collection_LP3fJk",
     "recently-viewed-products"
   ]
 }
