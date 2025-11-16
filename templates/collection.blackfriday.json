@@ -45,29 +45,19 @@
         "cycle_speed": 5
       }
     },
-    "main": {
-      "type": "main-collection",
+    "featured_collection_LP3fJk": {
+      "type": "featured-collection",
+      "name": "Featured collection",
       "settings": {
-        "show_collection_image": true,
-        "collapse_collection_description": true,
-        "collapse_collection_style": false,
-        "show_collection_top": false,
-        "top_bg_color": "#f3f3f3",
-        "headline_deco": true,
-        "headline_deco_col": "#d82222",
-        "collection_image_size": "large",
-        "products_per_row": "4",
-        "default_products_per_page": 24,
-        "collection_pagination": "pagination",
-        "loading_button": "Load More",
-        "default_view_layout": "grid",
-        "show_quick_buy": "list_grid",
-        "show_quick_view": "list",
-        "quick_links": "",
-        "quick_links_show_products_count": true,
-        "show_filters": false,
-        "show_filter_color_swatch": true,
-        "open_group_filters_mode": "all_closed"
+        "collection": "black-friday-musica-internazionale",
+        "title": "Musica Internazionale",
+        "products_count": 24,
+        "layout": "horizontal",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
       }
     },
     "collection_with_image_nhDQyF": {
@@ -87,19 +77,29 @@
         "button_link": ""
       }
     },
-    "featured_collection_LP3fJk": {
-      "type": "featured-collection",
-      "name": "Featured collection",
+    "main": {
+      "type": "main-collection",
       "settings": {
-        "collection": "black-friday-musica-italiana",
-        "title": "Il meglio della Musica Italiana",
-        "products_count": 24,
-        "layout": "horizontal",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "",
-        "link_url": ""
+        "show_collection_image": false,
+        "collapse_collection_description": false,
+        "collapse_collection_style": false,
+        "show_collection_top": false,
+        "top_bg_color": "#f3f3f3",
+        "headline_deco": true,
+        "headline_deco_col": "#d82222",
+        "collection_image_size": "large",
+        "products_per_row": "4",
+        "default_products_per_page": 24,
+        "collection_pagination": "loading",
+        "loading_button": "Load More",
+        "default_view_layout": "grid",
+        "show_quick_buy": "list_grid",
+        "show_quick_view": "list_grid",
+        "quick_links": "",
+        "quick_links_show_products_count": true,
+        "show_filters": false,
+        "show_filter_color_swatch": true,
+        "open_group_filters_mode": "all_closed"
       }
     },
     "recently-viewed-products": {
@@ -112,9 +112,9 @@
   },
   "order": [
     "slideshow_6NQ4XF",
-    "main",
-    "collection_with_image_nhDQyF",
     "featured_collection_LP3fJk",
+    "collection_with_image_nhDQyF",
+    "main",
     "recently-viewed-products"
   ]
 }
