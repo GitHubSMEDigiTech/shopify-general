@@ -52,9 +52,9 @@
         "collection": "black-friday-musica-internazionale",
         "title": "Musica Internazionale",
         "products_count": 24,
-        "layout": "horizontal",
-        "stack_products": false,
-        "show_quick_buy": false,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": true,
         "show_quick_inventory": false,
         "link_title": "",
         "link_url": ""
@@ -77,8 +77,24 @@
         "button_link": ""
       }
     },
+    "featured_collection_ktbFax": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "black-friday-musica-italiana",
+        "title": "Il Meglio della Musica Italiana",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": false,
         "collapse_collection_description": false,
@@ -114,6 +130,7 @@
     "slideshow_6NQ4XF",
     "featured_collection_LP3fJk",
     "collection_with_image_nhDQyF",
+    "featured_collection_ktbFax",
     "main",
     "recently-viewed-products"
   ]
