@@ -45,6 +45,27 @@
         "cycle_speed": 5
       }
     },
+    "rich_text_fEwr3B": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "",
+        "h_one": true,
+        "content": "<h2><br/>Inserisci il codice <strong>BLACKFRIDAY25</strong> al check out e ottieni subito il 25% di sconto. L'offerta è valida sui prodotti che rientrano nella promozione. <br/><br/></h2>",
+        "button_text": "",
+        "button_link": "",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "featured_collection_LP3fJk": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -128,6 +149,7 @@
   },
   "order": [
     "slideshow_6NQ4XF",
+    "rich_text_fEwr3B",
     "featured_collection_LP3fJk",
     "collection_with_image_nhDQyF",
     "featured_collection_ktbFax",
