@@ -16,24 +16,6 @@
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
       "blocks": {
-        "item_BHBjUM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/sonymusiclogo.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Canvass 14 novembre 2025",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify://collections/canvass-14-novembre-2025"
-          }
-        },
         "item_W9wKPi": {
           "type": "item",
           "settings": {
@@ -270,7 +252,6 @@
         }
       },
       "block_order": [
-        "item_BHBjUM",
         "item_W9wKPi",
         "item_RpckQn",
         "item_G3P7Mt",
