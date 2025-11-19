@@ -35,6 +35,27 @@
         "open_group_filters_mode": "all_closed"
       }
     },
+    "rich_text_MUNBkC": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "CASA PARADISO | TOMMASO PARADISO",
+        "h_one": false,
+        "content": "<p>Se hai acquistato un biglietto per il tour dei palasport di <strong>Tommaso Paradiso</strong> o lo acquisterai entro il <strong>25 novembre entro le 23.59</strong>, avrai uno <em><strong>sconto esclusivo </strong></em>sull'acquisto dell'album \"<strong>Casa Paradiso</strong>\" a partire dal <strong>28 novembre fino al 7 dicembre</strong>. Per accedere allo sconto bisognerà inserire il <strong>sigillo fiscale</strong> del tuo biglietto nella box codice sconto<br/><br/></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "alternative_one_collection_CtE6tE": {
       "type": "alternative_one-collection",
       "settings": {
@@ -55,6 +76,19 @@
         "open_group_filters_mode": "all_closed"
       }
     },
+    "image_with_text_yYnL89": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2025-11-19_at_16.17.23.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "DOVE TROVO IL NUMERO DEL SIGILLO FISCALE?",
+        "content": "<p>Il <strong>Sigillo Fiscale</strong> è un codice alfanumerico di sedici cifre preceduto da S.F. Lo trovi il numero del Sigillo Fiscale sul lato destro o sinistro del biglietto. </p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all"
+      }
+    },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
@@ -65,7 +99,9 @@
   },
   "order": [
     "main",
+    "rich_text_MUNBkC",
     "alternative_one_collection_CtE6tE",
+    "image_with_text_yYnL89",
     "recently-viewed-products"
   ]
 }
