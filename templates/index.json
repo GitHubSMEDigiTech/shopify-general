@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bismarkdesktop.jpg",
+            "mobile_image": "shopify://shop_images/bismarkmobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/gianni-bismark"
+          }
+        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -254,23 +271,6 @@
             "link": "shopify://collections/david-gilmour"
           }
         },
-        "image_G3f6rF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_75932447-0de7-4ca9-b444-cbfaf2b4beea.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_9a0115ee-e2e0-4411-9838-202a2863b622.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/olly"
-          }
-        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_x47WFh",
         "image_zLLxyF",
         "image_QQwqrR",
@@ -337,7 +338,6 @@
         "image_NDBHHY",
         "image_kNcaX3",
         "image_XHmBAC",
-        "image_G3f6rF",
         "image_hhc4xB",
         "image_DjX6Ay",
         "image_9kfgaA"
