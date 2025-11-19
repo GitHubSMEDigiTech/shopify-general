@@ -92,7 +92,7 @@
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
-        "title": "Recently viewed",
+        "title": "Visti di Recente",
         "show_quick_buy": false
       }
     }
