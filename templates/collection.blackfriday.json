@@ -47,6 +47,7 @@
     },
     "rich_text_fEwr3B": {
       "type": "rich-text",
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "marign_top": 50,
