@@ -64,6 +64,7 @@
         },
         "image_NRYEWy": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_222a6a10-5194-4dbc-9cc8-8b30991885da.jpg",
             "show_overlay": false,
@@ -80,6 +81,7 @@
         },
         "image_dcxRfd": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
             "show_overlay": false,
@@ -192,6 +194,22 @@
             "link": "shopify://collections/fabri-fibra-mentre-los-angeles-brucia"
           }
         },
+        "image_jntpdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/naytbannermartino.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt"
+          }
+        },
         "image_JhNDxQ": {
           "type": "image",
           "settings": {
@@ -207,22 +225,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/madison-beer-locket"
-          }
-        },
-        "image_jntpdb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/naytbannermartino.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt"
           }
         },
         "image_wiRjiq": {
@@ -289,8 +291,8 @@
         "image_BBXPtE",
         "image_cw9LmB",
         "image_n7CPDY",
-        "image_JhNDxQ",
         "image_jntpdb",
+        "image_JhNDxQ",
         "image_wiRjiq",
         "image_6YKHeW",
         "image_a7atqp"
