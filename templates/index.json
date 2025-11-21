@@ -46,6 +46,22 @@
             "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
           }
         },
+        "image_dcxRfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rosalia-lux"
+          }
+        },
         "image_nXRViG": {
           "type": "image",
           "settings": {
@@ -77,23 +93,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/giorgia"
-          }
-        },
-        "image_dcxRfd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rosalia-lux"
           }
         },
         "image_L63AHk": {
@@ -282,9 +281,9 @@
       "block_order": [
         "image_4zRqbV",
         "image_RjmWFX",
+        "image_dcxRfd",
         "image_nXRViG",
         "image_NRYEWy",
-        "image_dcxRfd",
         "image_L63AHk",
         "image_7WBgFd",
         "image_eyUyGr",
