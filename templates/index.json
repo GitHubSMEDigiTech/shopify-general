@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_31ba1004-89bd-462f-b83c-0a5a18637431.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ba83288c-77cf-422e-aeb3-7a23901cbc84.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti"
+          }
+        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -116,23 +133,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/rosalia"
-          }
-        },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_c623778d-e79e-4bbf-938a-37c821599cea.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_a7f95abf-8af3-42a5-98e2-eb0be4c9038b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti"
           }
         },
         "image_x98LVH": {
@@ -324,12 +324,12 @@
         }
       },
       "block_order": [
+        "image_wfGmGy",
         "image_G3f6rF",
         "image_x47WFh",
         "image_zLLxyF",
         "image_QQwqrR",
         "image_eUhDX7",
-        "image_wfGmGy",
         "image_x98LVH",
         "image_3wJqzQ",
         "image_4T4yhV",
