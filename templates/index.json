@@ -84,6 +84,40 @@
             "link": "shopify://collections/gemitaiz"
           }
         },
+        "image_DjX6Ay": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/depechemodedesktop.png",
+            "mobile_image": "shopify://shop_images/dpm.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/depeche-mode-m"
+          }
+        },
+        "image_kNcaX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a9dbd0cb-fc6a-42ec-a463-c8ac59d00b12.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d250ca37-fe7c-4c40-967d-3509a39443f8.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tommaso-paradiso"
+          }
+        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -237,23 +271,6 @@
             "link": "shopify://collections/bruce-springsteen"
           }
         },
-        "image_kNcaX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a9dbd0cb-fc6a-42ec-a463-c8ac59d00b12.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_d250ca37-fe7c-4c40-967d-3509a39443f8.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tommaso-paradiso"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -288,23 +305,6 @@
             "link": "shopify://collections/wywh"
           }
         },
-        "image_DjX6Ay": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_7625ec3a-8f85-44f1-98a3-262c2785df32.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_bc9126fe-2033-4d31-af2e-45f323edc622.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/fabri-fibra"
-          }
-        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -327,6 +327,8 @@
         "image_wfGmGy",
         "image_G3f6rF",
         "image_x47WFh",
+        "image_DjX6Ay",
+        "image_kNcaX3",
         "image_zLLxyF",
         "image_QQwqrR",
         "image_eUhDX7",
@@ -336,10 +338,8 @@
         "image_FV8WFP",
         "image_HciHCp",
         "image_NDBHHY",
-        "image_kNcaX3",
         "image_XHmBAC",
         "image_hhc4xB",
-        "image_DjX6Ay",
         "image_9kfgaA"
       ],
       "settings": {
