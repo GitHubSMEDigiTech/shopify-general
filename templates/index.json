@@ -12,23 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_4zRqbV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Paradiso_desktop.jpg",
-            "mobile_image": "shopify://shop_images/banner_Paradiso_mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
-          }
-        },
         "image_FDht7J": {
           "type": "image",
           "settings": {
@@ -61,10 +44,11 @@
             "link": "shopify://collections/depeche-mode"
           }
         },
-        "image_nXRViG": {
+        "image_4zRqbV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/damianobanner.png",
+            "image": "shopify://shop_images/banner_Paradiso_desktop.jpg",
+            "mobile_image": "shopify://shop_images/banner_Paradiso_mobile.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -74,7 +58,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/damiano-david"
+            "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
           }
         },
         "image_NRYEWy": {
@@ -91,6 +75,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/giorgia"
+          }
+        },
+        "image_nXRViG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/damianobanner.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/damiano-david"
           }
         },
         "image_dcxRfd": {
@@ -276,11 +276,11 @@
         }
       },
       "block_order": [
-        "image_4zRqbV",
         "image_FDht7J",
         "image_xHcGDq",
-        "image_nXRViG",
+        "image_4zRqbV",
         "image_NRYEWy",
+        "image_nXRViG",
         "image_dcxRfd",
         "image_cw9LmB",
         "image_7WBgFd",
