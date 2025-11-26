@@ -29,6 +29,22 @@
             "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
           }
         },
+        "image_xHcGDq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/depechemodedesktop.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/depeche-mode"
+          }
+        },
         "image_nXRViG": {
           "type": "image",
           "settings": {
@@ -245,6 +261,7 @@
       },
       "block_order": [
         "image_4zRqbV",
+        "image_xHcGDq",
         "image_nXRViG",
         "image_NRYEWy",
         "image_dcxRfd",
