@@ -109,6 +109,22 @@
             "link": "shopify://collections/pink-floyd"
           }
         },
+        "image_7WBgFd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_8.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/bob-dylan"
+          }
+        },
         "image_L63AHk": {
           "type": "image",
           "settings": {
@@ -139,22 +155,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/david-gilmour"
-          }
-        },
-        "image_7WBgFd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_8.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bob-dylan"
           }
         },
         "image_BBXPtE": {
@@ -266,9 +266,9 @@
         "image_NRYEWy",
         "image_dcxRfd",
         "image_cw9LmB",
+        "image_7WBgFd",
         "image_L63AHk",
         "image_eyUyGr",
-        "image_7WBgFd",
         "image_BBXPtE",
         "image_jntpdb",
         "image_JhNDxQ",
