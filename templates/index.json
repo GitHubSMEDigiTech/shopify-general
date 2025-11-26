@@ -29,6 +29,22 @@
             "link": "shopify://collections/tommaso-paradiso-casa-paradiso"
           }
         },
+        "image_FDht7J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
+          }
+        },
         "image_xHcGDq": {
           "type": "image",
           "settings": {
@@ -261,6 +277,7 @@
       },
       "block_order": [
         "image_4zRqbV",
+        "image_FDht7J",
         "image_xHcGDq",
         "image_nXRViG",
         "image_NRYEWy",
