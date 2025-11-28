@@ -33,11 +33,11 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_wfGmGy": {
+        "image_x98LVH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_31ba1004-89bd-462f-b83c-0a5a18637431.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_ba83288c-77cf-422e-aeb3-7a23901cbc84.jpg",
+            "image": "shopify://shop_images/2160x720_30afa877-b570-4bed-a2f7-0ddc8b8141f2.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_aa659209-05e6-4cf6-b157-7bd4267a2dc1.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -47,7 +47,24 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti"
+            "link": "shopify://collections/gigi-dalessio"
+          }
+        },
+        "image_kNcaX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a9dbd0cb-fc6a-42ec-a463-c8ac59d00b12.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d250ca37-fe7c-4c40-967d-3509a39443f8.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tommaso-paradiso"
           }
         },
         "image_G3f6rF": {
@@ -101,23 +118,6 @@
             "link": "shopify://collections/depeche-mode-m"
           }
         },
-        "image_kNcaX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a9dbd0cb-fc6a-42ec-a463-c8ac59d00b12.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_d250ca37-fe7c-4c40-967d-3509a39443f8.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tommaso-paradiso"
-          }
-        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -167,23 +167,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/rosalia"
-          }
-        },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_30afa877-b570-4bed-a2f7-0ddc8b8141f2.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_aa659209-05e6-4cf6-b157-7bd4267a2dc1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/gigi-dalessio"
           }
         },
         "image_3wJqzQ": {
@@ -305,6 +288,23 @@
             "link": "shopify://collections/wywh"
           }
         },
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_31ba1004-89bd-462f-b83c-0a5a18637431.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ba83288c-77cf-422e-aeb3-7a23901cbc84.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -324,15 +324,14 @@
         }
       },
       "block_order": [
-        "image_wfGmGy",
+        "image_x98LVH",
+        "image_kNcaX3",
         "image_G3f6rF",
         "image_x47WFh",
         "image_DjX6Ay",
-        "image_kNcaX3",
         "image_zLLxyF",
         "image_QQwqrR",
         "image_eUhDX7",
-        "image_x98LVH",
         "image_3wJqzQ",
         "image_4T4yhV",
         "image_FV8WFP",
@@ -340,6 +339,7 @@
         "image_NDBHHY",
         "image_XHmBAC",
         "image_hhc4xB",
+        "image_wfGmGy",
         "image_9kfgaA"
       ],
       "settings": {
