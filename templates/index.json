@@ -46,6 +46,7 @@
         },
         "image_4zRqbV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner_Paradiso_desktop.jpg",
             "mobile_image": "shopify://shop_images/banner_Paradiso_mobile.jpg",
