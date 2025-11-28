@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_ewecYx": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/kano.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/kanonenfiebersoldatenschicksalestandardjpg-144782.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Kanonenfieber",
+            "head_color": "#ffffff",
+            "subtitle": "Soldatenschicksale",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Mediabook\nblack LP\nLtd. Gatefold transp. orange LP & LP-Booklet\nLtd. Gatefold light green & LP-Booklet",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "February 13",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Kanonenfieber&sort_by=created-descending"
+          }
+        },
         "banner_8dgHF7": {
           "type": "banner",
           "settings": {
@@ -188,6 +210,7 @@
         }
       },
       "block_order": [
+        "banner_ewecYx",
         "banner_8dgHF7",
         "banner_K643c4",
         "banner_eirK9t",
