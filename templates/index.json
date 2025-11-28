@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_WwnKAR": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Lorna_671bf52b-a0b4-425c-91ae-75834a373344.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/lornashoreifeeltheeverblackfesteringjpg-81125.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Lorna Shore",
+            "head_color": "#ffffff",
+            "subtitle": "I Feel The Everblack Festering Within Me",
+            "subhead_color": "#ffffff",
+            "content": "Gatefold clear 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "January 23",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Lorna+Shore&sort_by=created-descending"
+          }
+        },
         "banner_ewecYx": {
           "type": "banner",
           "settings": {
@@ -210,6 +232,7 @@
         }
       },
       "block_order": [
+        "banner_WwnKAR",
         "banner_ewecYx",
         "banner_8dgHF7",
         "banner_K643c4",
