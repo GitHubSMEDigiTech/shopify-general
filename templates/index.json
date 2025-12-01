@@ -461,6 +461,7 @@
     },
     "collection_with_image_THJq63": {
       "type": "collection-with-image",
+      "disabled": true,
       "name": "Collection with image",
       "settings": {
         "collection": "black-friday",
