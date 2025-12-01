@@ -53,8 +53,8 @@
         "image_kNcaX3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_a9dbd0cb-fc6a-42ec-a463-c8ac59d00b12.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_d250ca37-fe7c-4c40-967d-3509a39443f8.jpg",
+            "image": "shopify://shop_images/2160x720_fd3fd92f-10f9-477e-ac73-045ccb1302d9.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_371b669d-a7f6-490e-adf5-34bf6f4da538.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
