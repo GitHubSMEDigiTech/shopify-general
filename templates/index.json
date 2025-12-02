@@ -464,17 +464,18 @@
       "disabled": true,
       "name": "Collection with image",
       "settings": {
-        "collection": "black-friday",
+        "collection": "natale-cd-e-vinili",
         "products_count": 12,
         "show_quick_buy": false,
+        "image": "shopify://shop_images/decorated-christmas-tree.jpg",
         "background": "#c5161c",
         "text_color": "#ffffff",
-        "title": "",
-        "content": "BLACK FRIDAY? Alza il volume! \nCD e Vinili a prezzi HIT",
+        "title": "Christmas Selection",
+        "content": "",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "button_text": "Scopri",
-        "button_link": "shopify://collections/black-friday"
+        "button_link": "shopify://collections/natale-cd-e-vinili"
       }
     },
     "slideshow_h7KX3P": {
@@ -483,18 +484,18 @@
         "image_GA7emn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_21_0aebb70f-99f5-4bef-80b2-dc3bcc128663.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_20_9510d03e-7ead-4ca6-9858-63863397e6fd.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
+            "image": "shopify://shop_images/decorated-christmas-tree.jpg",
+            "mobile_image": "shopify://shop_images/decorated-christmas-tree.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "text_color": "#c5161c",
+            "title": "CHRISTMAS SELECTION",
+            "content": "Scopri la colonna sonora del tuo Natale e scalda le tue feste con la migliore musica in CD o Vinile.",
+            "content_position": "bottom_center",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/david-gilmour"
+            "link": "shopify://collections/natale-cd-e-vinili"
           }
         }
       },
