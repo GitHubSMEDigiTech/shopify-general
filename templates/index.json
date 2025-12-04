@@ -306,14 +306,13 @@
     },
     "rich_text_GKqCHN": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
         "text_width": "narrow",
         "title": "CHIUSURA NATALIZIA",
         "h_one": false,
-        "content": "<p>Si informano i gentili clienti che i nostri uffici saranno chiusi dal 20 dicembre al 06 gennaio. Gli ultimi ordini ad essere evasi saranno quelli ricevuti entro martedì 16 dicembre</p>",
+        "content": "<p>Si informano i gentili clienti che i nostri uffici saranno chiusi dal 20 dicembre al 06 gennaio. Gli ultimi ordini ad essere evasi prima della chiusura saranno quelli ricevuti entro martedì 16 dicembre</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#c5161c",
