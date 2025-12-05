@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_LfgTBW": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/neal_b5de19b9-d9dd-447e-afbf-6aff1d885356.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/nmbliftjpg-148198.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "The Neal Morse Band",
+            "head_color": "#ffffff",
+            "subtitle": "L.I.F.T",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. 2CD Digipak\nStandard CD Jewelcase\nGatefold black 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=The+Neal+Morse+Band&sort_by=created-descending"
+          }
+        },
         "banner_DVaCHY": {
           "type": "banner",
           "settings": {
@@ -188,6 +210,7 @@
         }
       },
       "block_order": [
+        "banner_LfgTBW",
         "banner_DVaCHY",
         "banner_kC8Ue9",
         "banner_nCYifV",
