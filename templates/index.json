@@ -87,8 +87,8 @@
         "image_G3f6rF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/bismarkdesktop.jpg",
-            "mobile_image": "shopify://shop_images/bismarkmobile.jpg",
+            "image": "shopify://shop_images/Image.jpg",
+            "mobile_image": "shopify://shop_images/Image_1_c5ff4aed-ceea-46ea-b9eb-cc130c6fb8c7.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
