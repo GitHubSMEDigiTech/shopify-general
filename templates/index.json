@@ -11,14 +11,13 @@
   "sections": {
     "rich_text_Yjrb3a": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 10,
         "marign_bottom": 10,
         "text_width": "regular",
         "title": "",
         "h_one": false,
-        "content": "<p><strong>CONSEGNE AGOSTO: possibili ritardi nelle consegne durante la settimana di ferragosto. </strong></p>",
+        "content": "<p><strong>La consegna entro Natale è garantita per ordini effettuati entro il 17/12<br/></strong></p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#c5161c",
