@@ -467,6 +467,7 @@
       "blocks": {
         "item_YhampT": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/records-for-sale.jpg",
             "show_overlay": true,
@@ -498,7 +499,6 @@
       "blocks": {
         "item_nFDWVx": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/film-reel-catches-light-tangled-on-a-white-surface.jpg",
             "show_overlay": true,
@@ -561,7 +561,6 @@
       "blocks": {
         "item_WCVcbk": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/records-for-sale_777a1acf-d342-4591-b552-6b7fd73c3158.jpg",
             "show_overlay": true,
