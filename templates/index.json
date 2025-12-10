@@ -12,10 +12,10 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_xHcGDq": {
+        "image_cw9LmB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/depechemodedesktop.png",
+            "image": "shopify://shop_images/wywhdesktop_1.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -25,7 +25,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/depeche-mode"
+            "link": "shopify://collections/pink-floyd"
           }
         },
         "image_FDht7J": {
@@ -44,10 +44,10 @@
             "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
           }
         },
-        "image_cw9LmB": {
+        "image_xHcGDq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/wywhdesktop_1.png",
+            "image": "shopify://shop_images/depechemodedesktop.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -57,7 +57,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/pink-floyd"
+            "link": "shopify://collections/depeche-mode"
           }
         },
         "image_NRYEWy": {
@@ -189,23 +189,6 @@
             "link": "shopify://collections/tyler-the-creator-chromakopia"
           }
         },
-        "image_6YKHeW": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/deandrebannerb2b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/fabrizio-de-andre"
-          }
-        },
         "image_JhNDxQ": {
           "type": "image",
           "settings": {
@@ -221,6 +204,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/madison-beer-locket"
+          }
+        },
+        "image_6YKHeW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/deandrebannerb2b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/fabrizio-de-andre"
           }
         },
         "image_wiRjiq": {
@@ -259,9 +259,9 @@
         }
       },
       "block_order": [
-        "image_xHcGDq",
-        "image_FDht7J",
         "image_cw9LmB",
+        "image_FDht7J",
+        "image_xHcGDq",
         "image_NRYEWy",
         "image_eyUyGr",
         "image_nXRViG",
@@ -270,8 +270,8 @@
         "image_L63AHk",
         "image_jntpdb",
         "image_BBXPtE",
-        "image_6YKHeW",
         "image_JhNDxQ",
+        "image_6YKHeW",
         "image_wiRjiq",
         "image_a7atqp"
       ],
