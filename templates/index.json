@@ -390,6 +390,7 @@
         },
         "image_NNfHar": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bruce.png",
             "show_overlay": false,
@@ -547,6 +548,7 @@
       "blocks": {
         "item_wQkrLe": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/icy-winter-christmas-decor.jpg",
             "show_overlay": true,
