@@ -471,7 +471,7 @@
       "settings": {
         "collection": "in-evidenza",
         "title": "In evidenza",
-        "products_count": 24,
+        "products_count": 30,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
