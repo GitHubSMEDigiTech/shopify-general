@@ -52,8 +52,8 @@
         "image_x47WFh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop_GEMITAIZ.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_GEMITAIZ.jpg",
+            "image": "shopify://shop_images/Desktop_GEMITAIZ_93d68387-566a-4696-a47d-d857a630e0d2.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_GEMITAIZ_f07fcfe8-5142-460d-93f8-34812cb59ee0.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
