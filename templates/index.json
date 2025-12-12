@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_QfN4Hd": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/BI_c44e49d7-9e5a-4001-915c-ae629949e7e9.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/bloodincantationabsoluteelsewherejpg-152155.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Blood Incantation",
+            "head_color": "#ffffff",
+            "subtitle": "Absolute Elsewhere",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe Solar Liquid LP Gatefold & Poster Edition\nLtd. Deluxe Emerald Liquid LP Gatefold & Poster Edition",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Blood+Incantation&sort_by=created-descending"
+          }
+        },
         "banner_WwnKAR": {
           "type": "banner",
           "settings": {
@@ -232,6 +254,7 @@
         }
       },
       "block_order": [
+        "banner_QfN4Hd",
         "banner_WwnKAR",
         "banner_ewecYx",
         "banner_8dgHF7",
