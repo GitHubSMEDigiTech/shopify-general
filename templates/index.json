@@ -683,7 +683,7 @@
       "settings": {
         "collection": "ultime-uscite",
         "title": "Ultime uscite",
-        "products_count": 18,
+        "products_count": 24,
         "layout": "vertical",
         "stack_products": false,
         "show_quick_buy": false,
