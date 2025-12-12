@@ -32,6 +32,40 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wywhdesktop_a57b9013-a2e6-414b-b998-d7a656e5da2f.png",
+            "mobile_image": "shopify://shop_images/mobilewywh.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/wywh"
+          }
+        },
+        "image_x47WFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_GEMITAIZ.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_GEMITAIZ.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/gemitaiz"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -98,23 +132,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/gianni-bismark"
-          }
-        },
-        "image_x47WFh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Desktop_GEMITAIZ.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_GEMITAIZ.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/gemitaiz"
           }
         },
         "image_DjX6Ay": {
@@ -270,23 +287,6 @@
             "link": "shopify://collections/david-gilmour"
           }
         },
-        "image_hhc4xB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/wywhdesktop_a57b9013-a2e6-414b-b998-d7a656e5da2f.png",
-            "mobile_image": "shopify://shop_images/mobilewywh.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/wywh"
-          }
-        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -323,11 +323,12 @@
         }
       },
       "block_order": [
+        "image_hhc4xB",
+        "image_x47WFh",
         "image_3wJqzQ",
         "image_x98LVH",
         "image_kNcaX3",
         "image_G3f6rF",
-        "image_x47WFh",
         "image_DjX6Ay",
         "image_zLLxyF",
         "image_QQwqrR",
@@ -337,7 +338,6 @@
         "image_HciHCp",
         "image_NDBHHY",
         "image_XHmBAC",
-        "image_hhc4xB",
         "image_wfGmGy",
         "image_9kfgaA"
       ],
