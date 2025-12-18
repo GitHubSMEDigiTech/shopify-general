@@ -32,6 +32,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_9kfgaA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_76fe9edf-345e-46ad-9760-2484b33e4175.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_11e51482-5ec3-4e79-890d-05bc63941bb7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/anime-storte-lp-black-numerato"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -303,26 +320,10 @@
             "button_text": "",
             "link": "shopify://collections/eros-ramazzotti"
           }
-        },
-        "image_9kfgaA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/pinkfloyddesktop.png",
-            "mobile_image": "shopify://shop_images/pinkfloydMobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pink-floyd"
-          }
         }
       },
       "block_order": [
+        "image_9kfgaA",
         "image_hhc4xB",
         "image_x47WFh",
         "image_3wJqzQ",
@@ -338,8 +339,7 @@
         "image_HciHCp",
         "image_NDBHHY",
         "image_XHmBAC",
-        "image_wfGmGy",
-        "image_9kfgaA"
+        "image_wfGmGy"
       ],
       "settings": {
         "edge_to_edge": false,
