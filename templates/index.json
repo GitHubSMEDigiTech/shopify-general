@@ -377,6 +377,7 @@
         },
         "image_cB4kpj": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/red-ball-ornament-on-tree.jpg",
             "show_overlay": false,
