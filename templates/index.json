@@ -502,6 +502,7 @@
       "block_order": [
         "image_GA7emn"
       ],
+      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
