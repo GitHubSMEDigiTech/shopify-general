@@ -451,6 +451,7 @@
         "image_yDTjqP",
         "image_nMajwq"
       ],
+      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
