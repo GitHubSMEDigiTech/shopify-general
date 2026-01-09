@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_fQpnRU": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/moon.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/danswanmoontowercoverjpg-154298.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Dan Swanö",
+            "head_color": "#ffffff",
+            "subtitle": "Moontower",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\ntransp. light blue LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "March 6",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Dan%20Swan%C3%B6"
+          }
+        },
         "banner_QfN4Hd": {
           "type": "banner",
           "settings": {
@@ -254,6 +276,7 @@
         }
       },
       "block_order": [
+        "banner_fQpnRU",
         "banner_QfN4Hd",
         "banner_WwnKAR",
         "banner_ewecYx",
