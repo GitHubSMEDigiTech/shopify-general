@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_aef4c669-8bdc-4645-a4f5-d845435d1941.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_f96dd5c2-22fb-4497-85c3-0128510871df.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mara-sattei"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -288,23 +305,6 @@
             "link": "shopify://collections/bruce-springsteen"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_21_0aebb70f-99f5-4bef-80b2-dc3bcc128663.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_20_9510d03e-7ead-4ca6-9858-63863397e6fd.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/david-gilmour"
-          }
-        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_XHmBAC",
         "image_9kfgaA",
         "image_hhc4xB",
         "image_x47WFh",
@@ -339,7 +340,6 @@
         "image_FV8WFP",
         "image_HciHCp",
         "image_NDBHHY",
-        "image_XHmBAC",
         "image_wfGmGy"
       ],
       "settings": {
