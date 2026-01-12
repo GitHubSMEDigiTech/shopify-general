@@ -50,6 +50,23 @@
             "link": "shopify://collections/mara-sattei"
           }
         },
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_4fc54a87-b4ee-41c8-999f-1391b76f008a.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d81a1a70-808c-417a-8659-ddf0ea20834c.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mobrici"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -304,27 +321,11 @@
             "button_text": "",
             "link": "shopify://collections/bruce-springsteen"
           }
-        },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_31ba1004-89bd-462f-b83c-0a5a18637431.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_ba83288c-77cf-422e-aeb3-7a23901cbc84.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti"
-          }
         }
       },
       "block_order": [
         "image_XHmBAC",
+        "image_wfGmGy",
         "image_9kfgaA",
         "image_hhc4xB",
         "image_x47WFh",
@@ -339,8 +340,7 @@
         "image_4T4yhV",
         "image_FV8WFP",
         "image_HciHCp",
-        "image_NDBHHY",
-        "image_wfGmGy"
+        "image_NDBHHY"
       ],
       "settings": {
         "edge_to_edge": false,
