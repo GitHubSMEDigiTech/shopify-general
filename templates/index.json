@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_kNcaX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_3_dc21afd0-d1aa-4ba2-bd26-7826cee5956c.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/lacrim"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -150,23 +167,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/gigi-dalessio"
-          }
-        },
-        "image_kNcaX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_fd3fd92f-10f9-477e-ac73-045ccb1302d9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_371b669d-a7f6-490e-adf5-34bf6f4da538.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tommaso-paradiso"
           }
         },
         "image_G3f6rF": {
@@ -324,6 +324,7 @@
         }
       },
       "block_order": [
+        "image_kNcaX3",
         "image_XHmBAC",
         "image_wfGmGy",
         "image_9kfgaA",
@@ -331,7 +332,6 @@
         "image_x47WFh",
         "image_3wJqzQ",
         "image_x98LVH",
-        "image_kNcaX3",
         "image_G3f6rF",
         "image_DjX6Ay",
         "image_zLLxyF",
