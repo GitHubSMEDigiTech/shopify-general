@@ -175,7 +175,6 @@
         },
         "image_L63AHk": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_cf21c11b-3b73-47e8-b7c6-bd887a4575b6.jpg",
             "show_overlay": false,
