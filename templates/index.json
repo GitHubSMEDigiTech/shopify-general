@@ -254,13 +254,12 @@
     },
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "collection": "midprice-blowout",
-        "title": "Midprice Blowout",
+        "collection": "pre-order",
+        "title": "Preorder",
         "products_count": 12,
         "layout": "vertical",
-        "stack_products": false,
+        "stack_products": true,
         "show_quick_buy": false,
         "show_quick_inventory": false,
         "link_title": "View all",
