@@ -76,6 +76,28 @@
             "link": "https://www.insideoutshop.de/collections/vendors?q=Dream+Theater&sort_by=created-descending"
           }
         },
+        "banner_eMy4t9": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/einei.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/einarsolbergvoxoccultajpg-160735.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Einar Solberg",
+            "head_color": "#ad141f",
+            "subtitle": "Vox Occulta",
+            "subhead_color": "#ad141f",
+            "content": "Ltd. CD Digipak\nLtd. Gatefold 2LP (white/black) & LP-Booklet\nLtd. Gatefold transp. red 2LP & LP-Booklet",
+            "content_color": "#ad141f",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 24",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Einar+Solberg&sort_by=created-descending"
+          }
+        },
         "banner_LfgTBW": {
           "type": "banner",
           "settings": {
@@ -233,6 +255,7 @@
       },
       "block_order": [
         "banner_JgdcQi",
+        "banner_eMy4t9",
         "banner_LfgTBW",
         "banner_DVaCHY",
         "banner_kC8Ue9",
