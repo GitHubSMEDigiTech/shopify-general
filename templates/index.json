@@ -36,8 +36,8 @@
         "image_HciHCp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_b0979ac6-425e-433f-a4a0-abcaf16f458b.jpg",
-            "mobile_image": "shopify://shop_images/harrycat_50cfcb5e-caee-4103-9c05-a7bc7ffaeb55.png",
+            "image": "shopify://shop_images/2160x720_32ddf110-236c-4158-963c-752f065dd419.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2585bb43-83b4-4fde-bcd8-2632f36a7349.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
