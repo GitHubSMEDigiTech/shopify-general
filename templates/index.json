@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_TmBHB6": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/AEU.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/aseverythingunfoldsdidyouasktobesetfreejpg-159508.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ad141f",
+            "title": "As Everything Unfolds",
+            "head_color": "#ad141f",
+            "subtitle": "DID YOU ASK TO BE SET FREE?",
+            "subhead_color": "#ad141f",
+            "content": "Standard CD Jewelcase\ntransp. petrol green LP",
+            "content_color": "#cf0e0e",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 10",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=As%20Everything%20Unfolds"
+          }
+        },
         "banner_fQpnRU": {
           "type": "banner",
           "settings": {
@@ -96,28 +118,6 @@
             "preorder_msg": "Preorder Date or Message",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Blood+Incantation&sort_by=created-descending"
-          }
-        },
-        "banner_WwnKAR": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Lorna_671bf52b-a0b4-425c-91ae-75834a373344.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/lornashoreifeeltheeverblackfesteringjpg-81125.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Lorna Shore",
-            "head_color": "#ffffff",
-            "subtitle": "I Feel The Everblack Festering Within Me",
-            "subhead_color": "#ffffff",
-            "content": "Gatefold clear 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "January 23",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Lorna+Shore&sort_by=created-descending"
           }
         },
         "banner_ewecYx": {
@@ -229,63 +229,17 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Crystal%20Lake"
           }
-        },
-        "banner_zQ6HpU": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/omni.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/omniumgatherummaythebridgesweburnlightthewayjpg-107578.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "OMNIUM GATHERUM",
-            "head_color": "#8a44ae",
-            "subtitle": "May The Bridges We Burn Light The Way",
-            "subhead_color": "#8a44ae",
-            "content": "Ltd. CD Digipak\nBlack LP\nLtd. White-Black marbled LP",
-            "content_color": "#8a44ae",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "November 7",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Omnium%20Gatherum"
-          }
-        },
-        "banner_NM6fYb": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/mice.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/OfMiceAndMen_AnotherMiracle_8f52a13c-800b-4531-b7a8-af93ab2804f6.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Of Mice & Men",
-            "head_color": "#ffffff",
-            "subtitle": "Another Miracle",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nwhite LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "November 14",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Of%20Mice%20%26%20Men"
-          }
         }
       },
       "block_order": [
+        "banner_TmBHB6",
         "banner_fQpnRU",
         "banner_QfN4Hd",
-        "banner_WwnKAR",
         "banner_ewecYx",
         "banner_8dgHF7",
         "banner_K643c4",
         "banner_eirK9t",
-        "banner_BTaLQL",
-        "banner_zQ6HpU",
-        "banner_NM6fYb"
+        "banner_BTaLQL"
       ],
       "settings": {
         "edge_to_edge": true,
@@ -296,20 +250,6 @@
         "show_arrows": false,
         "show_dots": false,
         "cycle_speed": 5
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "pre-order",
-        "title": "Pre Order",
-        "products_count": 16,
-        "layout": "vertical",
-        "stack_products": true,
-        "show_quick_buy": true,
-        "show_quick_inventory": false,
-        "link_title": "View all",
-        "link_url": ""
       }
     },
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747": {
@@ -374,7 +314,6 @@
     "fc6b99b4-7b3b-4cac-b837-93c99192edda",
     "rich_text_RAwgHJ",
     "slideshow",
-    "featured-collection",
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
     "featured-products",
     "newsletter",
