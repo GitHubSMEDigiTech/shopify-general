@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_MhUWXi": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Hell.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/hellrippercoronachjpg-156102.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Hellripper",
+            "head_color": "#ffffff",
+            "subtitle": "Coronach",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nBlack Cuillin LP (black vinyl)",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "March 27",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Hellripper"
+          }
+        },
         "banner_TmBHB6": {
           "type": "banner",
           "settings": {
@@ -232,6 +254,7 @@
         }
       },
       "block_order": [
+        "banner_MhUWXi",
         "banner_TmBHB6",
         "banner_fQpnRU",
         "banner_QfN4Hd",
