@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_3_5a5d89d7-f52f-427a-99ce-1c0bea5613a3.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2_0c3fbc38-ddcd-4eb0-b34d-3147304e4a9c.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tutti-fenomeni"
+          }
+        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -99,23 +116,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/mobrici"
-          }
-        },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_3_5a5d89d7-f52f-427a-99ce-1c0bea5613a3.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2_0c3fbc38-ddcd-4eb0-b34d-3147304e4a9c.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tutti-fenomeni"
           }
         },
         "image_9kfgaA": {
@@ -324,11 +324,11 @@
         }
       },
       "block_order": [
+        "image_4T4yhV",
         "image_HciHCp",
         "image_kNcaX3",
         "image_XHmBAC",
         "image_wfGmGy",
-        "image_4T4yhV",
         "image_9kfgaA",
         "image_hhc4xB",
         "image_x47WFh",
