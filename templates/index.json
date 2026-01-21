@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_NDBHHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_dd04a26c-939a-41c5-b2ab-366a28e11da3.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_21f9269c-91ab-4fba-934a-63cbce6c4df7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/cosmo"
+          }
+        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/madison-beer"
           }
-        },
-        "image_NDBHHY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_62a0d80d-dd42-4db3-9e09-40265ad3e8c5.jpg",
-            "mobile_image": "shopify://shop_images/BRUCEMOBILE_cefc6986-4f97-466b-b0f0-12fd096a6a28.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/bruce-springsteen"
-          }
         }
       },
       "block_order": [
+        "image_NDBHHY",
         "image_4T4yhV",
         "image_HciHCp",
         "image_kNcaX3",
@@ -339,8 +340,7 @@
         "image_zLLxyF",
         "image_QQwqrR",
         "image_eUhDX7",
-        "image_FV8WFP",
-        "image_NDBHHY"
+        "image_FV8WFP"
       ],
       "settings": {
         "edge_to_edge": false,
