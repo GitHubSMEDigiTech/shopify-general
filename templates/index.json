@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_8BnGnT": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Pizza.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/samuraipizzacatspressstartjpg-162028.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Samurai Pizza Cats",
+            "head_color": "#ffffff",
+            "subtitle": "Press Start",
+            "subhead_color": "#ffffff",
+            "content": "Standard CD Jewelcase\nLtd. pink-lilac splatter LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "March 27",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Samurai%20Pizza%20Cats"
+          }
+        },
         "banner_9tda6c": {
           "type": "banner",
           "settings": {
@@ -276,6 +298,7 @@
         }
       },
       "block_order": [
+        "banner_8BnGnT",
         "banner_9tda6c",
         "banner_MhUWXi",
         "banner_TmBHB6",
