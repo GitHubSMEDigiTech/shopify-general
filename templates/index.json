@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_97996584-a1d6-49fe-8847-e4c8a7f723eb.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_b8592772-7073-4010-908d-b5dde0e023f7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tutti-fenomeni"
+          }
+        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -48,23 +65,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/cosmo"
-          }
-        },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_3_5a5d89d7-f52f-427a-99ce-1c0bea5613a3.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2_0c3fbc38-ddcd-4eb0-b34d-3147304e4a9c.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tutti-fenomeni"
           }
         },
         "image_HciHCp": {
@@ -324,8 +324,8 @@
         }
       },
       "block_order": [
-        "image_NDBHHY",
         "image_4T4yhV",
+        "image_NDBHHY",
         "image_HciHCp",
         "image_kNcaX3",
         "image_XHmBAC",
