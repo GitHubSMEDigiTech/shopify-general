@@ -28,22 +28,6 @@
             "link": "shopify://collections/harry-styles"
           }
         },
-        "image_NBQ8kU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_4_45fd765d-c38a-4880-8e39-5a22e4224765.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/anime-storte-lp-black-numerato"
-          }
-        },
         "image_cw9LmB": {
           "type": "image",
           "settings": {
@@ -93,6 +77,22 @@
             "link": "shopify://collections/depeche-mode"
           }
         },
+        "image_dcxRfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/rosalia-lux"
+          }
+        },
         "image_NRYEWy": {
           "type": "image",
           "settings": {
@@ -127,7 +127,6 @@
         },
         "image_nXRViG": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/damianobanner.png",
             "show_overlay": false,
@@ -142,10 +141,10 @@
             "link": "shopify://collections/damiano-david"
           }
         },
-        "image_dcxRfd": {
+        "image_jntpdb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_b0ccb824-8348-4392-b0b3-55a449a7cb79.jpg",
+            "image": "shopify://shop_images/naytbannermartino.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -155,7 +154,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/rosalia-lux"
+            "link": "shopify://collections/nayt"
           }
         },
         "image_7WBgFd": {
@@ -174,23 +173,6 @@
             "link": "shopify://collections/bob-dylan"
           }
         },
-        "image_BBXPtE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Desktop_2160x720_A_-_desktop.jpg",
-            "mobile_image": "shopify://shop_images/TylerTheCreator_CHROMAKOPIA_StoreBanner_Mobile_750x1100_A-mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tyler-the-creator-chromakopia"
-          }
-        },
         "image_L63AHk": {
           "type": "image",
           "disabled": true,
@@ -206,22 +188,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/bruce-springsteen-nebraska-82-expanded-edition"
-          }
-        },
-        "image_jntpdb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/naytbannermartino.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt"
           }
         },
         "image_6YKHeW": {
@@ -278,18 +244,16 @@
       },
       "block_order": [
         "image_4Fy9bP",
-        "image_NBQ8kU",
         "image_cw9LmB",
         "image_FDht7J",
         "image_xHcGDq",
+        "image_dcxRfd",
         "image_NRYEWy",
         "image_eyUyGr",
         "image_nXRViG",
-        "image_dcxRfd",
-        "image_7WBgFd",
-        "image_BBXPtE",
-        "image_L63AHk",
         "image_jntpdb",
+        "image_7WBgFd",
+        "image_L63AHk",
         "image_6YKHeW",
         "image_wiRjiq",
         "image_a7atqp"
