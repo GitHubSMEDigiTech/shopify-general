@@ -50,6 +50,23 @@
             "link": "shopify://collections/ermal-meta"
           }
         },
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_e00ca05a-682c-4d13-a75d-378efeff5da8.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ae96617d-4a82-4d44-8833-79a31ed6c516.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mobrici"
+          }
+        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -133,23 +150,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/mara-sattei"
-          }
-        },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_4fc54a87-b4ee-41c8-999f-1391b76f008a.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_d81a1a70-808c-417a-8659-ddf0ea20834c.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mobrici"
           }
         },
         "image_9kfgaA": {
@@ -325,12 +325,12 @@
       },
       "block_order": [
         "image_FV8WFP",
+        "image_wfGmGy",
         "image_4T4yhV",
         "image_NDBHHY",
         "image_HciHCp",
         "image_kNcaX3",
         "image_XHmBAC",
-        "image_wfGmGy",
         "image_9kfgaA",
         "image_hhc4xB",
         "image_x47WFh",
