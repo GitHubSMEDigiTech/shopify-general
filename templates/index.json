@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_EfrKbi": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/EOS_b230a13a-1f90-4296-ac2a-7a577888f4df.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/edgeofsanityelegychapter2jpg-162758.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Edge Of Sanity",
+            "head_color": "#ffffff",
+            "subtitle": "Elegy Chapter II",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nGatefold black 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 3",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
+          }
+        },
         "banner_8BnGnT": {
           "type": "banner",
           "settings": {
@@ -164,28 +186,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Dan%20Swan%C3%B6"
           }
         },
-        "banner_QfN4Hd": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/BI_c44e49d7-9e5a-4001-915c-ae629949e7e9.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/bloodincantationabsoluteelsewherejpg-152155.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Blood Incantation",
-            "head_color": "#ffffff",
-            "subtitle": "Absolute Elsewhere",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe Solar Liquid LP Gatefold & Poster Edition\nLtd. Deluxe Emerald Liquid LP Gatefold & Poster Edition",
-            "content_color": "#ffffff",
-            "show_preorder_banner": false,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "Preorder Date or Message",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Blood+Incantation&sort_by=created-descending"
-          }
-        },
         "banner_ewecYx": {
           "type": "banner",
           "settings": {
@@ -206,28 +206,6 @@
             "preorder_msg": "February 13",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Kanonenfieber&sort_by=created-descending"
-          }
-        },
-        "banner_8dgHF7": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/stabbing.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Stabbing_EonOfObscenity_2.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Stabbing",
-            "head_color": "#ffffff",
-            "subtitle": "Eon of Obscenity",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nred-black marbled LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "January 30",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Stabbing"
           }
         },
         "banner_K643c4": {
@@ -273,42 +251,18 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Gaerea"
           }
-        },
-        "banner_BTaLQL": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/CL.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/crystallaketheweightofsoundjpg-136366.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Crystal Lake",
-            "head_color": "#ad141f",
-            "subtitle": "The Weight of Sound",
-            "subhead_color": "#ad141f",
-            "content": "Ltd. CD Digipak\ngrey LP",
-            "content_color": "#ad141f",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "January 23",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Crystal%20Lake"
-          }
         }
       },
       "block_order": [
+        "banner_EfrKbi",
         "banner_8BnGnT",
         "banner_9tda6c",
         "banner_MhUWXi",
         "banner_TmBHB6",
         "banner_fQpnRU",
-        "banner_QfN4Hd",
         "banner_ewecYx",
-        "banner_8dgHF7",
         "banner_K643c4",
-        "banner_eirK9t",
-        "banner_BTaLQL"
+        "banner_eirK9t"
       ],
       "settings": {
         "edge_to_edge": true,
