@@ -76,6 +76,28 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
         },
+        "banner_DKtkEG": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/EOS1.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/edgeofsanitycrypticjpg-162378.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Edge Of Sanity",
+            "head_color": "#ffffff",
+            "subtitle": "Cryptic",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\ndark green LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 3",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
+          }
+        },
         "banner_8BnGnT": {
           "type": "banner",
           "settings": {
@@ -255,6 +277,7 @@
       },
       "block_order": [
         "banner_EfrKbi",
+        "banner_DKtkEG",
         "banner_8BnGnT",
         "banner_9tda6c",
         "banner_MhUWXi",
