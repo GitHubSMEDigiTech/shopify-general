@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_i6atUE": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/pn_d886d677-0fc8-453e-86df-66b18245a1f5.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/pn_d886d677-0fc8-453e-86df-66b18245a1f5.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Port Noir",
+            "head_color": "#ffffff",
+            "subtitle": "The Dark We Keep",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Digipak\nLtd. ultra clear LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Mai 15",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Port+Noir&sort_by=created-descending"
+          }
+        },
         "banner_JgdcQi": {
           "type": "banner",
           "settings": {
@@ -254,6 +276,7 @@
         }
       },
       "block_order": [
+        "banner_i6atUE",
         "banner_JgdcQi",
         "banner_eMy4t9",
         "banner_LfgTBW",
