@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_bc01e833-ae92-4741-bfe3-2f2e108806c6.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_eadcb5d7-5136-439f-af4b-21fe6263a0c0.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/enrico-nigiotti"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/giorgia"
           }
-        },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Desktop_2160x720_73145ad7-1162-4505-82f9-2ef5ab23b993.jpg",
-            "mobile_image": "shopify://shop_images/ROSALIA_LUX_StoreBanner_Mobile_750x1100_d480361f-665b-43f9-9451-9e802d58a6dd.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rosalia"
-          }
         }
       },
       "block_order": [
+        "image_eUhDX7",
         "image_FV8WFP",
         "image_wfGmGy",
         "image_4T4yhV",
@@ -339,8 +340,7 @@
         "image_G3f6rF",
         "image_DjX6Ay",
         "image_zLLxyF",
-        "image_QQwqrR",
-        "image_eUhDX7"
+        "image_QQwqrR"
       ],
       "settings": {
         "edge_to_edge": false,
