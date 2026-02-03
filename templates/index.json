@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_0290cdbb-ca0a-45e7-b5cc-b0341f89318d.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_c2e9ff00-a252-4cd4-985b-da9fb1e2999c.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/poesie-clandestine-cd"
+          }
+        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/thomas-raggi"
           }
-        },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_7b59e16b-7207-4a91-aee1-baa0449003d3.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2171d4cd-4756-4aa7-b862-33ff4126a656.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/giorgia"
-          }
         }
       },
       "block_order": [
+        "image_QQwqrR",
         "image_eUhDX7",
         "image_FV8WFP",
         "image_wfGmGy",
@@ -339,8 +340,7 @@
         "image_x98LVH",
         "image_G3f6rF",
         "image_DjX6Ay",
-        "image_zLLxyF",
-        "image_QQwqrR"
+        "image_zLLxyF"
       ],
       "settings": {
         "edge_to_edge": false,
