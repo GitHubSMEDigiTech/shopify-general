@@ -471,7 +471,6 @@
       "blocks": {
         "item_YhampT": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/records-for-sale.jpg",
             "show_overlay": true,
@@ -503,6 +502,7 @@
       "blocks": {
         "item_nFDWVx": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/film-reel-catches-light-tangled-on-a-white-surface.jpg",
             "show_overlay": true,
