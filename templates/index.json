@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_21d7bfbc-ab73-400b-84cf-b7305a35133b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_3760a03f-bf65-4343-991c-29632ff42dd6.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tredici-pietro"
+          }
+        },
         "image_QQwqrR": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/depeche-mode-m"
           }
-        },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_21d7bfbc-ab73-400b-84cf-b7305a35133b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_3760a03f-bf65-4343-991c-29632ff42dd6.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/thomas-raggi"
-          }
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_QQwqrR",
         "image_eUhDX7",
         "image_FV8WFP",
@@ -339,8 +340,7 @@
         "image_3wJqzQ",
         "image_x98LVH",
         "image_G3f6rF",
-        "image_DjX6Ay",
-        "image_zLLxyF"
+        "image_DjX6Ay"
       ],
       "settings": {
         "edge_to_edge": false,
