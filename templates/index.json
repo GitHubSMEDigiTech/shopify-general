@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_DjX6Ay": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_462afcb3-462a-4470-b4d4-6e7c845db1c8.jpg",
+            "mobile_image": "shopify://shop_images/mobile_4d68e7a6-c47e-41aa-9132-99ae33b7457f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/hellvisback-10-years-later-2lp-red-autografato"
+          }
+        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/gianni-bismark"
           }
-        },
-        "image_DjX6Ay": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/depechemodedesktop.png",
-            "mobile_image": "shopify://shop_images/dpm.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/depeche-mode-m"
-          }
         }
       },
       "block_order": [
+        "image_DjX6Ay",
         "image_zLLxyF",
         "image_QQwqrR",
         "image_eUhDX7",
@@ -339,8 +340,7 @@
         "image_x47WFh",
         "image_3wJqzQ",
         "image_x98LVH",
-        "image_G3f6rF",
-        "image_DjX6Ay"
+        "image_G3f6rF"
       ],
       "settings": {
         "edge_to_edge": false,
