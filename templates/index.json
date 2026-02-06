@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_qqKzDA": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/crown_c7cca111-7e8e-49ed-9862-f662bf624e72.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/crownlandsapocalypsejpg-165523.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Crown Lands",
+            "head_color": "#ffffff",
+            "subtitle": "Apocalypse",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. CD Edition\nGatefold neon yellow LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "May 15",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Crown+Lands&sort_by=created-descending"
+          }
+        },
         "banner_i6atUE": {
           "type": "banner",
           "settings": {
@@ -276,6 +298,7 @@
         }
       },
       "block_order": [
+        "banner_qqKzDA",
         "banner_i6atUE",
         "banner_JgdcQi",
         "banner_eMy4t9",
