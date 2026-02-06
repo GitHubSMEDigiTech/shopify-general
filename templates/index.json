@@ -14,6 +14,7 @@
       "blocks": {
         "image_mHf6hg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_79e595d8-c411-4378-91d8-1cc85cfda1fe.jpg",
             "mobile_image": "shopify://shop_images/mobile.jpg",
