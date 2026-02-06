@@ -30,6 +30,23 @@
             "link": "shopify://products/hellvisback-10-years-later-2lp-red-autografato"
           }
         },
+        "image_N39cEU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_5eb0966a-0c78-4342-9763-ba3adcb6f738.jpg",
+            "mobile_image": "shopify://shop_images/mobile_86b290f7-2b28-48a8-9f92-24bb92883662.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/hellvisback-10-years-later-2lp-marble-autografato"
+          }
+        },
         "image_4Fy9bP": {
           "type": "image",
           "settings": {
@@ -262,6 +279,7 @@
       },
       "block_order": [
         "image_mHf6hg",
+        "image_N39cEU",
         "image_4Fy9bP",
         "image_cw9LmB",
         "image_FDht7J",
