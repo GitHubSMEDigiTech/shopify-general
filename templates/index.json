@@ -32,6 +32,7 @@
         },
         "image_N39cEU": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_5eb0966a-0c78-4342-9763-ba3adcb6f738.jpg",
             "mobile_image": "shopify://shop_images/mobile_86b290f7-2b28-48a8-9f92-24bb92883662.jpg",
