@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop-1.jpg",
+            "mobile_image": "shopify://shop_images/mobile-1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/hellvisback-10-years-later-2lp-marble-autografato-1"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/gigi-dalessio"
           }
-        },
-        "image_G3f6rF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Image.jpg",
-            "mobile_image": "shopify://shop_images/Image_1_c5ff4aed-ceea-46ea-b9eb-cc130c6fb8c7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/gianni-bismark"
-          }
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_DjX6Ay",
         "image_zLLxyF",
         "image_QQwqrR",
@@ -339,8 +340,7 @@
         "image_hhc4xB",
         "image_x47WFh",
         "image_3wJqzQ",
-        "image_x98LVH",
-        "image_G3f6rF"
+        "image_x98LVH"
       ],
       "settings": {
         "edge_to_edge": false,
