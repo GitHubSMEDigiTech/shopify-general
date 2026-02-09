@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_8903b4dc-541a-4f64-b0ac-268064aada7b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_949b69f5-1ba8-43df-97e6-919332decfc5.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/subsonica"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/gemitaiz"
           }
-        },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_d37da129-461b-4cfb-a925-288baeacf4a8.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_8904151a-0ab4-4f00-b61d-6e6a7a8efeb3.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/emis-killa"
-          }
         }
       },
       "block_order": [
+        "image_3wJqzQ",
         "image_x98LVH",
         "image_G3f6rF",
         "image_DjX6Ay",
@@ -339,8 +340,7 @@
         "image_XHmBAC",
         "image_9kfgaA",
         "image_hhc4xB",
-        "image_x47WFh",
-        "image_3wJqzQ"
+        "image_x47WFh"
       ],
       "settings": {
         "edge_to_edge": false,
