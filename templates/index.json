@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_TommasoParadiso.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_TommasoParadiso.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tommaso-paradiso"
+          }
+        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/emis-killa"
           }
-        },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_30afa877-b570-4bed-a2f7-0ddc8b8141f2.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_aa659209-05e6-4cf6-b157-7bd4267a2dc1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/gigi-dalessio"
-          }
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_G3f6rF",
         "image_DjX6Ay",
         "image_zLLxyF",
@@ -339,8 +340,7 @@
         "image_9kfgaA",
         "image_hhc4xB",
         "image_x47WFh",
-        "image_3wJqzQ",
-        "image_x98LVH"
+        "image_3wJqzQ"
       ],
       "settings": {
         "edge_to_edge": false,
