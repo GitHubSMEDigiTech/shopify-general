@@ -50,6 +50,7 @@
         },
         "image_GnpcLx": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop-1.jpg",
             "mobile_image": "shopify://shop_images/mobile-1.jpg",
