@@ -54,7 +54,7 @@
           "type": "contest",
           "settings": {
             "contest_title": "Partecipa",
-            "contest_radio": "SI,NO"
+            "contest_radio": "NO, SI"
           }
         },
         "buy_buttons": {
@@ -109,6 +109,21 @@
         "carousel_effect": "fade"
       }
     },
+    "1740665642dbc6fbaf": {
+      "type": "apps",
+      "blocks": {
+        "sc_back_in_stock_app_block_AwjfMr": {
+          "type": "shopify://apps/sc-back-in-stock/blocks/app-block/839cbcb7-0406-4c2b-8e74-a54d987b90ab",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "sc_back_in_stock_app_block_AwjfMr"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "custom_liquid_RgYmJH": {
       "type": "custom-liquid",
       "disabled": true,
@@ -130,21 +145,6 @@
       "settings": {
         "title": "Visti di recente",
         "show_quick_buy": false
-      }
-    },
-    "1740665642dbc6fbaf": {
-      "type": "apps",
-      "blocks": {
-        "sc_back_in_stock_app_block_AwjfMr": {
-          "type": "shopify://apps/sc-back-in-stock/blocks/app-block/839cbcb7-0406-4c2b-8e74-a54d987b90ab",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "sc_back_in_stock_app_block_AwjfMr"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
