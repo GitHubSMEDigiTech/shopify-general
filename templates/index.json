@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x47WFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c203b7af-541a-4233-9635-739f06911ee6.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_20377b99-46fa-44c9-b707-95947a6c0227.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt-io-individuo"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/wywh"
           }
-        },
-        "image_x47WFh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Desktop_GEMITAIZ_93d68387-566a-4696-a47d-d857a630e0d2.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_GEMITAIZ_f07fcfe8-5142-460d-93f8-34812cb59ee0.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/gemitaiz"
-          }
         }
       },
       "block_order": [
+        "image_x47WFh",
         "image_3wJqzQ",
         "image_x98LVH",
         "image_G3f6rF",
@@ -339,8 +340,7 @@
         "image_kNcaX3",
         "image_XHmBAC",
         "image_9kfgaA",
-        "image_hhc4xB",
-        "image_x47WFh"
+        "image_hhc4xB"
       ],
       "settings": {
         "edge_to_edge": false,
