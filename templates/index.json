@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_d2843c05-c5f4-482b-aa06-38b126cca09c.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_0790269f-eaf2-478f-a4d4-118409408857.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/riccardo-cocciante"
+          }
+        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://products/anime-storte-lp-black-numerato"
           }
-        },
-        "image_hhc4xB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/wywhdesktop_a57b9013-a2e6-414b-b998-d7a656e5da2f.png",
-            "mobile_image": "shopify://shop_images/mobilewywh.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/wywh"
-          }
         }
       },
       "block_order": [
+        "image_hhc4xB",
         "image_x47WFh",
         "image_3wJqzQ",
         "image_x98LVH",
@@ -339,8 +340,7 @@
         "image_HciHCp",
         "image_kNcaX3",
         "image_XHmBAC",
-        "image_9kfgaA",
-        "image_hhc4xB"
+        "image_9kfgaA"
       ],
       "settings": {
         "edge_to_edge": false,
