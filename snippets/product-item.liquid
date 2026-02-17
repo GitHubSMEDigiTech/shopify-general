@@ -403,7 +403,7 @@
           {%- endif -%}
           {%- assign preorder_counts = customer.current_company.metafields.preorders.product_counts -%}
           {%- assign preorder_last_sync = customer.current_company.metafields.preorders.last_sync_date -%}
-          {% if preorder_counts != blank or preorder_last_sync != blank %}
+          {% if preorder_counts != blank %}
             {% render 'product-item-preoders-data', preorder_counts: preorder_counts, preorder_last_sync: preorder_last_sync, product: product %}
           {% endif %}
         </div>

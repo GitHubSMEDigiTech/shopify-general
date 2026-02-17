@@ -469,25 +469,22 @@
         "content": "Dati preorder prodotto"
       },
       {
-        "type": "text",
+        "type": "richtext",
         "id": "preorder_purchased_label_singular",
         "label": "Etichetta contatore prodotti acquistati (singolare)",
-        "default": "Prodotto acquistato in pre-order: ",
         "info": "Questa etichetta viene usata quando il contatore dei prodotti è uguale a 1."
       },
       {
-        "type": "text",
+        "type": "richtext",
         "id": "preorder_purchased_label_plural",
         "label": "Etichetta contatore prodotti acquistati (plurale)",
-        "default": "Prodotti acquistati in pre-order: ",
         "info": "Questa etichetta viene usata quando il contatore dei prodotti è maggiore di 1."
       },
       {
-        "type": "text",
+        "type": "richtext",
         "id": "preorder_data_updated_text",
         "label": "Testo aggiornamento dati",
-        "default": "Dato aggiornato al [data] ore [ora]",
-        "info": "Usa [data] e [ora] come segnaposto per data e ora dell'ultimo aggiornamento dati."
+        "info": "Usa [data] e [ora] per sostituire dinamicamente la data e l'ora dell'ultimo aggiornamento dei dati. Esempio: Ultimo aggiornamento dati: [data] alle [ora]"
       }
     ]
   },

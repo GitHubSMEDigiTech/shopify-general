@@ -19,7 +19,7 @@
     {%- assign split_result = preorder_counts | split: search_key | last | split: ',' | first | split: '}' | first -%}
 {% endif %}
 
-{%- if split_result != blank or preorder_last_sync != blank -%}
+{%- if split_result != blank -%}
     <div class="product-item__preorder">
         {%- if split_result != blank -%}
             <span class="product-item__preorder-count">
@@ -27,7 +27,6 @@
                 {{ split_result }}
             </span>
         {%- endif -%}
-
         {%- if preorder_last_sync != blank -%}
             {%- assign preorder_date = preorder_last_sync | date: '%d/%m/%y' -%}
             {%- assign preorder_time = preorder_last_sync | date: '%H:%M' -%}

@@ -47,8 +47,8 @@
 
           {%- when 'preorder_data' -%}
             {%- assign preorder_counts = customer.current_company.metafields.preorders.product_counts -%}
-            {%- assign preorder_last_sync = customer.current_company.metafields.preorders.last_sync_date -%}
-            {%- if preorder_counts != blank or preorder_last_sync != blank -%}
+            {%- assign preorder_last_sync = customer.current_company.metafields.preorders.last_sync_date -%} 
+            {%- if preorder_counts != blank -%}
               <div class="product-block-list__item product-block-list__item--preorder" {{ block.shopify_attributes }}>
                 {% render 'product-item-preoders-data', preorder_counts: preorder_counts, preorder_last_sync: preorder_last_sync, product: product %}
               </div>

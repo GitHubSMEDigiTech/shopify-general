@@ -10157,13 +10157,18 @@ shopify-payment-terms {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .product-item__preorder {
   font-size: calc(var(--base-text-font-size) - (var(--default-text-font-size) - 12px));
   line-height: 1.55;
   margin-left: 30px;
+}
+
+.product-item__preorder-count {
+  display: flex;
+  gap: 3px;
 }
 
 @media screen and (any-hover: hover) {
@@ -10282,8 +10287,7 @@ shopify-payment-terms {
   margin: 0 20px 0 0;
 }
 
-.product-item--horizontal .product-item__action-list,
-.product-item--list .product-item__action-list {
+.product-item--horizontal .product-item__action-list {
   align-self: center;
 }
 
