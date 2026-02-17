@@ -41,7 +41,6 @@
         },
         "contest_dPa76e": {
           "type": "contest",
-          "disabled": true,
           "settings": {
             "contest_title": "",
             "contest_radio": "si, no"
@@ -66,7 +65,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "display_mode": "show_all"
           }
@@ -111,100 +109,6 @@
         "carousel_effect": "fade"
       }
     },
-    "rich_text_FkW6jP": {
-      "type": "rich-text",
-      "name": "Rich text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "regular",
-        "title": "Inserisci il numero del codice a barre e ottieni il 30% di sconto",
-        "h_one": false,
-        "content": "<ol><li>Aggiungi al carrello \" Canerandagio - Doppio LP Trasparente Autografato (Parte 2)\"</li><li>Inserisci i numeri che compongono il codice a barre del biglietto nel box \"codice sconto\" presente nel carrello</li><li>Clicca su \"applica\" e ottieni il 30% di sconto</li></ol>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": false,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "rich_text_NRnQPG": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "regular",
-        "title": "Dove trovo il numero del CODICE A BARRE?",
-        "h_one": false,
-        "content": "<p><strong>TICKETONE</strong>: trovi il<strong> numero del codice a barre </strong>nella parte sinistra del biglietto.<br/><strong>TICKETMASTER</strong>: trovi il numero del codice a barre, in alto o a sinistra del biglietto</p>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": false,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "slideshow_KFNMaw": {
-      "type": "slideshow",
-      "blocks": {
-        "image_kcDzCL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/neffato.jpg",
-            "mobile_image": "shopify://shop_images/neffaticket.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        },
-        "image_PDR6kc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ticketmaster2.png",
-            "mobile_image": "shopify://shop_images/neffaticket.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Button",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_kcDzCL",
-        "image_PDR6kc"
-      ],
-      "settings": {
-        "edge_to_edge": false,
-        "section_size": "large",
-        "mobile_section_size": "",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "show_arrows": false,
-        "show_dots": false,
-        "cycle_speed": 5
-      }
-    },
     "rich_text_H6mkWe": {
       "type": "rich-text",
       "name": "Rich text",
@@ -214,7 +118,7 @@
         "text_width": "regular",
         "title": "Descrizione",
         "h_one": false,
-        "content": "<p>A pochi mesi dall’uscita di <strong>Canerandagio Parte 1</strong>, l’album che ancora una volta ha messo in luce lo stile inconfondibile di Neffa e la sua maestria nel rap, l’artista annuncia <strong>Canerandagio Parte 2</strong>, disponibile in formato doppio Lp trasparente (parte 1+2) da venerdì 29 agosto per Numero Uno (Sony Music).<br/><br/>La seconda parte del disco segna un’evoluzione naturale rispetto alla prima: sonorità più moderne e definite, una scrittura meno improvvisata e più strutturata, dove le parole seguono incastri e metriche studiate. Un nuovo equilibrio tra passato e presente.</p>",
+        "content": "<p>Order Form .........................................................................................................................................................................................................</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "bg_color": "#ffffff",
@@ -243,9 +147,6 @@
   },
   "order": [
     "main",
-    "rich_text_FkW6jP",
-    "rich_text_NRnQPG",
-    "slideshow_KFNMaw",
     "rich_text_H6mkWe",
     "product-recommendations",
     "recently-viewed-products"
