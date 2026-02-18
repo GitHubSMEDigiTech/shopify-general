@@ -23,8 +23,7 @@
     <div class="product-item__preorder">
         {%- if split_result != blank -%}
             <span class="product-item__preorder-count">
-                {%- if split_result == 1 -%}{{ settings.preorder_purchased_label_singular }}{% else %}{{ settings.preorder_purchased_label_plural }}{%- endif -%}
-                {{ split_result }}
+                {%- if split_result == 1 -%}{{ settings.preorder_purchased_label_singular | append: split_result }}{% else %}{{ settings.preorder_purchased_label_plural | append: split_result }}{%- endif -%}
             </span>
         {%- endif -%}
         {%- if preorder_last_sync != blank -%}

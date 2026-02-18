@@ -10156,8 +10156,9 @@ shopify-payment-terms {
 .product-item__info-atc-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
+  width: 230px;
 }
 
 .product-item__preorder {
@@ -10166,9 +10167,8 @@ shopify-payment-terms {
   margin-left: 30px;
 }
 
-.product-item__preorder-count {
-  display: flex;
-  gap: 3px;
+.product-item__preorder-count > * {
+  display: inline;
 }
 
 @media screen and (any-hover: hover) {
