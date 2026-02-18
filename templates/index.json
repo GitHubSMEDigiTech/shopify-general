@@ -66,6 +66,23 @@
             "link": "shopify://products/hellvisback-10-years-later-2lp-marble-autografato-1"
           }
         },
+        "image_GDUJbg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_a3f08e7b-e411-454f-8bab-85baefe71470.jpg",
+            "mobile_image": "shopify://shop_images/mobile_5b56c239-4b6e-4af4-adbc-75da06db8776.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
+          }
+        },
         "image_PrTX4z": {
           "type": "image",
           "settings": {
@@ -317,6 +334,7 @@
         "image_mHf6hg",
         "image_N39cEU",
         "image_GnpcLx",
+        "image_GDUJbg",
         "image_PrTX4z",
         "image_pkKz3g",
         "image_4Fy9bP",
