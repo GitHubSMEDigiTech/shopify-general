@@ -468,7 +468,6 @@
         },
         "image_nMajwq": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/dallaebattisti_1.png",
             "show_overlay": false,
@@ -489,7 +488,6 @@
         "image_NNfHar",
         "image_nMajwq"
       ],
-      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
