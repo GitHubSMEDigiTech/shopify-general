@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_9kfgaA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_9fdc676a-5304-4de0-933f-0251ddffd541.jpg",
+            "mobile_image": "shopify://shop_images/mobile_a77f7db5-6786-4d9a-841b-988d1bad9c4a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/hellvisback10"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -304,26 +321,10 @@
             "button_text": "",
             "link": "shopify://collections/mara-sattei"
           }
-        },
-        "image_9kfgaA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_76fe9edf-345e-46ad-9760-2484b33e4175.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_11e51482-5ec3-4e79-890d-05bc63941bb7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/anime-storte-lp-black-numerato"
-          }
         }
       },
       "block_order": [
+        "image_9kfgaA",
         "image_hhc4xB",
         "image_x47WFh",
         "image_3wJqzQ",
@@ -339,8 +340,7 @@
         "image_NDBHHY",
         "image_HciHCp",
         "image_kNcaX3",
-        "image_XHmBAC",
-        "image_9kfgaA"
+        "image_XHmBAC"
       ],
       "settings": {
         "edge_to_edge": false,
