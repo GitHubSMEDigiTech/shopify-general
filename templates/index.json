@@ -120,6 +120,7 @@
         },
         "image_G3f6rF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop-1.jpg",
             "mobile_image": "shopify://shop_images/mobile-1.jpg",
@@ -137,6 +138,7 @@
         },
         "image_DjX6Ay": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_2af335a5-411a-4a9a-a6e8-c6ff59cb3f0f.jpg",
             "mobile_image": "shopify://shop_images/mobile_19dae0cc-c2ed-40d0-af4e-63ee3547a8e1.jpg",
