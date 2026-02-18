@@ -36,8 +36,8 @@
         "image_9kfgaA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop_9fdc676a-5304-4de0-933f-0251ddffd541.jpg",
-            "mobile_image": "shopify://shop_images/mobile_a77f7db5-6786-4d9a-841b-988d1bad9c4a.jpg",
+            "image": "shopify://shop_images/2160x720_cffce548-600b-48da-883d-a6bbc991c11b.png",
+            "mobile_image": "shopify://shop_images/750x1100_1.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
