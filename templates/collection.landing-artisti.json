@@ -37,6 +37,7 @@
     },
     "alternative_one_collection_CtE6tE": {
       "type": "alternative_one-collection",
+      "disabled": true,
       "settings": {
         "collapse_collection_description": true,
         "headline_deco": true,
@@ -57,15 +58,70 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "title": "Recently viewed",
         "show_quick_buy": false
+      }
+    },
+    "rich_text_hHkXhK": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "narrow",
+        "title": "{{ collection.title }}",
+        "h_one": true,
+        "content": "<p>Use this text to share information about your brand with your customers.<br/>Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": true,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "featured_collection_UqaHCr": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "nayt",
+        "title": "",
+        "products_count": 4,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
+    "featured_collection_MimTwY": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "ac-dc",
+        "title": "",
+        "products_count": 4,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
       }
     }
   },
   "order": [
     "main",
     "alternative_one_collection_CtE6tE",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "rich_text_hHkXhK",
+    "featured_collection_UqaHCr",
+    "featured_collection_MimTwY"
   ]
 }
