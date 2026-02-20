@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": true,
@@ -42,7 +43,7 @@
           "settings": {
             "image": "shopify://shop_images/2160x720_a6651614-935e-42ee-85fe-8b16af9616f2.png",
             "mobile_image": "shopify://shop_images/750x1100_190eaeea-f753-4002-ad9d-910e99e5f16c.png",
-            "show_overlay": false,
+            "show_overlay": true,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "SANREMO 2026",
@@ -69,10 +70,29 @@
         "show_dots": false,
         "cycle_speed": 5
       }
+    },
+    "collection_with_image_9Lj8tY": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "mara-sattei",
+        "products_count": 4,
+        "show_quick_buy": false,
+        "image": "shopify://shop_images/download_11_4ccfff79-bbaa-4b19-8440-3aa33176276d.jpg",
+        "background": "#5a5347",
+        "text_color": "#ffffff",
+        "title": "MARA SATTEI",
+        "content": "CHE ME NE FACCIO DEL TEMPO",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
-    "slideshow_6LeK3j"
+    "slideshow_6LeK3j",
+    "collection_with_image_9Lj8tY"
   ]
 }
