@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_DADN4E": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/atg.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/atthegatestheghostofafuturedeadjpg-171433.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "At The Gates",
+            "head_color": "#ffffff",
+            "subtitle": "The Ghost Of A Future Dead",
+            "subhead_color": "#eeeeee",
+            "content": "Ltd. CD Digipak & Poster\nStandard CD Jewelcase\nblack LP & LP-Booklet\nLtd. transp. orange-red marbled LP & LP-Booklet & Poster",
+            "content_color": "#eeeeee",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": "http://cmdistro.de/collections/vendors?q=At%20The%20Gates"
+          }
+        },
         "banner_EfrKbi": {
           "type": "banner",
           "settings": {
@@ -232,6 +254,7 @@
         }
       },
       "block_order": [
+        "banner_DADN4E",
         "banner_EfrKbi",
         "banner_DKtkEG",
         "banner_8BnGnT",
