@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/foodesktop.png",
+            "mobile_image": "shopify://shop_images/28089234_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/foo-fighters"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -150,24 +167,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/tommaso-paradiso"
-          }
-        },
-        "image_G3f6rF": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Desktop-1.jpg",
-            "mobile_image": "shopify://shop_images/mobile-1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/hellvisback-10-years-later-2lp-marble-autografato-1"
           }
         },
         "image_DjX6Ay": {
@@ -326,6 +325,7 @@
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_9kfgaA",
         "image_kNcaX3",
         "image_hhc4xB",
@@ -333,7 +333,6 @@
         "image_4T4yhV",
         "image_3wJqzQ",
         "image_x98LVH",
-        "image_G3f6rF",
         "image_DjX6Ay",
         "image_zLLxyF",
         "image_QQwqrR",
