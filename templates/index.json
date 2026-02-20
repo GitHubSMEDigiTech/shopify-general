@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/foodesktop.png",
-            "mobile_image": "shopify://shop_images/28089234_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "mobile_image": "shopify://shop_images/foomobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
