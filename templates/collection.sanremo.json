@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": true,
@@ -35,52 +34,6 @@
         "open_group_filters_mode": "all_closed"
       }
     },
-    "featured_product_aB9CeV": {
-      "type": "featured-product",
-      "blocks": {
-        "product_meta_qtTzLe": {
-          "type": "product_meta",
-          "settings": {
-            "show_vendor": true,
-            "show_sku": false,
-            "show_reviews_badge": false,
-            "show_share_buttons": true
-          }
-        },
-        "featured_description_iFGnAL": {
-          "type": "featured_description",
-          "settings": {}
-        },
-        "variant_selector_38wLty": {
-          "type": "variant_selector",
-          "settings": {
-            "selector_mode": "block",
-            "color_mode": "color",
-            "show_quantity_selector": true,
-            "show_taxes_included": false,
-            "show_inventory_quantity": false,
-            "low_inventory_threshold": 0
-          }
-        }
-      },
-      "block_order": [
-        "product_meta_qtTzLe",
-        "featured_description_iFGnAL",
-        "variant_selector_38wLty"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "product": "spider-man-2-original-motion-picture-score",
-        "title": "",
-        "link_title": "",
-        "link_url": "https://sm-itd2c.myshopify.com/cart/43712840728630:1?channel=buy_button",
-        "image_size": "small",
-        "enable_image_zoom": true,
-        "enable_video_looping": false,
-        "zoom_effect": "outside",
-        "carousel_effect": "fade"
-      }
-    },
     "image_with_text_rnzALn": {
       "type": "image-with-text",
       "name": "Image with text",
@@ -97,7 +50,6 @@
   },
   "order": [
     "main",
-    "featured_product_aB9CeV",
     "image_with_text_rnzALn"
   ]
 }
