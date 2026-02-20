@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/foodesktop.png",
-            "mobile_image": "shopify://shop_images/foodesktop.png",
+            "mobile_image": "shopify://shop_images/foomobile_00f6ccaf-55df-4016-902e-2304d95d0199.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
