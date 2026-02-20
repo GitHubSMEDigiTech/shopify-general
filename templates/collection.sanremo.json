@@ -106,12 +106,31 @@
         "button_text": "",
         "button_link": ""
       }
+    },
+    "collection_with_image_rdYMtf": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "ermal-meta-funzioni-vitali",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "image": "shopify://shop_images/funzionivitali.png",
+        "background": "#390308",
+        "text_color": "#ffffff",
+        "title": "Ermal Meta",
+        "content": "Funzioni Vitali",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
     "slideshow_6LeK3j",
     "collection_with_image_9Lj8tY",
-    "collection_with_image_XMPD4g"
+    "collection_with_image_XMPD4g",
+    "collection_with_image_rdYMtf"
   ]
 }
