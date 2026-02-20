@@ -88,11 +88,30 @@
         "button_text": "",
         "button_link": ""
       }
+    },
+    "collection_with_image_XMPD4g": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "tommaso-paradiso",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "image": "shopify://shop_images/download_12.jpg",
+        "background": "#fcfaf8",
+        "text_color": "#d68641",
+        "title": "TOMMASO PARADISO",
+        "content": "Casa Paradiso",
+        "button_background": "#ffffff",
+        "button_text_color": "#0774d7",
+        "button_text": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
     "slideshow_6LeK3j",
-    "collection_with_image_9Lj8tY"
+    "collection_with_image_9Lj8tY",
+    "collection_with_image_XMPD4g"
   ]
 }
