@@ -16,24 +16,6 @@
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
       "blocks": {
-        "item_zG34WR": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/sonymusiclogo.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Canvass 20 febbraio 2026",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify://collections/canvass-20-febbraio-2026"
-          }
-        },
         "item_cgVJBB": {
           "type": "item",
           "settings": {
@@ -252,7 +234,6 @@
         }
       },
       "block_order": [
-        "item_zG34WR",
         "item_cgVJBB",
         "item_Nq4iak",
         "item_PW6frL",
