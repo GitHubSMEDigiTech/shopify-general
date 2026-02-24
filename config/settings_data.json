@@ -27,7 +27,7 @@
     "show_release_date_product": true,
     "show_inventory_quantity": true,
     "preorder_purchased_label_singular": "<p><strong>Prodotto acquistato in preorder :  </strong></p>",
-    "preorder_purchased_label_plural": "<p><strong>Prodotti acquistati in preorder : </strong> </p>",
+    "preorder_purchased_label_plural": "<p><strong>Prodotti acquistato in preorder : </strong> </p>",
     "preorder_data_updated_text": "<p>Aggiornato al [data] alle [ora]</p>",
     "cart_type": "notification",
     "logo": "shopify://shop_images/SonyMusicLogo_whitematte.gif",
