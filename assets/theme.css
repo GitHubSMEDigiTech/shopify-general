@@ -10168,7 +10168,7 @@ shopify-payment-terms {
 }
 
 .product-item__preorder-count > * {
-  /* display: inline; */
+  display: inline; 
 }
 
 @media screen and (any-hover: hover) {
