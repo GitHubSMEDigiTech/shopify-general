@@ -1,0 +1,36 @@
+{%- comment -%}
+  Snippet: product-item-preoders-data
+  Visualizza i dati dei preorder del customer (numero di prodotti acquistati e data ultimo aggiornamento).
+  Legge i metafield customer.metafields.preorders.product_counts (JSON) e customer.metafields.preorders.last_sync_date.
+  Mostra il contatore in singolare/plurale usando le label dalle settings, con i placeholder [data] e [ora] sostituiti.
+  
+  Parametri accettati:
+  - preorder_counts: Il valore raw del metafield product_counts (JSON string)
+  - preorder_last_sync: Il valore del metafield last_sync_date (datetime)
+  - product: L'oggetto prodotto (per estrarre l'ID e matchare nel JSON)
+  
+  Uso: {% render 'product-item-preoders-data', preorder_counts: preorder_counts, preorder_last_sync: preorder_last_sync, product: product %}
+{%- endcomment -%}
+
+{% assign current_product_id = product.id %}
+{% assign search_key = '"' | append: current_product_id | append: '":' %}
+
+{% if preorder_counts contains search_key %}
+    {%- assign split_result = preorder_counts | split: search_key | last | split: ',' | first | split: '}' | first -%}
+{% endif %}
+
+{%- if split_result != blank -%}
+    <div class="product-item__preorder">
+        {%- if split_result != blank -%}
+            <span class="product-item__preorder-count">
+                {%- if split_result == 1 -%}{{ settings.preorder_purchased_label_singular | append: split_result }}{% else %}{{ settings.preorder_purchased_label_plural | append: split_result }}{%- endif -%}
+            </span>
+        {%- endif -%}
+        {%- if preorder_last_sync != blank -%}
+            {%- assign preorder_date = preorder_last_sync | date: '%d/%m/%y' -%}
+            {%- assign preorder_time = preorder_last_sync | date: '%H:%M' -%}
+            {%- assign preorder_text = settings.preorder_data_updated_text | replace: '[data]', preorder_date | replace: '[ora]', preorder_time -%}
+            <span class="product-item__preorder-sync">{{ preorder_text }}</span>
+        {%- endif -%}
+    </div>
+{%- endif -%}
