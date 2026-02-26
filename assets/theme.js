@@ -1862,6 +1862,7 @@
 
         this.miniCartElement.setAttribute('aria-hidden', 'false');
         this.isMiniCartOpen = true;
+        document.documentElement.classList.add('is-locked');
 
         this._calculateMiniCartHeight(); // Trap the focus
 
@@ -1882,6 +1883,7 @@
 
         this.miniCartElement.setAttribute('aria-hidden', 'true');
         this.isMiniCartOpen = false;
+        document.documentElement.classList.remove('is-locked');
         document.body.classList.remove('no-mobile-scroll');
       }
     }, {
