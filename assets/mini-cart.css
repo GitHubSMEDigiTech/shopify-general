@@ -240,7 +240,7 @@ body.no-mobile-scroll {
 
 .mini-cart__line-item-list {
   padding-top: 40px;
-  max-height: 350px;
+  max-height: calc(100vh - var(--mini-cart-recap-height, 350px));
 }
 
 .mini-cart__line-item-list.is-loading {

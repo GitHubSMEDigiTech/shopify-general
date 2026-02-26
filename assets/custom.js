@@ -72,6 +72,24 @@
     }
   }
 
+  function setMiniCartLineItemsMaxHeight() {
+    var miniCart = document.getElementById('mini-cart');
+    if (!miniCart) return;
+
+    if (!window.matchMedia('(min-width: 641px)').matches) {
+      miniCart.style.removeProperty('--mini-cart-recap-height');
+      return;
+    }
+
+    var recap = miniCart.querySelector('.mini-cart__recap');
+    if (!recap) return;
+
+    var recapHeight = Math.ceil(recap.getBoundingClientRect().height || 0);
+    if (recapHeight > 0) {
+      miniCart.style.setProperty('--mini-cart-recap-height', recapHeight + 'px');
+    }
+  }
+
   /**
    * Carica i prodotti correlati per il mini-cart
    */
@@ -433,6 +451,7 @@
 
   // Carica al DOMContentLoaded
   document.addEventListener('DOMContentLoaded', function () {
+    setMiniCartLineItemsMaxHeight();
     loadMiniCartRelatedProducts();
   });
 
@@ -443,14 +462,18 @@
     if (!toggleButton) return;
 
     setTimeout(function () {
+      setMiniCartLineItemsMaxHeight();
       loadMiniCartRelatedProducts();
     }, 80);
   });
 
   // Gestisce anche il restore da cache del browser (back/forward).
   window.addEventListener('pageshow', function () {
+    setMiniCartLineItemsMaxHeight();
     loadMiniCartRelatedProducts();
   });
+
+  window.addEventListener('resize', setMiniCartLineItemsMaxHeight);
 
   // Add-to-cart rapido dai prodotti correlati
   document.addEventListener('click', function (event) {
@@ -523,6 +546,7 @@
 
   // Ricarica quando il carrello viene aggiornato (re-render)
   document.addEventListener('cart:refresh', function () {
+    setMiniCartLineItemsMaxHeight();
     setMiniCartLineItemsLoading(false);
     loadMiniCartRelatedProducts();
   });
@@ -531,6 +555,7 @@
   var cartEl = document.querySelector('.header__action-item--cart');
   if (cartEl) {
     cartEl.addEventListener('cart:rerendered', function () {
+      setMiniCartLineItemsMaxHeight();
       setMiniCartLineItemsLoading(false);
       loadMiniCartRelatedProducts();
     });

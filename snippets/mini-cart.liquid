@@ -50,6 +50,10 @@
       <a href="{{ settings.cart_empty_button_link }}" class="button button--primary button--full">{{ 'cart.general.empty_button' | t }}</a>
     </div>
   {%- else -%}
+    {%- assign preorder_count = 0 -%}
+    {%- assign latest_preorder_timestamp = 0 -%}
+    {%- assign latest_preorder_date = '' -%}
+
     <div class="mini-cart__container">
       <div class="mini-cart__inner">
         <div class="mini-cart__content">
@@ -214,6 +218,7 @@
           </div>
           <div class="scroller scroller--flush">
             <div class="scroller__inner">
+              {% comment %} I related vengono popolati dinamicamente tramite js e si aggiornano ad ogni refresh/aggiunta al cart {% endcomment %}
               <div class="mini-cart__related-list"></div>
             </div>
           </div>
