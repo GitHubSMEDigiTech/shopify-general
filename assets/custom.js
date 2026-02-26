@@ -102,7 +102,6 @@
 
     var idsString = container.getAttribute('data-cart-product-ids') || '';
     var handlesString = container.getAttribute('data-cart-product-handles') || '';
-    var preorderLabelText = container.getAttribute('data-preorder-label') || '';
     var addToCartLabelText = container.getAttribute('data-add-to-cart-label') || '';
     var productIds = idsString.split(',').map(function (id) { return String(id || '').trim(); }).filter(Boolean);
     var cartProductHandles = new Set(handlesString.split(',').map(function (handle) { return String(handle || '').trim(); }).filter(Boolean));
@@ -136,13 +135,11 @@
         var titleEl = item.querySelector('a.product-item__title, .product-item__title');
         var vendorEl = item.querySelector('.product-item__vendor, .product-meta__vendor');
         var priceEl = item.querySelector('.price');
-        var preorderLabelEl = item.querySelector('.product-label, .product-item__label');
         var href = linkEl ? linkEl.getAttribute('href') : '#';
         var imgSrc = imgEl ? (imgEl.getAttribute('data-src') || imgEl.getAttribute('src') || '') : '';
         var title = titleEl ? titleEl.textContent.trim() : (linkEl ? linkEl.textContent.trim() : '');
         var vendor = vendorEl ? vendorEl.textContent.trim() : '';
         var price = priceEl ? priceEl.innerHTML.trim() : '';
-        var preorderLabel = preorderLabelEl ? preorderLabelEl.textContent.toLowerCase() : '';
         var handleMatch = href.match(/\/products\/([^?#/]+)/);
         var handle = handleMatch ? handleMatch[1] : '';
 
@@ -154,8 +151,7 @@
           title: title,
           vendor: vendor,
           price: price,
-          handle: handle,
-          isPreorder: preorderLabel.indexOf('pre') !== -1 && preorderLabel.indexOf('order') !== -1
+          handle: handle
         });
       });
 
@@ -190,8 +186,7 @@
             title: p.title || '',
             vendor: p.vendor || '',
             price: '',
-            handle: handle,
-            isPreorder: false
+            handle: handle
           };
         }).filter(function (p) { return !!p.handle; });
       }).catch(function () {
@@ -242,8 +237,7 @@
             title: p.title || '',
             vendor: p.vendor || '',
             price: '',
-            handle: handle,
-            isPreorder: false
+            handle: handle
           };
         }).filter(function (p) {
           return p.handle && !excludedHandles.has(p.handle);
@@ -337,7 +331,7 @@
           }
 
           Promise.all(productsToRender.map(function (p) {
-          if ((!p.vendor || !p.vendor.trim()) || p.isPreorder === false) {
+          if (!p.vendor || !p.vendor.trim()) {
             return getProductMetaByHandle(p.handle).then(function (meta) {
               return {
                 href: p.href,
@@ -345,8 +339,7 @@
                 title: p.title,
                 vendor: p.vendor && p.vendor.trim() ? p.vendor : meta.vendor,
                 price: p.price,
-                handle: p.handle,
-                isPreorder: p.isPreorder || meta.isPreorder
+                handle: p.handle
               };
             });
           }
@@ -364,7 +357,6 @@
                 + '<span class="mini-cart__product-vendor">' + escapeHtml(p.vendor || '') + '</span>'
                 + '<span class="mini-cart__product-title text--strong">' + escapeHtml(p.title) + '</span>'
                 + '<div class="mini-cart__price-list"><span class="price">' + displayPrice + '</span></div>'
-                  + (p.isPreorder ? '<span class="mini-cart__related-preorder">' + escapeHtml(preorderLabelText) + '</span>' : '')
                 + '</a>'
                   + '<a href="#" class="mini-cart__related-add link" data-handle="' + p.handle + '">' + escapeHtml(addToCartLabelText) + '</a>'
                 + '</div>';
@@ -425,7 +417,7 @@
   }
 
   function getProductMetaByHandle(handle) {
-    if (!handle) return Promise.resolve({ vendor: '', isPreorder: false });
+    if (!handle) return Promise.resolve({ vendor: '' });
     if (productMetaCache[handle]) return Promise.resolve(productMetaCache[handle]);
 
     var baseUrl = window.routes.rootUrl === '/' ? '' : window.routes.rootUrl;
@@ -438,14 +430,13 @@
       return r.json();
     }).then(function (product) {
       var meta = {
-        vendor: product && product.vendor ? product.vendor : '',
-        isPreorder: !!(product && product.template_suffix === 'pre-order')
+        vendor: product && product.vendor ? product.vendor : ''
       };
 
       productMetaCache[handle] = meta;
       return meta;
     }).catch(function () {
-      return { vendor: '', isPreorder: false };
+      return { vendor: '' };
     });
   }
 
@@ -561,4 +552,3 @@
     });
   }
 })();
-
