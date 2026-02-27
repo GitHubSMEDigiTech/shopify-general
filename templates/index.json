@@ -136,7 +136,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
-            "show_overlay": false,
+            "show_overlay": true,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
             "title": "",
