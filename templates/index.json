@@ -100,6 +100,38 @@
             "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
           }
         },
+        "image_4Fy9bP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9e66150d-f844-43ae-97dd-b1d33d8cc48b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/harry-styles"
+          }
+        },
+        "image_FDht7J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
+          }
+        },
         "image_pkKz3g": {
           "type": "image",
           "settings": {
@@ -115,22 +147,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/tommaso-paradiso"
-          }
-        },
-        "image_4Fy9bP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9e66150d-f844-43ae-97dd-b1d33d8cc48b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/harry-styles"
           }
         },
         "image_dcxRfd": {
@@ -214,23 +230,6 @@
             "link": "shopify://collections/peaky-blinders-the-immortal-man"
           }
         },
-        "image_FDht7J": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
-          }
-        },
         "image_xHcGDq": {
           "type": "image",
           "disabled": true,
@@ -267,7 +266,6 @@
         },
         "image_6YKHeW": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/deandrebannerb2b.jpg",
             "show_overlay": false,
@@ -323,14 +321,14 @@
         "image_GnpcLx",
         "image_PrTX4z",
         "image_GDUJbg",
-        "image_pkKz3g",
         "image_4Fy9bP",
+        "image_FDht7J",
+        "image_pkKz3g",
         "image_dcxRfd",
         "image_cw9LmB",
         "image_NRYEWy",
         "image_jntpdb",
         "image_qJ9NLE",
-        "image_FDht7J",
         "image_xHcGDq",
         "image_eyUyGr",
         "image_6YKHeW",
