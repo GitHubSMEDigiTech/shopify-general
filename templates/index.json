@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_T8HUnQ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/frozen.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/frozensoulnoplaceofwarmthjpg-174527.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ad141f",
+            "title": "Frozen Soul",
+            "head_color": "#eeeeee",
+            "subtitle": "No Place Of Warmth",
+            "subhead_color": "#eeeeee",
+            "content": "Ltd. CD Digipak\nLtd. black LP\nLtd. Sparkle Starlight LP",
+            "content_color": "#eeeeee",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "May 8",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Frozen+Soul&sort_by=created-descending"
+          }
+        },
         "banner_DADN4E": {
           "type": "banner",
           "settings": {
@@ -235,7 +257,6 @@
           "settings": {
             "image": "shopify://shop_images/gaerea.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/gaerealossjpg-139344.jpg",
             "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "Gaerea",
@@ -254,6 +275,7 @@
         }
       },
       "block_order": [
+        "banner_T8HUnQ",
         "banner_DADN4E",
         "banner_EfrKbi",
         "banner_DKtkEG",
