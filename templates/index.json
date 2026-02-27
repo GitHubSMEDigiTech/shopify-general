@@ -99,6 +99,22 @@
             "link": "shopify://collections/harry-styles"
           }
         },
+        "image_3LLK6N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Nayt.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt-io-individuo"
+          }
+        },
         "image_GDUJbg": {
           "type": "image",
           "settings": {
@@ -321,6 +337,7 @@
         "image_GnpcLx",
         "image_PrTX4z",
         "image_4Fy9bP",
+        "image_3LLK6N",
         "image_GDUJbg",
         "image_FDht7J",
         "image_pkKz3g",
