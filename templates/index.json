@@ -83,6 +83,22 @@
             "link": "shopify://collections/sanremo-2026"
           }
         },
+        "image_4Fy9bP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9e66150d-f844-43ae-97dd-b1d33d8cc48b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/harry-styles"
+          }
+        },
         "image_GDUJbg": {
           "type": "image",
           "settings": {
@@ -98,22 +114,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
-          }
-        },
-        "image_4Fy9bP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9e66150d-f844-43ae-97dd-b1d33d8cc48b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/harry-styles"
           }
         },
         "image_FDht7J": {
@@ -320,8 +320,8 @@
         "image_N39cEU",
         "image_GnpcLx",
         "image_PrTX4z",
-        "image_GDUJbg",
         "image_4Fy9bP",
+        "image_GDUJbg",
         "image_FDht7J",
         "image_pkKz3g",
         "image_dcxRfd",
