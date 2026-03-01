@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_rMatWr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1_7c38f65a-4f9a-4656-b88e-1bdbdcce2c4a.png",
+            "mobile_image": "shopify://shop_images/750x1100_2.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://pages/alba-di-lucio"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -324,6 +341,7 @@
         }
       },
       "block_order": [
+        "image_rMatWr",
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_9kfgaA",
