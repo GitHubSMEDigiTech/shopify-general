@@ -10,6 +10,7 @@
   - product: L'oggetto prodotto (per estrarre l'ID e matchare nel JSON)
   
   Uso: {% render 'product-item-preoders-data', preorder_counts: preorder_counts, preorder_last_sync: preorder_last_sync, product: product %}
+   {%- endcomment -%}
 
 
 {% assign current_product_id = product.id %}
@@ -34,4 +35,4 @@
         {%- endif -%}
     </div>
 {%- endif -%}
- {%- endcomment -%}
+
