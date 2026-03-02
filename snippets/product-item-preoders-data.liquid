@@ -17,7 +17,7 @@
 {% assign search_key = '"' | append: current_product_id | append: '":' %}
 
 {% if preorder_counts contains search_key %}
-t    {%- assign split_result = preorder_counts | split: search_key | last | split: ',' | first | split: '}' | first -%}
+    {%- assign split_result = preorder_counts | split: search_key | last | split: ',' | first | split: '}' | first -%}
 {% endif %}
 
 {%- if split_result != blank -%}
