@@ -26,7 +26,7 @@
     "show_color_swatch": true,
     "show_release_date_product": true,
     "show_inventory_quantity": false,
-    "preorder_purchased_label_singular": "",
+    "preorder_purchased_label_singular": "<p>dasdas</p>",
     "preorder_purchased_label_plural": "",
     "preorder_data_updated_text": "",
     "cart_type": "notification",
