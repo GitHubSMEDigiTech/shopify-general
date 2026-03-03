@@ -14,16 +14,17 @@
 
 {% assign current_product_id = product.id %}
 {% assign search_key = '"' | append: current_product_id | append: '":' %}
+{% assign preorder_counts_str = preorder_counts | strip %}
 
-{% if preorder_counts contains search_key %}
-    {%- assign split_result = preorder_counts | split: search_key | last | split: ',' | first | split: '}' | first -%}
+{% if preorder_counts_str contains search_key %}
+    {%- assign split_result = preorder_counts_str | split: search_key | last | split: ',' | first | split: '}' | first -%}
 {% endif %}
 
 {%- if split_result != blank -%}
     <div class="product-item__preorder">
         {%- if split_result != blank -%}
             <span class="product-item__preorder-count">
-                {%- if split_result == 1 -%}{{ settings.preorder_purchased_label_singular | append: split_result }}{% else %}{{ settings.preorder_purchased_label_plural | append: split_result }}{%- endif -%}
+                {%- if split_result == 1 -%}{{ settings.preorder_purchased_label_singular | append: ' ' | append: split_result }}{% else %}{{ settings.preorder_purchased_label_plural | append: ' ' | append: split_result }}{%- endif -%}
             </span>
         {%- endif -%}
         {%- if preorder_last_sync != blank -%}
