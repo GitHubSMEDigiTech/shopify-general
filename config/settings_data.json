@@ -25,7 +25,7 @@
     "show_discount": true,
     "show_color_swatch": true,
     "show_release_date_product": true,
-    "show_inventory_quantity": false,
+    "show_inventory_quantity": true,
     "preorder_purchased_label_singular": "<p><strong>Prodotto acquistati in pre-order: </strong></p>",
     "preorder_purchased_label_plural": "<p><strong>Prodotti acquistati in pre-order: </strong></p>",
     "preorder_data_updated_text": "<p>Aggiornato il [data] alle [ora]</p>",
