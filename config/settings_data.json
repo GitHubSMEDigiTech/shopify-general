@@ -310,6 +310,11 @@
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {}
+      },
+      "7147999719060634790": {
+        "type": "shopify://apps/gsc-countdown-timer/blocks/countdown-bar/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
