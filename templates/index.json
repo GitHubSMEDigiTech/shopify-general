@@ -206,8 +206,8 @@
         "image_zLLxyF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_21d7bfbc-ab73-400b-84cf-b7305a35133b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_3760a03f-bf65-4343-991c-29632ff42dd6.jpg",
+            "image": "shopify://shop_images/2160x720_0ece9fbf-ac3d-48fd-ab58-142970cc64d5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d6366697-368e-4a91-8cbf-bbf9e84d6827.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
