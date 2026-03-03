@@ -21,8 +21,15 @@
             "show_share_buttons": true
           }
         },
+        "gsc_countdown_timer_countdown_bXenND": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": "GSC-EMBED-hjIemYHebbaZ"
+          }
+        },
         "text_kbYdML": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "content": "<h3><strong>ATTENZIONE:</strong> preordinando la musicassetta avrai accesso all'esclusivo evento presso Villa Inferno. Le cassette saranno ritirabili una volta mostrato il QR code all'ingresso. Pertanto, l'inserimento dell'indirizzo personale in fase di check out non comporta le spedizione del prodotto. </h3>"
           }
@@ -81,6 +88,7 @@
       },
       "block_order": [
         "product_meta",
+        "gsc_countdown_timer_countdown_bXenND",
         "text_kbYdML",
         "text_FYDwhT",
         "text_c9Qgk6",
@@ -97,6 +105,12 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
+      }
+    },
+    "17725508607ec6c734": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "product-recommendations": {
@@ -116,6 +130,7 @@
   },
   "order": [
     "main",
+    "17725508607ec6c734",
     "product-recommendations",
     "recently-viewed-products"
   ]
