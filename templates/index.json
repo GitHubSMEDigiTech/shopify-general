@@ -325,8 +325,8 @@
         "image_XHmBAC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_aef4c669-8bdc-4645-a4f5-d845435d1941.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_f96dd5c2-22fb-4497-85c3-0128510871df.jpg",
+            "image": "shopify://shop_images/2160x720_76f1fb21-1993-46ae-86a5-cc6cbb560305.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_cf1b5c82-9982-4d82-bb38-0692f89486da.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
