@@ -36,8 +36,8 @@
         "image_rMatWr": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_2_91c66ca9-f1a9-4fa8-a787-8cda03569b6c.png",
-            "mobile_image": "shopify://shop_images/750x1100_2.png",
+            "image": "shopify://shop_images/2160x720_41b172a6-5174-4b39-b408-8644d6327abc.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_70546670-2543-4d63-80d7-dee4e26a00e3.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -47,7 +47,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://pages/alba-di-lucio"
+            "link": "shopify://products/lalba-di-lucio-lp-numerato-marble-blu-lavanda"
           }
         },
         "image_DjX6Ay": {
