@@ -160,6 +160,25 @@
             "button_link": "shopify://collections/canvass-24-aprile-2026"
           }
         },
+        "item_hYDX6f": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 01 maggio 2026",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-01-maggio-2026"
+          }
+        },
         "item_f4jMdX": {
           "type": "item",
           "settings": {
@@ -224,6 +243,7 @@
         "item_eqHp8W",
         "item_HV9YeR",
         "item_QgHmzL",
+        "item_hYDX6f",
         "item_f4jMdX",
         "item_PzL7qM",
         "item_hQFqCf"
