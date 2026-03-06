@@ -111,17 +111,18 @@
 
                           {%- assign property_value = property_value_raw | downcase -%}
 
-                          {%- if property_key == 'product type' and property_value contains 'preorder' -%}
-                            {%- assign line_item_is_preorder = true -%}
-                            {%- continue -%}
-                          {%- endif -%}
-
                           {%- if property_key contains 'ships by' -%}
                             {%- assign line_item_ship_by = property_value_raw -%}
                             {%- continue -%}
                           {%- endif -%}
 
-                          <li class="mini-cart__property">{{ property.first }}: {{ property.last }}</li>
+                          {%- if property_key == 'product type' and property_value contains 'preorder' -%}
+                            {%- assign line_item_is_preorder = true -%}
+                            <div class="mini-cart__preorder-label">{{ 'cart.general.preorder_label' | t }}</div>
+                          {% else %}
+                             <li class="mini-cart__property">{{ property.first }}: {{ property.last }}</li>
+                          {%- endif -%}
+
                         {%- endfor -%}
                       </ul>
 
@@ -286,11 +287,6 @@
               {%- assign total_discount = total_discount | plus: line_discount -%}
             {%- endif -%}
           {%- endfor -%}
-
-          {%- if total_discount > 0 -%}
-            {%- capture amount_saved -%}<span>{{ total_discount | money }}</span>{%- endcapture -%}
-            <span class="mini-cart__amount-saved">{{ 'cart.general.amount_saved_html' | t: amount_saved: amount_saved }}</span>
-          {%- endif -%}
 
           <div class="mini-cart__button-container">
             <div class="button-group button-group--loose button-group--fit">

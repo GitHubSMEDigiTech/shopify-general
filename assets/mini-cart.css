@@ -182,18 +182,6 @@ body.no-mobile-scroll {
   margin-bottom: 4px;
 }
 
-.mini-cart__related-preorder {
-  margin-top: 2px;
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  background: #ffbf00;
-  border-radius: 2px;
-  padding: 2px 6px;
-}
-
 .mini-cart__related-add {
   margin-top: 8px;
   width: auto;
@@ -263,6 +251,15 @@ body.no-mobile-scroll {
   border-radius: 50%;
   animation: mini-cart-spin 0.7s linear infinite;
   opacity: 1;
+}
+
+.mini-cart__preorder-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  background: #ffbf00;
+  border-radius: 2px;
+  padding: 1px 7px;
 }
 
 @keyframes mini-cart-spin {
