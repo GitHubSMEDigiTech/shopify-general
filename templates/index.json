@@ -51,6 +51,40 @@
             "link": "shopify://products/lalba-di-lucio-lp-numerato-marble-blu-lavanda"
           }
         },
+        "image_HciHCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_32ddf110-236c-4158-963c-752f065dd419.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2585bb43-83b4-4fde-bcd8-2632f36a7349.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/harry-styles"
+          }
+        },
+        "image_wfGmGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_f225c855-579d-422d-ae6c-ecd579bde1a8.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_58189e8d-9fda-4402-9ca4-6144a5e68694.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -224,8 +258,8 @@
         "image_QQwqrR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_4e36b7cf-1890-4a9b-b21f-51ce7f18b6d8.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_5e727b9c-9718-4668-9d0f-5ddfe1add62a.jpg",
+            "image": "shopify://shop_images/2160x720_afc6cd3e-d896-4e0f-9537-26026b0cba78.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_07285f8a-188a-4c3d-be15-edf2510bc87f.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -272,23 +306,6 @@
             "link": "shopify://collections/ermal-meta"
           }
         },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_e00ca05a-682c-4d13-a75d-378efeff5da8.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_ae96617d-4a82-4d44-8833-79a31ed6c516.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mobrici"
-          }
-        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -304,23 +321,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/cosmo"
-          }
-        },
-        "image_HciHCp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_32ddf110-236c-4158-963c-752f065dd419.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2585bb43-83b4-4fde-bcd8-2632f36a7349.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/harry-styles"
           }
         },
         "image_XHmBAC": {
@@ -343,6 +343,8 @@
       },
       "block_order": [
         "image_rMatWr",
+        "image_HciHCp",
+        "image_wfGmGy",
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_9kfgaA",
@@ -356,9 +358,7 @@
         "image_QQwqrR",
         "image_eUhDX7",
         "image_FV8WFP",
-        "image_wfGmGy",
         "image_NDBHHY",
-        "image_HciHCp",
         "image_XHmBAC"
       ],
       "settings": {
