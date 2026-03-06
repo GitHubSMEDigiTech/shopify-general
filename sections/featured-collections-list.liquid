@@ -5,11 +5,10 @@
 }
 {%- endcapture -%}
 
-{{ 'section-featured-collections-list.css' | asset_url | stylesheet_tag }}
-
 {%- assign linked_collections = section.settings.collections_source -%}
 
 {%- if linked_collections != blank -%}
+  {{ 'section-featured-collections-list.css' | asset_url | stylesheet_tag }}
   <section class="section" data-section-id="{{ section.id }}" data-section-type="featured-collection" data-section-settings='{{ section_settings }}'>
 
     <div class="container">
