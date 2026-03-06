@@ -68,6 +68,23 @@
             "link": "shopify://collections/harry-styles"
           }
         },
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_afc6cd3e-d896-4e0f-9537-26026b0cba78.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_07285f8a-188a-4c3d-be15-edf2510bc87f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/poesie-clandestine-cd"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -255,23 +272,6 @@
             "link": "shopify://collections/tredici-pietro"
           }
         },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_afc6cd3e-d896-4e0f-9537-26026b0cba78.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_07285f8a-188a-4c3d-be15-edf2510bc87f.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/poesie-clandestine-cd"
-          }
-        },
         "image_eUhDX7": {
           "type": "image",
           "settings": {
@@ -344,6 +344,7 @@
       "block_order": [
         "image_rMatWr",
         "image_HciHCp",
+        "image_QQwqrR",
         "image_wfGmGy",
         "image_DjX6Ay",
         "image_G3f6rF",
@@ -355,7 +356,6 @@
         "image_3wJqzQ",
         "image_x98LVH",
         "image_zLLxyF",
-        "image_QQwqrR",
         "image_eUhDX7",
         "image_FV8WFP",
         "image_NDBHHY",
