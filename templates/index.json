@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_fQpnRU": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/CemeterySkyline_NordicGothic_Deluxe_edited.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/cemeteryskylinenordicgothicdeluxejpg-175151.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Cemetery Skyline",
+            "head_color": "#ffffff",
+            "subtitle": "Nordic Gothic",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Gatefold deep blood red 2LP\nLtd. 2CD Digipak",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "May 5",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Cemetery%20Skyline"
+          }
+        },
         "banner_T8HUnQ": {
           "type": "banner",
           "settings": {
@@ -230,28 +252,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=As%20Everything%20Unfolds"
           }
         },
-        "banner_fQpnRU": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/CemeterySkyline_NordicGothic_Deluxe_edited.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/cemeteryskylinenordicgothicdeluxejpg-175151.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Cemetery Skyline",
-            "head_color": "#ffffff",
-            "subtitle": "Nordic Gothic",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Gatefold deep blood red 2LP\nLtd. 2CD Digipak",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "May 5",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Cemetery%20Skyline"
-          }
-        },
         "banner_eirK9t": {
           "type": "banner",
           "settings": {
@@ -275,6 +275,7 @@
         }
       },
       "block_order": [
+        "banner_fQpnRU",
         "banner_T8HUnQ",
         "banner_DADN4E",
         "banner_EfrKbi",
@@ -283,7 +284,6 @@
         "banner_9tda6c",
         "banner_MhUWXi",
         "banner_TmBHB6",
-        "banner_fQpnRU",
         "banner_eirK9t"
       ],
       "settings": {
