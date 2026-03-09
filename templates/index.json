@@ -88,8 +88,8 @@
         "image_wfGmGy": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_8aef8256-d8a9-44f2-8310-26d19ea43a23.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_91db7214-3953-4f3c-a162-551a6c26ef4d.jpg",
+            "image": "shopify://shop_images/2160x720_06630727-2a17-4f89-a1c8-9fd60df4938e.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_28cce313-7420-47f4-be3e-af3b2f764446.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
