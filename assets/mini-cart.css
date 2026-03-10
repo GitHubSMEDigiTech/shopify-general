@@ -400,9 +400,10 @@ body.no-mobile-scroll {
 
   .mini-cart .mini-cart__inner {
     display: grid;
-    grid-template-columns: 230px 1fr;
+    grid-template-columns: 230px minmax(0, 1fr);
     grid-column-gap: 40px;
     grid-template-rows: minmax(0, 1fr) auto;
+    width: 100%;
     min-width: 0;
     min-height: 0;
   }
