@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_DjX6Ay": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_eac22771-e8eb-4c68-bdb2-dd979150a5c3.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_5749f78a-c0c7-44a4-969b-a7b1a1868532.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#000000",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/vangelo-shiva"
+          }
+        },
         "image_rMatWr": {
           "type": "image",
           "disabled": true,
@@ -100,23 +117,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/nayt"
-          }
-        },
-        "image_DjX6Ay": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a6651614-935e-42ee-85fe-8b16af9616f2.png",
-            "mobile_image": "shopify://shop_images/750x1100_190eaeea-f753-4002-ad9d-910e99e5f16c.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "SANREMO 2026",
-            "content": "I Nostri Artisti in Gara",
-            "content_position": "middle_center",
-            "button_background": "#000000",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/sanremo"
           }
         },
         "image_G3f6rF": {
@@ -342,11 +342,11 @@
         }
       },
       "block_order": [
+        "image_DjX6Ay",
         "image_rMatWr",
         "image_HciHCp",
         "image_QQwqrR",
         "image_wfGmGy",
-        "image_DjX6Ay",
         "image_G3f6rF",
         "image_9kfgaA",
         "image_kNcaX3",
