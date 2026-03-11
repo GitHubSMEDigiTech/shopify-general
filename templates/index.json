@@ -621,7 +621,7 @@
       "type": "newsletter",
       "settings": {
         "title": "",
-        "content": "",
+        "content": "<p>Consulta <a href=\"https://store.sonymusic.it/policies/privacy-policy\" target=\"_blank\" title=\"https://store.sonymusic.it/policies/privacy-policy\"><strong>qui </strong></a>la Privacy Policy</p>",
         "background": "#ffffff",
         "text": "#000000"
       }
