@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_374tfR": {
+          "type": "text",
+          "settings": {
+            "content": "<p><em><strong>NUOVO FORMATO</strong></em></p>"
+          }
+        },
         "product_meta": {
           "type": "product_meta",
           "settings": {
@@ -19,12 +25,6 @@
             "show_sku": true,
             "show_reviews_badge": false,
             "show_share_buttons": true
-          }
-        },
-        "text_374tfR": {
-          "type": "text",
-          "settings": {
-            "content": "<p>\"<strong>NUJE</strong>\" disponibile in formato CD Autografato e LP marmorizzato Autografato con <strong>uno speciale biglietto di Auguri firmato da Gigi D'Alessio</strong></p>"
           }
         },
         "text_FYDwhT": {
@@ -80,8 +80,8 @@
         }
       },
       "block_order": [
-        "product_meta",
         "text_374tfR",
+        "product_meta",
         "text_FYDwhT",
         "text_c9Qgk6",
         "variant_selector",
