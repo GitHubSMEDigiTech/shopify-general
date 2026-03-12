@@ -94,23 +94,6 @@
             "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
           }
         },
-        "image_FDht7J": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
-          }
-        },
         "image_M7pmab": {
           "type": "image",
           "settings": {
@@ -141,23 +124,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/rosalia-lux"
-          }
-        },
-        "image_cw9LmB": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/wywhdesktop_1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pink-floyd"
           }
         },
         "image_NRYEWy": {
@@ -191,6 +157,40 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/peaky-blinders-the-immortal-man"
+          }
+        },
+        "image_FDht7J": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
+          }
+        },
+        "image_cw9LmB": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/wywhdesktop_1.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/pink-floyd"
           }
         },
         "image_xHcGDq": {
@@ -285,12 +285,12 @@
         "image_PrTX4z",
         "image_jntpdb",
         "image_GDUJbg",
-        "image_FDht7J",
         "image_M7pmab",
         "image_dcxRfd",
-        "image_cw9LmB",
         "image_NRYEWy",
         "image_qJ9NLE",
+        "image_FDht7J",
+        "image_cw9LmB",
         "image_xHcGDq",
         "image_eyUyGr",
         "image_6YKHeW",
