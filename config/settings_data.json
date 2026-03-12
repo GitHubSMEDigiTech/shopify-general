@@ -19,7 +19,7 @@
     "footer_heading_text_color": "#ffffff",
     "footer_body_text_color": "#ffffff",
     "footer_accent_color": "#c5161c",
-    "product_sold_out_color": "#c5161c",
+    "product_sold_out_color": "#131313",
     "product_label_1_background": "#c5161c",
     "product_label_2_background": "#223251",
     "base_text_font_size": 15,
