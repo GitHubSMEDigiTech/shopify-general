@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3LLK6N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Nayt.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt-io-individuo"
+          }
+        },
         "image_4Fy9bP": {
           "type": "image",
           "settings": {
@@ -45,10 +61,10 @@
             "link": "shopify://collections/sanremo-2026"
           }
         },
-        "image_3LLK6N": {
+        "image_jntpdb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_Nayt.png",
+            "image": "shopify://shop_images/naytbannermartino.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -58,7 +74,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/nayt-io-individuo"
+            "link": "shopify://collections/nayt"
           }
         },
         "image_GDUJbg": {
@@ -93,22 +109,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
-          }
-        },
-        "image_jntpdb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/naytbannermartino.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt"
           }
         },
         "image_M7pmab": {
@@ -280,12 +280,12 @@
         }
       },
       "block_order": [
+        "image_3LLK6N",
         "image_4Fy9bP",
         "image_PrTX4z",
-        "image_3LLK6N",
+        "image_jntpdb",
         "image_GDUJbg",
         "image_FDht7J",
-        "image_jntpdb",
         "image_M7pmab",
         "image_dcxRfd",
         "image_cw9LmB",
