@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_DjX6Ay": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_6059d59e-b468-42ce-a89d-8ee7658d249f.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ec602428-4623-40ee-82db-db91489da784.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#000000",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/vangelo-shiva"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -48,24 +65,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
-          }
-        },
-        "image_DjX6Ay": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_eac22771-e8eb-4c68-bdb2-dd979150a5c3.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_5749f78a-c0c7-44a4-969b-a7b1a1868532.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#000000",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/vangelo-shiva"
           }
         },
         "image_rMatWr": {
@@ -343,8 +342,8 @@
         }
       },
       "block_order": [
-        "image_XHmBAC",
         "image_DjX6Ay",
+        "image_XHmBAC",
         "image_rMatWr",
         "image_eUhDX7",
         "image_HciHCp",
