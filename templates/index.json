@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_Tqjcm9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_af08e9fe-62e2-4a2c-9c14-06ffeb21b11e.png",
+            "mobile_image": "shopify://shop_images/750x1100_870f6e16-b10e-4a6f-86c2-59a01a637719.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/michael-jackson"
+          }
+        },
         "image_3LLK6N": {
           "type": "image",
           "settings": {
@@ -280,6 +297,7 @@
         }
       },
       "block_order": [
+        "image_Tqjcm9",
         "image_3LLK6N",
         "image_4Fy9bP",
         "image_PrTX4z",
