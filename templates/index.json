@@ -15,8 +15,8 @@
         "image_Tqjcm9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_af08e9fe-62e2-4a2c-9c14-06ffeb21b11e.png",
-            "mobile_image": "shopify://shop_images/750x1100_870f6e16-b10e-4a6f-86c2-59a01a637719.png",
+            "image": "shopify://shop_images/2160x720_pdt_mkt.png",
+            "mobile_image": "shopify://shop_images/750x1100_pdt_mkt.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
