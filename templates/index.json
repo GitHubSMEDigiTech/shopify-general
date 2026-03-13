@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c3ac55e0-751e-43bb-9e99-5b4a6093fe17.png",
+            "mobile_image": "shopify://shop_images/750x1100_b1a9224a-a00c-4a8a-87d4-6edf6bb15619.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/michael-jackson"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -322,26 +339,10 @@
             "button_text": "",
             "link": "shopify://collections/cosmo"
           }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_76f1fb21-1993-46ae-86a5-cc6cbb560305.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_cf1b5c82-9982-4d82-bb38-0692f89486da.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mara-sattei"
-          }
         }
       },
       "block_order": [
+        "image_XHmBAC",
         "image_DjX6Ay",
         "image_rMatWr",
         "image_HciHCp",
@@ -358,8 +359,7 @@
         "image_zLLxyF",
         "image_eUhDX7",
         "image_FV8WFP",
-        "image_NDBHHY",
-        "image_XHmBAC"
+        "image_NDBHHY"
       ],
       "settings": {
         "edge_to_edge": false,
