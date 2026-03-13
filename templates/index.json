@@ -85,6 +85,23 @@
             "link": "shopify://products/lalba-di-lucio-lp-numerato-marble-blu-lavanda"
           }
         },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1670bde0-5490-4414-9d73-1be84bb51046.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_9b83b6d3-6e71-4d43-ae17-e6b05ab69730.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/enrico-nigiotti"
+          }
+        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -289,23 +306,6 @@
             "link": "shopify://collections/tredici-pietro"
           }
         },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1670bde0-5490-4414-9d73-1be84bb51046.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_9b83b6d3-6e71-4d43-ae17-e6b05ab69730.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/enrico-nigiotti"
-          }
-        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -345,6 +345,7 @@
         "image_XHmBAC",
         "image_DjX6Ay",
         "image_rMatWr",
+        "image_eUhDX7",
         "image_HciHCp",
         "image_QQwqrR",
         "image_wfGmGy",
@@ -357,7 +358,6 @@
         "image_3wJqzQ",
         "image_x98LVH",
         "image_zLLxyF",
-        "image_eUhDX7",
         "image_FV8WFP",
         "image_NDBHHY"
       ],
