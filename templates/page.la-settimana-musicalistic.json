@@ -60,12 +60,30 @@
         "button_text": "Scopri",
         "button_link": ""
       }
+    },
+    "collection_with_image_3qxJc9": {
+      "type": "collection-with-image",
+      "name": "Collection with image",
+      "settings": {
+        "collection": "franco-battiato",
+        "products_count": 12,
+        "show_quick_buy": false,
+        "background": "#003f21",
+        "text_color": "#ffffff",
+        "title": "Franco Battiato",
+        "content": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#003f21",
+        "button_text": "Learn more",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
     "featured_collection_nMkQeJ",
     "featured_collection_dcdy9B",
-    "collection_with_image_xDX3YF"
+    "collection_with_image_xDX3YF",
+    "collection_with_image_3qxJc9"
   ]
 }
