@@ -36,11 +36,11 @@
         "collection": "lucio-dalla",
         "title": "LUCIO DALLA",
         "products_count": 12,
-        "layout": "collage",
+        "layout": "horizontal",
         "stack_products": false,
         "show_quick_buy": false,
         "show_quick_inventory": false,
-        "link_title": "Tutti",
+        "link_title": "",
         "link_url": ""
       }
     },
