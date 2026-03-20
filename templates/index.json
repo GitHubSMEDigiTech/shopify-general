@@ -67,6 +67,40 @@
             "link": "shopify://collections/michael-jackson"
           }
         },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_8903b4dc-541a-4f64-b0ac-268064aada7b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_949b69f5-1ba8-43df-97e6-919332decfc5.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/subsonica"
+          }
+        },
+        "image_x47WFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_3d2c8501-a1cf-4861-8bfd-fe51b5130fd9.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_20377b99-46fa-44c9-b707-95947a6c0227.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt-io-individuo"
+          }
+        },
         "image_rMatWr": {
           "type": "image",
           "disabled": true,
@@ -83,23 +117,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/lalba-di-lucio-lp-numerato-marble-blu-lavanda"
-          }
-        },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_8903b4dc-541a-4f64-b0ac-268064aada7b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_949b69f5-1ba8-43df-97e6-919332decfc5.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/subsonica"
           }
         },
         "image_eUhDX7": {
@@ -222,23 +239,6 @@
             "link": "shopify://collections/riccardo-cocciante"
           }
         },
-        "image_x47WFh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_3d2c8501-a1cf-4861-8bfd-fe51b5130fd9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_20377b99-46fa-44c9-b707-95947a6c0227.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt-io-individuo"
-          }
-        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -348,8 +348,9 @@
       "block_order": [
         "image_DjX6Ay",
         "image_XHmBAC",
-        "image_rMatWr",
         "image_3wJqzQ",
+        "image_x47WFh",
+        "image_rMatWr",
         "image_eUhDX7",
         "image_HciHCp",
         "image_wfGmGy",
@@ -357,7 +358,6 @@
         "image_QQwqrR",
         "image_kNcaX3",
         "image_hhc4xB",
-        "image_x47WFh",
         "image_G3f6rF",
         "image_4T4yhV",
         "image_x98LVH",
