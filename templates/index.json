@@ -50,28 +50,11 @@
             "link": "shopify://collections/vangelo-shiva"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_c3ac55e0-751e-43bb-9e99-5b4a6093fe17.png",
-            "mobile_image": "shopify://shop_images/750x1100_b1a9224a-a00c-4a8a-87d4-6edf6bb15619.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/michael-jackson"
-          }
-        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_8903b4dc-541a-4f64-b0ac-268064aada7b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_949b69f5-1ba8-43df-97e6-919332decfc5.jpg",
+            "image": "shopify://shop_images/2160x720_0c0a192f-07a8-47a7-90b5-dc8fa321b9fa.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_8f22467a-1ac5-400b-aae0-4fa386a51222.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -99,6 +82,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/nayt-io-individuo"
+          }
+        },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c3ac55e0-751e-43bb-9e99-5b4a6093fe17.png",
+            "mobile_image": "shopify://shop_images/750x1100_b1a9224a-a00c-4a8a-87d4-6edf6bb15619.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/michael-jackson"
           }
         },
         "image_rMatWr": {
@@ -347,9 +347,9 @@
       },
       "block_order": [
         "image_DjX6Ay",
-        "image_XHmBAC",
         "image_3wJqzQ",
         "image_x47WFh",
+        "image_XHmBAC",
         "image_rMatWr",
         "image_eUhDX7",
         "image_HciHCp",
