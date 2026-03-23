@@ -48,6 +48,7 @@
         },
         "image_3LLK6N": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/banner_Nayt.png",
             "show_overlay": false,
