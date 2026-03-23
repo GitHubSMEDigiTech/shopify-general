@@ -70,8 +70,8 @@
         "image_x47WFh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_3d2c8501-a1cf-4861-8bfd-fe51b5130fd9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_20377b99-46fa-44c9-b707-95947a6c0227.jpg",
+            "image": "shopify://shop_images/2160x720_jpg.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_jpg.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
