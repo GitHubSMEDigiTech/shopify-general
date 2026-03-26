@@ -36,8 +36,8 @@
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_7c235d2e-00b9-4627-8187-ea87f581f911.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_7a525843-8c04-47ce-a117-2f3a0ce3f593.jpg",
+            "image": "shopify://shop_images/2160x720_eac22771-e8eb-4c68-bdb2-dd979150a5c3.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_5749f78a-c0c7-44a4-969b-a7b1a1868532.jpg",
             "show_overlay": true,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
