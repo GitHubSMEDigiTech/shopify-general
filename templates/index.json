@@ -497,7 +497,7 @@
       ],
       "settings": {
         "expand_items": true,
-        "section_size": "small",
+        "section_size": "large",
         "stack_mobile": false
       }
     },
