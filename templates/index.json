@@ -62,23 +62,6 @@
             "link": "shopify://collections/harry-styles"
           }
         },
-        "image_PrTX4z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720.png",
-            "mobile_image": "shopify://shop_images/750x1100.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "text_color": "#ffffff",
-            "title": "SANREMO 2026",
-            "content": "I nostri artisti in gara",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/sanremo-2026"
-          }
-        },
         "image_M7pmab": {
           "type": "image",
           "settings": {
@@ -93,6 +76,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/foo-fighters-your-favourite-toy"
+          }
+        },
+        "image_PrTX4z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720.png",
+            "mobile_image": "shopify://shop_images/750x1100.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "text_color": "#ffffff",
+            "title": "SANREMO 2026",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/sanremo-2026"
           }
         },
         "image_jntpdb": {
@@ -162,7 +162,6 @@
         },
         "image_FDht7J": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
             "show_overlay": true,
@@ -247,7 +246,6 @@
         },
         "image_wiRjiq": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/battistib2b.png",
             "show_overlay": true,
@@ -264,7 +262,6 @@
         },
         "image_a7atqp": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/luciodallab2b_b73b361e-80fa-4da5-bbcb-615a1fedb03c.png",
             "show_overlay": false,
@@ -284,8 +281,8 @@
         "image_GDUJbg",
         "image_Tqjcm9",
         "image_4Fy9bP",
-        "image_PrTX4z",
         "image_M7pmab",
+        "image_PrTX4z",
         "image_jntpdb",
         "image_dcxRfd",
         "image_NRYEWy",
