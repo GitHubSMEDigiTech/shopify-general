@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_9kfgaA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_6d64efae-dc52-4788-a2f6-b7680f2acb25.jpg",
+            "mobile_image": "shopify://shop_images/mobilesalmo.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/hellvisback10"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -168,23 +185,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/nayt"
-          }
-        },
-        "image_9kfgaA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_cffce548-600b-48da-883d-a6bbc991c11b.png",
-            "mobile_image": "shopify://shop_images/750x1100_1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/hellvisback10"
           }
         },
         "image_QQwqrR": {
@@ -346,6 +346,7 @@
         }
       },
       "block_order": [
+        "image_9kfgaA",
         "image_DjX6Ay",
         "image_3wJqzQ",
         "image_x47WFh",
@@ -354,7 +355,6 @@
         "image_eUhDX7",
         "image_HciHCp",
         "image_wfGmGy",
-        "image_9kfgaA",
         "image_QQwqrR",
         "image_kNcaX3",
         "image_hhc4xB",
