@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_j4XRn3": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/tessa.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/tesseractone15thanniversaryeditionjpg-180107.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Tesseract",
+            "head_color": "#ffffff",
+            "subtitle": "One (15th anniversary Edition)",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Gatefold white LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "May 8",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=TesseracT&sort_by=created-descending"
+          }
+        },
         "banner_fQpnRU": {
           "type": "banner",
           "settings": {
@@ -120,6 +142,28 @@
             "link": "http://cmdistro.de/collections/vendors?q=At%20The%20Gates"
           }
         },
+        "banner_TmBHB6": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/AEU.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/aseverythingunfoldsdidyouasktobesetfreejpg-159508.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ad141f",
+            "title": "As Everything Unfolds",
+            "head_color": "#ad141f",
+            "subtitle": "DID YOU ASK TO BE SET FREE?",
+            "subhead_color": "#ad141f",
+            "content": "Standard CD Jewelcase\ntransp. petrol green LP",
+            "content_color": "#cf0e0e",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "April 10",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=As%20Everything%20Unfolds"
+          }
+        },
         "banner_EfrKbi": {
           "type": "banner",
           "settings": {
@@ -163,128 +207,16 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
           }
-        },
-        "banner_8BnGnT": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Pizza.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/samuraipizzacatspressstartjpg-162028.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Samurai Pizza Cats",
-            "head_color": "#ffffff",
-            "subtitle": "Press Start",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nLtd. pink-lilac splatter LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 27",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Samurai%20Pizza%20Cats"
-          }
-        },
-        "banner_9tda6c": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/log.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/lambofgodintooblivion-1jpg-158911.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Lamb Of God",
-            "head_color": "#ffffff",
-            "subtitle": "Into Oblivion",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Edition in O-Card\nStandard CD Jewelcase\nLtd. black LP & LP-Booklet\nLtd. transp. olive green-white splatter LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 13",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Lamb%20Of%20God"
-          }
-        },
-        "banner_MhUWXi": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/Hell.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/hellrippercoronachjpg-156102.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Hellripper",
-            "head_color": "#ffffff",
-            "subtitle": "Coronach",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nBlack Cuillin LP (black vinyl)",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 27",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Hellripper"
-          }
-        },
-        "banner_TmBHB6": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/AEU.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/aseverythingunfoldsdidyouasktobesetfreejpg-159508.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ad141f",
-            "title": "As Everything Unfolds",
-            "head_color": "#ad141f",
-            "subtitle": "DID YOU ASK TO BE SET FREE?",
-            "subhead_color": "#ad141f",
-            "content": "Standard CD Jewelcase\ntransp. petrol green LP",
-            "content_color": "#cf0e0e",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "April 10",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=As%20Everything%20Unfolds"
-          }
-        },
-        "banner_eirK9t": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/gaerea.jpg",
-            "bg_color": "#eeeeee",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Gaerea",
-            "head_color": "#ffffff",
-            "subtitle": "Loss",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD Digipak in O-Card\nblack LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "March 20",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Gaerea"
-          }
         }
       },
       "block_order": [
+        "banner_j4XRn3",
         "banner_fQpnRU",
         "banner_T8HUnQ",
         "banner_DADN4E",
-        "banner_EfrKbi",
-        "banner_DKtkEG",
-        "banner_8BnGnT",
-        "banner_9tda6c",
-        "banner_MhUWXi",
         "banner_TmBHB6",
-        "banner_eirK9t"
+        "banner_EfrKbi",
+        "banner_DKtkEG"
       ],
       "settings": {
         "edge_to_edge": true,
