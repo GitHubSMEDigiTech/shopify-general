@@ -422,6 +422,7 @@
     },
     "collection_with_image_d44Bni": {
       "type": "collection-with-image",
+      "disabled": true,
       "settings": {
         "collection": "sconto-30",
         "products_count": 40,
