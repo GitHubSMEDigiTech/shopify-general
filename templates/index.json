@@ -469,6 +469,7 @@
     },
     "featured_collection_chRPbA": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "in-esaurimento",
         "title": "CD e Vinili in esaurimento",
