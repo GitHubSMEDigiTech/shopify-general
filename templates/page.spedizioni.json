@@ -110,7 +110,7 @@
           "type": "question",
           "settings": {
             "title": "Ho un problema, cosa posso fare?",
-            "answer": "<h6>Il nostro servizio Customer Care è attivo telefonicamente al numero 800 20 99 35 nei seguenti orari 09.00-13.00 e 14.00-18.00 da lunedì al venerdì esclusi i festivi. Puoi inviare una email all’indirizzocontact.store.ita@sonymusic.com che risponderà il prima possibile.</h6>"
+            "answer": "<h6>Puoi inviare una email all’indirizzocontact.store.ita@sonymusic.com che risponderà il prima possibile.</h6>"
           }
         },
         "question_9Y8KYU": {
@@ -182,8 +182,8 @@
         "contact_info_heading": "Hai altre domande ?",
         "contact_info_text": "<p>se non abbiamo risposto alla tua domanda contatta il nostro supporto Clienti</p>",
         "contact_1_icon": "bi-phone",
-        "contact_1_heading": "chiamaci",
-        "contact_1_text": "<h4><a href=\"tel:800209935\"><strong>800 20 99 35</strong></a></h4>",
+        "contact_1_heading": "",
+        "contact_1_text": "",
         "contact_2_icon": "bi-email",
         "contact_2_heading": "Invia un messaggio",
         "contact_2_text": "<h6><strong>contact.store.ita@sonymusic.com</strong></h6>"
