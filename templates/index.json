@@ -36,8 +36,8 @@
         "image_x98LVH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_6.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_4_1cf6bd9a-8c54-4e14-b63f-a17aa1949054.jpg",
+            "image": "shopify://shop_images/2160x720_8_28a75f2c-3afd-4052-913f-59c511d197ec.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_6_b4e37d3f-e5b4-4b3f-95b1-30ba79d80a7c.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
