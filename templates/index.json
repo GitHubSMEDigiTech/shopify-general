@@ -12,11 +12,11 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_GDUJbg": {
+        "image_kDTCQm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop_a3f08e7b-e411-454f-8bab-85baefe71470.jpg",
-            "mobile_image": "shopify://shop_images/mobile_5b56c239-4b6e-4af4-adbc-75da06db8776.jpg",
+            "image": "shopify://shop_images/THE-STROKES_StoreBanner_Desktop_2160x720_19a164f0-f216-44a4-b2a7-6e9c5346f3bf.jpg",
+            "mobile_image": "shopify://shop_images/THE-STROKES_StoreBanner_Mobile_750x1100_d537e969-cf43-4c26-9a7f-b49b44866464.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -26,7 +26,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
+            "link": "shopify://collections/the-strokes-reality-awaits"
           }
         },
         "image_Tqjcm9": {
@@ -46,10 +46,11 @@
             "link": "shopify://collections/michael-jackson"
           }
         },
-        "image_4Fy9bP": {
+        "image_GDUJbg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_9e66150d-f844-43ae-97dd-b1d33d8cc48b.jpg",
+            "image": "shopify://shop_images/Desktop_a3f08e7b-e411-454f-8bab-85baefe71470.jpg",
+            "mobile_image": "shopify://shop_images/mobile_5b56c239-4b6e-4af4-adbc-75da06db8776.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -59,7 +60,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/harry-styles"
+            "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
           }
         },
         "image_M7pmab": {
@@ -76,6 +77,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/foo-fighters-your-favourite-toy"
+          }
+        },
+        "image_4Fy9bP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9e66150d-f844-43ae-97dd-b1d33d8cc48b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/harry-styles"
           }
         },
         "image_PrTX4z": {
@@ -281,10 +298,11 @@
         }
       },
       "block_order": [
-        "image_GDUJbg",
+        "image_kDTCQm",
         "image_Tqjcm9",
-        "image_4Fy9bP",
+        "image_GDUJbg",
         "image_M7pmab",
+        "image_4Fy9bP",
         "image_PrTX4z",
         "image_jntpdb",
         "image_dcxRfd",
