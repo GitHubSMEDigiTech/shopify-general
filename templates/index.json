@@ -141,82 +141,13 @@
             "preorder_msg_color": "#000000",
             "link": "http://cmdistro.de/collections/vendors?q=At%20The%20Gates"
           }
-        },
-        "banner_TmBHB6": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/AEU.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/aseverythingunfoldsdidyouasktobesetfreejpg-159508.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ad141f",
-            "title": "As Everything Unfolds",
-            "head_color": "#ad141f",
-            "subtitle": "DID YOU ASK TO BE SET FREE?",
-            "subhead_color": "#ad141f",
-            "content": "Standard CD Jewelcase\ntransp. petrol green LP",
-            "content_color": "#cf0e0e",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "April 10",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=As%20Everything%20Unfolds"
-          }
-        },
-        "banner_EfrKbi": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/EOS_b230a13a-1f90-4296-ac2a-7a577888f4df.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/edgeofsanityelegychapter2jpg-162758.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Edge Of Sanity",
-            "head_color": "#ffffff",
-            "subtitle": "Elegy Chapter II",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\nGatefold black 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "April 3",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
-        },
-        "banner_DKtkEG": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/EOS1.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/edgeofsanitycrypticjpg-162378.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Edge Of Sanity",
-            "head_color": "#ffffff",
-            "subtitle": "Cryptic",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Jewelcase in O-Card\ndark green LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "April 3",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Edge+Of+Sanity&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
         "banner_j4XRn3",
         "banner_fQpnRU",
         "banner_T8HUnQ",
-        "banner_DADN4E",
-        "banner_TmBHB6",
-        "banner_EfrKbi",
-        "banner_DKtkEG"
+        "banner_DADN4E"
       ],
       "settings": {
         "edge_to_edge": true,
