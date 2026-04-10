@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_bNxq6y": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/yes_ee1d5b93-7beb-40f1-a8f6-0ff918f8100e.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/yesauroraalbumcoverjpg-180946.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Yes",
+            "head_color": "#ffffff",
+            "subtitle": "Aurora",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe light green 2LP+2CD+Blu-ray Artbook & Poster\nLtd. Deluxe 2CD+Blu-ray Artbook\nSpecial Edition CD Digipak\nGatefold black 2LP & LP-Booklet",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "June 12",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
         "banner_4jRwL3": {
           "type": "banner",
           "settings": {
@@ -144,6 +166,7 @@
         }
       },
       "block_order": [
+        "banner_bNxq6y",
         "banner_4jRwL3",
         "banner_qqKzDA",
         "banner_i6atUE",
