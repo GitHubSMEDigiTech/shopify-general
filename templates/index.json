@@ -101,11 +101,11 @@
             "link": "shopify://collections/juli"
           }
         },
-        "image_9kfgaA": {
+        "image_XHmBAC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop_6d64efae-dc52-4788-a2f6-b7680f2acb25.jpg",
-            "mobile_image": "shopify://shop_images/mobilesalmo.png",
+            "image": "shopify://shop_images/2160x720_c3ac55e0-751e-43bb-9e99-5b4a6093fe17.png",
+            "mobile_image": "shopify://shop_images/750x1100_b1a9224a-a00c-4a8a-87d4-6edf6bb15619.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -115,11 +115,12 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/hellvisback10"
+            "link": "shopify://collections/michael-jackson"
           }
         },
         "image_DjX6Ay": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_eac22771-e8eb-4c68-bdb2-dd979150a5c3.jpg",
             "mobile_image": "shopify://shop_images/750x1100_5749f78a-c0c7-44a4-969b-a7b1a1868532.jpg",
@@ -135,11 +136,11 @@
             "link": "shopify://collections/vangelo-shiva"
           }
         },
-        "image_3wJqzQ": {
+        "image_4T4yhV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_0c0a192f-07a8-47a7-90b5-dc8fa321b9fa.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_8f22467a-1ac5-400b-aae0-4fa386a51222.jpg",
+            "image": "shopify://shop_images/2160x720_ec613ef1-e6f0-423b-b8bb-4c974849e491.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_e97cb8e8-428d-4f55-a506-c2c815a7e3e0.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -149,7 +150,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/subsonica"
+            "link": "shopify://collections/peaky-blinders"
           }
         },
         "image_x47WFh": {
@@ -169,25 +170,9 @@
             "link": "shopify://collections/nayt-io-individuo"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_c3ac55e0-751e-43bb-9e99-5b4a6093fe17.png",
-            "mobile_image": "shopify://shop_images/750x1100_b1a9224a-a00c-4a8a-87d4-6edf6bb15619.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/michael-jackson"
-          }
-        },
         "image_eUhDX7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_1670bde0-5490-4414-9d73-1be84bb51046.jpg",
             "mobile_image": "shopify://shop_images/750x1100_9b83b6d3-6e71-4d43-ae17-e6b05ab69730.jpg",
@@ -205,6 +190,7 @@
         },
         "image_HciHCp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_32ddf110-236c-4158-963c-752f065dd419.jpg",
             "mobile_image": "shopify://shop_images/750x1100_2585bb43-83b4-4fde-bcd8-2632f36a7349.jpg",
@@ -222,6 +208,7 @@
         },
         "image_wfGmGy": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_06630727-2a17-4f89-a1c8-9fd60df4938e.jpg",
             "mobile_image": "shopify://shop_images/750x1100_28cce313-7420-47f4-be3e-af3b2f764446.jpg",
@@ -239,6 +226,7 @@
         },
         "image_QQwqrR": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_afc6cd3e-d896-4e0f-9537-26026b0cba78.jpg",
             "mobile_image": "shopify://shop_images/750x1100_07285f8a-188a-4c3d-be15-edf2510bc87f.jpg",
@@ -252,23 +240,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/poesie-clandestine-cd"
-          }
-        },
-        "image_kNcaX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_d725d1af-0503-4262-a7c1-0e41b2d77416.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_cd986524-7788-4689-80f1-94a821858dec.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/vaz-te"
           }
         },
         "image_G3f6rF": {
@@ -288,11 +259,11 @@
             "link": "shopify://collections/foo-fighters"
           }
         },
-        "image_4T4yhV": {
+        "image_kNcaX3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_ec613ef1-e6f0-423b-b8bb-4c974849e491.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_e97cb8e8-428d-4f55-a506-c2c815a7e3e0.jpg",
+            "image": "shopify://shop_images/2160x720_d725d1af-0503-4262-a7c1-0e41b2d77416.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_cd986524-7788-4689-80f1-94a821858dec.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -302,7 +273,42 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/peaky-blinders"
+            "link": "shopify://collections/vaz-te"
+          }
+        },
+        "image_9kfgaA": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Desktop_6d64efae-dc52-4788-a2f6-b7680f2acb25.jpg",
+            "mobile_image": "shopify://shop_images/mobilesalmo.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/hellvisback10"
+          }
+        },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_0c0a192f-07a8-47a7-90b5-dc8fa321b9fa.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_8f22467a-1ac5-400b-aae0-4fa386a51222.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/subsonica"
           }
         },
         "image_FV8WFP": {
@@ -346,18 +352,18 @@
         "image_x98LVH",
         "image_rMatWr",
         "image_hhc4xB",
-        "image_9kfgaA",
-        "image_DjX6Ay",
-        "image_3wJqzQ",
-        "image_x47WFh",
         "image_XHmBAC",
+        "image_DjX6Ay",
+        "image_4T4yhV",
+        "image_x47WFh",
         "image_eUhDX7",
         "image_HciHCp",
         "image_wfGmGy",
         "image_QQwqrR",
-        "image_kNcaX3",
         "image_G3f6rF",
-        "image_4T4yhV",
+        "image_kNcaX3",
+        "image_9kfgaA",
+        "image_3wJqzQ",
         "image_FV8WFP",
         "image_NDBHHY"
       ],
