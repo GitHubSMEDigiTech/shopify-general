@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/THE-STROKES_StoreBanner_Desktop_2160x720_fffa9469-bff2-46f7-8a48-609ce390d568.jpg",
+            "mobile_image": "shopify://shop_images/THE-STROKES_StoreBanner_Mobile_750x1100_57bc7137-0cea-4976-a8fe-2f3380a4feef.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/the-strokes"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -288,24 +305,6 @@
             "link": "shopify://collections/peaky-blinders"
           }
         },
-        "image_zLLxyF": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_0ece9fbf-ac3d-48fd-ab58-142970cc64d5.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_d6366697-368e-4a91-8cbf-bbf9e84d6827.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tredici-pietro"
-          }
-        },
         "image_FV8WFP": {
           "type": "image",
           "disabled": true,
@@ -343,6 +342,7 @@
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_x98LVH",
         "image_rMatWr",
         "image_hhc4xB",
@@ -358,7 +358,6 @@
         "image_kNcaX3",
         "image_G3f6rF",
         "image_4T4yhV",
-        "image_zLLxyF",
         "image_FV8WFP",
         "image_NDBHHY"
       ],
