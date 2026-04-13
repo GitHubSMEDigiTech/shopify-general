@@ -12,23 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_kDTCQm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/THE-STROKES_StoreBanner_Desktop_2160x720_19a164f0-f216-44a4-b2a7-6e9c5346f3bf.jpg",
-            "mobile_image": "shopify://shop_images/THE-STROKES_StoreBanner_Mobile_750x1100_d537e969-cf43-4c26-9a7f-b49b44866464.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-strokes-reality-awaits"
-          }
-        },
         "image_Tqjcm9": {
           "type": "image",
           "settings": {
@@ -44,6 +27,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
+          }
+        },
+        "image_M7pmab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/foodesktop.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/foo-fighters-your-favourite-toy"
           }
         },
         "image_GDUJbg": {
@@ -63,22 +62,6 @@
             "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
           }
         },
-        "image_M7pmab": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/foodesktop.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/foo-fighters-your-favourite-toy"
-          }
-        },
         "image_4Fy9bP": {
           "type": "image",
           "settings": {
@@ -93,6 +76,39 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/harry-styles"
+          }
+        },
+        "image_kDTCQm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/THE-STROKES_StoreBanner_Desktop_2160x720_19a164f0-f216-44a4-b2a7-6e9c5346f3bf.jpg",
+            "mobile_image": "shopify://shop_images/THE-STROKES_StoreBanner_Mobile_750x1100_d537e969-cf43-4c26-9a7f-b49b44866464.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/the-strokes-reality-awaits"
+          }
+        },
+        "image_jntpdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/naytbannermartino.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt"
           }
         },
         "image_PrTX4z": {
@@ -110,22 +126,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/sanremo-2026"
-          }
-        },
-        "image_jntpdb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/naytbannermartino.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt"
           }
         },
         "image_dcxRfd": {
@@ -298,13 +298,13 @@
         }
       },
       "block_order": [
-        "image_kDTCQm",
         "image_Tqjcm9",
-        "image_GDUJbg",
         "image_M7pmab",
+        "image_GDUJbg",
         "image_4Fy9bP",
-        "image_PrTX4z",
+        "image_kDTCQm",
         "image_jntpdb",
+        "image_PrTX4z",
         "image_dcxRfd",
         "image_NRYEWy",
         "image_qJ9NLE",
