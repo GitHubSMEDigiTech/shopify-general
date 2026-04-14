@@ -29,6 +29,23 @@
             "link": "shopify://collections/michael-jackson"
           }
         },
+        "image_nzqcwc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_02c6eca3-1464-4e84-8858-e7c2044c3f5d.png",
+            "mobile_image": "shopify://shop_images/750x1100_cafaa04f-74f6-49a4-a5a7-8982d0526c8e.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/pink-floyd-8-tracks"
+          }
+        },
         "image_M7pmab": {
           "type": "image",
           "settings": {
@@ -299,6 +316,7 @@
       },
       "block_order": [
         "image_Tqjcm9",
+        "image_nzqcwc",
         "image_M7pmab",
         "image_GDUJbg",
         "image_4Fy9bP",
