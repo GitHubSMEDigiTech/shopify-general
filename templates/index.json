@@ -29,23 +29,6 @@
             "link": "shopify://collections/michael-jackson"
           }
         },
-        "image_nzqcwc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_02c6eca3-1464-4e84-8858-e7c2044c3f5d.png",
-            "mobile_image": "shopify://shop_images/750x1100_cafaa04f-74f6-49a4-a5a7-8982d0526c8e.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pink-floyd-8-tracks"
-          }
-        },
         "image_M7pmab": {
           "type": "image",
           "settings": {
@@ -62,11 +45,11 @@
             "link": "shopify://collections/foo-fighters-your-favourite-toy"
           }
         },
-        "image_GDUJbg": {
+        "image_nzqcwc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop_a3f08e7b-e411-454f-8bab-85baefe71470.jpg",
-            "mobile_image": "shopify://shop_images/mobile_5b56c239-4b6e-4af4-adbc-75da06db8776.jpg",
+            "image": "shopify://shop_images/2160x720_02c6eca3-1464-4e84-8858-e7c2044c3f5d.png",
+            "mobile_image": "shopify://shop_images/750x1100_cafaa04f-74f6-49a4-a5a7-8982d0526c8e.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -76,23 +59,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/salmo-hellvisback-10-years-later-cd-e-musicassetta"
-          }
-        },
-        "image_4Fy9bP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9e66150d-f844-43ae-97dd-b1d33d8cc48b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/harry-styles"
+            "link": "shopify://collections/pink-floyd-8-tracks"
           }
         },
         "image_kDTCQm": {
@@ -126,23 +93,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/nayt"
-          }
-        },
-        "image_PrTX4z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720.png",
-            "mobile_image": "shopify://shop_images/750x1100.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "text_color": "#ffffff",
-            "title": "SANREMO 2026",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/sanremo-2026"
           }
         },
         "image_dcxRfd": {
@@ -192,74 +142,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/peaky-blinders-the-immortal-man"
-          }
-        },
-        "image_FDht7J": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1_6523e67b-facd-4504-8cba-2f23d9c86f4b.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/eros-ramazzotti-una-storia-importante"
-          }
-        },
-        "image_cw9LmB": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/wywhdesktop_1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pink-floyd"
-          }
-        },
-        "image_xHcGDq": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/depechemodedesktop.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/depeche-mode"
-          }
-        },
-        "image_eyUyGr": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/David_Gilmour_banner.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/david-gilmour"
           }
         },
         "image_6YKHeW": {
@@ -316,20 +198,13 @@
       },
       "block_order": [
         "image_Tqjcm9",
-        "image_nzqcwc",
         "image_M7pmab",
-        "image_GDUJbg",
-        "image_4Fy9bP",
+        "image_nzqcwc",
         "image_kDTCQm",
         "image_jntpdb",
-        "image_PrTX4z",
         "image_dcxRfd",
         "image_NRYEWy",
         "image_qJ9NLE",
-        "image_FDht7J",
-        "image_cw9LmB",
-        "image_xHcGDq",
-        "image_eyUyGr",
         "image_6YKHeW",
         "image_wiRjiq",
         "image_a7atqp"
