@@ -1,21 +1,93 @@
+.featured-collections-list__page-header {
+  margin-bottom: 30px;
+}
+
+.featured-collections-list__page-title {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 14px;
+}
+
+.featured-collections-list__page-title::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #ff5e4e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 .featured-collections-list__group {
+  position: relative;
+  overflow: hidden;
   margin-bottom: 48px;
+  padding: 22px 20px 20px;
+}
+
+.featured-collections-list__group::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.74);
+  z-index: 1;
+}
+
+.featured-collections-list__group-background {
+  position: absolute;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  opacity: 1;
+  z-index: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
 }
 
 .featured-collections-list__header {
   margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .featured-collections-list__title {
-  margin: 0 0 8px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.featured-collections-list__title::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #ffbb2f;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .featured-collections-list__description {
-  margin: 0;
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.featured-collections-list__description.is-expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+}
+
+.featured-collections-list__toggle {
+  margin-top: 12px;
 }
 
 .featured-collections-list__products {
@@ -23,6 +95,12 @@
   flex-wrap: wrap;
   border-top: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
+  position: relative;
+  z-index: 2;
+}
+
+.featured-collections-list__products .product-item {
+  background: transparent;
 }
 
 .featured-collections-list__products > .product-item {
@@ -32,6 +110,11 @@
 }
 
 @media screen and (max-width: 999px) {
+  .featured-collections-list__group {
+    padding: 18px 0;
+    border-radius: 0;
+  }
+
   .featured-collections-list__products {
     flex-wrap: nowrap;
     border-left: none;

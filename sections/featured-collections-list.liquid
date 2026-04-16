@@ -12,13 +12,31 @@
   <section class="section" data-section-id="{{ section.id }}" data-section-type="featured-collection" data-section-settings='{{ section_settings }}'>
 
     <div class="container">
+      <header class="featured-collections-list__page-header">
+        <h1 class="featured-collections-list__page-title heading h1">{{ collection.title | escape }}</h1>
+      </header>
+
       {%- for linked_collection in linked_collections -%}
         <div class="featured-collections-list__group">
+          {%- assign first_product = linked_collection.products.first -%}
+          {%- if section.settings.show_blurred_background and first_product != blank and first_product.featured_image != blank -%}
+            <div class="featured-collections-list__group-background" style="background-image: url('{{ first_product.featured_image | image_url: width: 1600 }}');" aria-hidden="true"></div>
+          {%- endif -%}
+
           <header class="featured-collections-list__header">
             <h2 class="featured-collections-list__title heading h3">{{ linked_collection.title | escape }}</h2>
 
             {%- if linked_collection.description != blank -%}
-              <div class="featured-collections-list__description">{{ linked_collection.description }}</div>
+              <div class="featured-collections-list__description" data-description>{{ linked_collection.description }}</div>
+              <button
+                type="button"
+                class="featured-collections-list__toggle button button--small button--ternary"
+                data-description-toggle
+                data-label-more="{{ section.settings.read_more_label | escape }}"
+                data-label-less="{{ section.settings.read_less_label | escape }}"
+                hidden
+                aria-expanded="false"
+              >{{ section.settings.read_more_label | escape }}</button>
             {%- endif -%}
           </header>
 
@@ -35,6 +53,61 @@
       {%- endfor -%}
     </div>
   </section>
+
+  <script>
+    (function() {
+      var sectionEl = document.querySelector('[data-section-id="{{ section.id }}"]');
+
+      if (!sectionEl) {
+        return;
+      }
+
+      var descriptionBlocks = sectionEl.querySelectorAll('[data-description]');
+
+      function updateToggleState(descriptionEl, toggleEl) {
+        if (!descriptionEl || !toggleEl) {
+          return;
+        }
+
+        var isExpanded = descriptionEl.classList.contains('is-expanded');
+        var labelMore = toggleEl.getAttribute('data-label-more') || 'Mostra di piu';
+        var labelLess = toggleEl.getAttribute('data-label-less') || 'Mostra meno';
+
+        if (!isExpanded) {
+          var hasOverflow = descriptionEl.scrollHeight > descriptionEl.clientHeight + 2;
+          toggleEl.hidden = !hasOverflow;
+        }
+
+        toggleEl.textContent = isExpanded ? labelLess : labelMore;
+        toggleEl.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      }
+
+      descriptionBlocks.forEach(function(descriptionEl) {
+        var groupHeader = descriptionEl.closest('.featured-collections-list__header');
+        var toggleEl = groupHeader ? groupHeader.querySelector('[data-description-toggle]') : null;
+
+        updateToggleState(descriptionEl, toggleEl);
+
+        if (toggleEl) {
+          toggleEl.addEventListener('click', function() {
+            descriptionEl.classList.toggle('is-expanded');
+            updateToggleState(descriptionEl, toggleEl);
+          });
+        }
+      });
+
+      window.addEventListener('resize', function() {
+        descriptionBlocks.forEach(function(descriptionEl) {
+          var groupHeader = descriptionEl.closest('.featured-collections-list__header');
+          var toggleEl = groupHeader ? groupHeader.querySelector('[data-description-toggle]') : null;
+
+          if (!descriptionEl.classList.contains('is-expanded')) {
+            updateToggleState(descriptionEl, toggleEl);
+          }
+        });
+      });
+    })();
+  </script>
 {%- endif -%}
 
 {% schema %}
@@ -61,6 +134,24 @@
       "id": "show_quick_inventory",
       "label": "Show Inventory",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_blurred_background",
+      "label": "Show blurred background from first product image",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "read_more_label",
+      "label": "Read more label",
+      "default": "Mostra di piu"
+    },
+    {
+      "type": "text",
+      "id": "read_less_label",
+      "label": "Read less label",
+      "default": "Mostra meno"
     }
   ],
   "presets": [
