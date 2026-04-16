@@ -50,6 +50,23 @@
             "link": "shopify://collections/inter-x-pink-floyd"
           }
         },
+        "image_eUhDX7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_b5a81a0f-d848-4292-9832-c0ebd1068568.png",
+            "mobile_image": "shopify://shop_images/750x1100_0f9d6018-22b5-4fe5-ab2a-ae3e8ba45a14.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/8-tracks-pink-floyd"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -167,24 +184,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/nayt-io-individuo"
-          }
-        },
-        "image_eUhDX7": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1670bde0-5490-4414-9d73-1be84bb51046.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_9b83b6d3-6e71-4d43-ae17-e6b05ab69730.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/enrico-nigiotti"
           }
         },
         "image_HciHCp": {
@@ -349,6 +348,7 @@
       },
       "block_order": [
         "image_x98LVH",
+        "image_eUhDX7",
         "image_DjX6Ay",
         "image_zLLxyF",
         "image_rMatWr",
@@ -356,7 +356,6 @@
         "image_XHmBAC",
         "image_4T4yhV",
         "image_x47WFh",
-        "image_eUhDX7",
         "image_HciHCp",
         "image_wfGmGy",
         "image_QQwqrR",
