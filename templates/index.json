@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_Aay7PX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/ec_ca263306-29c4-435c-8416-d898cad92c88.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/electriccallboytanzneid-embargo-until-april-16thjpg-181568.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Electric Callboy",
+            "head_color": "#ffffff",
+            "subtitle": "TANZNEID",
+            "subhead_color": "#ffffff",
+            "content": "Ltd. Deluxe CD Box Set & NFC-Fancard\nSpecial Edition CD Digipak\nblack LP\nLtd. transp. neon pink LP & NFC-Fancard",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "August 7",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Electric+Callboy&sort_by=created-descending"
+          }
+        },
         "banner_j4XRn3": {
           "type": "banner",
           "settings": {
@@ -144,6 +166,7 @@
         }
       },
       "block_order": [
+        "banner_Aay7PX",
         "banner_j4XRn3",
         "banner_fQpnRU",
         "banner_T8HUnQ",
