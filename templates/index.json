@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_HVJ3YW": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/voivod.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/voivodsymphoniquequality8jpg-182903.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Voivod",
+            "head_color": "#ffffff",
+            "subtitle": "Symphonique",
+            "subhead_color": "#ffffff",
+            "content": "CD Jewelcase in O-Card\nGatefold black 2LP",
+            "content_color": "#ffffff",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "June 5",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Voivod"
+          }
+        },
         "banner_Aay7PX": {
           "type": "banner",
           "settings": {
@@ -166,6 +188,7 @@
         }
       },
       "block_order": [
+        "banner_HVJ3YW",
         "banner_Aay7PX",
         "banner_j4XRn3",
         "banner_fQpnRU",
