@@ -69,6 +69,7 @@
         },
         "image_DjX6Ay": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_e6eb1fa0-b240-40f2-b7e8-c130c5dfcf28.jpg",
             "mobile_image": "shopify://shop_images/750x1100_1726f3e5-7658-4b4a-9c17-7ef6f7eaf1ec.jpg",
