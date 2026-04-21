@@ -9,14 +9,41 @@
  */
 {
   "sections": {
+    "image_banner_eKKhCf": {
+      "type": "image-banner",
+      "name": "Image Banner with CTA",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify://shop_images/DSC05820BEA-crop_2160x720_3956bdb6-ab9f-44dc-a45d-cb80cdab89d5.jpg",
+        "image_overlay_opacity": 0,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": false,
+        "collapse_collection_style": false,
+        "show_collection_top": false,
+        "top_bg_color": "#f3f3f3",
+        "headline_deco": false,
+        "headline_deco_col": "#d82222",
         "collection_image_size": "small",
         "products_per_row": "4",
         "default_products_per_page": 24,
+        "collection_pagination": "pagination",
+        "loading_button": "Load More",
         "default_view_layout": "grid",
         "show_quick_buy": "list",
         "show_quick_view": "list",
@@ -36,6 +63,7 @@
     }
   },
   "order": [
+    "image_banner_eKKhCf",
     "main",
     "recently-viewed-products"
   ]
