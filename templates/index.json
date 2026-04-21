@@ -331,6 +331,7 @@
         },
         "image_NDBHHY": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_dd04a26c-939a-41c5-b2ab-366a28e11da3.jpg",
             "mobile_image": "shopify://shop_images/750x1100_21f9269c-91ab-4fba-934a-63cbce6c4df7.jpg",
