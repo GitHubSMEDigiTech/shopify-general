@@ -29,8 +29,24 @@
         "show_text_below": true
       }
     },
+    "featured_collection_MXK8Ef": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "tekkno-live-in-europe",
+        "title": "",
+        "products_count": 19,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": true,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": false,
@@ -45,12 +61,12 @@
         "collection_pagination": "pagination",
         "loading_button": "Load More",
         "default_view_layout": "grid",
-        "show_quick_buy": "list",
-        "show_quick_view": "list",
+        "show_quick_buy": "list_grid",
+        "show_quick_view": "list_grid",
         "quick_links": "",
-        "quick_links_show_products_count": true,
-        "show_filters": true,
-        "show_filter_color_swatch": true,
+        "quick_links_show_products_count": false,
+        "show_filters": false,
+        "show_filter_color_swatch": false,
         "open_group_filters_mode": "all_closed"
       }
     },
@@ -64,6 +80,7 @@
   },
   "order": [
     "image_banner_eKKhCf",
+    "featured_collection_MXK8Ef",
     "main",
     "recently-viewed-products"
   ]
