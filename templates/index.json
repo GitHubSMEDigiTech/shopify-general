@@ -71,8 +71,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2160x720_e6eb1fa0-b240-40f2-b7e8-c130c5dfcf28.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_1726f3e5-7658-4b4a-9c17-7ef6f7eaf1ec.jpg",
+            "image": "shopify://shop_images/2160x720_1_8d51837c-d68a-4cbc-ba80-bd1aa6c58824.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_1_486a83e9-5bd7-4ab2-bf2e-e8a8ea1ff90c.jpg",
             "show_overlay": true,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -82,7 +82,7 @@
             "button_background": "#000000",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://products/17-re-maxi-single-verde-numerato-45-rpm"
+            "link": ""
           }
         },
         "image_zLLxyF": {
