@@ -62,6 +62,39 @@
             "link": "shopify://collections/pink-floyd-8-tracks"
           }
         },
+        "image_jntpdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/naytbannermartino.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nayt"
+          }
+        },
+        "image_VWXxz8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_69be41ca-0a50-42b4-9286-23042524e41c.png",
+            "mobile_image": "shopify://shop_images/750x1100_9c686fb6-2c2c-430c-b391-28faf3bb7807.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/nsync-no-strings-attached"
+          }
+        },
         "image_kDTCQm": {
           "type": "image",
           "settings": {
@@ -77,22 +110,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/the-strokes-reality-awaits"
-          }
-        },
-        "image_jntpdb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/naytbannermartino.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt"
           }
         },
         "image_dcxRfd": {
@@ -202,8 +219,9 @@
         "image_PBTAAN",
         "image_M7pmab",
         "image_nzqcwc",
-        "image_kDTCQm",
         "image_jntpdb",
+        "image_VWXxz8",
+        "image_kDTCQm",
         "image_dcxRfd",
         "image_NRYEWy",
         "image_qJ9NLE",
