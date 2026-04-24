@@ -18,9 +18,8 @@
 
       {%- for linked_collection in linked_collections -%}
         <div class="featured-collections-list__group">
-          {%- assign first_product = linked_collection.products.first -%}
-          {%- if section.settings.show_blurred_background and first_product != blank and first_product.featured_image != blank -%}
-            <div class="featured-collections-list__group-background" style="background-image: url('{{ first_product.featured_image | image_url: width: 1600 }}');" aria-hidden="true"></div>
+          {%- if section.settings.show_blurred_background and linked_collection.image != blank -%}
+            <div class="featured-collections-list__group-background" style="background-image: url('{{ linked_collection.image | image_url: width: 1600 }}');" aria-hidden="true"></div>
           {%- endif -%}
 
           <header class="featured-collections-list__header">
