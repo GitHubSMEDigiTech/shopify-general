@@ -15,8 +15,8 @@
         "image_PBTAAN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_23.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_6.jpg",
+            "image": "shopify://shop_images/2160x720_senza_prodotti.png",
+            "mobile_image": "shopify://shop_images/750x1100_senza_prodotti.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
