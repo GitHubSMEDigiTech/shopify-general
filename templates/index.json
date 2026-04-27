@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_NDBHHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_49d92b3e-bc7d-4ed8-b209-7fe29be9ea6e.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_351cd8a2-d5ec-4252-8774-967b80cbf6ec.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/aiello"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -50,23 +67,6 @@
             "link": "shopify://products/perdigiorno"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_4.png",
-            "mobile_image": "shopify://shop_images/750x1100_3.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/inter-x-pink-floyd"
-          }
-        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -82,6 +82,40 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/no-strings-attached-nsync"
+          }
+        },
+        "image_HciHCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_32ddf110-236c-4158-963c-752f065dd419.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2585bb43-83b4-4fde-bcd8-2632f36a7349.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/harry-styles"
+          }
+        },
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_4.png",
+            "mobile_image": "shopify://shop_images/750x1100_3.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/inter-x-pink-floyd"
           }
         },
         "image_eUhDX7": {
@@ -203,24 +237,6 @@
             "link": "shopify://collections/nayt-io-individuo"
           }
         },
-        "image_HciHCp": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_32ddf110-236c-4158-963c-752f065dd419.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2585bb43-83b4-4fde-bcd8-2632f36a7349.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/harry-styles"
-          }
-        },
         "image_QQwqrR": {
           "type": "image",
           "disabled": true,
@@ -326,30 +342,14 @@
             "button_text": "",
             "link": "shopify://collections/ermal-meta"
           }
-        },
-        "image_NDBHHY": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_dd04a26c-939a-41c5-b2ab-366a28e11da3.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_21f9269c-91ab-4fba-934a-63cbce6c4df7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/cosmo"
-          }
         }
       },
       "block_order": [
+        "image_NDBHHY",
         "image_DjX6Ay",
-        "image_x98LVH",
         "image_wfGmGy",
+        "image_HciHCp",
+        "image_x98LVH",
         "image_eUhDX7",
         "image_rMatWr",
         "image_zLLxyF",
@@ -357,14 +357,12 @@
         "image_XHmBAC",
         "image_4T4yhV",
         "image_x47WFh",
-        "image_HciHCp",
         "image_QQwqrR",
         "image_G3f6rF",
         "image_kNcaX3",
         "image_9kfgaA",
         "image_3wJqzQ",
-        "image_FV8WFP",
-        "image_NDBHHY"
+        "image_FV8WFP"
       ],
       "settings": {
         "edge_to_edge": false,
