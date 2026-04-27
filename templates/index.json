@@ -36,8 +36,8 @@
         "image_NDBHHY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_49d92b3e-bc7d-4ed8-b209-7fe29be9ea6e.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_351cd8a2-d5ec-4252-8774-967b80cbf6ec.jpg",
+            "image": "shopify://shop_images/2160x720_e31b12e8-b0e1-49e7-8424-41558109f534.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_086a387b-55aa-46a9-9515-ca44e0a0811e.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
