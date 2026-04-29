@@ -39,6 +39,12 @@
             "content": "<p>{{ product.metafields.meta.additional_information.value }}</p>"
           }
         },
+        "gsc_countdown_timer_countdown_irmPEa": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "settings": {
+            "widget_id": ""
+          }
+        },
         "variant_selector": {
           "type": "variant_selector",
           "settings": {
@@ -93,6 +99,7 @@
         "text_FYDwhT",
         "text_GE8g7C",
         "text_Hkfmce",
+        "gsc_countdown_timer_countdown_irmPEa",
         "variant_selector",
         "contest_dPa76e",
         "buy_buttons",
