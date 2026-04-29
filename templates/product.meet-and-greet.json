@@ -27,6 +27,12 @@
             "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€ -</strong>Reso gratuito entro 14 giorni</h6>"
           }
         },
+        "text_JgxWqX": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Preordina LP Arancione Autografato (Listening Experience Edition) dal 30 Aprile 2026 h. 14.00 al 03 maggio 2026 h 23.59,  per partecipare ad un evneto speciale a milano il 6 maggio 2026. <br/><br/>Clicca <strong>qui</strong> per il regolamento. </p>"
+          }
+        },
         "text_GE8g7C": {
           "type": "text",
           "settings": {
@@ -91,6 +97,7 @@
       "block_order": [
         "product_meta",
         "text_FYDwhT",
+        "text_JgxWqX",
         "text_GE8g7C",
         "text_Hkfmce",
         "contest_dPa76e",
@@ -111,6 +118,7 @@
     },
     "rich_text_H6mkWe": {
       "type": "rich-text",
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "marign_top": 50,
