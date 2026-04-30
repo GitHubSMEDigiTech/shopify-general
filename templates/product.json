@@ -86,6 +86,13 @@
             "liquid": "{{product.metafields.meta.instore_tour}}",
             "display_mode": "show_all"
           }
+        },
+        "gsc_countdown_timer_countdown_G8z88g": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+          "disabled": true,
+          "settings": {
+            "widget_id": ""
+          }
         }
       },
       "block_order": [
@@ -98,7 +105,8 @@
         "buy_buttons",
         "description",
         "liquid_Tbd46i",
-        "liquid_t64EVj"
+        "liquid_t64EVj",
+        "gsc_countdown_timer_countdown_G8z88g"
       ],
       "settings": {
         "list_collections": true,
