@@ -21,10 +21,10 @@
             "show_share_buttons": true
           }
         },
-        "text_FYDwhT": {
-          "type": "text",
+        "gsc_countdown_timer_countdown_irmPEa": {
+          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
           "settings": {
-            "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€ -</strong>Reso gratuito entro 14 giorni</h6>"
+            "widget_id": "GSC-SMALL-VrhbclwgeLma"
           }
         },
         "text_GE8g7C": {
@@ -39,10 +39,10 @@
             "content": "<p>{{ product.metafields.meta.additional_information.value }}</p>"
           }
         },
-        "gsc_countdown_timer_countdown_irmPEa": {
-          "type": "shopify://apps/gsc-countdown-timer/blocks/countdown/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
+        "text_FYDwhT": {
+          "type": "text",
           "settings": {
-            "widget_id": "GSC-SMALL-VrhbclwgeLma"
+            "content": "<h6>Consegna a 3,50€ in tutta Italia – esclusi Livigno e Campione d’Italia<br/><strong>Consegna gratuita per ordini sopra i 70€ -</strong>Reso gratuito entro 14 giorni</h6>"
           }
         },
         "variant_selector": {
@@ -96,10 +96,10 @@
       },
       "block_order": [
         "product_meta",
-        "text_FYDwhT",
+        "gsc_countdown_timer_countdown_irmPEa",
         "text_GE8g7C",
         "text_Hkfmce",
-        "gsc_countdown_timer_countdown_irmPEa",
+        "text_FYDwhT",
         "variant_selector",
         "contest_dPa76e",
         "buy_buttons",
