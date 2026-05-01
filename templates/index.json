@@ -330,8 +330,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2160x720_4d557992-4c4e-4953-b220-3da9aa991395.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_da35b27f-3cf6-4803-9bb9-4669f584d60d.jpg",
+            "image": "shopify://shop_images/IMG-20260501-WA0004.jpg",
+            "mobile_image": "shopify://shop_images/IMG-20260501-WA0003.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -341,7 +341,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/ermal-meta"
+            "link": "shopify://products/17-re-maxi-single-trasparente-live-version-45-rpm"
           }
         }
       },
