@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG-20260501-WA0004.jpg",
+            "mobile_image": "shopify://shop_images/IMG-20260501-WA0003.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/17-re-maxi-single-trasparente-live-version-45-rpm"
+          }
+        },
         "image_NDBHHY": {
           "type": "image",
           "settings": {
@@ -325,26 +342,10 @@
             "button_text": "",
             "link": "shopify://collections/inter-x-pink-floyd"
           }
-        },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG-20260501-WA0004.jpg",
-            "mobile_image": "shopify://shop_images/IMG-20260501-WA0003.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/17-re-maxi-single-trasparente-live-version-45-rpm"
-          }
         }
       },
       "block_order": [
+        "image_FV8WFP",
         "image_NDBHHY",
         "image_DjX6Ay",
         "image_wfGmGy",
@@ -361,8 +362,7 @@
         "image_9kfgaA",
         "image_3wJqzQ",
         "image_HciHCp",
-        "image_x98LVH",
-        "image_FV8WFP"
+        "image_x98LVH"
       ],
       "settings": {
         "edge_to_edge": false,
