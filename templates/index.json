@@ -328,7 +328,6 @@
         },
         "image_FV8WFP": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG-20260501-WA0004.jpg",
             "mobile_image": "shopify://shop_images/IMG-20260501-WA0003.jpg",
