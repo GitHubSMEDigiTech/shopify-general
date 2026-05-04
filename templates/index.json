@@ -426,6 +426,7 @@
       "block_order": [
         "item_YhampT"
       ],
+      "disabled": true,
       "settings": {
         "expand_items": true,
         "section_size": "medium",
