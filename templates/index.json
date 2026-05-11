@@ -101,6 +101,23 @@
             "link": "shopify://products/perdigiorno"
           }
         },
+        "image_x47WFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_2535ec47-2ea7-4e21-974b-8a84dc60c531.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_8f50a085-f996-427b-abcb-ba4eb75656bc.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/max-gazze"
+          }
+        },
         "image_wfGmGy": {
           "type": "image",
           "settings": {
@@ -201,24 +218,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/peaky-blinders"
-          }
-        },
-        "image_x47WFh": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_jpg.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_jpg.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/nayt-io-individuo"
           }
         },
         "image_QQwqrR": {
@@ -353,13 +352,13 @@
         "image_FV8WFP",
         "image_NDBHHY",
         "image_DjX6Ay",
+        "image_x47WFh",
         "image_wfGmGy",
         "image_XHmBAC",
         "image_eUhDX7",
         "image_rMatWr",
         "image_zLLxyF",
         "image_4T4yhV",
-        "image_x47WFh",
         "image_QQwqrR",
         "image_G3f6rF",
         "image_kNcaX3",
