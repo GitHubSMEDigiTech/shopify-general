@@ -205,6 +205,7 @@
         },
         "image_x47WFh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_jpg.jpg",
             "mobile_image": "shopify://shop_images/750x1100_jpg.jpg",
@@ -240,6 +241,7 @@
         },
         "image_G3f6rF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/foodesktop.png",
             "mobile_image": "shopify://shop_images/foomobile_00f6ccaf-55df-4016-902e-2304d95d0199.png",
@@ -293,6 +295,7 @@
         },
         "image_3wJqzQ": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_0c0a192f-07a8-47a7-90b5-dc8fa321b9fa.jpg",
             "mobile_image": "shopify://shop_images/750x1100_8f22467a-1ac5-400b-aae0-4fa386a51222.jpg",
@@ -310,6 +313,7 @@
         },
         "image_HciHCp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_32ddf110-236c-4158-963c-752f065dd419.jpg",
             "mobile_image": "shopify://shop_images/750x1100_2585bb43-83b4-4fde-bcd8-2632f36a7349.jpg",
@@ -327,6 +331,7 @@
         },
         "image_x98LVH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_4.png",
             "mobile_image": "shopify://shop_images/750x1100_3.png",
