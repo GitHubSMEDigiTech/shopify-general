@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9_81bbbf48-ccef-478d-87cd-9f11e3f32b76.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_8_b2af3851-10b0-4548-94c2-61ac2ddcb1cf.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/lividi"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -220,24 +237,6 @@
             "link": "shopify://collections/peaky-blinders"
           }
         },
-        "image_QQwqrR": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_afc6cd3e-d896-4e0f-9537-26026b0cba78.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_07285f8a-188a-4c3d-be15-edf2510bc87f.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/poesie-clandestine-cd"
-          }
-        },
         "image_G3f6rF": {
           "type": "image",
           "disabled": true,
@@ -348,6 +347,7 @@
         }
       },
       "block_order": [
+        "image_QQwqrR",
         "image_hhc4xB",
         "image_FV8WFP",
         "image_NDBHHY",
@@ -359,7 +359,6 @@
         "image_rMatWr",
         "image_zLLxyF",
         "image_4T4yhV",
-        "image_QQwqrR",
         "image_G3f6rF",
         "image_kNcaX3",
         "image_9kfgaA",
