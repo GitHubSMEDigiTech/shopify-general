@@ -79,23 +79,6 @@
             "link": "shopify://collections/foo-fighters-your-favourite-toy"
           }
         },
-        "image_qJ9NLE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_dd6e31dc-5f7f-4c07-9b39-046fa53d1d58.jpg",
-            "mobile_image": "shopify://shop_images/750x1100.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/peaky-blinders-the-immortal-man"
-          }
-        },
         "image_jntpdb": {
           "type": "image",
           "settings": {
@@ -235,7 +218,6 @@
         "image_nzqcwc",
         "image_PBTAAN",
         "image_M7pmab",
-        "image_qJ9NLE",
         "image_jntpdb",
         "image_VWXxz8",
         "image_kDTCQm",
