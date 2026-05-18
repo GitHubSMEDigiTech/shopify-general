@@ -140,8 +140,8 @@
         "image_x47WFh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_38e064ce-a6e2-4e57-b53c-47c82a2a3a5b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_bcbefdea-755d-496b-b54c-c3f6ac50e2ae.jpg",
+            "image": "shopify://shop_images/2160x720_60329f32-d585-4470-9a19-886d3c2ef00d.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_c1defb58-f6c6-45a3-8dae-152c2c8eedfb.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
