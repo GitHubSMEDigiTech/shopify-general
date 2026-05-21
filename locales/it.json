@@ -535,7 +535,8 @@
       },
       "localized_fields": {
         "additional_information": {
-          "title": "Note Ordine"
+          "title": "Note Ordine",
+          "tax_credential_it": "Partita Iva o Codice Fiscale (Opzionale)"
         }
       },
       "stock": {
