@@ -112,24 +112,6 @@
             "link": "shopify://collections/nsync-no-strings-attached"
           }
         },
-        "image_kDTCQm": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/THE-STROKES_StoreBanner_Desktop_2160x720_19a164f0-f216-44a4-b2a7-6e9c5346f3bf.jpg",
-            "mobile_image": "shopify://shop_images/THE-STROKES_StoreBanner_Mobile_750x1100_d537e969-cf43-4c26-9a7f-b49b44866464.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-strokes-reality-awaits"
-          }
-        },
         "image_NRYEWy": {
           "type": "image",
           "settings": {
@@ -164,7 +146,6 @@
         },
         "image_6YKHeW": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/deandrebannerb2b.jpg",
             "show_overlay": false,
@@ -221,7 +202,6 @@
         "image_M7pmab",
         "image_jntpdb",
         "image_VWXxz8",
-        "image_kDTCQm",
         "image_NRYEWy",
         "image_dcxRfd",
         "image_6YKHeW",
