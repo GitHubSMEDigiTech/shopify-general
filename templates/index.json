@@ -67,6 +67,23 @@
             "link": "shopify://collections/aiello"
           }
         },
+        "image_QQwqrR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a62a5211-f36f-4332-a866-2b7ce1245211.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_67166240-aab0-40b6-9c94-e88b185ffb9a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/lividi"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -116,23 +133,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/ricchi-di-niente"
-          }
-        },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9_81bbbf48-ccef-478d-87cd-9f11e3f32b76.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_8_b2af3851-10b0-4548-94c2-61ac2ddcb1cf.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/lividi"
           }
         },
         "image_x47WFh": {
@@ -350,10 +350,10 @@
       "block_order": [
         "image_hhc4xB",
         "image_NDBHHY",
+        "image_QQwqrR",
         "image_FV8WFP",
         "image_DjX6Ay",
         "image_G3f6rF",
-        "image_QQwqrR",
         "image_x47WFh",
         "image_wfGmGy",
         "image_XHmBAC",
