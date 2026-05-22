@@ -33,11 +33,11 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_NDBHHY": {
+        "image_hhc4xB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_e31b12e8-b0e1-49e7-8424-41558109f534.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_086a387b-55aa-46a9-9515-ca44e0a0811e.jpg",
+            "image": "shopify://shop_images/2160x720_497d18ae-898d-4d7d-97c1-08dd9f9ccf10.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_311c0d43-532a-4bd9-84a1-3387ebc122b6.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -47,7 +47,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/aiello"
+            "link": "shopify://collections/ryan-ted-tedua"
           }
         },
         "image_FV8WFP": {
@@ -118,11 +118,11 @@
             "link": "shopify://products/lividi"
           }
         },
-        "image_hhc4xB": {
+        "image_NDBHHY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_497d18ae-898d-4d7d-97c1-08dd9f9ccf10.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_311c0d43-532a-4bd9-84a1-3387ebc122b6.jpg",
+            "image": "shopify://shop_images/2160x720_e31b12e8-b0e1-49e7-8424-41558109f534.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_086a387b-55aa-46a9-9515-ca44e0a0811e.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -132,7 +132,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/ryan-ted-tedua"
+            "link": "shopify://collections/aiello"
           }
         },
         "image_x47WFh": {
@@ -348,12 +348,12 @@
         }
       },
       "block_order": [
-        "image_NDBHHY",
+        "image_hhc4xB",
         "image_FV8WFP",
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_QQwqrR",
-        "image_hhc4xB",
+        "image_NDBHHY",
         "image_x47WFh",
         "image_wfGmGy",
         "image_XHmBAC",
