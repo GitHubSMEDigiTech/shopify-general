@@ -36,8 +36,8 @@
         "image_hhc4xB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_497d18ae-898d-4d7d-97c1-08dd9f9ccf10.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_311c0d43-532a-4bd9-84a1-3387ebc122b6.jpg",
+            "image": "shopify://shop_images/2160x720_e24dca7c-fbf1-433a-9d7f-d81d2f46ad1f.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_455a4552-66ee-44e8-95fa-13c6c38f540a.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
