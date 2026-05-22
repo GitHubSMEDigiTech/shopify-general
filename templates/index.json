@@ -101,6 +101,23 @@
             "link": "shopify://products/magia-bianca"
           }
         },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_b8c38192-0555-4d8d-b613-710d5c961d4d.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_3530a1da-a808-4d6f-94aa-7c31b051e704.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/michael-jackson"
+          }
+        },
         "image_DjX6Ay": {
           "type": "image",
           "settings": {
@@ -168,23 +185,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/no-strings-attached-nsync"
-          }
-        },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_04f8fe07-bc38-47c7-9c63-a1cca129606b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_cb12a090-d489-42a8-804a-1957e3658300.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/michael-jackson"
           }
         },
         "image_eUhDX7": {
@@ -352,11 +352,11 @@
         "image_NDBHHY",
         "image_QQwqrR",
         "image_FV8WFP",
+        "image_XHmBAC",
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_x47WFh",
         "image_wfGmGy",
-        "image_XHmBAC",
         "image_eUhDX7",
         "image_rMatWr",
         "image_zLLxyF",
