@@ -50,6 +50,23 @@
             "link": "shopify://collections/ryan-ted-tedua"
           }
         },
+        "image_NDBHHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_eb4fe6e0-6dc7-449b-8935-38b538c63d8b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_060d5e3c-c809-4153-b96d-0cbfdce6804f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/aiello"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -116,23 +133,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/lividi"
-          }
-        },
-        "image_NDBHHY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_e31b12e8-b0e1-49e7-8424-41558109f534.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_086a387b-55aa-46a9-9515-ca44e0a0811e.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/aiello"
           }
         },
         "image_x47WFh": {
@@ -349,11 +349,11 @@
       },
       "block_order": [
         "image_hhc4xB",
+        "image_NDBHHY",
         "image_FV8WFP",
         "image_DjX6Ay",
         "image_G3f6rF",
         "image_QQwqrR",
-        "image_NDBHHY",
         "image_x47WFh",
         "image_wfGmGy",
         "image_XHmBAC",
