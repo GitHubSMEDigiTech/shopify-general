@@ -110,7 +110,7 @@
           "type": "question",
           "settings": {
             "title": "Ho un problema, cosa posso fare?",
-            "answer": "<h6>Puoi inviare una email all’indirizzocontact.store.ita@sonymusic.com che risponderà il prima possibile.</h6>"
+            "answer": "<h6>Puoi inviare una email all’indirizzo <a href=\"mailto:sm@assistenzamusica.com\">sm@assistenzamusica.com</a>.com che risponderà il prima possibile.</h6>"
           }
         },
         "question_9Y8KYU": {
