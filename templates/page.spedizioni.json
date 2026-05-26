@@ -186,7 +186,7 @@
         "contact_1_text": "",
         "contact_2_icon": "bi-email",
         "contact_2_heading": "Invia un messaggio",
-        "contact_2_text": "<h6><strong>contact.store.ita@sonymusic.com</strong></h6>"
+        "contact_2_text": "<p><a href=\"mailto:sm@assistenzamusica.com\">sm@assistenzamusica.com</a></p>"
       }
     }
   },
