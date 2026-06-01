@@ -35,7 +35,6 @@
       "blocks": {
         "image_rMatWr": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_b413ccc8-e1ef-41a4-8a39-96ba7a5e8d97.png",
             "mobile_image": "shopify://shop_images/750x1100_5922467e-01bf-409b-a6a1-ce3d13264be1.png",
@@ -48,7 +47,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": ""
+            "link": "shopify://products/a-mano-a-mano-12-white-numerato-escl-store"
           }
         },
         "image_hhc4xB": {
