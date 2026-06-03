@@ -108,6 +108,7 @@
         "liquid_t64EVj",
         "gsc_countdown_timer_countdown_G8z88g"
       ],
+      "disabled": true,
       "settings": {
         "list_collections": true,
         "image_size": "small",
@@ -128,6 +129,7 @@
       "block_order": [
         "sc_back_in_stock_app_block_AwjfMr"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -143,6 +145,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "Prodotti consigliati",
         "show_quick_buy": false
@@ -150,6 +153,7 @@
     },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "title": "Visti di recente",
         "show_quick_buy": false
