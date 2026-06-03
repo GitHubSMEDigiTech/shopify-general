@@ -224,8 +224,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/THE-STROKES_StoreBanner_Desktop_2160x720_fffa9469-bff2-46f7-8a48-609ce390d568.jpg",
-            "mobile_image": "shopify://shop_images/THE-STROKES_StoreBanner_Mobile_750x1100_57bc7137-0cea-4976-a8fe-2f3380a4feef.jpg",
+            "image": "shopify://shop_images/2160x720_53a7bd8c-881c-4160-98e2-4833c5daf6ce.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_fdc26802-fea9-4e95-9e60-db3d3003a98b.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -235,7 +235,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/the-strokes"
+            "link": ""
           }
         },
         "image_4T4yhV": {
