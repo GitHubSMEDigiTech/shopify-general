@@ -12,23 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_wHhkkp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_b992ff60-ab6a-4098-bdc1-c6ebf4901dba.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_25545717-834b-4c4c-8da7-692a58aafc6a.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tedua-ryan-ted"
-          }
-        },
         "image_nzqcwc": {
           "type": "image",
           "settings": {
@@ -61,6 +44,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
+          }
+        },
+        "image_wHhkkp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_b992ff60-ab6a-4098-bdc1-c6ebf4901dba.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_25545717-834b-4c4c-8da7-692a58aafc6a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tedua-ryan-ted"
           }
         },
         "image_M7pmab": {
@@ -162,7 +162,6 @@
         },
         "image_wiRjiq": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/battistib2b.png",
             "show_overlay": true,
@@ -179,7 +178,6 @@
         },
         "image_a7atqp": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/luciodallab2b_b73b361e-80fa-4da5-bbcb-615a1fedb03c.png",
             "show_overlay": false,
@@ -196,9 +194,9 @@
         }
       },
       "block_order": [
-        "image_wHhkkp",
         "image_nzqcwc",
         "image_PBTAAN",
+        "image_wHhkkp",
         "image_M7pmab",
         "image_jntpdb",
         "image_VWXxz8",
