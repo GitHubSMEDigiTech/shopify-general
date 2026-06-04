@@ -33,6 +33,24 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1_12e8ffaa-4289-424d-9389-1ccfb5955513.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_1_265f5987-f4b1-4c67-89bb-d2e7cb962a01.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
+        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -186,23 +204,6 @@
             "link": "shopify://products/wish-you-were-here-2"
           }
         },
-        "image_G3f6rF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_75fe61a2-67d0-446d-a30c-c05487375576.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_e37f0785-6f7b-427e-95f3-17e4700edf20.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/ricchi-di-niente"
-          }
-        },
         "image_x47WFh": {
           "type": "image",
           "settings": {
@@ -346,6 +347,7 @@
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_4T4yhV",
         "image_zLLxyF",
         "image_rMatWr",
@@ -355,7 +357,6 @@
         "image_FV8WFP",
         "image_XHmBAC",
         "image_DjX6Ay",
-        "image_G3f6rF",
         "image_x47WFh",
         "image_wfGmGy",
         "image_eUhDX7",
