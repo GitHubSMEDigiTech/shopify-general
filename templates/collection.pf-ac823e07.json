@@ -35,21 +35,21 @@
         "open_group_filters_mode": "all_closed"
       }
     },
+    "pf-ac823e07": {
+      "type": "pf-ac823e07",
+      "settings": {}
+    },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
         "title": "Recently viewed",
         "show_quick_buy": false
       }
-    },
-    "pf-ac823e07": {
-      "type": "pf-ac823e07",
-      "settings": {}
     }
   },
   "order": [
     "main",
-    "recently-viewed-products",
-    "pf-ac823e07"
+    "pf-ac823e07",
+    "recently-viewed-products"
   ]
 }
