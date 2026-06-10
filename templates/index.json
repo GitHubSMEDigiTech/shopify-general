@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_9kfgaA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Formato_desktop_2160x720_0756a15e-8d95-41e2-b521-4dfb9fb0e98b.jpg",
+            "mobile_image": "shopify://shop_images/Formato_mobile_750x1100_c29eb839-6dbb-4f8a-831d-fdaabac24332.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/summer-sales"
+          }
+        },
         "image_kNcaX3": {
           "type": "image",
           "settings": {
@@ -271,24 +288,6 @@
             "link": "shopify://collections/8-tracks-pink-floyd"
           }
         },
-        "image_9kfgaA": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Desktop_6d64efae-dc52-4788-a2f6-b7680f2acb25.jpg",
-            "mobile_image": "shopify://shop_images/mobilesalmo.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/hellvisback10"
-          }
-        },
         "image_3wJqzQ": {
           "type": "image",
           "disabled": true,
@@ -345,6 +344,7 @@
         }
       },
       "block_order": [
+        "image_9kfgaA",
         "image_kNcaX3",
         "image_G3f6rF",
         "image_4T4yhV",
@@ -359,7 +359,6 @@
         "image_x47WFh",
         "image_wfGmGy",
         "image_eUhDX7",
-        "image_9kfgaA",
         "image_3wJqzQ",
         "image_HciHCp",
         "image_x98LVH"
