@@ -118,23 +118,6 @@
             "link": "shopify://collections/60-hz-deluxe-dj-shocca"
           }
         },
-        "image_rMatWr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_b413ccc8-e1ef-41a4-8a39-96ba7a5e8d97.png",
-            "mobile_image": "shopify://shop_images/750x1100_5922467e-01bf-409b-a6a1-ce3d13264be1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/a-mano-a-mano-12-white-numerato-escl-store"
-          }
-        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -150,40 +133,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/ryan-ted-tedua"
-          }
-        },
-        "image_NDBHHY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_eb4fe6e0-6dc7-449b-8935-38b538c63d8b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_060d5e3c-c809-4153-b96d-0cbfdce6804f.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/aiello"
-          }
-        },
-        "image_QQwqrR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a62a5211-f36f-4332-a866-2b7ce1245211.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_67166240-aab0-40b6-9c94-e88b185ffb9a.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/lividi"
           }
         },
         "image_FV8WFP": {
@@ -218,74 +167,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
-          }
-        },
-        "image_DjX6Ay": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_8ba1748d-2e78-4037-bd71-7d725c4b3a25.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_47c1ccd5-7b7a-41f3-ae10-980851a1eeff.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#000000",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/wish-you-were-here-2"
-          }
-        },
-        "image_x47WFh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_60329f32-d585-4470-9a19-886d3c2ef00d.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_c1defb58-f6c6-45a3-8dae-152c2c8eedfb.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/max-gazze"
-          }
-        },
-        "image_wfGmGy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a8bbdcf3-4439-4694-83f5-98aad8b2cb98.png",
-            "mobile_image": "shopify://shop_images/750x1100_4f6e8820-92ef-44cd-9925-bcb8d052bd04.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/no-strings-attached-nsync"
-          }
-        },
-        "image_eUhDX7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_b5a81a0f-d848-4292-9832-c0ebd1068568.png",
-            "mobile_image": "shopify://shop_images/750x1100_0f9d6018-22b5-4fe5-ab2a-ae3e8ba45a14.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/8-tracks-pink-floyd"
           }
         },
         "image_3wJqzQ": {
@@ -349,16 +230,9 @@
         "image_G3f6rF",
         "image_4T4yhV",
         "image_zLLxyF",
-        "image_rMatWr",
         "image_hhc4xB",
-        "image_NDBHHY",
-        "image_QQwqrR",
         "image_FV8WFP",
         "image_XHmBAC",
-        "image_DjX6Ay",
-        "image_x47WFh",
-        "image_wfGmGy",
-        "image_eUhDX7",
         "image_3wJqzQ",
         "image_HciHCp",
         "image_x98LVH"
