@@ -33,6 +33,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_64270025-347a-4788-b6cd-892509a1c9f9.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a7e07f4a-3f04-473f-a715-a06e1502c70a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mediterraneo-dopo-il-mare-bresh"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -169,24 +186,6 @@
             "link": "shopify://collections/michael-jackson"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_0c0a192f-07a8-47a7-90b5-dc8fa321b9fa.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_8f22467a-1ac5-400b-aae0-4fa386a51222.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/subsonica"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "disabled": true,
@@ -225,6 +224,7 @@
         }
       },
       "block_order": [
+        "image_3wJqzQ",
         "image_9kfgaA",
         "image_kNcaX3",
         "image_G3f6rF",
@@ -233,7 +233,6 @@
         "image_hhc4xB",
         "image_FV8WFP",
         "image_XHmBAC",
-        "image_3wJqzQ",
         "image_HciHCp",
         "image_x98LVH"
       ],
