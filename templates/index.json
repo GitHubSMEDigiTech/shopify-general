@@ -63,6 +63,23 @@
             "link": "shopify://products/magia-bianca"
           }
         },
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_70cc548d-2bbe-46d6-b20c-bdbb51c5d2a4.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_1d5c617e-9a0a-4b97-a730-5203d06fd0bc.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/menu-completo-golden-years"
+          }
+        },
         "image_kNcaX3": {
           "type": "image",
           "settings": {
@@ -95,23 +112,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/essenza"
-          }
-        },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_10_a0a6a634-5db4-4b76-af24-3da965ad82c1.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_10_b1cc9f37-c78e-466a-8470-76179e96523d.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/menu-completo-golden-years"
           }
         },
         "image_zLLxyF": {
@@ -206,9 +206,9 @@
         "image_3wJqzQ",
         "image_9kfgaA",
         "image_FV8WFP",
+        "image_4T4yhV",
         "image_kNcaX3",
         "image_G3f6rF",
-        "image_4T4yhV",
         "image_zLLxyF",
         "image_hhc4xB",
         "image_XHmBAC",
