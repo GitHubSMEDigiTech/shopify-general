@@ -46,6 +46,23 @@
             "link": "shopify://collections/summer-sales"
           }
         },
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9e7dac4c-249c-4202-a4e3-17b830efd0bd.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_8777fd80-b12e-413d-99b6-3c10b040fb0b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/magia-bianca"
+          }
+        },
         "image_kNcaX3": {
           "type": "image",
           "settings": {
@@ -131,23 +148,6 @@
             "link": "shopify://collections/ryan-ted-tedua"
           }
         },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_f1aa3a58-8199-4b99-94cc-5390495c94c9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_97afe995-8e8e-429e-95e1-cac11a10fcdd.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/magia-bianca"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -205,12 +205,12 @@
       "block_order": [
         "image_3wJqzQ",
         "image_9kfgaA",
+        "image_FV8WFP",
         "image_kNcaX3",
         "image_G3f6rF",
         "image_4T4yhV",
         "image_zLLxyF",
         "image_hhc4xB",
-        "image_FV8WFP",
         "image_XHmBAC",
         "image_HciHCp",
         "image_x98LVH"
