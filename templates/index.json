@@ -157,28 +157,6 @@
         "link_url": ""
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection_pwX7jN": {
-          "type": "collection",
-          "settings": {
-            "collection": "exclusives",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_pwX7jN"
-      ],
-      "settings": {
-        "title": "Specials",
-        "link_title": "View all",
-        "link": "",
-        "round_images": true,
-        "show_collection_title": true
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -196,7 +174,6 @@
     "featured-collection",
     "e9b924ee-c0b2-487a-8027-bb5354c3b608",
     "featured-products",
-    "collection-list",
     "newsletter"
   ]
 }
