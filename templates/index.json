@@ -167,6 +167,7 @@
         },
         "image_XHmBAC": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_b8c38192-0555-4d8d-b613-710d5c961d4d.jpg",
             "mobile_image": "shopify://shop_images/750x1100_3530a1da-a808-4d6f-94aa-7c31b051e704.jpg",
