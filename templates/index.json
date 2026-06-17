@@ -29,6 +29,23 @@
             "link": "shopify://products/radio-italia-summer-hits-2026"
           }
         },
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_48803b6f-6367-44be-bd82-3df46a33730f.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_f8c156e4-7be2-42c3-928e-445ef46a26f7.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/la-paura-in-tasca-lp-nero"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -165,24 +182,6 @@
             "link": "shopify://collections/ryan-ted-tedua"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_b8c38192-0555-4d8d-b613-710d5c961d4d.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_3530a1da-a808-4d6f-94aa-7c31b051e704.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/michael-jackson"
-          }
-        },
         "image_x98LVH": {
           "type": "image",
           "disabled": true,
@@ -204,6 +203,7 @@
       },
       "block_order": [
         "image_HciHCp",
+        "image_XHmBAC",
         "image_3wJqzQ",
         "image_9kfgaA",
         "image_FV8WFP",
@@ -212,7 +212,6 @@
         "image_G3f6rF",
         "image_zLLxyF",
         "image_hhc4xB",
-        "image_XHmBAC",
         "image_x98LVH"
       ],
       "settings": {
