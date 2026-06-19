@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_pJH6Ri": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/df_7b465ba7-52b7-4eca-9dbe-aa22c5bb9e5c.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/darkfuneralabeasttopraisejpg-198556.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Dark Funeral",
+            "head_color": "#ffffff",
+            "subtitle": "A Beast To Praise",
+            "subhead_color": "#FFFFFF",
+            "content": "4099964276862",
+            "content_color": "#FFFFFF",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "August 21",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Dark%20Funeral"
+          }
+        },
         "banner_fCPz9M": {
           "type": "banner",
           "settings": {
@@ -74,50 +96,6 @@
             "preorder_msg": "July 31",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Allt"
-          }
-        },
-        "banner_yPJRUK": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/bloddi.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/BloodIncantation_AllGatesOpen_Digital_Vinyl_1.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ad141f",
-            "title": "Blood Incantation",
-            "head_color": "#ad141f",
-            "subtitle": "All  Gates Open (Original Motion Picture Soundtrack)",
-            "subhead_color": "#ad141f",
-            "content": "Ltd. CD+Blu-ray Edition\nGatefold black 2LP+Blu-ray & LP-Booklet\nLtd. Gatefold transp. orange 2LP+Blu-ray & LP-Booklet & Poster\nLtd. Gatefold ultra clear 2LP+Blu-ray & LP-Booklet & Poster",
-            "content_color": "#ad141f",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 5",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/blood-incantation"
-          }
-        },
-        "banner_HVJ3YW": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/voivod.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/voivodsymphoniquequality8jpg-182903.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Voivod",
-            "head_color": "#ffffff",
-            "subtitle": "Symphonique",
-            "subhead_color": "#ffffff",
-            "content": "CD Jewelcase in O-Card\nGatefold black 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 5",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Voivod"
           }
         },
         "banner_Aay7PX": {
@@ -144,9 +122,8 @@
         }
       },
       "block_order": [
+        "banner_pJH6Ri",
         "banner_fCPz9M",
-        "banner_yPJRUK",
-        "banner_HVJ3YW",
         "banner_Aay7PX"
       ],
       "settings": {
