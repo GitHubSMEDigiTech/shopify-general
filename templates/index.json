@@ -65,9 +65,9 @@
             "title": "Dark Funeral",
             "head_color": "#ffffff",
             "subtitle": "A Beast To Praise",
-            "subhead_color": "#FFFFFF",
+            "subhead_color": "#ffffff",
             "content": "Standard CD Jewelcase\nGatefold black 2LP",
-            "content_color": "#FFFFFF",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
@@ -192,6 +192,47 @@
         "background": "#ffffff",
         "text": "#000000"
       }
+    },
+    "1781851866290bdf99": {
+      "type": "apps",
+      "blocks": {
+        "revoq_eu_withdrawal_button_widerrufsbutton_popup_button_MyHXtm": {
+          "type": "shopify://apps/revoq-eu-withdrawal-button/blocks/widerrufsbutton-popup-button/019c3356-2775-7d52-b915-4b0f965005ae",
+          "settings": {
+            "trigger_label": "-",
+            "trigger_alignment": "center",
+            "trigger_width": "auto",
+            "trigger_button_size": "medium",
+            "trigger_button_variant": "filled",
+            "trigger_button_color": "#111827",
+            "trigger_button_text_color": "#ffffff",
+            "trigger_button_border_color": "#111827",
+            "trigger_button_border_width": 1,
+            "section_padding": 24,
+            "heading_text": "-",
+            "show_section_heading": true,
+            "show_subheading": true,
+            "subheading_text": "-",
+            "name_placeholder": "-",
+            "order_placeholder": "-",
+            "show_order_hint": true,
+            "show_email_hint": true,
+            "show_privacy_notice": true,
+            "text_color": "#111827",
+            "secondary_text_color": "#6b7280",
+            "card_shape": "rounded",
+            "input_shape": "rounded",
+            "button_color": "#111827",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "revoq_eu_withdrawal_button_widerrufsbutton_popup_button_MyHXtm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -201,6 +242,7 @@
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
     "featured-products",
     "newsletter",
-    "newsletter_sme_yjbrtn"
+    "newsletter_sme_yjbrtn",
+    "1781851866290bdf99"
   ]
 }
