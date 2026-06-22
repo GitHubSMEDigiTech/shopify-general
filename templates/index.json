@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_95162d25-ec32-48eb-8717-722a419f0b2f.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d438603e-9cc8-4904-b9b0-3b692804b906.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/stessa-direzione-paola-iezzi"
+          }
+        },
         "image_kNcaX3": {
           "type": "image",
           "settings": {
@@ -148,23 +165,6 @@
             "link": "shopify://products/magia-bianca"
           }
         },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_70cc548d-2bbe-46d6-b20c-bdbb51c5d2a4.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_1d5c617e-9a0a-4b97-a730-5203d06fd0bc.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/menu-completo-golden-years"
-          }
-        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -201,6 +201,7 @@
         }
       },
       "block_order": [
+        "image_4T4yhV",
         "image_kNcaX3",
         "image_G3f6rF",
         "image_x98LVH",
@@ -209,7 +210,6 @@
         "image_3wJqzQ",
         "image_9kfgaA",
         "image_FV8WFP",
-        "image_4T4yhV",
         "image_zLLxyF",
         "image_hhc4xB"
       ],
