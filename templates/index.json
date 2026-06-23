@@ -29,6 +29,23 @@
             "link": "shopify://products/radio-italia-summer-hits-2026"
           }
         },
+        "image_k8w9Ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_Music_Store_Desktop.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_Mobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/judas-priest-the-best-of"
+          }
+        },
         "image_nzqcwc": {
           "type": "image",
           "disabled": true,
@@ -196,6 +213,7 @@
       },
       "block_order": [
         "image_DtHNp3",
+        "image_k8w9Ac",
         "image_nzqcwc",
         "image_PBTAAN",
         "image_wHhkkp",
