@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_e51e5da8-0db4-450b-9d18-db193b5da4d0.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_f25b8eef-5296-4718-aa37-5f7490651467.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/nel-bene-e-nel-male-cd-ilghost"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -165,23 +182,6 @@
             "link": "shopify://collections/summer-sales"
           }
         },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9e7dac4c-249c-4202-a4e3-17b830efd0bd.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_8777fd80-b12e-413d-99b6-3c10b040fb0b.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/magia-bianca"
-          }
-        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -201,6 +201,7 @@
         }
       },
       "block_order": [
+        "image_FV8WFP",
         "image_hhc4xB",
         "image_4T4yhV",
         "image_kNcaX3",
@@ -210,7 +211,6 @@
         "image_XHmBAC",
         "image_3wJqzQ",
         "image_9kfgaA",
-        "image_FV8WFP",
         "image_zLLxyF"
       ],
       "settings": {
