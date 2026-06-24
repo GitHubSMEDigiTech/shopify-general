@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_142d9620-f078-4907-b4b6-dfaa74e80923.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_d88a4304-9444-41e2-ad92-f22a19549220.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/sincero-vinile-nero-autografato-rares"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -78,23 +95,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/mentre-los-angeles-brucia-deluxe"
-          }
-        },
-        "image_G3f6rF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9fe42973-8ad3-4528-9f7e-50a019d615dd.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_94b28186-29a6-4f07-916a-2cd0bf214456.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/essenza"
           }
         },
         "image_x98LVH": {
@@ -201,11 +201,11 @@
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_FV8WFP",
         "image_hhc4xB",
         "image_4T4yhV",
         "image_kNcaX3",
-        "image_G3f6rF",
         "image_x98LVH",
         "image_HciHCp",
         "image_XHmBAC",
@@ -312,7 +312,7 @@
         "button_text": "",
         "button_link": "",
         "bg_color": "#c5161c",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "bt_bg_color": "#ffffff",
         "bt_text_color": "#000000",
         "center_text": false,
