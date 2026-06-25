@@ -499,6 +499,7 @@
       "block_order": [
         "item_WCVcbk"
       ],
+      "disabled": true,
       "settings": {
         "expand_items": true,
         "section_size": "small",
