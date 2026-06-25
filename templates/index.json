@@ -29,41 +29,6 @@
             "link": "shopify://products/radio-italia-summer-hits-2026"
           }
         },
-        "image_k8w9Ac": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_Desktop.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_Mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/judas-priest-the-best-of"
-          }
-        },
-        "image_nzqcwc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_02c6eca3-1464-4e84-8858-e7c2044c3f5d.png",
-            "mobile_image": "shopify://shop_images/750x1100_cafaa04f-74f6-49a4-a5a7-8982d0526c8e.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/pink-floyd-8-tracks"
-          }
-        },
         "image_PBTAAN": {
           "type": "image",
           "settings": {
@@ -79,6 +44,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
+          }
+        },
+        "image_k8w9Ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_Music_Store_Desktop.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_Mobile.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/judas-priest-the-best-of"
           }
         },
         "image_wHhkkp": {
@@ -130,22 +112,6 @@
             "link": "shopify://collections/nayt"
           }
         },
-        "image_NRYEWy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_222a6a10-5194-4dbc-9cc8-8b30991885da.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/giorgia"
-          }
-        },
         "image_dcxRfd": {
           "type": "image",
           "settings": {
@@ -160,6 +126,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/rosalia-lux"
+          }
+        },
+        "image_NRYEWy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_222a6a10-5194-4dbc-9cc8-8b30991885da.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/giorgia"
           }
         },
         "image_6YKHeW": {
@@ -213,14 +195,13 @@
       },
       "block_order": [
         "image_DtHNp3",
-        "image_k8w9Ac",
-        "image_nzqcwc",
         "image_PBTAAN",
+        "image_k8w9Ac",
         "image_wHhkkp",
         "image_M7pmab",
         "image_jntpdb",
-        "image_NRYEWy",
         "image_dcxRfd",
+        "image_NRYEWy",
         "image_6YKHeW",
         "image_wiRjiq",
         "image_a7atqp"
