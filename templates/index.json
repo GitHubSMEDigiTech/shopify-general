@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_V6KQjm": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/stevesteve.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/SteveHackett-SteveRothery_TheRoaringWaves.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#000000",
+            "title": "Steve Hackett & Steve Rothery",
+            "head_color": "#ffffff",
+            "subtitle": "The Roaring Waves",
+            "subhead_color": "#555555",
+            "content": "Ltd. CD+Blu-ray Mediabook\nStandard CD Jewelcase\nGatefold black LP & LP-Booklet",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "August 28",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Steve%20Hackett%2C%20Steve%20Rothery"
+          }
+        },
         "banner_zCMRE3": {
           "type": "banner",
           "settings": {
@@ -100,6 +122,7 @@
         }
       },
       "block_order": [
+        "banner_V6KQjm",
         "banner_zCMRE3",
         "banner_bNxq6y"
       ],
