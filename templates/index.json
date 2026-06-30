@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_MRDKig": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner__2160x720_d706836b-e897-48ac-91e7-7644c53b8255.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/litfiba-17-re-live-1986-2026"
+          }
+        },
         "image_DtHNp3": {
           "type": "image",
           "settings": {
@@ -194,6 +210,7 @@
         }
       },
       "block_order": [
+        "image_MRDKig",
         "image_DtHNp3",
         "image_PBTAAN",
         "image_k8w9Ac",
