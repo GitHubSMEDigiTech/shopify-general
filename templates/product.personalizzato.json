@@ -77,6 +77,12 @@
             "liquid": "{{product.metafields.meta.tracklist}}",
             "display_mode": "show_all"
           }
+        },
+        "text_Krc3ND": {
+          "type": "text",
+          "settings": {
+            "content": ""
+          }
         }
       },
       "block_order": [
@@ -88,7 +94,8 @@
         "contest_dPa76e",
         "buy_buttons",
         "description",
-        "liquid_Tbd46i"
+        "liquid_Tbd46i",
+        "text_Krc3ND"
       ],
       "settings": {
         "list_collections": true,
@@ -97,6 +104,27 @@
         "enable_image_zoom": true,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
+      }
+    },
+    "rich_text_JwkHWM": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "text_width": "regular",
+        "title": "Dove si trova il numero del Sigillo Fiscale",
+        "h_one": false,
+        "content": "<p>Il sigillo fiscale è un codice di controllo presente <strong>sul titolo dopo la scritta SF</strong>. oppure<strong> S.F.</strong>, è alfanumerico e di 16 caratteri.<br/><br/></p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "slideshow_drGpmC": {
@@ -168,6 +196,7 @@
   },
   "order": [
     "main",
+    "rich_text_JwkHWM",
     "slideshow_drGpmC",
     "product-recommendations",
     "recently-viewed-products"
