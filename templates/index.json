@@ -128,6 +128,22 @@
             "link": "shopify://collections/judas-priest-the-best-of"
           }
         },
+        "image_M7pmab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/foodesktop.png",
+            "show_overlay": true,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/foo-fighters-your-favourite-toy"
+          }
+        },
         "image_wHhkkp": {
           "type": "image",
           "settings": {
@@ -143,22 +159,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/tedua-ryan-ted"
-          }
-        },
-        "image_M7pmab": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/foodesktop.png",
-            "show_overlay": true,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/foo-fighters-your-favourite-toy"
           }
         },
         "image_jntpdb": {
@@ -267,8 +267,8 @@
         "image_DtHNp3",
         "image_PBTAAN",
         "image_k8w9Ac",
-        "image_wHhkkp",
         "image_M7pmab",
+        "image_wHhkkp",
         "image_jntpdb",
         "image_dcxRfd",
         "image_NRYEWy",
