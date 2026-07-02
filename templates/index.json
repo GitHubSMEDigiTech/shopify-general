@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_75db554f-9dd0-47ad-854b-7b0b20ac3404.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_e0e428f9-3726-4a72-9d76-da835e858be4.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mustang-biagio-antonacci"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -165,23 +182,6 @@
             "link": "shopify://products/mentre-los-angeles-brucia-deluxe"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_Desktop.jpg",
-            "mobile_image": "shopify://shop_images/judasmobile.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-best-of-judas-priest-judas-priest"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -235,6 +235,7 @@
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_3wJqzQ",
         "image_zLLxyF",
         "image_FU9RMN",
@@ -244,7 +245,6 @@
         "image_hhc4xB",
         "image_4T4yhV",
         "image_kNcaX3",
-        "image_x98LVH",
         "image_HciHCp",
         "image_XHmBAC",
         "image_9kfgaA"
