@@ -63,6 +63,23 @@
             "link": "shopify://collections/the-real-me-future"
           }
         },
+        "image_kNcaX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_64270025-347a-4788-b6cd-892509a1c9f9.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a7e07f4a-3f04-473f-a715-a06e1502c70a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mediterraneo-dopo-il-mare-bresh"
+          }
+        },
         "image_FU9RMN": {
           "type": "image",
           "settings": {
@@ -165,23 +182,6 @@
             "link": "shopify://products/stessa-direzione-paola-iezzi"
           }
         },
-        "image_kNcaX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_bb4352e4-2183-410b-a167-ef17fce50096.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_8209163f-dd64-4aa8-a412-65f67ac8869d.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/mentre-los-angeles-brucia-deluxe"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -238,13 +238,13 @@
         "image_x98LVH",
         "image_3wJqzQ",
         "image_zLLxyF",
+        "image_kNcaX3",
         "image_FU9RMN",
         "image_G3f6rF",
         "image_FV8WFP",
         "image_3dAeB8",
         "image_hhc4xB",
         "image_4T4yhV",
-        "image_kNcaX3",
         "image_HciHCp",
         "image_XHmBAC",
         "image_9kfgaA"
