@@ -24,7 +24,7 @@
         "text_374tfR": {
           "type": "text",
           "settings": {
-            "content": "<p><strong>Hai acquistato un biglietto per l'Unplugged Tour 2026?</strong></p><p>Per te c'è il 15% di sconto sul preordine del nuovo album MUSTANG! Aggiungi al carrello il CD o LP autografato e, al checkout, inserisci il codice del sigillo fiscale riportato sul tuo biglietto nel campo \"Codice Sconto\" per applicare lo sconto.</p>"
+            "content": "<p><strong>Hai acquistato un biglietto per l'Unplugged Tour 2026?</strong></p><p>Per te c'è il 15% di sconto sul preordine del nuovo album MUSTANG! Aggiungi al carrello il CD o LP autografato e, al checkout, inserisci il codice del <strong>sigillo fiscale</strong> riportato sul tuo biglietto nel campo \"<strong>Codice Sconto</strong>\" per applicare lo sconto.</p>"
           }
         },
         "text_FYDwhT": {
@@ -99,6 +99,58 @@
         "carousel_effect": "fade"
       }
     },
+    "slideshow_drGpmC": {
+      "type": "slideshow",
+      "blocks": {
+        "image_G7EKwC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-07-01_at_11.44.27_c916b460-31ff-456d-bd68-8b9b87ef3031.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "image_cDMHDt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-07-01_at_12.38.40.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_G7EKwC",
+        "image_cDMHDt"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "medium",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -116,6 +168,7 @@
   },
   "order": [
     "main",
+    "slideshow_drGpmC",
     "product-recommendations",
     "recently-viewed-products"
   ]
