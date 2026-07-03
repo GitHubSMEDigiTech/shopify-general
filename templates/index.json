@@ -47,7 +47,8 @@
         "image_MRDKig": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Exit_Music_2160x720_249af41d-3049-4e87-a491-1eb52ebe1805.jpg",
+            "image": "shopify://shop_images/Exit_Music_2160x720_50efdd02-706f-4f96-b2aa-39011fe2dbb4.jpg",
+            "mobile_image": "shopify://shop_images/Exit_Music_750x1100_e17a8e33-876a-43fd-ac83-ad61575f9466.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
