@@ -28,10 +28,11 @@
             "link": "shopify://collections/queen"
           }
         },
-        "image_eaLhW6": {
+        "image_JrU64k": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/antonacci_banner_2160x720_23.jpg",
+            "image": "shopify://shop_images/banner_Future_2160x720_f1cd6b7b-3347-46f8-9442-2cab707e1f48.jpg",
+            "mobile_image": "shopify://shop_images/banner_Future_750x1100_7719a88c-994d-4dab-8d2c-b6b62b370bf1.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -41,7 +42,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/biagio-antonacci-mustang"
+            "link": "shopify://collections/future-the-real-me"
           }
         },
         "image_MRDKig": {
@@ -61,11 +62,10 @@
             "link": "shopify://collections/litfiba-17-re-live-1986-2026"
           }
         },
-        "image_JrU64k": {
+        "image_eaLhW6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_Future_2160x720_f1cd6b7b-3347-46f8-9442-2cab707e1f48.jpg",
-            "mobile_image": "shopify://shop_images/banner_Future_750x1100_7719a88c-994d-4dab-8d2c-b6b62b370bf1.jpg",
+            "image": "shopify://shop_images/antonacci_banner_2160x720_23.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -75,7 +75,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/future-the-real-me"
+            "link": "shopify://collections/biagio-antonacci-mustang"
           }
         },
         "image_DtHNp3": {
@@ -110,23 +110,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
-          }
-        },
-        "image_k8w9Ac": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_Desktop.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_Mobile.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/judas-priest-the-best-of"
           }
         },
         "image_M7pmab": {
@@ -229,12 +212,11 @@
       },
       "block_order": [
         "image_m8J3wc",
-        "image_eaLhW6",
-        "image_MRDKig",
         "image_JrU64k",
+        "image_MRDKig",
+        "image_eaLhW6",
         "image_DtHNp3",
         "image_PBTAAN",
-        "image_k8w9Ac",
         "image_M7pmab",
         "image_jntpdb",
         "image_dcxRfd",
