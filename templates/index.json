@@ -32,8 +32,8 @@
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_01_5d72c049-2d0f-4e2c-9a66-00a2459c4f39.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_01_93eed3af-9bbe-4d90-aff7-8ee4cb7d73b6.png",
+            "image": "shopify://shop_images/2160x720_Acquista_Ora.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_Acquista_Ora.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
