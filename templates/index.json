@@ -117,8 +117,8 @@
         "image_FV8WFP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_cbf8021e-6f95-4bf4-bec6-74c2714ae05c.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_7e52c087-e040-4bb0-bb27-42099c8f3811.jpg",
+            "image": "shopify://shop_images/2160x720_aedf45d2-c9b8-4f7c-a8f9-568a0a215acb.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_cc79b6a7-08ca-4bbf-bf9f-009e16a6afb5.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
