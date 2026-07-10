@@ -12,22 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_m8J3wc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_01_fe7cf6ff-16d6-4891-bbea-9d301cfca46e.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/queen"
-          }
-        },
         "image_UBx6TR": {
           "type": "image",
           "settings": {
@@ -210,7 +194,6 @@
         }
       },
       "block_order": [
-        "image_m8J3wc",
         "image_UBx6TR",
         "image_MRDKig",
         "image_eaLhW6",
