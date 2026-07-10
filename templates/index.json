@@ -28,23 +28,6 @@
             "link": "shopify://collections/queen"
           }
         },
-        "image_JrU64k": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Future_2160x720_f1cd6b7b-3347-46f8-9442-2cab707e1f48.jpg",
-            "mobile_image": "shopify://shop_images/banner_Future_750x1100_7719a88c-994d-4dab-8d2c-b6b62b370bf1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/future-the-real-me"
-          }
-        },
         "image_MRDKig": {
           "type": "image",
           "settings": {
@@ -212,7 +195,6 @@
       },
       "block_order": [
         "image_m8J3wc",
-        "image_JrU64k",
         "image_MRDKig",
         "image_eaLhW6",
         "image_DtHNp3",
