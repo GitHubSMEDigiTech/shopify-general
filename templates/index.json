@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_4eCayw": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/tmv.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/themarsvoltaunfinishedbusinessstandard2lpcoverjpg-200398_2c06ced1-fa1f-48b0-8c77-0a3988707dc5.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "The Mars Volta",
+            "head_color": "#ffffff",
+            "subtitle": "Lucro Sucio; Unfinished Business",
+            "subhead_color": "#FFFFFF",
+            "content": "Special Edition CD Digipak\nred 2LP",
+            "content_color": "#FFFFFF",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 16",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=The%20Mars%20Volta"
+          }
+        },
         "banner_RagUhx": {
           "type": "banner",
           "settings": {
@@ -119,34 +141,13 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
           }
-        },
-        "banner_bNxq6y": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/yes_ee1d5b93-7beb-40f1-a8f6-0ff918f8100e.jpg",
-            "bg_color": "#eeeeee",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Yes",
-            "head_color": "#ffffff",
-            "subtitle": "Aurora",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe light green 2LP+2CD+Blu-ray Artbook & Poster\nLtd. Deluxe 2CD+Blu-ray Artbook\nSpecial Edition CD Digipak\nGatefold black 2LP & LP-Booklet",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "June 12",
-            "preorder_msg_color": "#000000",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "banner_4eCayw",
         "banner_RagUhx",
         "banner_V6KQjm",
-        "banner_zCMRE3",
-        "banner_bNxq6y"
+        "banner_zCMRE3"
       ],
       "settings": {
         "edge_to_edge": true,
