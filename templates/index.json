@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_UtnYYV": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/distant.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/distantintodespairjpg-201103.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#8F0101",
+            "title": "Distant",
+            "head_color": "#ffffff",
+            "subtitle": "Into Despair",
+            "subhead_color": "#FFFFFF",
+            "content": "Standard CD Jewelcase\ngrey LP",
+            "content_color": "#FFFFFF",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "November 6",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Distant&sort_by=created-descending"
+          }
+        },
         "banner_pJH6Ri": {
           "type": "banner",
           "settings": {
@@ -122,6 +144,7 @@
         }
       },
       "block_order": [
+        "banner_UtnYYV",
         "banner_pJH6Ri",
         "banner_fCPz9M",
         "banner_Aay7PX"
