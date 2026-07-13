@@ -60,7 +60,7 @@
             "image": "shopify://shop_images/tmv.jpg",
             "bg_color": "#eeeeee",
             "cover_image": "shopify://shop_images/themarsvoltaunfinishedbusinessstandard2lpcoverjpg-200398_2c06ced1-fa1f-48b0-8c77-0a3988707dc5.jpg",
-            "cover_effect": "none",
+            "cover_effect": "glow",
             "cover_color": "#ffffff",
             "title": "The Mars Volta",
             "head_color": "#ffffff",
