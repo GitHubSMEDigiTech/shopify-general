@@ -17,6 +17,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/EM_2160x720px_V1.jpg",
+            "mobile_image": "shopify://shop_images/EM_750x1100px_V1.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
