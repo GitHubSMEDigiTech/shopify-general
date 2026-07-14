@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,6 +14,7 @@
       "settings": {
         "show_collection_image": false,
         "collapse_collection_description": false,
+        "collapse_collection_style": false,
         "show_collection_top": false,
         "top_bg_color": "#f3f3f3",
         "headline_deco": true,
@@ -12,7 +22,7 @@
         "collection_image_size": "small",
         "products_per_row": "4",
         "default_products_per_page": 24,
-        "collection_pagination": "loading",
+        "collection_pagination": "pagination",
         "loading_button": "Load More",
         "default_view_layout": "grid",
         "show_quick_buy": "list_grid",
