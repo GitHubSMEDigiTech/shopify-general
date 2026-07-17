@@ -12,6 +12,40 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_0c697ad6-318d-47b1-9149-8db9b0da7de1.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_2bb1be41-d929-4512-81b1-fdc83d205eca.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/daydream-30th-anniversary"
+          }
+        },
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_a18ff4f9-deae-4cd1-8a27-a7c4603c63f2.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_f4766931-0f95-45cb-9f4e-0046be75b2cb.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/sincero-vinile-nero-autografato-rares"
+          }
+        },
         "image_3dAeB8": {
           "type": "image",
           "settings": {
@@ -131,40 +165,6 @@
             "link": "shopify://collections/17-re-live-1986-2026-litfiba"
           }
         },
-        "image_G3f6rF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_a18ff4f9-deae-4cd1-8a27-a7c4603c63f2.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_f4766931-0f95-45cb-9f4e-0046be75b2cb.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/sincero-vinile-nero-autografato-rares"
-          }
-        },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_aedf45d2-c9b8-4f7c-a8f9-568a0a215acb.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_cc79b6a7-08ca-4bbf-bf9f-009e16a6afb5.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/nel-bene-e-nel-male-cd-ilghost"
-          }
-        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -235,6 +235,8 @@
         }
       },
       "block_order": [
+        "image_FV8WFP",
+        "image_G3f6rF",
         "image_3dAeB8",
         "image_4T4yhV",
         "image_x98LVH",
@@ -242,8 +244,6 @@
         "image_zLLxyF",
         "image_kNcaX3",
         "image_FU9RMN",
-        "image_G3f6rF",
-        "image_FV8WFP",
         "image_hhc4xB",
         "image_HciHCp",
         "image_XHmBAC",
