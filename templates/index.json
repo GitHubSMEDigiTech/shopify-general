@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_yzhMz7": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/prr_5a4602ab-8781-4b0e-938f-202a048a7f41.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/purereasonrevolutionterrifyingangelsjpg-207556.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#000000",
+            "title": "Pure Reason Revolution",
+            "head_color": "#ffffff",
+            "subtitle": "Terrifying Angels",
+            "subhead_color": "#FFFFFF",
+            "content": "Gatefold transp. red LP\nLtd. CD Digipak",
+            "content_color": "#FFFFFF",
+            "show_preorder_banner": false,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "September 25",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=Pure+Reason+Revolution&sort_by=created-descending"
+          }
+        },
         "banner_4eCayw": {
           "type": "banner",
           "settings": {
@@ -65,9 +87,9 @@
             "title": "The Mars Volta",
             "head_color": "#ffffff",
             "subtitle": "Lucro Sucio; Unfinished Business",
-            "subhead_color": "#FFFFFF",
+            "subhead_color": "#ffffff",
             "content": "Special Edition CD Digipak\nred 2LP",
-            "content_color": "#FFFFFF",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
@@ -83,7 +105,7 @@
             "bg_color": "#eeeeee",
             "cover_image": "shopify://shop_images/Haken_inafeverdream-EP_9d6daa20-1c80-4581-b193-aa4502b7a7ce.jpg",
             "cover_effect": "glow",
-            "cover_color": "#FFFFFF",
+            "cover_color": "#ffffff",
             "title": "Haken",
             "head_color": "#000000",
             "subtitle": "in a fever dream",
@@ -144,6 +166,7 @@
         }
       },
       "block_order": [
+        "banner_yzhMz7",
         "banner_4eCayw",
         "banner_RagUhx",
         "banner_V6KQjm",
