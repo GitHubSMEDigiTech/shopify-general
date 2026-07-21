@@ -27,21 +27,21 @@
           "type": "question",
           "settings": {
             "title": "Dove si trova il mio ordine?",
-            "answer": "<h6>Puoi trovare maggiori info nella pagina \"I miei Ordini\"  del tuo profilo.</h6>"
+            "answer": "<p>Puoi trovare maggiori info nella pagina \"I miei Ordini\" del tuo profilo e attraverso il link presente nella mail di conferma ordine.</p>"
           }
         },
         "question_erPLVY": {
           "type": "question",
           "settings": {
             "title": "Quali sono i tempi di spedizione?",
-            "answer": "<h6>Il corriere spedisce generalmente in 24/48h e 7/7 (inclusi sabato e domenica)<br/>*servizio disponibile in tutte le aree idonee. <br/>Eventuali ritardi possono essere causati da disfunzioni nel servizio da parte del corriere, da cause di forza maggiore o in caso di festività.<br/>Servizi inclusi: tracking in tempo reale e 5 tentativi di consegna. </h6>"
+            "answer": "<p>La spedizione avverrà entro 24 / 48 h dal giorno di ricevimento della conferma via mail dell'avvenuta spedizione. Il corriere utilizzato sarà GLS.  </p><p>Eventuali ritardi possono essere causati da disfunzioni nel servizio da parte del corriere, da cause di forza maggiore o in caso di festività.<br/><br/>Servizi inclusi: tracking in tempo reale e 5 tentativi di consegna.</p>"
           }
         },
         "question_R4Ucz6": {
           "type": "question",
           "settings": {
             "title": "Dove si consegna?",
-            "answer": "<h6>In tutta Italia ad eccezione di Campione d’Italia e Livigno </h6>"
+            "answer": "<h6>In tutta Italia ad eccezione di Campione d’Italia e Livigno e in tutta Europa</h6>"
           }
         },
         "question_YaR8bp": {
@@ -89,7 +89,7 @@
         "question_jEYyKW": {
           "type": "question",
           "settings": {
-            "title": "Quando avrò il rimborso",
+            "title": "Quando riceverò il rimborso legato al mio reso?",
             "answer": "<h6>A seguito di un reso e di una richiesta di rimborso il pagamento avverrà entro pochi giorni dalla conferma di rientro della merce nei nostri magazzini.</h6>"
           }
         },
@@ -131,7 +131,7 @@
           "type": "question",
           "settings": {
             "title": "Cosa faccio in caso di ordine sbagliato o difettoso?",
-            "answer": "<h6>In caso di problemi con l’ordine puoi fare richiesta al Customer Care che, dopo aver analizzato la validità della richiesta, potrà offrire le seguenti opzioni:</h6><ul><li><h6>Rimborso: se il tuo reso è stato accettato il pagamento arriverà pochi giorni dopo la ricezione della merce nei nostri magazzini.</h6></li></ul>"
+            "answer": "<h6>In caso di problemi con l’ordine puoi fare richiesta al Customer Care.</h6>"
           }
         },
         "separator_9bK6P7": {
