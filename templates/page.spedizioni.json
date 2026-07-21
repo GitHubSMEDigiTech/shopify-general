@@ -27,14 +27,14 @@
           "type": "question",
           "settings": {
             "title": "Dove si trova il mio ordine?",
-            "answer": "<p>Puoi trovare maggiori info nella pagina \"I miei Ordini\" del tuo profilo e attraverso il link presente nella mail di conferma ordine.</p>"
+            "answer": "<h6>Puoi trovare maggiori info nella pagina \"I miei Ordini\" del tuo profilo e attraverso il link presente nella mail di conferma ordine.</h6>"
           }
         },
         "question_erPLVY": {
           "type": "question",
           "settings": {
             "title": "Quali sono i tempi di spedizione?",
-            "answer": "<p>La spedizione avverrà entro 24 / 48 h dal giorno di ricevimento della conferma via mail dell'avvenuta spedizione. Il corriere utilizzato sarà GLS.  </p><p>Eventuali ritardi possono essere causati da disfunzioni nel servizio da parte del corriere, da cause di forza maggiore o in caso di festività.<br/><br/>Servizi inclusi: tracking in tempo reale e 5 tentativi di consegna.</p>"
+            "answer": "<h6>La spedizione avverrà entro 24 / 48 h dal giorno di ricevimento della conferma via mail dell'avvenuta spedizione. Il corriere utilizzato sarà GLS.  </h6><h6>Eventuali ritardi possono essere causati da disfunzioni nel servizio da parte del corriere, da cause di forza maggiore o in caso di festività.<br/><br/>Servizi inclusi: tracking in tempo reale e 5 tentativi di consegna.</h6>"
           }
         },
         "question_R4Ucz6": {
