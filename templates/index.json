@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_kNcaX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_075249b2-c3d5-4fe7-a61b-5d9f5b52b360.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_7b619321-332f-4a97-a452-3c16ca82315e.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/tommaso-paradiso"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -131,23 +148,6 @@
             "link": "shopify://collections/the-real-me-future"
           }
         },
-        "image_kNcaX3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_64270025-347a-4788-b6cd-892509a1c9f9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_a7e07f4a-3f04-473f-a715-a06e1502c70a.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mediterraneo-dopo-il-mare-bresh"
-          }
-        },
         "image_FU9RMN": {
           "type": "image",
           "settings": {
@@ -235,6 +235,7 @@
         }
       },
       "block_order": [
+        "image_kNcaX3",
         "image_FV8WFP",
         "image_G3f6rF",
         "image_3dAeB8",
@@ -242,7 +243,6 @@
         "image_x98LVH",
         "image_3wJqzQ",
         "image_zLLxyF",
-        "image_kNcaX3",
         "image_FU9RMN",
         "image_hhc4xB",
         "image_HciHCp",
