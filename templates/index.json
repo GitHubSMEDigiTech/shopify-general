@@ -375,6 +375,76 @@
         "padding_bottom": 30
       }
     },
+    "promotion_list_bFFyaN": {
+      "type": "promotion-list",
+      "blocks": {
+        "item_VCaBVA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/salmo_26LebonskiPark_FB_event.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#6f42ef",
+            "text_color": "#ffffff",
+            "title": "LEBONSKI WEEK",
+            "content": "Scopri la Promo in occasione del Lebonski Park",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#6f42ef",
+            "button_text": "",
+            "button_link": "shopify://collections/salmo"
+          }
+        },
+        "item_KAiYzj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2026-05-27T175835.334.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#fc2a68",
+            "text_color": "#ffffff",
+            "title": "CASA PARADISO",
+            "content": "Ad un prezzo speciale per un tempo limitato",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#fc2a68",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_xFNVF7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Generica.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#26c1ce",
+            "text_color": "#ffffff",
+            "title": "SUMMER SALES",
+            "content": "Scopri la Promozione più calda dell'anno",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#26c1ce",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_VCaBVA",
+        "item_KAiYzj",
+        "item_xFNVF7"
+      ],
+      "name": "Promotion blocks",
+      "settings": {
+        "expand_items": false,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
     "collection_with_image_6MRFYn": {
       "type": "collection-with-image",
       "settings": {
@@ -644,6 +714,7 @@
     "collection_with_image_d44Bni",
     "featured_collection_Ln8Q76",
     "rich_text_Yjrb3a",
+    "promotion_list_bFFyaN",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
     "collection_with_image_THJq63",
