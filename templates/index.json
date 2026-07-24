@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_4jq88F": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/orbit_2600a51c-cb8e-4238-962d-dff627110e4c.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/OrbitCulture_DeathAboveLife_DeluxeEdition_1a25bf3e-7eaa-4813-8093-a977c1bbde22.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Orbit Culture",
+            "head_color": "#ffffff",
+            "subtitle": "Death Above Life (Deluxe Edition)",
+            "subhead_color": "#FFFFFF",
+            "content": "Ltd. Deluxe transp. sea blue-golden yellow splattered 2LP Artbook\nLtd. 2CD Mediabook",
+            "content_color": "#FFFFFF",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 10",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Orbit%20Culture"
+          }
+        },
         "banner_3xbkpJ": {
           "type": "banner",
           "settings": {
@@ -166,6 +188,7 @@
         }
       },
       "block_order": [
+        "banner_4jq88F",
         "banner_3xbkpJ",
         "banner_UtnYYV",
         "banner_pJH6Ri",
