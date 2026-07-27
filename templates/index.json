@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c96abd98-717b-475f-9add-9c834276ec39.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_75cdca62-8b09-4d65-92f9-50527c803a85.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/queen-live-in-budapest"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -165,23 +182,6 @@
             "link": "shopify://collections/mustang-biagio-antonacci"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_Acquista_Ora.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_Acquista_Ora.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/greatest-hits-queen"
-          }
-        },
         "image_FU9RMN": {
           "type": "image",
           "settings": {
@@ -252,6 +252,7 @@
         }
       },
       "block_order": [
+        "image_3wJqzQ",
         "image_hhc4xB",
         "image_qLWTcg",
         "image_zLLxyF",
@@ -261,7 +262,6 @@
         "image_3dAeB8",
         "image_4T4yhV",
         "image_x98LVH",
-        "image_3wJqzQ",
         "image_FU9RMN",
         "image_HciHCp",
         "image_XHmBAC",
