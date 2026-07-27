@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_5fcdee2a-b884-42c7-9130-5c16ee90deff.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_b673a7bd-d1fa-4458-ab49-a67dc38df5a1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/italianissima"
+          }
+        },
         "image_qLWTcg": {
           "type": "image",
           "settings": {
@@ -182,23 +199,6 @@
             "link": "shopify://collections/17-re-live-1986-2026-litfiba"
           }
         },
-        "image_hhc4xB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1041e914-5541-4877-bf22-78d219c8df10.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_3d8ee6ab-0b26-4da9-b102-76ce58ebaa55.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/tutta-vita-live-stadio-luigi-ferraris"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -252,6 +252,7 @@
         }
       },
       "block_order": [
+        "image_hhc4xB",
         "image_qLWTcg",
         "image_zLLxyF",
         "image_kNcaX3",
@@ -262,7 +263,6 @@
         "image_x98LVH",
         "image_3wJqzQ",
         "image_FU9RMN",
-        "image_hhc4xB",
         "image_HciHCp",
         "image_XHmBAC",
         "image_9kfgaA"
