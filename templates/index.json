@@ -12,40 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_b7Nicj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/EM_2160x720px_V1.jpg",
-            "mobile_image": "shopify://shop_images/EM_750x1100px_V1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/j-ax-vita-morte-miracoli"
-          }
-        },
-        "image_UBx6TR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Queen_2160x720_Acquista_Ora.jpg",
-            "mobile_image": "shopify://shop_images/Queen_750x1100_Acquista_Ora.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/queen"
-          }
-        },
         "image_MRDKig": {
           "type": "image",
           "settings": {
@@ -61,6 +27,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/litfiba-17-re-live-1986-2026"
+          }
+        },
+        "image_b7Nicj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EM_2160x720px_V1.jpg",
+            "mobile_image": "shopify://shop_images/EM_750x1100px_V1.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/j-ax-vita-morte-miracoli"
           }
         },
         "image_eaLhW6": {
@@ -79,11 +62,11 @@
             "link": "shopify://collections/biagio-antonacci-mustang"
           }
         },
-        "image_NDnmNC": {
+        "image_UBx6TR": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/banner_Mariah_2160x720_de7c2eb1-821c-4811-8bc8-31c1a88f9a30.jpg",
-            "mobile_image": "shopify://shop_images/banner_Mariah_750x1100_55a75935-090b-4843-99bf-ee0f9c347142.jpg",
+            "image": "shopify://shop_images/Queen_2160x720_Acquista_Ora.jpg",
+            "mobile_image": "shopify://shop_images/Queen_750x1100_Acquista_Ora.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -93,7 +76,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://products/daydream-30th-anniversary"
+            "link": "shopify://collections/queen"
           }
         },
         "image_DtHNp3": {
@@ -128,6 +111,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
+          }
+        },
+        "image_NDnmNC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Mariah_2160x720_de7c2eb1-821c-4811-8bc8-31c1a88f9a30.jpg",
+            "mobile_image": "shopify://shop_images/banner_Mariah_750x1100_55a75935-090b-4843-99bf-ee0f9c347142.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/daydream-30th-anniversary"
           }
         },
         "image_M7pmab": {
@@ -182,6 +182,7 @@
         },
         "image_6YKHeW": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/deandrebannerb2b.jpg",
             "show_overlay": false,
@@ -198,6 +199,7 @@
         },
         "image_wiRjiq": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/battistib2b.png",
             "show_overlay": true,
@@ -231,13 +233,13 @@
         }
       },
       "block_order": [
-        "image_b7Nicj",
-        "image_UBx6TR",
         "image_MRDKig",
+        "image_b7Nicj",
         "image_eaLhW6",
-        "image_NDnmNC",
+        "image_UBx6TR",
         "image_DtHNp3",
         "image_PBTAAN",
+        "image_NDnmNC",
         "image_M7pmab",
         "image_jntpdb",
         "image_dcxRfd",
