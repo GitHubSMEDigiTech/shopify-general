@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_Lz393j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Queen_Budapest_banner_2160x720_63693fb4-035d-4006-9559-3950f5c030a3.jpg",
+            "mobile_image": "shopify://shop_images/Queen_Budapest_banner_750x1100_c5404f7d-a2df-4d64-93d1-89013cbf72cc.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/queen-budapest"
+          }
+        },
         "image_MRDKig": {
           "type": "image",
           "settings": {
@@ -233,6 +250,7 @@
         }
       },
       "block_order": [
+        "image_Lz393j",
         "image_MRDKig",
         "image_b7Nicj",
         "image_eaLhW6",
