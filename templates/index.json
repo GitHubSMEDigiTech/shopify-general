@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FU9RMN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_1d2fb1e4-f454-4353-997d-f9cb7bd7200f.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_240aad33-ec4a-418e-85b3-26a54dcc4826.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/17-re-live-1986-2026-litfiba"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -182,23 +199,6 @@
             "link": "shopify://collections/mustang-biagio-antonacci"
           }
         },
-        "image_FU9RMN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/litfibadesktop.png",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/17-re-live-1986-2026-litfiba"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -252,6 +252,7 @@
         }
       },
       "block_order": [
+        "image_FU9RMN",
         "image_3wJqzQ",
         "image_hhc4xB",
         "image_qLWTcg",
@@ -262,7 +263,6 @@
         "image_3dAeB8",
         "image_4T4yhV",
         "image_x98LVH",
-        "image_FU9RMN",
         "image_HciHCp",
         "image_XHmBAC",
         "image_9kfgaA"
