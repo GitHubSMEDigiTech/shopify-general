@@ -297,17 +297,16 @@
     },
     "rich_text_GKqCHN": {
       "type": "rich-text",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 50,
         "text_width": "narrow",
         "title": "CHIUSURA ESTIVA",
         "h_one": false,
-        "content": "<p>Si informano i gentili clienti che i nostri uffici resteranno chiusi dal 7 al 19 agosto. Gli ultimi ordini ad essere evasi prima della chiusura saranno quelli trasmessi ENTRO mercoledì 5 agosto.</p>",
+        "content": "<p>Si informano i gentili clienti che i nostri uffici resteranno chiusi dal 7 al 19 agosto. Gli ultimi ordini ad essere evasi prima della chiusura saranno quelli trasmessi ENTRO la sera di mercoledì 5 agosto.</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
-        "bg_color": "#c5161c",
+        "bg_color": "#C51616",
         "text_color": "#ffffff",
         "bt_bg_color": "#ffffff",
         "bt_text_color": "#000000",
@@ -577,7 +576,6 @@
       "block_order": [
         "item_WCVcbk"
       ],
-      "disabled": true,
       "settings": {
         "expand_items": true,
         "section_size": "small",
