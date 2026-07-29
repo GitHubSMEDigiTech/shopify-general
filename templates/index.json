@@ -81,6 +81,7 @@
         },
         "image_UBx6TR": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Queen_2160x720_Acquista_Ora.jpg",
             "mobile_image": "shopify://shop_images/Queen_750x1100_Acquista_Ora.jpg",
@@ -149,6 +150,7 @@
         },
         "image_M7pmab": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/foodesktop.png",
             "show_overlay": true,
