@@ -380,21 +380,20 @@
       "blocks": {
         "item_VCaBVA": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/salmo_26LebonskiPark_FB_event.jpg",
+            "image": "shopify://shop_images/Shooting_Press_-600_1_2_1_1.jpg",
             "show_overlay": true,
             "overlay_opacity": 100,
-            "stretch_image": true,
-            "background": "#6f42ef",
+            "stretch_image": false,
+            "background": "#F9F4F6",
             "text_color": "#ffffff",
-            "title": "LEBONSKI WEEK",
-            "content": "Scopri la Promo in occasione del Lebonski Park",
+            "title": "LATTE IN POLVERE",
+            "content": "30% di sconto per un tempo limitato",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#6f42ef",
             "button_text": "",
-            "button_link": "shopify://collections/salmo"
+            "button_link": "shopify://collections/latte-in-polvere-papa-v-e-night-skinny"
           }
         },
         "item_KAiYzj": {
