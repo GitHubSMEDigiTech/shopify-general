@@ -12,23 +12,6 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
-        "image_Lz393j": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Queen_Budapest_banner_2160x720_63693fb4-035d-4006-9559-3950f5c030a3.jpg",
-            "mobile_image": "shopify://shop_images/Queen_Budapest_banner_750x1100_c5404f7d-a2df-4d64-93d1-89013cbf72cc.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/queen"
-          }
-        },
         "image_MRDKig": {
           "type": "image",
           "settings": {
@@ -44,6 +27,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/litfiba-17-re-live-1986-2026"
+          }
+        },
+        "image_Lz393j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Queen_Budapest_banner_2160x720_63693fb4-035d-4006-9559-3950f5c030a3.jpg",
+            "mobile_image": "shopify://shop_images/Queen_Budapest_banner_750x1100_c5404f7d-a2df-4d64-93d1-89013cbf72cc.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/queen"
           }
         },
         "image_b7Nicj": {
@@ -268,8 +268,8 @@
         }
       },
       "block_order": [
-        "image_Lz393j",
         "image_MRDKig",
+        "image_Lz393j",
         "image_b7Nicj",
         "image_Xm3Dcx",
         "image_eaLhW6",
@@ -306,7 +306,7 @@
         "content": "<p>Si informano i gentili clienti che i nostri uffici resteranno chiusi dal 7 al 19 agosto. Gli ultimi ordini ad essere evasi prima della chiusura saranno quelli trasmessi ENTRO la sera di mercoledì 5 agosto.</p>",
         "button_text": "",
         "button_link": "shopify://collections/all",
-        "bg_color": "#C51616",
+        "bg_color": "#c51616",
         "text_color": "#ffffff",
         "bt_bg_color": "#ffffff",
         "bt_text_color": "#000000",
