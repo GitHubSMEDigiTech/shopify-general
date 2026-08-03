@@ -16,24 +16,6 @@
     "promotion_list_PEcrT4": {
       "type": "promotion-list",
       "blocks": {
-        "item_aMDzjT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/sonymusiclogo.png",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "stretch_image": true,
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "title": "Canvass 31 luglio 2026",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "Entra",
-            "button_link": "shopify://collections/collezione-31-luglio-2026"
-          }
-        },
         "item_iV79eB": {
           "type": "item",
           "settings": {
@@ -270,7 +252,6 @@
         }
       },
       "block_order": [
-        "item_aMDzjT",
         "item_iV79eB",
         "item_TTK7wm",
         "item_EhEAWP",
