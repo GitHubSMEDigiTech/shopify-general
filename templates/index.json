@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_zjPHAX": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/gk.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/Ghostkid_FollowTheWhiteRabbit_f45d8b33-48f3-44ca-a93d-62a38eaa3b0a.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "GHØSTKID",
+            "head_color": "#ffffff",
+            "subtitle": "FOLLOW THE WHITE RABBIT",
+            "subhead_color": "#929292",
+            "content": "Ltd. CD Digipak\nneon pink LP",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 2",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=GH%C3%98STKID"
+          }
+        },
         "banner_D7WNhF": {
           "type": "banner",
           "settings": {
@@ -65,9 +87,9 @@
             "title": "Insomnium",
             "head_color": "#ffffff",
             "subtitle": "Netherworlds",
-            "subhead_color": "#FFFFFF",
+            "subhead_color": "#ffffff",
             "content": "Ltd. Deluxe 2CD Artbook\nStandard CD Jewelcase\nGatefold black 2LP",
-            "content_color": "#FFFFFF",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
@@ -87,9 +109,9 @@
             "title": "Orbit Culture",
             "head_color": "#ffffff",
             "subtitle": "Death Above Life (Deluxe Edition)",
-            "subhead_color": "#FFFFFF",
+            "subhead_color": "#ffffff",
             "content": "Ltd. Deluxe transp. sea blue-golden yellow splattered 2LP Artbook\nLtd. 2CD Mediabook",
-            "content_color": "#FFFFFF",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
@@ -210,6 +232,7 @@
         }
       },
       "block_order": [
+        "banner_zjPHAX",
         "banner_D7WNhF",
         "banner_4jq88F",
         "banner_3xbkpJ",
