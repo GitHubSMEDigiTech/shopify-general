@@ -46,22 +46,6 @@
             "link": "shopify://collections/j-ax-vita-morte-miracoli"
           }
         },
-        "image_Xm3Dcx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_35ecb465-943d-4390-828d-8bffba1c6859.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/italianissima"
-          }
-        },
         "image_Hrmcmq": {
           "type": "image",
           "settings": {
@@ -76,6 +60,22 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/savage-mode"
+          }
+        },
+        "image_Xm3Dcx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_35ecb465-943d-4390-828d-8bffba1c6859.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/italianissima"
           }
         },
         "image_eaLhW6": {
@@ -284,8 +284,8 @@
       "block_order": [
         "image_MRDKig",
         "image_b7Nicj",
-        "image_Xm3Dcx",
         "image_Hrmcmq",
+        "image_Xm3Dcx",
         "image_eaLhW6",
         "image_Lz393j",
         "image_UBx6TR",
