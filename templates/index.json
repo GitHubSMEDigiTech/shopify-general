@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_DtHNp3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/28._Banner_store_Sony_2160x720_3ca0824e-1240-4a59-b310-a423c05e8d7a.jpg",
+            "mobile_image": "shopify://shop_images/27._Banner_store_Sony_750x1100_4a95e1e1-85f1-4af2-b38d-7b7b72e4408e.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/radio-italia-summer-hits-2026"
+          }
+        },
         "image_MRDKig": {
           "type": "image",
           "settings": {
@@ -146,23 +163,6 @@
             "link": "shopify://collections/queen"
           }
         },
-        "image_DtHNp3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/28._Banner_store_Sony_2160x720_3ca0824e-1240-4a59-b310-a423c05e8d7a.jpg",
-            "mobile_image": "shopify://shop_images/27._Banner_store_Sony_750x1100_4a95e1e1-85f1-4af2-b38d-7b7b72e4408e.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/radio-italia-summer-hits-2026"
-          }
-        },
         "image_PBTAAN": {
           "type": "image",
           "settings": {
@@ -282,6 +282,7 @@
         }
       },
       "block_order": [
+        "image_DtHNp3",
         "image_MRDKig",
         "image_b7Nicj",
         "image_Hrmcmq",
@@ -290,7 +291,6 @@
         "image_eaLhW6",
         "image_Lz393j",
         "image_UBx6TR",
-        "image_DtHNp3",
         "image_PBTAAN",
         "image_M7pmab",
         "image_jntpdb",
