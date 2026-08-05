@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_gbjfYd": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/blindchan.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/BlindChannel_Painstream.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Blind Channel",
+            "head_color": "#ffffff",
+            "subtitle": "Painstream",
+            "subhead_color": "#929292",
+            "content": "Ltd. CD Digipak\nblack LP",
+            "content_color": "#929292",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 30",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Blind%20Channel"
+          }
+        },
         "banner_zjPHAX": {
           "type": "banner",
           "settings": {
@@ -186,28 +208,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Dark%20Funeral"
           }
         },
-        "banner_fCPz9M": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/allt_1faaa383-34a8-49df-9235-802af6558838.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/alltataraxiajpg-193244.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Allt",
-            "head_color": "#ffffff",
-            "subtitle": "Ataraxia",
-            "subhead_color": "#eeeeee",
-            "content": "Ltd. CD Digipak\npearlescent deep-blue LP",
-            "content_color": "#eeeeee",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "July 31",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Allt"
-          }
-        },
         "banner_Aay7PX": {
           "type": "banner",
           "settings": {
@@ -232,13 +232,13 @@
         }
       },
       "block_order": [
+        "banner_gbjfYd",
         "banner_zjPHAX",
         "banner_D7WNhF",
         "banner_4jq88F",
         "banner_3xbkpJ",
         "banner_UtnYYV",
         "banner_pJH6Ri",
-        "banner_fCPz9M",
         "banner_Aay7PX"
       ],
       "settings": {
@@ -333,6 +333,7 @@
             "show_order_hint": true,
             "show_email_hint": true,
             "show_privacy_notice": true,
+            "show_required_hint": false,
             "text_color": "#111827",
             "secondary_text_color": "#6b7280",
             "card_shape": "rounded",
