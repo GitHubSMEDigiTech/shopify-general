@@ -12,31 +12,102 @@
     "slideshow_ViXDPm": {
       "type": "slideshow",
       "blocks": {
+        "banner_wkV3Rk": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/28741017_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "mobile_image": "shopify://shop_images/28741017_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "Slide title",
+            "head_color": "#ffffff",
+            "subtitle": "Slide subtitle",
+            "subhead_color": "#555555",
+            "content": "List of Releases",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preorder Date or Message",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
+        },
+        "banner_8TEwah": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/28420231_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "mobile_image": "shopify://shop_images/2160x720_57b54cf5-07ae-44fe-9263-326d71deb7bf.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/21sabag.png",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "21 SAVAGE & METRO BOOMIN",
+            "head_color": "#FFFFFF",
+            "subtitle": "SAVAGE MODE",
+            "subhead_color": "#EEEDF2",
+            "content": "Preordina Ora",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "04/09/2026",
+            "preorder_msg_color": "#000000",
+            "link": "shopify://products/savage-mode"
+          }
+        },
+        "banner_PLFjBf": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/lip.png",
+            "mobile_image": "shopify://shop_images/download_-_2026-08-05T162745.530_1d057f73-ddd4-4024-bc15-db40c690216e.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/lip_7de2c037-b786-4935-9202-c648196cbb1a.png",
+            "cover_effect": "border",
+            "cover_color": "#ffffff",
+            "title": "L.I.P.",
+            "head_color": "#ffffff",
+            "subtitle": "LATTE IN POLVERE",
+            "subhead_color": "#FFFFFF",
+            "content": "Papa V & Night Skinny",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "-30% OFF - Offerta a Tempo Limitato",
+            "preorder_msg_color": "#000000",
+            "link": "shopify://collections/latte-in-polvere-papa-v-e-night-skinny"
+          }
+        },
         "banner_nmm7NM": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/download_-_2026-08-05T135708.448.jpg",
+            "image": "shopify://shop_images/sadewferf.png",
             "mobile_image": "shopify://shop_images/download_-_2026-08-05T135708.448.jpg",
-            "bg_color": "#eeeeee",
+            "bg_color": "#FFFFFF",
             "cover_image": "shopify://shop_images/28931870_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
             "cover_effect": "shadow",
             "cover_color": "#ffffff",
             "title": "GAIA",
             "head_color": "#ffffff",
             "subtitle": "BOSSA NOSTRA",
-            "subhead_color": "#EEEDF2",
-            "content": "",
-            "content_color": "#555555",
+            "subhead_color": "#eeedf2",
+            "content": "Vinile Maxi Singolo 12\"",
+            "content_color": "#EEEDF2",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
-            "preorder_msg": "Preordina ora!",
-            "preorder_msg_color": "#2D4F46",
+            "preorder_msg": "04/09/2026",
+            "preorder_msg_color": "#2d4f46",
             "link": "shopify://products/bossa-nostra"
           }
         }
       },
       "block_order": [
+        "banner_wkV3Rk",
+        "banner_8TEwah",
+        "banner_PLFjBf",
         "banner_nmm7NM"
       ],
       "disabled": true,
