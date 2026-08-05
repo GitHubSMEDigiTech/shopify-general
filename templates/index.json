@@ -78,6 +78,23 @@
             "link": "shopify://collections/italianissima"
           }
         },
+        "image_NDnmNC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_Mariah_2160x720_de7c2eb1-821c-4811-8bc8-31c1a88f9a30.jpg",
+            "mobile_image": "shopify://shop_images/banner_Mariah_750x1100_55a75935-090b-4843-99bf-ee0f9c347142.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/daydream-30th-anniversary"
+          }
+        },
         "image_eaLhW6": {
           "type": "image",
           "settings": {
@@ -161,23 +178,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/michael-jackson"
-          }
-        },
-        "image_NDnmNC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Mariah_2160x720_de7c2eb1-821c-4811-8bc8-31c1a88f9a30.jpg",
-            "mobile_image": "shopify://shop_images/banner_Mariah_750x1100_55a75935-090b-4843-99bf-ee0f9c347142.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/daydream-30th-anniversary"
           }
         },
         "image_M7pmab": {
@@ -286,12 +286,12 @@
         "image_b7Nicj",
         "image_Hrmcmq",
         "image_Xm3Dcx",
+        "image_NDnmNC",
         "image_eaLhW6",
         "image_Lz393j",
         "image_UBx6TR",
         "image_DtHNp3",
         "image_PBTAAN",
-        "image_NDnmNC",
         "image_M7pmab",
         "image_jntpdb",
         "image_dcxRfd",
