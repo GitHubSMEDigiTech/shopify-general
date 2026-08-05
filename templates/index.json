@@ -95,6 +95,22 @@
             "link": "shopify://collections/italianissima"
           }
         },
+        "image_eaLhW6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/antonacci_banner_2160x720_23.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/biagio-antonacci-mustang"
+          }
+        },
         "image_NDnmNC": {
           "type": "image",
           "settings": {
@@ -110,22 +126,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/daydream-30th-anniversary"
-          }
-        },
-        "image_eaLhW6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/antonacci_banner_2160x720_23.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/biagio-antonacci-mustang"
           }
         },
         "image_Lz393j": {
@@ -287,8 +287,8 @@
         "image_b7Nicj",
         "image_Hrmcmq",
         "image_Xm3Dcx",
-        "image_NDnmNC",
         "image_eaLhW6",
+        "image_NDnmNC",
         "image_Lz393j",
         "image_UBx6TR",
         "image_PBTAAN",
