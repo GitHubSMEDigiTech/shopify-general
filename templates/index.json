@@ -9,6 +9,49 @@
  */
 {
   "sections": {
+    "slideshow_ViXDPm": {
+      "type": "slideshow",
+      "blocks": {
+        "banner_nmm7NM": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/download_-_2026-08-05T135708.448.jpg",
+            "mobile_image": "shopify://shop_images/download_-_2026-08-05T135708.448.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/28931870_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "cover_effect": "shadow",
+            "cover_color": "#ffffff",
+            "title": "GAIA",
+            "head_color": "#ffffff",
+            "subtitle": "BOSSA NOSTRA",
+            "subhead_color": "#EEEDF2",
+            "content": "",
+            "content_color": "#555555",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "Preordina ora!",
+            "preorder_msg_color": "#2D4F46",
+            "link": "shopify://products/bossa-nostra"
+          }
+        }
+      },
+      "block_order": [
+        "banner_nmm7NM"
+      ],
+      "disabled": true,
+      "name": "Slideshow",
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "small",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
@@ -295,6 +338,10 @@
         "show_dots": false,
         "cycle_speed": 5
       }
+    },
+    "17859405126c2c9e35": {
+      "type": "_blocks",
+      "settings": {}
     },
     "promotion_list_kTecJ6": {
       "type": "promotion-list",
@@ -726,7 +773,9 @@
     }
   },
   "order": [
+    "slideshow_ViXDPm",
     "slideshow_dwDbqU",
+    "17859405126c2c9e35",
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_with_image_d44Bni",
