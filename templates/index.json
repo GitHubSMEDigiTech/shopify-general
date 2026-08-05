@@ -12,6 +12,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_DJRRk7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bossanostra2160x720.jpg",
+            "mobile_image": "shopify://shop_images/bossanostra750x1100.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/bossa-nostra"
+          }
+        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -252,6 +269,7 @@
         }
       },
       "block_order": [
+        "image_DJRRk7",
         "image_zLLxyF",
         "image_4T4yhV",
         "image_FU9RMN",
@@ -385,12 +403,12 @@
             "show_overlay": true,
             "overlay_opacity": 100,
             "stretch_image": false,
-            "background": "#F9F4F6",
+            "background": "#f9f4f6",
             "text_color": "#ffffff",
             "title": "LATTE IN POLVERE",
             "content": "30% di sconto per un tempo limitato",
             "content_position": "top_left",
-            "button_background": "#EEEDF2",
+            "button_background": "#eeedf2",
             "button_text_color": "#6f42ef",
             "button_text": "",
             "button_link": "shopify://collections/latte-in-polvere-papa-v-e-night-skinny"
