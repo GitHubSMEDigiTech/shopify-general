@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_aKV3ax": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/tpt.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/thepineapplethieffarandwidejpg-213253.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#000000",
+            "title": "The Pineapple Thief",
+            "head_color": "#929292",
+            "subtitle": "Far and Wide",
+            "subhead_color": "#929292",
+            "content": "Ltd. Deluxe 2CD+Blu-ray Artbook \nSpecial Edition CD Digipak\nGatefold black LP",
+            "content_color": "#929292",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 10",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=The%20Pineapple%20Thief"
+          }
+        },
         "banner_yzhMz7": {
           "type": "banner",
           "settings": {
@@ -65,9 +87,9 @@
             "title": "Pure Reason Revolution",
             "head_color": "#ffffff",
             "subtitle": "Terrifying Angels",
-            "subhead_color": "#FFFFFF",
+            "subhead_color": "#ffffff",
             "content": "Gatefold transp. red LP\nLtd. CD Digipak",
-            "content_color": "#FFFFFF",
+            "content_color": "#ffffff",
             "show_preorder_banner": false,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
@@ -166,6 +188,7 @@
         }
       },
       "block_order": [
+        "banner_aKV3ax",
         "banner_yzhMz7",
         "banner_4eCayw",
         "banner_RagUhx",
@@ -260,6 +283,7 @@
             "show_order_hint": true,
             "show_email_hint": true,
             "show_privacy_notice": true,
+            "show_required_hint": false,
             "text_color": "#111827",
             "secondary_text_color": "#6b7280",
             "card_shape": "rounded",
