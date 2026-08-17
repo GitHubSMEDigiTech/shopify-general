@@ -134,7 +134,7 @@
             "subhead_color": "#000000",
             "content": "Ltd. CD Digipak\ndeep blood red LP",
             "content_color": "#000000",
-            "show_preorder_banner": false,
+            "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
             "preorder_msg": "September 18",
@@ -163,28 +163,6 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Steve%20Hackett%2C%20Steve%20Rothery"
           }
-        },
-        "banner_zCMRE3": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/tull.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/jethrotulljtulldotcomanothercast2lpdigitalcoverjpg-197635.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#000000",
-            "title": "Jethro Tull",
-            "head_color": "#000000",
-            "subtitle": "J-Tull DotCom: Another Cast Of The Net",
-            "subhead_color": "#000000",
-            "content": "Ltd. Deluxe 3CD+Blu-ray Mediabook\nGatefold black 2LP & LP-Booklet",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "August 14",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Jethro+Tull&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
@@ -192,8 +170,7 @@
         "banner_yzhMz7",
         "banner_4eCayw",
         "banner_RagUhx",
-        "banner_V6KQjm",
-        "banner_zCMRE3"
+        "banner_V6KQjm"
       ],
       "settings": {
         "edge_to_edge": true,
