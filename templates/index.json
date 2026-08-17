@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_z4xzGV": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/mc.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/MentalCruelty_EchoesOfAForlornLand_c015ae72-95ee-4a4b-af87-c2b4496c8f5b.jpg",
+            "cover_effect": "glow",
+            "cover_color": "#ffffff",
+            "title": "Mental Cruelty",
+            "head_color": "#ffffff",
+            "subtitle": "Echoes of a Forlorn Land",
+            "subhead_color": "#FFFFFF",
+            "content": "Ltd. CD Digipak\nBloodlust LP & LP-Booklet (transp. red Vinyl)",
+            "content_color": "#FFFFFF",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 23",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/vendors?q=Mental%20Cruelty"
+          }
+        },
         "banner_gbjfYd": {
           "type": "banner",
           "settings": {
@@ -207,39 +229,17 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Dark%20Funeral"
           }
-        },
-        "banner_Aay7PX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/ec_ca263306-29c4-435c-8416-d898cad92c88.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/electriccallboytanzneid-embargo-until-april-16thjpg-181568.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Electric Callboy",
-            "head_color": "#ffffff",
-            "subtitle": "TANZNEID",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe CD Box Set & NFC-Fancard\nSpecial Edition CD Digipak\nblack LP\nLtd. transp. neon pink LP & NFC-Fancard",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "August 7",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Electric+Callboy&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
+        "banner_z4xzGV",
         "banner_gbjfYd",
         "banner_zjPHAX",
         "banner_D7WNhF",
         "banner_4jq88F",
         "banner_3xbkpJ",
         "banner_UtnYYV",
-        "banner_pJH6Ri",
-        "banner_Aay7PX"
+        "banner_pJH6Ri"
       ],
       "settings": {
         "edge_to_edge": true,
