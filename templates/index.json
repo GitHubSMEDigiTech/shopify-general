@@ -54,6 +54,28 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_7Jx7QJ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/tfk.jpg",
+            "bg_color": "#eeeeee",
+            "cover_image": "shopify://shop_images/theflowerkingshopevinyljpg-216350.jpg",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "The Flower Kings",
+            "head_color": "#000000",
+            "subtitle": "HOPE",
+            "subhead_color": "#000000",
+            "content": "Ltd. CD+Blu-ray Digipak \nStandard CD Jewelcase\nGatefold black 2LP",
+            "content_color": "#000000",
+            "show_preorder_banner": true,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": true,
+            "preorder_msg": "October 23",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.insideoutshop.de/collections/vendors?q=The+Flower+Kings&sort_by=created-descending"
+          }
+        },
         "banner_aKV3ax": {
           "type": "banner",
           "settings": {
@@ -166,6 +188,7 @@
         }
       },
       "block_order": [
+        "banner_7Jx7QJ",
         "banner_aKV3ax",
         "banner_yzhMz7",
         "banner_4eCayw",
