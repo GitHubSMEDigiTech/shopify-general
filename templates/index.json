@@ -229,28 +229,6 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=Distant&sort_by=created-descending"
           }
-        },
-        "banner_pJH6Ri": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/df_7b465ba7-52b7-4eca-9dbe-aa22c5bb9e5c.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/darkfuneralabeasttopraisejpg-198556.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Dark Funeral",
-            "head_color": "#ffffff",
-            "subtitle": "A Beast To Praise",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\nGatefold black 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "August 21",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Dark%20Funeral"
-          }
         }
       },
       "block_order": [
@@ -261,8 +239,7 @@
         "banner_D7WNhF",
         "banner_4jq88F",
         "banner_3xbkpJ",
-        "banner_UtnYYV",
-        "banner_pJH6Ri"
+        "banner_UtnYYV"
       ],
       "settings": {
         "edge_to_edge": true,
