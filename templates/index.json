@@ -44,9 +44,9 @@
             "cover_effect": "shadow",
             "cover_color": "#ffffff",
             "title": "21 SAVAGE & METRO BOOMIN",
-            "head_color": "#FFFFFF",
+            "head_color": "#ffffff",
             "subtitle": "SAVAGE MODE",
-            "subhead_color": "#EEEDF2",
+            "subhead_color": "#eeedf2",
             "content": "Preordina Ora",
             "content_color": "#555555",
             "show_preorder_banner": true,
@@ -69,7 +69,7 @@
             "title": "L.I.P.",
             "head_color": "#ffffff",
             "subtitle": "LATTE IN POLVERE",
-            "subhead_color": "#FFFFFF",
+            "subhead_color": "#ffffff",
             "content": "Papa V & Night Skinny",
             "content_color": "#555555",
             "show_preorder_banner": true,
@@ -85,7 +85,7 @@
           "settings": {
             "image": "shopify://shop_images/sadewferf.png",
             "mobile_image": "shopify://shop_images/download_-_2026-08-05T135708.448.jpg",
-            "bg_color": "#FFFFFF",
+            "bg_color": "#ffffff",
             "cover_image": "shopify://shop_images/28931870_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
             "cover_effect": "shadow",
             "cover_color": "#ffffff",
@@ -94,7 +94,7 @@
             "subtitle": "BOSSA NOSTRA",
             "subhead_color": "#eeedf2",
             "content": "Vinile Maxi Singolo 12\"",
-            "content_color": "#EEEDF2",
+            "content_color": "#eeedf2",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
@@ -160,23 +160,6 @@
             "link": "shopify://collections/latte-in-polvere-papa-v-e-night-skinny"
           }
         },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_57b54cf5-07ae-44fe-9263-326d71deb7bf.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_ac99b819-0050-44fb-ac05-9b89e146d453.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/savage-mode"
-          }
-        },
         "image_FU9RMN": {
           "type": "image",
           "settings": {
@@ -194,6 +177,23 @@
             "link": "shopify://collections/17-re-live-1986-2026-litfiba"
           }
         },
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_75db554f-9dd0-47ad-854b-7b0b20ac3404.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_e0e428f9-3726-4a72-9d76-da835e858be4.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mustang-biagio-antonacci"
+          }
+        },
         "image_3wJqzQ": {
           "type": "image",
           "settings": {
@@ -209,6 +209,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/queen-live-in-budapest"
+          }
+        },
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_57b54cf5-07ae-44fe-9263-326d71deb7bf.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ac99b819-0050-44fb-ac05-9b89e146d453.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/savage-mode"
           }
         },
         "image_hhc4xB": {
@@ -313,23 +330,6 @@
             "link": "shopify://collections/j-ax-vita-morte-miracoli"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_75db554f-9dd0-47ad-854b-7b0b20ac3404.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_e0e428f9-3726-4a72-9d76-da835e858be4.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mustang-biagio-antonacci"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -385,16 +385,16 @@
       "block_order": [
         "image_DJRRk7",
         "image_zLLxyF",
-        "image_4T4yhV",
         "image_FU9RMN",
+        "image_x98LVH",
         "image_3wJqzQ",
+        "image_4T4yhV",
         "image_hhc4xB",
         "image_qLWTcg",
         "image_kNcaX3",
         "image_FV8WFP",
         "image_G3f6rF",
         "image_3dAeB8",
-        "image_x98LVH",
         "image_HciHCp",
         "image_XHmBAC",
         "image_9kfgaA"
