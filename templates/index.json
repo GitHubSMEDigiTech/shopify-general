@@ -476,48 +476,13 @@
         "button_link": ""
       }
     },
-    "featured_collection_Ln8Q76": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "frontpage",
-        "title": "IN EVIDENZA",
-        "products_count": 24,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "",
-        "link_url": ""
-      }
-    },
-    "rich_text_Yjrb3a": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "marign_top": 10,
-        "marign_bottom": 10,
-        "text_width": "wide",
-        "title": "ATTENZIONE",
-        "h_one": false,
-        "content": "<p>Sony Music Entertainment Italy S.p.A. dichiara che i siti <em><strong>www.dtmfitaly.com </strong></em> e <em><strong>https://www.debitirarmasfotositalia.com/ </strong></em><a href=\"https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.debitirarmasfotositalia.com%2F&data=05%7C02%7Ccarmen.daquino%40sonymusic.com%7C3c8fdc8e75bd4d001afd08ded1bda449%7Cf0aff3b791a54aaeaf71c63e1dda2049%7C0%7C0%7C639178809604182028%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=OnWo%2FMcjAkb73H4m5Wqk6%2FFHVH6zG4Bb4eZtJIH5kOE%3D&reserved=0\"> </a>non sono in alcun modo collegati o autorizzati dalla società.<br/><br/>Sony Music Entertainment Italy S.p.A non svolge tramite tale siti alcuna attività di vendita di biglietti, merchandising o altre iniziative. <br/><br/>Si invita a non effettuare acquisti su questi siti. Chi avesse già effettuato pagamenti o comunicato i propri dati personali è invitato a rivolgersi alle forze dell’ordine.</p>",
-        "button_text": "",
-        "button_link": "",
-        "bg_color": "#c5161c",
-        "text_color": "#ffffff",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": false,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
     "promotion_list_bFFyaN": {
       "type": "promotion-list",
       "blocks": {
         "item_VCaBVA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/28741018_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "image": "shopify://shop_images/28741018_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.png",
             "show_overlay": true,
             "overlay_opacity": 100,
             "stretch_image": true,
@@ -579,6 +544,41 @@
         "expand_items": false,
         "section_size": "medium",
         "stack_mobile": false
+      }
+    },
+    "featured_collection_Ln8Q76": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "title": "IN EVIDENZA",
+        "products_count": 24,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "",
+        "link_url": ""
+      }
+    },
+    "rich_text_Yjrb3a": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "marign_top": 10,
+        "marign_bottom": 10,
+        "text_width": "wide",
+        "title": "ATTENZIONE",
+        "h_one": false,
+        "content": "<p>Sony Music Entertainment Italy S.p.A. dichiara che i siti <em><strong>www.dtmfitaly.com </strong></em> e <em><strong>https://www.debitirarmasfotositalia.com/ </strong></em><a href=\"https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.debitirarmasfotositalia.com%2F&data=05%7C02%7Ccarmen.daquino%40sonymusic.com%7C3c8fdc8e75bd4d001afd08ded1bda449%7Cf0aff3b791a54aaeaf71c63e1dda2049%7C0%7C0%7C639178809604182028%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=OnWo%2FMcjAkb73H4m5Wqk6%2FFHVH6zG4Bb4eZtJIH5kOE%3D&reserved=0\"> </a>non sono in alcun modo collegati o autorizzati dalla società.<br/><br/>Sony Music Entertainment Italy S.p.A non svolge tramite tale siti alcuna attività di vendita di biglietti, merchandising o altre iniziative. <br/><br/>Si invita a non effettuare acquisti su questi siti. Chi avesse già effettuato pagamenti o comunicato i propri dati personali è invitato a rivolgersi alle forze dell’ordine.</p>",
+        "button_text": "",
+        "button_link": "",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "collection_with_image_6MRFYn": {
