@@ -517,37 +517,19 @@
         "item_VCaBVA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Shooting_Press_-600_1_2_1_1.jpg",
+            "image": "shopify://shop_images/28741018_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
             "show_overlay": true,
             "overlay_opacity": 100,
-            "stretch_image": false,
+            "stretch_image": true,
             "background": "#f9f4f6",
             "text_color": "#ffffff",
-            "title": "LATTE IN POLVERE",
-            "content": "30% di sconto per un tempo limitato",
+            "title": "17 RE LIVE | 1986-2026",
+            "content": "PREORDER disponibile solo fino al 30 Agosto",
             "content_position": "top_left",
             "button_background": "#eeedf2",
             "button_text_color": "#6f42ef",
             "button_text": "",
-            "button_link": "shopify://collections/latte-in-polvere-papa-v-e-night-skinny"
-          }
-        },
-        "item_KAiYzj": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/download_-_2026-05-27T175835.334.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 100,
-            "stretch_image": true,
-            "background": "#fc2a68",
-            "text_color": "#ffffff",
-            "title": "CASA PARADISO",
-            "content": "Ad un prezzo speciale per un tempo limitato",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#fc2a68",
-            "button_text": "",
-            "button_link": "shopify://collections/tommaso-paradiso"
+            "button_link": "shopify://collections/17-re-live-1986-2026-litfiba"
           }
         },
         "item_xFNVF7": {
@@ -560,19 +542,37 @@
             "background": "#26c1ce",
             "text_color": "#ffffff",
             "title": "SUMMER SALES",
-            "content": "Scopri la Promozione più calda dell'anno",
+            "content": "Scopri la Promozione più calda dell'anno. Solo fino al 30 Agosto",
             "content_position": "top_left",
             "button_background": "#ffffff",
             "button_text_color": "#26c1ce",
             "button_text": "",
             "button_link": "shopify://collections/summer-sales"
           }
+        },
+        "item_KAiYzj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/28635945_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#fc2a68",
+            "text_color": "#ffffff",
+            "title": "RADIO ITALIA SUMMER HITS 2026",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#ffffff",
+            "button_text_color": "#fc2a68",
+            "button_text": "",
+            "button_link": "shopify://products/radio-italia-summer-hits-2026"
+          }
         }
       },
       "block_order": [
         "item_VCaBVA",
-        "item_KAiYzj",
-        "item_xFNVF7"
+        "item_xFNVF7",
+        "item_KAiYzj"
       ],
       "name": "Promotion blocks",
       "settings": {
@@ -850,9 +850,9 @@
     "promotion_list_kTecJ6",
     "image_with_text_qVw8NM",
     "collection_with_image_d44Bni",
+    "promotion_list_bFFyaN",
     "featured_collection_Ln8Q76",
     "rich_text_Yjrb3a",
-    "promotion_list_bFFyaN",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
     "collection_with_image_THJq63",
