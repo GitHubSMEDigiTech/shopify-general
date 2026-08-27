@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_rUmJpg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_80d75e6a-e25d-424a-8fe0-f7a61206ecd2.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_a47d27db-92ff-404f-af66-f3c574dfae42.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/angele"
+          }
+        },
         "image_DJRRk7": {
           "type": "image",
           "settings": {
@@ -383,6 +400,7 @@
         }
       },
       "block_order": [
+        "image_rUmJpg",
         "image_DJRRk7",
         "image_zLLxyF",
         "image_FU9RMN",
