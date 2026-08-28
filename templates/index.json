@@ -29,6 +29,22 @@
             "link": "shopify://collections/litfiba-17-re-live-1986-2026"
           }
         },
+        "image_iB69qe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_Beyonce_PREORDER_2160x720_d22e73b0-7656-495d-9978-4fd1a15a0a74.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/beyonce-bday-20th-anniversary"
+          }
+        },
         "image_DtHNp3": {
           "type": "image",
           "settings": {
@@ -267,6 +283,7 @@
       },
       "block_order": [
         "image_MRDKig",
+        "image_iB69qe",
         "image_DtHNp3",
         "image_b7Nicj",
         "image_Hrmcmq",
