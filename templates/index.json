@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_HciHCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_01a95418-7eec-485f-bb1c-4acab1256e8e.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_f1523c30-dc21-469b-a3b9-09cc9af95110.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/beyonce"
+          }
+        },
         "image_rUmJpg": {
           "type": "image",
           "settings": {
@@ -348,23 +365,6 @@
             "link": "shopify://collections/j-ax-vita-morte-miracoli"
           }
         },
-        "image_HciHCp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/28._Banner_store_Sony_2160x720_57100f92-3fcc-4435-8d44-ce3dc442d2f2.jpg",
-            "mobile_image": "shopify://shop_images/27._Banner_store_Sony_750x1100_5ce49c63-92de-4ae6-b131-2aff95c51e89.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/radio-italia-summer-hits-2026"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -401,6 +401,7 @@
         }
       },
       "block_order": [
+        "image_HciHCp",
         "image_rUmJpg",
         "image_DJRRk7",
         "image_zLLxyF",
@@ -414,7 +415,6 @@
         "image_FV8WFP",
         "image_G3f6rF",
         "image_3dAeB8",
-        "image_HciHCp",
         "image_XHmBAC",
         "image_9kfgaA"
       ],
