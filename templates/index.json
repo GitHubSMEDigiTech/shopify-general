@@ -197,6 +197,7 @@
         },
         "image_FU9RMN": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Sony_Music_Store_2160x720_f2bc7c60-4e91-4bcf-9f46-b2149294b9da.jpg",
             "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_c633105a-1002-405c-807a-25ef23f3ec9b.jpg",
@@ -508,7 +509,7 @@
             "background": "#f9f4f6",
             "text_color": "#ffffff",
             "title": "LITFIBA - 17 RE LIVE | 1986-2026",
-            "content": "Fino al 30 Agosto disponibile la versione esclusiva Autografata.",
+            "content": "",
             "content_position": "top_left",
             "button_background": "#eeedf2",
             "button_text_color": "#6f42ef",
