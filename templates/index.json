@@ -46,23 +46,6 @@
             "link": "shopify://collections/beyonce-bday-20th-anniversary"
           }
         },
-        "image_DtHNp3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/28._Banner_store_Sony_2160x720_3ca0824e-1240-4a59-b310-a423c05e8d7a.jpg",
-            "mobile_image": "shopify://shop_images/27._Banner_store_Sony_750x1100_4a95e1e1-85f1-4af2-b38d-7b7b72e4408e.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/radio-italia-summer-hits-2026"
-          }
-        },
         "image_b7Nicj": {
           "type": "image",
           "settings": {
@@ -78,6 +61,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/j-ax-vita-morte-miracoli"
+          }
+        },
+        "image_DtHNp3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/28._Banner_store_Sony_2160x720_3ca0824e-1240-4a59-b310-a423c05e8d7a.jpg",
+            "mobile_image": "shopify://shop_images/27._Banner_store_Sony_750x1100_4a95e1e1-85f1-4af2-b38d-7b7b72e4408e.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/radio-italia-summer-hits-2026"
           }
         },
         "image_Hrmcmq": {
@@ -285,8 +285,8 @@
       "block_order": [
         "image_MRDKig",
         "image_iB69qe",
-        "image_DtHNp3",
         "image_b7Nicj",
+        "image_DtHNp3",
         "image_Hrmcmq",
         "image_Xm3Dcx",
         "image_eaLhW6",
