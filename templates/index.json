@@ -383,6 +383,7 @@
         },
         "image_9kfgaA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Formato_desktop_2160x720_0756a15e-8d95-41e2-b521-4dfb9fb0e98b.jpg",
             "mobile_image": "shopify://shop_images/Formato_mobile_750x1100_c29eb839-6dbb-4f8a-831d-fdaabac24332.jpg",
