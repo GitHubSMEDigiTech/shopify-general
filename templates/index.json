@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_3dAeB8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Desktop_JAX_V1.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_JAX_d8b84c18-6a25-4673-a845-38d88f2d000f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/j-ax-vita-morte-miracoli"
+          }
+        },
         "image_kNcaX3": {
           "type": "image",
           "settings": {
@@ -351,24 +368,6 @@
             "link": "shopify://products/sincero-vinile-nero-autografato-rares"
           }
         },
-        "image_3dAeB8": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Desktop_JAX.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_JAX.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/j-ax-vita-morte-miracoli"
-          }
-        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -406,6 +405,7 @@
         }
       },
       "block_order": [
+        "image_3dAeB8",
         "image_kNcaX3",
         "image_3wJqzQ",
         "image_FU9RMN",
@@ -419,7 +419,6 @@
         "image_qLWTcg",
         "image_FV8WFP",
         "image_G3f6rF",
-        "image_3dAeB8",
         "image_XHmBAC",
         "image_9kfgaA"
       ],
