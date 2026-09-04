@@ -46,23 +46,6 @@
             "link": "shopify://collections/beyonce-bday-20th-anniversary"
           }
         },
-        "image_b7Nicj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/EM_2160x720px_V1.jpg",
-            "mobile_image": "shopify://shop_images/EM_750x1100px_V1.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/j-ax-vita-morte-miracoli"
-          }
-        },
         "image_DtHNp3": {
           "type": "image",
           "settings": {
@@ -78,38 +61,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/radio-italia-summer-hits-2026"
-          }
-        },
-        "image_Hrmcmq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_171cd658-d166-49ff-ab38-71040ce1ab03.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/savage-mode"
-          }
-        },
-        "image_Xm3Dcx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_35ecb465-943d-4390-828d-8bffba1c6859.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/italianissima"
           }
         },
         "image_eaLhW6": {
@@ -178,24 +129,6 @@
             "link": "shopify://collections/queen"
           }
         },
-        "image_UBx6TR": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Queen_2160x720_Acquista_Ora.jpg",
-            "mobile_image": "shopify://shop_images/Queen_750x1100_Acquista_Ora.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/queen"
-          }
-        },
         "image_PBTAAN": {
           "type": "image",
           "settings": {
@@ -231,7 +164,6 @@
         },
         "image_jntpdb": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/naytbannermartino.png",
             "show_overlay": false,
@@ -301,15 +233,11 @@
       "block_order": [
         "image_MRDKig",
         "image_iB69qe",
-        "image_b7Nicj",
         "image_DtHNp3",
-        "image_Hrmcmq",
-        "image_Xm3Dcx",
         "image_eaLhW6",
         "image_NDnmNC",
         "image_tW7cLN",
         "image_Lz393j",
-        "image_UBx6TR",
         "image_PBTAAN",
         "image_M7pmab",
         "image_jntpdb",
