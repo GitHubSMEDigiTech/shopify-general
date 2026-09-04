@@ -213,6 +213,7 @@
         },
         "image_DJRRk7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/bossanostra2160x720.jpg",
             "mobile_image": "shopify://shop_images/bossanostra750x1100.jpg",
@@ -247,6 +248,7 @@
         },
         "image_4T4yhV": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_57b54cf5-07ae-44fe-9263-326d71deb7bf.jpg",
             "mobile_image": "shopify://shop_images/750x1100_ac99b819-0050-44fb-ac05-9b89e146d453.jpg",
@@ -352,6 +354,7 @@
         },
         "image_3dAeB8": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_JAX.jpg",
             "mobile_image": "shopify://shop_images/Mobile_JAX.jpg",
