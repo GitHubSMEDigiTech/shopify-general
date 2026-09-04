@@ -143,6 +143,23 @@
             "link": "shopify://collections/the-faith-tour-george-michael"
           }
         },
+        "image_3wJqzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c96abd98-717b-475f-9add-9c834276ec39.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_75cdca62-8b09-4d65-92f9-50527c803a85.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/queen-live-in-budapest"
+          }
+        },
         "image_zLLxyF": {
           "type": "image",
           "settings": {
@@ -228,23 +245,6 @@
             "link": "shopify://collections/mustang-biagio-antonacci"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_c96abd98-717b-475f-9add-9c834276ec39.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_75cdca62-8b09-4d65-92f9-50527c803a85.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/queen-live-in-budapest"
-          }
-        },
         "image_4T4yhV": {
           "type": "image",
           "settings": {
@@ -264,6 +264,7 @@
         },
         "image_hhc4xB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_5fcdee2a-b884-42c7-9130-5c16ee90deff.jpg",
             "mobile_image": "shopify://shop_images/750x1100_b673a7bd-d1fa-4458-ab49-a67dc38df5a1.jpg",
@@ -403,12 +404,12 @@
       },
       "block_order": [
         "image_FU9RMN",
+        "image_3wJqzQ",
         "image_zLLxyF",
         "image_HciHCp",
         "image_rUmJpg",
         "image_DJRRk7",
         "image_x98LVH",
-        "image_3wJqzQ",
         "image_4T4yhV",
         "image_hhc4xB",
         "image_qLWTcg",
