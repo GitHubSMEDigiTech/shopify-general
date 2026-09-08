@@ -564,7 +564,7 @@
       ],
       "name": "Promotion blocks",
       "settings": {
-        "expand_items": false,
+        "expand_items": true,
         "section_size": "large",
         "stack_mobile": false
       }
