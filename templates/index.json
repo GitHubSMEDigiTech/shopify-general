@@ -502,24 +502,6 @@
     "promotion_list_bFFyaN": {
       "type": "promotion-list",
       "blocks": {
-        "item_xFNVF7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Salmo_Booklet_Final_Bogdan__Chilldays__Plakov_-88_quadrata.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 100,
-            "stretch_image": true,
-            "background": "#26c1ce",
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "bottom_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#A25B34",
-            "button_text": "SALMO",
-            "button_link": "shopify://collections/salmo"
-          }
-        },
         "item_KAiYzj": {
           "type": "item",
           "settings": {
@@ -533,9 +515,27 @@
             "content": "",
             "content_position": "bottom_center",
             "button_background": "#ffffff",
-            "button_text_color": "#324E5B",
+            "button_text_color": "#324e5b",
             "button_text": "SHIVA",
             "button_link": "shopify://collections/shiva"
+          }
+        },
+        "item_xFNVF7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Salmo_Booklet_Final_Bogdan__Chilldays__Plakov_-88_quadrata.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 100,
+            "stretch_image": true,
+            "background": "#26c1ce",
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "bottom_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#a25b34",
+            "button_text": "SALMO",
+            "button_link": "shopify://collections/salmo"
           }
         },
         "item_VCaBVA": {
@@ -550,7 +550,7 @@
             "title": "",
             "content": "",
             "content_position": "bottom_right",
-            "button_background": "#EEEDF2",
+            "button_background": "#eeedf2",
             "button_text_color": "#101427",
             "button_text": "BRESH",
             "button_link": "shopify://collections/bresh"
@@ -558,8 +558,8 @@
         }
       },
       "block_order": [
-        "item_xFNVF7",
         "item_KAiYzj",
+        "item_xFNVF7",
         "item_VCaBVA"
       ],
       "name": "Promotion blocks",
