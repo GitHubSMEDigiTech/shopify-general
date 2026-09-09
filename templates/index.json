@@ -129,8 +129,8 @@
         "image_3dAeB8": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop_JAX_V1.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_JAX_d8b84c18-6a25-4673-a845-38d88f2d000f.jpg",
+            "image": "shopify://shop_images/queengreatesthits.jpg",
+            "mobile_image": "shopify://shop_images/queengratesthitsmob.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -140,7 +140,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/j-ax-vita-morte-miracoli"
+            "link": "shopify://collections/greatest-hits-queen"
           }
         },
         "image_kNcaX3": {
