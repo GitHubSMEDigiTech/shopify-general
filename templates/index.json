@@ -162,6 +162,7 @@
         },
         "image_kNcaX3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_ed18df0a-9748-47bb-b203-409a0bcd09e9.jpg",
             "mobile_image": "shopify://shop_images/750x1100_90691bd8-4577-476d-b4de-f42b93dd6f88.jpg",
