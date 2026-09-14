@@ -179,10 +179,9 @@
         },
         "image_kNcaX3": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2160x720_ed18df0a-9748-47bb-b203-409a0bcd09e9.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_90691bd8-4577-476d-b4de-f42b93dd6f88.jpg",
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_2.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_2.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -192,7 +191,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/midnight-sun-girls-trip-zara-larsson"
+            "link": "shopify://collections/17-re-live-1986-2026-litfiba"
           }
         },
         "image_3wJqzQ": {
