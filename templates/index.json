@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_75db554f-9dd0-47ad-854b-7b0b20ac3404.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_e0e428f9-3726-4a72-9d76-da835e858be4.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/mustang-biagio-antonacci"
+          }
+        },
         "image_3dAeB8": {
           "type": "image",
           "settings": {
@@ -281,23 +298,6 @@
             "link": "shopify://products/bossa-nostra"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_75db554f-9dd0-47ad-854b-7b0b20ac3404.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_e0e428f9-3726-4a72-9d76-da835e858be4.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mustang-biagio-antonacci"
-          }
-        },
         "image_hhc4xB": {
           "type": "image",
           "disabled": true,
@@ -405,6 +405,7 @@
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_3dAeB8",
         "image_4T4yhV",
         "image_kNcaX3",
@@ -414,7 +415,6 @@
         "image_HciHCp",
         "image_rUmJpg",
         "image_DJRRk7",
-        "image_x98LVH",
         "image_hhc4xB",
         "image_qLWTcg",
         "image_FV8WFP",
