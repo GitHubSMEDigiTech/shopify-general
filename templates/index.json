@@ -197,8 +197,8 @@
         "image_kNcaX3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_2.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_2.jpg",
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_6558e605-2647-4a5c-a0c0-3a25708090bc.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_249a2642-f146-41fa-911d-f5da75588eef.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -300,8 +300,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/2160x720_5fcdee2a-b884-42c7-9130-5c16ee90deff.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_b673a7bd-d1fa-4458-ab49-a67dc38df5a1.jpg",
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_4e287e97-0615-4274-af2f-79b8aaa9bafb.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_296c5004-0824-4383-8a72-db95c02d44cf.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -311,7 +311,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/italianissima"
+            "link": ""
           }
         },
         "image_qLWTcg": {
