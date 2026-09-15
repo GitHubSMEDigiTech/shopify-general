@@ -129,8 +129,8 @@
         "image_DJRRk7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160-720-Zarathustra.jpg",
-            "mobile_image": "shopify://shop_images/2160-720-Zarathustra_leaflet.jpg",
+            "image": "shopify://shop_images/2160-720-Zarathustra_leaflet_f18bdf78-f0ae-43ed-a289-a91f60245dd4.jpg",
+            "mobile_image": "shopify://shop_images/750-1100-Zarathustra_leaflet_4904f4e3-c4a8-4f70-8398-a86521caf095.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
