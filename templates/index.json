@@ -146,6 +146,7 @@
         },
         "image_Lz393j": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Queen_Budapest_banner_2160x720_63693fb4-035d-4006-9559-3950f5c030a3.jpg",
             "mobile_image": "shopify://shop_images/Queen_Budapest_banner_750x1100_c5404f7d-a2df-4d64-93d1-89013cbf72cc.jpg",
