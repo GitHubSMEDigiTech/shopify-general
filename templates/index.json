@@ -181,6 +181,7 @@
         },
         "image_M7pmab": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/foodesktop.png",
             "show_overlay": true,
