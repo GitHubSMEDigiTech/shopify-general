@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_A9wrbV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160-720-Zarathustra.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/fabri-fibra-neffa"
+          }
+        },
         "image_MRDKig": {
           "type": "image",
           "disabled": true,
@@ -248,6 +264,7 @@
         }
       },
       "block_order": [
+        "image_A9wrbV",
         "image_MRDKig",
         "image_MnL9PM",
         "image_eaLhW6",
