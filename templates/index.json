@@ -231,8 +231,8 @@
         "image_kNcaX3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_6558e605-2647-4a5c-a0c0-3a25708090bc.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_249a2642-f146-41fa-911d-f5da75588eef.jpg",
+            "image": "shopify://shop_images/litfiba_0c08a942-6ed3-49ab-ad25-988ccb22af51.png",
+            "mobile_image": "shopify://shop_images/llitmobile.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
