@@ -113,13 +113,14 @@
         "list_collections": true,
         "image_size": "small",
         "enable_video_looping": false,
-        "enable_image_zoom": true,
+        "enable_image_zoom": false,
         "zoom_effect": "outside",
         "carousel_effect": "fade"
       }
     },
     "rich_text_H6mkWe": {
       "type": "rich-text",
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "marign_top": 50,
