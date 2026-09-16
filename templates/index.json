@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_6f509e1f-18a3-452e-b78c-714efd0f2c5d.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_b01e1228-2386-4040-8692-be47993f35e0.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/the-album-rocco-hunt-e-clementino"
+          }
+        },
         "image_DJRRk7": {
           "type": "image",
           "settings": {
@@ -296,24 +313,6 @@
             "link": "shopify://collections/angele"
           }
         },
-        "image_hhc4xB": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_4e287e97-0615-4274-af2f-79b8aaa9bafb.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_296c5004-0824-4383-8a72-db95c02d44cf.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": ""
-          }
-        },
         "image_qLWTcg": {
           "type": "image",
           "settings": {
@@ -403,6 +402,7 @@
         }
       },
       "block_order": [
+        "image_hhc4xB",
         "image_DJRRk7",
         "image_x98LVH",
         "image_3dAeB8",
@@ -413,7 +413,6 @@
         "image_zLLxyF",
         "image_HciHCp",
         "image_rUmJpg",
-        "image_hhc4xB",
         "image_qLWTcg",
         "image_FV8WFP",
         "image_G3f6rF",
