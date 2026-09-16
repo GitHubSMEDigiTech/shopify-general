@@ -13,14 +13,14 @@
       "type": "main-collection",
       "settings": {
         "show_collection_image": true,
-        "collapse_collection_description": true,
+        "collapse_collection_description": false,
         "collapse_collection_style": false,
         "show_collection_top": true,
         "top_bg_color": "#f3f3f3",
         "headline_deco": true,
         "headline_deco_col": "#d82222",
         "collection_image_size": "large",
-        "products_per_row": "3",
+        "products_per_row": "4",
         "default_products_per_page": 24,
         "collection_pagination": "pagination",
         "loading_button": "Load More",
@@ -34,6 +34,104 @@
         "open_group_filters_mode": "all_closed"
       }
     },
+    "slideshow_wLg7CA": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4WCbxx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_74f1b34f-1f49-4356-9904-02ebf559c383.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_920260bc-84b9-4571-985e-5589508bf918.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Button",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4WCbxx"
+      ],
+      "disabled": true,
+      "name": "Slideshow",
+      "settings": {
+        "edge_to_edge": false,
+        "section_size": "small",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
+    "featured_collection_pbmzyh": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "collection": "back-to-school",
+        "title": "BACK TO SCHOOL",
+        "products_count": 6,
+        "layout": "vertical",
+        "stack_products": true,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "Scopri tutti",
+        "link_url": ""
+      }
+    },
+    "featured_collection_cmhqBK": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "back-to-school-international-lp-copia-1",
+        "title": "INTERNATIONAL",
+        "products_count": 12,
+        "layout": "horizontal",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_7inXir": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "back-to-school-pop",
+        "title": "POP",
+        "products_count": 12,
+        "layout": "horizontal",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
+    "featured_collection_8wrTAP": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "back-to-school-rap",
+        "title": "RAP",
+        "products_count": 12,
+        "layout": "horizontal",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
@@ -44,6 +142,11 @@
   },
   "order": [
     "main",
+    "slideshow_wLg7CA",
+    "featured_collection_pbmzyh",
+    "featured_collection_cmhqBK",
+    "featured_collection_7inXir",
+    "featured_collection_8wrTAP",
     "recently-viewed-products"
   ]
 }
