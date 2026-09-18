@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_zLLxyF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_8e5863fe-30bb-4ece-a7fc-6393d9ce170a.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_248e8f88-2546-48e3-9cf8-2847122f607e.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://products/adaver"
+          }
+        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -279,24 +296,6 @@
             "link": "shopify://collections/the-faith-tour-george-michael"
           }
         },
-        "image_zLLxyF": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_c941dc87-281c-4932-bd7d-1cb64efe8e92.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_2b5998c1-9521-4d5c-89af-ffdb0a236cb7.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/adaver"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -402,6 +401,7 @@
         }
       },
       "block_order": [
+        "image_zLLxyF",
         "image_hhc4xB",
         "image_DJRRk7",
         "image_G3f6rF",
@@ -411,7 +411,6 @@
         "image_kNcaX3",
         "image_3wJqzQ",
         "image_FU9RMN",
-        "image_zLLxyF",
         "image_HciHCp",
         "image_rUmJpg",
         "image_qLWTcg",
