@@ -28,6 +28,23 @@
             "link": "shopify://collections/fabri-fibra-neffa"
           }
         },
+        "image_YYeiAQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Exit_Music_2160x720_37cf85b5-6f79-42ed-bd66-1d1a54448415.jpg",
+            "mobile_image": "shopify://shop_images/Exit_Music_750x1100_e358d2cb-9c67-4b6c-9dc2-104fe61f416f.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/litfiba-17-re-live-1986-2026"
+          }
+        },
         "image_MRDKig": {
           "type": "image",
           "disabled": true,
@@ -263,6 +280,7 @@
       },
       "block_order": [
         "image_A9wrbV",
+        "image_YYeiAQ",
         "image_MRDKig",
         "image_eaLhW6",
         "image_HBkH4e",
