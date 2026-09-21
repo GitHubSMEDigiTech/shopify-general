@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_52e5fa3d-4398-43b8-b22e-7294c65aa62c.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ca084fa5-2fb7-42e6-82f0-2a6598fbd8c2.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/g-1-giorgia"
+          }
+        },
         "image_DJRRk7": {
           "type": "image",
           "settings": {
@@ -226,23 +243,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/greatest-hits-queen"
-          }
-        },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Desktop_JAX_V1.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_JAX_d8b84c18-6a25-4673-a845-38d88f2d000f.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/j-ax-vita-morte-miracoli"
           }
         },
         "image_kNcaX3": {
@@ -401,13 +401,13 @@
         }
       },
       "block_order": [
+        "image_4T4yhV",
         "image_DJRRk7",
         "image_hhc4xB",
         "image_zLLxyF",
         "image_G3f6rF",
         "image_x98LVH",
         "image_3dAeB8",
-        "image_4T4yhV",
         "image_kNcaX3",
         "image_3wJqzQ",
         "image_FU9RMN",
