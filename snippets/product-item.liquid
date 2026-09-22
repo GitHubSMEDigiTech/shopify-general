@@ -10,6 +10,7 @@
   {%- endif -%}
 {%- endif -%}
 
+{%- comment -%}
 {%- if customer.orders_count > 0 -%}
   {%- for order in customer.orders -%}
     {%- for line_item in order.line_items -%}
@@ -20,6 +21,7 @@
     {%- endfor -%}
   {%- endfor -%}
 {%- endif -%}
+ {%- endcomment -%}
 
 <div class="product-item {% if horizontal %}product-item--horizontal{% elsif list %}product-item--list{% else %}product-item--vertical{% endif %} {% if section.id == 'blog-sidebar' %}product-item--compact{% endif %} {{ grid_classes }}" data-product-title="{{ product.title | url_encode }}"  data-product-vendor="{{ product.vendor | url_encode }}">
   {%- capture product_labels -%}
