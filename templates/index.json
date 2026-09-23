@@ -194,6 +194,23 @@
             "link": "shopify://products/adaver"
           }
         },
+        "image_qLWTcg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LEON-BRIDGES_HappinessAnytime_BannerDesktop_2160x720_a449eff0-08d4-42a0-9aab-101f92167e4f.jpg",
+            "mobile_image": "shopify://shop_images/LEON-BRIDGES_HappinessAnytime_BannerMobile_750x1100_c5612e19-a4e0-4503-a769-334ba577f177.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/happiness-anytime-leon-bridges"
+          }
+        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -330,23 +347,6 @@
             "link": "shopify://collections/angele"
           }
         },
-        "image_qLWTcg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_f4378d59-76b8-42dc-9fbd-82f7d442b4a8.png",
-            "mobile_image": "shopify://shop_images/750x1100_3761ad8b-b309-40bb-a76f-0acd253ce53e.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/sono-lucio"
-          }
-        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -406,6 +406,7 @@
         "image_4T4yhV",
         "image_DJRRk7",
         "image_zLLxyF",
+        "image_qLWTcg",
         "image_G3f6rF",
         "image_x98LVH",
         "image_3dAeB8",
@@ -414,7 +415,6 @@
         "image_FU9RMN",
         "image_HciHCp",
         "image_rUmJpg",
-        "image_qLWTcg",
         "image_FV8WFP",
         "image_XHmBAC",
         "image_9kfgaA"
