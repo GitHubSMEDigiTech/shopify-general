@@ -93,6 +93,22 @@
             "link": "shopify://collections/queen-greatest-hits"
           }
         },
+        "image_y4rUTD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LEON-BRIDGES_HappinessAnytime_BannerDesktop_2160x720_6a006386-b555-4e66-b43e-721002ca6986.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/leon-bridges"
+          }
+        },
         "image_iB69qe": {
           "type": "image",
           "settings": {
@@ -249,6 +265,7 @@
         "image_eaLhW6",
         "image_HBkH4e",
         "image_MnL9PM",
+        "image_y4rUTD",
         "image_iB69qe",
         "image_NDnmNC",
         "image_tW7cLN",
