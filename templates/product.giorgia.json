@@ -24,7 +24,7 @@
         "text_374tfR": {
           "type": "text",
           "settings": {
-            "content": "<p><strong>Hai acquistato un biglietto per l'Unplugged Tour 2026?</strong></p><p>Per te c'è il 15% di sconto sul preordine del nuovo album MUSTANG! Aggiungi al carrello il CD o LP autografato e, al checkout, inserisci il codice del <strong>sigillo fiscale</strong> riportato sul tuo biglietto nel campo \"<strong>Codice Sconto</strong>\" per applicare lo sconto.</p>"
+            "content": "<p><strong>HAI ACQUISTATO UN BIGLIETTO PER I CONCERTI DI G - SUMMER e G - LAST CALL?</strong></p><p>Per te c'è il 15% di sconto sul preordine del nuovo album \"G+1\"! Aggiungi al carrello il CD o LP autografato e, al checkout, inserisci il codice del <strong>sigillo fiscale</strong> riportato sul tuo biglietto nel campo \"<strong>Codice Sconto</strong>\" per applicare lo sconto. Se hai già eseguito il preorder dell'album \"G+1\" senza codice puoi annullare l'ordine precedente e eseguire un nuovo ordine per ottenere il tuo sconto.&nbsp;<br/><br/></p>"
           }
         },
         "text_FYDwhT": {
@@ -167,6 +167,7 @@
         "image_G7EKwC",
         "image_cDMHDt"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "edge_to_edge": false,
