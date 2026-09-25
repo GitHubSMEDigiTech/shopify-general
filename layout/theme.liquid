@@ -172,6 +172,9 @@
     {{ content_for_header }}
 
         <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+    {% comment %} ICT {% endcomment %}
+    {{ 'ict.css' | asset_url | stylesheet_tag }}
+    {% comment %} end ICT {% endcomment %}
 
     {% render 'microdata-schema' %}
 
