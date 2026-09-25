@@ -7,17 +7,50 @@
 
 {%- assign linked_collections = section.settings.collections_source -%}
 
+{%- assign products_per_page = section.settings.products_per_page | default: 8 -%}
+{%- if products_per_page < 1 -%}
+  {%- assign products_per_page = 1 -%}
+{%- endif -%}
+{%- if products_per_page > 50 -%}
+  {%- assign products_per_page = 50 -%}
+{%- endif -%}
+
+{%- assign rendered_pages_max = 50 | divided_by: products_per_page -%}
+{%- assign products_limit = rendered_pages_max | times: products_per_page -%}
+
+
 {%- if linked_collections != blank -%}
   {{ 'section-featured-collections-list.css' | asset_url | stylesheet_tag }}
-  <section class="section" data-section-id="{{ section.id }}" data-section-type="featured-collection" data-section-settings='{{ section_settings }}'>
+  <section class="section featured-collections-list" data-section-id="{{ section.id }}" data-section-type="featured-collection" data-section-settings='{{ section_settings }}'>
 
     <div class="container">
       <header class="featured-collections-list__page-header">
         <h1 class="featured-collections-list__page-title heading h1">{{ collection.title | escape }}</h1>
       </header>
+    </div>
 
+    {%- if section.settings.show_anchor_nav -%}
+      <nav class="featured-collections-list__nav" aria-label="{{ section.settings.anchor_nav_label | escape }}" data-anchor-nav>
+        <div class="container featured-collections-list__nav-container">
+          <div class="featured-collections-list__nav-inner">
+            {%- for linked_collection in linked_collections -%}
+              {%- assign anchor_id = section.id | append: '-' | append: forloop.index | append: '-' | append: linked_collection.handle -%}
+              <a
+                class="featured-collections-list__nav-link button button--small button--ternary"
+                href="#{{ anchor_id }}"
+                data-anchor-link
+                data-target="{{ anchor_id }}"
+              >{{ linked_collection.title | escape }}</a>
+            {%- endfor -%}
+          </div>
+        </div>
+      </nav>
+    {%- endif -%}
+
+    <div class="container">
       {%- for linked_collection in linked_collections -%}
-        <div class="featured-collections-list__group">
+        {%- assign anchor_id = section.id | append: '-' | append: forloop.index | append: '-' | append: linked_collection.handle -%}
+        <div class="featured-collections-list__group" id="{{ anchor_id }}" data-group>
           {%- if section.settings.show_blurred_background and linked_collection.image != blank -%}
             <div class="featured-collections-list__group-background" style="background-image: url('{{ linked_collection.image | image_url: width: 1600 }}');" aria-hidden="true"></div>
           {%- endif -%}
@@ -39,18 +72,68 @@
             {%- endif -%}
           </header>
 
-          <div class="scroller featured-collections-list__scroller">
+          {%- assign products_count = linked_collection.products_count -%}
+          {%- assign rendered_count = products_count -%}
+          {%- if rendered_count > products_limit -%}
+            {%- assign rendered_count = products_limit -%}
+          {%- endif -%}
+
+          <div class="scroller scroller--flush featured-collections-list__scroller">
             <div class="scroller__inner">
-              <div class="featured-collections-list__products" role="list">
-                {%- for product in linked_collection.products limit: 8 -%}
-                  {%- render 'product-item', product: product, show_add_to_cart: section.settings.show_quick_buy, show_quick_inventory: section.settings.show_quick_inventory -%}
+              <div
+                class="featured-collections-list__products"
+                role="list"
+                data-products
+                data-per-page="{{ products_per_page }}"
+                data-collection-url="{{ linked_collection.url }}"
+                data-rendered-count="{{ rendered_count }}"
+              >
+                {%- for product in linked_collection.products limit: products_limit -%}
+                  {%- assign product_page = forloop.index0 | divided_by: products_per_page | plus: 1 -%}
+                  <div class="featured-collections-list__product" role="listitem" data-product-item data-page="{{ product_page }}"{% if product_page > 1 %} hidden{% endif %}>
+                    {%- render 'product-item', product: product, show_add_to_cart: section.settings.show_quick_buy, show_quick_inventory: section.settings.show_quick_inventory -%}
+                  </div>
                 {%- endfor -%}
               </div>
             </div>
           </div>
+
+          {%- if products_count > products_per_page -%}
+            {%- assign total_pages = products_count | divided_by: products_per_page -%}
+            {%- assign pages_remainder = products_count | modulo: products_per_page -%}
+            {%- if pages_remainder > 0 -%}
+              {%- assign total_pages = total_pages | plus: 1 -%}
+            {%- endif -%}
+
+            <div
+              class="featured-collections-list__pagination"
+              data-pagination
+              data-total-pages="{{ total_pages }}"
+            ></div>
+          {%- endif -%}
+
         </div>
       {%- endfor -%}
+
+      {%- if collection.description != blank -%}
+        <div class="featured-collections-list__collection-description">
+          <div class="rte featured-collections-list__collection-description-text" data-description>
+            {{ collection.description }}
+          </div>
+
+          <button
+            type="button"
+            class="featured-collections-list__toggle button button--small button--ternary"
+            data-description-toggle
+            data-label-more="{{ section.settings.read_more_label | escape }}"
+            data-label-less="{{ section.settings.read_less_label | escape }}"
+            hidden
+            aria-expanded="false"
+          >{{ section.settings.read_more_label | escape }}</button>
+        </div>
+      {%- endif -%}
     </div>
+
   </section>
 
   <script>
@@ -81,9 +164,15 @@
         toggleEl.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
       }
 
+      function findToggle(descriptionEl) {
+        var wrapper = descriptionEl.closest('.featured-collections-list__header')
+          || descriptionEl.closest('.featured-collections-list__collection-description');
+
+        return wrapper ? wrapper.querySelector('[data-description-toggle]') : null;
+      }
+
       descriptionBlocks.forEach(function(descriptionEl) {
-        var groupHeader = descriptionEl.closest('.featured-collections-list__header');
-        var toggleEl = groupHeader ? groupHeader.querySelector('[data-description-toggle]') : null;
+        var toggleEl = findToggle(descriptionEl);
 
         updateToggleState(descriptionEl, toggleEl);
 
@@ -95,16 +184,246 @@
         }
       });
 
-      window.addEventListener('resize', function() {
+      window.addEventListener('load', function() {
         descriptionBlocks.forEach(function(descriptionEl) {
-          var groupHeader = descriptionEl.closest('.featured-collections-list__header');
-          var toggleEl = groupHeader ? groupHeader.querySelector('[data-description-toggle]') : null;
-
           if (!descriptionEl.classList.contains('is-expanded')) {
-            updateToggleState(descriptionEl, toggleEl);
+            updateToggleState(descriptionEl, findToggle(descriptionEl));
           }
         });
       });
+
+      window.addEventListener('resize', function() {
+        descriptionBlocks.forEach(function(descriptionEl) {
+          if (!descriptionEl.classList.contains('is-expanded')) {
+            updateToggleState(descriptionEl, findToggle(descriptionEl));
+          }
+        });
+      });
+
+      sectionEl.querySelectorAll('[data-pagination]').forEach(function(paginationEl) {
+        var groupEl = paginationEl.closest('[data-group]');
+        var productsEl = groupEl ? groupEl.querySelector('[data-products]') : null;
+
+        if (!productsEl) {
+          return;
+        }
+
+        var totalPages = parseInt(paginationEl.getAttribute('data-total-pages'), 10) || 1;
+        var perPage = parseInt(productsEl.getAttribute('data-per-page'), 10) || 8;
+        var collectionUrl = productsEl.getAttribute('data-collection-url');
+        var quickBuy = {{ section.settings.show_quick_buy | json }};
+        var quickInventory = {{ section.settings.show_quick_inventory | json }};
+        var currentPage = 1;
+        var isLoading = false;
+
+        var cache = {};
+
+        function bindPagination() {
+          paginationEl.querySelectorAll('[data-page]').forEach(function(link) {
+            link.addEventListener('click', function(event) {
+              event.preventDefault();
+              renderPage(parseInt(link.getAttribute('data-page'), 10));
+            });
+          });
+        }
+
+        function showPage(page) {
+          // I prodotti fetchati sono sempre rimossi: quelli della pagina
+          // richiesta vengono riaggiunti sotto.
+          productsEl.querySelectorAll('[data-product-item]').forEach(function(item) {
+            if (item.getAttribute('data-page') === null) {
+              item.remove();
+            }
+          });
+
+          // La pagina esiste gia' nel markup: basta scoprirla.
+          var hasLocal = productsEl.querySelector('[data-page="' + page + '"]') !== null;
+
+          productsEl.querySelectorAll('[data-page]').forEach(function(item) {
+            item.hidden = !hasLocal || parseInt(item.getAttribute('data-page'), 10) !== page;
+          });
+
+          if (!hasLocal && cache[page]) {
+            cache[page].products.forEach(function(node) {
+              productsEl.appendChild(node.cloneNode(true));
+            });
+          }
+
+          if (cache[page]) {
+            paginationEl.innerHTML = cache[page].pagination;
+            bindPagination();
+          }
+
+          var scrollerInner = productsEl.closest('.scroller__inner');
+
+          if (scrollerInner) {
+            scrollerInner.scrollLeft = 0;
+          }
+        }
+
+        function loadPage(page) {
+          if (!collectionUrl) {
+            return Promise.reject();
+          }
+
+          var url = collectionUrl
+            + '?section_id=featured-collections-page'
+            + '&per=' + perPage
+            + '&page=' + page
+            + '&quick_buy=' + quickBuy
+            + '&quick_inventory=' + quickInventory;
+
+          return fetch(url).then(function(response) {
+            if (!response.ok) {
+              throw new Error('Richiesta fallita');
+            }
+
+            return response.text();
+          }).then(function(html) {
+            var parsed = new DOMParser().parseFromString(html, 'text/html');
+            var paginationSource = parsed.querySelector('[data-page-pagination]');
+
+            cache[page] = {
+              products: Array.prototype.slice.call(parsed.querySelectorAll('[data-product-item]')),
+              pagination: paginationSource ? paginationSource.innerHTML : ''
+            };
+          });
+        }
+
+        function renderPage(page) {
+          var target = Math.min(Math.max(page, 1), totalPages);
+
+          if (isLoading || target === currentPage) {
+            return;
+          }
+
+          if (cache[target]) {
+            currentPage = target;
+            showPage(target);
+            return;
+          }
+
+          isLoading = true;
+          paginationEl.classList.add('is-loading');
+
+          loadPage(target).then(function() {
+            currentPage = target;
+            showPage(target);
+          }).catch(function() {
+          }).then(function() {
+            isLoading = false;
+            paginationEl.classList.remove('is-loading');
+          });
+        }
+
+        loadPage(1).then(function() {
+          paginationEl.innerHTML = cache[1].pagination;
+          bindPagination();
+        }).catch(function() {});
+      });
+
+      var navEl = sectionEl.querySelector('[data-anchor-nav]');
+
+      if (navEl) {
+        var setNavHeight = function() {
+          sectionEl.style.setProperty('--anchor-nav-height', navEl.offsetHeight + 'px');
+        };
+
+        setNavHeight();
+        window.addEventListener('resize', setNavHeight);
+      }
+
+      if (navEl && 'IntersectionObserver' in window) {
+        var navScroller = navEl.querySelector('.featured-collections-list__nav-container');
+        var navLinks = {};
+
+        navEl.querySelectorAll('[data-anchor-link]').forEach(function(link) {
+          navLinks[link.getAttribute('data-target')] = link;
+        });
+
+        var visibleGroups = [];
+        var activeId = null;
+
+        function setActiveGroup() {
+          if (!visibleGroups.length) {
+            return;
+          }
+
+          var entering = visibleGroups.reduce(function(topmost, groupEl) {
+            var top = groupEl.getBoundingClientRect().top;
+            return top < topmost.top ? { el: groupEl, top: top } : topmost;
+          }, { el: visibleGroups[0], top: visibleGroups[0].getBoundingClientRect().top });
+
+          if (entering.el.id === activeId) {
+            return;
+          }
+
+          activeId = entering.el.id;
+
+          Object.keys(navLinks).forEach(function(id) {
+            navLinks[id].classList.toggle('is-active', id === activeId);
+          });
+
+          var link = navLinks[activeId];
+
+          if (link && navScroller && navScroller.scrollWidth > navScroller.clientWidth) {
+            var linkLeft = link.offsetLeft - (navScroller.clientWidth - link.offsetWidth) / 2;
+            navScroller.scrollTo({ left: Math.max(linkLeft, 0), behavior: 'smooth' });
+          }
+        }
+
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            var index = visibleGroups.indexOf(entry.target);
+
+            if (entry.isIntersecting && index === -1) {
+              visibleGroups.push(entry.target);
+            } else if (!entry.isIntersecting && index !== -1) {
+              visibleGroups.splice(index, 1);
+            }
+          });
+
+          setActiveGroup();
+        }, { rootMargin: '-' + (navEl.offsetHeight + 80) + 'px 0px -55% 0px' });
+
+        var groupEls = sectionEl.querySelectorAll('[data-group]');
+
+        groupEls.forEach(function(groupEl) {
+          observer.observe(groupEl);
+        });
+
+        var lastGroup = groupEls[groupEls.length - 1];
+
+        if (lastGroup) {
+          var navIsHidden = false;
+          var scrollTicking = false;
+
+          var updateNavVisibility = function() {
+            scrollTicking = false;
+
+            var shouldHide = lastGroup.getBoundingClientRect().bottom < navEl.getBoundingClientRect().bottom;
+
+            if (shouldHide === navIsHidden) {
+              return;
+            }
+
+            navIsHidden = shouldHide;
+            navEl.classList.toggle('is-hidden', shouldHide);
+            navEl.setAttribute('aria-hidden', shouldHide ? 'true' : 'false');
+          };
+
+          var onScroll = function() {
+            if (!scrollTicking) {
+              scrollTicking = true;
+              window.requestAnimationFrame(updateNavVisibility);
+            }
+          };
+
+          window.addEventListener('scroll', onScroll, { passive: true });
+          window.addEventListener('resize', onScroll);
+          updateNavVisibility();
+        }
+      }
     })();
   </script>
 {%- endif -%}
@@ -113,7 +432,9 @@
 {
   "name": "Featured collections list",
   "enabled_on": {
-    "templates": ["collection"]
+    "templates": [
+      "collection"
+    ]
   },
   "settings": [
     {
@@ -121,6 +442,41 @@
       "id": "collections_source",
       "label": "Collections source",
       "info": "Puoi collegare un metafield di tipo lista di collezioni"
+    },
+    {
+      "type": "header",
+      "content": "Navigazione album"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_anchor_nav",
+      "label": "Show anchor navigation",
+      "info": "Barra sticky con un bottone per ogni collezione collegata",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "anchor_nav_label",
+      "label": "Anchor navigation aria-label",
+      "default": "Naviga tra gli album"
+    },
+    {
+      "type": "header",
+      "content": "Prodotti e paginazione"
+    },
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "label": "Products per page",
+      "info": "Le prime pagine sono gia' nella pagina (fino a 50 prodotti, limite di Shopify), le successive si caricano al click",
+      "min": 2,
+      "max": 24,
+      "step": 2,
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Aspetto"
     },
     {
       "type": "checkbox",
