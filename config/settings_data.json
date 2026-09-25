@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_color": "#666666",
@@ -55,22 +55,22 @@
     "show_inventory_quantity": false,
     "low_inventory_threshold": 2,
     "cart_type": "drawer",
-    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_empty_button_link": "shopify://collections/all",
     "cart_show_checkout_button": true,
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "50",
-    "social_facebook": "https:\/\/www.facebook.com\/InsideOutMusic\/",
-    "social_twitter": "https:\/\/twitter.com\/insideouteu",
+    "social_facebook": "https://www.facebook.com/InsideOutMusic/",
+    "social_twitter": "https://twitter.com/insideouteu",
     "social_pinterest": "",
-    "social_instagram": "https:\/\/www.instagram.com\/insideoutmusic\/",
+    "social_instagram": "https://www.instagram.com/insideoutmusic/",
     "social_vimeo": "",
     "social_tumblr": "",
-    "social_youtube": "https:\/\/www.youtube.com\/user\/InsideOutMusicTV",
+    "social_youtube": "https://www.youtube.com/user/InsideOutMusicTV",
     "social_linkedin": "",
     "social_snapchat": "",
     "social_fancy": "",
-    "favicon": "shopify:\/\/shop_images\/IOM_Logo.jpg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/IOM_Logo.jpg",
+    "favicon": "shopify://shop_images/IOM_Logo.jpg",
+    "checkout_logo_image": "shopify://shop_images/IOM_Logo.jpg",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -121,7 +121,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/IO_logo_transp.png",
+          "logo": "shopify://shop_images/IO_logo_transp.png",
           "logo_max_width": 230,
           "mobile_logo_max_width": 50,
           "show_locale_selector": true,
@@ -152,7 +152,7 @@
             "settings": {
               "title": "",
               "liquid": "",
-              "content": "<p><a href=\"https:\/\/insideoutshop-eu.myshopify.com\/account\/\" title=\"https:\/\/insideoutshop-eu.myshopify.com\/account\/\">My account<\/a><\/p>"
+              "content": "<p><a href=\"https://insideoutshop-eu.myshopify.com/account/\" title=\"https://insideoutshop-eu.myshopify.com/account/\">My account</a></p>"
             }
           },
           "b1ff6c53-266c-47e1-8025-b1a6d9ba73b2": {
@@ -161,7 +161,7 @@
             "settings": {
               "title": "",
               "liquid": "",
-              "content": "<p><a href=\"\/pages\/terms-and-service\" title=\"Terms and Service\">Terms and Service<\/a><\/p><p><a href=\"\/pages\/privacy-statement\" title=\"Privacy statement\">Privacy Statement<\/a><\/p><p><a href=\"\/pages\/return-policy\" title=\"Return Policy\">Return Policy<\/a><\/p>"
+              "content": "<p><a href=\"/pages/terms-and-service\" title=\"Terms and Service\">Terms and Service</a></p><p><a href=\"/pages/privacy-statement\" title=\"Privacy statement\">Privacy Statement</a></p><p><a href=\"/pages/return-policy\" title=\"Return Policy\">Return Policy</a></p>"
             }
           },
           "footer-0": {
@@ -170,7 +170,7 @@
             "settings": {
               "title": "",
               "liquid": "",
-              "content": "<p><a href=\"\/pages\/imprint\" title=\"Imprint\">Imprint<\/a><\/p><p><a href=\"\/pages\/payment-and-shipping\" title=\"Payment and Shipping\">Payment and Shipping<\/a><\/p>"
+              "content": "<p><a href=\"/pages/imprint\" title=\"Imprint\">Imprint</a></p><p><a href=\"/pages/payment-and-shipping\" title=\"Payment and Shipping\">Payment and Shipping</a></p>"
             }
           },
           "90870819-c265-4cc2-94b0-5e40ad2810f7": {
@@ -179,7 +179,7 @@
             "settings": {
               "title": "",
               "liquid": "",
-              "content": "<p><a href=\"\/pages\/faqs\" title=\"FAQs\">FAQs<\/a><\/p>"
+              "content": "<p><a href=\"/pages/faqs\" title=\"FAQs\">FAQs</a></p>"
             }
           },
           "footer-1": {
@@ -193,7 +193,7 @@
             "disabled": true,
             "settings": {
               "title": "Newsletter",
-              "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
             }
           },
           "4a5f8bdc-021f-47d6-9dc9-422f54d43095": {
@@ -219,7 +219,7 @@
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_cookie_bar": false,
-          "text": "<p>By clicking “Accept”, you agree to the storing of cookies on your device to enhance site navigation.<\/p>",
+          "text": "<p>By clicking “Accept”, you agree to the storing of cookies on your device to enhance site navigation.</p>",
           "accept_button": "Accept"
         }
       },
@@ -235,7 +235,7 @@
           "show_newsletter": true,
           "newsletter_button": "Subscribe & Save",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
         }
       },
       "popups": {
@@ -249,7 +249,7 @@
               "show_only_for_visitors": false,
               "show_only_once": false,
               "title": "Inventory Alert!",
-              "content": "<h6>Please note that our system will be down for inventory between Feb 26 and Feb 29. You can still place orders during that time but they won´t be fulfilled before March 01. Also, delayed responses to your Emails may occur. <br\/>Thank you very much for your understanding. <br\/><br\/>Bitte beachtet, dass unser System zwischen dem 26. und 29. Februar wegen Inventur nicht verfügbar sein wird. Ihr könnt in dieser Zeit immer noch Bestellungen aufgeben, aber sie werden nicht vor dem 01. März ausgeführt. Außerdem kann es zu Verzögerungen bei der Beantwortung eurer Emails kommen. <br\/>Vielen Dank für euer Verständnis. <\/h6>",
+              "content": "<h6>Please note that our system will be down for inventory between Feb 26 and Feb 29. You can still place orders during that time but they won´t be fulfilled before March 01. Also, delayed responses to your Emails may occur. <br/>Thank you very much for your understanding. <br/><br/>Bitte beachtet, dass unser System zwischen dem 26. und 29. Februar wegen Inventur nicht verfügbar sein wird. Ihr könnt in dieser Zeit immer noch Bestellungen aufgeben, aber sie werden nicht vor dem 01. März ausgeführt. Außerdem kann es zu Verzögerungen bei der Beantwortung eurer Emails kommen. <br/>Vielen Dank für euer Verständnis. </h6>",
               "show_newsletter": false,
               "apparition_delay": 2
             }
@@ -258,8 +258,7 @@
         "block_order": [
           "newsletter_jBY9nq"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "static-text-with-icons": {
         "type": "static-text-with-icons",
@@ -270,7 +269,7 @@
             "settings": {
               "icon": "bi-shop",
               "title": "Free delivery worldwide",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-1": {
@@ -279,7 +278,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Satisfied or refunded",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-2": {
@@ -288,7 +287,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Top-notch support",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           },
           "static-text-with-icons-3": {
@@ -297,7 +296,7 @@
             "settings": {
               "icon": "bi-secure-payment",
               "title": "Secure payments",
-              "content": "<p>Short content about your store<\/p>"
+              "content": "<p>Short content about your store</p>"
             }
           }
         },
@@ -313,14 +312,38 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "1984534506411008366": {
-        "type": "shopify:\/\/apps\/bot-buy-x-get-y-free-gifts\/blocks\/app-embeded\/ec21afbf-38af-430f-b440-b90dea69c0f9",
+        "type": "shopify://apps/bot-buy-x-get-y-free-gifts/blocks/app-embeded/ec21afbf-38af-430f-b440-b90dea69c0f9",
+        "disabled": false,
+        "settings": {}
+      },
+      "1978484776094144074": {
+        "type": "shopify://apps/eu-warranty-garan-label/blocks/warranty-embed/019f65c6-c543-7edb-b3d8-adfd82797063",
         "disabled": false,
         "settings": {
+          "cart_style": "compact",
+          "summary_icon": "eu_shield",
+          "show_eu_info_link": false,
+          "font_size": 14,
+          "garan_field_size": 11,
+          "text_color": "#121212",
+          "background_color": "#ffffff",
+          "summary_padding": 12,
+          "panel_padding": 14,
+          "spacing": 12,
+          "border_color": "#d4d4d4",
+          "border_width": 1,
+          "border_radius": 10,
+          "label_width": 340,
+          "label_align": "left",
+          "label_border_color": "#231f20",
+          "label_border_width": 1,
+          "label_border_radius": 0,
+          "label_background": "#ffffff",
+          "label_margin_top": 8,
+          "label_margin_bottom": 8
         }
       }
     }
