@@ -230,6 +230,7 @@
         },
         "image_x98LVH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_75db554f-9dd0-47ad-854b-7b0b20ac3404.jpg",
             "mobile_image": "shopify://shop_images/750x1100_e0e428f9-3726-4a72-9d76-da835e858be4.jpg",
