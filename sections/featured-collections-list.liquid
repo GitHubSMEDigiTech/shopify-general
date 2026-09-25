@@ -73,10 +73,6 @@
           </header>
 
           {%- assign products_count = linked_collection.products_count -%}
-          {%- assign rendered_count = products_count -%}
-          {%- if rendered_count > products_limit -%}
-            {%- assign rendered_count = products_limit -%}
-          {%- endif -%}
 
           <div class="scroller scroller--flush featured-collections-list__scroller">
             <div class="scroller__inner">
@@ -86,7 +82,6 @@
                 data-products
                 data-per-page="{{ products_per_page }}"
                 data-collection-url="{{ linked_collection.url }}"
-                data-rendered-count="{{ rendered_count }}"
               >
                 {%- for product in linked_collection.products limit: products_limit -%}
                   {%- assign product_page = forloop.index0 | divided_by: products_per_page | plus: 1 -%}
@@ -144,6 +139,26 @@
         return;
       }
 
+      var windowListeners = [];
+
+      function onWindow(type, handler, options) {
+        window.addEventListener(type, handler, options);
+        windowListeners.push([type, handler, options]);
+      }
+
+      document.addEventListener('shopify:section:unload', function onUnload(event) {
+        if (event.detail.sectionId !== '{{ section.id }}') {
+          return;
+        }
+
+        windowListeners.forEach(function(entry) {
+          window.removeEventListener(entry[0], entry[1], entry[2]);
+        });
+
+        windowListeners = [];
+        document.removeEventListener('shopify:section:unload', onUnload);
+      });
+
       var descriptionBlocks = sectionEl.querySelectorAll('[data-description]');
 
       function updateToggleState(descriptionEl, toggleEl) {
@@ -184,7 +199,7 @@
         }
       });
 
-      window.addEventListener('load', function() {
+      onWindow('load', function() {
         descriptionBlocks.forEach(function(descriptionEl) {
           if (!descriptionEl.classList.contains('is-expanded')) {
             updateToggleState(descriptionEl, findToggle(descriptionEl));
@@ -192,7 +207,7 @@
         });
       });
 
-      window.addEventListener('resize', function() {
+      onWindow('resize', function() {
         descriptionBlocks.forEach(function(descriptionEl) {
           if (!descriptionEl.classList.contains('is-expanded')) {
             updateToggleState(descriptionEl, findToggle(descriptionEl));
@@ -209,12 +224,9 @@
         }
 
         var totalPages = parseInt(paginationEl.getAttribute('data-total-pages'), 10) || 1;
-        var perPage = parseInt(productsEl.getAttribute('data-per-page'), 10) || 8;
         var collectionUrl = productsEl.getAttribute('data-collection-url');
-        var quickBuy = {{ section.settings.show_quick_buy | json }};
-        var quickInventory = {{ section.settings.show_quick_inventory | json }};
         var currentPage = 1;
-        var isLoading = false;
+        var requestId = 0;
 
         var cache = {};
 
@@ -222,21 +234,46 @@
           paginationEl.querySelectorAll('[data-page]').forEach(function(link) {
             link.addEventListener('click', function(event) {
               event.preventDefault();
-              renderPage(parseInt(link.getAttribute('data-page'), 10));
+
+              var page = parseInt(link.getAttribute('data-page'), 10);
+
+              if (!isNaN(page)) {
+                renderPage(page);
+              }
             });
           });
         }
 
+        function markRowStarts() {
+          var visible = [];
+
+          productsEl.querySelectorAll('.featured-collections-list__product').forEach(function(item) {
+            item.classList.remove('is-row-start');
+
+            if (!item.hidden) {
+              visible.push(item);
+            }
+          });
+
+          var rowTop = null;
+
+          visible.forEach(function(item) {
+            var top = item.offsetTop;
+
+            if (rowTop === null || top > rowTop + 1) {
+              rowTop = top;
+              item.classList.add('is-row-start');
+            }
+          });
+        }
+
         function showPage(page) {
-          // I prodotti fetchati sono sempre rimossi: quelli della pagina
-          // richiesta vengono riaggiunti sotto.
           productsEl.querySelectorAll('[data-product-item]').forEach(function(item) {
             if (item.getAttribute('data-page') === null) {
               item.remove();
             }
           });
 
-          // La pagina esiste gia' nel markup: basta scoprirla.
           var hasLocal = productsEl.querySelector('[data-page="' + page + '"]') !== null;
 
           productsEl.querySelectorAll('[data-page]').forEach(function(item) {
@@ -254,6 +291,8 @@
             bindPagination();
           }
 
+          markRowStarts();
+
           var scrollerInner = productsEl.closest('.scroller__inner');
 
           if (scrollerInner) {
@@ -263,15 +302,13 @@
 
         function loadPage(page) {
           if (!collectionUrl) {
-            return Promise.reject();
+            return Promise.reject(new Error('URL collezione mancante'));
           }
 
-          var url = collectionUrl
-            + '?section_id=featured-collections-page'
-            + '&per=' + perPage
-            + '&page=' + page
-            + '&quick_buy=' + quickBuy
-            + '&quick_inventory=' + quickInventory;
+          var separator = collectionUrl.indexOf('?') === -1 ? '?' : '&';
+          var url = collectionUrl + separator
+            + 'section_id=featured-collections-page'
+            + '&page=' + encodeURIComponent(page);
 
           return fetch(url).then(function(response) {
             if (!response.ok) {
@@ -282,6 +319,15 @@
           }).then(function(html) {
             var parsed = new DOMParser().parseFromString(html, 'text/html');
             var paginationSource = parsed.querySelector('[data-page-pagination]');
+            var productsSource = parsed.querySelector('[data-page-products]');
+
+            if (productsSource) {
+              var serverPages = parseInt(productsSource.getAttribute('data-total-pages'), 10);
+
+              if (!isNaN(serverPages) && serverPages > 0) {
+                totalPages = serverPages;
+              }
+            }
 
             cache[page] = {
               products: Array.prototype.slice.call(parsed.querySelectorAll('[data-product-item]')),
@@ -293,7 +339,7 @@
         function renderPage(page) {
           var target = Math.min(Math.max(page, 1), totalPages);
 
-          if (isLoading || target === currentPage) {
+          if (target === currentPage) {
             return;
           }
 
@@ -303,37 +349,68 @@
             return;
           }
 
-          isLoading = true;
+          var token = ++requestId;
           paginationEl.classList.add('is-loading');
 
           loadPage(target).then(function() {
+            if (token !== requestId) {
+              return;
+            }
+
             currentPage = target;
             showPage(target);
           }).catch(function() {
           }).then(function() {
-            isLoading = false;
-            paginationEl.classList.remove('is-loading');
+            if (token === requestId) {
+              paginationEl.classList.remove('is-loading');
+            }
           });
         }
 
+        markRowStarts();
+        onWindow('resize', markRowStarts);
+        onWindow('load', markRowStarts);
+
         loadPage(1).then(function() {
+          if (!cache[1]) {
+            return;
+          }
+
           paginationEl.innerHTML = cache[1].pagination;
           bindPagination();
-        }).catch(function() {});
+        }).catch(function() {
+          paginationEl.classList.add('is-unavailable');
+        });
       });
 
       var navEl = sectionEl.querySelector('[data-anchor-nav]');
 
+      var scrollOffset = 140;
+
+      var setScrollOffset = function() {
+        var offset = 20;
+
+        if (navEl) {
+          offset += (parseFloat(getComputedStyle(navEl).top) || 0) + navEl.offsetHeight;
+        } else {
+          var rootStyle = getComputedStyle(document.documentElement);
+          var isSticky = parseFloat(rootStyle.getPropertyValue('--header-is-sticky')) || 0;
+          offset += isSticky * (parseFloat(rootStyle.getPropertyValue('--header-height')) || 0);
+        }
+
+        scrollOffset = offset;
+        sectionEl.style.setProperty('--anchor-scroll-offset', offset + 'px');
+
+        sectionEl.querySelectorAll('[data-anchor-link]').forEach(function(link) {
+          link.setAttribute('data-offset', offset);
+        });
+      };
+
+      setScrollOffset();
+      onWindow('resize', setScrollOffset);
+      onWindow('load', setScrollOffset);
+
       if (navEl) {
-        var setNavHeight = function() {
-          sectionEl.style.setProperty('--anchor-nav-height', navEl.offsetHeight + 'px');
-        };
-
-        setNavHeight();
-        window.addEventListener('resize', setNavHeight);
-      }
-
-      if (navEl && 'IntersectionObserver' in window) {
         var navScroller = navEl.querySelector('.featured-collections-list__nav-container');
         var navLinks = {};
 
@@ -341,24 +418,38 @@
           navLinks[link.getAttribute('data-target')] = link;
         });
 
-        var visibleGroups = [];
+        var groupEls = sectionEl.querySelectorAll('[data-group]');
         var activeId = null;
 
         function setActiveGroup() {
-          if (!visibleGroups.length) {
+          var line = scrollOffset + 1;
+          var current = null;
+
+          groupEls.forEach(function(groupEl) {
+            var rect = groupEl.getBoundingClientRect();
+
+            if (rect.top <= line && rect.bottom > line) {
+              current = groupEl;
+            }
+          });
+
+          if (!current) {
+            groupEls.forEach(function(groupEl) {
+              if (groupEl.getBoundingClientRect().top <= line) {
+                current = groupEl;
+              }
+            });
+          }
+
+          if (!current) {
+            current = groupEls[0];
+          }
+
+          if (!current || current.id === activeId) {
             return;
           }
 
-          var entering = visibleGroups.reduce(function(topmost, groupEl) {
-            var top = groupEl.getBoundingClientRect().top;
-            return top < topmost.top ? { el: groupEl, top: top } : topmost;
-          }, { el: visibleGroups[0], top: visibleGroups[0].getBoundingClientRect().top });
-
-          if (entering.el.id === activeId) {
-            return;
-          }
-
-          activeId = entering.el.id;
+          activeId = current.id;
 
           Object.keys(navLinks).forEach(function(id) {
             navLinks[id].classList.toggle('is-active', id === activeId);
@@ -372,34 +463,31 @@
           }
         }
 
-        var observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            var index = visibleGroups.indexOf(entry.target);
+        var scrollTicking = false;
 
-            if (entry.isIntersecting && index === -1) {
-              visibleGroups.push(entry.target);
-            } else if (!entry.isIntersecting && index !== -1) {
-              visibleGroups.splice(index, 1);
-            }
-          });
+        var onScrollSpy = function() {
+          if (!scrollTicking) {
+            scrollTicking = true;
+            window.requestAnimationFrame(function() {
+              scrollTicking = false;
+              setActiveGroup();
+            });
+          }
+        };
 
-          setActiveGroup();
-        }, { rootMargin: '-' + (navEl.offsetHeight + 80) + 'px 0px -55% 0px' });
-
-        var groupEls = sectionEl.querySelectorAll('[data-group]');
-
-        groupEls.forEach(function(groupEl) {
-          observer.observe(groupEl);
-        });
+        onWindow('scroll', onScrollSpy, { passive: true });
+        onWindow('resize', onScrollSpy);
+        onWindow('load', setActiveGroup);
+        setActiveGroup();
 
         var lastGroup = groupEls[groupEls.length - 1];
 
         if (lastGroup) {
           var navIsHidden = false;
-          var scrollTicking = false;
+          var visibilityTicking = false;
 
           var updateNavVisibility = function() {
-            scrollTicking = false;
+            visibilityTicking = false;
 
             var shouldHide = lastGroup.getBoundingClientRect().bottom < navEl.getBoundingClientRect().bottom;
 
@@ -413,14 +501,14 @@
           };
 
           var onScroll = function() {
-            if (!scrollTicking) {
-              scrollTicking = true;
+            if (!visibilityTicking) {
+              visibilityTicking = true;
               window.requestAnimationFrame(updateNavVisibility);
             }
           };
 
-          window.addEventListener('scroll', onScroll, { passive: true });
-          window.addEventListener('resize', onScroll);
+          onWindow('scroll', onScroll, { passive: true });
+          onWindow('resize', onScroll);
           updateNavVisibility();
         }
       }
