@@ -12,6 +12,22 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_JN8wpR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1_d646737b-20f7-4167-a5f5-d42a9fe87eb8.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/il-volo-our-christmas"
+          }
+        },
         "image_YYeiAQ": {
           "type": "image",
           "settings": {
@@ -245,6 +261,7 @@
         }
       },
       "block_order": [
+        "image_JN8wpR",
         "image_YYeiAQ",
         "image_A9wrbV",
         "image_HBkH4e",
