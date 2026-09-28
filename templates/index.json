@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_HciHCp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_31bc2847-2e3e-4baa-b6fc-66d0bc62b3b8.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_ef933dba-3c16-40a8-bcf3-dce8b05471c5.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/our-christmas-il-volo"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -194,23 +211,6 @@
             "link": "shopify://collections/fabri-fibra-neffa-zarathustra"
           }
         },
-        "image_zLLxyF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_8e5863fe-30bb-4ece-a7fc-6393d9ce170a.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_248e8f88-2546-48e3-9cf8-2847122f607e.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://products/adaver"
-          }
-        },
         "image_qLWTcg": {
           "type": "image",
           "settings": {
@@ -243,23 +243,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/back-to-school"
-          }
-        },
-        "image_3dAeB8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/queengreatesthits.jpg",
-            "mobile_image": "shopify://shop_images/queengratesthitsmob.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/greatest-hits-queen"
           }
         },
         "image_kNcaX3": {
@@ -311,23 +294,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/the-faith-tour-george-michael"
-          }
-        },
-        "image_HciHCp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_01a95418-7eec-485f-bb1c-4acab1256e8e.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_f1523c30-dc21-469b-a3b9-09cc9af95110.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/beyonce"
           }
         },
         "image_rUmJpg": {
@@ -402,18 +368,16 @@
         }
       },
       "block_order": [
+        "image_HciHCp",
         "image_x98LVH",
         "image_hhc4xB",
         "image_4T4yhV",
         "image_DJRRk7",
-        "image_zLLxyF",
         "image_qLWTcg",
         "image_G3f6rF",
-        "image_3dAeB8",
         "image_kNcaX3",
         "image_3wJqzQ",
         "image_FU9RMN",
-        "image_HciHCp",
         "image_rUmJpg",
         "image_FV8WFP",
         "image_XHmBAC",
