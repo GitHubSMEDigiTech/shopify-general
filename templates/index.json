@@ -247,6 +247,7 @@
         },
         "image_kNcaX3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/litfiba_0c08a942-6ed3-49ab-ad25-988ccb22af51.png",
             "mobile_image": "shopify://shop_images/llitmobile.png",
