@@ -1,0 +1,632 @@
+{% comment %}
+  Mostra le collezioni collegate (setting collections_source, di norma il metafield
+  custom.collection_list) come riquadri con prodotti paginati e barra di navigazione ad ancore.
+  Le collezioni senza prodotti non vengono mostrate. Le pagine oltre quelle già in pagina
+  si caricano via Section Rendering API da featured-collections-page.
+
+  JS: script inline (IIFE vanilla) in fondo alla section, fuori dai pattern T-19
+  (web-component / alpine / none). Intestazione in un tag comment e non in un tag doc:
+  Theme Check non ammette doc nelle section.
+{% endcomment %}
+
+{%- capture section_settings -%}
+{
+  "stackable": true,
+  "layout": "vertical"
+}
+{%- endcapture -%}
+
+{%- assign linked_collections = section.settings.collections_source -%}
+
+{%- assign products_per_page = section.settings.products_per_page | default: 8 -%}
+{%- if products_per_page < 1 -%}
+  {%- assign products_per_page = 1 -%}
+{%- endif -%}
+{%- if products_per_page > 50 -%}
+  {%- assign products_per_page = 50 -%}
+{%- endif -%}
+
+{%- assign rendered_pages_max = 50 | divided_by: products_per_page -%}
+{%- assign products_limit = rendered_pages_max | times: products_per_page -%}
+
+{%- assign has_products = false -%}
+{%- for linked_collection in linked_collections -%}
+  {%- if linked_collection.products_count > 0 -%}
+    {%- assign has_products = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+
+{%- if has_products -%}
+  {{ 'section-featured-collections-list.css' | asset_url | stylesheet_tag }}
+  <section class="section featured-collections-list" data-section-id="{{ section.id }}" data-section-type="featured-collection" data-section-settings='{{ section_settings }}'>
+
+    <div class="container">
+      <header class="featured-collections-list__page-header">
+        <h1 class="featured-collections-list__page-title heading h1">{{ collection.title | escape }}</h1>
+      </header>
+    </div>
+
+    {%- if section.settings.show_anchor_nav -%}
+      <nav class="featured-collections-list__nav" aria-label="{{ section.settings.anchor_nav_label | escape }}" data-anchor-nav>
+        <div class="container featured-collections-list__nav-container">
+          <div class="featured-collections-list__nav-inner">
+            {%- for linked_collection in linked_collections -%}
+              {%- if linked_collection.products_count == 0 -%}
+                {%- continue -%}
+              {%- endif -%}
+              {%- assign anchor_id = section.id | append: '-' | append: forloop.index | append: '-' | append: linked_collection.handle -%}
+              <a
+                class="featured-collections-list__nav-link button button--small button--ternary"
+                href="#{{ anchor_id }}"
+                data-anchor-link
+                data-target="{{ anchor_id }}"
+              >{{ linked_collection.title | escape }}</a>
+            {%- endfor -%}
+          </div>
+        </div>
+      </nav>
+    {%- endif -%}
+
+    <div class="container">
+      {%- for linked_collection in linked_collections -%}
+        {%- if linked_collection.products_count == 0 -%}
+          {%- continue -%}
+        {%- endif -%}
+        {%- assign anchor_id = section.id | append: '-' | append: forloop.index | append: '-' | append: linked_collection.handle -%}
+        <div class="featured-collections-list__group" id="{{ anchor_id }}" data-group>
+          {%- if section.settings.show_blurred_background and linked_collection.image != blank -%}
+            <div class="featured-collections-list__group-background" style="background-image: url('{{ linked_collection.image | image_url: width: 1600 }}');" aria-hidden="true"></div>
+          {%- endif -%}
+
+          <header class="featured-collections-list__header">
+            <h2 class="featured-collections-list__title heading h3">{{ linked_collection.title | escape }}</h2>
+
+            {%- if linked_collection.description != blank -%}
+              <div class="featured-collections-list__description" data-description>{{ linked_collection.description }}</div>
+              <button
+                type="button"
+                class="featured-collections-list__toggle button button--small button--ternary"
+                data-description-toggle
+                data-label-more="{{ section.settings.read_more_label | escape }}"
+                data-label-less="{{ section.settings.read_less_label | escape }}"
+                hidden
+                aria-expanded="false"
+              >{{ section.settings.read_more_label | escape }}</button>
+            {%- endif -%}
+          </header>
+
+          {%- assign products_count = linked_collection.products_count -%}
+
+          <div class="scroller scroller--flush featured-collections-list__scroller">
+            <div class="scroller__inner">
+              <div
+                class="featured-collections-list__products"
+                role="list"
+                data-products
+                data-per-page="{{ products_per_page }}"
+                data-collection-url="{{ linked_collection.url }}"
+              >
+                {%- for product in linked_collection.products limit: products_limit -%}
+                  {%- assign product_page = forloop.index0 | divided_by: products_per_page | plus: 1 -%}
+                  <div class="featured-collections-list__product" role="listitem" data-product-item data-page="{{ product_page }}"{% if product_page > 1 %} hidden{% endif %}>
+                    {%- render 'product-item', product: product, show_add_to_cart: section.settings.show_quick_buy, show_quick_inventory: section.settings.show_quick_inventory -%}
+                  </div>
+                {%- endfor -%}
+              </div>
+            </div>
+          </div>
+
+          {%- if products_count > products_per_page -%}
+            {%- assign total_pages = products_count | divided_by: products_per_page -%}
+            {%- assign pages_remainder = products_count | modulo: products_per_page -%}
+            {%- if pages_remainder > 0 -%}
+              {%- assign total_pages = total_pages | plus: 1 -%}
+            {%- endif -%}
+
+            <div
+              class="featured-collections-list__pagination"
+              data-pagination
+              data-total-pages="{{ total_pages }}"
+            ></div>
+          {%- endif -%}
+
+        </div>
+      {%- endfor -%}
+
+      {%- if collection.description != blank -%}
+        <div class="featured-collections-list__collection-description">
+          <div class="rte featured-collections-list__collection-description-text" data-description>
+            {{ collection.description }}
+          </div>
+
+          <button
+            type="button"
+            class="featured-collections-list__toggle button button--small button--ternary"
+            data-description-toggle
+            data-label-more="{{ section.settings.read_more_label | escape }}"
+            data-label-less="{{ section.settings.read_less_label | escape }}"
+            hidden
+            aria-expanded="false"
+          >{{ section.settings.read_more_label | escape }}</button>
+        </div>
+      {%- endif -%}
+    </div>
+
+  </section>
+
+  <script>
+    (function() {
+      var sectionEl = document.querySelector('[data-section-id="{{ section.id }}"]');
+
+      if (!sectionEl) {
+        return;
+      }
+
+      var windowListeners = [];
+
+      function onWindow(type, handler, options) {
+        window.addEventListener(type, handler, options);
+        windowListeners.push([type, handler, options]);
+      }
+
+      document.addEventListener('shopify:section:unload', function onUnload(event) {
+        if (event.detail.sectionId !== '{{ section.id }}') {
+          return;
+        }
+
+        windowListeners.forEach(function(entry) {
+          window.removeEventListener(entry[0], entry[1], entry[2]);
+        });
+
+        windowListeners = [];
+        document.removeEventListener('shopify:section:unload', onUnload);
+      });
+
+      var descriptionBlocks = sectionEl.querySelectorAll('[data-description]');
+
+      function updateToggleState(descriptionEl, toggleEl) {
+        if (!descriptionEl || !toggleEl) {
+          return;
+        }
+
+        var isExpanded = descriptionEl.classList.contains('is-expanded');
+        var labelMore = toggleEl.getAttribute('data-label-more') || 'Mostra di piu';
+        var labelLess = toggleEl.getAttribute('data-label-less') || 'Mostra meno';
+
+        if (!isExpanded) {
+          var hasOverflow = descriptionEl.scrollHeight > descriptionEl.clientHeight + 2;
+          toggleEl.hidden = !hasOverflow;
+        }
+
+        toggleEl.textContent = isExpanded ? labelLess : labelMore;
+        toggleEl.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      }
+
+      function findToggle(descriptionEl) {
+        var wrapper = descriptionEl.closest('.featured-collections-list__header')
+          || descriptionEl.closest('.featured-collections-list__collection-description');
+
+        return wrapper ? wrapper.querySelector('[data-description-toggle]') : null;
+      }
+
+      descriptionBlocks.forEach(function(descriptionEl) {
+        var toggleEl = findToggle(descriptionEl);
+
+        updateToggleState(descriptionEl, toggleEl);
+
+        if (toggleEl) {
+          toggleEl.addEventListener('click', function() {
+            descriptionEl.classList.toggle('is-expanded');
+            updateToggleState(descriptionEl, toggleEl);
+          });
+        }
+      });
+
+      onWindow('load', function() {
+        descriptionBlocks.forEach(function(descriptionEl) {
+          if (!descriptionEl.classList.contains('is-expanded')) {
+            updateToggleState(descriptionEl, findToggle(descriptionEl));
+          }
+        });
+      });
+
+      onWindow('resize', function() {
+        descriptionBlocks.forEach(function(descriptionEl) {
+          if (!descriptionEl.classList.contains('is-expanded')) {
+            updateToggleState(descriptionEl, findToggle(descriptionEl));
+          }
+        });
+      });
+
+      sectionEl.querySelectorAll('[data-pagination]').forEach(function(paginationEl) {
+        var groupEl = paginationEl.closest('[data-group]');
+        var productsEl = groupEl ? groupEl.querySelector('[data-products]') : null;
+
+        if (!productsEl) {
+          return;
+        }
+
+        var totalPages = parseInt(paginationEl.getAttribute('data-total-pages'), 10) || 1;
+        var collectionUrl = productsEl.getAttribute('data-collection-url');
+        var currentPage = 1;
+        var requestId = 0;
+
+        var cache = {};
+
+        function bindPagination() {
+          paginationEl.querySelectorAll('[data-page]').forEach(function(link) {
+            link.addEventListener('click', function(event) {
+              event.preventDefault();
+
+              var page = parseInt(link.getAttribute('data-page'), 10);
+
+              if (!isNaN(page)) {
+                renderPage(page);
+              }
+            });
+          });
+        }
+
+        function markRowStarts() {
+          var visible = [];
+
+          productsEl.querySelectorAll('.featured-collections-list__product').forEach(function(item) {
+            item.classList.remove('is-row-start');
+
+            if (!item.hidden) {
+              visible.push(item);
+            }
+          });
+
+          var rowTop = null;
+
+          visible.forEach(function(item) {
+            var top = item.offsetTop;
+
+            if (rowTop === null || top > rowTop + 1) {
+              rowTop = top;
+              item.classList.add('is-row-start');
+            }
+          });
+        }
+
+        function showPage(page) {
+          productsEl.querySelectorAll('[data-product-item]').forEach(function(item) {
+            if (item.getAttribute('data-page') === null) {
+              item.remove();
+            }
+          });
+
+          var hasLocal = productsEl.querySelector('[data-page="' + page + '"]') !== null;
+
+          productsEl.querySelectorAll('[data-page]').forEach(function(item) {
+            item.hidden = !hasLocal || parseInt(item.getAttribute('data-page'), 10) !== page;
+          });
+
+          if (!hasLocal && cache[page]) {
+            cache[page].products.forEach(function(node) {
+              productsEl.appendChild(node.cloneNode(true));
+            });
+          }
+
+          if (cache[page]) {
+            paginationEl.innerHTML = cache[page].pagination;
+            bindPagination();
+          }
+
+          markRowStarts();
+
+          var scrollerInner = productsEl.closest('.scroller__inner');
+
+          if (scrollerInner) {
+            scrollerInner.scrollLeft = 0;
+          }
+        }
+
+        function loadPage(page) {
+          if (!collectionUrl) {
+            return Promise.reject(new Error('URL collezione mancante'));
+          }
+
+          var separator = collectionUrl.indexOf('?') === -1 ? '?' : '&';
+          var url = collectionUrl + separator
+            + 'section_id=featured-collections-page'
+            + '&page=' + encodeURIComponent(page);
+
+          return fetch(url).then(function(response) {
+            if (!response.ok) {
+              throw new Error('Richiesta fallita');
+            }
+
+            return response.text();
+          }).then(function(html) {
+            var parsed = new DOMParser().parseFromString(html, 'text/html');
+            var paginationSource = parsed.querySelector('[data-page-pagination]');
+            var productsSource = parsed.querySelector('[data-page-products]');
+
+            if (productsSource) {
+              var serverPages = parseInt(productsSource.getAttribute('data-total-pages'), 10);
+
+              if (!isNaN(serverPages) && serverPages > 0) {
+                totalPages = serverPages;
+              }
+            }
+
+            cache[page] = {
+              products: Array.prototype.slice.call(parsed.querySelectorAll('[data-product-item]')),
+              pagination: paginationSource ? paginationSource.innerHTML : ''
+            };
+          });
+        }
+
+        function renderPage(page) {
+          var target = Math.min(Math.max(page, 1), totalPages);
+
+          if (target === currentPage) {
+            return;
+          }
+
+          if (cache[target]) {
+            currentPage = target;
+            showPage(target);
+            return;
+          }
+
+          var token = ++requestId;
+          paginationEl.classList.add('is-loading');
+
+          loadPage(target).then(function() {
+            if (token !== requestId) {
+              return;
+            }
+
+            currentPage = target;
+            showPage(target);
+          }).catch(function() {
+          }).then(function() {
+            if (token === requestId) {
+              paginationEl.classList.remove('is-loading');
+            }
+          });
+        }
+
+        markRowStarts();
+        onWindow('resize', markRowStarts);
+        onWindow('load', markRowStarts);
+
+        loadPage(1).then(function() {
+          if (!cache[1]) {
+            return;
+          }
+
+          paginationEl.innerHTML = cache[1].pagination;
+          bindPagination();
+        }).catch(function() {
+          paginationEl.classList.add('is-unavailable');
+        });
+      });
+
+      var navEl = sectionEl.querySelector('[data-anchor-nav]');
+
+      var scrollOffset = 140;
+
+      var setScrollOffset = function() {
+        var offset = 20;
+
+        if (navEl) {
+          offset += (parseFloat(getComputedStyle(navEl).top) || 0) + navEl.offsetHeight;
+        } else {
+          var rootStyle = getComputedStyle(document.documentElement);
+          var isSticky = parseFloat(rootStyle.getPropertyValue('--header-is-sticky')) || 0;
+          offset += isSticky * (parseFloat(rootStyle.getPropertyValue('--header-height')) || 0);
+        }
+
+        scrollOffset = offset;
+        sectionEl.style.setProperty('--anchor-scroll-offset', offset + 'px');
+
+        sectionEl.querySelectorAll('[data-anchor-link]').forEach(function(link) {
+          link.setAttribute('data-offset', offset);
+        });
+      };
+
+      setScrollOffset();
+      onWindow('resize', setScrollOffset);
+      onWindow('load', setScrollOffset);
+
+      if (navEl) {
+        var navScroller = navEl.querySelector('.featured-collections-list__nav-container');
+        var navLinks = {};
+
+        navEl.querySelectorAll('[data-anchor-link]').forEach(function(link) {
+          navLinks[link.getAttribute('data-target')] = link;
+        });
+
+        var groupEls = sectionEl.querySelectorAll('[data-group]');
+        var activeId = null;
+
+        function setActiveGroup() {
+          var line = scrollOffset + 200;
+          var current = null;
+
+          groupEls.forEach(function(groupEl) {
+            var rect = groupEl.getBoundingClientRect();
+
+            if (rect.top <= line && rect.bottom > line) {
+              current = groupEl;
+            }
+          });
+
+          if (!current) {
+            groupEls.forEach(function(groupEl) {
+              if (groupEl.getBoundingClientRect().top <= line) {
+                current = groupEl;
+              }
+            });
+          }
+
+          if (!current) {
+            current = groupEls[0];
+          }
+
+          if (!current || current.id === activeId) {
+            return;
+          }
+
+          activeId = current.id;
+
+          Object.keys(navLinks).forEach(function(id) {
+            navLinks[id].classList.toggle('is-active', id === activeId);
+          });
+
+          var link = navLinks[activeId];
+
+          if (link && navScroller && navScroller.scrollWidth > navScroller.clientWidth) {
+            var linkLeft = link.offsetLeft - (navScroller.clientWidth - link.offsetWidth) / 2;
+            navScroller.scrollTo({ left: Math.max(linkLeft, 0), behavior: 'smooth' });
+          }
+        }
+
+        var scrollTicking = false;
+
+        var onScrollSpy = function() {
+          if (!scrollTicking) {
+            scrollTicking = true;
+            window.requestAnimationFrame(function() {
+              scrollTicking = false;
+              setActiveGroup();
+            });
+          }
+        };
+
+        onWindow('scroll', onScrollSpy, { passive: true });
+        onWindow('resize', onScrollSpy);
+        onWindow('load', setActiveGroup);
+        setActiveGroup();
+
+        var lastGroup = groupEls[groupEls.length - 1];
+
+        if (lastGroup) {
+          var navIsHidden = false;
+          var visibilityTicking = false;
+
+          var updateNavVisibility = function() {
+            visibilityTicking = false;
+
+            var shouldHide = lastGroup.getBoundingClientRect().bottom < navEl.getBoundingClientRect().bottom;
+
+            if (shouldHide === navIsHidden) {
+              return;
+            }
+
+            navIsHidden = shouldHide;
+            navEl.classList.toggle('is-hidden', shouldHide);
+            navEl.setAttribute('aria-hidden', shouldHide ? 'true' : 'false');
+          };
+
+          var onScroll = function() {
+            if (!visibilityTicking) {
+              visibilityTicking = true;
+              window.requestAnimationFrame(updateNavVisibility);
+            }
+          };
+
+          onWindow('scroll', onScroll, { passive: true });
+          onWindow('resize', onScroll);
+          updateNavVisibility();
+        }
+      }
+    })();
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Featured collections list",
+  "enabled_on": {
+    "templates": [
+      "collection"
+    ]
+  },
+  "settings": [
+    {
+      "type": "collection_list",
+      "id": "collections_source",
+      "label": "Collections source",
+      "info": "Puoi collegare un metafield di tipo lista di collezioni"
+    },
+    {
+      "type": "header",
+      "content": "Navigazione album"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_anchor_nav",
+      "label": "Show anchor navigation",
+      "info": "Barra sticky con un bottone per ogni collezione collegata",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "anchor_nav_label",
+      "label": "Anchor navigation aria-label",
+      "default": "Naviga tra gli album"
+    },
+    {
+      "type": "header",
+      "content": "Prodotti e paginazione"
+    },
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "label": "Products per page",
+      "info": "Le prime pagine sono gia' nella pagina (fino a 50 prodotti, limite di Shopify), le successive si caricano al click",
+      "min": 2,
+      "max": 24,
+      "step": 2,
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Aspetto"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_quick_buy",
+      "label": "Show quick buy",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_quick_inventory",
+      "label": "Show Inventory",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_blurred_background",
+      "label": "Show blurred background from collection image",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "read_more_label",
+      "label": "Read more label",
+      "default": "Mostra di piu"
+    },
+    {
+      "type": "text",
+      "id": "read_less_label",
+      "label": "Read less label",
+      "default": "Mostra meno"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Collection",
+      "name": "Featured collections list"
+    }
+  ]
+}
+{% endschema %}
