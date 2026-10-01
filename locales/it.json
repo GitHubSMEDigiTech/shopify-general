@@ -125,7 +125,7 @@
       "results_count": {
         "zero": "Nessun risultato",
         "one": "1 risultato",
-        "other": "{{count}} rrisultati"
+        "other": "{{count}} risultati"
       },
       "showing_count": {
         "zero": "Nessun risultato",
