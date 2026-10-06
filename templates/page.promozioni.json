@@ -52,11 +52,31 @@
             "button_text": "Entra",
             "button_link": "shopify://collections/campagna-vinili-local-1"
           }
+        },
+        "item_jJY3hb": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Campagna OZZY OSBOURNE",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "item_xfYjie",
-        "item_htmMgt"
+        "item_htmMgt",
+        "item_jJY3hb"
       ],
       "settings": {
         "expand_items": false,
