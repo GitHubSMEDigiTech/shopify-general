@@ -536,7 +536,8 @@
       "localized_fields": {
         "additional_information": {
           "title": "Dati Fatturazione",
-          "tax_credential_it": "Codice Fiscale (Opzionale)"
+          "tax_credential_it": "Codice Fiscale (Opzionale)",
+          "tax_email_it": "PEC (in alternativa al codice SDI)"
         }
       },
       "stock": {
