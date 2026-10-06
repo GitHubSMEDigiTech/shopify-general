@@ -536,7 +536,7 @@
       "localized_fields": {
         "additional_information": {
           "title": "Dati Fatturazione",
-          "tax_credential_it": "Partita Iva o Codice Fiscale (Opzionale)"
+          "tax_credential_it": "Codice Fiscale (Opzionale)"
         }
       },
       "stock": {
