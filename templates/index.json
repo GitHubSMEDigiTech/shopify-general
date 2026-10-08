@@ -476,7 +476,6 @@
       "block_order": [
         "item_YhampT"
       ],
-      "disabled": true,
       "settings": {
         "expand_items": true,
         "section_size": "medium",
@@ -488,6 +487,7 @@
       "blocks": {
         "item_nFDWVx": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/film-reel-catches-light-tangled-on-a-white-surface.jpg",
             "show_overlay": true,
