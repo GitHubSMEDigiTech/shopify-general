@@ -358,6 +358,22 @@
     "slideshow_gwyfxw": {
       "type": "slideshow",
       "blocks": {
+        "image_zwXM98": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_2_484b3296-009c-4574-8e74-2ca527555f1b.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/campagna-catalogo-ozzy-osbourne"
+          }
+        },
         "image_cB4kpj": {
           "type": "image",
           "disabled": true,
@@ -411,11 +427,11 @@
         }
       },
       "block_order": [
+        "image_zwXM98",
         "image_cB4kpj",
         "image_NNfHar",
         "image_nMajwq"
       ],
-      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
@@ -469,21 +485,8 @@
             "button_text": "",
             "button_link": "shopify://collections/record-store-day"
           }
-        }
-      },
-      "block_order": [
-        "item_YhampT"
-      ],
-      "settings": {
-        "expand_items": true,
-        "section_size": "medium",
-        "stack_mobile": false
-      }
-    },
-    "promotion_list_NPgWtL": {
-      "type": "promotion-list",
-      "blocks": {
-        "item_nFDWVx": {
+        },
+        "item_TTfccA": {
           "type": "item",
           "disabled": true,
           "settings": {
@@ -504,8 +507,18 @@
         }
       },
       "block_order": [
-        "item_nFDWVx"
+        "item_YhampT",
+        "item_TTfccA"
       ],
+      "settings": {
+        "expand_items": true,
+        "section_size": "medium",
+        "stack_mobile": false
+      }
+    },
+    "promotion_list_NPgWtL": {
+      "type": "promotion-list",
+      "disabled": true,
       "settings": {
         "expand_items": true,
         "section_size": "small",
@@ -517,7 +530,6 @@
       "blocks": {
         "item_wQkrLe": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/icy-winter-christmas-decor.jpg",
             "show_overlay": true,
