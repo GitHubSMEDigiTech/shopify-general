@@ -30,6 +30,7 @@
         },
         "image_tfqkR7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_2.jpg",
             "show_overlay": false,
