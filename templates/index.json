@@ -144,6 +144,7 @@
         },
         "image_tW7cLN": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_Angele.jpg",
             "show_overlay": false,
