@@ -97,7 +97,7 @@
         "button_link": "https://www.nexostudios.it/movie/ozzy-black-sabbath-back-to-the-beginning/",
         "bg_color": "#ffffff",
         "text_color": "#6100A5",
-        "bt_bg_color": "#920FEF",
+        "bt_bg_color": "#6100A5",
         "bt_text_color": "#FFFFFF",
         "center_text": true,
         "padding_top": 30,
