@@ -84,41 +84,6 @@
         "link_url": ""
       }
     },
-    "slideshow_kzmztX": {
-      "type": "slideshow",
-      "blocks": {
-        "image_PCApPt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/OZZY-1200x628.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_PCApPt"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "large",
-        "mobile_section_size": "",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "show_arrows": false,
-        "show_dots": false,
-        "cycle_speed": 5
-      }
-    },
     "rich_text_CMaXFH": {
       "type": "rich-text",
       "settings": {
@@ -193,7 +158,6 @@
     "main",
     "slideshow_JRHE7e",
     "featured_collection_b7qCMU",
-    "slideshow_kzmztX",
     "rich_text_CMaXFH",
     "rich_text_yPTnfy",
     "alternative_one_collection_CtE6tE",
