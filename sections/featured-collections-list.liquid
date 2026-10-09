@@ -323,6 +323,13 @@
           if (scrollerInner) {
             scrollerInner.scrollLeft = 0;
           }
+
+          // Una pagina con meno prodotti accorcia il riquadro e il browser, a scroll invariato,
+          // lascia l'utente sulle section sotto: se l'inizio del riquadro e' fuori vista lo riporta su.
+          // scroll-margin-top del riquadro compensa header e nav sticky.
+          if (groupEl.getBoundingClientRect().top < scrollOffset) {
+            groupEl.scrollIntoView({ block: 'start' });
+          }
         }
 
         function loadPage(page) {
