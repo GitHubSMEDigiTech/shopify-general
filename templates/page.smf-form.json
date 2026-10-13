@@ -31,30 +31,10 @@
         "background": "#ffffff",
         "text": "#000000"
       }
-    },
-    "newsletter_sme_popup_pKAXFM": {
-      "type": "newsletter-sme-popup",
-      "name": "Popup: SME Newsletter",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing</p>",
-        "ae_segment_id": "",
-        "ae_brand_id": "",
-        "ae_activities": "",
-        "ae": "",
-        "ae_form": "",
-        "ae_form_html": "",
-        "btn_txt": "Subscribe",
-        "background": "#ffffff",
-        "text": "#000000"
-      }
     }
   },
   "order": [
     "main",
-    "newsletter_sme_xgCNMk",
-    "newsletter_sme_popup_pKAXFM"
+    "newsletter_sme_xgCNMk"
   ]
 }
