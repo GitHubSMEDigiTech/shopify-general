@@ -34,14 +34,6 @@
         "open_group_filters_mode": "all_closed"
       }
     },
-    "video_PMdgdq": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "title": "Fuori Ora!",
-        "video_url": "https://vimeo.com/1235755534/532bdece20?share=copy&fl=sv&fe=ci"
-      }
-    },
     "slideshow_JRHE7e": {
       "type": "slideshow",
       "blocks": {
@@ -77,6 +69,15 @@
         "cycle_speed": 5
       }
     },
+    "custom_liquid_WUfA7x": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "title": "Fuori Ora!",
+        "include_margins": true,
+        "liquid": "<iframe title=\"vimeo-player\" src=\"https://player.vimeo.com/video/1235755534?h=532bdece20\" width=\"640\" height=\"360\" frameborder=\"0\" referrerpolicy=\"strict-origin-when-cross-origin\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share\"   allowfullscreen></iframe>"
+      }
+    },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
@@ -87,8 +88,8 @@
   },
   "order": [
     "main",
-    "video_PMdgdq",
     "slideshow_JRHE7e",
+    "custom_liquid_WUfA7x",
     "recently-viewed-products"
   ]
 }
