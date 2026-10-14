@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-collection",
+      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": true,
@@ -34,21 +35,22 @@
         "open_group_filters_mode": "all_closed"
       }
     },
+    "pf-61dd5b4b": {
+      "type": "pf-61dd5b4b",
+      "settings": {}
+    },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "title": "Visti di recente",
         "show_quick_buy": false
       }
-    },
-    "pf-61dd5b4b": {
-      "type": "pf-61dd5b4b",
-      "settings": {}
     }
   },
   "order": [
     "main",
-    "recently-viewed-products",
-    "pf-61dd5b4b"
+    "pf-61dd5b4b",
+    "recently-viewed-products"
   ]
 }
