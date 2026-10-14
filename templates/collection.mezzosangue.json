@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "settings": {
         "show_collection_image": true,
         "collapse_collection_description": true,
@@ -33,6 +32,14 @@
         "show_filters": true,
         "show_filter_color_swatch": true,
         "open_group_filters_mode": "all_closed"
+      }
+    },
+    "video_PMdgdq": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "title": "Fuori Ora!",
+        "video_url": "https://vimeo.com/1235755534/532bdece20?share=copy&fl=sv&fe=ci"
       }
     },
     "slideshow_JRHE7e": {
@@ -70,82 +77,6 @@
         "cycle_speed": 5
       }
     },
-    "featured_collection_b7qCMU": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "ozzy-osbourne",
-        "title": "OZZY OSBOURNE",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": true,
-        "show_quick_buy": true,
-        "show_quick_inventory": false,
-        "link_title": "",
-        "link_url": ""
-      }
-    },
-    "rich_text_CMaXFH": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 0,
-        "marign_bottom": 0,
-        "text_width": "regular",
-        "title": "BACK TO THE BEGINING",
-        "h_one": false,
-        "content": "<p>Il 28 e 29 al cinema</p>",
-        "button_text": "Acquista QUI il tuo biglietto",
-        "button_link": "https://www.nexostudios.it/movie/ozzy-black-sabbath-back-to-the-beginning/",
-        "bg_color": "#ffffff",
-        "text_color": "#6100a5",
-        "bt_bg_color": "#6100a5",
-        "bt_text_color": "#ffffff",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "rich_text_yPTnfy": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "narrow",
-        "title": "\"VISCERALE TOUR\": le date",
-        "h_one": false,
-        "content": "<p><strong>25 OTTOBRE - </strong>ROMA, ORION<strong><br/>3 NOVEMBRE - </strong>MILANO, ALCATRAZ<strong><br/>5 NOVEMBRE - </strong>FIRENZE, TEATRO CARTIERE CARRARA<strong><br/>7 NOVEMBRE -</strong> PERUGIA URBAN<strong><br/>8 NOVEMBRE - </strong>SENIGALLIA (AN),<br/>MAMAMIA<strong><br/>14 NOVEMBRE - </strong>PADOVA, HALL<strong><br/>21 NOVEMBRE - </strong>NAPOLI, CASA DELLA<br/>MUSICA<strong><br/>22 NOVEMBRE - </strong>BOLOGNA, ESTRAGON</p>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#ffffff",
-        "text_color": "#000000",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": true,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "alternative_one_collection_CtE6tE": {
-      "type": "alternative_one-collection",
-      "disabled": true,
-      "settings": {
-        "collapse_collection_description": true,
-        "headline_deco": true,
-        "headline_deco_col": "#d82222",
-        "products_per_row": "3",
-        "default_products_per_page": 24,
-        "collection_pagination": "pagination",
-        "loading_button": "Load More",
-        "default_view_layout": "grid",
-        "show_quick_buy": "list",
-        "show_quick_view": "list",
-        "quick_links": "",
-        "quick_links_show_products_count": true,
-        "show_filters": true,
-        "show_filter_color_swatch": true,
-        "open_group_filters_mode": "all_closed"
-      }
-    },
     "recently-viewed-products": {
       "type": "recently-viewed-products",
       "settings": {
@@ -156,11 +87,8 @@
   },
   "order": [
     "main",
+    "video_PMdgdq",
     "slideshow_JRHE7e",
-    "featured_collection_b7qCMU",
-    "rich_text_CMaXFH",
-    "rich_text_yPTnfy",
-    "alternative_one_collection_CtE6tE",
     "recently-viewed-products"
   ]
 }
