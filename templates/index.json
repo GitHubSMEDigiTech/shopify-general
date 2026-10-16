@@ -140,23 +140,6 @@
             "link": "shopify://collections/beyonce-bday-20th-anniversary"
           }
         },
-        "image_NDnmNC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/banner_Mariah_2160x720_de7c2eb1-821c-4811-8bc8-31c1a88f9a30.jpg",
-            "mobile_image": "shopify://shop_images/banner_Mariah_750x1100_55a75935-090b-4843-99bf-ee0f9c347142.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/mariah-carey-daydream"
-          }
-        },
         "image_PBTAAN": {
           "type": "image",
           "settings": {
@@ -269,7 +252,6 @@
         "image_y4rUTD",
         "image_MnL9PM",
         "image_iB69qe",
-        "image_NDnmNC",
         "image_PBTAAN",
         "image_M7pmab",
         "image_jntpdb",
