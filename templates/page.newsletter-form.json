@@ -13,15 +13,6 @@
       "type": "main-page",
       "settings": {}
     },
-    "newsletter_46bYgM": {
-      "type": "newsletter",
-      "settings": {
-        "title": "",
-        "content": "<p>Inserisci il tuo indirizzo email per restare aggiornato su tutte le novità del Sony Music Store e per ricevere subito il 10% di sconto sul prossimo ordine! </p>",
-        "background": "#ffffff",
-        "text": "#000000"
-      }
-    },
     "newsletter_sme_jyY3a7": {
       "type": "newsletter-sme",
       "name": "SME Campaigns Newsletter",
@@ -44,7 +35,6 @@
   },
   "order": [
     "main",
-    "newsletter_46bYgM",
     "newsletter_sme_jyY3a7"
   ]
 }
