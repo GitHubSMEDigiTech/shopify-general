@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_rUmJpg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_2899f040-8f7b-408c-bd93-a219d6c18b39.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_6e5d1c0e-8f0b-4ecb-a727-d3d5eea64421.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/generazione-vanni-giorgio-vanni"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -313,23 +330,6 @@
             "link": "shopify://collections/the-faith-tour-george-michael"
           }
         },
-        "image_rUmJpg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_80d75e6a-e25d-424a-8fe0-f7a61206ecd2.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_a47d27db-92ff-404f-af66-f3c574dfae42.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/angele-copia"
-          }
-        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -366,6 +366,7 @@
         }
       },
       "block_order": [
+        "image_rUmJpg",
         "image_9kfgaA",
         "image_4T4yhV",
         "image_XHmBAC",
@@ -377,7 +378,6 @@
         "image_hhc4xB",
         "image_qLWTcg",
         "image_FU9RMN",
-        "image_rUmJpg",
         "image_FV8WFP",
         "image_HciHCp"
       ],
