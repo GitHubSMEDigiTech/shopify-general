@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_x98LVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_3.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_4.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/caruso"
+          }
+        },
         "image_rUmJpg": {
           "type": "image",
           "settings": {
@@ -245,23 +262,6 @@
             "link": "shopify://collections/magia-bianca-magia-nera-francesca-michielin"
           }
         },
-        "image_x98LVH": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_3.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_4.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/caruso"
-          }
-        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -349,6 +349,7 @@
         }
       },
       "block_order": [
+        "image_x98LVH",
         "image_rUmJpg",
         "image_9kfgaA",
         "image_4T4yhV",
@@ -356,7 +357,6 @@
         "image_G3f6rF",
         "image_3wJqzQ",
         "image_kNcaX3",
-        "image_x98LVH",
         "image_hhc4xB",
         "image_qLWTcg",
         "image_FU9RMN",
