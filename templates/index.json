@@ -248,8 +248,8 @@
         "image_x98LVH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_075dc8e1-7c1a-483b-814b-2ec17de22ad1.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_80b5da12-79e6-43e0-a9bc-c6617431f59b.jpg",
+            "image": "shopify://shop_images/Sony_Music_Store_2160x720_3.jpg",
+            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_4.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -259,7 +259,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/mustang-biagio-antonacci"
+            "link": "shopify://collections/caruso"
           }
         },
         "image_hhc4xB": {
