@@ -143,6 +143,23 @@
             "link": "shopify://collections/caruso"
           }
         },
+        "image_qLWTcg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_c4f2bee3-8f89-4465-b04a-513a01de57f9.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_c62b0dc1-61d5-4714-9ce4-bacd6fafe27c.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/felice-si-ma-tutto-sbagliato-marco-mengoni"
+          }
+        },
         "image_rUmJpg": {
           "type": "image",
           "settings": {
@@ -279,23 +296,6 @@
             "link": "shopify://collections/rocco-hunt-e-clementino"
           }
         },
-        "image_qLWTcg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/LEON-BRIDGES_HappinessAnytime_BannerDesktop_2160x720_a449eff0-08d4-42a0-9aab-101f92167e4f.jpg",
-            "mobile_image": "shopify://shop_images/LEON-BRIDGES_HappinessAnytime_BannerMobile_750x1100_c5612e19-a4e0-4503-a769-334ba577f177.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/happiness-anytime-leon-bridges"
-          }
-        },
         "image_FU9RMN": {
           "type": "image",
           "settings": {
@@ -350,6 +350,7 @@
       },
       "block_order": [
         "image_x98LVH",
+        "image_qLWTcg",
         "image_rUmJpg",
         "image_9kfgaA",
         "image_4T4yhV",
@@ -358,7 +359,6 @@
         "image_3wJqzQ",
         "image_kNcaX3",
         "image_hhc4xB",
-        "image_qLWTcg",
         "image_FU9RMN",
         "image_FV8WFP",
         "image_HciHCp"
