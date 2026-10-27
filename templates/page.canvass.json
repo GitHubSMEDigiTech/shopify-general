@@ -160,6 +160,25 @@
             "button_link": "shopify://collections/canvass-11-dicembre-2026"
           }
         },
+        "item_8NJhMV": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/sonymusiclogo.png",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 18 dicembre 2026",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-18-dicembre-2026"
+          }
+        },
         "item_bim7nU": {
           "type": "item",
           "settings": {
@@ -188,6 +207,7 @@
         "item_jYUNJM",
         "item_Na7YDT",
         "item_eWbVJ7",
+        "item_8NJhMV",
         "item_bim7nU"
       ],
       "settings": {
