@@ -524,6 +524,107 @@
         "link_url": ""
       }
     },
+    "mosaic_h97XRj": {
+      "type": "mosaic",
+      "blocks": {
+        "item_BbXh8A": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/28843937_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 100,
+            "background": "#f3f4f4",
+            "text_color": "#FFFFFF",
+            "title": "THRILLER",
+            "content": "MICHAEL JACKSON",
+            "content_position": "bottom_left",
+            "button_background": "#060B0E",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/michael-jackson"
+          }
+        },
+        "item_bbrEz9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/lacuna_1.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#FFFFFF",
+            "title": "LACUNA COIL",
+            "content": "",
+            "content_position": "bottom_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#FFFFFF",
+            "button_text": "",
+            "link": "shopify://products/sleepless-empire"
+          }
+        },
+        "item_YaD6kx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/14193653_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#FFFFFF",
+            "title": "OZZY OSBOURNE",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/ozzy-osbourne"
+          }
+        },
+        "item_YdgzTe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Hellvisback_10_Years_Later_-_Salmo_2LP_Red_autografato.png",
+            "show_overlay": false,
+            "overlay_opacity": 100,
+            "background": "#f3f4f4",
+            "text_color": "#FFFFFF",
+            "title": "SALMO",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/hellvisback-salmo"
+          }
+        },
+        "item_gWGHTP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/28825387_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.png",
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "background": "#f3f4f4",
+            "text_color": "#FFFFFF",
+            "title": "DEATH USB",
+            "content": "",
+            "content_position": "top_left",
+            "button_background": "#4f5558",
+            "button_text_color": "#f3f4f4",
+            "button_text": "",
+            "link": "shopify://collections/tanta-roba"
+          }
+        }
+      },
+      "block_order": [
+        "item_BbXh8A",
+        "item_bbrEz9",
+        "item_YaD6kx",
+        "item_YdgzTe",
+        "item_gWGHTP"
+      ],
+      "name": "Mosaic",
+      "settings": {
+        "section_size": "medium"
+      }
+    },
     "rich_text_Yjrb3a": {
       "type": "rich-text",
       "disabled": true,
@@ -816,6 +917,7 @@
     "collection_with_image_d44Bni",
     "promotion_list_bFFyaN",
     "featured_collection_Ln8Q76",
+    "mosaic_h97XRj",
     "rich_text_Yjrb3a",
     "collection_with_image_6MRFYn",
     "featured_collection_chRPbA",
