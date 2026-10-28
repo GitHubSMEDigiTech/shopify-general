@@ -39,7 +39,7 @@
           }
         },
         "eu_warranty_garan_label_warranty_label_Y6idkh": {
-          "type": "shopify://apps/eu-warranty-garan-label/blocks/warranty-label/019f65c6-c543-7edb-b3d8-adfd82797063",
+          "type": "shopify://apps/eu-warranty-garan/blocks/warranty-label/019f65c6-c543-7edb-b3d8-adfd82797063",
           "settings": {
             "show_warranty_label": true,
             "show_garan_label": false,
@@ -48,6 +48,8 @@
             "summary_icon": "check",
             "show_eu_info_link": false,
             "font_size": 14,
+            "font_family": "inherit",
+            "font_family_custom": "",
             "garan_field_size": 11,
             "text_color": "#121212",
             "background_color": "#ffffff",
@@ -79,12 +81,6 @@
             "content": "<h5>Release date: {{ product.metafields.sme.street_date | metafield_tag }}</h5>"
           }
         },
-        "9f8f8e49-899d-4ed8-acc0-5059e6d33878": {
-          "type": "text",
-          "settings": {
-            "content": "<h5>Dist. number: {{ product.metafields.sme.distribution_number.value }}</h5>"
-          }
-        },
         "3fff165e-dcfa-4169-b4e7-1e46cdb5a883": {
           "type": "text",
           "settings": {
@@ -111,7 +107,6 @@
         "eu_warranty_garan_label_warranty_label_Y6idkh",
         "description",
         "abfdae60-cfb6-47c4-9892-9c6d5db777f5",
-        "9f8f8e49-899d-4ed8-acc0-5059e6d33878",
         "3fff165e-dcfa-4169-b4e7-1e46cdb5a883",
         "text_ptPnQh",
         "31335ddd-c1ea-40e0-a1af-6a2e064faae3"
