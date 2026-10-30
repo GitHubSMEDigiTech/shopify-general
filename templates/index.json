@@ -54,25 +54,26 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "banner_VLanXJ": {
+        "banner_QBc7bb": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/BloodIncantation_StarspawnAnniversaryEdition_Shopbanner_V2_72dpi.jpg",
+            "image": "shopify://shop_images/Unbenannt.jpg",
             "bg_color": "#eeeeee",
-            "cover_effect": "none",
+            "cover_image": "shopify://shop_images/BloodIncantation_Starspawn.jpg",
+            "cover_effect": "glow",
             "cover_color": "#ffffff",
-            "title": "",
+            "title": "Blood Incantation",
             "head_color": "#ffffff",
-            "subtitle": "",
-            "subhead_color": "#555555",
-            "content": "",
-            "content_color": "#555555",
-            "show_preorder_banner": false,
+            "subtitle": "Starspawn (10th Anniversary Edition",
+            "subhead_color": "#FFFFFF",
+            "content": "Ltd. Starspawn Eclipse 12\" EcoRecord & LP-Booklet & Poster, bright orange with black/white Inkplosion effect",
+            "content_color": "#FFFFFF",
+            "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "December 11th, 2026",
+            "show_preorder": true,
+            "preorder_msg": "December 11TH, 2026",
             "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/blood-incantation"
+            "link": "https://www.cmdistro.de/products/blood-incantation-starspawn-10th-anniversary-edition-ltd-starspawn-eclipse-12-ecorecord-lp-booklet-poster-bright-orange-with-black-white-inkplosion-effect"
           }
         },
         "banner_PR7BDE": {
@@ -165,7 +166,7 @@
         }
       },
       "block_order": [
-        "banner_VLanXJ",
+        "banner_QBc7bb",
         "banner_PR7BDE",
         "banner_z4xzGV",
         "banner_zjPHAX",
