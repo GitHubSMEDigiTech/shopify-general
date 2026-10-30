@@ -54,6 +54,27 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_VLanXJ": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/BloodIncantation_StarspawnAnniversaryEdition_Shopbanner_V2_72dpi.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "",
+            "head_color": "#ffffff",
+            "subtitle": "",
+            "subhead_color": "#555555",
+            "content": "",
+            "content_color": "#555555",
+            "show_preorder_banner": false,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "December 11th, 2026",
+            "preorder_msg_color": "#000000",
+            "link": "https://www.cmdistro.de/collections/blood-incantation"
+          }
+        },
         "banner_PR7BDE": {
           "type": "banner",
           "settings": {
@@ -98,28 +119,6 @@
             "link": "https://www.cmdistro.de/collections/vendors?q=Mental%20Cruelty"
           }
         },
-        "banner_gbjfYd": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/blindchan.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/BlindChannel_Painstream.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Blind Channel",
-            "head_color": "#ffffff",
-            "subtitle": "Painstream",
-            "subhead_color": "#929292",
-            "content": "Ltd. CD Digipak\nblack LP",
-            "content_color": "#929292",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 30",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Blind%20Channel"
-          }
-        },
         "banner_zjPHAX": {
           "type": "banner",
           "settings": {
@@ -140,72 +139,6 @@
             "preorder_msg": "October 2",
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/collections/vendors?q=GH%C3%98STKID"
-          }
-        },
-        "banner_D7WNhF": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/insom.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Insomnium_Netherworlds_8ab6575b-87a9-4fe3-a694-1f5d68c4b571.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Insomnium",
-            "head_color": "#ffffff",
-            "subtitle": "Netherworlds",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe 2CD Artbook\nStandard CD Jewelcase\nGatefold black 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 16",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Insomnium&sort_by=created-descending"
-          }
-        },
-        "banner_4jq88F": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/orbit_2600a51c-cb8e-4238-962d-dff627110e4c.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/OrbitCulture_DeathAboveLife_DeluxeEdition_1a25bf3e-7eaa-4813-8093-a977c1bbde22.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Orbit Culture",
-            "head_color": "#ffffff",
-            "subtitle": "Death Above Life (Deluxe Edition)",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. Deluxe transp. sea blue-golden yellow splattered 2LP Artbook\nLtd. 2CD Mediabook",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 10",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Orbit%20Culture"
-          }
-        },
-        "banner_3xbkpJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/cold.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Coldrain_OPTIMIZE_OPTDEMISE.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "coldrain",
-            "head_color": "#ffffff",
-            "subtitle": "OPTIMIZE = OPTDEMISE",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak in O-Card\nGatefold silver LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 25",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=coldrain"
           }
         },
         "banner_UtnYYV": {
@@ -232,13 +165,10 @@
         }
       },
       "block_order": [
+        "banner_VLanXJ",
         "banner_PR7BDE",
         "banner_z4xzGV",
-        "banner_gbjfYd",
         "banner_zjPHAX",
-        "banner_D7WNhF",
-        "banner_4jq88F",
-        "banner_3xbkpJ",
         "banner_UtnYYV"
       ],
       "settings": {
