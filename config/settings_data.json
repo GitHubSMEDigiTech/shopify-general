@@ -275,7 +275,7 @@
         ],
         "settings": {
           "show_social_media": true,
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_cookie_bar": false,
