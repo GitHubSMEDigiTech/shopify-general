@@ -163,6 +163,7 @@
         },
         "image_rUmJpg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Sony_Music_Store_2160x720_2899f040-8f7b-408c-bd93-a219d6c18b39.jpg",
             "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_6e5d1c0e-8f0b-4ecb-a727-d3d5eea64421.jpg",
