@@ -128,10 +128,9 @@
       "blocks": {
         "image_x98LVH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_3.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_4.jpg",
+            "image": "shopify://shop_images/banner2160x720.jpg_1.jpg",
+            "mobile_image": "shopify://shop_images/cosmo.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -141,7 +140,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://products/caruso"
+            "link": "shopify://collections/il-fiore-del-futuro-cosmo"
           }
         },
         "image_qLWTcg": {
@@ -266,6 +265,7 @@
         },
         "image_kNcaX3": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_601d60a1-df2f-4860-bc9b-aac65a339ef5.jpg",
             "mobile_image": "shopify://shop_images/750x1100_61fc592d-2da3-4129-87cb-de77eb8b18f2.jpg",
@@ -317,6 +317,7 @@
         },
         "image_FV8WFP": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_0c697ad6-318d-47b1-9149-8db9b0da7de1.jpg",
             "mobile_image": "shopify://shop_images/750x1100_2bb1be41-d929-4512-81b1-fdc83d205eca.jpg",
