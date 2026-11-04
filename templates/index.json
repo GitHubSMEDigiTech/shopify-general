@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_rUmJpg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_2be8c9e4-a268-47c1-a4b1-87c83683afd5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_24f1f3ef-d72b-4036-ba53-7678022d077e.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/linguaggio-universale-tha-supreme"
+          }
+        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -158,24 +175,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/felice-si-ma-tutto-sbagliato-marco-mengoni"
-          }
-        },
-        "image_rUmJpg": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_2899f040-8f7b-408c-bd93-a219d6c18b39.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_6e5d1c0e-8f0b-4ecb-a727-d3d5eea64421.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/generazione-vanni-giorgio-vanni"
           }
         },
         "image_9kfgaA": {
@@ -352,9 +351,9 @@
         }
       },
       "block_order": [
+        "image_rUmJpg",
         "image_x98LVH",
         "image_qLWTcg",
-        "image_rUmJpg",
         "image_9kfgaA",
         "image_4T4yhV",
         "image_XHmBAC",
