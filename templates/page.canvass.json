@@ -160,6 +160,23 @@
             "button_link": "shopify://collections/canvass-18-dicembre-2026"
           }
         },
+        "item_DkV8LX": {
+          "type": "item",
+          "settings": {
+            "show_overlay": false,
+            "overlay_opacity": 50,
+            "stretch_image": false,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 08 gennaio 2027",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-08-01-2027"
+          }
+        },
         "item_bim7nU": {
           "type": "item",
           "settings": {
@@ -188,6 +205,7 @@
         "item_Na7YDT",
         "item_eWbVJ7",
         "item_8NJhMV",
+        "item_DkV8LX",
         "item_bim7nU"
       ],
       "settings": {
