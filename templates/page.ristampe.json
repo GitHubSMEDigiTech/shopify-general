@@ -16,7 +16,7 @@
     "featured_collection_3HfW74": {
       "type": "featured-collection",
       "settings": {
-        "collection": "thasup",
+        "collection": "thasupreme",
         "title": "thasup",
         "products_count": 12,
         "layout": "vertical",
@@ -24,7 +24,7 @@
         "show_quick_buy": false,
         "show_quick_inventory": false,
         "link_title": "View all",
-        "link_url": "shopify://collections/thasup"
+        "link_url": "shopify://collections/thasupreme"
       }
     }
   },
