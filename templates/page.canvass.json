@@ -177,6 +177,24 @@
             "button_link": "shopify://collections/canvass-08-01-2027"
           }
         },
+        "item_qDT8YU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/SME-Logo_2fd9ef80-b09d-40ce-8bb1-58df19002830.jpg",
+            "show_overlay": true,
+            "overlay_opacity": 50,
+            "stretch_image": true,
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "title": "Canvass 15 gennaio 2027",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "Entra",
+            "button_link": "shopify://collections/canvass-15-gennaio-2027"
+          }
+        },
         "item_bim7nU": {
           "type": "item",
           "settings": {
@@ -206,6 +224,7 @@
         "item_eWbVJ7",
         "item_8NJhMV",
         "item_DkV8LX",
+        "item_qDT8YU",
         "item_bim7nU"
       ],
       "settings": {
