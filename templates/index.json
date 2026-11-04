@@ -623,6 +623,7 @@
         "item_YdgzTe",
         "item_gWGHTP"
       ],
+      "disabled": true,
       "name": "Mosaic",
       "settings": {
         "section_size": "medium"
