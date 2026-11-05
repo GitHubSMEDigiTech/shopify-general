@@ -69,8 +69,8 @@
     "general": {
       "currency": "Valuta",
       "language": "Lingua",
-      "account": "il mio account",
-      "login": "Accedi / Registrati",
+      "account": "Il mio account",
+      "login": "Accedi",
       "welcome": "Ciao {{first_name}}",
       "cart": "Carrello"
     },

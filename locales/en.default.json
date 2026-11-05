@@ -70,7 +70,7 @@
       "currency": "Currency",
       "language": "Language",
       "account": "My account",
-      "login": "Login / Signup",
+      "login": "Log in",
       "welcome": "Hello {{first_name}}",
       "cart": "Cart"
     },
