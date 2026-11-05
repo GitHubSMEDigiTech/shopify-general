@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_kNcaX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_-_Banner_store.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_-_Banner_store.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/pink-floyd-animals-50"
+          }
+        },
         "image_rUmJpg": {
           "type": "image",
           "settings": {
@@ -262,24 +279,6 @@
             "link": "shopify://collections/queen-live-in-budapest"
           }
         },
-        "image_kNcaX3": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/2160x720_601d60a1-df2f-4860-bc9b-aac65a339ef5.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_61fc592d-2da3-4129-87cb-de77eb8b18f2.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/magia-bianca-magia-nera-francesca-michielin"
-          }
-        },
         "image_hhc4xB": {
           "type": "image",
           "settings": {
@@ -351,6 +350,7 @@
         }
       },
       "block_order": [
+        "image_kNcaX3",
         "image_rUmJpg",
         "image_x98LVH",
         "image_qLWTcg",
@@ -359,7 +359,6 @@
         "image_XHmBAC",
         "image_G3f6rF",
         "image_3wJqzQ",
-        "image_kNcaX3",
         "image_hhc4xB",
         "image_FU9RMN",
         "image_FV8WFP",
