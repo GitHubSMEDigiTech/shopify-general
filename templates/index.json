@@ -488,7 +488,7 @@
             "stretch_image": true,
             "background": "#000000",
             "text_color": "#ffffff",
-            "title": "PRODOTTI PER IL NATALE",
+            "title": "NATALE 2026",
             "content": "",
             "content_position": "top_left",
             "button_background": "#ffffff",
@@ -501,7 +501,6 @@
       "block_order": [
         "item_wQkrLe"
       ],
-      "disabled": true,
       "settings": {
         "expand_items": true,
         "section_size": "small",
