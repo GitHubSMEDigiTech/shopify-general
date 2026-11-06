@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_hhc4xB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1ecf4421-9be1-4dd4-94b5-c0913fff7d5b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_73f593a7-0fa7-4e70-8035-de8b766c6ba0.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/our-christmas-il-volo"
+          }
+        },
         "image_FU9RMN": {
           "type": "image",
           "settings": {
@@ -296,23 +313,6 @@
             "link": "shopify://collections/queen-live-in-budapest"
           }
         },
-        "image_hhc4xB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_5c1155c2-31b3-4ada-a6f5-90bb4bf0040a.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_780b3eea-ccff-4a83-85f3-c3c33abc950d.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/rocco-hunt-e-clementino"
-          }
-        },
         "image_FV8WFP": {
           "type": "image",
           "disabled": true,
@@ -350,6 +350,7 @@
         }
       },
       "block_order": [
+        "image_hhc4xB",
         "image_FU9RMN",
         "image_kNcaX3",
         "image_rUmJpg",
@@ -360,7 +361,6 @@
         "image_XHmBAC",
         "image_G3f6rF",
         "image_3wJqzQ",
-        "image_hhc4xB",
         "image_FV8WFP",
         "image_HciHCp"
       ],
