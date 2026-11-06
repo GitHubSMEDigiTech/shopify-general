@@ -333,6 +333,7 @@
         },
         "image_HciHCp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2160x720_31bc2847-2e3e-4baa-b6fc-66d0bc62b3b8.jpg",
             "mobile_image": "shopify://shop_images/750x1100_ef933dba-3c16-40a8-bcf3-dce8b05471c5.jpg",
