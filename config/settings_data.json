@@ -317,6 +317,28 @@
         "type": "shopify://apps/gsc-countdown-timer/blocks/countdown-bar/58dc5b1b-43d2-4209-b1f3-52aff31643ed",
         "disabled": false,
         "settings": {}
+      },
+      "13609927367465594311": {
+        "type": "shopify://apps/scalapay-on-site-messaging/blocks/widget-embed-block/3be66716-9837-4466-bbb5-839858e44339",
+        "disabled": false,
+        "settings": {
+          "merchant_token": "",
+          "pay_in_3_widgets": "",
+          "pay_in_3_countries": "AT,BE,FI,FR,DE,IT,NL,PT,ES,YT,RE,GF,GP,MQ",
+          "pay_in_3_min_amount": 5,
+          "pay_in_3_max_amount": 1500,
+          "pay_in_3_currency_position": "after",
+          "pay_in_3_currency_display": "symbol",
+          "pay_in_3_amount_separator": "",
+          "pay_in_3_hide_installments": "false",
+          "pay_in_3_hide_learn_more": "false",
+          "pay_in_3_style": "display: block;",
+          "pay_in_3_product_dark_mode": "never",
+          "pay_in_3_product_alignment": "left",
+          "pay_in_3_cart_dark_mode": "never",
+          "pay_in_3_cart_alignment": "left",
+          "style_global": ""
+        }
       }
     }
   },

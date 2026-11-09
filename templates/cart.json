@@ -31,10 +31,41 @@
         "title": "Recently viewed",
         "show_quick_buy": false
       }
+    },
+    "1794232520c5317ba9": {
+      "type": "apps",
+      "blocks": {
+        "scalapay_on_site_messaging_widget_block_QNChBG": {
+          "type": "shopify://apps/scalapay-on-site-messaging/blocks/widget-block/3be66716-9837-4466-bbb5-839858e44339",
+          "settings": {
+            "merchant_token": "7KELPX3EZTJA",
+            "amount_selectors": ".cart-recap__price-line-price",
+            "position_selector": ".cart-recap__checkout",
+            "countries": "AT,BE,FI,FR,DE,IT,NL,PT,ES",
+            "min_amount": 10,
+            "max_amount": 3000,
+            "currency_position": "after",
+            "currency_display": "symbol",
+            "amount_separator": "",
+            "dark_mode": "never",
+            "alignment": "left",
+            "hide_installments": "false",
+            "hide_learn_more": "false",
+            "style": ""
+          }
+        }
+      },
+      "block_order": [
+        "scalapay_on_site_messaging_widget_block_QNChBG"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "recently-viewed-products"
+    "recently-viewed-products",
+    "1794232520c5317ba9"
   ]
 }
