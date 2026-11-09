@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_XHmBAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9574e49c-f024-4066-9285-b3be92f24e98.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_c3a76b47-6bce-4180-ba62-39e2600d7e60.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/replay-pinguini-tattici-nucleari"
+          }
+        },
         "image_FV8WFP": {
           "type": "image",
           "settings": {
@@ -279,23 +296,6 @@
             "link": "shopify://collections/g-1-giorgia"
           }
         },
-        "image_XHmBAC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9574e49c-f024-4066-9285-b3be92f24e98.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_c3a76b47-6bce-4180-ba62-39e2600d7e60.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/replay-pinguini-tattici-nucleari"
-          }
-        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -350,6 +350,7 @@
         }
       },
       "block_order": [
+        "image_XHmBAC",
         "image_FV8WFP",
         "image_hhc4xB",
         "image_FU9RMN",
@@ -359,7 +360,6 @@
         "image_qLWTcg",
         "image_9kfgaA",
         "image_4T4yhV",
-        "image_XHmBAC",
         "image_G3f6rF",
         "image_3wJqzQ",
         "image_HciHCp"
