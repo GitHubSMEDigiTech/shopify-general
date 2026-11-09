@@ -15,59 +15,16 @@
     },
     "form": {
       "type": "contact-form",
-      "disabled": true,
       "settings": {
         "form_heading": "",
         "show_store_info": true,
         "store_heading": "Call us",
-        "store_info": "<p>09.00-13.00 e 14.00-18.00 da lunedì al venerdì esclusi i festivi.</p>"
-      }
-    },
-    "1715843242581a90c2": {
-      "type": "apps",
-      "blocks": {
-        "hulk_form_builder_form_block_LWQ4db": {
-          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
-          "settings": {
-            "form_uuid": "taB3S6M7BubAfkeOue4c3w",
-            "form_settings": false,
-            "font_color": "#000000",
-            "size": 14,
-            "input_background_color": "#ffffff",
-            "input_background_color_focus": "#f4dada",
-            "input_border_radius": 1,
-            "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2d2727",
-            "input_font_color": "#3d3131",
-            "input_size": 14,
-            "border_color": "#121212",
-            "border_radius": 2,
-            "border": 1,
-            "fill_color": "#ebe9e9",
-            "padding": 35,
-            "form_width": 600,
-            "btn_text": "Submit",
-            "sub_btn_txt_color": "#f3f3f3",
-            "sub_btn_bg_color": "#3f3333",
-            "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#ffffff",
-            "sub_btn_bdr_rad": 3,
-            "sub_btn_bdr_width": 1,
-            "fonts": "Gill Sans"
-          }
-        }
-      },
-      "block_order": [
-        "hulk_form_builder_form_block_LWQ4db"
-      ],
-      "settings": {
-        "include_margins": true
+        "store_info": ""
       }
     }
   },
   "order": [
     "main",
-    "form",
-    "1715843242581a90c2"
+    "form"
   ]
 }
