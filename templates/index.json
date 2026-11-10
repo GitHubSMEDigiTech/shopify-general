@@ -379,51 +379,6 @@
       "type": "_blocks",
       "settings": {}
     },
-    "promotion_list_kTecJ6": {
-      "type": "promotion-list",
-      "blocks": {
-        "item_VH7pgp": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Immagine1.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 95,
-            "stretch_image": true,
-            "background": "#222222",
-            "text_color": "#ffffff",
-            "title": "FESTA DELLA MUSICA",
-            "content": "Celebriamo insieme la Festa della Musica con il 15% di sconto applicabile su ordini superiori ai 100 euro.",
-            "content_position": "top_left",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "button_link": "shopify://pages/festa-della-musica"
-          }
-        }
-      },
-      "block_order": [
-        "item_VH7pgp"
-      ],
-      "settings": {
-        "expand_items": true,
-        "section_size": "medium",
-        "stack_mobile": true
-      }
-    },
-    "image_with_text_qVw8NM": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Immagine1.jpg",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "FESTA DELLA MUSICA",
-        "content": "<p>Scopri i prodotti selezionati per celebrare la festa della musica</p>",
-        "button_text": "Scopri",
-        "button_link": "shopify://collections/festa-della-musica"
-      }
-    },
     "collection_with_image_d44Bni": {
       "type": "collection-with-image",
       "disabled": true,
@@ -504,6 +459,7 @@
         "item_xFNVF7",
         "item_VCaBVA"
       ],
+      "disabled": true,
       "name": "Promotion blocks",
       "settings": {
         "expand_items": true,
@@ -523,108 +479,6 @@
         "show_quick_inventory": false,
         "link_title": "",
         "link_url": ""
-      }
-    },
-    "mosaic_h97XRj": {
-      "type": "mosaic",
-      "blocks": {
-        "item_BbXh8A": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/28843937_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#ffffff",
-            "title": "THRILLER",
-            "content": "MICHAEL JACKSON",
-            "content_position": "bottom_left",
-            "button_background": "#060b0e",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/michael-jackson"
-          }
-        },
-        "item_bbrEz9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/lacuna_1.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#ffffff",
-            "title": "LACUNA COIL",
-            "content": "",
-            "content_position": "bottom_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#ffffff",
-            "button_text": "",
-            "link": "shopify://products/sleepless-empire"
-          }
-        },
-        "item_YaD6kx": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/14193653_2007-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": true,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#ffffff",
-            "title": "OZZY OSBOURNE",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/ozzy-osbourne"
-          }
-        },
-        "item_YdgzTe": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/27276984_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 100,
-            "background": "#f3f4f4",
-            "text_color": "#ffffff",
-            "title": "WEDNESDAY",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/colonne-sonore"
-          }
-        },
-        "item_gWGHTP": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/28825387_2007_Cover1500-mlib_1500x1500_300dpi_RGB_100Q.png",
-            "show_overlay": false,
-            "overlay_opacity": 50,
-            "background": "#f3f4f4",
-            "text_color": "#ffffff",
-            "title": "DEATH USB",
-            "content": "",
-            "content_position": "top_left",
-            "button_background": "#4f5558",
-            "button_text_color": "#f3f4f4",
-            "button_text": "",
-            "link": "shopify://collections/tanta-roba"
-          }
-        }
-      },
-      "block_order": [
-        "item_BbXh8A",
-        "item_bbrEz9",
-        "item_YaD6kx",
-        "item_YdgzTe",
-        "item_gWGHTP"
-      ],
-      "disabled": true,
-      "name": "Mosaic",
-      "settings": {
-        "section_size": "medium"
       }
     },
     "rich_text_Yjrb3a": {
@@ -662,21 +516,6 @@
         "button_text_color": "#ad141f",
         "button_text": "Scopri",
         "button_link": "shopify://collections/esclusive"
-      }
-    },
-    "featured_collection_chRPbA": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "in-esaurimento",
-        "title": "CD e Vinili in esaurimento",
-        "products_count": 20,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": true,
-        "link_title": "Vedi tutti",
-        "link_url": ""
       }
     },
     "collection_with_image_THJq63": {
@@ -914,15 +753,11 @@
     "slideshow_ViXDPm",
     "slideshow_dwDbqU",
     "17859405126c2c9e35",
-    "promotion_list_kTecJ6",
-    "image_with_text_qVw8NM",
     "collection_with_image_d44Bni",
     "promotion_list_bFFyaN",
     "featured_collection_Ln8Q76",
-    "mosaic_h97XRj",
     "rich_text_Yjrb3a",
     "collection_with_image_6MRFYn",
-    "featured_collection_chRPbA",
     "collection_with_image_THJq63",
     "slideshow_h7KX3P",
     "featured_collection_4VmJid",
