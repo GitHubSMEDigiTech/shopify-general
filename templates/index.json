@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9d4892f5-d478-4b8b-b33a-0fbce7cab8bf.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_966297f0-291c-4d11-ab72-987d62873f28.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/g-1-giorgia"
+          }
+        },
         "image_XHmBAC": {
           "type": "image",
           "settings": {
@@ -279,23 +296,6 @@
             "link": "shopify://collections/anime-salve-fiorella-mannoia"
           }
         },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_6767029a-eaf1-4a88-ba5a-044fd28feda1.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_9a55244b-5120-41ea-98b2-c17c6fca2388.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/g-1-giorgia"
-          }
-        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -350,6 +350,7 @@
         }
       },
       "block_order": [
+        "image_4T4yhV",
         "image_XHmBAC",
         "image_FV8WFP",
         "image_hhc4xB",
@@ -359,7 +360,6 @@
         "image_x98LVH",
         "image_qLWTcg",
         "image_9kfgaA",
-        "image_4T4yhV",
         "image_G3f6rF",
         "image_3wJqzQ",
         "image_HciHCp"
