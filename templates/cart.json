@@ -58,7 +58,6 @@
       "block_order": [
         "scalapay_on_site_messaging_widget_block_QNChBG"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": true
       }
