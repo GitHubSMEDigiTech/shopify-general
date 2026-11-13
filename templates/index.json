@@ -464,6 +464,31 @@
         "link_url": ""
       }
     },
+    "17945854258224192c": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_35ba4b4_WeYxy6": {
+          "type": "ai_gen_block_35ba4b4",
+          "settings": {
+            "featured_collection": "merch",
+            "desktop_width_percent": 100,
+            "eyebrow": "Indossa la tua musica",
+            "heading": "",
+            "intro": "Scopri la selezione ufficiale di merchandising.",
+            "show_description": true,
+            "button_label": "Scopri il merch",
+            "show_products": true,
+            "products_heading": "Dalla collezione"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_35ba4b4_WeYxy6"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
     "collection_with_image_6MRFYn": {
       "type": "collection-with-image",
       "settings": {
@@ -717,6 +742,7 @@
     "17859405126c2c9e35",
     "promotion_list_bFFyaN",
     "featured_collection_Ln8Q76",
+    "17945854258224192c",
     "collection_with_image_6MRFYn",
     "collection_with_image_THJq63",
     "slideshow_h7KX3P",
