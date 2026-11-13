@@ -464,6 +464,42 @@
         "link_url": ""
       }
     },
+    "slideshow_NcpfU4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mHGTMt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_1ecf4421-9be1-4dd4-94b5-c0913fff7d5b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_73f593a7-0fa7-4e70-8035-de8b766c6ba0.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/our-christmas-il-volo"
+          }
+        }
+      },
+      "block_order": [
+        "image_mHGTMt"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "edge_to_edge": true,
+        "section_size": "medium",
+        "mobile_section_size": "",
+        "carousel_effect": "slide",
+        "autoplay": true,
+        "show_arrows": false,
+        "show_dots": false,
+        "cycle_speed": 5
+      }
+    },
     "17945854258224192c": {
       "type": "_blocks",
       "blocks": {
@@ -552,42 +588,6 @@
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
-        "mobile_section_size": "",
-        "carousel_effect": "slide",
-        "autoplay": true,
-        "show_arrows": false,
-        "show_dots": false,
-        "cycle_speed": 5
-      }
-    },
-    "slideshow_NcpfU4": {
-      "type": "slideshow",
-      "blocks": {
-        "image_mHGTMt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_1ecf4421-9be1-4dd4-94b5-c0913fff7d5b.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_73f593a7-0fa7-4e70-8035-de8b766c6ba0.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/our-christmas-il-volo"
-          }
-        }
-      },
-      "block_order": [
-        "image_mHGTMt"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "edge_to_edge": true,
-        "section_size": "medium",
         "mobile_section_size": "",
         "carousel_effect": "slide",
         "autoplay": true,
@@ -778,11 +778,11 @@
     "17859405126c2c9e35",
     "promotion_list_bFFyaN",
     "featured_collection_Ln8Q76",
+    "slideshow_NcpfU4",
     "17945854258224192c",
     "collection_with_image_6MRFYn",
     "collection_with_image_THJq63",
     "slideshow_h7KX3P",
-    "slideshow_NcpfU4",
     "featured_collection_4VmJid",
     "promotion_list_wAJLbg",
     "rich_text_khzwtU",
