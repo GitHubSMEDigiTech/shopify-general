@@ -1,0 +1,160 @@
+{% doc %}
+  Campo di testo personalizzato del blocco "Testo su immagine" (ict_text_overlay) di main-product.
+  Va reso dentro il form prodotto: il testo arriva in carrello come line item property, con l'etichetta come nome.
+
+  Pattern JS: vanilla, a delega di eventi su document (funziona anche nella quick view, che arriva via AJAX).
+  A ogni input lo script crea, la prima volta, un elemento .ict-text-overlay dentro il wrapper .aspect-ratio
+  delle immagini della galleria della stessa section (product-gallery, vendor, in sola lettura) e ne aggiorna il testo.
+  Nel theme editor mostra il testo di anteprima, per posizionare la scritta.
+  Il vendor (theme.js, _addToCart) aggiunge al carrello in AJAX sul click del bottone, con preventDefault:
+  la validazione HTML del campo non scatterebbe mai, quindi un listener in capture blocca il click se il campo non è valido.
+  Non copre lo zoom (PhotoSwipe) né le miniature.
+
+  @param {object} product - Il prodotto della pagina
+  @param {object} block - Il blocco ict_text_overlay di main-product
+
+  @example
+  {% render 'ict-product-text-overlay', product: product, block: block %}
+{% enddoc %}
+
+{%- liquid
+  assign label = block.settings.label | default: 'Testo personalizzato'
+  assign input_id = 'ict-text-overlay-' | append: block.id | append: '-' | append: product.id
+  assign font = block.settings.font
+  capture font_family
+    echo font.family | append: ', ' | append: font.fallback_families
+  endcapture
+-%}
+
+{%- style -%}
+  {{ font | font_face: font_display: 'swap' }}
+{%- endstyle -%}
+
+<div
+  class="ict-text-overlay-field form__input-wrapper"
+  data-ict-text-overlay
+  data-target="{{ block.settings.target }}"
+  data-preview="{{ block.settings.preview_text | escape }}"
+  style="--ict-overlay-x: {{ block.settings.position_x }}%; --ict-overlay-y: {{ block.settings.position_y }}%; --ict-overlay-size: {{ block.settings.font_size }}; --ict-overlay-color: {{ block.settings.color }}; --ict-overlay-font-family: {{ font_family | escape }}; --ict-overlay-font-weight: {{ font.weight }}; --ict-overlay-font-style: {{ font.style }};"
+  {{ block.shopify_attributes }}
+>
+  <label for="{{ input_id }}" class="form__label">{{ label | escape }}</label>
+  <input
+    type="text"
+    id="{{ input_id }}"
+    class="form__field form__field--text"
+    name="properties[{{ label | escape }}]"
+    {% if block.settings.placeholder != blank %}placeholder="{{ block.settings.placeholder | escape }}"{% endif %}
+    {% if block.settings.max_length > 0 %}maxlength="{{ block.settings.max_length }}"{% endif %}
+    {% if block.settings.required %}required{% endif %}
+    autocomplete="off"
+    data-ict-text-overlay-input
+  >
+</div>
+
+{% stylesheet %}
+  .ict-text-overlay-field {
+    margin-bottom: 20px;
+  }
+
+  .ict-text-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    container-type: size;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .ict-text-overlay__text {
+    position: absolute;
+    left: var(--ict-overlay-x, 50%);
+    top: var(--ict-overlay-y, 50%);
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    color: var(--ict-overlay-color, #ffffff);
+    font-family: var(--ict-overlay-font-family, inherit);
+    font-weight: var(--ict-overlay-font-weight, 400);
+    font-style: var(--ict-overlay-font-style, normal);
+    font-size: calc(var(--ict-overlay-size, 6) * 1cqw);
+    line-height: 1.1;
+    text-align: center;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .ict-text-overlay__text:empty {
+    display: none;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  (() => {
+    const VARS = ['--ict-overlay-x', '--ict-overlay-y', '--ict-overlay-size', '--ict-overlay-color', '--ict-overlay-font-family', '--ict-overlay-font-weight', '--ict-overlay-font-style'];
+
+    const getTargets = (field) => {
+      const scope = field.closest('[data-section-type]') || field.closest('.featured-product') || document;
+      const items = Array.from(scope.querySelectorAll('.product-gallery__carousel-item[data-media-type="image"] .aspect-ratio'));
+      return field.dataset.target === 'all' ? items : items.slice(0, 1);
+    };
+
+    const getOverlay = (field, wrapper) => {
+      let overlay = wrapper.querySelector(':scope > .ict-text-overlay');
+
+      if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.className = 'ict-text-overlay';
+        overlay.setAttribute('aria-hidden', 'true');
+        overlay.innerHTML = '<span class="ict-text-overlay__text"></span>';
+        wrapper.appendChild(overlay);
+      }
+
+      VARS.forEach((name) => overlay.style.setProperty(name, field.style.getPropertyValue(name)));
+      return overlay;
+    };
+
+    const render = (field, text) => {
+      getTargets(field).forEach((wrapper) => {
+        getOverlay(field, wrapper).firstElementChild.textContent = text;
+      });
+    };
+
+    const textFor = (field) => {
+      const input = field.querySelector('[data-ict-text-overlay-input]');
+      if (input && input.value) return input.value;
+      return window.Shopify && window.Shopify.designMode ? field.dataset.preview || '' : '';
+    };
+
+    const init = (root) => {
+      root.querySelectorAll('[data-ict-text-overlay]').forEach((field) => render(field, textFor(field)));
+    };
+
+    document.addEventListener('input', (event) => {
+      if (!event.target.matches('[data-ict-text-overlay-input]')) return;
+      const field = event.target.closest('[data-ict-text-overlay]');
+      if (field) render(field, textFor(field));
+    });
+
+    document.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-action="add-to-cart"]');
+      const form = button && button.closest('form');
+      if (!form) return;
+
+      const invalid = Array.from(form.querySelectorAll('[data-ict-text-overlay-input]')).find((input) => !input.checkValidity());
+      if (!invalid) return;
+
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      invalid.reportValidity();
+    }, true);
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => init(document));
+    } else {
+      init(document);
+    }
+
+    document.addEventListener('shopify:section:load', (event) => init(event.target));
+    document.addEventListener('shopify:block:select', (event) => init(event.target.closest('[data-section-type]') || document));
+  })();
+{% endjavascript %}

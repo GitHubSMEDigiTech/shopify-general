@@ -25,6 +25,11 @@
           {%- when 'carta_cultura' -%}
             {%- render 'product-carta_cultura', product: product, block: block -%}
 
+          {% comment %} ICT {% endcomment %}
+          {%- when 'ict_text_overlay' -%}
+            {%- render 'ict-product-text-overlay', product: product, block: block -%}
+          {% comment %} end ICT {% endcomment %}
+
           {%- when 'text' -%}
             {%- if block.settings.content != blank -%}
               <div class="product-meta__text rte" {{ block.shopify_attributes }}>

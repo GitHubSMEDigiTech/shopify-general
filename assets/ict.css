@@ -1,0 +1,76 @@
+/**
+ * ICT — foglio globale del codice ICT (CLAUDE.md §6, regola in avanti).
+ * Caricato in layout/theme.liquid dopo theme.css. Classi nuove con prefisso ict-;
+ * gli override del layer custom vincono per specificità, non per ordine: i fogli
+ * del layer custom (es. mini-cart.css) vengono caricati più tardi, nel body
+ * (per il mini-cart si usa #mini-cart).
+ */
+
+/* ICT — mini-cart su mobile: viewport iOS e scroll annidato
+   (docs/incidents/2026-09-25-mini-cart-cta-ios.md) */
+@media screen and (max-width: 640px) {
+  /* 100vh su iOS è la viewport "grande" (barre nascoste): con le barre visibili
+     il fondo del drawer, con le CTA, resta sotto la toolbar di Chrome/Safari.
+     100dvh segue l'area visibile; 100vh resta come fallback (iOS < 15.4). */
+  #mini-cart.mini-cart {
+    height: 100vh;
+    height: 100dvh;
+    max-height: 100vh !important;
+    max-height: 100dvh !important;
+  }
+
+  /* Lo scroll del drawer non deve propagarsi alla pagina sotto. */
+  #mini-cart .mini-cart__container {
+    overscroll-behavior: contain;
+  }
+
+  /* Il vendor (theme.js, _calculateMiniCartHeight) riscrive inline il max-height
+     del contenuto a ogni resize, cioè a ogni comparsa/scomparsa della barra iOS:
+     il layout si restringe e lo scroll salta. Nel layout del layer custom scorre
+     il container intero, quindi il contenuto non va limitato. */
+  #mini-cart .mini-cart__content {
+    max-height: none !important;
+  }
+
+  /* Niente scroller annidato: con overscroll-behavior: none (vendor) il dito
+     sulla lista prodotti non arrivava mai al riepilogo e ai bottoni. */
+  #mini-cart .mini-cart__line-item-list {
+    max-height: none;
+    overflow: visible;
+  }
+}
+/* end ICT */
+
+/* ICT — header sticky perso con la ricerca aperta a metà pagina
+   (docs/decisions/2026-09-25-scroll-lock-header-sticky.md) */
+/* mini-cart.css (layer custom) mette overflow: hidden sul body quando il vendor
+   aggiunge no-mobile-scroll (ricerca, mini-cart, menu mobile, modali). Siccome
+   html ha già un overflow (overflow-x: hidden), quello del body non si propaga
+   al viewport: il body diventa scroll container con scrollTop 0 e l'header
+   sticky resta agganciato in cima al documento, fuori schermo. Il blocco dello
+   scroll, peraltro, non ha mai funzionato (scorre html, non body): lo si
+   neutralizza senza cambiare il comportamento dello scroll (TD-D-006). */
+html body.no-mobile-scroll {
+  overflow: visible;
+}
+/* end ICT */
+
+/* ICT — pagina Artisti (sections/list-of-vendors.liquid, layer custom):
+   la barra delle lettere è un flex su una riga sola e su mobile esce dallo
+   schermo senza poter scorrere. La si rende scrollabile in orizzontale; da
+   desktop, dove le lettere entrano, resta identica (flex-grow del layer custom). */
+.vendor_list ul.vendor_nav {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: 4px;
+}
+
+.vendor_list ul.vendor_nav li {
+  flex-shrink: 0;
+  min-width: 1.8em;
+  padding: 0 0.3rem;
+}
+/* end ICT */

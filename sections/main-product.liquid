@@ -584,6 +584,113 @@
       ]
     },
     {
+      "type": "ict_text_overlay",
+      "name": "Testo su immagine",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Campo di testo per il cliente: quello che scrive compare in sovraimpressione sull'immagine del prodotto e arriva nell'ordine come proprietà della riga, con l'etichetta come nome."
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Etichetta",
+          "default": "Testo personalizzato"
+        },
+        {
+          "type": "text",
+          "id": "placeholder",
+          "label": "Testo segnaposto del campo"
+        },
+        {
+          "type": "number",
+          "id": "max_length",
+          "label": "Numero massimo di caratteri",
+          "info": "0 = nessun limite",
+          "default": 30
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "Campo obbligatorio",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Scritta sull'immagine"
+        },
+        {
+          "type": "select",
+          "id": "target",
+          "label": "Immagini",
+          "options": [
+            {
+              "value": "first",
+              "label": "Solo la prima immagine"
+            },
+            {
+              "value": "all",
+              "label": "Tutte le immagini"
+            }
+          ],
+          "default": "first"
+        },
+        {
+          "type": "range",
+          "id": "position_x",
+          "label": "Posizione orizzontale",
+          "info": "Centro della scritta, da sinistra",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "position_y",
+          "label": "Posizione verticale",
+          "info": "Centro della scritta, dall'alto",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 50
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "label": "Grandezza font",
+          "info": "In percentuale della larghezza dell'immagine, così resta proporzionata su ogni schermo",
+          "min": 1,
+          "max": 20,
+          "step": 0.5,
+          "unit": "%",
+          "default": 6
+        },
+        {
+          "type": "font_picker",
+          "id": "font",
+          "label": "Font",
+          "default": "assistant_n4"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Colore",
+          "default": "#ffffff"
+        },
+        {
+          "type": "text",
+          "id": "preview_text",
+          "label": "Testo di anteprima",
+          "info": "Visibile solo nell'editor del tema, per posizionare la scritta",
+          "default": "Il tuo testo"
+        }
+      ]
+    },
+    {
       "type": "carta_cultura",
       "name": "carta_cultura",
       "limit": 1,
