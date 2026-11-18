@@ -313,23 +313,6 @@
             "link": "shopify://collections/ozzy-osbourne"
           }
         },
-        "image_3wJqzQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_96737b1e-eba2-4849-9b58-a7fd1b4e2cb4.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_13f7c6bd-2138-42af-9c5d-c2d7e97e7111.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/queen-live-in-budapest"
-          }
-        },
         "image_HciHCp": {
           "type": "image",
           "disabled": true,
@@ -361,7 +344,6 @@
         "image_qLWTcg",
         "image_9kfgaA",
         "image_G3f6rF",
-        "image_3wJqzQ",
         "image_HciHCp"
       ],
       "settings": {
