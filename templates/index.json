@@ -663,6 +663,7 @@
     },
     "newsletter_TmNANi": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "title": "",
         "content": "<p>Consulta <a href=\"https://store.sonymusic.it/policies/privacy-policy\" target=\"_blank\" title=\"https://store.sonymusic.it/policies/privacy-policy\"><strong>qui </strong></a>la Privacy Policy</p>",
@@ -710,7 +711,6 @@
     },
     "newsletter_sme_96dtxz": {
       "type": "newsletter-sme",
-      "disabled": true,
       "settings": {
         "marign_top": 50,
         "marign_bottom": 0,
