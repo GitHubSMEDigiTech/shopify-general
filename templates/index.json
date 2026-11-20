@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_G3f6rF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_9f4df0f1-709f-4256-99f5-7ef0f4cdfd03.png",
+            "mobile_image": "shopify://shop_images/750x1100_9e06445d-15ed-4207-ab3e-ca2df73b57fe.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/radio-dos-santos-vaz-te"
+          }
+        },
         "image_HciHCp": {
           "type": "image",
           "settings": {
@@ -141,23 +158,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://products/feliz-navidad-lp-topo-gigio"
-          }
-        },
-        "image_4T4yhV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_9d4892f5-d478-4b8b-b33a-0fbce7cab8bf.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_966297f0-291c-4d11-ab72-987d62873f28.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/g-1-giorgia"
           }
         },
         "image_XHmBAC": {
@@ -177,11 +177,11 @@
             "link": "shopify://collections/replay-pinguini-tattici-nucleari"
           }
         },
-        "image_FV8WFP": {
+        "image_rUmJpg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_7c07b5a7-0458-4c47-9a4d-0cdbf017e9f7.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_eca4493a-1ee9-4f40-9b0f-d91ca75998ee.jpg",
+            "image": "shopify://shop_images/2160x720_2be8c9e4-a268-47c1-a4b1-87c83683afd5.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_24f1f3ef-d72b-4036-ba53-7678022d077e.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -191,7 +191,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/the-album-rocco-hunt-e-clementino"
+            "link": "shopify://collections/linguaggio-universale-tha-supreme"
           }
         },
         "image_hhc4xB": {
@@ -245,11 +245,11 @@
             "link": "shopify://collections/pink-floyd-animals-50"
           }
         },
-        "image_rUmJpg": {
+        "image_4T4yhV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_2be8c9e4-a268-47c1-a4b1-87c83683afd5.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_24f1f3ef-d72b-4036-ba53-7678022d077e.jpg",
+            "image": "shopify://shop_images/2160x720_9d4892f5-d478-4b8b-b33a-0fbce7cab8bf.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_966297f0-291c-4d11-ab72-987d62873f28.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -259,7 +259,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/linguaggio-universale-tha-supreme"
+            "link": "shopify://collections/g-1-giorgia"
           }
         },
         "image_x98LVH": {
@@ -277,6 +277,23 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/il-fiore-del-futuro-cosmo"
+          }
+        },
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_7c07b5a7-0458-4c47-9a4d-0cdbf017e9f7.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_eca4493a-1ee9-4f40-9b0f-d91ca75998ee.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/the-album-rocco-hunt-e-clementino"
           }
         },
         "image_qLWTcg": {
@@ -312,38 +329,21 @@
             "button_text": "",
             "link": "shopify://collections/anime-salve-fiorella-mannoia"
           }
-        },
-        "image_G3f6rF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_11_88cc0455-6092-4f32-839f-3989d1b5af76.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_11_1aab37a6-d294-4c07-86b6-2777d3253bb8.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/ozzy-osbourne"
-          }
         }
       },
       "block_order": [
+        "image_G3f6rF",
         "image_HciHCp",
-        "image_4T4yhV",
         "image_XHmBAC",
-        "image_FV8WFP",
+        "image_rUmJpg",
         "image_hhc4xB",
         "image_FU9RMN",
         "image_kNcaX3",
-        "image_rUmJpg",
+        "image_4T4yhV",
         "image_x98LVH",
+        "image_FV8WFP",
         "image_qLWTcg",
-        "image_9kfgaA",
-        "image_G3f6rF"
+        "image_9kfgaA"
       ],
       "settings": {
         "edge_to_edge": false,
