@@ -65,9 +65,9 @@
             "title": "Blood Incantation",
             "head_color": "#ffffff",
             "subtitle": "Starspawn (10th Anniversary Edition",
-            "subhead_color": "#FFFFFF",
+            "subhead_color": "#ffffff",
             "content": "Ltd. Starspawn Eclipse 12\" EcoRecord & LP-Booklet & Poster, bright orange with black/white Inkplosion effect",
-            "content_color": "#FFFFFF",
+            "content_color": "#ffffff",
             "show_preorder_banner": true,
             "preorder_bar_color": "#ffffff",
             "show_preorder": true,
@@ -75,102 +75,10 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.cmdistro.de/products/blood-incantation-starspawn-10th-anniversary-edition-ltd-starspawn-eclipse-12-ecorecord-lp-booklet-poster-bright-orange-with-black-white-inkplosion-effect"
           }
-        },
-        "banner_PR7BDE": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/wolves.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/WolvesInTheThroneRoom_Estuary_Embargo2026Aug20_ce69eb13-433f-4b06-8099-afd33f0fe4a4.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Wolves In The Throne Room",
-            "head_color": "#ffffff",
-            "subtitle": "Estuary",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Mediabook\nLtd. Gatefold black LP & LP-Booklet\nLtd. Gatefold Corroded Remnants LP & LP-Booklet (transp. orange-black marbled LP)",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 23",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Wolves%20In%20The%20Throne%20Room"
-          }
-        },
-        "banner_z4xzGV": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/mc.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/MentalCruelty_EchoesOfAForlornLand.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Mental Cruelty",
-            "head_color": "#ffffff",
-            "subtitle": "Echoes of a Forlorn Land",
-            "subhead_color": "#ffffff",
-            "content": "Ltd. CD Digipak\nBloodlust LP & LP-Booklet (transp. red Vinyl)",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 23",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Mental%20Cruelty"
-          }
-        },
-        "banner_zjPHAX": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/gk.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Ghostkid_FollowTheWhiteRabbit_f45d8b33-48f3-44ca-a93d-62a38eaa3b0a.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "GHØSTKID",
-            "head_color": "#ffffff",
-            "subtitle": "FOLLOW THE WHITE RABBIT",
-            "subhead_color": "#929292",
-            "content": "Ltd. CD Digipak\nneon pink LP",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 2",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=GH%C3%98STKID"
-          }
-        },
-        "banner_UtnYYV": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/distant.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/distantintodespairjpg-201103.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#8f0101",
-            "title": "Distant",
-            "head_color": "#ffffff",
-            "subtitle": "Into Despair",
-            "subhead_color": "#ffffff",
-            "content": "Standard CD Jewelcase\ngrey LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "November 6",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.cmdistro.de/collections/vendors?q=Distant&sort_by=created-descending"
-          }
         }
       },
       "block_order": [
-        "banner_QBc7bb",
-        "banner_PR7BDE",
-        "banner_z4xzGV",
-        "banner_zjPHAX",
-        "banner_UtnYYV"
+        "banner_QBc7bb"
       ],
       "settings": {
         "edge_to_edge": true,
