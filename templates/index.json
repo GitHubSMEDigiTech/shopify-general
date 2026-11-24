@@ -119,6 +119,7 @@
         },
         "featured_description_EJ4rx7": {
           "type": "featured_description",
+          "disabled": true,
           "settings": {}
         },
         "variant_selector_wFyTmM": {
