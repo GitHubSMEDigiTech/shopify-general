@@ -119,6 +119,59 @@
         "link_url": ""
       }
     },
+    "featured_product_tphxNy": {
+      "type": "featured-product",
+      "blocks": {
+        "product_meta_UXbaQT": {
+          "type": "product_meta",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false,
+            "show_reviews_badge": false,
+            "show_share_buttons": true
+          }
+        },
+        "featured_description_EJ4rx7": {
+          "type": "featured_description",
+          "settings": {}
+        },
+        "variant_selector_wFyTmM": {
+          "type": "variant_selector",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "show_quantity_selector": true,
+            "show_taxes_included": false,
+            "show_inventory_quantity": false,
+            "low_inventory_threshold": 0
+          }
+        },
+        "buy_buttons_feULzP": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "product_meta_UXbaQT",
+        "featured_description_EJ4rx7",
+        "variant_selector_wFyTmM",
+        "buy_buttons_feULzP"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "product": "tanzneid-ltd-deluxe-box-set-nfc-fancard",
+        "title": "Featured product",
+        "link_title": "View details",
+        "link_url": "",
+        "image_size": "small",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "zoom_effect": "outside",
+        "carousel_effect": "fade"
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "disabled": true,
@@ -196,6 +249,7 @@
     "slideshow",
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
     "featured-products",
+    "featured_product_tphxNy",
     "newsletter",
     "newsletter_sme_yjbrtn",
     "1781851866290bdf99"
