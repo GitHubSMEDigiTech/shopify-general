@@ -130,7 +130,7 @@
       "showing_count": {
         "zero": "Nessun risultato",
         "one": "Visualizzati {{offset}} - {{page_size}} di {{count}} risultato",
-        "other": "Visualizzati {{offset}} - {{page_size}} di {{count}} rrisultati"
+        "other": "Visualizzati {{offset}} - {{page_size}} di {{count}} risultati"
       }
     }
   },
