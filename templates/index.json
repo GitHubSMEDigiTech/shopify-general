@@ -54,50 +54,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "banner_7Jx7QJ": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/tfk.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/theflowerkingshopevinyljpg-216350.jpg",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "The Flower Kings",
-            "head_color": "#000000",
-            "subtitle": "HOPE",
-            "subhead_color": "#000000",
-            "content": "Ltd. CD+Blu-ray Digipak \nStandard CD Jewelcase\nGatefold black 2LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 23",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=The+Flower+Kings&sort_by=created-descending"
-          }
-        },
-        "banner_aKV3ax": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/tpt.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/thepineapplethieffarandwidejpg-213253.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#000000",
-            "title": "The Pineapple Thief",
-            "head_color": "#929292",
-            "subtitle": "Far and Wide",
-            "subhead_color": "#929292",
-            "content": "Ltd. Deluxe 2CD+Blu-ray Artbook \nSpecial Edition CD Digipak\nGatefold black LP",
-            "content_color": "#929292",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 10",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=The%20Pineapple%20Thief"
-          }
-        },
         "banner_yzhMz7": {
           "type": "banner",
           "settings": {
@@ -119,81 +75,10 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Pure+Reason+Revolution&sort_by=created-descending"
           }
-        },
-        "banner_4eCayw": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/tmv.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/themarsvoltaunfinishedbusinessstandard2lpcoverjpg-200398_2c06ced1-fa1f-48b0-8c77-0a3988707dc5.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "The Mars Volta",
-            "head_color": "#ffffff",
-            "subtitle": "Lucro Sucio; Unfinished Business",
-            "subhead_color": "#ffffff",
-            "content": "Special Edition CD Digipak\nred 2LP",
-            "content_color": "#ffffff",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "October 16",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=The%20Mars%20Volta"
-          }
-        },
-        "banner_RagUhx": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/haken.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/Haken_inafeverdream-EP_9d6daa20-1c80-4581-b193-aa4502b7a7ce.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#ffffff",
-            "title": "Haken",
-            "head_color": "#000000",
-            "subtitle": "in a fever dream",
-            "subhead_color": "#000000",
-            "content": "Ltd. CD Digipak\ndeep blood red LP",
-            "content_color": "#000000",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "September 18",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Haken&sort_by=created-descending"
-          }
-        },
-        "banner_V6KQjm": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/stevesteve.jpg",
-            "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/SteveHackett-SteveRothery_TheRoaringWaves.jpg",
-            "cover_effect": "glow",
-            "cover_color": "#000000",
-            "title": "Steve Hackett & Steve Rothery",
-            "head_color": "#ffffff",
-            "subtitle": "The Roaring Waves",
-            "subhead_color": "#555555",
-            "content": "Ltd. CD+Blu-ray Mediabook\nStandard CD Jewelcase\nGatefold black LP & LP-Booklet",
-            "content_color": "#555555",
-            "show_preorder_banner": true,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": true,
-            "preorder_msg": "August 28",
-            "preorder_msg_color": "#000000",
-            "link": "https://www.insideoutshop.de/collections/vendors?q=Steve%20Hackett%2C%20Steve%20Rothery"
-          }
         }
       },
       "block_order": [
-        "banner_7Jx7QJ",
-        "banner_aKV3ax",
-        "banner_yzhMz7",
-        "banner_4eCayw",
-        "banner_RagUhx",
-        "banner_V6KQjm"
+        "banner_yzhMz7"
       ],
       "settings": {
         "edge_to_edge": true,
