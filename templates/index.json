@@ -241,6 +241,21 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "featured_collection_mKwr3h": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "cd",
+        "title": "CD",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
     }
   },
   "order": [
@@ -252,6 +267,7 @@
     "featured-products",
     "newsletter",
     "newsletter_sme_yjbrtn",
-    "1781851866290bdf99"
+    "1781851866290bdf99",
+    "featured_collection_mKwr3h"
   ]
 }
