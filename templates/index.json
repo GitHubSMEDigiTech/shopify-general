@@ -107,6 +107,7 @@
     },
     "featured-products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "new-releases",
         "title": "New Releases",
