@@ -172,6 +172,21 @@
         "link_url": ""
       }
     },
+    "featured_collection_mKwr3h": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "cd",
+        "title": "CD",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "disabled": true,
@@ -241,21 +256,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "featured_collection_mKwr3h": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "cd",
-        "title": "CD",
-        "products_count": 12,
-        "layout": "vertical",
-        "stack_products": false,
-        "show_quick_buy": false,
-        "show_quick_inventory": false,
-        "link_title": "View all",
-        "link_url": ""
-      }
     }
   },
   "order": [
@@ -265,9 +265,9 @@
     "de2c2d84-f1ad-49e5-ad84-9ef840c1f747",
     "featured_product_tphxNy",
     "featured-products",
+    "featured_collection_mKwr3h",
     "newsletter",
     "newsletter_sme_yjbrtn",
-    "1781851866290bdf99",
-    "featured_collection_mKwr3h"
+    "1781851866290bdf99"
   ]
 }
