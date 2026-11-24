@@ -107,9 +107,8 @@
     },
     "featured-products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "collection": "new-releases",
+        "collection": "lp",
         "title": "New Releases",
         "products_count": 12,
         "layout": "vertical",
