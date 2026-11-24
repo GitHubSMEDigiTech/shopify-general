@@ -75,10 +75,33 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Pure+Reason+Revolution&sort_by=created-descending"
           }
+        },
+        "banner_k9hD9W": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/CMDistro-IOM-BlackFridayBanner-V1.png",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "",
+            "head_color": "#ffffff",
+            "subtitle": "",
+            "subhead_color": "#555555",
+            "content": "",
+            "content_color": "#555555",
+            "show_preorder_banner": false,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "",
+            "preorder_msg_color": "#000000",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "banner_yzhMz7"
+        "banner_yzhMz7",
+        "banner_k9hD9W"
       ],
       "settings": {
         "edge_to_edge": true,
