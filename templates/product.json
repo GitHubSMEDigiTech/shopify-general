@@ -45,16 +45,18 @@
           }
         },
         "eu_warranty_garan_label_warranty_label_jirGHE": {
-          "type": "shopify://apps/eu-warranty-garan-label/blocks/warranty-label/019f65c6-c543-7edb-b3d8-adfd82797063",
+          "type": "shopify://apps/eu-warranty-garan/blocks/warranty-label/019f65c6-c543-7edb-b3d8-adfd82797063",
           "settings": {
             "show_warranty_label": true,
             "show_garan_label": false,
-            "warranty_accordion_open": false,
-            "garan_accordion_open": false,
+            "warranty_accordion_open": true,
+            "garan_accordion_open": true,
             "summary_icon": "check",
             "show_eu_info_link": false,
             "font_size": 12,
-            "garan_field_size": 11,
+            "font_family": "inherit",
+            "font_family_custom": "",
+            "garan_field_size": 10,
             "text_color": "#121212",
             "background_color": "#ffffff",
             "summary_padding": 12,
