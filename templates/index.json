@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FU9RMN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_-_Banner_store_811625e6-4814-4299-b6e4-73ee9513de02.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_-_Banner_store_f53f366f-5724-48a4-beed-1cd4c62cc68e.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/lebonski-park-live-2026"
+          }
+        },
         "image_G3f6rF": {
           "type": "image",
           "settings": {
@@ -209,23 +226,6 @@
             "button_text_color": "#000000",
             "button_text": "",
             "link": "shopify://collections/our-christmas-il-volo"
-          }
-        },
-        "image_FU9RMN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sony_Music_Store_2160x720_1c2c7449-0a6f-4565-8407-324466fa676d.jpg",
-            "mobile_image": "shopify://shop_images/Sony_Music_Store_750x1100_a7bd1d3a-fec4-40af-92f2-433b2521b399.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-faith-tour-george-michael"
           }
         },
         "image_kNcaX3": {
@@ -332,12 +332,12 @@
         }
       },
       "block_order": [
+        "image_FU9RMN",
         "image_G3f6rF",
         "image_HciHCp",
         "image_XHmBAC",
         "image_rUmJpg",
         "image_hhc4xB",
-        "image_FU9RMN",
         "image_kNcaX3",
         "image_4T4yhV",
         "image_x98LVH",
