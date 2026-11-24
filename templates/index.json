@@ -188,6 +188,21 @@
         "link_url": ""
       }
     },
+    "featured_collection_Mmd7A9": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "cd",
+        "title": "CD",
+        "products_count": 12,
+        "layout": "vertical",
+        "stack_products": false,
+        "show_quick_buy": false,
+        "show_quick_inventory": false,
+        "link_title": "View all",
+        "link_url": ""
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -248,6 +263,7 @@
     "e9b924ee-c0b2-487a-8027-bb5354c3b608",
     "featured_product_ibHMcH",
     "featured-products",
+    "featured_collection_Mmd7A9",
     "newsletter",
     "17818540656889e913"
   ]
