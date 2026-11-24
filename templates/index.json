@@ -129,8 +129,8 @@
         "image_FU9RMN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_-_Banner_store_811625e6-4814-4299-b6e4-73ee9513de02.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_-_Banner_store_f53f366f-5724-48a4-beed-1cd4c62cc68e.jpg",
+            "image": "shopify://shop_images/2160x720_-_Banner_store_4beee7d4-d7d1-4e3a-8a51-3a1fb9282717.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_-_Banner_store_8c43a693-1d14-4895-b367-22b8d56f3b5e.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
