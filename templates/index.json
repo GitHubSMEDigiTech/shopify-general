@@ -57,7 +57,7 @@
         "banner_zra3gC": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/CM_BlackFriday_Banner_2160x720_02_Brand-Tape_oben-frei.jpg",
+            "image": "shopify://shop_images/CM_BlackFriday_Banner_2160x720_02_Brand-Tape_Logos-XL.jpg",
             "bg_color": "#eeeeee",
             "cover_effect": "none",
             "cover_color": "#ffffff",
@@ -65,7 +65,7 @@
             "head_color": "#ffffff",
             "subtitle": "UP TO 30% OFF",
             "subhead_color": "#FFFFFF",
-            "content": "27.11.2026 - 29.11.2026",
+            "content": "27.11.2026 - 29.11.2026\n\nEXPLORE\nTHE\nSELECTION",
             "content_color": "#FFFFFF",
             "show_preorder_banner": false,
             "preorder_bar_color": "#ffffff",
