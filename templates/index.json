@@ -58,7 +58,7 @@
           "type": "banner",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/CMDistro-CMR-BlackFridayBanner-V3-withdates.png",
+            "image": "shopify://shop_images/CMDistro-CMR-BlackFridayBanner-V3-withdates_50.jpg",
             "bg_color": "#eeeeee",
             "cover_effect": "none",
             "cover_color": "#ffffff",
@@ -106,7 +106,7 @@
       "settings": {
         "edge_to_edge": true,
         "section_size": "large",
-        "mobile_section_size": "mobile_small",
+        "mobile_section_size": "mobile_large",
         "carousel_effect": "fade",
         "autoplay": true,
         "show_arrows": false,
