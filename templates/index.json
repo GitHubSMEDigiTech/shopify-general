@@ -248,8 +248,8 @@
         "image_4T4yhV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2160x720_9d4892f5-d478-4b8b-b33a-0fbce7cab8bf.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_966297f0-291c-4d11-ab72-987d62873f28.jpg",
+            "image": "shopify://shop_images/bfd.png",
+            "mobile_image": "shopify://shop_images/BANNER_1200X1200_994408b7-291c-4b80-bb39-4bd5fe1d54b1.png",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -259,7 +259,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/g-1-giorgia"
+            "link": "shopify://collections/black-friday"
           }
         },
         "image_x98LVH": {
