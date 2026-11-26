@@ -56,6 +56,7 @@
       "blocks": {
         "banner_zra3gC": {
           "type": "banner",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/CMDistro-CMR-BlackFridayBanner_NoText.jpg",
             "bg_color": "#eeeeee",
