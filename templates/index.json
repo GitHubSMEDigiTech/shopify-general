@@ -54,6 +54,27 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "banner_k9hD9W": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/IOM_BlackFriday_Banner_2160x720_Brand-Tape_Logos-XL_hell.jpg",
+            "bg_color": "#eeeeee",
+            "cover_effect": "none",
+            "cover_color": "#ffffff",
+            "title": "BLACK FRIDAY",
+            "head_color": "#000000",
+            "subtitle": "UP TO 30% OFF",
+            "subhead_color": "#000000",
+            "content": "27.11.2026 - 29.11.2026\n\nEXPLORE\nTHE\nSELECTION",
+            "content_color": "#000000",
+            "show_preorder_banner": false,
+            "preorder_bar_color": "#ffffff",
+            "show_preorder": false,
+            "preorder_msg": "",
+            "preorder_msg_color": "#000000",
+            "link": "shopify://collections/black-friday"
+          }
+        },
         "banner_yzhMz7": {
           "type": "banner",
           "settings": {
@@ -75,32 +96,11 @@
             "preorder_msg_color": "#000000",
             "link": "https://www.insideoutshop.de/collections/vendors?q=Pure+Reason+Revolution&sort_by=created-descending"
           }
-        },
-        "banner_k9hD9W": {
-          "type": "banner",
-          "settings": {
-            "image": "shopify://shop_images/IOM_BlackFriday_Banner_2160x720_Brand-Tape_Logos-XL_hell.jpg",
-            "bg_color": "#eeeeee",
-            "cover_effect": "none",
-            "cover_color": "#ffffff",
-            "title": "BLACK FRIDAY",
-            "head_color": "#000000",
-            "subtitle": "UP TO 30% OFF",
-            "subhead_color": "#000000",
-            "content": "27.11.2026 - 29.11.2026\n\nEXPLORE\nTHE\nSELECTION",
-            "content_color": "#000000",
-            "show_preorder_banner": false,
-            "preorder_bar_color": "#ffffff",
-            "show_preorder": false,
-            "preorder_msg": "",
-            "preorder_msg_color": "#000000",
-            "link": "shopify://collections/black-friday"
-          }
         }
       },
       "block_order": [
-        "banner_yzhMz7",
-        "banner_k9hD9W"
+        "banner_k9hD9W",
+        "banner_yzhMz7"
       ],
       "settings": {
         "edge_to_edge": true,
