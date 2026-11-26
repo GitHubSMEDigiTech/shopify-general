@@ -103,6 +103,7 @@
         "banner_yzhMz7",
         "banner_k9hD9W"
       ],
+      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "medium",
@@ -112,6 +113,64 @@
         "show_arrows": false,
         "show_dots": false,
         "cycle_speed": 5
+      }
+    },
+    "image_banner_BHJzyP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_AQX8LJ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "text_color": "#000000"
+          }
+        },
+        "text_EGnyY4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body",
+            "text_color": "#000000"
+          }
+        },
+        "buttons_PQ9gPt": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "SALE",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "text_color": "#000000",
+            "bg_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AQX8LJ",
+        "text_EGnyY4",
+        "buttons_PQ9gPt"
+      ],
+      "name": "Image Banner with CTA",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 50,
+        "image": "shopify://shop_images/CMDistro-IOM-BlackFridayBanner-V1.png",
+        "image_overlay_opacity": 0,
+        "bg_color": "#ffffff",
+        "bg_overlay_opacity": 50,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "featured-collection": {
@@ -282,6 +341,7 @@
     "d455e7fc-a136-4680-9463-5503d5126216",
     "rich_text_GDp3Km",
     "slideshow",
+    "image_banner_BHJzyP",
     "featured-collection",
     "e9b924ee-c0b2-487a-8027-bb5354c3b608",
     "featured_product_ibHMcH",
