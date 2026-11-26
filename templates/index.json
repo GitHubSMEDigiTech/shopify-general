@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_FV8WFP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2160x720_189f70ed-7e7a-4d6a-9781-c1ec70d4b12b.jpg",
+            "mobile_image": "shopify://shop_images/750x1100_6a6f968a-1f18-4120-ba88-633cf4ad7e1a.jpg",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/altalena-moda"
+          }
+        },
         "image_FU9RMN": {
           "type": "image",
           "settings": {
@@ -279,23 +296,6 @@
             "link": "shopify://collections/il-fiore-del-futuro-cosmo"
           }
         },
-        "image_FV8WFP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2160x720_7c07b5a7-0458-4c47-9a4d-0cdbf017e9f7.jpg",
-            "mobile_image": "shopify://shop_images/750x1100_eca4493a-1ee9-4f40-9b0f-d91ca75998ee.jpg",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/the-album-rocco-hunt-e-clementino"
-          }
-        },
         "image_qLWTcg": {
           "type": "image",
           "settings": {
@@ -332,6 +332,7 @@
         }
       },
       "block_order": [
+        "image_FV8WFP",
         "image_FU9RMN",
         "image_G3f6rF",
         "image_HciHCp",
@@ -341,7 +342,6 @@
         "image_kNcaX3",
         "image_4T4yhV",
         "image_x98LVH",
-        "image_FV8WFP",
         "image_qLWTcg",
         "image_9kfgaA"
       ],
