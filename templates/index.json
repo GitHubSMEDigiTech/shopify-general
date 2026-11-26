@@ -86,15 +86,15 @@
             "title": "BLACK FRIDAY",
             "head_color": "#000000",
             "subtitle": "UP TO 30% OFF",
-            "subhead_color": "#555555",
+            "subhead_color": "#000000",
             "content": "27.11.2026 - 29.11.2026\n\nEXPLORE\nTHE\nSELECTION",
-            "content_color": "#555555",
+            "content_color": "#000000",
             "show_preorder_banner": false,
             "preorder_bar_color": "#ffffff",
             "show_preorder": false,
             "preorder_msg": "",
             "preorder_msg_color": "#000000",
-            "link": ""
+            "link": "shopify://collections/black-friday"
           }
         }
       },
