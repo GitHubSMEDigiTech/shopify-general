@@ -56,16 +56,14 @@
       "blocks": {
         "banner_zra3gC": {
           "type": "banner",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/CM_BlackFriday_Banner_2160x720_02_Brand-Tape_oben-frei.jpg",
             "bg_color": "#eeeeee",
-            "cover_image": "shopify://shop_images/CM_Logo_1080x1080_e3d4eff6-d9ea-4736-8a16-4da6528c9544.jpg",
             "cover_effect": "none",
             "cover_color": "#ffffff",
             "title": "BLACK FRIDAY",
             "head_color": "#ffffff",
-            "subtitle": "30% OFF",
+            "subtitle": "UP TO 30% OFF",
             "subhead_color": "#FFFFFF",
             "content": "27.11.2026 - 29.11.2026",
             "content_color": "#FFFFFF",
