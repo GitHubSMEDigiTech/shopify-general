@@ -228,13 +228,12 @@
         "blocks": {
           "newsletter_wwPQcx": {
             "type": "newsletter",
-            "disabled": true,
             "settings": {
               "show_only_on_index": true,
               "show_only_for_visitors": false,
               "show_only_once": false,
-              "title": "Inventory Alert!",
-              "content": "<h6>Please note that our system will be down for inventory between Feb 26 and Feb 29. You can still place orders during that time but they won´t be fulfilled before March 01. Also, delayed responses to your Emails may occur. <br/>Thank you very much for your understanding. <br/><br/>Bitte beachtet, dass unser System zwischen dem 26. und 29. Februar wegen Inventur nicht verfügbar sein wird. Ihr könnt in dieser Zeit immer noch Bestellungen aufgeben, aber sie werden nicht vor dem 01. März ausgeführt. Außerdem kann es zu Verzögerungen bei der Beantwortung eurer Emails kommen. <br/>Vielen Dank für euer Verständnis. </h6>",
+              "title": "Black Friday Alert!",
+              "content": "<p>BLACK FRIDAY BEI CENTURY MEDIA</p><p>Unsere Black-Friday-Auswahl steht schon bereit. Schaut sie euch jetzt an und macht eure Wunschliste startklar.</p><p>Um Mitternacht fallen die Preise: bis zu 30 % Rabatt ab Freitag, 27. November 2026, 00:00 Uhr. Nur solange der Vorrat reicht.</p><p>&nbsp;</p><p>BLACK FRIDAY: OUR PICKS ARE IN</p><p>Our Black Friday picks are already lined up. Have a look now and get your wishlist ready.</p><p>Prices drop at midnight: up to 30% off from Friday, 27 November 2026, 00:00 CET. Available while stocks last.</p>",
               "show_newsletter": false,
               "apparition_delay": 2
             }
