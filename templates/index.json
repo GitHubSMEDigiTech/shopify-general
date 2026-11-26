@@ -641,26 +641,6 @@
         "stack_mobile": true
       }
     },
-    "rich_text_khzwtU": {
-      "type": "rich-text",
-      "settings": {
-        "marign_top": 50,
-        "marign_bottom": 50,
-        "text_width": "regular",
-        "title": "Iscriviti alla Newsletter",
-        "h_one": true,
-        "content": "<p>Iscriviti alla <strong>Newsletter </strong>di Sony Music Store per scoprire i nuovi prodotti e usufruire di vantaggi speciali. Inoltre, ricevi subito il 10% di <strong>sconto </strong>sul prossimo ordine. </p>",
-        "button_text": "",
-        "button_link": "shopify://collections/all",
-        "bg_color": "#c5161c",
-        "text_color": "#ffffff",
-        "bt_bg_color": "#ffffff",
-        "bt_text_color": "#000000",
-        "center_text": false,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
     "newsletter_TmNANi": {
       "type": "newsletter",
       "disabled": true,
@@ -683,6 +663,26 @@
         "show_quick_inventory": false,
         "link_title": "",
         "link_url": ""
+      }
+    },
+    "rich_text_khzwtU": {
+      "type": "rich-text",
+      "settings": {
+        "marign_top": 50,
+        "marign_bottom": 0,
+        "text_width": "regular",
+        "title": "Iscriviti alla Newsletter",
+        "h_one": true,
+        "content": "<p>Iscriviti alla <strong>Newsletter </strong>di Sony Music Store per scoprire i nuovi prodotti e usufruire di vantaggi speciali. Inoltre, ricevi subito il 10% di <strong>sconto </strong>sul prossimo ordine.&nbsp;</p>",
+        "button_text": "",
+        "button_link": "shopify://collections/all",
+        "bg_color": "#c5161c",
+        "text_color": "#ffffff",
+        "bt_bg_color": "#ffffff",
+        "bt_text_color": "#000000",
+        "center_text": false,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "newsletter_sme_popup_9K3hq4": {
@@ -712,8 +712,8 @@
     "newsletter_sme_96dtxz": {
       "type": "newsletter-sme",
       "settings": {
-        "marign_top": 50,
-        "marign_bottom": 0,
+        "marign_top": 0,
+        "marign_bottom": 50,
         "title": "Newsletter",
         "content": "",
         "ae_segment_id": "2097936",
@@ -735,7 +735,7 @@
         ".container {margin-top: -50px; margin-bottom: -50px; padding-top: 25px; padding-bottom: 25px;}"
       ],
       "settings": {
-        "marign_top": 50,
+        "marign_top": 100,
         "marign_bottom": 50,
         "text_width": "wide",
         "title": "SONY MUSIC STORE",
@@ -766,9 +766,9 @@
     "slideshow_h7KX3P",
     "featured_collection_4VmJid",
     "promotion_list_wAJLbg",
-    "rich_text_khzwtU",
     "newsletter_TmNANi",
     "featured_collection_gNFLGM",
+    "rich_text_khzwtU",
     "newsletter_sme_popup_9K3hq4",
     "newsletter_sme_96dtxz",
     "rich_text_zKVnLa"
