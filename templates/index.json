@@ -103,7 +103,6 @@
         "banner_yzhMz7",
         "banner_k9hD9W"
       ],
-      "disabled": true,
       "settings": {
         "edge_to_edge": true,
         "section_size": "medium",
@@ -146,7 +145,7 @@
             "button_link_2": "",
             "button_style_secondary_2": false,
             "text_color": "#000000",
-            "bg_color": "#FFFFFF"
+            "bg_color": "#ffffff"
           }
         }
       },
@@ -155,6 +154,7 @@
         "text_EGnyY4",
         "buttons_PQ9gPt"
       ],
+      "disabled": true,
       "name": "Image Banner with CTA",
       "settings": {
         "marign_top": 50,
