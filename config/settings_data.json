@@ -247,8 +247,8 @@
               "show_only_on_index": true,
               "show_only_for_visitors": false,
               "show_only_once": false,
-              "title": "Inventory Alert!",
-              "content": "<p>BLACK FRIDAY: THE INSIDEOUT SHORTLIST</p><p>Our Black Friday shortlist is already online, so take your time and look around before it starts.</p><p>The up to 30% discount goes live on Friday, 27 November 2026 at 00:00 CET and applies while stocks last.</p><p>&nbsp;</p><p>BLACK FRIDAY: DIE INSIDEOUT SHORTLIST</p><p>&nbsp;</p><p>Unsere Black-Friday-Shortlist ist schon online. Nehmt euch Zeit und schaut in Ruhe rein, bevor es losgeht.</p><h6>Der Rabatt von bis zu 30 % startet am Freitag, 27. November 2026, um 00:00 Uhr und gilt, solange der Vorrat reicht.</h6>",
+              "title": "Black Friday Alert!",
+              "content": "<p>BLACK FRIDAY: THE INSIDEOUT SHORTLIST</p><p>Our Black Friday shortlist is already online, so take your time and look around before it starts.</p><p>The up to 30% discount goes live on Friday, 27 November 2026 at 00:00 CET and applies while stocks last.</p><h6></h6>",
               "show_newsletter": false,
               "apparition_delay": 2
             }
