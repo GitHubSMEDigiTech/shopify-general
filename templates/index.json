@@ -126,6 +126,23 @@
     "slideshow_dwDbqU": {
       "type": "slideshow",
       "blocks": {
+        "image_4T4yhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BW_2160X720_17676d32-2c27-477b-b069-a235c0d8fa63.png",
+            "mobile_image": "shopify://shop_images/BW_750X1100_ac8dcff3-dbe1-482f-a9f3-0354b74f7528.png",
+            "show_overlay": false,
+            "overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "title": "",
+            "content": "",
+            "content_position": "middle_center",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "button_text": "",
+            "link": "shopify://collections/black-friday"
+          }
+        },
         "image_9kfgaA": {
           "type": "image",
           "settings": {
@@ -279,24 +296,6 @@
             "link": "shopify://collections/pink-floyd-animals-50"
           }
         },
-        "image_4T4yhV": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/bfd.png",
-            "mobile_image": "shopify://shop_images/BANNER_1200X1200_994408b7-291c-4b80-bb39-4bd5fe1d54b1.png",
-            "show_overlay": false,
-            "overlay_opacity": 30,
-            "text_color": "#ffffff",
-            "title": "",
-            "content": "",
-            "content_position": "middle_center",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "button_text": "",
-            "link": "shopify://collections/black-friday"
-          }
-        },
         "image_x98LVH": {
           "type": "image",
           "settings": {
@@ -333,6 +332,7 @@
         }
       },
       "block_order": [
+        "image_4T4yhV",
         "image_9kfgaA",
         "image_FV8WFP",
         "image_FU9RMN",
@@ -342,7 +342,6 @@
         "image_rUmJpg",
         "image_hhc4xB",
         "image_kNcaX3",
-        "image_4T4yhV",
         "image_x98LVH",
         "image_qLWTcg"
       ],
