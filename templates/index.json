@@ -315,6 +315,7 @@
         },
         "image_9kfgaA": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2026-10-16_at_10.43.49.jpg",
             "mobile_image": "shopify://shop_images/WhatsApp_Image_2026-10-16_at_15.01.30.jpg",
