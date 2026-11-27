@@ -128,10 +128,9 @@
       "blocks": {
         "image_9kfgaA": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/BW_2160X820_c4fa942a-296c-4948-9e84-22e369d95c3c.png",
-            "mobile_image": "shopify://shop_images/BW_1080X1920_a7fecb56-6a44-4587-a9af-6d57044b789a.png",
+            "image": "shopify://shop_images/FZ-animesalve_banner_sony_fuoriora_2160x720.jpg_1_1.jpg",
+            "mobile_image": "shopify://shop_images/FZ-animesalve_banner_sonystore_fuoriora_750x1100_jpg.jpg",
             "show_overlay": false,
             "overlay_opacity": 30,
             "text_color": "#ffffff",
@@ -141,7 +140,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "button_text": "",
-            "link": "shopify://collections/black-friday"
+            "link": "shopify://collections/anime-salve-fiorella-mannoia"
           }
         },
         "image_FV8WFP": {
