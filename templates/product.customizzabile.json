@@ -50,6 +50,22 @@
             "low_inventory_threshold": 0
           }
         },
+        "ict_text_overlay_VwLc7b": {
+          "type": "ict_text_overlay",
+          "settings": {
+            "label": "Testo personalizzato",
+            "placeholder": "",
+            "max_length": 30,
+            "required": false,
+            "target": "first",
+            "position_x": 50,
+            "position_y": 50,
+            "font_size": 6,
+            "font": "assistant_n4",
+            "color": "#ffffff",
+            "preview_text": "Il tuo testo"
+          }
+        },
         "contest_dPa76e": {
           "type": "contest",
           "settings": {
@@ -101,6 +117,7 @@
         "text_GE8g7C",
         "text_Hkfmce",
         "variant_selector",
+        "ict_text_overlay_VwLc7b",
         "contest_dPa76e",
         "buy_buttons",
         "description",
